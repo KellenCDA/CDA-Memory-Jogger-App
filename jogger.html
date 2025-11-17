@@ -1,11 +1,11 @@
-<!DOCTYPE html>␊
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Jogger</title>
     <link rel="stylesheet" href="stylesheet.css">
-</head>␊
+</head>
 <body id="jogger_body">
     <div class="page-shell">
         <header class="site-header">
@@ -14,10 +14,27 @@
         </header>
 
         <main class="content-card">
-            <h2>Start with your rooms</h2>
-            <p class="helper-text">List each room, then choose the common items you’d expect to find there. Keep it simple and move at your own pace.</p>
+            <div class="card-header">
+                <div class="title-group">
+                    <h2>Start with your rooms</h2>
+                    <p class="helper-text">List each room, then choose the common items you’d expect to find there. Keep it simple and move at your own pace.</p>
+                </div>
+                <div class="help-dropdown">
+                    <button id="help-button" aria-expanded="false" aria-controls="help-menu" class="primary-button">Help</button>
+                    <div id="help-menu" hidden>
+                        <p class="helper-text">Instructions on how to use this memory jogger app:</p>
+                        <ul>
+                            <li>Create a room entry for each space in your home.</li>
+                            <li>Choose the common essentials to add to each room. (You will go more in depth when meeting with your specialist)</li>
+                            <li>Save your selections so you can revisit the checklist whenever you need.</li>
+                        </ul>
+                        <p class="helper-text">Scroll down to begin!</p>
+                    </div>
+                </div>
+            </div>
             <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
         </main>
     </div>
-</body>␊
+    <script src="javascript.js"></script>
+</body>
 </html>

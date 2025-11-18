@@ -31,8 +31,59 @@
                         <p class="helper-text">Scroll down to begin!</p>
                     </div>
                 </div>
-            </div>
+                         </div>
             <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
+
+            <section class="helper-banner" aria-live="polite">
+                <div>
+                    <p class="helper-text">Your progress saves automatically in this browser. You can close the tab and return when you’re ready.</p>
+                    <p class="helper-text">Share this link with your specialist to identify your list: <span id="share-link" class="share-link"></span></p>
+                </div>
+                <div class="id-badge" aria-label="Your unique ID">
+                    <p class="badge-label">Your ID</p>
+                    <p id="user-id" class="badge-value">—</p>
+                </div>
+            </section>
+
+            <section class="room-form" aria-labelledby="room-form-heading">
+                <div>
+                    <h3 id="room-form-heading">Add the rooms you remember</h3>
+                    <p class="helper-text">Keep the names short — you can always edit or remove them later.</p>
+                </div>
+                <form id="room-form">
+                    <label class="sr-only" for="room-category">Room category</label>
+                    <select id="room-category" name="room-category" required>
+                        <option value="">Select a room type</option>
+                        <option value="Kitchen">Kitchen</option>
+                        <option value="Living room">Living room</option>
+                        <option value="Bedroom">Bedroom</option>
+                        <option value="Bathroom">Bathroom</option>
+                        <option value="Master bathroom">Master bathroom</option>
+                        <option value="Dining room">Dining room</option>
+                        <option value="Office / Study">Office / Study</option>
+                        <option value="Loft">Loft</option>
+                        <option value="Basement">Basement</option>
+                        <option value="Garage">Garage</option>
+                        <option value="Laundry">Laundry</option>
+                        <option value="Outdoor / Patio">Outdoor / Patio</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label class="sr-only" for="room-name">Room name</label>
+                    <input id="room-name" name="room-name" type="text" placeholder="Add your own name (optional)">
+                    <button class="primary-button" type="submit">Add room</button>
+                </form>
+            </section>
+
+            <section aria-labelledby="rooms-heading">
+                <div class="rooms-header">
+                    <div>
+                        <h3 id="rooms-heading">Common items</h3>
+                        <p class="helper-text">Select an item from the list to place it in a room. Remove it anytime.</p>
+                    </div>
+                    <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
+                </div>
+                <div id="rooms-grid" class="rooms-grid" role="list" aria-live="polite"></div>
+            </section>
         </main>
     </div>
     <script src="javascript.js"></script>

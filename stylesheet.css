@@ -150,6 +150,11 @@ a {
     gap: 8px;
 }
 
+.help-actions {
+    display: flex;
+    align-items: center;
+}
+
 .primary-button {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     color: #ffffff;
@@ -249,6 +254,13 @@ a {
     gap: 12px;
 }
 
+.section-heading-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
 #room-form {
     display: flex;
     gap: 10px;
@@ -275,6 +287,48 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 14px;
     margin-top: 12px;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    display: grid;
+    place-items: center;
+    padding: 18px;
+    z-index: 50;
+}
+
+.modal-overlay[hidden] {
+    display: none;
+}
+
+.modal-card {
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+    width: min(540px, 100%);
+    display: grid;
+    gap: 12px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-body ul {
+    padding-left: 18px;
+    margin: 10px 0;
+    display: grid;
+    gap: 8px;
+}
+
+.modal-body p {
+    margin: 0;
 }
 
 .room-card {
@@ -351,6 +405,21 @@ a {
     padding: 0 12px;
     max-height: 260px;
     overflow-y: auto;
+}
+
+.item-search {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 10px 0 6px;
+}
+
+.item-search-input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #d6cabb;
+    font-size: 0.95rem;
 }
 
 .checkbox-option {
@@ -432,6 +501,11 @@ a {
     }
 
     .rooms-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-heading-row {
         flex-direction: column;
         align-items: flex-start;
     }

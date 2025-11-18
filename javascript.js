@@ -27,8 +27,6 @@
     ];
 
     document.addEventListener('DOMContentLoaded', () => {
-        const helpButton = document.getElementById('help-button');
-        const helpMenu = document.getElementById('help-menu');
         const roomForm = document.getElementById('room-form');
         const roomCategorySelect = document.getElementById('room-category');
         const roomNameInput = document.getElementById('room-name');
@@ -36,14 +34,35 @@
         const clearAllButton = document.getElementById('clear-all');
         const userIdDisplay = document.getElementById('user-id');
         const shareLinkDisplay = document.getElementById('share-link');
+        const modalTriggers = document.querySelectorAll('.help-trigger');
+        const modals = document.querySelectorAll('.modal-overlay');
+        let activeModal = null;
+        let lastFocus = null;
 
-        if (helpButton && helpMenu) {
-            helpButton.addEventListener('click', () => {
-                const isExpanded = helpButton.getAttribute('aria-expanded') === 'true';
-                helpButton.setAttribute('aria-expanded', String(!isExpanded));
-                helpMenu.hidden = isExpanded;
+        modalTriggers.forEach((trigger) => {
+            if (!(trigger instanceof HTMLElement)) return;
+            trigger.addEventListener('click', () => {
+                const targetId = trigger.dataset.modalTarget;
+                if (targetId) {
+                    openModal(targetId, trigger);
+                }
             });
-        }
+        });
+
+        modals.forEach((modal) => {
+            if (!(modal instanceof HTMLElement)) return;
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal || (event.target instanceof HTMLElement && event.target.hasAttribute('data-close-modal'))) {
+                    closeModal();
+                }
+            });
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && activeModal) {
+                closeModal();
+            }
+        });
 
         const state = loadState();
         const userId = loadUserId();
@@ -139,29 +158,105 @@ roomsGrid?.addEventListener('submit', (event) => {
             if (!form) return;
 
             if (target.dataset.action === 'select-all-items') {
-                const checkboxes = Array.from(
-                    form.querySelectorAll('input[type="checkbox"][name="item-option"]:not(:disabled)')
-                );
+                const checkboxes = getVisibleSelectableCheckboxes(form);
                 checkboxes.forEach((checkbox) => {
-                    if (checkbox instanceof HTMLInputElement) {
-                        checkbox.checked = target.checked;
-                    }
+                    checkbox.checked = target.checked;
                 });
+                updateSelectAllState(form);
                 return;
             }
 
             if (target.name === 'item-option') {
-                const selectableCheckboxes = Array.from(
-                    form.querySelectorAll('input[type="checkbox"][name="item-option"]:not(:disabled)')
-                );
-                const selectAll = form.querySelector('input[data-action="select-all-items"]');
-                if (selectAll instanceof HTMLInputElement) {
-                    selectAll.checked =
-                        selectableCheckboxes.length > 0 &&
-                        selectableCheckboxes.every((checkbox) => checkbox instanceof HTMLInputElement && checkbox.checked);
-                }
+                updateSelectAllState(form);
             }
         });
+
+        roomsGrid?.addEventListener('input', (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLInputElement)) return;
+            const form = target.closest('form.item-form');
+            if (!form) return;
+
+            if (target.classList.contains('item-search-input')) {
+                filterItemOptions(form, target.value);
+            }
+        });
+
+        function openModal(modalId, trigger) {
+            const modal = document.getElementById(modalId);
+            if (!(modal instanceof HTMLElement)) return;
+            activeModal = modal;
+            lastFocus = trigger;
+            modal.hidden = false;
+            const card = modal.querySelector('.modal-card');
+            if (card instanceof HTMLElement) {
+                card.setAttribute('tabindex', '-1');
+                card.focus();
+            }
+        }
+
+        function closeModal() {
+            if (!activeModal) return;
+            activeModal.hidden = true;
+            if (lastFocus instanceof HTMLElement) {
+                lastFocus.focus();
+            }
+            activeModal = null;
+        }
+
+        function filterItemOptions(form, term) {
+            const normalized = term.trim().toLowerCase();
+            const options = Array.from(form.querySelectorAll('.checkbox-option[data-item]'));
+            let enabledVisible = 0;
+            let checkedVisible = 0;
+
+            options.forEach((option) => {
+                if (!(option instanceof HTMLElement)) return;
+                const text = option.dataset.item?.toLowerCase() ?? '';
+                const match = !normalized || text.includes(normalized);
+                option.hidden = !match;
+                const checkbox = option.querySelector('input[type="checkbox"]');
+                if (match && checkbox instanceof HTMLInputElement && !checkbox.disabled) {
+                    enabledVisible += 1;
+                    if (checkbox.checked) {
+                        checkedVisible += 1;
+                    }
+                }
+            });
+
+            const selectAll = form.querySelector('input[data-action="select-all-items"]');
+            const selectAllRow = selectAll?.closest('.select-all-row');
+            if (selectAllRow instanceof HTMLElement) {
+                selectAllRow.hidden = normalized && enabledVisible === 0;
+            }
+            if (selectAll instanceof HTMLInputElement) {
+                selectAll.disabled = enabledVisible === 0;
+                selectAll.checked = enabledVisible > 0 && checkedVisible === enabledVisible;
+            }
+        }
+
+        function getVisibleSelectableCheckboxes(form) {
+            const options = Array.from(form.querySelectorAll('.checkbox-option[data-item]'));
+            const checkboxes = [];
+            options.forEach((option) => {
+                if (!(option instanceof HTMLElement) || option.hidden) return;
+                const checkbox = option.querySelector('input[type="checkbox"][name="item-option"]');
+                if (checkbox instanceof HTMLInputElement && !checkbox.disabled) {
+                    checkboxes.push(checkbox);
+                }
+            });
+            return checkboxes;
+        }
+
+        function updateSelectAllState(form) {
+            const selectableCheckboxes = getVisibleSelectableCheckboxes(form);
+            const selectAll = form.querySelector('input[data-action="select-all-items"]');
+            if (!(selectAll instanceof HTMLInputElement)) return;
+            selectAll.disabled = selectableCheckboxes.length === 0;
+            selectAll.checked =
+                selectableCheckboxes.length > 0 &&
+                selectableCheckboxes.every((checkbox) => checkbox.checked);
+        }
 
         function renderRooms(rooms) {
             if (!roomsGrid) return;
@@ -212,6 +307,20 @@ roomsGrid?.addEventListener('submit', (event) => {
                 const checkboxList = document.createElement('div');
                 checkboxList.className = 'checkbox-list';
 
+                const searchRow = document.createElement('div');
+                searchRow.className = 'item-search';
+                const searchLabel = document.createElement('label');
+                searchLabel.className = 'sr-only';
+                searchLabel.setAttribute('for', `item-search-${room.id}`);
+                searchLabel.textContent = 'Search common items';
+                const searchInput = document.createElement('input');
+                searchInput.type = 'search';
+                searchInput.id = `item-search-${room.id}`;
+                searchInput.className = 'item-search-input';
+                searchInput.placeholder = 'Search items...';
+                searchRow.append(searchLabel, searchInput);
+                checkboxList.appendChild(searchRow);
+
                 const selectAllLabel = document.createElement('label');
                 selectAllLabel.className = 'checkbox-option select-all-row';
                 const selectAllCheckbox = document.createElement('input');
@@ -226,6 +335,7 @@ roomsGrid?.addEventListener('submit', (event) => {
                 ITEM_OPTIONS.forEach((item) => {
                     const optionLabel = document.createElement('label');
                     optionLabel.className = 'checkbox-option';
+                    optionLabel.dataset.item = item;
                     const checkbox = document.createElement('input');
                     checkbox.type = 'checkbox';
                     checkbox.name = 'item-option';

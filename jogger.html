@@ -19,19 +19,10 @@
                     <h2>Start with your rooms</h2>
                     <p class="helper-text">List each room, then choose the common items you’d expect to find there. Keep it simple and move at your own pace.</p>
                 </div>
-                <div class="help-dropdown">
-                    <button id="help-button" aria-expanded="false" aria-controls="help-menu" class="primary-button">Help</button>
-                    <div id="help-menu" hidden>
-                        <p class="helper-text">Instructions on how to use this memory jogger app:</p>
-                        <ul>
-                            <li>Create a room entry for each space in your home.</li>
-                            <li>Choose the common essentials to add to each room. (You will go more in depth when meeting with your specialist)</li>
-                            <li>Save your selections so you can revisit the checklist whenever you need.</li>
-                        </ul>
-                        <p class="helper-text">Scroll down to begin!</p>
-                    </div>
+                <div class="help-actions">
+                    <button class="primary-button help-trigger" type="button" data-modal-target="general-help-modal">Help</button>
                 </div>
-                         </div>
+            </div>
             <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
 
             <section class="helper-banner" aria-live="polite">
@@ -46,9 +37,12 @@
             </section>
 
             <section class="room-form" aria-labelledby="room-form-heading">
-                <div>
-                    <h3 id="room-form-heading">Add the rooms you remember</h3>
-                    <p class="helper-text">Keep the names short — you can always edit or remove them later.</p>
+                <div class="section-heading-row">
+                    <div>
+                        <h3 id="room-form-heading">Add the rooms you remember</h3>
+                        <p class="helper-text">Keep the names short — you can always edit or remove them later.</p>
+                    </div>
+                    <button class="primary-button help-trigger" type="button" data-modal-target="room-help-modal">Room help</button>
                 </div>
                 <form id="room-form">
                     <label class="sr-only" for="room-category">Room category</label>
@@ -76,15 +70,68 @@
 
             <section aria-labelledby="rooms-heading">
                 <div class="rooms-header">
-                    <div>
-                        <h3 id="rooms-heading">Common items</h3>
-                        <p class="helper-text">Open the dropdown checklist to tick multiple items and add them to a room at once.</p>
+                    <div class="section-heading-row">
+                        <div>
+                            <h3 id="rooms-heading">Common items</h3>
+                            <p class="helper-text">Open the dropdown checklist to tick multiple items and add them to a room at once.</p>
+                        </div>
+                        <button class="primary-button help-trigger" type="button" data-modal-target="items-help-modal">Items help</button>
                     </div>
                     <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
                 </div>
                 <div id="rooms-grid" class="rooms-grid" role="list" aria-live="polite"></div>
             </section>
         </main>
+
+        <div class="modal-overlay" id="general-help-modal" role="dialog" aria-modal="true" aria-labelledby="general-help-title" hidden>
+            <div class="modal-card">
+                <div class="modal-header">
+                    <h3 id="general-help-title">How to use this memory jogger</h3>
+                    <button class="ghost-button modal-close" type="button" data-close-modal>Close</button>
+                </div>
+                <div class="modal-body">
+                    <p class="helper-text">Instructions on how to use this memory jogger app:</p>
+                    <ul>
+                        <li>Create a room entry for each space in your home.</li>
+                        <li>Choose the common essentials to add to each room. (You will go more in depth when meeting with your specialist)</li>
+                        <li>Save your selections so you can revisit the checklist whenever you need.</li>
+                    </ul>
+                    <p class="helper-text">Scroll down to begin!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="room-help-modal" role="dialog" aria-modal="true" aria-labelledby="room-help-title" hidden>
+            <div class="modal-card">
+                <div class="modal-header">
+                    <h3 id="room-help-title">Tips for adding rooms</h3>
+                    <button class="ghost-button modal-close" type="button" data-close-modal>Close</button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Start with the rooms you use most often, like kitchen, living room, and bedrooms.</li>
+                        <li>Use short, simple names. You can add a custom room name in the optional field.</li>
+                        <li>Remove a room anytime if you no longer need it on your list.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="items-help-modal" role="dialog" aria-modal="true" aria-labelledby="items-help-title" hidden>
+            <div class="modal-card">
+                <div class="modal-header">
+                    <h3 id="items-help-title">Tips for picking items</h3>
+                    <button class="ghost-button modal-close" type="button" data-close-modal>Close</button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Use the search bar to quickly find items in the dropdown.</li>
+                        <li>Select several items at once, then add them to the room with the button.</li>
+                        <li>You can remove items later if you change your mind.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="javascript.js"></script>
 </body>

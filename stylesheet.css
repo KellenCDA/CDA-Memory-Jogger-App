@@ -130,11 +130,30 @@ a {
     box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.25);
 }
 
+.page-footer {
+    display: flex;
+    justify-content: center;
+}
+
 .card-header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 16px;
+}
+
+.stacked-header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.stacked-header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .title-group {
@@ -259,6 +278,12 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+}
+
+.section-heading-row.stacked-header,
+.rooms-header .stacked-header {
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 #room-form {

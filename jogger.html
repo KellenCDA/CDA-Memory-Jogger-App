@@ -14,17 +14,15 @@
         </header>
 
         <main class="content-card">
-            <div class="card-header">
+            <div class="card-header stacked-header">
+                <div class="help-actions">
+                    <button class="primary-button help-trigger" type="button" data-modal-target="general-help-modal">Help</button>
+                </div>
                 <div class="title-group">
                     <h2>Start with your rooms</h2>
                     <p class="helper-text">List each room, then choose the common items you’d expect to find there. Keep it simple and move at your own pace.</p>
                 </div>
-                <div class="help-actions">
-                    <button class="primary-button help-trigger" type="button" data-modal-target="general-help-modal">Help</button>
-                </div>
             </div>
-            <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
-
             <section class="helper-banner" aria-live="polite">
                 <div>
                     <p class="helper-text">Your progress saves automatically in this browser. You can close the tab and return when you’re ready.</p>
@@ -37,12 +35,14 @@
             </section>
 
             <section class="room-form" aria-labelledby="room-form-heading">
-                <div class="section-heading-row">
+                <div class="section-heading-row stacked-header">
+                    <div class="help-actions">
+                        <button class="primary-button help-trigger" type="button" data-modal-target="room-help-modal">Room help</button>
+                    </div>
                     <div>
                         <h3 id="room-form-heading">Add the rooms you remember</h3>
                         <p class="helper-text">Keep the names short — you can always edit or remove them later.</p>
                     </div>
-                    <button class="primary-button help-trigger" type="button" data-modal-target="room-help-modal">Room help</button>
                 </div>
                 <form id="room-form">
                     <label class="sr-only" for="room-category">Room category</label>
@@ -70,17 +70,23 @@
 
             <section aria-labelledby="rooms-heading">
                 <div class="rooms-header">
-                    <div class="section-heading-row">
+                    <div class="section-heading-row stacked-header">
+                        <div class="help-actions">
+                            <button class="primary-button help-trigger" type="button" data-modal-target="items-help-modal">Items help</button>
+                        </div>
                         <div>
                             <h3 id="rooms-heading">Common items</h3>
                             <p class="helper-text">Open the dropdown checklist to tick multiple items and add them to a room at once.</p>
                         </div>
-                        <button class="primary-button help-trigger" type="button" data-modal-target="items-help-modal">Items help</button>
                     </div>
                     <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
                 </div>
                 <div id="rooms-grid" class="rooms-grid" role="list" aria-live="polite"></div>
             </section>
+
+            <div class="page-footer">
+                <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
+            </div>
         </main>
 
         <div class="modal-overlay" id="general-help-modal" role="dialog" aria-modal="true" aria-labelledby="general-help-title" hidden>

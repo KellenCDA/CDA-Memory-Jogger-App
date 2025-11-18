@@ -107,7 +107,7 @@
             }
         });
 
-        roomsGrid?.addEventListener('submit', (event) => {
+roomsGrid?.addEventListener('submit', (event) => {
             const form = event.target;
             if (!(form instanceof HTMLFormElement) || !form.classList.contains('item-form')) return;
             event.preventDefault();
@@ -117,14 +117,50 @@
             const room = state.rooms.find((r) => r.id === roomId);
             if (!room) return;
 
-            const select = form.querySelector('select');
-            if (!(select instanceof HTMLSelectElement)) return;
-            const item = select.value;
-            if (!item || room.items.includes(item)) return;
+            const selectedItems = Array.from(
+                form.querySelectorAll('input[type="checkbox"][name="item-option"]')
+            )
+                .filter((input) => input instanceof HTMLInputElement && input.checked && !input.disabled)
+                .map((input) => input instanceof HTMLInputElement ? input.value : '')
+                .filter((value) => value && !room.items.includes(value));
 
-            room.items.push(item);
+            if (!selectedItems.length) return;
+
+            room.items.push(...selectedItems);
             saveState(state);
             renderRooms(state.rooms);
+        });
+
+        roomsGrid?.addEventListener('change', (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLInputElement)) return;
+
+            const form = target.closest('form.item-form');
+            if (!form) return;
+
+            if (target.dataset.action === 'select-all-items') {
+                const checkboxes = Array.from(
+                    form.querySelectorAll('input[type="checkbox"][name="item-option"]:not(:disabled)')
+                );
+                checkboxes.forEach((checkbox) => {
+                    if (checkbox instanceof HTMLInputElement) {
+                        checkbox.checked = target.checked;
+                    }
+                });
+                return;
+            }
+
+            if (target.name === 'item-option') {
+                const selectableCheckboxes = Array.from(
+                    form.querySelectorAll('input[type="checkbox"][name="item-option"]:not(:disabled)')
+                );
+                const selectAll = form.querySelector('input[data-action="select-all-items"]');
+                if (selectAll instanceof HTMLInputElement) {
+                    selectAll.checked =
+                        selectableCheckboxes.length > 0 &&
+                        selectableCheckboxes.every((checkbox) => checkbox instanceof HTMLInputElement && checkbox.checked);
+                }
+            }
         });
 
         function renderRooms(rooms) {
@@ -164,20 +200,59 @@
                 form.className = 'item-form';
                 const label = document.createElement('label');
                 label.className = 'sr-only';
-                label.textContent = 'Select an item to add';
-                const select = document.createElement('select');
-                select.className = 'item-select';
+                label.textContent = 'Select items to add';
+
+                const dropdown = document.createElement('details');
+                dropdown.className = 'item-dropdown';
+                const summary = document.createElement('summary');
+                summary.className = 'dropdown-toggle';
+                summary.textContent = 'Choose items';
+                dropdown.appendChild(summary);
+
+                const checkboxList = document.createElement('div');
+                checkboxList.className = 'checkbox-list';
+
+                const selectAllLabel = document.createElement('label');
+                selectAllLabel.className = 'checkbox-option select-all-row';
+                const selectAllCheckbox = document.createElement('input');
+                selectAllCheckbox.type = 'checkbox';
+                selectAllCheckbox.dataset.action = 'select-all-items';
+                selectAllCheckbox.setAttribute('aria-label', 'Select all items');
+                const selectAllText = document.createElement('span');
+                selectAllText.textContent = 'Select all';
+                selectAllLabel.append(selectAllCheckbox, selectAllText);
+                checkboxList.appendChild(selectAllLabel);
+
                 ITEM_OPTIONS.forEach((item) => {
-                    const option = document.createElement('option');
-                    option.value = item;
-                    option.textContent = item;
-                    select.appendChild(option);
+                    const optionLabel = document.createElement('label');
+                    optionLabel.className = 'checkbox-option';
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.name = 'item-option';
+                    checkbox.value = item;
+                    const itemText = document.createElement('span');
+                    itemText.textContent = item;
+                    if (room.items.includes(item)) {
+                        checkbox.disabled = true;
+                        optionLabel.classList.add('is-disabled');
+                    }
+                    optionLabel.append(checkbox, itemText);
+                    checkboxList.appendChild(optionLabel);
                 });
+
+                const hasAvailableOptions = ITEM_OPTIONS.some((item) => !room.items.includes(item));
+                if (!hasAvailableOptions) {
+                    selectAllCheckbox.disabled = true;
+                    selectAllLabel.classList.add('is-disabled');
+                }
+
+                dropdown.appendChild(checkboxList);
+
                 const addButton = document.createElement('button');
                 addButton.className = 'primary-button';
                 addButton.type = 'submit';
-                addButton.textContent = 'Add item';
-                form.append(label, select, addButton);
+                addButton.textContent = 'Add selected items';
+                form.append(label, dropdown, addButton);
 
                 const listHeading = document.createElement('p');
                 listHeading.className = 'helper-text';

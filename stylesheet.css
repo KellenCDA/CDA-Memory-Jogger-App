@@ -300,17 +300,86 @@ a {
 }
 
 .item-form {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: start;
 }
 
-.item-select {
-    flex: 1 1 180px;
-    padding: 10px 12px;
-    border-radius: 10px;
+.item-dropdown {
     border: 1px solid #d6cabb;
+    border-radius: 12px;
     background: #fff;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    padding: 0 0 10px;
+}
+
+.dropdown-toggle {
+    list-style: none;
+    padding: 12px 14px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.dropdown-toggle::marker {
+    display: none;
+}
+
+.dropdown-toggle::after {
+    content: '▾';
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.item-dropdown[open] .dropdown-toggle::after {
+    content: '▴';
+}
+
+.dropdown-toggle:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.25);
+    border-radius: 8px;
+}
+
+.checkbox-list {
+    display: grid;
+    gap: 6px;
+    padding: 0 12px;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.checkbox-option {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 6px 4px;
+    border-radius: 8px;
+    transition: background-color 120ms ease;
+}
+
+.checkbox-option:hover {
+    background-color: #f5eddf;
+}
+
+.checkbox-option input {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-option.is-disabled {
+    color: #b0a189;
+}
+
+.select-all-row {
+    font-weight: 700;
+    border-bottom: 1px solid #e6dac9;
+    padding-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .items-list {
@@ -347,7 +416,7 @@ a {
     border: 0;
 }
 
-@media (max-width: 640px) {␊
+@media (max-width: 640px) {
     .content-card {
         padding: 24px;
         font-size: 1rem;
@@ -365,5 +434,13 @@ a {
     .rooms-header {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .item-form {
+        grid-template-columns: 1fr;
+    }
+
+    .item-form .primary-button {
+        width: 100%;
     }
 }

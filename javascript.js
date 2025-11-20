@@ -134,6 +134,28 @@
             }
         });
 
+        roomsGrid?.addEventListener('toggle', (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLDetailsElement) || !target.classList.contains('item-dropdown')) return;
+
+            const card = target.closest('.room-card');
+            if (card instanceof HTMLElement) {
+                card.classList.toggle('dropdown-active', target.open);
+            }
+
+            if (target.open) {
+                const otherDropdowns = roomsGrid.querySelectorAll('.item-dropdown[open]');
+                otherDropdowns.forEach((dropdown) => {
+                    if (dropdown === target) return;
+                    if (dropdown instanceof HTMLDetailsElement) {
+                        dropdown.open = false;
+                        const parentCard = dropdown.closest('.room-card');
+                        parentCard?.classList.remove('dropdown-active');
+                    }
+                });
+            }
+        });
+
 roomsGrid?.addEventListener('submit', (event) => {
             const form = event.target;
             if (!(form instanceof HTMLFormElement) || !form.classList.contains('item-form')) return;

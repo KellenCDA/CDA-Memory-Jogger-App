@@ -26,11 +26,7 @@
             <section class="helper-banner" aria-live="polite">
                 <div>
                     <p class="helper-text">Your progress saves automatically in this browser. You can close the tab and return when you’re ready.</p>
-                    <p class="helper-text">Share this link with your specialist to identify your list: <br><span id="share-link" class="share-link"></span></p>
-                </div>
-                <div class="id-badge" aria-label="Your unique ID">
-                    <p class="badge-label">Your ID</p>
-                    <p id="user-id" class="badge-value">—</p>
+                    <p class="helper-text">When you’re finished, add your name and submit the form to share your list.</p>
                 </div>
             </section>
 
@@ -84,6 +80,21 @@
                     <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
                 </div>
                 <div id="rooms-grid" class="rooms-grid" role="list" aria-live="polite"></div>
+            </section>
+
+            <section class="submission-section" aria-labelledby="submission-heading">
+                <div class="section-heading-row stacked-header">
+                    <div>
+                        <h3 id="submission-heading">Send your list</h3>
+                        <p class="helper-text">Add your name so we know who you are, then submit your rooms and items.</p>
+                    </div>
+                </div>
+                <form id="submission-form" action="https://formspree.io/f/mqanlpzn" method="POST" class="submit-form">
+                    <label for="submitter-name">Your name</label>
+                    <input id="submitter-name" name="name" type="text" placeholder="Enter your name" required>
+                    <input id="submission-data" name="room_data" type="hidden">
+                    <button class="primary-button" type="submit">Submit my list</button>
+                </form>
             </section>
 
             <div class="page-footer">

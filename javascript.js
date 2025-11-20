@@ -1,6 +1,5 @@
 (function () {
     const STORAGE_KEY = 'joggerData';
-    const USER_ID_KEY = 'joggerUserId';
     const DEFAULT_CATEGORY = 'Other';
     const ITEM_OPTIONS = [
         'Sofa',
@@ -32,8 +31,8 @@
         const roomNameInput = document.getElementById('room-name');
         const roomsGrid = document.getElementById('rooms-grid');
         const clearAllButton = document.getElementById('clear-all');
-        const userIdDisplay = document.getElementById('user-id');
-        const shareLinkDisplay = document.getElementById('share-link');
+        const submissionForm = document.getElementById('submission-form');
+        const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         let activeModal = null;
@@ -65,9 +64,8 @@
         });
 
         const state = loadState();
-        const userId = loadUserId();
-        renderShareDetails(userId);
         renderRooms(state.rooms);
+        updateSubmissionData(state.rooms);
 
         roomForm?.addEventListener('submit', (event) => {
             event.preventDefault();
@@ -83,6 +81,7 @@
             });
             saveState(state);
             renderRooms(state.rooms);
+            updateSubmissionData(state.rooms);
             if (roomCategorySelect) {
                 roomCategorySelect.value = '';
                 roomCategorySelect.focus();
@@ -99,6 +98,7 @@
             state.rooms = [];
             saveState(state);
             renderRooms(state.rooms);
+            updateSubmissionData(state.rooms);
         });
 
         roomsGrid?.addEventListener('click', (event) => {
@@ -115,6 +115,7 @@
                 room.items = room.items.filter((entry) => entry !== item);
                 saveState(state);
                 renderRooms(state.rooms);
+                updateSubmissionData(state.rooms);
                 return;
             }
 
@@ -122,6 +123,7 @@
                 state.rooms = state.rooms.filter((r) => r.id !== roomId);
                 saveState(state);
                 renderRooms(state.rooms);
+                updateSubmissionData(state.rooms);
                 return;
             }
         });
@@ -148,6 +150,7 @@ roomsGrid?.addEventListener('submit', (event) => {
             room.items.push(...selectedItems);
             saveState(state);
             renderRooms(state.rooms);
+            updateSubmissionData(state.rooms);
         });
 
         roomsGrid?.addEventListener('change', (event) => {
@@ -180,6 +183,10 @@ roomsGrid?.addEventListener('submit', (event) => {
             if (target.classList.contains('item-search-input')) {
                 filterItemOptions(form, target.value);
             }
+        });
+
+        submissionForm?.addEventListener('submit', () => {
+            updateSubmissionData(state.rooms);
         });
 
         function openModal(modalId, trigger) {
@@ -393,14 +400,6 @@ roomsGrid?.addEventListener('submit', (event) => {
             });
         }
 
-        function renderShareDetails(id) {
-            if (!userIdDisplay || !shareLinkDisplay) return;
-            userIdDisplay.textContent = id;
-            const baseUrl = `${window.location.origin}${window.location.pathname}`;
-            const shareUrl = `${baseUrl}?user=${encodeURIComponent(id)}`;
-            shareLinkDisplay.textContent = shareUrl;
-        }
-
         function loadState() {
             try {
                 const saved = localStorage.getItem(STORAGE_KEY);
@@ -429,15 +428,6 @@ roomsGrid?.addEventListener('submit', (event) => {
             }
         }
 
-        function loadUserId() {
-            let id = localStorage.getItem(USER_ID_KEY);
-            if (!id) {
-                id = generateId();
-                localStorage.setItem(USER_ID_KEY, id);
-            }
-            return id;
-        }
-
         function generateId() {
             return crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
         }
@@ -447,6 +437,19 @@ roomsGrid?.addEventListener('submit', (event) => {
                 return `${room.category || DEFAULT_CATEGORY} — ${room.name}`;
             }
             return room.category || DEFAULT_CATEGORY;
+        }
+
+        function updateSubmissionData(rooms) {
+            if (!submissionDataInput) return;
+            const summary = rooms.map((room) => {
+                const name = formatRoomTitle(room);
+                if (!room.items.length) {
+                    return `${name}: (no items listed)`;
+                }
+                return `${name}: ${room.items.join(', ')}`;
+            });
+
+            submissionDataInput.value = summary.length ? summary.join('\n') : 'No rooms added yet.';
         }
     });
 })();

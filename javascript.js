@@ -1,29 +1,35 @@
 (function () {
     const STORAGE_KEY = 'joggerData';
     const DEFAULT_CATEGORY = 'Other';
-    const ITEM_OPTIONS = [
-        'Sofa',
-        'Dining table',
-        'Chairs',
-        'Coffee table',
-        'Television',
-        'Bed frame',
-        'Mattress',
-        'Dresser',
-        'Nightstand',
-        'Lamp',
-        'Refrigerator',
-        'Microwave',
-        'Stove',
-        'Dish set',
-        'Cookware',
-        'Toaster',
-        'Washer',
-        'Dryer',
-        'Shower curtain',
-        'Towels',
-        'Toiletries kit'
-    ];
+    const ITEM_OPTIONS = {
+        Kitchen: ['Tomato, sauce, paste', 'Vegetables', 'Answering Machine', 'Cell Phone', 'Clocks', 'iPod player', 'Telephone', 'Undercabinet TV, stereo', 'Food in Freezer', 'Food in Frig', 'Pantry food', 'Spices', 'Bar stools', 'Butcher block', 'Desk and chair', 'Stepladder', 'Stools', 'Table', 'Table and chairs', 'Table, tray, TV', 'Wine rack', 'Address book', 'Aerolatte', 'Apple corer', 'Area rug', 'Bar serviceware', 'Basting brush', 'Batteries', 'Bottle openers', 'Bowls', 'Bread box', 'Butter dish', 'Can opener', 'Candy dish', 'Canister set', 'Canning jars', 'Canvas grocery bags', 'Cheese grater', 'Cheese slicer and serving board', 'Cheese slicers/knives', 'Coasters', 'Colander', 'Cookbook holders', 'Cookie jar', 'Corn cob butter holder', 'Corn cob holders', 
+            'Cutlery trays', 'Envelopes, stamps', 'Gum', 'Matches', 'Measuring tape', 'Memo board', 'Paper clips', 'Pens, pencils, markers', 'Post it notes', 'Rubber bands', 'Ruler', 'Scissors', 'String', 'Tape, scotch, labeling', 'Thumb tacks', 'Tools, basics', 'Shoelaces', 'Toothpicks', 'Baking Cups', 'Cups (Cold Beverage, Hot Beverage)', 'Food Storage Bags', 'Freezer Bags', 'Kitchen Parchment (Non-stick Pan-liner)', 'Lunch Bags', 'Napkins', 'Paper Towels', 'Plates', 'Sandwich Bags', 'Saran wrap, bags, al foil, wax paper etc', 'Shelf-lining Paper', 'Apple peeler/corer', 'Blender', 'Blender, handheld', 'Bread machine', 'Cappuccino/coffee maker', 'Coffee grinder', 'Crockpot', 'Deep fat fryer', 'Dehydrator system', 'Fondue set', 'Food processor', 'Food processor, mini', 
+            'Grille', 'Ice cream/yogurt maker', 'Juicer', 'Julian slicer set', 'Microwave', 'Mixer, hand, stand', 'Pasta maker', 'Cutting boards', 'Decorative jars', 'Dish organizers', 'Drawer liners', 'Flashlights', 'Flour sifter', 'Fly swatter', 'Food grinder', 'Food scale', 'Garbage can and recycle', 'Garlic press', 'Gravy boats', 'Grease cover', 'Hand chopper', 'Ice bucket and tongs', 'Ice cream scoops', 'Ice trays', 'Key rings', 'Keys', 'Kitchen shears', 'Knife block set', 'Knife sharpener', 'Lazy Susan', 'Light bulbs', 'Lighters', 'Lint brushes', 'Lunch totes', 'Magnet picture frames', 'Magnets, refrigerator', 'Napkin holder', 'Nut crackers', 'Organizers, drawer, shelf, cabinet', 'Paper towel holder', 'Pastry brushes', 'Pepper mill', 'Picnic basket set', 'Pie pans', 
+            'Pitchers', 'Plastic bowls, plates and lids', 'Potato peeler', 'Recipie boxes', 'Recycle cans', 'Salad spinner', 'Salt and pepper set', 'Salt grinder', 'saran wrap', 'bags', 'al foil', 'wax paper', 'Serving trays', 'Popcorn popper', 'Pressure cooker', 'Rice cooker', 'Sandwich maker grille', 'Tea kettle, electric, stovetop', 'Thermal carafe', 'Toaster', 'Toaster oven', 'Waffle grille', 'Allspice', 'Basil', 'Bay Leaves', 'Bouillon Cubes', 'Cayenne Pepper', 'Celery Seed or Salt', 'Chili Powder', 'Chives', 'Cinnamon', 'Cloves (Whole & Powdered)', 'Cream of Tartar', 'Cumin', 'Curry Powder', 'Dill', 'Food Coloring', 'Garlic Powder or Salt', 'Ginger', 'Italian Seasoning', 'Maple Flavoring', 'Marjoram', 'Mustard Powder', 'Nutmeg', 'Onion Salt, Powder, or Flakes', 'Oregano', 
+            'Paprika', 'Parsley Flakes', 'Pepper', 'Peppercorns', 'Poultry Seasoning', 'Rosemary', 'Sage', 'Salt', 'Salt Substitute', 'Seasoned Stock Base', 'Seasoning Salt', 'Sugar Substitute', 'Sugar, Brown', 'Sugar, Granulated', 'Tarragon', 'Thyme', 'Vanilla Flavoring', 'Shoe horns', 'Shoe polish', 'Silverware 5 piece service settings', 'Steak knife sets', 'Steamer', 'Sugar and creamer', 'Sun tea jars', 'Tea ball', 'Tea pot', 'Thermos', 'Tomato strainer', 'Tongs', 'Towels, cleaning rags', 'Trash cans', 'Trivets', 'Tupperware', 'Utensil caddy', 'Utensil crock', 'Vacuum storage bags and rolls', 'Wine opener', 'Wisks', 'Wok set', 'Aprons', 'Napkins and napkin rings', 'Placemats', 'Potholders', 'Tablecloths', 'Towels, hand, dish', 'Window coverings', 'Antacid', 'Anti-itch creams', 
+            'Aspirin', 'Cold/Allergy Medicine', 'Cough drops', 'Cough medicine', 'Hydrogen peroxide', 'Insect repellant', 'Laxatives', 'Medications, vitimins', 'Prescription Medication', 'Relaxants', 'Rubbing alcohol', 'Sleeping aids', 'Sunscreen', 'Vitimins', 'Witch hazel', 'Candles', 'Candy', 'Meat thermometer', 'Microwave cookware', 'Mixing bowls', 'Mortar and pestle', 'Muffin tins', 'Oven drip pan'
+
+],
+        'Living room': ['Sofa', 'Coffee table', 'Television'],
+        Bedroom: ['Bed frame', 'Mattress', 'Nightstand'],
+        Bathroom: ['Shower curtain', 'Towels', 'Toiletries kit'],
+        'Master bathroom': ['Bath mat', 'Shower caddy', 'Hair dryer'],
+        'Dining room': ['Dining table', 'Chairs', 'Serving set'],
+        'Office / Study': ['Desk', 'Office chair', 'Computer'],
+        Loft: ['Sectional sofa', 'Bookshelf', 'Area rug'],
+        Basement: ['Storage shelves', 'Tool bench', 'Utility sink'],
+        Garage: ['Tool set', 'Storage bins', 'Ladder'],
+        Laundry: ['Washer', 'Dryer', 'Laundry baskets'],
+        'Outdoor / Patio': ['Patio chairs', 'Grill', 'Garden hose'],
+        Other: ['Lamp', 'Wall art', 'Storage bin']
+    };
+
+    function getItemOptions(category) {
+        if (category && ITEM_OPTIONS[category]) {
+            return ITEM_OPTIONS[category];
+        }
+        return ITEM_OPTIONS[DEFAULT_CATEGORY] || [];
+    }
 
     document.addEventListener('DOMContentLoaded', () => {
         const roomForm = document.getElementById('room-form');
@@ -339,7 +345,9 @@ roomsGrid?.addEventListener('submit', (event) => {
                 selectAllLabel.append(selectAllCheckbox, selectAllText);
                 checkboxList.appendChild(selectAllLabel);
 
-                ITEM_OPTIONS.forEach((item) => {
+                const itemOptions = getItemOptions(room.category);
+
+                itemOptions.forEach((item) => {
                     const optionLabel = document.createElement('label');
                     optionLabel.className = 'checkbox-option';
                     optionLabel.dataset.item = item;
@@ -357,7 +365,7 @@ roomsGrid?.addEventListener('submit', (event) => {
                     checkboxList.appendChild(optionLabel);
                 });
 
-                const hasAvailableOptions = ITEM_OPTIONS.some((item) => !room.items.includes(item));
+                const hasAvailableOptions = itemOptions.some((item) => !room.items.includes(item));
                 if (!hasAvailableOptions) {
                     selectAllCheckbox.disabled = true;
                     selectAllLabel.classList.add('is-disabled');

@@ -133,6 +133,7 @@ a {
 .page-footer {
     display: flex;
     justify-content: center;
+    margin-top: 12px;
 }
 
 .card-header {
@@ -280,6 +281,12 @@ a {
     gap: 12px;
 }
 
+.submission-section .section-heading-row {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .section-heading-row.stacked-header,
 .rooms-header .stacked-header {
     align-items: flex-start;
@@ -320,6 +327,12 @@ a {
     padding: 18px;
     display: grid;
     gap: 12px;
+}
+
+.submission-section {
+    display: grid;
+    gap: 14px;
+    justify-items: center;
 }
 
 .modal-overlay {
@@ -550,4 +563,26 @@ a {
     .item-form .primary-button {
         width: 100%;
     }
+}
+
+.submit-form {
+    display: grid;
+    gap: 12px;
+    max-width: 420px;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#submission-form label {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+#submitter-name {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #d6cabb;
+    font-size: 1.05rem;
 }

@@ -15,20 +15,11 @@
 
         <main class="content-card">
             <div class="card-header stacked-header">
-                <div class="help-actions">
-                    <button class="primary-button help-trigger" type="button" data-modal-target="general-help-modal">Guide</button>
-                </div>
                 <div class="title-group">
                     <h2>Start with your rooms</h2>
-                    <p class="helper-text">List each room, then choose the common items you’d expect to find there. Keep it simple and move at your own pace.</p>
+                    <p class="helper-text">List each room, then choose the common items you’d expect to find there. Designed for quick taps on your phone.</p>
                 </div>
             </div>
-            <section class="helper-banner" aria-live="polite">
-                <div>
-                    <p class="helper-text">Your progress saves automatically in this browser. You can close the tab and return when you’re ready.</p>
-                    <p class="helper-text">When you’re finished, add your name and submit the form to share your list.</p>
-                </div>
-            </section>
 
             <section class="room-form" aria-labelledby="room-form-heading">
                 <div class="section-heading-row stacked-header">
@@ -70,14 +61,13 @@
                         <div class="help-actions">
                             <button class="primary-button help-trigger" type="button" data-modal-target="items-help-modal">Items help</button>
                         </div>
-                         <div>
+                        <div>
                             <h3 id="rooms-heading">Common items</h3>
-                            <p class="helper-text">Swipe through the stack for each room: right if you have the item, left if you do not. You can also click the buttons under the stack.</p>
+                            <p class="helper-text">Tap to pick items for each room. No swiping needed—just check what you have.</p>
                             <br>
                             <p class="helper-text">Don't worry if you are missing a bunch of items! We will go back through at your next meeting.</p>
                         </div>
                     </div>
-                    <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
                 </div>
                 <div id="rooms-grid" class="rooms-grid" role="list" aria-live="polite"></div>
             </section>
@@ -101,23 +91,6 @@
                 <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
             </div>
         </main>
-
-        <div class="modal-overlay" id="general-help-modal" role="dialog" aria-modal="true" aria-labelledby="general-help-title" hidden>
-            <div class="modal-card">
-                <div class="modal-header">
-                    <h3 id="general-help-title">How to use this memory jogger</h3>
-                    <button class="ghost-button modal-close" type="button" data-close-modal>Close</button>
-                </div>
-                <div class="modal-body">
-                    <p class="helper-text">Instructions on how to use this memory jogger app:</p>
-                    <ul>
-                        <li>Create a room entry for each space in your home.</li>
-                        <li>Choose the common essentials to add to each room. (You will go more in depth when meeting with your specialist)</li>
-                        <li>There are help buttons for each section if you need additional guidance!</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
         <div class="modal-overlay" id="room-help-modal" role="dialog" aria-modal="true" aria-labelledby="room-help-title" hidden>
             <div class="modal-card">
@@ -144,9 +117,9 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li>After you have added a room, click "choose items" to add towards that room!</li>
-                        <li>You can select several items at once, then add them to the room with the add button.</li>
-                        <li>You can remove items later if you change your mind.</li>
+                        <li>After you add a room, scroll the checklist and tap the items you have for that space.</li>
+                        <li>Select several items at once, then tap "Add selected items."</li>
+                        <li>You can add your own item with the text box or remove items later if you change your mind.</li>
                     </ul>
                 </div>
             </div>

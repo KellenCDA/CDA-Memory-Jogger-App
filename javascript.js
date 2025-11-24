@@ -36,15 +36,12 @@
         const roomCategorySelect = document.getElementById('room-category');
         const roomNameInput = document.getElementById('room-name');
         const roomsGrid = document.getElementById('rooms-grid');
-        const clearAllButton = document.getElementById('clear-all');
         const submissionForm = document.getElementById('submission-form');
         const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         let activeModal = null;
         let lastFocus = null;
-        let activeSwipeCard = null;
-        let pointerState = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -91,13 +88,6 @@
             saveState(state);
             renderRooms(state.rooms);
             updateSubmissionData(state.rooms);
-            const newRoom = state.rooms[state.rooms.length - 1];
-            if (newRoom && roomsGrid) {
-                const newPanel = roomsGrid.querySelector(`[data-room-id="${newRoom.id}"] .swipe-panel`);
-                if (newPanel instanceof HTMLElement) {
-                    openSwipePanel(newPanel, newRoom);
-                }
-            }
             if (roomCategorySelect) {
                 roomCategorySelect.value = '';
                 roomCategorySelect.focus();
@@ -105,16 +95,6 @@
             if (roomNameInput) {
                 roomNameInput.value = '';
             }
-        });
-
-        clearAllButton?.addEventListener('click', () => {
-            if (!state.rooms.length) return;
-            const confirmed = window.confirm('Clear all rooms and items?');
-            if (!confirmed) return;
-            state.rooms = [];
-            saveState(state);
-            renderRooms(state.rooms);
-            updateSubmissionData(state.rooms);
         });
 
         roomsGrid?.addEventListener('click', (event) => {
@@ -138,68 +118,43 @@
                 return;
             }
 
-            if (target.dataset.action === 'open-swipe') {
-                const panel = roomCard?.querySelector('.swipe-panel');
-                if (panel instanceof HTMLElement) {
-                    openSwipePanel(panel, room);
-                }
+            if (target.dataset.action === 'add-selected') {
+                const selectedBoxes = roomCard?.querySelectorAll('input[data-item-choice]:checked') || [];
+                const selections = Array.from(selectedBoxes)
+                    .filter((input) => input instanceof HTMLInputElement)
+                    .map((input) => input.value.trim())
+                    .filter(Boolean);
+                if (!selections.length) return;
+
+                selections.forEach((item) => {
+                    if (!room.items.includes(item)) {
+                        room.items.push(item);
+                    }
+                });
+
+                saveState(state);
+                renderRooms(state.rooms);
+                updateSubmissionData(state.rooms);
                 return;
             }
 
-            if (target.dataset.action === 'swipe-have' || target.dataset.action === 'swipe-skip') {
-                const panel = target.closest('.swipe-panel');
-                if (!(panel instanceof HTMLElement)) return;
-                handleSwipeDecision(panel, target.dataset.action === 'swipe-have' ? 'have' : 'skip');
-            }
+            if (target.dataset.action === 'add-custom') {
+                const input = roomCard?.querySelector('input[data-custom-item]');
+                const value = input instanceof HTMLInputElement ? input.value.trim() : '';
+                if (!value) return;
 
-             if (target.dataset.action === 'save-progress') {
-                const panel = target.closest('.swipe-panel');
-                if (panel instanceof HTMLElement) {
-                    saveAndCloseSwipe(panel);
+                if (!room.items.includes(value)) {
+                    room.items.push(value);
+                }
+
+                saveState(state);
+                renderRooms(state.rooms);
+                updateSubmissionData(state.rooms);
+
+                if (input instanceof HTMLInputElement) {
+                    input.value = '';
                 }
             }
-        });
-
-        roomsGrid?.addEventListener('pointerdown', (event) => {
-            const targetCard = event.target instanceof HTMLElement ? event.target.closest('.swipe-card') : null;
-            if (!(targetCard instanceof HTMLElement)) return;
-            const panel = targetCard.closest('.swipe-panel');
-            if (!(panel instanceof HTMLElement) || panel.dataset.active !== 'true') return;
-
-            activeSwipeCard = targetCard;
-            pointerState = {
-                startX: event.clientX,
-                pointerId: event.pointerId,
-                panel
-            };
-            targetCard.setPointerCapture(event.pointerId);
-            targetCard.classList.add('dragging');
-        });
-
-        roomsGrid?.addEventListener('pointermove', (event) => {
-            if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
-            const deltaX = event.clientX - (pointerState.startX || 0);
-            const rotate = deltaX * 0.05;
-            const offsetY = Math.min(Math.abs(deltaX) * 0.04, 24);
-            activeSwipeCard.style.transform = `translate(calc(-50% + ${deltaX}px), ${offsetY}px) rotate(${rotate}deg)`;
-        });
-
-        roomsGrid?.addEventListener('pointerup', (event) => {
-            if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
-            const deltaX = event.clientX - (pointerState.startX || 0);
-            const threshold = 90;
-            activeSwipeCard.classList.remove('dragging');
-
-            if (Math.abs(deltaX) >= threshold) {
-                const direction = deltaX > 0 ? 'have' : 'skip';
-                performSwipeAnimation(pointerState.panel, activeSwipeCard, direction);
-            } else {
-                activeSwipeCard.style.transform = '';
-            }
-
-            activeSwipeCard.releasePointerCapture(event.pointerId);
-            activeSwipeCard = null;
-            pointerState = null;
         });
 
         submissionForm?.addEventListener('submit', () => {
@@ -261,58 +216,63 @@
                 removeRoom.textContent = 'Remove room';
                 titleRow.append(heading, categoryBadge, removeRoom);
 
-                const swipeRow = document.createElement('div');
-                swipeRow.className = 'swipe-row';
+                const pickerPanel = document.createElement('div');
+                pickerPanel.className = 'picker-panel';
 
-                const swipeButton = document.createElement('button');
-                swipeButton.className = 'primary-button';
-                swipeButton.type = 'button';
-                swipeButton.dataset.action = 'open-swipe';
-                swipeButton.textContent = 'Swipe through items';
+                const pickerHeader = document.createElement('div');
+                pickerHeader.className = 'picker-header';
+                const pickerTitle = document.createElement('h5');
+                pickerTitle.textContent = 'Add essentials to this room';
+                const pickerHint = document.createElement('p');
+                pickerHint.className = 'helper-text';
+                pickerHint.textContent = 'Tap to check the items you have. The list is scrollable for quick mobile use.';
+                pickerHeader.append(pickerTitle, pickerHint);
 
-                const swipeHint = document.createElement('p');
-                swipeHint.className = 'helper-text';
-                swipeHint.textContent = 'Swipe right if you have it, left if you do not. Buttons work too!';
-                swipeRow.append(swipeButton, swipeHint);
+                const availableItems = getItemOptions(room.category).filter((item) => !room.items.includes(item));
+                const checklist = document.createElement('div');
+                checklist.className = 'item-checklist';
 
-                const swipePanel = document.createElement('div');
-                swipePanel.className = 'swipe-panel';
-                swipePanel.hidden = true;
-                swipePanel.dataset.roomId = room.id;
+                if (!availableItems.length) {
+                    const doneMessage = document.createElement('p');
+                    doneMessage.className = 'helper-text';
+                    doneMessage.textContent = 'All common items for this room are already added.';
+                    checklist.appendChild(doneMessage);
+                } else {
+                    availableItems.forEach((item) => {
+                        const label = document.createElement('label');
+                        label.className = 'item-choice';
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.value = item;
+                        checkbox.dataset.itemChoice = 'true';
+                        const text = document.createElement('span');
+                        text.textContent = item;
+                        label.append(checkbox, text);
+                        checklist.appendChild(label);
+                    });
+                }
 
-                const swipeHeader = document.createElement('div');
-                swipeHeader.className = 'swipe-header';
-                const swipeTitle = document.createElement('h5');
-                swipeTitle.textContent = 'Swipe the deck';
-                const saveProgressButton = document.createElement('button');
-                saveProgressButton.type = 'button';
-                saveProgressButton.className = 'ghost-button close-swipe';
-                saveProgressButton.dataset.action = 'save-progress';
-                saveProgressButton.textContent = 'Save progress';
-                swipeHeader.append(swipeTitle, saveProgressButton);
+                const addSelectedButton = document.createElement('button');
+                addSelectedButton.type = 'button';
+                addSelectedButton.className = 'primary-button';
+                addSelectedButton.dataset.action = 'add-selected';
+                addSelectedButton.textContent = 'Add selected items';
+                addSelectedButton.disabled = !availableItems.length;
 
-                const swipeStatus = document.createElement('p');
-                swipeStatus.className = 'helper-text swipe-status';
-                swipeStatus.textContent = 'Loading items...';
+                const customRow = document.createElement('div');
+                customRow.className = 'custom-item-row';
+                const customInput = document.createElement('input');
+                customInput.type = 'text';
+                customInput.placeholder = 'Add your own item';
+                customInput.dataset.customItem = 'true';
+                const customButton = document.createElement('button');
+                customButton.type = 'button';
+                customButton.className = 'ghost-button';
+                customButton.dataset.action = 'add-custom';
+                customButton.textContent = 'Add item';
+                customRow.append(customInput, customButton);
 
-                const deck = document.createElement('div');
-                deck.className = 'swipe-deck';
-
-                const actionRow = document.createElement('div');
-                actionRow.className = 'swipe-actions';
-                const skipButton = document.createElement('button');
-                skipButton.type = 'button';
-                skipButton.className = 'ghost-button swipe-button';
-                skipButton.dataset.action = 'swipe-skip';
-                skipButton.textContent = '✕ Skip';
-                const haveButton = document.createElement('button');
-                haveButton.type = 'button';
-                haveButton.className = 'primary-button swipe-button';
-                haveButton.dataset.action = 'swipe-have';
-                haveButton.textContent = '✓ Have it';
-                actionRow.append(skipButton, haveButton);
-
-                swipePanel.append(swipeHeader, swipeStatus, deck, actionRow);
+                pickerPanel.append(pickerHeader, checklist, addSelectedButton, customRow);
 
                 const listHeading = document.createElement('p');
                 listHeading.className = 'helper-text items-heading';
@@ -335,7 +295,7 @@
                     list.appendChild(li);
                 });
 
-                card.append(titleRow, swipeRow, swipePanel, listHeading);
+                card.append(titleRow, pickerPanel, listHeading);
                 if (room.items.length) {
                     card.appendChild(list);
                 }
@@ -381,187 +341,6 @@
                 return `${room.category || DEFAULT_CATEGORY} — ${room.name}`;
             }
             return room.category || DEFAULT_CATEGORY;
-        }
-
-        function closeSwipePanel(panel) {
-            panel.hidden = true;
-            panel.dataset.active = 'false';
-            panel.dataset.collapsed = 'false';
-            panel.classList.remove('collapsed');
-            const deck = panel.querySelector('.swipe-deck');
-            if (deck instanceof HTMLElement) {
-                deck.innerHTML = '';
-            }
-        }
-
-        function saveAndCloseSwipe(panel) {
-            const status = panel.querySelector('.swipe-status');
-            if (status instanceof HTMLElement) {
-                status.textContent = 'Progress saved.';
-            }
-            saveState(state);
-            closeSwipePanel(panel);
-        }
-
-        function openSwipePanel(panel, room) {
-            if (!panel || !room) return;
-            const roomId = room.id;
-            const reviewedItems = Array.isArray(room.reviewedItems) ? room.reviewedItems : [];
-            const availableItems = getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
-
-            document.querySelectorAll('.swipe-panel[data-active="true"]').forEach((openPanel) => {
-                if (openPanel !== panel && openPanel instanceof HTMLElement) {
-                    closeSwipePanel(openPanel);
-                }
-            });
-
-            panel.hidden = false;
-            panel.dataset.active = 'true';
-            panel.dataset.roomId = roomId;
-            panel.dataset.collapsed = 'false';
-            panel.classList.remove('collapsed');
-
-            const deck = panel.querySelector('.swipe-deck');
-            const status = panel.querySelector('.swipe-status');
-            const actionButtons = panel.querySelectorAll('.swipe-button');
-
-            if (!(deck instanceof HTMLElement) || !(status instanceof HTMLElement)) return;
-            deck.innerHTML = '';
-
-            if (!availableItems.length) {
-                status.textContent = 'Everything in this room has already been sorted. Remove an item to review again.';
-                actionButtons.forEach((btn) => {
-                    if (btn instanceof HTMLButtonElement) {
-                        btn.disabled = true;
-                    }
-                });
-                return;
-            }
-
-            actionButtons.forEach((btn) => {
-                if (btn instanceof HTMLButtonElement) {
-                    btn.disabled = false;
-                }
-            });
-
-            availableItems.forEach((item, index) => {
-                const card = document.createElement('div');
-                card.className = 'swipe-card';
-                card.dataset.item = item;
-                card.style.zIndex = `${index + 1}`;
-
-                const label = document.createElement('p');
-                label.className = 'swipe-card-title';
-                label.textContent = item;
-
-                const tip = document.createElement('p');
-                tip.className = 'helper-text';
-                tip.textContent = 'Swipe right to add, left to skip';
-
-                card.append(label, tip);
-                deck.appendChild(card);
-            });
-
-            status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
-        }
-
-        function handleSwipeDecision(panel, direction) {
-            if (!(panel instanceof HTMLElement)) return;
-            const deck = panel.querySelector('.swipe-deck');
-            if (!(deck instanceof HTMLElement)) return;
-            const topCard = deck.lastElementChild instanceof HTMLElement ? deck.lastElementChild : null;
-            if (!topCard) {
-                const status = panel.querySelector('.swipe-status');
-                if (status instanceof HTMLElement) {
-                    status.textContent = 'No more items to review. Great job!';
-                }
-                return;
-            }
-
-            performSwipeAnimation(panel, topCard, direction);
-        }
-
-        function performSwipeAnimation(panel, card, direction) {
-            if (!(panel instanceof HTMLElement) || !(card instanceof HTMLElement)) return;
-            const flyOut = direction === 'have' ? 'swipe-right' : 'swipe-left';
-            card.classList.add(flyOut);
-            setTimeout(() => finalizeSwipe(panel, card, direction), 180);
-        }
-
-        function finalizeSwipe(panel, card, direction) {
-            const deck = panel.querySelector('.swipe-deck');
-            if (!(deck instanceof HTMLElement) || !(card instanceof HTMLElement)) return;
-            const roomId = panel.dataset.roomId;
-            const room = state.rooms.find((r) => r.id === roomId);
-            const status = panel.querySelector('.swipe-status');
-
-            card.remove();
-
-            const item = card.dataset.item;
-            if (room && item) {
-                if (!Array.isArray(room.reviewedItems)) {
-                    room.reviewedItems = [];
-                }
-                if (!room.reviewedItems.includes(item)) {
-                    room.reviewedItems.push(item);
-                }
-
-                if (direction === 'have' && !room.items.includes(item)) {
-                    room.items.push(item);
-                    appendItemToCard(roomId, item);
-                    updateSubmissionData(state.rooms);
-                }
-
-                saveState(state);
-            }
-
-            const remaining = deck.children.length;
-            if (status instanceof HTMLElement) {
-                status.textContent = remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!';
-            }
-
-            if (!remaining) {
-                panel.dataset.active = 'false';
-                panel.dataset.collapsed = 'true';
-                panel.classList.add('collapsed');
-                const buttons = panel.querySelectorAll('.swipe-button');
-                buttons.forEach((btn) => {
-                    if (btn instanceof HTMLButtonElement) {
-                        btn.disabled = true;
-                    }
-                });
-            }
-        }
-
-        function appendItemToCard(roomId, item) {
-            if (!roomsGrid) return;
-            const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
-            if (!(roomCard instanceof HTMLElement)) return;
-            let list = roomCard.querySelector('.items-list');
-            const heading = roomCard.querySelector('.items-heading');
-
-            if (heading instanceof HTMLElement) {
-                heading.textContent = 'Items for this room:';
-            }
-
-            if (!(list instanceof HTMLUListElement)) {
-                list = document.createElement('ul');
-                list.className = 'items-list';
-                roomCard.appendChild(list);
-            }
-
-            const li = document.createElement('li');
-            li.className = 'item-row';
-            const span = document.createElement('span');
-            span.textContent = item;
-            const removeButton = document.createElement('button');
-            removeButton.className = 'remove-item';
-            removeButton.type = 'button';
-            removeButton.dataset.action = 'remove-item';
-            removeButton.dataset.item = item;
-            removeButton.textContent = 'Remove';
-            li.append(span, removeButton);
-            list.appendChild(li);
         }
 
         function updateSubmissionData(rooms) {

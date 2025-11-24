@@ -43,6 +43,8 @@
         const modals = document.querySelectorAll('.modal-overlay');
         let activeModal = null;
         let lastFocus = null;
+        let activeSwipeCard = null;
+        let pointerState = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -111,8 +113,8 @@
             const target = event.target;
             if (!(target instanceof HTMLElement)) return;
 
-            const roomId = target.closest('[data-room-id]')?.getAttribute('data-room-id');
-            if (!roomId) return;
+            const roomCard = target.closest('[data-room-id]');
+            const roomId = roomCard?.getAttribute('data-room-id');
             const room = state.rooms.find((r) => r.id === roomId);
             if (!room) return;
 
@@ -132,85 +134,69 @@
                 updateSubmissionData(state.rooms);
                 return;
             }
-        });
 
-        roomsGrid?.addEventListener('toggle', (event) => {
-            const target = event.target;
-            if (!(target instanceof HTMLDetailsElement) || !target.classList.contains('item-dropdown')) return;
-
-            const card = target.closest('.room-card');
-            if (card instanceof HTMLElement) {
-                card.classList.toggle('dropdown-active', target.open);
-            }
-
-            if (target.open) {
-                const otherDropdowns = roomsGrid.querySelectorAll('.item-dropdown[open]');
-                otherDropdowns.forEach((dropdown) => {
-                    if (dropdown === target) return;
-                    if (dropdown instanceof HTMLDetailsElement) {
-                        dropdown.open = false;
-                        const parentCard = dropdown.closest('.room-card');
-                        parentCard?.classList.remove('dropdown-active');
-                    }
-                });
-            }
-        });
-
-roomsGrid?.addEventListener('submit', (event) => {
-            const form = event.target;
-            if (!(form instanceof HTMLFormElement) || !form.classList.contains('item-form')) return;
-            event.preventDefault();
-
-            const roomId = form.closest('[data-room-id]')?.getAttribute('data-room-id');
-            if (!roomId) return;
-            const room = state.rooms.find((r) => r.id === roomId);
-            if (!room) return;
-
-            const selectedItems = Array.from(
-                form.querySelectorAll('input[type="checkbox"][name="item-option"]')
-            )
-                .filter((input) => input instanceof HTMLInputElement && input.checked && !input.disabled)
-                .map((input) => input instanceof HTMLInputElement ? input.value : '')
-                .filter((value) => value && !room.items.includes(value));
-
-            if (!selectedItems.length) return;
-
-            room.items.push(...selectedItems);
-            saveState(state);
-            renderRooms(state.rooms);
-            updateSubmissionData(state.rooms);
-        });
-
-        roomsGrid?.addEventListener('change', (event) => {
-            const target = event.target;
-            if (!(target instanceof HTMLInputElement)) return;
-
-            const form = target.closest('form.item-form');
-            if (!form) return;
-
-            if (target.dataset.action === 'select-all-items') {
-                const checkboxes = getVisibleSelectableCheckboxes(form);
-                checkboxes.forEach((checkbox) => {
-                    checkbox.checked = target.checked;
-                });
-                updateSelectAllState(form);
+            if (target.dataset.action === 'open-swipe') {
+                const panel = roomCard?.querySelector('.swipe-panel');
+                if (panel instanceof HTMLElement) {
+                    openSwipePanel(panel, room);
+                }
                 return;
             }
 
-            if (target.name === 'item-option') {
-                updateSelectAllState(form);
+            if (target.dataset.action === 'swipe-have' || target.dataset.action === 'swipe-skip') {
+                const panel = target.closest('.swipe-panel');
+                if (!(panel instanceof HTMLElement)) return;
+                handleSwipeDecision(panel, target.dataset.action === 'swipe-have' ? 'have' : 'skip');
+            }
+
+            if (target.dataset.action === 'close-swipe') {
+                const panel = target.closest('.swipe-panel');
+                if (panel instanceof HTMLElement) {
+                    closeSwipePanel(panel);
+                }
             }
         });
 
-        roomsGrid?.addEventListener('input', (event) => {
-            const target = event.target;
-            if (!(target instanceof HTMLInputElement)) return;
-            const form = target.closest('form.item-form');
-            if (!form) return;
+        roomsGrid?.addEventListener('pointerdown', (event) => {
+            const targetCard = event.target instanceof HTMLElement ? event.target.closest('.swipe-card') : null;
+            if (!(targetCard instanceof HTMLElement)) return;
+            const panel = targetCard.closest('.swipe-panel');
+            if (!(panel instanceof HTMLElement) || panel.dataset.active !== 'true') return;
 
-            if (target.classList.contains('item-search-input')) {
-                filterItemOptions(form, target.value);
+            activeSwipeCard = targetCard;
+            pointerState = {
+                startX: event.clientX,
+                pointerId: event.pointerId,
+                panel
+            };
+            targetCard.setPointerCapture(event.pointerId);
+            targetCard.classList.add('dragging');
+        });
+
+        roomsGrid?.addEventListener('pointermove', (event) => {
+            if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
+            const deltaX = event.clientX - (pointerState.startX || 0);
+            const rotate = deltaX * 0.05;
+            const offsetY = Math.min(Math.abs(deltaX) * 0.04, 24);
+            activeSwipeCard.style.transform = `translate(${deltaX}px, ${offsetY}px) rotate(${rotate}deg)`;
+        });
+
+        roomsGrid?.addEventListener('pointerup', (event) => {
+            if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
+            const deltaX = event.clientX - (pointerState.startX || 0);
+            const threshold = 90;
+            activeSwipeCard.classList.remove('dragging');
+
+            if (Math.abs(deltaX) >= threshold) {
+                const direction = deltaX > 0 ? 'have' : 'skip';
+                performSwipeAnimation(pointerState.panel, activeSwipeCard, direction);
+            } else {
+                activeSwipeCard.style.transform = '';
             }
+
+            activeSwipeCard.releasePointerCapture(event.pointerId);
+            activeSwipeCard = null;
+            pointerState = null;
         });
 
         submissionForm?.addEventListener('submit', () => {
@@ -237,60 +223,6 @@ roomsGrid?.addEventListener('submit', (event) => {
                 lastFocus.focus();
             }
             activeModal = null;
-        }
-
-        function filterItemOptions(form, term) {
-            const normalized = term.trim().toLowerCase();
-            const options = Array.from(form.querySelectorAll('.checkbox-option[data-item]'));
-            let enabledVisible = 0;
-            let checkedVisible = 0;
-
-            options.forEach((option) => {
-                if (!(option instanceof HTMLElement)) return;
-                const text = option.dataset.item?.toLowerCase() ?? '';
-                const match = !normalized || text.includes(normalized);
-                option.hidden = !match;
-                const checkbox = option.querySelector('input[type="checkbox"]');
-                if (match && checkbox instanceof HTMLInputElement && !checkbox.disabled) {
-                    enabledVisible += 1;
-                    if (checkbox.checked) {
-                        checkedVisible += 1;
-                    }
-                }
-            });
-
-            const selectAll = form.querySelector('input[data-action="select-all-items"]');
-            const selectAllRow = selectAll?.closest('.select-all-row');
-            if (selectAllRow instanceof HTMLElement) {
-                selectAllRow.hidden = normalized && enabledVisible === 0;
-            }
-            if (selectAll instanceof HTMLInputElement) {
-                selectAll.disabled = enabledVisible === 0;
-                selectAll.checked = enabledVisible > 0 && checkedVisible === enabledVisible;
-            }
-        }
-
-        function getVisibleSelectableCheckboxes(form) {
-            const options = Array.from(form.querySelectorAll('.checkbox-option[data-item]'));
-            const checkboxes = [];
-            options.forEach((option) => {
-                if (!(option instanceof HTMLElement) || option.hidden) return;
-                const checkbox = option.querySelector('input[type="checkbox"][name="item-option"]');
-                if (checkbox instanceof HTMLInputElement && !checkbox.disabled) {
-                    checkboxes.push(checkbox);
-                }
-            });
-            return checkboxes;
-        }
-
-        function updateSelectAllState(form) {
-            const selectableCheckboxes = getVisibleSelectableCheckboxes(form);
-            const selectAll = form.querySelector('input[data-action="select-all-items"]');
-            if (!(selectAll instanceof HTMLInputElement)) return;
-            selectAll.disabled = selectableCheckboxes.length === 0;
-            selectAll.checked =
-                selectableCheckboxes.length > 0 &&
-                selectableCheckboxes.every((checkbox) => checkbox.checked);
         }
 
         function renderRooms(rooms) {
@@ -326,83 +258,61 @@ roomsGrid?.addEventListener('submit', (event) => {
                 removeRoom.textContent = 'Remove room';
                 titleRow.append(heading, categoryBadge, removeRoom);
 
-                const form = document.createElement('form');
-                form.className = 'item-form';
-                const label = document.createElement('label');
-                label.className = 'sr-only';
-                label.textContent = 'Select items to add';
+                const swipeRow = document.createElement('div');
+                swipeRow.className = 'swipe-row';
 
-                const dropdown = document.createElement('details');
-                dropdown.className = 'item-dropdown';
-                const summary = document.createElement('summary');
-                summary.className = 'dropdown-toggle';
-                summary.textContent = 'Choose items';
-                dropdown.appendChild(summary);
+                const swipeButton = document.createElement('button');
+                swipeButton.className = 'primary-button';
+                swipeButton.type = 'button';
+                swipeButton.dataset.action = 'open-swipe';
+                swipeButton.textContent = 'Swipe through items';
 
-                const checkboxList = document.createElement('div');
-                checkboxList.className = 'checkbox-list';
+                const swipeHint = document.createElement('p');
+                swipeHint.className = 'helper-text';
+                swipeHint.textContent = 'Swipe right if you have it, left if you do not. Buttons work too!';
+                swipeRow.append(swipeButton, swipeHint);
 
-                const searchRow = document.createElement('div');
-                searchRow.className = 'item-search';
-                const searchLabel = document.createElement('label');
-                searchLabel.className = 'sr-only';
-                searchLabel.setAttribute('for', `item-search-${room.id}`);
-                searchLabel.textContent = 'Search common items';
-                const searchInput = document.createElement('input');
-                searchInput.type = 'search';
-                searchInput.id = `item-search-${room.id}`;
-                searchInput.className = 'item-search-input';
-                searchInput.placeholder = 'Search items...';
-                searchRow.append(searchLabel, searchInput);
-                checkboxList.appendChild(searchRow);
+                const swipePanel = document.createElement('div');
+                swipePanel.className = 'swipe-panel';
+                swipePanel.hidden = true;
+                swipePanel.dataset.roomId = room.id;
 
-                const selectAllLabel = document.createElement('label');
-                selectAllLabel.className = 'checkbox-option select-all-row';
-                const selectAllCheckbox = document.createElement('input');
-                selectAllCheckbox.type = 'checkbox';
-                selectAllCheckbox.dataset.action = 'select-all-items';
-                selectAllCheckbox.setAttribute('aria-label', 'Select all items');
-                const selectAllText = document.createElement('span');
-                selectAllText.textContent = 'Select all';
-                selectAllLabel.append(selectAllCheckbox, selectAllText);
-                checkboxList.appendChild(selectAllLabel);
+                const swipeHeader = document.createElement('div');
+                swipeHeader.className = 'swipe-header';
+                const swipeTitle = document.createElement('h5');
+                swipeTitle.textContent = 'Swipe the deck';
+                const closeSwipe = document.createElement('button');
+                closeSwipe.type = 'button';
+                closeSwipe.className = 'ghost-button close-swipe';
+                closeSwipe.dataset.action = 'close-swipe';
+                closeSwipe.textContent = 'Hide';
+                swipeHeader.append(swipeTitle, closeSwipe);
 
-                const itemOptions = getItemOptions(room.category);
+                const swipeStatus = document.createElement('p');
+                swipeStatus.className = 'helper-text swipe-status';
+                swipeStatus.textContent = 'Loading items...';
 
-                itemOptions.forEach((item) => {
-                    const optionLabel = document.createElement('label');
-                    optionLabel.className = 'checkbox-option';
-                    optionLabel.dataset.item = item;
-                    const checkbox = document.createElement('input');
-                    checkbox.type = 'checkbox';
-                    checkbox.name = 'item-option';
-                    checkbox.value = item;
-                    const itemText = document.createElement('span');
-                    itemText.textContent = item;
-                    if (room.items.includes(item)) {
-                        checkbox.disabled = true;
-                        optionLabel.classList.add('is-disabled');
-                    }
-                    optionLabel.append(checkbox, itemText);
-                    checkboxList.appendChild(optionLabel);
-                });
+                const deck = document.createElement('div');
+                deck.className = 'swipe-deck';
 
-                const hasAvailableOptions = itemOptions.some((item) => !room.items.includes(item));
-                if (!hasAvailableOptions) {
-                    selectAllCheckbox.disabled = true;
-                    selectAllLabel.classList.add('is-disabled');
-                }
+                const actionRow = document.createElement('div');
+                actionRow.className = 'swipe-actions';
+                const skipButton = document.createElement('button');
+                skipButton.type = 'button';
+                skipButton.className = 'ghost-button swipe-button';
+                skipButton.dataset.action = 'swipe-skip';
+                skipButton.textContent = '✕ Skip';
+                const haveButton = document.createElement('button');
+                haveButton.type = 'button';
+                haveButton.className = 'primary-button swipe-button';
+                haveButton.dataset.action = 'swipe-have';
+                haveButton.textContent = '✓ Have it';
+                actionRow.append(skipButton, haveButton);
 
-                dropdown.appendChild(checkboxList);
-
-                const addButton = document.createElement('button');
-                addButton.className = 'primary-button';
-                addButton.type = 'submit';
-                addButton.textContent = 'Add selected items';
-                form.append(label, dropdown, addButton);
+                swipePanel.append(swipeHeader, swipeStatus, deck, actionRow);
 
                 const listHeading = document.createElement('p');
-                listHeading.className = 'helper-text';
+                listHeading.className = 'helper-text items-heading';
                 listHeading.textContent = room.items.length ? 'Items for this room:' : 'No items added yet.';
 
                 const list = document.createElement('ul');
@@ -422,7 +332,7 @@ roomsGrid?.addEventListener('submit', (event) => {
                     list.appendChild(li);
                 });
 
-                card.append(titleRow, form, listHeading);
+                card.append(titleRow, swipeRow, swipePanel, listHeading);
                 if (room.items.length) {
                     card.appendChild(list);
                 }
@@ -467,6 +377,159 @@ roomsGrid?.addEventListener('submit', (event) => {
                 return `${room.category || DEFAULT_CATEGORY} — ${room.name}`;
             }
             return room.category || DEFAULT_CATEGORY;
+        }
+
+        function closeSwipePanel(panel) {
+            panel.hidden = true;
+            panel.dataset.active = 'false';
+            const deck = panel.querySelector('.swipe-deck');
+            if (deck instanceof HTMLElement) {
+                deck.innerHTML = '';
+            }
+        }
+
+        function openSwipePanel(panel, room) {
+            if (!panel || !room) return;
+            const roomId = room.id;
+            const availableItems = getItemOptions(room.category).filter((item) => !room.items.includes(item));
+
+            document.querySelectorAll('.swipe-panel[data-active="true"]').forEach((openPanel) => {
+                if (openPanel !== panel && openPanel instanceof HTMLElement) {
+                    closeSwipePanel(openPanel);
+                }
+            });
+
+            panel.hidden = false;
+            panel.dataset.active = 'true';
+            panel.dataset.roomId = roomId;
+
+            const deck = panel.querySelector('.swipe-deck');
+            const status = panel.querySelector('.swipe-status');
+            const actionButtons = panel.querySelectorAll('.swipe-button');
+
+            if (!(deck instanceof HTMLElement) || !(status instanceof HTMLElement)) return;
+            deck.innerHTML = '';
+
+            if (!availableItems.length) {
+                status.textContent = 'Everything in this room has already been sorted. Remove an item to review again.';
+                actionButtons.forEach((btn) => {
+                    if (btn instanceof HTMLButtonElement) {
+                        btn.disabled = true;
+                    }
+                });
+                return;
+            }
+
+            actionButtons.forEach((btn) => {
+                if (btn instanceof HTMLButtonElement) {
+                    btn.disabled = false;
+                }
+            });
+
+            availableItems.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'swipe-card';
+                card.dataset.item = item;
+                card.style.zIndex = `${index + 1}`;
+
+                const label = document.createElement('p');
+                label.className = 'swipe-card-title';
+                label.textContent = item;
+
+                const tip = document.createElement('p');
+                tip.className = 'helper-text';
+                tip.textContent = 'Swipe right to add, left to skip';
+
+                card.append(label, tip);
+                deck.appendChild(card);
+            });
+
+            status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
+        }
+
+        function handleSwipeDecision(panel, direction) {
+            if (!(panel instanceof HTMLElement)) return;
+            const deck = panel.querySelector('.swipe-deck');
+            if (!(deck instanceof HTMLElement)) return;
+            const topCard = Array.from(deck.children).reverse().find((child) => child instanceof HTMLElement) ?? null;
+            if (!(topCard instanceof HTMLElement)) {
+                const status = panel.querySelector('.swipe-status');
+                if (status instanceof HTMLElement) {
+                    status.textContent = 'No more items to review. Great job!';
+                }
+                return;
+            }
+
+            performSwipeAnimation(panel, topCard, direction);
+        }
+
+        function performSwipeAnimation(panel, card, direction) {
+            if (!(panel instanceof HTMLElement) || !(card instanceof HTMLElement)) return;
+            const flyOut = direction === 'have' ? 'swipe-right' : 'swipe-left';
+            card.classList.add(flyOut);
+            setTimeout(() => finalizeSwipe(panel, card, direction), 180);
+        }
+
+        function finalizeSwipe(panel, card, direction) {
+            const deck = panel.querySelector('.swipe-deck');
+            if (!(deck instanceof HTMLElement) || !(card instanceof HTMLElement)) return;
+            const roomId = panel.dataset.roomId;
+            const room = state.rooms.find((r) => r.id === roomId);
+            const status = panel.querySelector('.swipe-status');
+
+            card.remove();
+
+            if (room && direction === 'have') {
+                const item = card.dataset.item;
+                if (item && !room.items.includes(item)) {
+                    room.items.push(item);
+                    saveState(state);
+                    appendItemToCard(roomId, item);
+                    updateSubmissionData(state.rooms);
+                }
+            }
+
+            const remaining = deck.children.length;
+            if (status instanceof HTMLElement) {
+                status.textContent = remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!';
+            }
+
+            if (!remaining) {
+                panel.dataset.active = 'false';
+                const buttons = panel.querySelectorAll('.swipe-button');
+                buttons.forEach((btn) => {
+                    if (btn instanceof HTMLButtonElement) {
+                        btn.disabled = true;
+                    }
+                });
+            }
+        }
+
+        function appendItemToCard(roomId, item) {
+            if (!roomsGrid) return;
+            const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
+            if (!(roomCard instanceof HTMLElement)) return;
+            const list = roomCard.querySelector('.items-list');
+            const heading = roomCard.querySelector('.items-heading');
+
+            if (heading instanceof HTMLElement) {
+                heading.textContent = 'Items for this room:';
+            }
+
+            if (list instanceof HTMLUListElement) {
+                const li = document.createElement('li');
+                li.className = 'item-row';
+                const span = document.createElement('span');
+                span.textContent = item;
+                const removeButton = document.createElement('button');
+                removeButton.className = 'remove-item';
+                removeButton.type = 'button';
+                removeButton.dataset.action = 'remove-item';
+                removeButton.dataset.item = item;
+                removeButton.textContent = 'Remove';
+                li.append(span, removeButton);
+                list.appendChild(li);
+            }
         }
 
         function updateSubmissionData(rooms) {

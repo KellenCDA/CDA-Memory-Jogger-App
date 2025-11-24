@@ -70,13 +70,11 @@
                         <div class="help-actions">
                             <button class="primary-button help-trigger" type="button" data-modal-target="items-help-modal">Items help</button>
                         </div>
-                        <div>
+                         <div>
                             <h3 id="rooms-heading">Common items</h3>
-                            <p class="helper-text">Open the dropdown checklist to tick all of your items and then add when finished!</p>
+                            <p class="helper-text">Swipe through the stack for each room: right if you have the item, left if you do not. You can also click the buttons under the stack.</p>
                             <br>
                             <p class="helper-text">Don't worry if you are missing a bunch of items! We will go back through at your next meeting.</p>
-                            <br>
-                            <p class="helper-text">NOTE: You can hit "select all" and untick any items you DO NOT have if you would like to not have to click everything.</p>
                         </div>
                     </div>
                     <button id="clear-all" class="ghost-button" type="button">Clear everything</button>
@@ -88,12 +86,12 @@
                 <div class="section-heading-row stacked-header">
                     <div>
                         <h3 id="submission-heading">Send your list</h3>
-                        <p class="helper-text">Add your name so we know who you are, then submit your rooms and items.</p>
+                        <p class="helper-text">Add your full name so we know who you are, then submit your rooms and items.</p>
                     </div>
                 </div>
                 <form id="submission-form" action="https://formspree.io/f/mqanlpzn" method="POST" class="submit-form">
-                    <label for="submitter-name">Your name</label>
-                    <input id="submitter-name" name="name" type="text" placeholder="Enter your name" required>
+                    <label for="submitter-name">Your Name</label>
+                    <input id="submitter-name" name="name" type="text" placeholder="Enter: " required>
                     <input id="submission-data" name="room_data" type="hidden">
                     <button class="primary-button" type="submit">Submit my list</button>
                 </form>

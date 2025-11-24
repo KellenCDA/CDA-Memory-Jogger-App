@@ -474,7 +474,12 @@ a {
 
 .swipe-card {
     position: absolute;
-    inset: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 500px;  /* or whatever width you want */
+    top:30px;
     border-radius: 16px;
     background: #ffffff;
     box-shadow: 0 16px 38px rgba(0, 0, 0, 0.14);
@@ -485,8 +490,6 @@ a {
     text-align: center;
     gap: 14px;
     transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
-    max-width: 760px;
-    margin: 0 auto;
 }
 
 .swipe-card.dragging {

@@ -36,7 +36,6 @@
         const roomCategorySelect = document.getElementById('room-category');
         const roomNameInput = document.getElementById('room-name');
         const roomsGrid = document.getElementById('rooms-grid');
-        const clearAllButton = document.getElementById('clear-all');
         const submissionForm = document.getElementById('submission-form');
         const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
@@ -105,16 +104,6 @@
             if (roomNameInput) {
                 roomNameInput.value = '';
             }
-        });
-
-        clearAllButton?.addEventListener('click', () => {
-            if (!state.rooms.length) return;
-            const confirmed = window.confirm('Clear all rooms and items?');
-            if (!confirmed) return;
-            state.rooms = [];
-            saveState(state);
-            renderRooms(state.rooms);
-            updateSubmissionData(state.rooms);
         });
 
         roomsGrid?.addEventListener('click', (event) => {
@@ -268,7 +257,7 @@
                 swipeButton.className = 'primary-button';
                 swipeButton.type = 'button';
                 swipeButton.dataset.action = 'open-swipe';
-                swipeButton.textContent = 'Swipe through items';
+                swipeButton.textContent = 'Swipe the deck';
 
                 const swipeHint = document.createElement('p');
                 swipeHint.className = 'helper-text';

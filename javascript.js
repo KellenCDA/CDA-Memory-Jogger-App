@@ -86,10 +86,17 @@
                 category,
                 name,
                 items: []
-            });
+             });
             saveState(state);
             renderRooms(state.rooms);
             updateSubmissionData(state.rooms);
+            const newRoom = state.rooms[state.rooms.length - 1];
+            if (newRoom && roomsGrid) {
+                const newPanel = roomsGrid.querySelector(`[data-room-id="${newRoom.id}"] .swipe-panel`);
+                if (newPanel instanceof HTMLElement) {
+                    openSwipePanel(newPanel, newRoom);
+                }
+            }
             if (roomCategorySelect) {
                 roomCategorySelect.value = '';
                 roomCategorySelect.focus();
@@ -447,12 +454,12 @@
             status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
         }
 
-        function handleSwipeDecision(panel, direction) {
+                function handleSwipeDecision(panel, direction) {
             if (!(panel instanceof HTMLElement)) return;
             const deck = panel.querySelector('.swipe-deck');
             if (!(deck instanceof HTMLElement)) return;
-            const topCard = Array.from(deck.children).reverse().find((child) => child instanceof HTMLElement) ?? null;
-            if (!(topCard instanceof HTMLElement)) {
+            const topCard = deck.lastElementChild instanceof HTMLElement ? deck.lastElementChild : null;
+            if (!topCard) {
                 const status = panel.querySelector('.swipe-status');
                 if (status instanceof HTMLElement) {
                     status.textContent = 'No more items to review. Great job!';
@@ -505,31 +512,35 @@
             }
         }
 
-        function appendItemToCard(roomId, item) {
+         function appendItemToCard(roomId, item) {
             if (!roomsGrid) return;
             const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
             if (!(roomCard instanceof HTMLElement)) return;
-            const list = roomCard.querySelector('.items-list');
+            let list = roomCard.querySelector('.items-list');
             const heading = roomCard.querySelector('.items-heading');
 
             if (heading instanceof HTMLElement) {
                 heading.textContent = 'Items for this room:';
             }
 
-            if (list instanceof HTMLUListElement) {
-                const li = document.createElement('li');
-                li.className = 'item-row';
-                const span = document.createElement('span');
-                span.textContent = item;
-                const removeButton = document.createElement('button');
-                removeButton.className = 'remove-item';
-                removeButton.type = 'button';
-                removeButton.dataset.action = 'remove-item';
-                removeButton.dataset.item = item;
-                removeButton.textContent = 'Remove';
-                li.append(span, removeButton);
-                list.appendChild(li);
+            if (!(list instanceof HTMLUListElement)) {
+                list = document.createElement('ul');
+                list.className = 'items-list';
+                roomCard.appendChild(list);
             }
+
+            const li = document.createElement('li');
+            li.className = 'item-row';
+            const span = document.createElement('span');
+            span.textContent = item;
+            const removeButton = document.createElement('button');
+            removeButton.className = 'remove-item';
+            removeButton.type = 'button';
+            removeButton.dataset.action = 'remove-item';
+            removeButton.dataset.item = item;
+            removeButton.textContent = 'Remove';
+            li.append(span, removeButton);
+            list.appendChild(li);
         }
 
         function updateSubmissionData(rooms) {

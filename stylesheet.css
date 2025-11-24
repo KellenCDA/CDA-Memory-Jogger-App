@@ -29,8 +29,8 @@ body {
 }
 
 .page-shell {
-    width: min(960px, 100%);
-    padding: 32px 16px 48px;
+    width: min(1100px, 100%);
+    padding: 32px 18px 56px;
 }
 
 .site-header {
@@ -351,8 +351,8 @@ a {
 
 .rooms-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
     margin-top: 12px;
 }
 
@@ -418,7 +418,7 @@ a {
     padding: 16px;
     background: #fffaf4;
     display: grid;
-    gap: 12px;
+    gap: 16px;
     box-shadow: var(--shadow);
 }
 
@@ -436,22 +436,23 @@ a {
 
 .swipe-row {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 8px;
     align-items: center;
 }
 
 .swipe-panel {
     margin-top: 14px;
-    padding: 20px;
+    padding: 24px;
     border-radius: 18px;
     border: none;
     background: linear-gradient(180deg, #fffaf4 0%, #f0e4d3 100%);
     box-shadow: 0 24px 64px rgba(0, 0, 0, 0.12);
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-    gap: 14px;
-    min-height: clamp(340px, 60vh, 560px);
+    gap: 16px;
+    min-height: clamp(420px, 62vh, 620px);
+    width: 100%;
 }
 
 .swipe-header {
@@ -465,8 +466,10 @@ a {
 .swipe-deck {
     position: relative;
     height: 100%;
-    min-height: clamp(260px, 42vh, 420px);
+    min-height: clamp(360px, 52vh, 520px);
     margin: 6px 0 10px;
+    max-width: 760px;
+    justify-self: center;
 }
 
 .swipe-card {
@@ -475,11 +478,15 @@ a {
     border-radius: 16px;
     background: #ffffff;
     box-shadow: 0 16px 38px rgba(0, 0, 0, 0.14);
-    padding: 22px;
+    padding: 26px;
     display: grid;
     align-content: center;
-    gap: 10px;
+    justify-items: center;
+    text-align: center;
+    gap: 14px;
     transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
 .swipe-card.dragging {
@@ -488,19 +495,21 @@ a {
 
 .swipe-card-title {
     margin: 0;
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
 
 .swipe-actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 16px;
 }
 
 .swipe-button {
     width: 100%;
     justify-content: center;
+    padding: 14px 16px;
+    font-size: 1.05rem;
 }
 
 .close-swipe {
@@ -526,6 +535,7 @@ a {
     padding-left: 18px;
     display: grid;
     gap: 6px;
+}
 
 .item-row {
     display: flex;
@@ -586,6 +596,24 @@ a {
     .item-form .primary-button {
         width: 100%;
     }
+
+    .rooms-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .swipe-panel {
+        padding: 18px;
+        min-height: clamp(360px, 72vh, 640px);
+    }
+
+    .swipe-deck {
+        min-height: clamp(340px, 64vh, 520px);
+        max-width: 100%;
+    }
+
+    .swipe-actions {
+        grid-template-columns: 1fr;
+    }
 }
 
 .submit-form {
@@ -606,5 +634,4 @@ a {
     border-radius: 12px;
     border: 1px solid #d6cabb;
     font-size: 1.05rem;
-}
 }

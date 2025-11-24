@@ -364,6 +364,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 18px;
     margin-top: 12px;
+    justify-content: center;
     width: 100%;
 }
 

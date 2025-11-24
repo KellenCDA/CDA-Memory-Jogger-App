@@ -126,6 +126,14 @@
                 updateSubmissionData(state.rooms);
                 return;
             }
+
+            if (target.dataset.action === 'remove-room') {
+                state.rooms = state.rooms.filter((entry) => entry.id !== roomId);
+                saveState(state);
+                renderRooms(state.rooms);
+                updateSubmissionData(state.rooms);
+                return;
+            }
         });
 
         roomsGrid?.addEventListener('pointerdown', (event) => {

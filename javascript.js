@@ -85,8 +85,9 @@
                 id: generateId(),
                 category,
                 name,
-                items: []
-             });
+                items: [],
+                reviewedItems: []
+            });
             saveState(state);
             renderRooms(state.rooms);
             updateSubmissionData(state.rooms);
@@ -128,14 +129,9 @@
             if (target.dataset.action === 'remove-item') {
                 const item = target.dataset.item;
                 room.items = room.items.filter((entry) => entry !== item);
-                saveState(state);
-                renderRooms(state.rooms);
-                updateSubmissionData(state.rooms);
-                return;
-            }
-
-            if (target.dataset.action === 'remove-room') {
-                state.rooms = state.rooms.filter((r) => r.id !== roomId);
+                if (Array.isArray(room.reviewedItems)) {
+                    room.reviewedItems = room.reviewedItems.filter((entry) => entry !== item);
+                }
                 saveState(state);
                 renderRooms(state.rooms);
                 updateSubmissionData(state.rooms);
@@ -156,10 +152,10 @@
                 handleSwipeDecision(panel, target.dataset.action === 'swipe-have' ? 'have' : 'skip');
             }
 
-            if (target.dataset.action === 'close-swipe') {
+             if (target.dataset.action === 'save-progress') {
                 const panel = target.closest('.swipe-panel');
                 if (panel instanceof HTMLElement) {
-                    toggleSwipePanel(panel, target);
+                    saveAndCloseSwipe(panel);
                 }
             }
         });
@@ -288,12 +284,12 @@
                 swipeHeader.className = 'swipe-header';
                 const swipeTitle = document.createElement('h5');
                 swipeTitle.textContent = 'Swipe the deck';
-                const toggleSwipe = document.createElement('button');
-                toggleSwipe.type = 'button';
-                toggleSwipe.className = 'ghost-button close-swipe';
-                toggleSwipe.dataset.action = 'toggle-swipe';
-                toggleSwipe.textContent = 'Hide deck';
-                swipeHeader.append(swipeTitle, toggleSwipe);
+                const saveProgressButton = document.createElement('button');
+                saveProgressButton.type = 'button';
+                saveProgressButton.className = 'ghost-button close-swipe';
+                saveProgressButton.dataset.action = 'save-progress';
+                saveProgressButton.textContent = 'Save progress';
+                swipeHeader.append(swipeTitle, saveProgressButton);
 
                 const swipeStatus = document.createElement('p');
                 swipeStatus.className = 'helper-text swipe-status';
@@ -358,7 +354,8 @@
                         id: room.id || generateId(),
                         category: room.category || DEFAULT_CATEGORY,
                         name: room.name || '',
-                        items: Array.isArray(room.items) ? room.items : []
+                        items: Array.isArray(room.items) ? room.items : [],
+                        reviewedItems: Array.isArray(room.reviewedItems) ? room.reviewedItems : []
                     }))
                 };
             } catch (error) {
@@ -397,27 +394,20 @@
             }
         }
 
-        function toggleSwipePanel(panel, toggleButton) {
-            const isCollapsed = panel.dataset.collapsed === 'true';
-            if (isCollapsed) {
-                panel.dataset.collapsed = 'false';
-                panel.classList.remove('collapsed');
-                if (toggleButton instanceof HTMLElement) {
-                    toggleButton.textContent = 'Hide deck';
-                }
-            } else {
-                panel.dataset.collapsed = 'true';
-                panel.classList.add('collapsed');
-                if (toggleButton instanceof HTMLElement) {
-                    toggleButton.textContent = 'Show deck';
-                }
+        function saveAndCloseSwipe(panel) {
+            const status = panel.querySelector('.swipe-status');
+            if (status instanceof HTMLElement) {
+                status.textContent = 'Progress saved.';
             }
+            saveState(state);
+            closeSwipePanel(panel);
         }
 
         function openSwipePanel(panel, room) {
             if (!panel || !room) return;
             const roomId = room.id;
-            const availableItems = getItemOptions(room.category).filter((item) => !room.items.includes(item));
+            const reviewedItems = Array.isArray(room.reviewedItems) ? room.reviewedItems : [];
+            const availableItems = getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
 
             document.querySelectorAll('.swipe-panel[data-active="true"]').forEach((openPanel) => {
                 if (openPanel !== panel && openPanel instanceof HTMLElement) {
@@ -430,10 +420,6 @@
             panel.dataset.roomId = roomId;
             panel.dataset.collapsed = 'false';
             panel.classList.remove('collapsed');
-            const toggleButton = panel.querySelector('[data-action="toggle-swipe"]');
-            if (toggleButton instanceof HTMLElement) {
-                toggleButton.textContent = 'Hide deck';
-            }
 
             const deck = panel.querySelector('.swipe-deck');
             const status = panel.querySelector('.swipe-status');
@@ -508,18 +494,25 @@
             const roomId = panel.dataset.roomId;
             const room = state.rooms.find((r) => r.id === roomId);
             const status = panel.querySelector('.swipe-status');
-            const toggleButton = panel.querySelector('[data-action="toggle-swipe"]');
 
             card.remove();
 
-            if (room && direction === 'have') {
-                const item = card.dataset.item;
-                if (item && !room.items.includes(item)) {
+            const item = card.dataset.item;
+            if (room && item) {
+                if (!Array.isArray(room.reviewedItems)) {
+                    room.reviewedItems = [];
+                }
+                if (!room.reviewedItems.includes(item)) {
+                    room.reviewedItems.push(item);
+                }
+
+                if (direction === 'have' && !room.items.includes(item)) {
                     room.items.push(item);
-                    saveState(state);
                     appendItemToCard(roomId, item);
                     updateSubmissionData(state.rooms);
                 }
+
+                saveState(state);
             }
 
             const remaining = deck.children.length;
@@ -537,9 +530,6 @@
                         btn.disabled = true;
                     }
                 });
-                if (toggleButton instanceof HTMLElement) {
-                    toggleButton.textContent = 'Show deck';
-                }
             }
         }
 

@@ -159,7 +159,7 @@
             if (target.dataset.action === 'close-swipe') {
                 const panel = target.closest('.swipe-panel');
                 if (panel instanceof HTMLElement) {
-                    closeSwipePanel(panel);
+                    toggleSwipePanel(panel, target);
                 }
             }
         });
@@ -288,12 +288,12 @@
                 swipeHeader.className = 'swipe-header';
                 const swipeTitle = document.createElement('h5');
                 swipeTitle.textContent = 'Swipe the deck';
-                const closeSwipe = document.createElement('button');
-                closeSwipe.type = 'button';
-                closeSwipe.className = 'ghost-button close-swipe';
-                closeSwipe.dataset.action = 'close-swipe';
-                closeSwipe.textContent = 'Hide';
-                swipeHeader.append(swipeTitle, closeSwipe);
+                const toggleSwipe = document.createElement('button');
+                toggleSwipe.type = 'button';
+                toggleSwipe.className = 'ghost-button close-swipe';
+                toggleSwipe.dataset.action = 'toggle-swipe';
+                toggleSwipe.textContent = 'Hide deck';
+                swipeHeader.append(swipeTitle, toggleSwipe);
 
                 const swipeStatus = document.createElement('p');
                 swipeStatus.className = 'helper-text swipe-status';
@@ -389,9 +389,28 @@
         function closeSwipePanel(panel) {
             panel.hidden = true;
             panel.dataset.active = 'false';
+            panel.dataset.collapsed = 'false';
+            panel.classList.remove('collapsed');
             const deck = panel.querySelector('.swipe-deck');
             if (deck instanceof HTMLElement) {
                 deck.innerHTML = '';
+            }
+        }
+
+        function toggleSwipePanel(panel, toggleButton) {
+            const isCollapsed = panel.dataset.collapsed === 'true';
+            if (isCollapsed) {
+                panel.dataset.collapsed = 'false';
+                panel.classList.remove('collapsed');
+                if (toggleButton instanceof HTMLElement) {
+                    toggleButton.textContent = 'Hide deck';
+                }
+            } else {
+                panel.dataset.collapsed = 'true';
+                panel.classList.add('collapsed');
+                if (toggleButton instanceof HTMLElement) {
+                    toggleButton.textContent = 'Show deck';
+                }
             }
         }
 
@@ -409,6 +428,12 @@
             panel.hidden = false;
             panel.dataset.active = 'true';
             panel.dataset.roomId = roomId;
+            panel.dataset.collapsed = 'false';
+            panel.classList.remove('collapsed');
+            const toggleButton = panel.querySelector('[data-action="toggle-swipe"]');
+            if (toggleButton instanceof HTMLElement) {
+                toggleButton.textContent = 'Hide deck';
+            }
 
             const deck = panel.querySelector('.swipe-deck');
             const status = panel.querySelector('.swipe-status');
@@ -454,7 +479,7 @@
             status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
         }
 
-                function handleSwipeDecision(panel, direction) {
+        function handleSwipeDecision(panel, direction) {
             if (!(panel instanceof HTMLElement)) return;
             const deck = panel.querySelector('.swipe-deck');
             if (!(deck instanceof HTMLElement)) return;
@@ -483,6 +508,7 @@
             const roomId = panel.dataset.roomId;
             const room = state.rooms.find((r) => r.id === roomId);
             const status = panel.querySelector('.swipe-status');
+            const toggleButton = panel.querySelector('[data-action="toggle-swipe"]');
 
             card.remove();
 
@@ -503,16 +529,21 @@
 
             if (!remaining) {
                 panel.dataset.active = 'false';
+                panel.dataset.collapsed = 'true';
+                panel.classList.add('collapsed');
                 const buttons = panel.querySelectorAll('.swipe-button');
                 buttons.forEach((btn) => {
                     if (btn instanceof HTMLButtonElement) {
                         btn.disabled = true;
                     }
                 });
+                if (toggleButton instanceof HTMLElement) {
+                    toggleButton.textContent = 'Show deck';
+                }
             }
         }
 
-         function appendItemToCard(roomId, item) {
+        function appendItemToCard(roomId, item) {
             if (!roomsGrid) return;
             const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
             if (!(roomCard instanceof HTMLElement)) return;

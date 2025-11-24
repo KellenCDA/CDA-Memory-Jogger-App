@@ -91,20 +91,25 @@
             renderRooms(state.rooms);
             updateSubmissionData(state.rooms);
             const newRoom = state.rooms[state.rooms.length - 1];
-            if (newRoom && roomsGrid) {␊
-                const newPanel = roomsGrid.querySelector(`[data-room-id="${newRoom.id}"] .swipe-panel`);␊
-                if (newPanel instanceof HTMLElement) {␊
-                    openSwipePanel(newPanel, newRoom);␊
-                }␊
-            }␊
-            if (roomCategorySelect) {␊
-                roomCategorySelect.value = '';␊
-                roomCategorySelect.blur();
-            }␊
-            if (roomNameInput) {␊
-                roomNameInput.value = '';␊
-            }␊
-        });␊
+            if (newRoom && roomsGrid) {
+                const newPanel = roomsGrid.querySelector(`[data-room-id="${newRoom.id}"] .swipe-panel`);
+                if (newPanel instanceof HTMLElement) {
+                    openSwipePanel(newPanel, newRoom);
+                }
+            }
+            if (roomCategorySelect) {
+                const wasFocused = document.activeElement === roomCategorySelect;
+                if (wasFocused) {
+                    roomCategorySelect.blur();
+                }
+                requestAnimationFrame(() => {
+                    roomCategorySelect.selectedIndex = 0;
+                });
+            }
+            if (roomNameInput) {
+                roomNameInput.value = '';
+            }
+        });
             
         roomsGrid?.addEventListener('click', (event) => {
             const target = event.target;
@@ -459,3 +464,4 @@
     });
 
 })();
+

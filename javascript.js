@@ -185,7 +185,7 @@
             const deltaX = event.clientX - (pointerState.startX || 0);
             const rotate = deltaX * 0.05;
             const offsetY = Math.min(Math.abs(deltaX) * 0.04, 24);
-            activeSwipeCard.style.transform = `translate(${deltaX}px, ${offsetY}px) rotate(${rotate}deg)`;
+            activeSwipeCard.style.transform = `translate(calc(-50% + ${deltaX}px), ${offsetY}px) rotate(${rotate}deg)`;
         });
 
         roomsGrid?.addEventListener('pointerup', (event) => {

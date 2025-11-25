@@ -446,7 +446,7 @@ a {
 
 .scroll-toast {
     position: fixed;
-    bottom: 22px;
+    top: 50%;
     right: 22px;
     max-width: 360px;
     background: linear-gradient(135deg, #ffffff 0%, #f4ece2 100%);
@@ -455,7 +455,7 @@ a {
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
     padding: 14px 16px;
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(calc(-50% + 24px));
     transition: opacity 160ms ease, transform 180ms ease;
     pointer-events: none;
     z-index: 10;
@@ -463,13 +463,20 @@ a {
 
 .scroll-toast.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-50%);
     pointer-events: auto;
 }
 
 .scroll-toast__content {
     display: grid;
     gap: 10px;
+}
+
+.scroll-toast__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 .scroll-toast__title {
@@ -498,11 +505,6 @@ a {
 .room-card {
     border: 1px solid #e4d8c8;
     border-radius: 14px;
-    padding: 16px;
-    background: #fffaf4;
-    display: grid;
-    gap: 16px;
-    box-shadow: var(--shadow);
 }
 
 .room-title {

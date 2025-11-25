@@ -40,10 +40,14 @@
         const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
+        const scrollToast = document.getElementById('scroll-toast');
+        const scrollToastViewButton = document.getElementById('scroll-toast-view');
+        const scrollToastDismissButton = document.getElementById('scroll-toast-dismiss');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
         let pointerState = null;
+        let scrollToastTimer = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -97,6 +101,7 @@
                     openSwipePanel(newPanel, newRoom);
                 }
             }
+            showScrollPrompt();
             if (roomCategorySelect) {
                 const wasFocused = document.activeElement === roomCategorySelect;
                 if (wasFocused) {
@@ -186,6 +191,15 @@
         submissionForm?.addEventListener('submit', () => {
             updateSubmissionData(state.rooms);
         });
+
+        scrollToastViewButton?.addEventListener('click', () => {
+            if (roomsGrid) {
+                roomsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+            hideScrollPrompt();
+        });
+
+        scrollToastDismissButton?.addEventListener('click', hideScrollPrompt);
 
         function openModal(modalId, trigger) {
             const modal = document.getElementById(modalId);
@@ -461,7 +475,34 @@
 
             submissionDataInput.value = summary.length ? summary.join('\n') : 'No rooms added yet.';
         }
+
+        function showScrollPrompt() {
+            if (!(scrollToast instanceof HTMLElement)) return;
+            scrollToast.hidden = false;
+            scrollToast.classList.add('visible');
+            if (scrollToastTimer) {
+                clearTimeout(scrollToastTimer);
+            }
+            scrollToastTimer = window.setTimeout(hideScrollPrompt, 7000);
+            if (scrollToastViewButton instanceof HTMLElement) {
+                scrollToastViewButton.focus({ preventScroll: true });
+            }
+        }
+
+        function hideScrollPrompt() {
+            if (!(scrollToast instanceof HTMLElement)) return;
+            scrollToast.classList.remove('visible');
+            if (scrollToastTimer) {
+                clearTimeout(scrollToastTimer);
+                scrollToastTimer = null;
+            }
+            setTimeout(() => {
+                if (!(scrollToast instanceof HTMLElement)) return;
+                if (!scrollToast.classList.contains('visible')) {
+                    scrollToast.hidden = true;
+                }
+            }, 200);
+        }
     });
 
 })();
-

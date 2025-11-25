@@ -50,7 +50,7 @@
                         <option value="Other">Other</option>
                     </select>
                     <label class="sr-only" for="room-name">Room name</label>
-                    <input id="room-name" name="room-name" type="text" placeholder="Add your own name (optional)">
+                    <input id="room-name" name="room-name" type="text" placeholder="Your own name (optional)">
                     <button class="primary-button" type="submit">Add room</button>
                 </form>
             </section>
@@ -91,6 +91,19 @@
                 <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
             </div>
         </main>
+
+        <div id="scroll-toast" class="scroll-toast" role="status" aria-live="polite" hidden>
+            <div class="scroll-toast__content">
+                <div>
+                    <p class="scroll-toast__title">Room added</p>
+                    <p class="scroll-toast__message">Scroll down to see your room and start swiping through the items.</p>
+                </div>
+                <div class="scroll-toast__actions">
+                    <button id="scroll-toast-view" class="secondary-button" type="button">Take me there</button>
+                    <button id="scroll-toast-dismiss" class="ghost-button scroll-toast__dismiss" type="button" aria-label="Dismiss message">×</button>
+                </div>
+            </div>
+        </div>
 
         <div class="modal-overlay" id="room-help-modal" role="dialog" aria-modal="true" aria-labelledby="room-help-title" hidden>
             <div class="modal-card">

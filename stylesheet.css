@@ -258,6 +258,26 @@ a {
     outline: none;
 }
 
+.secondary-button {
+    background: #efe5d8;
+    color: var(--primary);
+    border: 1px solid #d6cabb;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background-color 150ms ease, color 150ms ease, transform 120ms ease;
+}
+
+.secondary-button:hover,
+.secondary-button:focus-visible {
+    background: #dfd1bc;
+    color: var(--primary-dark);
+    outline: none;
+    transform: translateY(-1px);
+}
+
 #help-menu {
     background: var(--card);
     border: 1px solid #e2d8cc;
@@ -422,6 +442,57 @@ a {
 
 .modal-body p {
     margin: 0;
+}
+
+.scroll-toast {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    max-width: 360px;
+    background: linear-gradient(135deg, #ffffff 0%, #f4ece2 100%);
+    border: 1px solid #e4d8c8;
+    border-radius: 16px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+    padding: 14px 16px;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 160ms ease, transform 180ms ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.scroll-toast.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.scroll-toast__content {
+    display: grid;
+    gap: 10px;
+}
+
+.scroll-toast__title {
+    margin: 0;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.scroll-toast__message {
+    margin: 4px 0 0;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.scroll-toast__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.scroll-toast__dismiss {
+    padding: 8px 12px;
+    line-height: 1;
 }
 
 .room-card {

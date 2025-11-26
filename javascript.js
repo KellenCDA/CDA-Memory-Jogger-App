@@ -24,11 +24,23 @@
         Other: ['Lamp', 'Wall art', 'Storage bin']
     };
 
+    const ITEM_IMAGES = {
+        tomato: 'https://www.alimentarium.org/sites/default/files/media/image/2016-10/AL001-02%20tomate_0.jpg'
+    };
+
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
             return ITEM_OPTIONS[category];
         }
         return ITEM_OPTIONS[DEFAULT_CATEGORY] || [];
+    }
+
+    function getItemImage(itemName) {
+        const normalized = (itemName || '').toLowerCase();
+        if (normalized.includes('tomato, sauce')) {
+            return ITEM_IMAGES.tomato;
+        }
+        return '';
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -371,11 +383,19 @@
                 return;
             }
 
+            const totalCards = availableItems.length;
+
             availableItems.forEach((item, index) => {
                 const card = document.createElement('div');
                 card.className = 'swipe-card';
                 card.dataset.item = item;
-                card.style.zIndex = `${index + 1}`;
+                card.style.zIndex = `${totalCards - index}`;
+
+                const imageUrl = getItemImage(item);
+                if (imageUrl) {
+                    card.classList.add('swipe-card--with-image');
+                    card.style.backgroundImage = `linear-gradient(180deg, rgba(9, 16, 26, 0.62) 0%, rgba(9, 16, 26, 0.42) 100%), url('${imageUrl}')`;
+                }
 
                 const label = document.createElement('p');
                 label.className = 'swipe-card-title';

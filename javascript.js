@@ -24,9 +24,22 @@
         Other: ['Lamp', 'Wall art', 'Storage bin']
     };
 
-    const ITEM_IMAGES = {
-        tomato: 'https://www.alimentarium.org/sites/default/files/media/image/2016-10/AL001-02%20tomate_0.jpg'
+    const ITEM_IMAGE_OVERRIDES = {
+        'tomato, sauce, paste': 'https://www.alimentarium.org/sites/default/files/media/image/2016-10/AL001-02%20tomate_0.jpg',
+        'vegetables': 'https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg',
+        'answering machine': 'https://network-telecom.com/wp-content/uploads/Avaya-phone.png'
     };
+
+    const ITEM_IMAGES = Object.entries(ITEM_OPTIONS).reduce((catalog, [category, items]) => {
+        if (!Array.isArray(items)) return catalog;
+        items.forEach((item) => {
+            const key = normalizeItemKey(item);
+            if (!(key in catalog)) {
+                catalog[key] = '';
+            }
+        });
+        return catalog;
+    }, { ...ITEM_IMAGE_OVERRIDES });
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -36,11 +49,12 @@
     }
 
     function getItemImage(itemName) {
-        const normalized = (itemName || '').toLowerCase();
-        if (normalized.includes('tomato, sauce')) {
-            return ITEM_IMAGES.tomato;
-        }
-        return '';
+        const normalized = normalizeItemKey(itemName);
+        return ITEM_IMAGES[normalized] || '';
+    }
+
+    function normalizeItemKey(value) {
+        return (value || '').toString().trim().toLowerCase().replace(/\s+/g, ' ');
     }
 
     document.addEventListener('DOMContentLoaded', () => {

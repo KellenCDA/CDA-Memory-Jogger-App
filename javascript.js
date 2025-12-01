@@ -67,7 +67,6 @@
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         const scrollToast = document.getElementById('scroll-toast');
-        const scrollToastViewButton = document.getElementById('scroll-toast-view');
         const scrollToastDismissButton = document.getElementById('scroll-toast-dismiss');
         let activeModal = null;
         let lastFocus = null;
@@ -216,13 +215,6 @@
 
         submissionForm?.addEventListener('submit', () => {
             updateSubmissionData(state.rooms);
-        });
-
-        scrollToastViewButton?.addEventListener('click', () => {
-            if (roomsGrid) {
-                roomsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-            hideScrollPrompt();
         });
 
         scrollToastDismissButton?.addEventListener('click', hideScrollPrompt);
@@ -518,8 +510,8 @@
                 clearTimeout(scrollToastTimer);
             }
             scrollToastTimer = window.setTimeout(hideScrollPrompt, 7000);
-            if (scrollToastViewButton instanceof HTMLElement) {
-                scrollToastViewButton.focus({ preventScroll: true });
+            if (scrollToastDismissButton instanceof HTMLElement) {
+                scrollToastDismissButton.focus({ preventScroll: true });
             }
         }
 

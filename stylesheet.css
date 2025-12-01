@@ -491,11 +491,6 @@ a {
     line-height: 1.5;
 }
 
-.scroll-toast__actions {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
 .scroll-toast__dismiss {
     padding: 8px 12px;

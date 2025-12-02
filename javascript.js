@@ -24,11 +24,39 @@
         Other: ['Lamp', 'Wall art', 'Storage bin']
     };
 
+    const ITEM_IMAGE_OVERRIDES = {
+        'tomato, sauce, paste': "inventory_item_pictures/Screenshot 2025-12-02 102457.png",
+        'vegetables': "inventory_item_pictures/Screenshot 2025-12-02 102852.png",
+        'answering machine': "inventory_item_pictures/Screenshot 2025-12-02 103045.png",
+        'cell phone': "inventory_item_pictures/Screenshot 2025-12-02 104348.png",
+        'clocks': "inventory_item_pictures/Screenshot 2025-12-02 103256.png"
+    };
+
+    const ITEM_IMAGES = Object.entries(ITEM_OPTIONS).reduce((catalog, [category, items]) => {
+        if (!Array.isArray(items)) return catalog;
+        items.forEach((item) => {
+            const key = normalizeItemKey(item);
+            if (!(key in catalog)) {
+                catalog[key] = '';
+            }
+        });
+        return catalog;
+    }, { ...ITEM_IMAGE_OVERRIDES });
+
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
             return ITEM_OPTIONS[category];
         }
         return ITEM_OPTIONS[DEFAULT_CATEGORY] || [];
+    }
+
+    function getItemImage(itemName) {
+        const normalized = normalizeItemKey(itemName);
+        return ITEM_IMAGES[normalized] || '';
+    }
+
+    function normalizeItemKey(value) {
+        return (value || '').toString().trim().toLowerCase().replace(/\s+/g, ' ');
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -40,10 +68,13 @@
         const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
+        const scrollToast = document.getElementById('scroll-toast');
+        const scrollToastDismissButton = document.getElementById('scroll-toast-dismiss');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
         let pointerState = null;
+        let scrollToastTimer = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -97,6 +128,7 @@
                     openSwipePanel(newPanel, newRoom);
                 }
             }
+            showScrollPrompt();
             if (roomCategorySelect) {
                 const wasFocused = document.activeElement === roomCategorySelect;
                 if (wasFocused) {
@@ -186,6 +218,8 @@
         submissionForm?.addEventListener('submit', () => {
             updateSubmissionData(state.rooms);
         });
+
+        scrollToastDismissButton?.addEventListener('click', hideScrollPrompt);
 
         function openModal(modalId, trigger) {
             const modal = document.getElementById(modalId);
@@ -357,11 +391,19 @@
                 return;
             }
 
+            const totalCards = availableItems.length;
+
             availableItems.forEach((item, index) => {
                 const card = document.createElement('div');
                 card.className = 'swipe-card';
                 card.dataset.item = item;
-                card.style.zIndex = `${index + 1}`;
+                card.style.zIndex = `${totalCards - index}`;
+
+                const imageUrl = getItemImage(item);
+                if (imageUrl) {
+                    card.classList.add('swipe-card--with-image');
+                    card.style.backgroundImage = `linear-gradient(180deg, rgba(9, 16, 26, 0.62) 0%, rgba(9, 16, 26, 0.42) 100%), url('${imageUrl}')`;
+                }
 
                 const label = document.createElement('p');
                 label.className = 'swipe-card-title';
@@ -461,7 +503,34 @@
 
             submissionDataInput.value = summary.length ? summary.join('\n') : 'No rooms added yet.';
         }
+
+        function showScrollPrompt() {
+            if (!(scrollToast instanceof HTMLElement)) return;
+            scrollToast.hidden = false;
+            scrollToast.classList.add('visible');
+            if (scrollToastTimer) {
+                clearTimeout(scrollToastTimer);
+            }
+            scrollToastTimer = window.setTimeout(hideScrollPrompt, 7000);
+            if (scrollToastDismissButton instanceof HTMLElement) {
+                scrollToastDismissButton.focus({ preventScroll: true });
+            }
+        }
+
+        function hideScrollPrompt() {
+            if (!(scrollToast instanceof HTMLElement)) return;
+            scrollToast.classList.remove('visible');
+            if (scrollToastTimer) {
+                clearTimeout(scrollToastTimer);
+                scrollToastTimer = null;
+            }
+            setTimeout(() => {
+                if (!(scrollToast instanceof HTMLElement)) return;
+                if (!scrollToast.classList.contains('visible')) {
+                    scrollToast.hidden = true;
+                }
+            }, 200);
+        }
     });
 
 })();
-

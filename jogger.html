@@ -28,7 +28,7 @@
                     </div>
                     <div>
                         <h3 id="room-form-heading">Add the rooms you remember</h3>
-                        <p class="helper-text">Tap "Select a room type" below, add a name if you'd like, and then tap "Add room" on the right!</p>
+                        <p class="helper-text">Tap "Select a room type" below, add a name if you'd like, and then tap "Add room" down below!</p>
                     </div>
                 </div>
                 <form id="room-form">
@@ -39,7 +39,6 @@
                         <option value="Living room">Living room</option>
                         <option value="Bedroom">Bedroom</option>
                         <option value="Bathroom">Bathroom</option>
-                        <option value="Master bathroom">Master bathroom</option>
                         <option value="Dining room">Dining room</option>
                         <option value="Office / Study">Office / Study</option>
                         <option value="Loft">Loft</option>
@@ -50,7 +49,7 @@
                         <option value="Other">Other</option>
                     </select>
                     <label class="sr-only" for="room-name">Room name</label>
-                    <input id="room-name" name="room-name" type="text" placeholder="Add your own name (optional)">
+                    <input id="room-name" name="room-name" type="text" placeholder="Your own name (optional)">
                     <button class="primary-button" type="submit">Add room</button>
                 </form>
             </section>
@@ -63,9 +62,9 @@
                         </div>
                         <div>
                             <h3 id="rooms-heading">Common items</h3>
-                            <p class="helper-text">Swipe through the stack for each room: right if you have the item, left if you do not.</p>
+                            <p class="helper-text">Swipe through the stack of pictures for each room. Don't worry if there are missing items this is just to help your inventory specialist before the next meeting.</p>
                             <br>
-                            <p class="helper-text">Don't worry if you are missing a bunch of items! We will go back through at your next meeting.</p>
+                            <p class="helper-text">You can close your browser and come back at anytime. Your progress will save!</p>
                         </div>
                     </div>
                 </div>
@@ -92,6 +91,18 @@
             </div>
         </main>
 
+        <div id="scroll-toast" class="scroll-toast" role="status" aria-live="polite" hidden>
+            <div class="scroll-toast__content">
+                <div class="scroll-toast__header">
+                    <div>
+                        <p class="scroll-toast__title">Room added</p>
+                        <p class="scroll-toast__message">Scroll down to see your room and start swiping through the items.</p>
+                    </div>
+                    <button id="scroll-toast-dismiss" class="ghost-button scroll-toast__dismiss" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+
         <div class="modal-overlay" id="room-help-modal" role="dialog" aria-modal="true" aria-labelledby="room-help-title" hidden>
             <div class="modal-card">
                 <div class="modal-header">
@@ -102,8 +113,8 @@
                     <ul>
                         <li>First, select a room type using the dropdown on the left.</li>
                         <li>Next, you have the option of naming your room if the preset doesn't describe it properly.</li>
-                        <li>Use short, simple names. You can add a custom room name in the optional field.</li>
-                        <li>When you're all done, click the "Add room" button and you'll see it populate in the next section!</li>
+                        <li>When you're all done, click the "Add room" button and you'll see it populate in the next section.</li>
+                        <li>Scroll down to view your rooms and start adding items!</li>
                     </ul>
                 </div>
             </div>

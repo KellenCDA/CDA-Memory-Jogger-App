@@ -25,9 +25,11 @@
     };
 
     const ITEM_IMAGE_OVERRIDES = {
-        'tomato, sauce, paste': 'https://www.alimentarium.org/sites/default/files/media/image/2016-10/AL001-02%20tomate_0.jpg',
-        'vegetables': 'https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg',
-        'answering machine': 'https://network-telecom.com/wp-content/uploads/Avaya-phone.png'
+        'tomato, sauce, paste': "inventory_item_pictures/Screenshot 2025-12-02 102457.png",
+        'vegetables': "inventory_item_pictures/Screenshot 2025-12-02 102852.png",
+        'answering machine': "inventory_item_pictures/Screenshot 2025-12-02 103045.png",
+        'cell phone': "inventory_item_pictures/Screenshot 2025-12-02 104348.png",
+        'clocks': "inventory_item_pictures/Screenshot 2025-12-02 103256.png"
     };
 
     const ITEM_IMAGES = Object.entries(ITEM_OPTIONS).reduce((catalog, [category, items]) => {

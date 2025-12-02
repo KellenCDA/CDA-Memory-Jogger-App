@@ -68,13 +68,11 @@
         const submissionDataInput = document.getElementById('submission-data');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
-        const scrollToast = document.getElementById('scroll-toast');
-        const scrollToastDismissButton = document.getElementById('scroll-toast-dismiss');
+        const roomCounter = document.getElementById('room-counter');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
         let pointerState = null;
-        let scrollToastTimer = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -104,6 +102,7 @@
         const state = loadState();
         renderRooms(state.rooms);
         updateSubmissionData(state.rooms);
+        updateRoomCounter(state.rooms);
 
         roomForm?.addEventListener('submit', (event) => {
             event.preventDefault();
@@ -128,7 +127,6 @@
                     openSwipePanel(newPanel, newRoom);
                 }
             }
-            showScrollPrompt();
             if (roomCategorySelect) {
                 const wasFocused = document.activeElement === roomCategorySelect;
                 if (wasFocused) {
@@ -219,8 +217,6 @@
             updateSubmissionData(state.rooms);
         });
 
-        scrollToastDismissButton?.addEventListener('click', hideScrollPrompt);
-
         function openModal(modalId, trigger) {
             const modal = document.getElementById(modalId);
             if (!(modal instanceof HTMLElement)) return;
@@ -246,6 +242,7 @@
         function renderRooms(rooms) {
             if (!roomsGrid) return;
             roomsGrid.innerHTML = '';
+            updateRoomCounter(rooms);
 
             if (!rooms.length) {
                 const emptyState = document.createElement('p');
@@ -504,33 +501,16 @@
             submissionDataInput.value = summary.length ? summary.join('\n') : 'No rooms added yet.';
         }
 
-        function showScrollPrompt() {
-            if (!(scrollToast instanceof HTMLElement)) return;
-            scrollToast.hidden = false;
-            scrollToast.classList.add('visible');
-            if (scrollToastTimer) {
-                clearTimeout(scrollToastTimer);
+        function updateRoomCounter(rooms) {
+            if (!(roomCounter instanceof HTMLElement)) return;
+            const count = rooms.length;
+            if (count === 0) {
+                roomCounter.textContent = 'No rooms added yet.';
+            } else {
+                roomCounter.textContent = `${count} room${count === 1 ? '' : 's'} added.`;
             }
-            scrollToastTimer = window.setTimeout(hideScrollPrompt, 7000);
-            if (scrollToastDismissButton instanceof HTMLElement) {
-                scrollToastDismissButton.focus({ preventScroll: true });
-            }
-        }
-
-        function hideScrollPrompt() {
-            if (!(scrollToast instanceof HTMLElement)) return;
-            scrollToast.classList.remove('visible');
-            if (scrollToastTimer) {
-                clearTimeout(scrollToastTimer);
-                scrollToastTimer = null;
-            }
-            setTimeout(() => {
-                if (!(scrollToast instanceof HTMLElement)) return;
-                if (!scrollToast.classList.contains('visible')) {
-                    scrollToast.hidden = true;
-                }
-            }, 200);
         }
     });
+
 
 })();

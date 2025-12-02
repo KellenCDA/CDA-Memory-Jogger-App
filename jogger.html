@@ -13,6 +13,8 @@
             <p class="tagline">Add the rooms in your home and place the essentials where they belong.</p>
         </header>
 
+        <div id="room-counter" class="room-counter" role="status" aria-live="polite">No rooms added yet.</div>
+
         <main class="content-card">
             <div class="card-header stacked-header">
                 <div class="title-group">
@@ -90,18 +92,6 @@
                 <a id="index_link" class="secondary-link" href="index.html">Back to home</a>
             </div>
         </main>
-
-        <div id="scroll-toast" class="scroll-toast" role="status" aria-live="polite" hidden>
-            <div class="scroll-toast__content">
-                <div class="scroll-toast__header">
-                    <div>
-                        <p class="scroll-toast__title">Room added</p>
-                        <p class="scroll-toast__message">Scroll down to see your room and start swiping through the items.</p>
-                    </div>
-                    <button id="scroll-toast-dismiss" class="ghost-button scroll-toast__dismiss" type="button">Close</button>
-                </div>
-            </div>
-        </div>
 
         <div class="modal-overlay" id="room-help-modal" role="dialog" aria-modal="true" aria-labelledby="room-help-title" hidden>
             <div class="modal-card">

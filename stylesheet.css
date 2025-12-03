@@ -414,7 +414,11 @@ a {
     border-radius: 14px;
     padding: 18px;
     display: grid;
-    gap: 12px;
+    gap: 10px;
+}
+
+.items-section .stacked-header {
+    gap: 6px;
 }
 
 .submission-section {
@@ -508,9 +512,13 @@ a {
     box-shadow: 0 24px 64px rgba(0, 0, 0, 0.12);
     display: grid;
     grid-template-rows: auto auto 1fr;
-    gap: 14px;
-    min-height: clamp(360px, 58vh, 560px);
+    gap: 12px;
+    min-height: auto;
     width: 100%;
+}
+
+.swipe-panel[data-active="true"] {
+    min-height: clamp(320px, 52vh, 520px);
 }
 
 .swipe-panel--preview {
@@ -521,10 +529,11 @@ a {
 
 .swipe-panel .start-swipe-row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
 }
 
 .swipe-header {
@@ -538,7 +547,7 @@ a {
 .swipe-deck {
     position: relative;
     height: 100%;
-    min-height: clamp(280px, 44vh, 480px);
+    min-height: clamp(220px, 36vh, 420px);
     margin: 6px 0 10px;
     max-width: 680px;
     justify-self: center;
@@ -754,4 +763,8 @@ a {
     border-radius: 12px;
     border: 1px solid #d6cabb;
     font-size: 1.05rem;
+}
+
+.swipe-panel--preview {
+  min-height: auto !important;
 }

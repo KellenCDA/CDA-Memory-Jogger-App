@@ -335,10 +335,10 @@
                 const swipeHeader = document.createElement('div');
                 swipeHeader.className = 'swipe-header';
                 const swipeTitle = document.createElement('h5');
-                swipeTitle.textContent = 'Swipe the deck';
+                swipeTitle.textContent = 'Begin:';
                 const swipeHint = document.createElement('p');
                 swipeHint.className = 'helper-text';
-                swipeHint.textContent = 'Tap start to swipe right to add, left to skip.';
+                swipeHint.textContent = 'Tap Start swiping to begin for this room.';
                 swipeHeader.append(swipeTitle, swipeHint);
 
                 const startRow = document.createElement('div');
@@ -347,7 +347,7 @@
                 swipeStatus.className = 'helper-text swipe-status';
                 const remainingCount = getRemainingItems(room).length;
                 swipeStatus.textContent = remainingCount
-                    ? `${remainingCount} item${remainingCount === 1 ? '' : 's'} ready to swipe`
+                    ? `${remainingCount} item${remainingCount === 1 ? '' : 's'} left ready to swipe`
                     : 'Everything in this room has already been reviewed.';
                 const startButton = document.createElement('button');
                 startButton.className = 'primary-button';

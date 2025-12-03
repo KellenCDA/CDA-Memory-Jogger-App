@@ -125,6 +125,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal-overlay" id="swipe-modal" role="dialog" aria-modal="true" aria-labelledby="swipe-modal-title" hidden>
+            <div class="modal-card swipe-modal-card">
+                <div class="modal-header">
+                    <div class="title-group">
+                        <h3 id="swipe-modal-title">Swipe items</h3>
+                        <p id="swipe-modal-room" class="helper-text"></p>
+                    </div>
+                    <button class="ghost-button modal-close" type="button" data-close-swipe>Close</button>
+                </div>
+                <div class="modal-body swipe-modal-body">
+                    <p id="swipe-modal-status" class="helper-text swipe-status">Loading items...</p>
+                    <div id="swipe-modal-deck" class="swipe-deck"></div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="javascript.js"></script>
 </body>

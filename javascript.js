@@ -53,6 +53,11 @@
         return ITEM_OPTIONS[DEFAULT_CATEGORY] || [];
     }
 
+    function getRemainingItems(room) {
+        const reviewedItems = Array.isArray(room.reviewedItems) ? room.reviewedItems : [];
+        return getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
+    }
+
     function getItemImage(itemName) {
         const normalized = normalizeItemKey(itemName);
         return ITEM_IMAGES[normalized] || '';
@@ -63,6 +68,7 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+        const body = document.body;
         const roomForm = document.getElementById('room-form');
         const roomCategorySelect = document.getElementById('room-category');
         const roomNameInput = document.getElementById('room-name');
@@ -72,10 +78,16 @@
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         const roomCounter = document.getElementById('room-counter');
+        const swipeModal = document.getElementById('swipe-modal');
+        const swipeModalDeck = document.getElementById('swipe-modal-deck');
+        const swipeModalStatus = document.getElementById('swipe-modal-status');
+        const swipeModalRoom = document.getElementById('swipe-modal-room');
+        const swipeModalClose = document.querySelector('[data-close-swipe]');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
         let pointerState = null;
+        let activeSwipeRoomId = null;
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -88,7 +100,7 @@
         });
 
         modals.forEach((modal) => {
-            if (!(modal instanceof HTMLElement)) return;
+            if (!(modal instanceof HTMLElement) || modal.id === 'swipe-modal') return;
             modal.addEventListener('click', (event) => {
                 if (event.target === modal || (event.target instanceof HTMLElement && event.target.hasAttribute('data-close-modal'))) {
                     closeModal();
@@ -99,7 +111,13 @@
         document.addEventListener('keydown', (event) => {
             if (event.key === 'Escape' && activeModal) {
                 closeModal();
+            } else if (event.key === 'Escape' && swipeModal && !swipeModal.hidden) {
+                closeSwipeSession();
             }
+        });
+
+        swipeModalClose?.addEventListener('click', () => {
+            closeSwipeSession();
         });
 
         const state = loadState();
@@ -123,13 +141,6 @@
             saveState(state);
             renderRooms(state.rooms);
             updateSubmissionData(state.rooms);
-            const newRoom = state.rooms[state.rooms.length - 1];
-            if (newRoom && roomsGrid) {
-                const newPanel = roomsGrid.querySelector(`[data-room-id="${newRoom.id}"] .swipe-panel`);
-                if (newPanel instanceof HTMLElement) {
-                    openSwipePanel(newPanel, newRoom);
-                }
-            }
             if (roomCategorySelect) {
                 const wasFocused = document.activeElement === roomCategorySelect;
                 if (wasFocused) {
@@ -153,6 +164,11 @@
             const room = state.rooms.find((r) => r.id === roomId);
             if (!room) return;
 
+            if (target.dataset.action === 'start-swiping') {
+                openSwipeSession(room);
+                return;
+            }
+
             if (target.dataset.action === 'remove-item') {
                 const item = target.dataset.item;
                 room.items = room.items.filter((entry) => entry !== item);
@@ -174,10 +190,12 @@
             }
         });
 
-        roomsGrid?.addEventListener('pointerdown', (event) => {
+        document.addEventListener('pointerdown', (event) => {
             const targetCard = event.target instanceof HTMLElement ? event.target.closest('.swipe-card') : null;
             if (!(targetCard instanceof HTMLElement)) return;
-            const panel = targetCard.closest('.swipe-panel');
+            const inlinePanel = targetCard.closest('.swipe-panel');
+            const modalPanel = swipeModal && swipeModal.contains(targetCard) ? swipeModal : null;
+            const panel = inlinePanel || modalPanel;
             if (!(panel instanceof HTMLElement) || panel.dataset.active !== 'true') return;
 
             activeSwipeCard = targetCard;
@@ -190,7 +208,7 @@
             targetCard.classList.add('dragging');
         });
 
-        roomsGrid?.addEventListener('pointermove', (event) => {
+        document.addEventListener('pointermove', (event) => {
             if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
             const deltaX = event.clientX - (pointerState.startX || 0);
             const rotate = deltaX * 0.05;
@@ -198,7 +216,7 @@
             activeSwipeCard.style.transform = `translate(calc(-50% + ${deltaX}px), ${offsetY}px) rotate(${rotate}deg)`;
         });
 
-        roomsGrid?.addEventListener('pointerup', (event) => {
+        document.addEventListener('pointerup', (event) => {
             if (!pointerState || !activeSwipeCard || event.pointerId !== pointerState.pointerId) return;
             const deltaX = event.clientX - (pointerState.startX || 0);
             const threshold = 90;
@@ -242,6 +260,40 @@
             activeModal = null;
         }
 
+        function openSwipeSession(room) {
+            if (!swipeModal || !swipeModalDeck || !swipeModalStatus) return;
+            activeSwipeRoomId = room.id;
+            swipeModal.dataset.roomId = room.id;
+            swipeModal.dataset.active = 'true';
+            swipeModal.hidden = false;
+            body.classList.add('no-scroll');
+            if (swipeModalRoom instanceof HTMLElement) {
+                swipeModalRoom.textContent = formatRoomTitle(room);
+            }
+            renderSwipeDeck(swipeModal, room);
+            const card = swipeModal.querySelector('.swipe-modal-card');
+            if (card instanceof HTMLElement) {
+                card.setAttribute('tabindex', '-1');
+                card.focus();
+            }
+        }
+
+        function closeSwipeSession() {
+            if (!swipeModal) return;
+            swipeModal.dataset.active = 'false';
+            swipeModal.hidden = true;
+            body.classList.remove('no-scroll');
+            activeSwipeCard = null;
+            pointerState = null;
+            if (activeSwipeRoomId) {
+                updateSwipePreview(activeSwipeRoomId);
+            }
+            activeSwipeRoomId = null;
+            if (swipeModalDeck instanceof HTMLElement) {
+                swipeModalDeck.innerHTML = '';
+            }
+        }
+
         function renderRooms(rooms) {
             if (!roomsGrid) return;
             roomsGrid.innerHTML = '';
@@ -277,7 +329,7 @@
                 titleRow.append(heading, categoryBadge, removeRoom);
 
                 const swipePanel = document.createElement('div');
-                swipePanel.className = 'swipe-panel';
+                swipePanel.className = 'swipe-panel swipe-panel--preview';
                 swipePanel.dataset.roomId = room.id;
 
                 const swipeHeader = document.createElement('div');
@@ -286,46 +338,58 @@
                 swipeTitle.textContent = 'Swipe the deck';
                 const swipeHint = document.createElement('p');
                 swipeHint.className = 'helper-text';
-                swipeHint.textContent = 'Swipe right to add, left to skip.';
+                swipeHint.textContent = 'Tap start to swipe right to add, left to skip.';
                 swipeHeader.append(swipeTitle, swipeHint);
 
+                const startRow = document.createElement('div');
+                startRow.className = 'start-swipe-row';
                 const swipeStatus = document.createElement('p');
                 swipeStatus.className = 'helper-text swipe-status';
-                swipeStatus.textContent = 'Loading items...';
+                const remainingCount = getRemainingItems(room).length;
+                swipeStatus.textContent = remainingCount
+                    ? `${remainingCount} item${remainingCount === 1 ? '' : 's'} ready to swipe`
+                    : 'Everything in this room has already been reviewed.';
+                const startButton = document.createElement('button');
+                startButton.className = 'primary-button';
+                startButton.type = 'button';
+                startButton.dataset.action = 'start-swiping';
+                startButton.textContent = remainingCount ? 'Start swiping' : 'All items reviewed';
+                startButton.disabled = remainingCount === 0;
+                startRow.append(swipeStatus, startButton);
 
-                const deck = document.createElement('div');
-                deck.className = 'swipe-deck';
+                swipePanel.append(swipeHeader, startRow);
 
-                swipePanel.append(swipeHeader, swipeStatus, deck);
-
-                const listHeading = document.createElement('p');
-                listHeading.className = 'helper-text items-heading';
-                listHeading.textContent = room.items.length ? 'Items for this room:' : 'No items added yet.';
-
-                const list = document.createElement('ul');
-                list.className = 'items-list';
-                room.items.forEach((item) => {
-                    const li = document.createElement('li');
-                    li.className = 'item-row';
-                    const span = document.createElement('span');
-                    span.textContent = item;
-                    const removeButton = document.createElement('button');
-                    removeButton.className = 'remove-item';
-                    removeButton.type = 'button';
-                    removeButton.dataset.action = 'remove-item';
-                    removeButton.dataset.item = item;
-                    removeButton.textContent = 'Remove';
-                    li.append(span, removeButton);
-                    list.appendChild(li);
-                });
-
-                card.append(titleRow, swipePanel, listHeading);
+                const itemsAccordion = document.createElement('details');
+                itemsAccordion.className = 'items-accordion';
                 if (room.items.length) {
-                    card.appendChild(list);
+                    itemsAccordion.setAttribute('open', '');
                 }
-                roomsGrid.appendChild(card);
+                const summary = document.createElement('summary');
+                summary.textContent = room.items.length ? `Items for this room (${room.items.length})` : 'No items added yet.';
+                itemsAccordion.appendChild(summary);
 
-                openSwipePanel(swipePanel, room);
+                if (room.items.length) {
+                    const list = document.createElement('ul');
+                    list.className = 'items-list';
+                    room.items.forEach((item) => {
+                        const li = document.createElement('li');
+                        li.className = 'item-row';
+                        const span = document.createElement('span');
+                        span.textContent = item;
+                        const removeButton = document.createElement('button');
+                        removeButton.className = 'remove-item';
+                        removeButton.type = 'button';
+                        removeButton.dataset.action = 'remove-item';
+                        removeButton.dataset.item = item;
+                        removeButton.textContent = 'Remove';
+                        li.append(span, removeButton);
+                        list.appendChild(li);
+                    });
+                    itemsAccordion.appendChild(list);
+                }
+
+                card.append(titleRow, swipePanel, itemsAccordion);
+                roomsGrid.appendChild(card);
             });
         }
 
@@ -402,18 +466,15 @@
             return card;
         }
 
-        function openSwipePanel(panel, room) {
+        function renderSwipeDeck(panel, room) {
             if (!panel || !room) return;
             const roomId = room.id;
-            const reviewedItems = Array.isArray(room.reviewedItems) ? room.reviewedItems : [];
-            const availableItems = getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
+            const availableItems = getRemainingItems(room);
             const renderableItems = availableItems.slice(0, MAX_RENDERED_CARDS);
             roomQueues.set(roomId, availableItems.slice(MAX_RENDERED_CARDS));
 
             panel.dataset.active = 'true';
             panel.dataset.roomId = roomId;
-            panel.dataset.collapsed = 'false';
-            panel.classList.remove('collapsed');
 
             const deck = panel.querySelector('.swipe-deck');
             const status = panel.querySelector('.swipe-status');
@@ -434,6 +495,27 @@
             });
 
             status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
+        }
+
+        function updateSwipePreview(roomId) {
+            if (!roomsGrid) return;
+            const room = state.rooms.find((entry) => entry.id === roomId);
+            if (!room) return;
+            const panel = roomsGrid.querySelector(`[data-room-id="${roomId}"] .swipe-panel`);
+            const status = panel?.querySelector('.swipe-status');
+            const startButton = panel?.querySelector('[data-action="start-swiping"]');
+            const remainingCount = getRemainingItems(room).length;
+
+            if (status instanceof HTMLElement) {
+                status.textContent = remainingCount
+                    ? `${remainingCount} item${remainingCount === 1 ? '' : 's'} ready to swipe`
+                    : 'Everything in this room has already been reviewed.';
+            }
+
+            if (startButton instanceof HTMLButtonElement) {
+                startButton.disabled = remainingCount === 0;
+                startButton.textContent = remainingCount ? 'Start swiping' : 'All items reviewed';
+            }
         }
 
         function performSwipeAnimation(panel, card, direction) {
@@ -483,23 +565,36 @@
             if (status instanceof HTMLElement) {
                 status.textContent = remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!';
             }
+
+            updateSwipePreview(roomId);
         }
 
         function appendItemToCard(roomId, item) {
             if (!roomsGrid) return;
             const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
             if (!(roomCard instanceof HTMLElement)) return;
-            let list = roomCard.querySelector('.items-list');
-            const heading = roomCard.querySelector('.items-heading');
-
-            if (heading instanceof HTMLElement) {
-                heading.textContent = 'Items for this room:';
+            let accordion = roomCard.querySelector('.items-accordion');
+            if (!(accordion instanceof HTMLElement)) {
+                accordion = document.createElement('details');
+                accordion.className = 'items-accordion';
+                accordion.setAttribute('open', '');
+                const summary = document.createElement('summary');
+                summary.textContent = 'Items for this room';
+                accordion.appendChild(summary);
+                roomCard.appendChild(accordion);
             }
 
+            let summary = accordion.querySelector('summary');
+            if (!(summary instanceof HTMLElement)) {
+                summary = document.createElement('summary');
+                accordion.prepend(summary);
+            }
+
+            let list = accordion.querySelector('.items-list');
             if (!(list instanceof HTMLUListElement)) {
                 list = document.createElement('ul');
                 list.className = 'items-list';
-                roomCard.appendChild(list);
+                accordion.appendChild(list);
             }
 
             const li = document.createElement('li');
@@ -514,6 +609,10 @@
             removeButton.textContent = 'Remove';
             li.append(span, removeButton);
             list.appendChild(li);
+
+            const count = list.children.length;
+            summary.textContent = `Items for this room (${count})`;
+            accordion.setAttribute('open', '');
         }
 
         function updateSubmissionData(rooms) {

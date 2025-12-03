@@ -26,6 +26,11 @@ body {
     overflow-x: hidden;
 }
 
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
 #index_body,
 #jogger_body {
     width: 100%;
@@ -442,6 +447,16 @@ a {
     gap: 12px;
 }
 
+.swipe-modal-card {
+    width: min(840px, 100%);
+    max-height: 90vh;
+}
+
+.swipe-modal-body {
+    display: grid;
+    gap: 12px;
+}
+
 .modal-header {
     display: flex;
     justify-content: space-between;
@@ -496,6 +511,20 @@ a {
     gap: 14px;
     min-height: clamp(360px, 58vh, 560px);
     width: 100%;
+}
+
+.swipe-panel--preview {
+    grid-template-rows: auto;
+    gap: 10px;
+    min-height: auto;
+}
+
+.swipe-panel .start-swipe-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .swipe-header {
@@ -601,6 +630,35 @@ a {
     padding-left: 18px;
     display: grid;
     gap: 6px;
+}
+
+.items-accordion {
+    border-top: 1px solid #e4d8c8;
+    padding: 8px 18px 12px;
+}
+
+.items-accordion summary {
+    cursor: pointer;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.items-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.items-accordion summary::before {
+    content: '\25BE';
+    font-size: 0.85rem;
+    display: inline-block;
+    transition: transform 120ms ease;
+}
+
+.items-accordion[open] summary::before {
+    transform: rotate(-180deg);
 }
 
 .item-row {

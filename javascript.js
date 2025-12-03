@@ -356,7 +356,14 @@
         }
 
         function generateId() {
-            return crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+            try {
+                if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+                    return crypto.randomUUID();
+                }
+            } catch (error) {
+                console.warn('Falling back to timestamp-based IDs', error);
+            }
+            return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
         }
 
         function formatRoomTitle(room) {

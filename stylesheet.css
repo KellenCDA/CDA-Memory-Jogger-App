@@ -552,7 +552,7 @@ a {
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
     position: relative;
-    top: 190px;
+    top: 130px;
 }
 
 .swipe-card.dragging {
@@ -565,7 +565,7 @@ a {
     font-weight: 800;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 140px;
 }
 
 .swipe-panel.collapsed {

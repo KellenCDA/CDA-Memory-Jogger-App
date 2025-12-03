@@ -520,7 +520,7 @@ a {
 .swipe-card {
     position: absolute;
     inset: 0;
-    width: clamp(320px, 88vw, 640px);
+    width: clamp(300px, 82vw, 600px);
     min-height: clamp(180px, 32vh, 320px);
     margin: 0 auto;
     border-radius: 16px;
@@ -533,7 +533,7 @@ a {
     text-align: center;
     gap: 14px;
     transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
-    max-width: 640px;
+    max-width: 540px;
     margin: 0 auto;
     left: 50%;
     transform: translate(-50%, 0);

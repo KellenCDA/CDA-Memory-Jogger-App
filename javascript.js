@@ -43,6 +43,9 @@
         return catalog;
     }, { ...ITEM_IMAGE_OVERRIDES });
 
+    const MAX_RENDERED_CARDS = 10;
+    const roomQueues = new Map();
+
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
             return ITEM_OPTIONS[category];
@@ -373,11 +376,39 @@
             return room.category || DEFAULT_CATEGORY;
         }
 
+        function createSwipeCard(item, zIndexValue) {
+            const card = document.createElement('div');
+            card.className = 'swipe-card';
+            card.dataset.item = item;
+            if (zIndexValue) {
+                card.style.zIndex = `${zIndexValue}`;
+            }
+
+            const imageUrl = getItemImage(item);
+            if (imageUrl) {
+                card.classList.add('swipe-card--with-image');
+                card.style.backgroundImage = `linear-gradient(180deg, rgba(9, 16, 26, 0.62) 0%, rgba(9, 16, 26, 0.42) 100%), url('${imageUrl}')`;
+            }
+
+            const label = document.createElement('p');
+            label.className = 'swipe-card-title';
+            label.textContent = item;
+
+            const tip = document.createElement('p');
+            tip.className = 'helper-text';
+            tip.textContent = 'Swipe right to add, left to skip';
+
+            card.append(label, tip);
+            return card;
+        }
+
         function openSwipePanel(panel, room) {
             if (!panel || !room) return;
             const roomId = room.id;
             const reviewedItems = Array.isArray(room.reviewedItems) ? room.reviewedItems : [];
             const availableItems = getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
+            const renderableItems = availableItems.slice(0, MAX_RENDERED_CARDS);
+            roomQueues.set(roomId, availableItems.slice(MAX_RENDERED_CARDS));
 
             panel.dataset.active = 'true';
             panel.dataset.roomId = roomId;
@@ -395,29 +426,10 @@
                 return;
             }
 
-            const totalCards = availableItems.length;
+            const totalCards = renderableItems.length;
 
-            availableItems.forEach((item, index) => {
-                const card = document.createElement('div');
-                card.className = 'swipe-card';
-                card.dataset.item = item;
-                card.style.zIndex = `${totalCards - index}`;
-
-                const imageUrl = getItemImage(item);
-                if (imageUrl) {
-                    card.classList.add('swipe-card--with-image');
-                    card.style.backgroundImage = `linear-gradient(180deg, rgba(9, 16, 26, 0.62) 0%, rgba(9, 16, 26, 0.42) 100%), url('${imageUrl}')`;
-                }
-
-                const label = document.createElement('p');
-                label.className = 'swipe-card-title';
-                label.textContent = item;
-
-                const tip = document.createElement('p');
-                tip.className = 'helper-text';
-                tip.textContent = 'Swipe right to add, left to skip';
-
-                card.append(label, tip);
+            renderableItems.forEach((item, index) => {
+                const card = createSwipeCard(item, totalCards - index);
                 deck.appendChild(card);
             });
 
@@ -437,6 +449,7 @@
             const roomId = panel.dataset.roomId;
             const room = state.rooms.find((r) => r.id === roomId);
             const status = panel.querySelector('.swipe-status');
+            const queue = roomQueues.get(roomId) || [];
 
             card.remove();
 
@@ -455,10 +468,18 @@
                     updateSubmissionData(state.rooms);
                 }
 
+
                 saveState(state);
             }
 
-            const remaining = deck.children.length;
+            if (queue.length) {
+                const nextItem = queue.shift();
+                roomQueues.set(roomId, queue);
+                const nextCard = createSwipeCard(nextItem, 0);
+                deck.appendChild(nextCard);
+            }
+
+            const remaining = deck.children.length + queue.length;
             if (status instanceof HTMLElement) {
                 status.textContent = remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!';
             }

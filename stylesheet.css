@@ -445,7 +445,7 @@ a {
     background: var(--card);
     border-radius: 16px;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
-    padding: 18px;
+    padding: 10px;
     width: min(540px, 100%);
     display: grid;
     gap: 12px;
@@ -590,6 +590,7 @@ a {
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
     position: relative;
+    top:130px;
 }
 
 .swipe-card.dragging {
@@ -602,6 +603,7 @@ a {
     font-weight: 800;
     text-align: center;
     position: relative;
+    top:140px;
 }
 
 .swipe-panel.collapsed {

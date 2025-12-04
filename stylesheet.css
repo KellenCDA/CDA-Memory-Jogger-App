@@ -579,9 +579,10 @@ a {
 }
 
 .swipe-card--with-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-color: #0b1726;
     color: #f8fbff;
     text-shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
     border: 1px solid rgba(255, 255, 255, 0.2);

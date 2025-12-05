@@ -80,12 +80,15 @@
                         <p class="helper-text">Add your full name so we know who you are, then submit your rooms and items.</p>
                     </div>
                 </div>
-                <form id="submission-form" action="https://formspree.io/f/mqanlpzn" method="POST" class="submit-form">
+                <!-- --RE-- Form now submits via JS fetch to Power Automate instead of Formspree. -->
+                <form id="submission-form" class="submit-form">
                     <label for="submitter-name">Your Name</label>
                     <input id="submitter-name" name="name" type="text" placeholder="Enter: " required>
                     <input id="submission-data" name="room_data" type="hidden">
                     <button class="primary-button" type="submit">Submit my list</button>
+                    <p id="submission-status" class="helper-text" role="status" aria-live="polite"></p>
                 </form>
+                <!-- --RE-- End Power Automate submission hook. -->
             </section>
 
             <div class="page-footer">

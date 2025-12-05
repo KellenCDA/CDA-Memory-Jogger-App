@@ -83,7 +83,9 @@
         const swipeModalDeck = document.getElementById('swipe-modal-deck');
         const swipeModalStatus = document.getElementById('swipe-modal-status');
         const swipeModalRoom = document.getElementById('swipe-modal-room');
+        const submitterNameInput = document.getElementById('submitter-name'); // --RE-- Added to capture submitter's name
         const swipeModalClose = document.querySelector('[data-close-swipe]');
+        const submissionStatus = document.getElementById('submission-status');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
@@ -252,9 +254,32 @@
             pointerState = null;
         });
 
-        submissionForm?.addEventListener('submit', () => {
+        //--RE-- this sends submission payload to Power Automate instead of Formspree
+        submissionForm?.addEventListener('submit', async (event) => {
+            event.preventDefault();
             updateSubmissionData(state.rooms);
+            const payload={name: submitterNameInput?.value?.trim() || '', rooms: state.rooms};
+
+            if (submissionStatus instanceof HTMLElement) {
+                submissionStatus.textContent = 'Sending to Power Automate...';
+            } try {
+                const response = await fetch('https://defaulta8611dc15eaa4824bfd7d17c684c07.4a.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/1aa8c47acec34103b1695aac81bc32a3/triggers/manual/paths/invoke?api-version=1', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(payload)
+                });
+ 
+                if (!response.ok) 
+                    throw new Error(`HTTP ${response.status}`);
+                if (submissionStatus instanceof HTMLElement)
+                    submissionStatus.textContent = 'Submitted successfully!';
+            } catch (error) { //error catching
+                console.error('Power Automate submit failed', error);
+                if (submissionStatus instanceof HTMLElement)
+                    submissionStatus.textContent = 'Submit failed';
+            }
         });
+        // --RE-- End Power Automate submission handler.
 
         function openModal(modalId, trigger) {
             const modal = document.getElementById(modalId);

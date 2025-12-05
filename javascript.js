@@ -258,7 +258,7 @@
         submissionForm?.addEventListener('submit', async (event) => {
             event.preventDefault();
             updateSubmissionData(state.rooms);
-            const payload={name: submitterNameInput?.value?.trim() || '', rooms: state.rooms};
+            const payload={name: submitterNameInput?.value?.trim() || '', rooms: state.rooms}; //payload includes submitter's name and rooms data 
 
             if (submissionStatus instanceof HTMLElement) {
                 submissionStatus.textContent = 'Sending to Power Automate...';

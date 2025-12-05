@@ -26,9 +26,18 @@ body {
     overflow-x: hidden;
 }
 
+html.no-scroll,
 body.no-scroll {
     overflow: hidden;
-    height: 100vh;
+    overscroll-behavior: contain;
+    touch-action: none;
+}
+
+body.no-scroll {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 
 #index_body,
@@ -261,6 +270,29 @@ a {
     box-shadow: 0 10px 28px rgba(21, 88, 173, 0.28);
 }
 
+.primary-button.help-trigger{
+  background: #ce7337;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  height: 34px;
+  width: 80px;         
+  padding: 0;            
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.primary-button.help-trigger:hover,
+.primary-button.help-trigger:focus-visible {
+    background: #ce7337;
+}
+
 .ghost-button {
     background: transparent;
     color: var(--muted);
@@ -445,10 +477,10 @@ a {
     background: var(--card);
     border-radius: 16px;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
-    padding: 18px;
+    padding: 8px;
     width: min(540px, 100%);
     display: grid;
-    gap: 12px;
+    gap: 6px;
 }
 
 .swipe-modal-card {
@@ -504,8 +536,8 @@ a {
 }
 
 .swipe-panel {
-    margin-top: 14px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px;
     border-radius: 18px;
     border: none;
     background: linear-gradient(180deg, #fffaf4 0%, #f0e4d3 100%);
@@ -564,12 +596,12 @@ a {
     border-radius: 16px;
     background: #ffffff;
 
-    padding: 26px;
+    padding: 10px;
     display: grid;
     align-content: center;
     justify-items: center;
     text-align: center;
-    gap: 14px;
+    gap: 10px;
     transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
     max-width: 540px;
     margin: 0 auto;
@@ -579,10 +611,9 @@ a {
 }
 
 .swipe-card--with-image {
-    background-size: cover, contain;
-    background-repeat: no-repeat, no-repeat;
-    background-position: center, center;
-    background-color: #0b1726;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #f8fbff;
     text-shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -591,7 +622,7 @@ a {
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
     position: relative;
-    top: 130px;
+    top:130px;
 }
 
 .swipe-card.dragging {
@@ -604,7 +635,7 @@ a {
     font-weight: 800;
     text-align: center;
     position: relative;
-    top: 140px;
+    top:140px;
 }
 
 .swipe-panel.collapsed {
@@ -703,6 +734,10 @@ a {
         padding: 24px;
         font-size: 1rem;
     }
+
+  .swipe-card--with-image {
+    background-position: center bottom;
+  }
 
         .site-header h1 {
         font-size: 1.8rem;

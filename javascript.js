@@ -69,6 +69,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
         const body = document.body;
+        const root = document.documentElement;
         const roomForm = document.getElementById('room-form');
         const roomCategorySelect = document.getElementById('room-category');
         const roomNameInput = document.getElementById('room-name');
@@ -88,6 +89,23 @@
         let activeSwipeCard = null;
         let pointerState = null;
         let activeSwipeRoomId = null;
+        let scrollLockY = 0;
+
+        function lockScroll() {
+            if (!body || !root) return;
+            scrollLockY = window.scrollY || 0;
+            body.style.top = `-${scrollLockY}px`;
+            body.classList.add('no-scroll');
+            root.classList.add('no-scroll');
+        }
+
+        function unlockScroll() {
+            if (!body || !root) return;
+            body.classList.remove('no-scroll');
+            root.classList.remove('no-scroll');
+            body.style.top = '';
+            window.scrollTo({ top: scrollLockY });
+        }
 
         modalTriggers.forEach((trigger) => {
             if (!(trigger instanceof HTMLElement)) return;
@@ -266,7 +284,7 @@
             swipeModal.dataset.roomId = room.id;
             swipeModal.dataset.active = 'true';
             swipeModal.hidden = false;
-            body.classList.add('no-scroll');
+            lockScroll();
             if (swipeModalRoom instanceof HTMLElement) {
                 swipeModalRoom.textContent = formatRoomTitle(room);
             }
@@ -282,7 +300,7 @@
             if (!swipeModal) return;
             swipeModal.dataset.active = 'false';
             swipeModal.hidden = true;
-            body.classList.remove('no-scroll');
+            unlockScroll();
             activeSwipeCard = null;
             pointerState = null;
             if (activeSwipeRoomId) {

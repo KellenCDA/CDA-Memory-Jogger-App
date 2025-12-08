@@ -605,14 +605,19 @@
 
         function maybeAwardCheckpoint(room) {
             const totalReviewed = Array.isArray(room.reviewedItems) ? room.reviewedItems.length : 0;
-            const earned = Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [];
-            const nextCheckpoint = ACHIEVEMENT_CHECKPOINTS.find(
-                (checkpoint) => totalReviewed >= checkpoint.count && !earned.includes(checkpoint.count)
+            const earned = new Set(Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : []);
+            const newlyEarned = ACHIEVEMENT_CHECKPOINTS.filter(
+                (checkpoint) => totalReviewed >= checkpoint.count && !earned.has(checkpoint.count)
             );
 
-            if (!nextCheckpoint) return;
-            room.earnedCheckpoints = [...earned, nextCheckpoint.count];
-            showAchievementBadge(nextCheckpoint, room);
+            if (!newlyEarned.length) return;
+
+            newlyEarned.forEach((checkpoint) => {
+                earned.add(checkpoint.count);
+                showAchievementBadge(checkpoint, room);
+            });
+
+            room.earnedCheckpoints = Array.from(earned).sort((a, b) => a - b);
         }
 
         function showAchievementBadge(checkpoint, room) {
@@ -734,6 +739,7 @@
             }
         }
     });
+
 
 
 })();

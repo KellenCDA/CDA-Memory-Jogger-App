@@ -43,6 +43,12 @@
         return catalog;
     }, { ...ITEM_IMAGE_OVERRIDES });
 
+    const ACHIEVEMENT_CHECKPOINTS = [
+        { count: 3, title: 'Getting started', description: '3 items sorted in this room.' },
+        { count: 7, title: 'Steady pace', description: '7 items reviewed—keep it up!' },
+        { count: 12, title: 'Detail pro', description: '12 items sorted. Amazing focus!' }
+    ];
+
     const MAX_RENDERED_CARDS = 10;
     const roomQueues = new Map();
 
@@ -84,6 +90,8 @@
         const swipeModalStatus = document.getElementById('swipe-modal-status');
         const swipeModalRoom = document.getElementById('swipe-modal-room');
         const swipeModalClose = document.querySelector('[data-close-swipe]');
+        const swipeProgress = document.getElementById('swipe-progress');
+        const swipeAchievementFeed = document.getElementById('swipe-achievement-feed');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
@@ -154,7 +162,8 @@
                 category,
                 name,
                 items: [],
-                reviewedItems: []
+                reviewedItems: [],
+                earnedCheckpoints: []
             });
             saveState(state);
             renderRooms(state.rooms);
@@ -288,12 +297,16 @@
             if (swipeModalRoom instanceof HTMLElement) {
                 swipeModalRoom.textContent = formatRoomTitle(room);
             }
+            if (swipeAchievementFeed instanceof HTMLElement) {
+                swipeAchievementFeed.innerHTML = '';
+            }
             renderSwipeDeck(swipeModal, room);
             const card = swipeModal.querySelector('.swipe-modal-card');
             if (card instanceof HTMLElement) {
                 card.setAttribute('tabindex', '-1');
                 card.focus();
             }
+            updateSwipeProgress(room);
         }
 
         function closeSwipeSession() {
@@ -421,7 +434,8 @@
                         category: room.category || DEFAULT_CATEGORY,
                         name: room.name || '',
                         items: Array.isArray(room.items) ? room.items : [],
-                        reviewedItems: Array.isArray(room.reviewedItems) ? room.reviewedItems : []
+                        reviewedItems: Array.isArray(room.reviewedItems) ? room.reviewedItems : [],
+                        earnedCheckpoints: Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : []
                     }))
                 };
             } catch (error) {
@@ -511,6 +525,7 @@
             });
 
             status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
+            updateSwipeProgress(room);
         }
 
         function updateSwipePreview(roomId) {
@@ -566,7 +581,7 @@
                     updateSubmissionData(state.rooms);
                 }
 
-
+                maybeAwardCheckpoint(room);
                 saveState(state);
             }
 
@@ -583,6 +598,72 @@
             }
 
             updateSwipePreview(roomId);
+            if (room) {
+                updateSwipeProgress(room);
+            }
+        }
+
+        function maybeAwardCheckpoint(room) {
+            const totalReviewed = Array.isArray(room.reviewedItems) ? room.reviewedItems.length : 0;
+            const earned = Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [];
+            const nextCheckpoint = ACHIEVEMENT_CHECKPOINTS.find(
+                (checkpoint) => totalReviewed >= checkpoint.count && !earned.includes(checkpoint.count)
+            );
+
+            if (!nextCheckpoint) return;
+            room.earnedCheckpoints = [...earned, nextCheckpoint.count];
+            showAchievementBadge(nextCheckpoint, room);
+        }
+
+        function showAchievementBadge(checkpoint, room) {
+            if (!(swipeAchievementFeed instanceof HTMLElement)) return;
+            const badge = document.createElement('div');
+            badge.className = 'achievement-badge';
+
+            const icon = document.createElement('span');
+            icon.className = 'achievement-icon';
+            icon.textContent = '🎉';
+
+            const textGroup = document.createElement('div');
+            textGroup.className = 'achievement-text';
+
+            const title = document.createElement('p');
+            title.className = 'achievement-title';
+            title.textContent = `${checkpoint.title} for ${formatRoomTitle(room)}`;
+
+            const detail = document.createElement('p');
+            detail.className = 'helper-text';
+            detail.textContent = checkpoint.description;
+
+            textGroup.append(title, detail);
+            badge.append(icon, textGroup);
+            swipeAchievementFeed.appendChild(badge);
+
+            setTimeout(() => {
+                badge.classList.add('fade-out');
+                setTimeout(() => badge.remove(), 300);
+            }, 3600);
+        }
+
+        function updateSwipeProgress(room) {
+            if (!(swipeProgress instanceof HTMLElement)) return;
+            const totalReviewed = Array.isArray(room.reviewedItems) ? room.reviewedItems.length : 0;
+            const earned = Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [];
+            const nextCheckpoint = ACHIEVEMENT_CHECKPOINTS.find((checkpoint) => !earned.includes(checkpoint.count));
+
+            const pieces = [`${totalReviewed} item${totalReviewed === 1 ? '' : 's'} reviewed in this room.`];
+            if (nextCheckpoint) {
+                const remaining = Math.max(nextCheckpoint.count - totalReviewed, 0);
+                pieces.push(
+                    remaining === 0
+                        ? `You just unlocked "${nextCheckpoint.title}"!`
+                        : `${remaining} more to earn the "${nextCheckpoint.title}" badge.`
+                );
+            } else {
+                pieces.push('All badges unlocked. Fantastic work!');
+            }
+
+            swipeProgress.textContent = pieces.join(' ');
         }
 
         function appendItemToCard(roomId, item) {

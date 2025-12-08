@@ -493,6 +493,60 @@ a {
     gap: 12px;
 }
 
+.swipe-room-label {
+    margin: 0;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.swipe-progress {
+    margin: 0;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.achievement-feed {
+    display: grid;
+    gap: 10px;
+}
+
+.achievement-badge {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 1px solid #facc15;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    animation: pop-in 220ms ease;
+}
+
+.achievement-icon {
+    font-size: 1.3rem;
+}
+
+.achievement-title {
+    margin: 0;
+    font-weight: 800;
+}
+
+.achievement-text .helper-text {
+    margin: 2px 0 0;
+}
+
+.achievement-badge.fade-out {
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 240ms ease, transform 240ms ease;
+}
+
+@keyframes pop-in {
+    0% { transform: scale(0.96); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
 .modal-header {
     display: flex;
     justify-content: space-between;

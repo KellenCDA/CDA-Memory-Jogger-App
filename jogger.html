@@ -133,11 +133,17 @@
                     <button class="ghost-button modal-close" type="button" data-close-swipe>Close</button>
                 </div>
                 <div class="modal-body swipe-modal-body">
-                    <p id="swipe-modal-room" class="helper-text swipe-room-label"></p>
-                    <p id="swipe-modal-status" class="helper-text swipe-status">Loading items...</p>
+                    <div class="swipe-top-row" aria-live="polite">
+                        <p id="swipe-modal-room" class="helper-text swipe-room-label"></p>
+                        <p id="swipe-modal-status" class="helper-text swipe-status">Loading items...</p>
+                    </div>
                     <p id="swipe-progress" class="helper-text swipe-progress" aria-live="polite"></p>
-                    <div id="swipe-achievement-feed" class="achievement-feed" aria-live="polite"></div>
-                    <div id="swipe-modal-deck" class="swipe-deck"></div>
+                    <div class="swipe-modal-stage">
+                        <div id="swipe-modal-deck" class="swipe-deck"></div>
+                        <div class="swipe-achievement-rail" aria-live="polite">
+                            <div id="swipe-achievement-feed" class="achievement-feed"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

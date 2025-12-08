@@ -163,7 +163,8 @@
                 name,
                 items: [],
                 reviewedItems: [],
-                earnedCheckpoints: []
+                earnedCheckpoints: [],
+                swipeCount: 0
             });
             saveState(state);
             renderRooms(state.rooms);
@@ -435,7 +436,12 @@
                         name: room.name || '',
                         items: Array.isArray(room.items) ? room.items : [],
                         reviewedItems: Array.isArray(room.reviewedItems) ? room.reviewedItems : [],
-                        earnedCheckpoints: Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : []
+                        earnedCheckpoints: Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [],
+                        swipeCount: Number.isInteger(room.swipeCount)
+                            ? room.swipeCount
+                            : Array.isArray(room.reviewedItems)
+                                ? room.reviewedItems.length
+                                : 0
                     }))
                 };
             } catch (error) {
@@ -575,6 +581,11 @@
                     room.reviewedItems.push(item);
                 }
 
+                if (!Number.isInteger(room.swipeCount)) {
+                    room.swipeCount = 0;
+                }
+                room.swipeCount += 1;
+
                 if (direction === 'have' && !room.items.includes(item)) {
                     room.items.push(item);
                     appendItemToCard(roomId, item);
@@ -604,15 +615,20 @@
         }
 
         function maybeAwardCheckpoint(room) {
-            const totalReviewed = Array.isArray(room.reviewedItems) ? room.reviewedItems.length : 0;
-            const earned = Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [];
-            const nextCheckpoint = ACHIEVEMENT_CHECKPOINTS.find(
-                (checkpoint) => totalReviewed >= checkpoint.count && !earned.includes(checkpoint.count)
+            const totalReviewed = Number.isInteger(room.swipeCount) ? room.swipeCount : 0;
+            const earned = new Set(Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : []);
+            const newlyEarned = ACHIEVEMENT_CHECKPOINTS.filter(
+                (checkpoint) => totalReviewed >= checkpoint.count && !earned.has(checkpoint.count)
             );
 
-            if (!nextCheckpoint) return;
-            room.earnedCheckpoints = [...earned, nextCheckpoint.count];
-            showAchievementBadge(nextCheckpoint, room);
+            if (!newlyEarned.length) return;
+
+            newlyEarned.forEach((checkpoint) => {
+                earned.add(checkpoint.count);
+                showAchievementBadge(checkpoint, room);
+            });
+
+            room.earnedCheckpoints = Array.from(earned).sort((a, b) => a - b);
         }
 
         function showAchievementBadge(checkpoint, room) {
@@ -647,7 +663,7 @@
 
         function updateSwipeProgress(room) {
             if (!(swipeProgress instanceof HTMLElement)) return;
-            const totalReviewed = Array.isArray(room.reviewedItems) ? room.reviewedItems.length : 0;
+            const totalReviewed = Number.isInteger(room.swipeCount) ? room.swipeCount : 0;
             const earned = Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : [];
             const nextCheckpoint = ACHIEVEMENT_CHECKPOINTS.find((checkpoint) => !earned.includes(checkpoint.count));
 

@@ -301,6 +301,9 @@
             if (swipeAchievementFeed instanceof HTMLElement) {
                 swipeAchievementFeed.innerHTML = '';
             }
+            if (awardAnyMissedCheckpoints(room)) {
+                saveState(state);
+            }
             renderSwipeDeck(swipeModal, room);
             const card = swipeModal.querySelector('.swipe-modal-card');
             if (card instanceof HTMLElement) {
@@ -592,7 +595,7 @@
                     updateSubmissionData(state.rooms);
                 }
 
-                maybeAwardCheckpoint(room);
+                awardAnyMissedCheckpoints(room);
                 saveState(state);
             }
 
@@ -614,21 +617,24 @@
             }
         }
 
-        function maybeAwardCheckpoint(room) {
+        function awardAnyMissedCheckpoints(room, { showBadges = true } = {}) {
             const totalReviewed = Number.isInteger(room.swipeCount) ? room.swipeCount : 0;
             const earned = new Set(Array.isArray(room.earnedCheckpoints) ? room.earnedCheckpoints : []);
             const newlyEarned = ACHIEVEMENT_CHECKPOINTS.filter(
                 (checkpoint) => totalReviewed >= checkpoint.count && !earned.has(checkpoint.count)
             );
 
-            if (!newlyEarned.length) return;
+            if (!newlyEarned.length) return false;
 
             newlyEarned.forEach((checkpoint) => {
                 earned.add(checkpoint.count);
-                showAchievementBadge(checkpoint, room);
+                if (showBadges) {
+                    showAchievementBadge(checkpoint, room);
+                }
             });
 
             room.earnedCheckpoints = Array.from(earned).sort((a, b) => a - b);
+            return true;
         }
 
         function showAchievementBadge(checkpoint, room) {

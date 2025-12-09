@@ -576,6 +576,17 @@ a {
     margin-bottom: 6px;
 }
 
+.swipe-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.achievement-icon {
+    font-size: 1.35rem;
+}
+
 .swipe-deck {
     position: relative;
     height: 100%;

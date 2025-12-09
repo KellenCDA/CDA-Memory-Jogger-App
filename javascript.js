@@ -44,6 +44,8 @@
     }, { ...ITEM_IMAGE_OVERRIDES });
 
     const MAX_RENDERED_CARDS = 10;
+    const ACHIEVEMENT_ICONS = ['🌱', '👍', '🏅', '🚀', '🌟', '🔥', '🎉'];
+    const ACHIEVEMENT_STEP = 2;
     const roomQueues = new Map();
 
     function getItemOptions(category) {
@@ -90,6 +92,7 @@
         let pointerState = null;
         let activeSwipeRoomId = null;
         let scrollLockY = 0;
+        let totalSwipes = 0;
 
         function lockScroll() {
             if (!body || !root) return;
@@ -499,7 +502,7 @@
             deck.innerHTML = '';
 
             if (!availableItems.length) {
-                status.textContent = 'Everything in this room has already been sorted. Remove an item to review again.';
+                setSwipeStatus(status, 'Everything in this room has already been sorted. Remove an item to review again.', true);
                 return;
             }
 
@@ -510,7 +513,7 @@
                 deck.appendChild(card);
             });
 
-            status.textContent = `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`;
+            setSwipeStatus(status, `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`, true);
         }
 
         function updateSwipePreview(roomId) {
@@ -579,7 +582,12 @@
 
             const remaining = deck.children.length + queue.length;
             if (status instanceof HTMLElement) {
-                status.textContent = remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!';
+                totalSwipes += 1;
+                setSwipeStatus(
+                    status,
+                    remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!',
+                    true
+                );
             }
 
             updateSwipePreview(roomId);
@@ -651,6 +659,23 @@
             } else {
                 roomCounter.textContent = `${count} room${count === 1 ? '' : 's'} added.`;
             }
+        }
+
+        function setSwipeStatus(statusElement, text, includeAchievement = false) {
+            if (!(statusElement instanceof HTMLElement)) return;
+            statusElement.textContent = text;
+            if (!includeAchievement || statusElement.closest('.swipe-panel')?.dataset.active !== 'true') return;
+
+            const icon = document.createElement('span');
+            icon.className = 'achievement-icon';
+            icon.ariaHidden = 'true';
+            icon.textContent = getAchievementIcon(totalSwipes);
+            statusElement.appendChild(icon);
+        }
+
+        function getAchievementIcon(swipeCount) {
+            const index = Math.floor(swipeCount / ACHIEVEMENT_STEP) % ACHIEVEMENT_ICONS.length;
+            return ACHIEVEMENT_ICONS[index];
         }
     });
 

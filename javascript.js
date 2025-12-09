@@ -45,8 +45,9 @@
 
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '🏅', '🚀', '🌟', '🔥', '🎉'];
-    const ACHIEVEMENT_STEP = 2;
+    const ACHIEVEMENT_STEP = 5;
     const roomQueues = new Map();
+    const roomSwipeCounts = new Map();
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -92,7 +93,6 @@
         let pointerState = null;
         let activeSwipeRoomId = null;
         let scrollLockY = 0;
-        let totalSwipes = 0;
 
         function lockScroll() {
             if (!body || !root) return;
@@ -204,6 +204,7 @@
 
             if (target.dataset.action === 'remove-room') {
                 state.rooms = state.rooms.filter((entry) => entry.id !== roomId);
+                roomSwipeCounts.delete(roomId);
                 saveState(state);
                 renderRooms(state.rooms);
                 updateSubmissionData(state.rooms);
@@ -491,6 +492,9 @@
             const availableItems = getRemainingItems(room);
             const renderableItems = availableItems.slice(0, MAX_RENDERED_CARDS);
             roomQueues.set(roomId, availableItems.slice(MAX_RENDERED_CARDS));
+            if (!roomSwipeCounts.has(roomId)) {
+                roomSwipeCounts.set(roomId, 0);
+            }
 
             panel.dataset.active = 'true';
             panel.dataset.roomId = roomId;
@@ -502,7 +506,11 @@
             deck.innerHTML = '';
 
             if (!availableItems.length) {
-                setSwipeStatus(status, 'Everything in this room has already been sorted. Remove an item to review again.', true);
+                setSwipeStatus(
+                    status,
+                    'Everything in this room has already been sorted. Remove an item to review again.',
+                    { includeAchievement: true, roomId }
+                );
                 return;
             }
 
@@ -513,7 +521,11 @@
                 deck.appendChild(card);
             });
 
-            setSwipeStatus(status, `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`, true);
+            setSwipeStatus(
+                status,
+                `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`,
+                { includeAchievement: true, roomId }
+            );
         }
 
         function updateSwipePreview(roomId) {
@@ -542,6 +554,18 @@
             const flyOut = direction === 'have' ? 'swipe-right' : 'swipe-left';
             card.classList.add(flyOut);
             setTimeout(() => finalizeSwipe(panel, card, direction), 180);
+        }
+
+        function getRoomSwipeCount(roomId) {
+            if (!roomId) return 0;
+            return roomSwipeCounts.get(roomId) || 0;
+        }
+
+        function incrementRoomSwipeCount(roomId) {
+            if (!roomId) return 0;
+            const nextCount = getRoomSwipeCount(roomId) + 1;
+            roomSwipeCounts.set(roomId, nextCount);
+            return nextCount;
         }
 
         function finalizeSwipe(panel, card, direction) {
@@ -582,11 +606,11 @@
 
             const remaining = deck.children.length + queue.length;
             if (status instanceof HTMLElement) {
-                totalSwipes += 1;
+                incrementRoomSwipeCount(roomId);
                 setSwipeStatus(
                     status,
                     remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!',
-                    true
+                    { includeAchievement: true, roomId }
                 );
             }
 
@@ -661,19 +685,29 @@
             }
         }
 
-        function setSwipeStatus(statusElement, text, includeAchievement = false) {
+        function setSwipeStatus(statusElement, text, options = {}) {
+            const { includeAchievement = false, roomId: providedRoomId } = options;
             if (!(statusElement instanceof HTMLElement)) return;
-            statusElement.textContent = text;
-            if (!includeAchievement || statusElement.closest('.swipe-panel')?.dataset.active !== 'true') return;
+
+            statusElement.textContent = '';
+            const textSpan = document.createElement('span');
+            textSpan.textContent = text;
+            statusElement.appendChild(textSpan);
+
+            const statusPanel = statusElement.closest('.swipe-panel, #swipe-modal');
+            const roomId = providedRoomId || statusPanel?.dataset.roomId || activeSwipeRoomId;
+            const panelActive = statusPanel?.dataset.active === 'true';
+            if (!includeAchievement || !panelActive || !roomId) return;
 
             const icon = document.createElement('span');
             icon.className = 'achievement-icon';
             icon.ariaHidden = 'true';
-            icon.textContent = getAchievementIcon(totalSwipes);
+            icon.textContent = getAchievementIcon(roomId);
             statusElement.appendChild(icon);
         }
 
-        function getAchievementIcon(swipeCount) {
+        function getAchievementIcon(roomId) {
+            const swipeCount = getRoomSwipeCount(roomId);
             const index = Math.floor(swipeCount / ACHIEVEMENT_STEP) % ACHIEVEMENT_ICONS.length;
             return ACHIEVEMENT_ICONS[index];
         }

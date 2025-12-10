@@ -44,7 +44,7 @@
     }, { ...ITEM_IMAGE_OVERRIDES });
 
     const MAX_RENDERED_CARDS = 10;
-    const ACHIEVEMENT_ICONS = ['🌱', '👍', '🏅', '🚀', '🌟', '🔥', '🎉'];
+    const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
     const ACHIEVEMENT_STEP = 5;
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();

@@ -45,7 +45,7 @@
 
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
-    const ACHIEVEMENT_STEP = 5;
+    const ACHIEVEMENT_STEP = 10;
     const ROOM_MILESTONES = [5, 15, 25, 35, 45, 55, 65];
     const ROOM_MILESTONE_MESSAGES = {
         5: 'First five items! This room is taking shape.',

@@ -56,9 +56,31 @@
         55: 'You are on a roll (not the bread)',
         65: 'This is starting to become a lot of items!'
     };
+    const MAJOR_ROOM_MILESTONES = [20, 40, 60];
+    const MAJOR_ROOM_MILESTONE_SETTINGS = {
+        20: {
+            icon: '🎇',
+            headline: '20-item blastoff!',
+            message: 'Your first big milestone — the inventory is cooking.',
+            accent: 'citrus'
+        },
+        40: {
+            icon: '🌈',
+            headline: '40 items and glowing!',
+            message: 'You just unlocked a double rainbow of progress.',
+            accent: 'aurora'
+        },
+        60: {
+            icon: '🚀',
+            headline: '60 items — orbit achieved!',
+            message: 'This list is stellar. Keep soaring!',
+            accent: 'cosmic'
+        }
+    };
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
     const roomMilestones = new Map();
+    const majorRoomMilestones = new Map();
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -154,6 +176,7 @@
 
         const state = loadState();
         syncRoomMilestones(state.rooms);
+        syncMajorRoomMilestones(state.rooms);
         renderRooms(state.rooms);
         updateSubmissionData(state.rooms);
         updateRoomCounter(state.rooms);
@@ -604,6 +627,7 @@
                     room.items.push(item);
                     appendItemToCard(roomId, item);
                     maybeCelebrateRoomMilestone(room, panel);
+                    maybeCelebrateMajorRoomMilestone(room, panel);
                     updateSubmissionData(state.rooms);
                 }
 
@@ -755,6 +779,35 @@
             }
         }
 
+        function getHighestMajorMilestone(count) {
+            let achieved = 0;
+            MAJOR_ROOM_MILESTONES.forEach((value) => {
+                if (count >= value && value > achieved) {
+                    achieved = value;
+                }
+            });
+            return achieved;
+        }
+
+        function syncMajorRoomMilestones(rooms) {
+            rooms.forEach((room) => {
+                const achieved = getHighestMajorMilestone(room.items?.length || 0);
+                if (achieved) {
+                    majorRoomMilestones.set(room.id, achieved);
+                }
+            });
+        }
+
+        function maybeCelebrateMajorRoomMilestone(room, panel) {
+            if (!room || !room.id) return;
+            const previous = majorRoomMilestones.get(room.id) || 0;
+            const next = getHighestMajorMilestone(room.items?.length || 0);
+            if (next > previous) {
+                majorRoomMilestones.set(room.id, next);
+                triggerMajorRoomMilestoneEffect(room, next, panel);
+            }
+        }
+
         function triggerRoomMilestoneEffect(room, milestone, panel) {
             const overlay = document.createElement('div');
             overlay.className = 'milestone-overlay';
@@ -802,6 +855,68 @@
                 panel.classList.add('milestone-glow');
                 setTimeout(() => panel.classList.remove('milestone-glow'), 1800);
             }
+        }
+
+        function triggerMajorRoomMilestoneEffect(room, milestone, panel) {
+            const settings = MAJOR_ROOM_MILESTONE_SETTINGS[milestone] || {};
+            const overlay = document.createElement('div');
+            overlay.className = 'major-milestone-overlay';
+            overlay.dataset.accent = settings.accent || 'cosmic';
+
+            const rings = document.createElement('div');
+            rings.className = 'major-milestone-rings';
+            for (let i = 0; i < 3; i += 1) {
+                const ring = document.createElement('span');
+                ring.className = 'major-milestone-ring';
+                ring.style.setProperty('--ring-delay', `${i * 0.2}s`);
+                rings.appendChild(ring);
+            }
+
+            const confetti = document.createElement('div');
+            confetti.className = 'major-milestone-confetti';
+            for (let i = 0; i < 18; i += 1) {
+                const speck = document.createElement('span');
+                speck.className = 'major-milestone-speck';
+                speck.style.setProperty('--speck-left', `${Math.random() * 100}%`);
+                speck.style.setProperty('--speck-delay', `${Math.random() * 0.4}s`);
+                confetti.appendChild(speck);
+            }
+
+            const card = document.createElement('div');
+            card.className = 'major-milestone-card';
+
+            const icon = document.createElement('div');
+            icon.className = 'major-milestone-icon';
+            icon.textContent = settings.icon || '🎆';
+
+            const textWrap = document.createElement('div');
+            textWrap.className = 'major-milestone-text';
+            const title = document.createElement('p');
+            title.className = 'major-milestone-title';
+            title.textContent = settings.headline || `Milestone: ${milestone} items!`;
+            const subtitle = document.createElement('p');
+            subtitle.className = 'major-milestone-subtitle';
+            subtitle.textContent = settings.message || `You reached ${milestone} items in ${formatRoomTitle(room)}.`;
+            const roomLine = document.createElement('p');
+            roomLine.className = 'major-milestone-room';
+            roomLine.textContent = `${formatRoomTitle(room)} now has ${milestone} items.`;
+            textWrap.append(title, subtitle, roomLine);
+
+            card.append(icon, textWrap);
+            overlay.append(rings, confetti, card);
+            document.body.appendChild(overlay);
+
+            requestAnimationFrame(() => overlay.classList.add('visible'));
+
+            if (panel instanceof HTMLElement) {
+                panel.classList.add('major-milestone-highlight');
+                setTimeout(() => panel.classList.remove('major-milestone-highlight'), 2200);
+            }
+
+            setTimeout(() => {
+                overlay.classList.remove('visible');
+                setTimeout(() => overlay.remove(), 500);
+            }, 2400);
         }
     });
 

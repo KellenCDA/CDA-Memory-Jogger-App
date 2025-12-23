@@ -890,6 +890,193 @@ a {
     animation: panel-glow 1.6s ease;
 }
 
+.major-milestone-overlay {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    background: radial-gradient(circle at 50% 40%, rgba(255, 255, 255, 0.28), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 240ms ease;
+    z-index: 90;
+}
+
+.major-milestone-overlay.visible {
+    opacity: 1;
+}
+
+.major-milestone-rings {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+}
+
+.major-milestone-ring {
+    width: clamp(220px, 60vw, 420px);
+    height: clamp(220px, 60vw, 420px);
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    animation: ring-pulse 1.4s ease infinite;
+    animation-delay: var(--ring-delay, 0s);
+}
+
+.major-milestone-overlay[data-accent="citrus"] .major-milestone-ring {
+    border-color: rgba(255, 180, 90, 0.65);
+}
+
+.major-milestone-overlay[data-accent="aurora"] .major-milestone-ring {
+    border-color: rgba(125, 200, 255, 0.7);
+}
+
+.major-milestone-overlay[data-accent="cosmic"] .major-milestone-ring {
+    border-color: rgba(160, 140, 255, 0.7);
+}
+
+.major-milestone-confetti {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.major-milestone-speck {
+    position: absolute;
+    top: -10%;
+    left: var(--speck-left, 50%);
+    width: 12px;
+    height: 18px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #ff8a00, #ffd600);
+    transform: translate(-50%, 0) rotate(10deg);
+    animation: speck-fall 1.6s ease forwards;
+    animation-delay: var(--speck-delay, 0s);
+}
+
+.major-milestone-overlay[data-accent="aurora"] .major-milestone-speck {
+    background: linear-gradient(135deg, #6ee7ff, #a855f7);
+}
+
+.major-milestone-overlay[data-accent="cosmic"] .major-milestone-speck {
+    background: linear-gradient(135deg, #7c3aed, #22d3ee);
+}
+
+.major-milestone-card {
+    position: relative;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: rgba(15, 23, 42, 0.72);
+    color: #f8fbff;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    align-items: center;
+    box-shadow: 0 22px 48px rgba(0, 0, 0, 0.32);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(8px);
+    transform: translateY(10px) scale(0.96);
+    animation: major-pop 260ms ease forwards;
+}
+
+.major-milestone-overlay[data-accent="citrus"] .major-milestone-card {
+    background: linear-gradient(145deg, rgba(255, 165, 102, 0.86), rgba(255, 209, 102, 0.9));
+    color: #1f1307;
+}
+
+.major-milestone-overlay[data-accent="aurora"] .major-milestone-card {
+    background: linear-gradient(145deg, rgba(88, 194, 255, 0.88), rgba(168, 85, 247, 0.88));
+    color: #0b1220;
+}
+
+.major-milestone-overlay[data-accent="cosmic"] .major-milestone-card {
+    background: linear-gradient(145deg, rgba(111, 88, 255, 0.9), rgba(56, 189, 248, 0.86));
+    color: #0c1224;
+}
+
+.major-milestone-icon {
+    font-size: 2.4rem;
+}
+
+.major-milestone-text {
+    display: grid;
+    gap: 2px;
+}
+
+.major-milestone-title {
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+.major-milestone-subtitle,
+.major-milestone-room {
+    margin: 0;
+    font-size: 0.98rem;
+}
+
+.major-milestone-room {
+    opacity: 0.86;
+}
+
+.major-milestone-highlight {
+    animation: panel-spotlight 1.8s ease;
+}
+
+@keyframes ring-pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.85;
+    }
+    80% {
+        transform: scale(1.25);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.35);
+        opacity: 0;
+    }
+}
+
+@keyframes speck-fall {
+    0% {
+        transform: translate(-50%, -10%) rotate(6deg);
+        opacity: 0.9;
+    }
+    60% {
+        transform: translate(-50%, 90vh) rotate(160deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, 120vh) rotate(220deg);
+        opacity: 0;
+    }
+}
+
+@keyframes major-pop {
+    from {
+        transform: translateY(8px) scale(0.94);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes panel-spotlight {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.45), 0 0 0 0 rgba(255, 183, 94, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 30px rgba(255, 183, 94, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 183, 94, 0);
+    }
+}
+
 @keyframes milestone-pop {
     from {
         transform: translateY(-6px) scale(0.96);

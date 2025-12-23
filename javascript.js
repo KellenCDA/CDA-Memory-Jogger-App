@@ -46,8 +46,16 @@
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
     const ACHIEVEMENT_STEP = 5;
+    const ROOM_MILESTONES = [5, 10, 15, 20];
+    const ROOM_MILESTONE_MESSAGES = {
+        5: 'First five items! This room is taking shape.',
+        10: 'Ten items logged. Amazing momentum!',
+        15: 'Fifteen finds—your room list is stacked.',
+        20: 'Twenty items! You are on fire. 🔥'
+    };
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
+    const roomMilestones = new Map();
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -142,6 +150,7 @@
         });
 
         const state = loadState();
+        syncRoomMilestones(state.rooms);
         renderRooms(state.rooms);
         updateSubmissionData(state.rooms);
         updateRoomCounter(state.rooms);
@@ -205,6 +214,7 @@
             if (target.dataset.action === 'remove-room') {
                 state.rooms = state.rooms.filter((entry) => entry.id !== roomId);
                 roomSwipeCounts.delete(roomId);
+                roomMilestones.delete(roomId);
                 saveState(state);
                 renderRooms(state.rooms);
                 updateSubmissionData(state.rooms);
@@ -590,6 +600,7 @@
                 if (direction === 'have' && !room.items.includes(item)) {
                     room.items.push(item);
                     appendItemToCard(roomId, item);
+                    maybeCelebrateRoomMilestone(room, panel);
                     updateSubmissionData(state.rooms);
                 }
 
@@ -710,6 +721,84 @@
             const swipeCount = getRoomSwipeCount(roomId);
             const index = Math.floor(swipeCount / ACHIEVEMENT_STEP) % ACHIEVEMENT_ICONS.length;
             return ACHIEVEMENT_ICONS[index];
+        }
+
+        function syncRoomMilestones(rooms) {
+            rooms.forEach((room) => {
+                const achieved = getHighestMilestone(room.items?.length || 0);
+                if (achieved) {
+                    roomMilestones.set(room.id, achieved);
+                }
+            });
+        }
+
+        function getHighestMilestone(count) {
+            let achieved = 0;
+            ROOM_MILESTONES.forEach((value) => {
+                if (count >= value && value > achieved) {
+                    achieved = value;
+                }
+            });
+            return achieved;
+        }
+
+        function maybeCelebrateRoomMilestone(room, panel) {
+            if (!room || !room.id) return;
+            const previous = roomMilestones.get(room.id) || 0;
+            const next = getHighestMilestone(room.items?.length || 0);
+            if (next > previous) {
+                roomMilestones.set(room.id, next);
+                triggerRoomMilestoneEffect(room, next, panel);
+            }
+        }
+
+        function triggerRoomMilestoneEffect(room, milestone, panel) {
+            const overlay = document.createElement('div');
+            overlay.className = 'milestone-overlay';
+
+            const banner = document.createElement('div');
+            banner.className = 'milestone-banner';
+
+            const icon = document.createElement('span');
+            icon.className = 'milestone-icon';
+            icon.textContent = '✨';
+
+            const textWrap = document.createElement('div');
+            textWrap.className = 'milestone-text';
+            const title = document.createElement('p');
+            title.className = 'milestone-title';
+            title.textContent = `Milestone unlocked: ${milestone} items in ${formatRoomTitle(room)}`;
+            const subtitle = document.createElement('p');
+            subtitle.className = 'milestone-subtitle';
+            subtitle.textContent = ROOM_MILESTONE_MESSAGES[milestone] || 'Keep going—your list is looking great!';
+            textWrap.append(title, subtitle);
+
+            banner.append(icon, textWrap);
+            overlay.appendChild(banner);
+
+            const sparkleLayer = document.createElement('div');
+            sparkleLayer.className = 'milestone-sparkles';
+            for (let i = 0; i < 14; i += 1) {
+                const sparkle = document.createElement('span');
+                sparkle.className = 'milestone-sparkle';
+                sparkle.style.setProperty('--sparkle-left', `${Math.random() * 100}%`);
+                sparkle.style.setProperty('--sparkle-delay', `${Math.random() * 0.8}s`);
+                sparkleLayer.appendChild(sparkle);
+            }
+            overlay.appendChild(sparkleLayer);
+
+            document.body.appendChild(overlay);
+            requestAnimationFrame(() => overlay.classList.add('visible'));
+
+            setTimeout(() => {
+                overlay.classList.remove('visible');
+                setTimeout(() => overlay.remove(), 600);
+            }, 2200);
+
+            if (panel instanceof HTMLElement) {
+                panel.classList.add('milestone-glow');
+                setTimeout(() => panel.classList.remove('milestone-glow'), 1800);
+            }
         }
     });
 

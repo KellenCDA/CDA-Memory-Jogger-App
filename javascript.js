@@ -231,6 +231,8 @@
                 if (Array.isArray(room.reviewedItems)) {
                     room.reviewedItems = room.reviewedItems.filter((entry) => entry !== item);
                 }
+                updateRoomMilestoneState(room);
+                updateMajorRoomMilestoneState(room);
                 saveState(state);
                 renderRooms(state.rooms);
                 updateSubmissionData(state.rooms);
@@ -752,10 +754,7 @@
 
         function syncRoomMilestones(rooms) {
             rooms.forEach((room) => {
-                const achieved = getHighestMilestone(room.items?.length || 0);
-                if (achieved) {
-                    roomMilestones.set(room.id, achieved);
-                }
+                updateRoomMilestoneState(room);
             });
         }
 
@@ -791,11 +790,28 @@
 
         function syncMajorRoomMilestones(rooms) {
             rooms.forEach((room) => {
-                const achieved = getHighestMajorMilestone(room.items?.length || 0);
-                if (achieved) {
-                    majorRoomMilestones.set(room.id, achieved);
-                }
+                updateMajorRoomMilestoneState(room);
             });
+        }
+
+        function updateRoomMilestoneState(room) {
+            if (!room || !room.id) return;
+            const achieved = getHighestMilestone(room.items?.length || 0);
+            if (achieved) {
+                roomMilestones.set(room.id, achieved);
+            } else {
+                roomMilestones.delete(room.id);
+            }
+        }
+
+        function updateMajorRoomMilestoneState(room) {
+            if (!room || !room.id) return;
+            const achieved = getHighestMajorMilestone(room.items?.length || 0);
+            if (achieved) {
+                majorRoomMilestones.set(room.id, achieved);
+            } else {
+                majorRoomMilestones.delete(room.id);
+            }
         }
 
         function maybeCelebrateMajorRoomMilestone(room, panel) {

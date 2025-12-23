@@ -46,15 +46,15 @@
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
     const ACHIEVEMENT_STEP = 10;
-    const ROOM_MILESTONES = [5, 15, 25, 35, 45, 55, 65];
+    const ROOM_MILESTONES = [10, 20, 30, 40, 50, 60, 70];
     const ROOM_MILESTONE_MESSAGES = {
-        5: 'First five items! This room is taking shape.',
-        15: 'Fifteen items logged. Amazing momentum!',
-        25: 'Twenty-Five finds—your room list is stacked.',
-        35: 'Thirty-Five items! You are on fire. 🔥',
-        45: 'Keep up the great work!',
-        55: 'You are on a roll (not the bread)',
-        65: 'This is starting to become a lot of items!'
+        10: 'First ten items! This room is taking shape.',
+        20: 'Twenty items logged. Amazing momentum!',
+        30: 'Thirty finds! your room list is stacked.',
+        40: 'Forty items! You are on fire. 🔥',
+        50: 'Keep up the great work!',
+        60: 'You are on a roll (not the bread)',
+        70: 'This is starting to become a lot of items!'
     };
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();

@@ -49,6 +49,7 @@
     const MILESTONE_STEP = 20;
     const CELEBRATION_BASE_CONFETTI = 32;
     const CELEBRATION_CONFETTI_STEP = 10;
+    const CELEBRATION_EFFECTS = ['confetti', 'balloons', 'streamers', 'stars', 'sparks'];
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
 
@@ -724,16 +725,86 @@
             celebration.className = 'milestone-celebration';
             celebration.style.setProperty('--celebration-strength', `${Math.min(celebrationLevel, 6)}`);
 
+            const effectIndex = (celebrationLevel - 1) % CELEBRATION_EFFECTS.length;
+            const effect = CELEBRATION_EFFECTS[effectIndex];
+            celebration.dataset.effect = effect;
+
             const colors = ['#ff6b6b', '#ffd93d', '#6bc5ff', '#7cffc4', '#b28dff', '#ff9f1c'];
-            for (let i = 0; i < confettiCount; i += 1) {
-                const piece = document.createElement('span');
-                piece.className = 'confetti-piece';
-                piece.style.left = `${Math.random() * 100}%`;
-                piece.style.background = colors[i % colors.length];
-                piece.style.animationDelay = `${Math.random() * 0.4}s`;
-                piece.style.animationDuration = `${1.6 + Math.random() * 1.2}s`;
-                piece.style.transform = `translateY(-20vh) rotate(${Math.random() * 360}deg)`;
-                celebration.appendChild(piece);
+
+            if (effect === 'confetti') {
+                for (let i = 0; i < confettiCount; i += 1) {
+                    const piece = document.createElement('span');
+                    piece.className = 'confetti-piece';
+                    piece.style.left = `${Math.random() * 100}%`;
+                    piece.style.background = colors[i % colors.length];
+                    piece.style.animationDelay = `${Math.random() * 0.4}s`;
+                    piece.style.animationDuration = `${1.6 + Math.random() * 1.2}s`;
+                    piece.style.transform = `translateY(-20vh) rotate(${Math.random() * 360}deg)`;
+                    celebration.appendChild(piece);
+                }
+            }
+
+            if (effect === 'balloons') {
+                const balloonCount = 12 + celebrationLevel * 2;
+                for (let i = 0; i < balloonCount; i += 1) {
+                    const balloon = document.createElement('span');
+                    balloon.className = 'balloon';
+                    balloon.style.left = `${Math.random() * 100}%`;
+                    balloon.style.background = colors[i % colors.length];
+                    balloon.style.animationDelay = `${Math.random() * 0.6}s`;
+                    balloon.style.animationDuration = `${3.2 + Math.random() * 1.6}s`;
+                    const size = 24 + Math.random() * 18;
+                    balloon.style.width = `${size}px`;
+                    balloon.style.height = `${size * 1.2}px`;
+                    celebration.appendChild(balloon);
+                }
+            }
+
+            if (effect === 'streamers') {
+                const streamerCount = 18 + celebrationLevel * 2;
+                for (let i = 0; i < streamerCount; i += 1) {
+                    const streamer = document.createElement('span');
+                    streamer.className = 'streamer';
+                    streamer.style.left = `${Math.random() * 100}%`;
+                    streamer.style.background = colors[i % colors.length];
+                    streamer.style.animationDelay = `${Math.random() * 0.5}s`;
+                    streamer.style.animationDuration = `${2.2 + Math.random() * 1.2}s`;
+                    streamer.style.height = `${50 + Math.random() * 60}px`;
+                    celebration.appendChild(streamer);
+                }
+            }
+
+            if (effect === 'stars') {
+                const starCount = 24 + celebrationLevel * 2;
+                for (let i = 0; i < starCount; i += 1) {
+                    const star = document.createElement('span');
+                    star.className = 'celebration-star';
+                    star.textContent = '★';
+                    star.style.left = `${Math.random() * 100}%`;
+                    star.style.top = `${Math.random() * 100}%`;
+                    star.style.color = colors[i % colors.length];
+                    star.style.animationDelay = `${Math.random() * 0.6}s`;
+                    star.style.animationDuration = `${1.6 + Math.random() * 1.4}s`;
+                    star.style.fontSize = `${14 + Math.random() * 16}px`;
+                    celebration.appendChild(star);
+                }
+            }
+
+            if (effect === 'sparks') {
+                const sparkCount = 28 + celebrationLevel * 2;
+                for (let i = 0; i < sparkCount; i += 1) {
+                    const spark = document.createElement('span');
+                    spark.className = 'spark';
+                    spark.style.left = `${Math.random() * 100}%`;
+                    spark.style.top = `${20 + Math.random() * 60}%`;
+                    spark.style.background = colors[i % colors.length];
+                    spark.style.animationDelay = `${Math.random() * 0.3}s`;
+                    spark.style.animationDuration = `${1.2 + Math.random() * 1.1}s`;
+                    const size = 6 + Math.random() * 10;
+                    spark.style.width = `${size}px`;
+                    spark.style.height = `${size}px`;
+                    celebration.appendChild(spark);
+                }
             }
 
             document.body.appendChild(celebration);

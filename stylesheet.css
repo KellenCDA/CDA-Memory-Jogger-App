@@ -693,6 +693,50 @@ a {
     animation: confetti-fall 2.2s ease-in forwards;
 }
 
+.balloon {
+    position: absolute;
+    bottom: -20%;
+    border-radius: 50% 50% 45% 45%;
+    box-shadow: inset -4px -8px 12px rgba(0, 0, 0, 0.12);
+    opacity: 0.9;
+    animation: balloon-float 3.6s ease-out forwards;
+}
+
+.balloon::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 2px;
+    height: 22px;
+    background: rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+}
+
+.streamer {
+    position: absolute;
+    top: -12%;
+    width: 6px;
+    border-radius: 4px;
+    opacity: 0.85;
+    animation: streamer-fall 2.8s ease-in forwards;
+}
+
+.celebration-star {
+    position: absolute;
+    opacity: 0;
+    animation: star-twinkle 2s ease-out forwards;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.45);
+}
+
+.spark {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+    animation: spark-pop 1.6s ease-out forwards;
+}
+
 @keyframes confetti-fall {
     0% {
         transform: translateY(-20vh) rotate(0deg);
@@ -703,6 +747,64 @@ a {
     }
     100% {
         transform: translateY(120vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes balloon-float {
+    0% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-140vh) translateX(20px) rotate(12deg);
+        opacity: 0;
+    }
+}
+
+@keyframes streamer-fall {
+    0% {
+        transform: translateY(-20vh) rotate(0deg);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120vh) rotate(120deg);
+        opacity: 0;
+    }
+}
+
+@keyframes star-twinkle {
+    0% {
+        transform: scale(0.2) rotate(0deg);
+        opacity: 0;
+    }
+    40% {
+        transform: scale(1) rotate(25deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.3) rotate(60deg);
+        opacity: 0;
+    }
+}
+
+@keyframes spark-pop {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    45% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.2);
         opacity: 0;
     }
 }

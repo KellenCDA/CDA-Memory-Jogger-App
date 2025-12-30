@@ -44,7 +44,7 @@
     }, { ...ITEM_IMAGE_OVERRIDES });
 
     const MAX_RENDERED_CARDS = 10;
-    const ACHIEVEMENT_ICONS = ['🌱', '👍', '🏅', '🚀', '🌟', '🔥', '🎉'];
+    const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
     const ACHIEVEMENT_STEP = 10;
     const MILESTONE_STEP = 20;
     const CELEBRATION_BASE_CONFETTI = 32;

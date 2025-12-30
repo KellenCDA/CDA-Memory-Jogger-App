@@ -630,6 +630,13 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.swipe-card--with-image .swipe-card-title,
+.swipe-card--with-image .helper-text {
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
     position: relative;
@@ -661,6 +668,58 @@ a {
 
 .swipe-panel.collapsed .swipe-status {
     margin: 0;
+}
+
+.milestone-celebration {
+    position: fixed;
+    inset: 0;
+    z-index: 80;
+    pointer-events: none;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, calc(0.12 * var(--celebration-strength, 1))) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 216, 102, calc(0.18 * var(--celebration-strength, 1))) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(106, 193, 255, calc(0.16 * var(--celebration-strength, 1))) 0%, transparent 55%);
+    animation: celebration-glow 2.4s ease-out forwards;
+}
+
+.confetti-piece {
+    position: absolute;
+    top: -10%;
+    width: 10px;
+    height: 18px;
+    border-radius: 4px;
+    opacity: 0.9;
+    animation: confetti-fall 2.2s ease-in forwards;
+}
+
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-20vh) rotate(0deg);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes celebration-glow {
+    0% {
+        opacity: 0;
+        filter: blur(0);
+    }
+    40% {
+        opacity: 1;
+        filter: blur(2px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(6px);
+    }
 }
 
 .swipe-right {

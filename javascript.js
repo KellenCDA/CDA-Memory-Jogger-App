@@ -45,7 +45,10 @@
 
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '🏅', '🚀', '🌟', '🔥', '🎉'];
-    const ACHIEVEMENT_STEP = 5;
+    const ACHIEVEMENT_STEP = 10;
+    const MILESTONE_STEP = 20;
+    const CELEBRATION_BASE_CONFETTI = 32;
+    const CELEBRATION_CONFETTI_STEP = 10;
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
 
@@ -471,7 +474,7 @@
             const imageUrl = getItemImage(item);
             if (imageUrl) {
                 card.classList.add('swipe-card--with-image');
-                card.style.backgroundImage = `linear-gradient(180deg, rgba(9, 16, 26, 0.62) 0%, rgba(9, 16, 26, 0.42) 100%), url('${imageUrl}')`;
+                card.style.backgroundImage = `url('${imageUrl}')`;
             }
 
             const label = document.createElement('p');
@@ -606,12 +609,13 @@
 
             const remaining = deck.children.length + queue.length;
             if (status instanceof HTMLElement) {
-                incrementRoomSwipeCount(roomId);
+                const nextCount = incrementRoomSwipeCount(roomId);
                 setSwipeStatus(
                     status,
                     remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!',
                     { includeAchievement: true, roomId }
                 );
+                triggerMilestoneEffect(nextCount);
             }
 
             updateSwipePreview(roomId);
@@ -710,6 +714,32 @@
             const swipeCount = getRoomSwipeCount(roomId);
             const index = Math.floor(swipeCount / ACHIEVEMENT_STEP) % ACHIEVEMENT_ICONS.length;
             return ACHIEVEMENT_ICONS[index];
+        }
+
+        function triggerMilestoneEffect(swipeCount) {
+            if (!swipeCount || swipeCount % MILESTONE_STEP !== 0) return;
+            const celebrationLevel = Math.floor(swipeCount / MILESTONE_STEP);
+            const confettiCount = CELEBRATION_BASE_CONFETTI + (celebrationLevel - 1) * CELEBRATION_CONFETTI_STEP;
+            const celebration = document.createElement('div');
+            celebration.className = 'milestone-celebration';
+            celebration.style.setProperty('--celebration-strength', `${Math.min(celebrationLevel, 6)}`);
+
+            const colors = ['#ff6b6b', '#ffd93d', '#6bc5ff', '#7cffc4', '#b28dff', '#ff9f1c'];
+            for (let i = 0; i < confettiCount; i += 1) {
+                const piece = document.createElement('span');
+                piece.className = 'confetti-piece';
+                piece.style.left = `${Math.random() * 100}%`;
+                piece.style.background = colors[i % colors.length];
+                piece.style.animationDelay = `${Math.random() * 0.4}s`;
+                piece.style.animationDuration = `${1.6 + Math.random() * 1.2}s`;
+                piece.style.transform = `translateY(-20vh) rotate(${Math.random() * 360}deg)`;
+                celebration.appendChild(piece);
+            }
+
+            document.body.appendChild(celebration);
+            window.setTimeout(() => {
+                celebration.remove();
+            }, 2600);
         }
     });
 

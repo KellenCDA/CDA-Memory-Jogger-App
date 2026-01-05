@@ -146,7 +146,6 @@
         });
 
         const state = loadState();
-        syncRoomMilestones(state.rooms);
         renderRooms(state.rooms);
         updateSubmissionData(state.rooms);
         updateRoomCounter(state.rooms);
@@ -595,7 +594,6 @@
                 if (direction === 'have' && !room.items.includes(item)) {
                     room.items.push(item);
                     appendItemToCard(roomId, item);
-                    maybeCelebrateRoomMilestone(room, panel);
                     updateSubmissionData(state.rooms);
                 }
 

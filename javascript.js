@@ -48,8 +48,7 @@
 
         'Shed / Storage Unit': ['Storage shelves', 'Utility shelving unit', 'Storage cabinet', 'Workbench', 'Tool chest', 'Pegboard', 'Tool kit', 'Hammer', 'Screwdriver set', 'Drill', 'Drill bits', 'Saw', 'Wrench set', 'Socket set', 'Pliers', 'Wire cutters', 'Utility knife', 'Tape measure', 'Level', 'Allen wrench set', 'Duct tape', 'Masking tape', 'Electrical tape', 'Super glue', 'Wood glue', 'Nails', 'Screws', 'Bolts', 'Washers', 'Parts organizer', 'Tool belt', 'Extension cord', 'Power strip', 'Work light', 'Flashlight', 'Headlamp', 'Lantern', 'Batteries', 'Battery charger', 'Rechargeable batteries', 'Battery organizer', 'Step ladder', 'Extension ladder', 'Saw horses', 'Clamps', 'Sharpening stone', 'Gloves', 'Safety goggles', 'Dust mask', 'Respirator', 'First aid kit', 'Fire extinguisher', 'Broom', 'Dustpan', 'Mop', 'Bucket', 'Trash can', 'Trash bags', 'Recycling bin', 'Garden hose', 'Hose reel', 'Sprinkler', 'Watering can', 'Plant mister', 'Rake', 'Leaf rake', 'Shovel', 'Spade shovel', 'Snow shovel', 'Hoe', 'Garden trowel', 'Hand cultivator', 'Pruning shears', 'Loppers', 'Hedge trimmer', 'Weed trimmer', 'Leaf blower', 'Lawn mower', 'Wheelbarrow', 'Garden cart', 'Potting soil', 'Fertilizer', 'Seed packets', 'Plant pots', 'Planters', 'Potting bench', 'Compost bin', 'Insect repellent', 'Pesticide sprayer', 'Rodent traps', 'Bug traps', 'Tarps', 'Bungee cords', 'Ratchet straps', 'Rope', 'Chain', 'Padlock', 'Key box', 'Camping tent', 'Cooler', 'Folding chairs', 'Folding table', 'Sports equipment bin', 'Bicycle pump', 'Bike repair kit', 'Lawn chair cushions', 'Seasonal decor storage bin'],
 
-        Yard: [['Lawn mower', 'Weed trimmer', 'Leaf blower', 'Hedge trimmer', 'Garden hose', 'Hose reel', 'Sprinkler', 'Watering can', 'Rake', 'Leaf rake', 'Shovel', 'Spade shovel', 'Snow shovel', 'Garden trowel', 'Hand cultivator', 'Hoe', 'Pruning shears', 'Loppers', 'Wheelbarrow', 'Garden cart', 'Fertilizer', 'Potting soil', 'Seed packets', 'Plant pots', 'Planters', 'Outdoor trash can', 'Yard waste bags', 'Compost bin', 'Outdoor broom', 'Patio furniture set']
-]
+        Yard: ['Lawn mower', 'Weed trimmer', 'Leaf blower', 'Hedge trimmer', 'Garden hose', 'Hose reel', 'Sprinkler', 'Watering can', 'Rake', 'Leaf rake', 'Shovel', 'Spade shovel', 'Snow shovel', 'Garden trowel', 'Hand cultivator', 'Hoe', 'Pruning shears', 'Loppers', 'Wheelbarrow', 'Garden cart', 'Fertilizer', 'Potting soil', 'Seed packets', 'Plant pots', 'Planters', 'Outdoor trash can', 'Yard waste bags', 'Compost bin', 'Outdoor broom', 'Patio furniture set']
     };
 
     const ITEM_IMAGE_OVERRIDES = {
@@ -111,6 +110,8 @@
         const roomsGrid = document.getElementById('rooms-grid');
         const submissionForm = document.getElementById('submission-form');
         const submissionDataInput = document.getElementById('submission-data');
+        const submitterNameInput = document.getElementById('submitter-name');
+        const submissionStatus = document.getElementById('submission-status');
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         const roomCounter = document.getElementById('room-counter');
@@ -288,8 +289,44 @@
             pointerState = null;
         });
 
-        submissionForm?.addEventListener('submit', () => {
+        // submissionForm?.addEventListener('submit', () => {
+        //     updateSubmissionData(state.rooms);
+        // });
+        submissionForm?.addEventListener('submit', async (event) => {
+            event.preventDefault(); // stop default form submission
+        
             updateSubmissionData(state.rooms);
+        
+            const payload = {
+                name: submitterNameInput?.value?.trim() || '',
+                rooms: state.rooms
+            };
+        
+            if (submissionStatus instanceof HTMLElement) {
+                submissionStatus.textContent = 'Sending to Power Automate...';
+            }
+        
+            try {
+                const response = await fetch('https://defaulta8611dc15eaa4824bfd7d17c684c07.4a.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/1aa8c47acec34103b1695aac81bc32a3/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9PQ0B9xC4-gdMArZEZ9L_Yq1_5JLG1vVJYLQjrhgRAQ', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+        
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+        
+                if (submissionStatus instanceof HTMLElement) {
+                    submissionStatus.textContent = 'Submitted successfully!';
+                }
+            } catch (error) {
+                console.error('Power Automate submit failed', error);
+        
+                if (submissionStatus instanceof HTMLElement) {
+                    submissionStatus.textContent = 'Submit failed. Please try again.';
+                }
+            }
         });
 
         function openModal(modalId, trigger) {
@@ -844,3 +881,4 @@
 
 
 })();
+

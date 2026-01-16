@@ -46,20 +46,20 @@
     };
 
     const ITEM_IMAGE_OVERRIDES = {
-        'tomato, sauce, paste': "inventory_item_pictures/kitchen/Screenshot 2025-12-02 102457.png",
-        'vegetables': "inventory_item_pictures/kitchen/Screenshot 2025-12-02 102852.png",
-        'answering machine': "inventory_item_pictures/kitchen/Screenshot 2025-12-02 103045.png",
-        'cell phone': "inventory_item_pictures/kitchen/Screenshot 2025-12-02 104348.png",
-        'clocks': "inventory_item_pictures/kitchen/Screenshot 2025-12-02 103256.png",
-        'iPod player': "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114127.png",
-        'Telephone' :"inventory_item_pictures/kitchen/Screenshot 2026-01-14 114150.png",
-        'Undercabinet TV, stereo' : "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114206.png",
-        'Food in Freezer'  : "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114218.png",
-        'Food in Frig'   : "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114233.png",
-        'Pantry food'   : "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114245.png",
-        'Spices'   : "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114257.png",
-        'Bar stools': "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114317.png",
-        'Butcher block': "inventory_item_pictures/kitchen/Screenshot 2026-01-14 114340.png"
+        'tomato, sauce, paste': "inventory_item_pictures/Screenshot 2025-12-02 102457.png",
+        'vegetables': "inventory_item_pictures/Screenshot 2025-12-02 102852.png",
+        'answering machine': "inventory_item_pictures/Screenshot 2025-12-02 103045.png",
+        'cell phone': "inventory_item_pictures/Screenshot 2025-12-02 104348.png",
+        'clocks': "inventory_item_pictures/Screenshot 2025-12-02 103256.png",
+        'iPod player': "inventory_item_pictures/Screenshot 2026-01-14 114127.png",
+        'Telephone' :"inventory_item_pictures/Screenshot 2026-01-14 114150.png",
+        'Undercabinet TV, stereo' : "inventory_item_pictures/Screenshot 2026-01-14 114206.png",
+        'Food in Freezer'  : "inventory_item_pictures/Screenshot 2026-01-14 114218.png",
+        'Food in Frig'   : "inventory_item_pictures/Screenshot 2026-01-14 114233.png",
+        'Pantry food'   : "inventory_item_pictures/Screenshot 2026-01-14 114245.png",
+        'Spices'   : "inventory_item_pictures/Screenshot 2026-01-14 114257.png",
+        'Bar stools': "inventory_item_pictures/Screenshot 2026-01-14 114317.png",
+        'Butcher block': "inventory_item_pictures/Screenshot 2026-01-14 114340.png"
         /*
         'Desk and chair': ,
         'Stepladder': ,

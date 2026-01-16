@@ -915,7 +915,7 @@
                 const nextItem = queue.shift();
                 roomQueues.set(roomId, queue);
                 const nextCard = createSwipeCard(nextItem, 0);
-                deck.appendChild(nextCard);
+                deck.prepend(nextCard);
             }
 
             const remaining = deck.children.length + queue.length;

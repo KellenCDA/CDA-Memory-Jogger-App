@@ -299,6 +299,11 @@
                 */
     };
 
+        const NORMALIZED_ITEM_IMAGE_OVERRIDES = Object.entries(ITEM_IMAGE_OVERRIDES).reduce((overrides, [key, value]) => {
+        overrides[normalizeItemKey(key)] = value;
+        return overrides;
+    }, {});
+
     const ITEM_IMAGES = Object.entries(ITEM_OPTIONS).reduce((catalog, [category, items]) => {
         if (!Array.isArray(items)) return catalog;
         items.forEach((item) => {
@@ -308,7 +313,7 @@
             }
         });
         return catalog;
-    }, { ...ITEM_IMAGE_OVERRIDES });
+    }, { ...NORMALIZED_ITEM_IMAGE_OVERRIDES });
 
     const MAX_RENDERED_CARDS = 10;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];

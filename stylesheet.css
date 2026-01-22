@@ -1,10 +1,11 @@
 :root {
-    --background: #f7f0e6;
+    --background: #f6efe9;
     --card: #ffffff;
-    --primary: #1a73e8;
-    --primary-dark: #1558ad;
-    --text: #1f2933;
-    --muted: #4b5563;
+    --primary: #8a2f2a;
+    --primary-dark: #6b1f1a;
+    --text: #2a1d1b;
+    --muted: #5a4b48;
+    --warm-accent: #b24c42;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     --radius: 16px;
     --spacing: 20px;
@@ -72,6 +73,24 @@ body.no-scroll {
     font-weight: 800;
 }
 
+.active-room-header {
+    position: sticky;
+    top: 58px;
+    z-index: 29;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+    background: #fff6e3;
+    border: 1px solid #f1d6ac;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #6b4f24;
+}
+
+.active-room-header[hidden] {
+    display: none;
+}
 
 .site-header {
     text-align: center;
@@ -107,7 +126,7 @@ body.no-scroll {
 .brand-link:focus-visible {
     outline: none;
     transform: translateY(-2px);
-    border-color: rgba(21, 88, 173, 0.18);
+    border-color: rgba(138, 47, 42, 0.18);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
     text-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
 }
@@ -185,7 +204,7 @@ a {
 .primary-link:hover,
 .primary-link:focus-visible {
     background: var(--primary-dark);
-    box-shadow: 0 10px 28px rgba(21, 88, 173, 0.28);
+    box-shadow: 0 10px 28px rgba(107, 31, 26, 0.28);
 }
 
 .secondary-link {
@@ -202,7 +221,7 @@ a {
 .primary-link:focus-visible,
 .secondary-link:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.25);
+    box-shadow: 0 0 0 4px rgba(138, 47, 42, 0.25);
 }
 
 .page-footer {
@@ -267,11 +286,11 @@ a {
 .primary-button:focus-visible {
     outline: none;
     transform: translateY(-1px);
-    box-shadow: 0 10px 28px rgba(21, 88, 173, 0.28);
+    box-shadow: 0 10px 28px rgba(107, 31, 26, 0.28);
 }
 
 .primary-button.help-trigger{
-  background: #ce7337;
+  background: var(--warm-accent);
   font-size: 0.75rem;
   font-weight: 700;
 
@@ -290,7 +309,7 @@ a {
 
 .primary-button.help-trigger:hover,
 .primary-button.help-trigger:focus-visible {
-    background: #ce7337;
+    background: var(--warm-accent);
 }
 
 .ghost-button {
@@ -500,6 +519,11 @@ a {
     gap: 10px;
 }
 
+.swipe-modal-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 .modal-body ul {
     padding-left: 18px;
     margin: 10px 0;

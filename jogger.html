@@ -14,6 +14,7 @@
         </header>
 
         <div id="room-counter" class="room-counter" role="status" aria-live="polite">No rooms added yet.</div>
+        <div id="active-room-header" class="active-room-header" role="status" aria-live="polite" hidden></div>
 
         <main class="content-card">
             <div class="card-header stacked-header">
@@ -137,7 +138,10 @@
                     <div class="title-group">
                         <h4 id="swipe-modal-title">NOTE: You can close out of your browser anytime. Your progress will auto save!</h4>
                     </div>
-                    <button class="ghost-button modal-close" type="button" data-close-swipe>Close</button>
+                    <div class="swipe-modal-actions">
+                        <button class="ghost-button" type="button" data-action="undo-swipe" disabled>Undo</button>
+                        <button class="ghost-button modal-close" type="button" data-close-swipe>Close</button>
+                    </div>
                 </div>
                 <div class="modal-body swipe-modal-body">
                     <p id="swipe-modal-status" class="helper-text swipe-status">Loading items...</p>

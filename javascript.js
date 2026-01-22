@@ -324,6 +324,7 @@
     const CELEBRATION_EFFECTS = ['confetti', 'balloons', 'streamers', 'stars', 'sparks'];
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
+    const roomSwipeHistory = new Map();
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -360,11 +361,13 @@
         const modalTriggers = document.querySelectorAll('.help-trigger');
         const modals = document.querySelectorAll('.modal-overlay');
         const roomCounter = document.getElementById('room-counter');
+        const activeRoomHeader = document.getElementById('active-room-header');
         const swipeModal = document.getElementById('swipe-modal');
         const swipeModalDeck = document.getElementById('swipe-modal-deck');
         const swipeModalStatus = document.getElementById('swipe-modal-status');
         const swipeModalRoom = document.getElementById('swipe-modal-room');
         const swipeModalClose = document.querySelector('[data-close-swipe]');
+        const swipeUndoButton = document.querySelector('[data-action="undo-swipe"]');
         let activeModal = null;
         let lastFocus = null;
         let activeSwipeCard = null;
@@ -483,11 +486,27 @@
             if (target.dataset.action === 'remove-room') {
                 state.rooms = state.rooms.filter((entry) => entry.id !== roomId);
                 roomSwipeCounts.delete(roomId);
+                roomSwipeHistory.delete(roomId);
                 saveState(state);
                 renderRooms(state.rooms);
                 updateSubmissionData(state.rooms);
                 return;
             }
+        });
+
+        roomsGrid?.addEventListener(
+            'toggle',
+            (event) => {
+                if (!(event.target instanceof HTMLDetailsElement)) return;
+                if (!event.target.classList.contains('items-accordion')) return;
+                updateActiveRoomHeader();
+            },
+            true
+        );
+
+        swipeUndoButton?.addEventListener('click', () => {
+            if (!swipeModal || swipeModal.hidden) return;
+            undoLastSwipe(swipeModal);
         });
 
         document.addEventListener('pointerdown', (event) => {
@@ -603,10 +622,12 @@
             swipeModal.dataset.active = 'true';
             swipeModal.hidden = false;
             lockScroll();
+            roomSwipeHistory.set(room.id, []);
             if (swipeModalRoom instanceof HTMLElement) {
                 swipeModalRoom.textContent = formatRoomTitle(room);
             }
             renderSwipeDeck(swipeModal, room);
+            updateUndoButton(room.id);
             const card = swipeModal.querySelector('.swipe-modal-card');
             if (card instanceof HTMLElement) {
                 card.setAttribute('tabindex', '-1');
@@ -625,6 +646,7 @@
                 updateSwipePreview(activeSwipeRoomId);
             }
             activeSwipeRoomId = null;
+            updateUndoButton(null);
             if (swipeModalDeck instanceof HTMLElement) {
                 swipeModalDeck.innerHTML = '';
             }
@@ -654,15 +676,12 @@
                 const heading = document.createElement('h4');
                 heading.className = 'room-name';
                 heading.textContent = formatRoomTitle(room);
-                const categoryBadge = document.createElement('span');
-                categoryBadge.className = 'room-category';
-                categoryBadge.textContent = room.category || DEFAULT_CATEGORY;
                 const removeRoom = document.createElement('button');
                 removeRoom.className = 'remove-item';
                 removeRoom.dataset.action = 'remove-room';
                 removeRoom.type = 'button';
                 removeRoom.textContent = 'Remove room';
-                titleRow.append(heading, categoryBadge, removeRoom);
+                titleRow.append(heading, removeRoom);
 
                 const swipePanel = document.createElement('div');
                 swipePanel.className = 'swipe-panel swipe-panel--preview';
@@ -725,6 +744,8 @@
                 card.append(titleRow, swipePanel, itemsAccordion);
                 roomsGrid.appendChild(card);
             });
+
+            updateActiveRoomHeader();
         }
 
         function loadState() {
@@ -769,7 +790,7 @@
 
         function formatRoomTitle(room) {
             if (room.name) {
-                return `${room.category || DEFAULT_CATEGORY} — ${room.name}`;
+                return room.name;
             }
             return room.category || DEFAULT_CATEGORY;
         }
@@ -893,6 +914,7 @@
             card.remove();
 
             const item = card.dataset.item;
+            let queuedItem = null;
             if (room && item) {
                 if (!Array.isArray(room.reviewedItems)) {
                     room.reviewedItems = [];
@@ -913,9 +935,17 @@
 
             if (queue.length) {
                 const nextItem = queue.shift();
+                queuedItem = nextItem;
                 roomQueues.set(roomId, queue);
                 const nextCard = createSwipeCard(nextItem, 0);
                 deck.prepend(nextCard);
+            }
+
+            if (roomId && item) {
+                const history = roomSwipeHistory.get(roomId) || [];
+                history.push({ item, direction, queuedItem });
+                roomSwipeHistory.set(roomId, history);
+                updateUndoButton(roomId);
             }
 
             const remaining = deck.children.length + queue.length;
@@ -977,6 +1007,25 @@
             summary.textContent = `Items for this room (${count})`;
         }
 
+        function removeItemFromCard(roomId, item) {
+            if (!roomsGrid) return;
+            const roomCard = roomsGrid.querySelector(`[data-room-id="${roomId}"]`);
+            if (!(roomCard instanceof HTMLElement)) return;
+            const accordion = roomCard.querySelector('.items-accordion');
+            const list = accordion?.querySelector('.items-list');
+            if (!(list instanceof HTMLUListElement)) return;
+            const items = Array.from(list.querySelectorAll('li'));
+            const target = items.find((entry) => entry.querySelector('span')?.textContent === item);
+            if (!target) return;
+            target.remove();
+
+            const summary = accordion?.querySelector('summary');
+            const count = list.children.length;
+            if (summary instanceof HTMLElement) {
+                summary.textContent = count ? `Items for this room (${count})` : 'No items added yet.';
+            }
+        }
+
         function updateSubmissionData(rooms) {
             if (!submissionDataInput) return;
             const summary = rooms.map((room) => {
@@ -998,6 +1047,98 @@
             } else {
                 roomCounter.textContent = `${count} room${count === 1 ? '' : 's'} added.`;
             }
+        }
+
+        function updateActiveRoomHeader() {
+            if (!roomsGrid || !(activeRoomHeader instanceof HTMLElement)) return;
+            const openAccordions = Array.from(roomsGrid.querySelectorAll('.items-accordion[open]'));
+            if (!openAccordions.length) {
+                activeRoomHeader.hidden = true;
+                activeRoomHeader.textContent = '';
+                return;
+            }
+            const latestAccordion = openAccordions[openAccordions.length - 1];
+            const roomCard = latestAccordion.closest('[data-room-id]');
+            const roomId = roomCard?.getAttribute('data-room-id');
+            const room = state.rooms.find((entry) => entry.id === roomId);
+            if (!room) {
+                activeRoomHeader.hidden = true;
+                activeRoomHeader.textContent = '';
+                return;
+            }
+            activeRoomHeader.textContent = `Room: ${formatRoomTitle(room)}`;
+            activeRoomHeader.hidden = false;
+        }
+
+        function updateUndoButton(roomId) {
+            if (!(swipeUndoButton instanceof HTMLButtonElement)) return;
+            if (!roomId) {
+                swipeUndoButton.disabled = true;
+                return;
+            }
+            const history = roomSwipeHistory.get(roomId) || [];
+            swipeUndoButton.disabled = history.length === 0;
+        }
+
+        function decrementRoomSwipeCount(roomId) {
+            if (!roomId) return 0;
+            const nextCount = Math.max(0, getRoomSwipeCount(roomId) - 1);
+            roomSwipeCounts.set(roomId, nextCount);
+            return nextCount;
+        }
+
+        function undoLastSwipe(panel) {
+            if (!(panel instanceof HTMLElement)) return;
+            const roomId = panel.dataset.roomId;
+            if (!roomId) return;
+            const history = roomSwipeHistory.get(roomId) || [];
+            if (!history.length) return;
+            const lastSwipe = history.pop();
+            const room = state.rooms.find((entry) => entry.id === roomId);
+            const deck = panel.querySelector('.swipe-deck');
+            const status = panel.querySelector('.swipe-status');
+            const queue = roomQueues.get(roomId) || [];
+
+            if (!(deck instanceof HTMLElement)) return;
+
+            if (lastSwipe?.queuedItem) {
+                const queuedCard = deck.querySelector(`[data-item="${CSS.escape(lastSwipe.queuedItem)}"]`);
+                if (queuedCard) {
+                    queuedCard.remove();
+                }
+                queue.unshift(lastSwipe.queuedItem);
+                roomQueues.set(roomId, queue);
+            }
+
+            if (lastSwipe?.item) {
+                const restoredCard = createSwipeCard(lastSwipe.item, deck.children.length + 1);
+                deck.prepend(restoredCard);
+            }
+
+            if (room && lastSwipe?.item) {
+                if (Array.isArray(room.reviewedItems)) {
+                    room.reviewedItems = room.reviewedItems.filter((entry) => entry !== lastSwipe.item);
+                }
+                if (lastSwipe.direction === 'have') {
+                    room.items = room.items.filter((entry) => entry !== lastSwipe.item);
+                    removeItemFromCard(roomId, lastSwipe.item);
+                    updateSubmissionData(state.rooms);
+                }
+                saveState(state);
+            }
+
+            const remaining = deck.children.length + queue.length;
+            if (status instanceof HTMLElement) {
+                decrementRoomSwipeCount(roomId);
+                setSwipeStatus(
+                    status,
+                    remaining ? `${remaining} item${remaining === 1 ? '' : 's'} left` : 'No more items to review. Great job!',
+                    { includeAchievement: true, roomId }
+                );
+            }
+
+            updateSwipePreview(roomId);
+            updateUndoButton(roomId);
         }
 
         function setSwipeStatus(statusElement, text, options = {}) {

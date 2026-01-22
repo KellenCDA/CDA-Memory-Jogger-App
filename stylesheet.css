@@ -72,6 +72,24 @@ body.no-scroll {
     font-weight: 800;
 }
 
+.active-room-header {
+    position: sticky;
+    top: 58px;
+    z-index: 29;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+    background: #fff6e3;
+    border: 1px solid #f1d6ac;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #6b4f24;
+}
+
+.active-room-header[hidden] {
+    display: none;
+}
 
 .site-header {
     text-align: center;
@@ -500,6 +518,11 @@ a {
     gap: 10px;
 }
 
+.swipe-modal-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 .modal-body ul {
     padding-left: 18px;
     margin: 10px 0;

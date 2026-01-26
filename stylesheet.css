@@ -1,8 +1,8 @@
 :root {
-    --background: #f7f0e6;
+    --background: #d6d6d6;
     --card: #ffffff;
-    --primary: #1a73e8;
-    --primary-dark: #1558ad;
+    --primary: #d40e0e; 
+    --primary-dark: #850c0c;
     --text: #1f2933;
     --muted: #4b5563;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -107,6 +107,7 @@ body.no-scroll {
     justify-content: center;
     align-items: center;
     gap: 14px;
+    margin-bottom: 8px;
 }
 
 .brand-link {
@@ -289,7 +290,7 @@ a {
 }
 
 .primary-button.help-trigger{
-  background: #ce7337;
+  background: #d40e0e; 
   font-size: 0.75rem;
   font-weight: 700;
 

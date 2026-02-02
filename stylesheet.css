@@ -630,6 +630,13 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.swipe-card--with-image .swipe-card-title,
+.swipe-card--with-image .helper-text {
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
     position: relative;
@@ -661,6 +668,160 @@ a {
 
 .swipe-panel.collapsed .swipe-status {
     margin: 0;
+}
+
+.milestone-celebration {
+    position: fixed;
+    inset: 0;
+    z-index: 80;
+    pointer-events: none;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, calc(0.12 * var(--celebration-strength, 1))) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 216, 102, calc(0.18 * var(--celebration-strength, 1))) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(106, 193, 255, calc(0.16 * var(--celebration-strength, 1))) 0%, transparent 55%);
+    animation: celebration-glow 2.4s ease-out forwards;
+}
+
+.confetti-piece {
+    position: absolute;
+    top: -10%;
+    width: 10px;
+    height: 18px;
+    border-radius: 4px;
+    opacity: 0.9;
+    animation: confetti-fall 2.2s ease-in forwards;
+}
+
+.balloon {
+    position: absolute;
+    bottom: -20%;
+    border-radius: 50% 50% 45% 45%;
+    box-shadow: inset -4px -8px 12px rgba(0, 0, 0, 0.12);
+    opacity: 0.9;
+    animation: balloon-float 3.6s ease-out forwards;
+}
+
+.balloon::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 2px;
+    height: 22px;
+    background: rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+}
+
+.streamer {
+    position: absolute;
+    top: -12%;
+    width: 6px;
+    border-radius: 4px;
+    opacity: 0.85;
+    animation: streamer-fall 2.8s ease-in forwards;
+}
+
+.celebration-star {
+    position: absolute;
+    opacity: 0;
+    animation: star-twinkle 2s ease-out forwards;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.45);
+}
+
+.spark {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+    animation: spark-pop 1.6s ease-out forwards;
+}
+
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-20vh) rotate(0deg);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes balloon-float {
+    0% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-140vh) translateX(20px) rotate(12deg);
+        opacity: 0;
+    }
+}
+
+@keyframes streamer-fall {
+    0% {
+        transform: translateY(-20vh) rotate(0deg);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120vh) rotate(120deg);
+        opacity: 0;
+    }
+}
+
+@keyframes star-twinkle {
+    0% {
+        transform: scale(0.2) rotate(0deg);
+        opacity: 0;
+    }
+    40% {
+        transform: scale(1) rotate(25deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.3) rotate(60deg);
+        opacity: 0;
+    }
+}
+
+@keyframes spark-pop {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    45% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+}
+
+@keyframes celebration-glow {
+    0% {
+        opacity: 0;
+        filter: blur(0);
+    }
+    40% {
+        opacity: 1;
+        filter: blur(2px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(6px);
+    }
 }
 
 .swipe-right {
@@ -814,116 +975,4 @@ a {
 
 .swipe-panel--preview {
   min-height: auto !important;
-}
-
-.milestone-overlay {
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    display: grid;
-    place-items: center;
-    opacity: 0;
-    transition: opacity 240ms ease;
-    z-index: 80;
-}
-
-.milestone-overlay.visible {
-    opacity: 1;
-}
-
-.milestone-banner {
-    background: linear-gradient(135deg, #1a73e8, #4f46e5);
-    color: #f7fbff;
-    padding: 14px 18px;
-    border-radius: 14px;
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    box-shadow: 0 18px 42px rgba(26, 115, 232, 0.28);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    transform: translateY(-12px) scale(0.98);
-    animation: milestone-pop 220ms ease forwards;
-}
-
-.milestone-icon {
-    font-size: 1.9rem;
-}
-
-.milestone-text {
-    display: grid;
-    gap: 2px;
-}
-
-.milestone-title {
-    margin: 0;
-    font-weight: 800;
-    letter-spacing: 0.15px;
-}
-
-.milestone-subtitle {
-    margin: 0;
-    color: #e2e8f0;
-    font-size: 0.95rem;
-}
-
-.milestone-sparkles {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-    pointer-events: none;
-}
-
-.milestone-sparkle {
-    position: absolute;
-    top: 50%;
-    left: var(--sparkle-left, 50%);
-    width: 8px;
-    height: 8px;
-    background: radial-gradient(circle, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
-    border-radius: 50%;
-    animation: sparkle-burst 900ms ease forwards;
-    animation-delay: var(--sparkle-delay, 0s);
-}
-
-.milestone-glow {
-    box-shadow: 0 0 0 0 rgba(26, 115, 232, 0.35), 0 0 0 0 rgba(79, 70, 229, 0.25);
-    animation: panel-glow 1.6s ease;
-}
-
-@keyframes milestone-pop {
-    from {
-        transform: translateY(-6px) scale(0.96);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0) scale(1);
-        opacity: 1;
-    }
-}
-
-@keyframes sparkle-burst {
-    0% {
-        transform: translate(-50%, -50%) scale(0.5);
-        opacity: 0.9;
-    }
-    60% {
-        transform: translate(-50%, -140%) scale(1.4);
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-50%, -200%) scale(0.3);
-        opacity: 0;
-    }
-}
-
-@keyframes panel-glow {
-    0% {
-        box-shadow: 0 0 0 0 rgba(26, 115, 232, 0.5), 0 0 0 0 rgba(79, 70, 229, 0.36);
-    }
-    70% {
-        box-shadow: 0 0 0 12px rgba(26, 115, 232, 0), 0 0 0 20px rgba(79, 70, 229, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(26, 115, 232, 0), 0 0 0 0 rgba(79, 70, 229, 0);
-    }
 }

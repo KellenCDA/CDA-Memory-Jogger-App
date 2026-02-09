@@ -821,6 +821,17 @@
             return card;
         }
 
+        function getNextDeckZIndex(deck) {
+            if (!deck) return 1;
+            const zIndexes = Array.from(deck.children).map((card) => {
+                if (!(card instanceof HTMLElement)) return 0;
+                const zIndex = parseInt(card.style.zIndex || '0', 10);
+                return Number.isNaN(zIndex) ? 0 : zIndex;
+            });
+            const maxZ = zIndexes.length ? Math.max(...zIndexes) : 0;
+            return maxZ + 1;
+        }
+
         function renderSwipeDeck(panel, room) {
             if (!panel || !room) return;
             const roomId = room.id;
@@ -1111,7 +1122,7 @@
             }
 
             if (lastSwipe?.item) {
-                const restoredCard = createSwipeCard(lastSwipe.item, deck.children.length + 1);
+                const restoredCard = createSwipeCard(lastSwipe.item, getNextDeckZIndex(deck));
                 deck.prepend(restoredCard);
             }
 

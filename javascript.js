@@ -1826,6 +1826,7 @@
     const roomQueues = new Map();
     const roomSwipeCounts = new Map();
     const roomSwipeHistory = new Map();
+    const SWIPE_RIGHT_POINTS = 100;
 
     function getItemOptions(category) {
         if (category && ITEM_OPTIONS[category]) {
@@ -1866,6 +1867,7 @@
         const swipeModal = document.getElementById('swipe-modal');
         const swipeModalDeck = document.getElementById('swipe-modal-deck');
         const swipeModalStatus = document.getElementById('swipe-modal-status');
+        const swipeScoreboard = document.getElementById('swipe-scoreboard');
         const swipeModalRoom = document.getElementById('swipe-modal-room');
         const swipeModalClose = document.querySelector('[data-close-swipe]');
         const swipeUndoButton = document.querySelector('[data-action="undo-swipe"]');
@@ -1924,9 +1926,34 @@
         });
 
         const state = loadState();
+        normalizeScoreState(state);
         renderRooms(state.rooms);
         updateSubmissionData(state.rooms);
         updateRoomCounter(state.rooms);
+        renderScoreboard();
+
+        function normalizeScoreState(nextState) {
+            if (typeof nextState.score !== 'number' || Number.isNaN(nextState.score)) {
+                nextState.score = 0;
+            }
+            if (typeof nextState.rightStreak !== 'number' || Number.isNaN(nextState.rightStreak)) {
+                nextState.rightStreak = 0;
+            }
+            if (typeof nextState.multiplier !== 'number' || Number.isNaN(nextState.multiplier)) {
+                nextState.multiplier = 1;
+            }
+        }
+
+        function getMultiplierForStreak(streak) {
+            if (streak < 3) return 1;
+            const bonusSteps = 1 + Math.floor((streak - 3) / 2);
+            return 2 ** bonusSteps;
+        }
+
+        function renderScoreboard() {
+            if (!(swipeScoreboard instanceof HTMLElement)) return;
+            swipeScoreboard.textContent = `Score: ${state.score} · Multiplier: ${state.multiplier}x · Right streak: ${state.rightStreak}`;
+        }
 
         roomForm?.addEventListener('submit', (event) => {
             event.preventDefault();
@@ -2252,10 +2279,13 @@
         function loadState() {
             try {
                 const saved = localStorage.getItem(STORAGE_KEY);
-                if (!saved) return { rooms: [] };
+                if (!saved) return { rooms: [], score: 0, rightStreak: 0, multiplier: 1 };
                 const parsed = JSON.parse(saved);
-                if (!Array.isArray(parsed.rooms)) return { rooms: [] };
+                if (!Array.isArray(parsed.rooms)) return { rooms: [], score: 0, rightStreak: 0, multiplier: 1 };
                 return {
+                    score: typeof parsed.score === 'number' ? parsed.score : 0,
+                    rightStreak: typeof parsed.rightStreak === 'number' ? parsed.rightStreak : 0,
+                    multiplier: typeof parsed.multiplier === 'number' ? parsed.multiplier : 1,
                     rooms: parsed.rooms.map((room) => ({
                         id: room.id || generateId(),
                         category: room.category || DEFAULT_CATEGORY,
@@ -2266,7 +2296,7 @@
                 };
             } catch (error) {
                 console.error('Could not load rooms from storage', error);
-                return { rooms: [] };
+                return { rooms: [], score: 0, rightStreak: 0, multiplier: 1 };
             }
         }
 
@@ -2455,8 +2485,28 @@
 
             if (roomId && item) {
                 const history = roomSwipeHistory.get(roomId) || [];
-                history.push({ item, direction, queuedItem });
+                history.push({
+                    item,
+                    direction,
+                    queuedItem,
+                    previousScore: state.score,
+                    previousRightStreak: state.rightStreak,
+                    previousMultiplier: state.multiplier
+                });
                 roomSwipeHistory.set(roomId, history);
+
+                if (direction === 'have') {
+                    state.rightStreak += 1;
+                    state.multiplier = getMultiplierForStreak(state.rightStreak);
+                    state.score += SWIPE_RIGHT_POINTS * state.multiplier;
+                } else {
+                    state.score = 0;
+                    state.rightStreak = 0;
+                    state.multiplier = 1;
+                }
+
+                renderScoreboard();
+                saveState(state);
                 updateUndoButton(roomId);
             }
 
@@ -2636,8 +2686,16 @@
                     removeItemFromCard(roomId, lastSwipe.item);
                     updateSubmissionData(state.rooms);
                 }
-                saveState(state);
             }
+
+            if (lastSwipe) {
+                state.score = typeof lastSwipe.previousScore === 'number' ? lastSwipe.previousScore : 0;
+                state.rightStreak = typeof lastSwipe.previousRightStreak === 'number' ? lastSwipe.previousRightStreak : 0;
+                state.multiplier = typeof lastSwipe.previousMultiplier === 'number' ? lastSwipe.previousMultiplier : 1;
+                renderScoreboard();
+            }
+
+            saveState(state);
 
             const remaining = deck.children.length + queue.length;
             if (status instanceof HTMLElement) {

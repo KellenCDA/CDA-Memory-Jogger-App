@@ -512,6 +512,21 @@ a {
     gap: 12px;
 }
 
+
+.swipe-scoreboard {
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #f1d6ac;
+    background: #fff6e3;
+    color: #6b4f24;
+    font-weight: 800;
+    text-align: center;
+}
+
 .swipe-modal-room {
     margin: 0;
     font-weight: 600;

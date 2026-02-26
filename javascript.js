@@ -2865,7 +2865,6 @@
 
 })();
 
-=======
 (function () {
     const STORAGE_KEY = 'joggerData';
     const DEFAULT_CATEGORY = 'Other';
@@ -5705,5 +5704,3 @@
 
 
 })();
-
->>>>>>> b409232dc9fd0b6fef23068763ddcb599a9a0c8a

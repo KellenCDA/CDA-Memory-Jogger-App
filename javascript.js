@@ -2467,8 +2467,22 @@
             label.textContent = item;
 
             const tip = document.createElement('p');
-            tip.className = 'helper-text';
-            tip.textContent = 'Swipe right to add, left to skip';
+
+            tip.className = 'helper-text swipe-hint-arrows';
+
+            const leftArrow = document.createElement('span');
+            leftArrow.className = 'swipe-hint-arrow swipe-hint-arrow--left';
+            leftArrow.textContent = '←';
+            leftArrow.setAttribute('aria-label', 'Swipe left to skip');
+            leftArrow.title = 'Swipe left to skip';
+
+            const rightArrow = document.createElement('span');
+            rightArrow.className = 'swipe-hint-arrow swipe-hint-arrow--right';
+            rightArrow.textContent = '→';
+            rightArrow.setAttribute('aria-label', 'Swipe right to add');
+            rightArrow.title = 'Swipe right to add';
+
+            tip.append(leftArrow, rightArrow);
 
             card.append(label, tip);
             return card;

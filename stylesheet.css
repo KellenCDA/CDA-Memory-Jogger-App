@@ -668,7 +668,7 @@ a {
 }
 
 .swipe-card--with-image {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     color: #f8fbff;

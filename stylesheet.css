@@ -996,6 +996,7 @@ a {
     .swipe-deck {
         min-height: clamp(340px, 64vh, 520px);
         max-width: 100%;
+        place-items: start center;
     }
 }
 

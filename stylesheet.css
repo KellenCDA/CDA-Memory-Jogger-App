@@ -170,6 +170,27 @@ body.no-scroll {
     color: var(--muted);
 }
 
+.swipe-hint-arrows {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.swipe-hint-arrow {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.swipe-hint-arrow--left {
+    color: #dc2626;
+}
+
+.swipe-hint-arrow--right {
+    color: #16a34a;
+}
+
 .share-link {
     word-break: break-all;
     color: var(--text);

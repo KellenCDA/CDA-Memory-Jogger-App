@@ -1881,7 +1881,6 @@
         'steak knives': 'https://cdamemoryjogger.blob.core.windows.net/images/steak%20knifes.jpg',
         'kitchen shears': 'https://cdamemoryjogger.blob.core.windows.net/images/kitchen%20shears.jpg',
         'knife sharpener': 'https://cdamemoryjogger.blob.core.windows.net/images/knife%20sharpener.jpg',
-
         'cutting board wood': 'https://cdamemoryjogger.blob.core.windows.net/images/cutting%20board%20wood.jpg',
         'cutting board plastic': 'https://cdamemoryjogger.blob.core.windows.net/images/cutting%20board%20plastic.webp',
         'cutting board bamboo': 'https://cdamemoryjogger.blob.core.windows.net/images/cutting%20board%20bamboo.jpg',
@@ -1919,7 +1918,47 @@
         'whisk': 'https://cdamemoryjogger.blob.core.windows.net/images/whisk.jpg',
         'ladle': 'https://cdamemoryjogger.blob.core.windows.net/images/ladle.jpg',
         'slotted spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/slotted%20spoon.jpg',
-        'serving spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20spoon.jpg'
+        'serving spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20spoon.jpg',
+        'tongs': 'https://cdamemoryjogger.blob.core.windows.net/images/tongs.jpg',
+        'pasta server': 'https://cdamemoryjogger.blob.core.windows.net/images/pasta%20server.jpg',
+        'turner': 'https://cdamemoryjogger.blob.core.windows.net/images/turner.jpg',
+        'wooden spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/wooden%20spoon.jpg',
+        'can opener': 'https://cdamemoryjogger.blob.core.windows.net/images/can%20opener.jpg',
+        'bottle opener': 'https://cdamemoryjogger.blob.core.windows.net/images/bottle%20opener.jpg',
+        'wine opener': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20opener.jpg',
+        'garlic press': 'https://cdamemoryjogger.blob.core.windows.net/images/garlic%20press.jpg',
+        'vegetable peeler': 'https://cdamemoryjogger.blob.core.windows.net/images/vegetable%20peeler.jpg',
+        'box grater': 'https://cdamemoryjogger.blob.core.windows.net/images/box%20grater.jpg',
+        'zester': 'https://cdamemoryjogger.blob.core.windows.net/images/zester.jpg',
+        'citrus juicer': 'https://cdamemoryjogger.blob.core.windows.net/images/citrus%20juicer.jpg',
+        'meat tenderizer': 'https://cdamemoryjogger.blob.core.windows.net/images/meat%20tenderizer.jpg',
+        'potato masher': 'https://cdamemoryjogger.blob.core.windows.net/images/potato%20masher.jpg',
+        'ice cream scoop': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20cream%20scoop.jpg',
+        'melon baller': 'https://cdamemoryjogger.blob.core.windows.net/images/melon%20baller.jpg',
+        'apple corer': 'https://cdamemoryjogger.blob.core.windows.net/images/apple%20corer.jpg',
+        'mandoline slicer': 'https://cdamemoryjogger.blob.core.windows.net/images/mandoline%20slicer.jpg',
+        'basting brush': 'https://cdamemoryjogger.blob.core.windows.net/images/basting%20brush.jpg',
+        'flour sifter': 'https://cdamemoryjogger.blob.core.windows.net/images/flour%20sifter.jpg',
+        'aluminum foil': 'https://cdamemoryjogger.blob.core.windows.net/images/aluminum%20foil.jpg',
+        'plastic wrap': 'https://cdamemoryjogger.blob.core.windows.net/images/plastic%20wrap.jpg',
+        'parchment paper': 'https://cdamemoryjogger.blob.core.windows.net/images/parchment%20paper.jpg',
+        'wax paper': 'https://cdamemoryjogger.blob.core.windows.net/images/wax%20paper.jpg',
+        'food storage bags': 'https://cdamemoryjogger.blob.core.windows.net/images/food%20storage%20bags.jpg',
+        'vacuum sealer': 'https://cdamemoryjogger.blob.core.windows.net/images/vacuum%20sealer.jpg',
+        'food storage containers': 'https://cdamemoryjogger.blob.core.windows.net/images/food%20storage%20containers.jpg',
+        'glass containers': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20containers.jpg',
+        'plastic containers': 'https://cdamemoryjogger.blob.core.windows.net/images/plastic%20containers.jpg',
+        'spice jars': 'https://cdamemoryjogger.blob.core.windows.net/images/spice%20jars.jpg',
+        'salt shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20shaker.jpg',
+        'pepper shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20shaker.jpg',
+        'salt grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20grinder.jpg',
+        'pepper grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20grinder.jpg',
+        'oil bottle': 'https://cdamemoryjogger.blob.core.windows.net/images/oil%20bottle.jpg',
+        'vinegar bottle': 'https://cdamemoryjogger.blob.core.windows.net/images/vinegar%20bottle.jpg',
+        'sugar canister': 'https://cdamemoryjogger.blob.core.windows.net/images/sugar%20canister.jpg',
+        'flour canister': 'https://cdamemoryjogger.blob.core.windows.net/images/flour%20canister.jpg',
+        'coffee canister': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20canister.jpg',
+        'tea canister': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20canister.jpg'
     };
 
         const NORMALIZED_ITEM_IMAGE_OVERRIDES = Object.entries(ITEM_IMAGE_OVERRIDES).reduce((overrides, [key, value]) => {
@@ -1939,6 +1978,7 @@
     }, { ...NORMALIZED_ITEM_IMAGE_OVERRIDES });
 
     const MAX_RENDERED_CARDS = 10;
+    const SWIPE_START_INDEX = 120;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
     const ACHIEVEMENT_STEP = 10;
     const MILESTONE_STEP = 20;
@@ -2499,12 +2539,18 @@
             return maxZ + 1;
         }
 
+
         function renderSwipeDeck(panel, room) {
             if (!panel || !room) return;
             const roomId = room.id;
             const availableItems = getRemainingItems(room);
-            const renderableItems = availableItems.slice(0, MAX_RENDERED_CARDS);
-            roomQueues.set(roomId, availableItems.slice(MAX_RENDERED_CARDS));
+
+            // Start from the 30th item (index 29), but fall back to start if not enough items.
+            const startIndex = availableItems.length > SWIPE_START_INDEX ? SWIPE_START_INDEX : 0;
+            const startItems = availableItems.slice(startIndex);
+
+            const renderableItems = startItems.slice(0, MAX_RENDERED_CARDS);
+            roomQueues.set(roomId, startItems.slice(MAX_RENDERED_CARDS));
             if (!roomSwipeCounts.has(roomId)) {
                 roomSwipeCounts.set(roomId, 0);
             }
@@ -2518,7 +2564,7 @@
             if (!(deck instanceof HTMLElement) || !(status instanceof HTMLElement)) return;
             deck.innerHTML = '';
 
-            if (!availableItems.length) {
+            if (!startItems.length) {
                 setSwipeStatus(
                     status,
                     'Everything in this room has already been sorted. Remove an item to review again.',
@@ -2536,7 +2582,7 @@
 
             setSwipeStatus(
                 status,
-                `${availableItems.length} item${availableItems.length === 1 ? '' : 's'} to review`,
+                `${startItems.length} item${startItems.length === 1 ? '' : 's'} to review`,
                 { includeAchievement: true, roomId }
             );
         }

@@ -697,8 +697,7 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.swipe-card--with-image .swipe-card-title,
-.swipe-card--with-image .helper-text {
+.swipe-card--with-image .swipe-card-title {
     padding: 6px 10px;
     border-radius: 12px;
     background: rgba(0, 0, 0, 0.35);
@@ -706,6 +705,7 @@ a {
 
 .swipe-card--with-image .helper-text {
     color: #e8f1ff;
+    background: transparent;
     position: relative;
     top:130px;
 }

@@ -2587,21 +2587,21 @@
         'coaster holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coaster%20holder.jpg',
         'barware set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/barware%20set.jpg',
         'wine glasses': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wine%20glasses.jpg',
-        'cocktail glasses': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/cocktail%20glasses.jpg',
-        'drink pitcher': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/drink%20pitcher.jpg',
-        'ice bucket': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/ice%20bucket.jpg',
-        'bar tool set': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/bar%20tool%20set.jpg',
-        'wine opener': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/wine%20opener.jpg',
-        'wine rack': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/wine%20rack.jpg',
-        'bottle stopper': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/bottle%20stopper.jpg',
+        'cocktail glasses': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20glasses.jpg',
+        'drink pitcher': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20pitcher.jpg',
+        'ice bucket': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20bucket.jpg',
+        'bar tool set': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20tool%20set.jpg',
+        'wine opener': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20opener.jpg',
+        'wine rack': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack.jpg',
+        'bottle stopper': 'https://cdamemoryjogger.blob.core.windows.net/images/bottle%20stopper.jpg',
         'liquor cabinet contents': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/liquor%20cabinet%20contents.jpg',
         'storage ottoman tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20ottoman%20tray.jpg',
         'furniture covers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/furniture%20covers.jpg',
         'slipcovers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/slipcovers.jpg',
         'fabric protector spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fabric%20protector%20spray.jpg',
         'lint roller': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lint%20roller.jpg',
-        'hand vacuum': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/hand%20vacuum.jpg',
-        'vacuum cleaner': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/vacuum%20cleaner.jpg',
+        'hand vacuum': 'https://cdamemoryjogger.blob.core.windows.net/images/hand%20vacuum.jpg',
+        'vacuum cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/vacuum%20cleaner.jpg',
 
         'carpet cleaner machine': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carpet%20cleaner%20machine.jpg',
         'broom': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/broom.jpg',
@@ -2610,13 +2610,13 @@
         'cleaning caddy': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cleaning%20caddy.jpg',
         'glass cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/glass%20cleaner.jpg',
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/all%20purpose%20cleaner.jpg',
-        'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/microfiber%20cloths.jpg',
-        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/paper%20towels.jpg',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/trash%20can.jpg',
-        'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/recycling%20bin.jpg',
-        'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/trash%20bags.jpg',
-        'drawer organizer': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/drawer%20organizer.jpg',
-        'cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/kitchen/cabinet%20shelf%20liner.jpg',
+        'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/images/microfiber%20cloths.jpg',
+        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towels.jpg',
+        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20can.jpg',
+        'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin.jpg',
+        'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20bags.jpg',
+        'drawer organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20organizer.jpg',
+        'cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20shelf%20liner.jpg',
         'furniture polish': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/furniture%20polish.jpg',
         'wood cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wood%20cleaner.jpg',
         'fabric freshener spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fabric%20freshener%20spray.jpg',
@@ -8634,6 +8634,74 @@
         return catalog;
     }, { ...NORMALIZED_ITEM_IMAGE_OVERRIDES });
 
+    const IMAGE_STORAGE_ACCOUNT = 'https://cdamemoryjogger.blob.core.windows.net';
+    const IMAGE_BLOB_CONTAINERS = [
+        'images', 'bathroom', 'bedroom', 'basement', 'garage',
+        'laundry', 'livingroom', 'loft', 'officestudy', 'shedstorageunit', 'yard'
+    ];
+    const blobNameManifests = {};
+    let blobManifestsPromise = null;
+
+    function parseBlobListXml(xmlText) {
+        const map = new Map();
+        try {
+            const doc = new DOMParser().parseFromString(xmlText, 'application/xml');
+            const nameNodes = doc.getElementsByTagName('Name');
+            for (let i = 0; i < nameNodes.length; i++) {
+                const name = nameNodes[i].textContent || '';
+                if (name) {
+                    map.set(name.toLowerCase(), name);
+                }
+            }
+        } catch (error) {
+            console.warn('Failed to parse blob list XML', error);
+        }
+        return map;
+    }
+
+    async function fetchContainerManifest(container) {
+        try {
+            const response = await fetch(`${IMAGE_STORAGE_ACCOUNT}/${container}?restype=container&comp=list`);
+            if (!response.ok) return new Map();
+            const text = await response.text();
+            return parseBlobListXml(text);
+        } catch (error) {
+            console.warn(`Failed to list blobs for container "${container}"`, error);
+            return new Map();
+        }
+    }
+
+    function loadBlobManifests() {
+        if (!blobManifestsPromise) {
+            blobManifestsPromise = Promise.all(
+                IMAGE_BLOB_CONTAINERS.map((container) =>
+                    fetchContainerManifest(container).then((map) => {
+                        blobNameManifests[container] = map;
+                    })
+                )
+            );
+        }
+        return blobManifestsPromise;
+    }
+
+    function resolveBlobCaseInsensitive(url) {
+        try {
+            const parsed = new URL(url);
+            const segments = parsed.pathname.split('/').filter(Boolean);
+            const container = segments[0];
+            const blobPath = decodeURIComponent(segments.slice(1).join('/'));
+            const manifest = blobNameManifests[container];
+            const actualName = manifest && manifest.get(blobPath.toLowerCase());
+            if (actualName && actualName !== blobPath) {
+                const encodedPath = actualName.split('/').map(encodeURIComponent).join('/');
+                return `${parsed.origin}/${container}/${encodedPath}`;
+            }
+        } catch (error) {
+            console.warn('Failed to resolve blob case for URL', url, error);
+        }
+        return url;
+    }
+
     const MAX_RENDERED_CARDS = 10;
     const SWIPE_START_INDEX = 0;
     const ACHIEVEMENT_ICONS = ['🌱', '👍', '💪', '😁', '😍', '🙌', '😎', '🏅', '✨', '🥳', '🚀', '🤖', '😸', '👽', '🌟', '🤯', '🔥', '🎉'];
@@ -8661,12 +8729,15 @@
 
     function getItemImage(itemName) {
         const normalized = normalizeItemKey(itemName);
-        return ITEM_IMAGES[normalized] || '';
+        const url = ITEM_IMAGES[normalized] || '';
+        return url ? resolveBlobCaseInsensitive(url) : '';
     }
 
     function normalizeItemKey(value) {
         return (value || '').toString().trim().toLowerCase().replace(/\s+/g, ' ');
     }
+
+    loadBlobManifests();
 
     document.addEventListener('DOMContentLoaded', () => {
         const body = document.body;

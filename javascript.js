@@ -8642,32 +8642,41 @@
     const blobNameManifests = {};
     let blobManifestsPromise = null;
 
+    function getBlobBaseName(name) {
+        const dotIndex = name.lastIndexOf('.');
+        return dotIndex > 0 ? name.slice(0, dotIndex) : name;
+    }
+
     function parseBlobListXml(xmlText) {
-        const map = new Map();
+        const byName = new Map();
+        const byBaseName = new Map();
         try {
             const doc = new DOMParser().parseFromString(xmlText, 'application/xml');
             const nameNodes = doc.getElementsByTagName('Name');
             for (let i = 0; i < nameNodes.length; i++) {
                 const name = nameNodes[i].textContent || '';
-                if (name) {
-                    map.set(name.toLowerCase(), name);
+                if (!name) continue;
+                byName.set(name.toLowerCase(), name);
+                const baseKey = getBlobBaseName(name).toLowerCase();
+                if (!byBaseName.has(baseKey)) {
+                    byBaseName.set(baseKey, name);
                 }
             }
         } catch (error) {
             console.warn('Failed to parse blob list XML', error);
         }
-        return map;
+        return { byName, byBaseName };
     }
 
     async function fetchContainerManifest(container) {
         try {
             const response = await fetch(`${IMAGE_STORAGE_ACCOUNT}/${container}?restype=container&comp=list`);
-            if (!response.ok) return new Map();
+            if (!response.ok) return parseBlobListXml('');
             const text = await response.text();
             return parseBlobListXml(text);
         } catch (error) {
             console.warn(`Failed to list blobs for container "${container}"`, error);
-            return new Map();
+            return parseBlobListXml('');
         }
     }
 
@@ -8675,8 +8684,8 @@
         if (!blobManifestsPromise) {
             blobManifestsPromise = Promise.all(
                 IMAGE_BLOB_CONTAINERS.map((container) =>
-                    fetchContainerManifest(container).then((map) => {
-                        blobNameManifests[container] = map;
+                    fetchContainerManifest(container).then((manifest) => {
+                        blobNameManifests[container] = manifest;
                     })
                 )
             );
@@ -8691,10 +8700,18 @@
             const container = segments[0];
             const blobPath = decodeURIComponent(segments.slice(1).join('/'));
             const manifest = blobNameManifests[container];
-            const actualName = manifest && manifest.get(blobPath.toLowerCase());
-            if (actualName && actualName !== blobPath) {
-                const encodedPath = actualName.split('/').map(encodeURIComponent).join('/');
-                return `${parsed.origin}/${container}/${encodedPath}`;
+            if (manifest) {
+                const exactName = manifest.byName.get(blobPath.toLowerCase());
+                if (exactName) {
+                    if (exactName === blobPath) return url;
+                    const encodedPath = exactName.split('/').map(encodeURIComponent).join('/');
+                    return `${parsed.origin}/${container}/${encodedPath}`;
+                }
+                const baseName = manifest.byBaseName.get(getBlobBaseName(blobPath).toLowerCase());
+                if (baseName) {
+                    const encodedPath = baseName.split('/').map(encodeURIComponent).join('/');
+                    return `${parsed.origin}/${container}/${encodedPath}`;
+                }
             }
         } catch (error) {
             console.warn('Failed to resolve blob case for URL', url, error);

@@ -1534,7 +1534,8 @@
 ]
     };
 
-    const ITEM_IMAGE_OVERRIDES = {
+    const ITEM_IMAGE_OVERRIDES_BY_CATEGORY = {
+        Kitchen: {
         //kitchen
         'refrigerator': 'https://cdamemoryjogger.blob.core.windows.net/images/Fridge_Thumbnail__0016_DFF180E2SSDB.jpg',
         'refrigerator shelves': 'https://cdamemoryjogger.blob.core.windows.net/images/freezer%20shelves.jpg',
@@ -1644,7 +1645,7 @@
         'casserole dish': 'https://cdamemoryjogger.blob.core.windows.net/images/casserole%20dish.jpg',
         'dutch oven': 'https://cdamemoryjogger.blob.core.windows.net/images/dutch%20oven.jpg',
         'stock pot': 'https://cdamemoryjogger.blob.core.windows.net/images/stock%20pot.jpg',
-        'saucepan': 'https://cdamemoryjogger.blob.core.windows.net/images/saucepan.jpg',
+        'saucepan': 'https://cdamemoryjogger.blob.core.windows.net/images/sauce%20pan.jpg',
         'frying pan': 'https://cdamemoryjogger.blob.core.windows.net/images/frying%20pan.jpg',
         'nonstick skillet': 'https://cdamemoryjogger.blob.core.windows.net/images/nonstick%20skillet.jpg',
         'cast iron skillet': 'https://cdamemoryjogger.blob.core.windows.net/images/cast%20iron%20skillet.jpg',
@@ -1841,7 +1842,7 @@
         'mixing spoon set': 'https://cdamemoryjogger.blob.core.windows.net/images/mixing%20spoon%20set.jpg',
         'skillet lid': 'https://cdamemoryjogger.blob.core.windows.net/images/skillet%20lid.jpg',
         'stock pot lid': 'https://cdamemoryjogger.blob.core.windows.net/images/stock%20pot%20lid.jpg',
-        'pressure cooker lid': 'https://cdamemoryjogger.blob.core.windows.net/images/pressure%20cooker%20lid.jpg',
+        'pressure cooker lid': 'https://cdamemoryjogger.blob.core.windows.net/images/preassure%20cooker%20lid.jpg',
         'slow cooker insert': 'https://cdamemoryjogger.blob.core.windows.net/images/slow%20cooker%20insert.jpg',
         'slow cooker lid': 'https://cdamemoryjogger.blob.core.windows.net/images/slow%20cooker%20lid.jpg',
         'air fryer basket': 'https://cdamemoryjogger.blob.core.windows.net/images/air%20fryer%20basket.jpg',
@@ -1893,7 +1894,7 @@
         'lid organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/lid%20organizer.jpg',
         'pot rack': 'https://cdamemoryjogger.blob.core.windows.net/images/pot%20rack.jpg',
         'hanging pot rack': 'https://cdamemoryjogger.blob.core.windows.net/images/hanging%20pot%20rack.jpg',
-        'wine glass rack': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20glass%20rack.jpg',
+        'wine glass rack': 'https://cdamemoryjogger.blob.core.windows.net/images/winen%20glass%20rack.jpg',
         'mug tree': 'https://cdamemoryjogger.blob.core.windows.net/images/mug%20tree.jpg',
         'plate rack': 'https://cdamemoryjogger.blob.core.windows.net/images/plate%20rack.jpg',
         'drawer dividers': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20dividers.jpg',
@@ -1914,7 +1915,7 @@
         'knife case': 'https://cdamemoryjogger.blob.core.windows.net/images/knife%20case.jpg',
         'appliance covers': 'https://cdamemoryjogger.blob.core.windows.net/images/appliance%20covers.jpg',
         'refrigerator magnets': 'https://cdamemoryjogger.blob.core.windows.net/images/refrigerator%20magnets.jpg',
-        'calendar': 'https://cdamemoryjogger.blob.core.windows.net/images/calendar.jpg',
+        'calendar': 'https://cdamemoryjogger.blob.core.windows.net/images/calender.jpg',
         'message board': 'https://cdamemoryjogger.blob.core.windows.net/images/message%20board.jpg',
         'key holder': 'https://cdamemoryjogger.blob.core.windows.net/images/key%20holder.jpg',
         'storage jars': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20jars.jpg',
@@ -2004,7 +2005,7 @@
         'pet bowls': 'https://cdamemoryjogger.blob.core.windows.net/images/pet%20bowls.jpg',
         'step trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/step%20trash%20can.jpg',
         'touchless trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/touchless%20trash%20can.jpg',
-        'cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20shelf%20riser.jpg',
+        'cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20self%20raiser.jpg',
         'plate charger set': 'https://cdamemoryjogger.blob.core.windows.net/images/plate%20charger%20set.jpg',
         'cut resistant gloves': 'https://cdamemoryjogger.blob.core.windows.net/images/cut%20resistant%20gloves.jpg',
         'oven rack guards': 'https://cdamemoryjogger.blob.core.windows.net/images/oven%20rack%20guards.jpg',
@@ -2067,7 +2068,7 @@
         'tea infuser': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20infuser.jpg',
         'tea kettle electric': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20kettle%20electric.jpg',
         'tea kettle stovetop': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20kettle%20stovetop.jpg',
-        'refrigerator deodorizer': 'https://cdamemoryjogger.blob.core.windows.net/images/refrigerator%20deodorizer.jpg',
+        'refrigerator deodorizer': 'https://cdamemoryjogger.blob.core.windows.net/images/refrigerator%20deoderizer.jpg',
         'freezer thermometer': 'https://cdamemoryjogger.blob.core.windows.net/images/freezer%20thermometer.jpg',
         'pantry thermometer': 'https://cdamemoryjogger.blob.core.windows.net/images/pantry%20thermometer.jpg',
         'humidity absorber': 'https://cdamemoryjogger.blob.core.windows.net/images/humidity%20absorber.jpg',
@@ -2224,7 +2225,7 @@
         'cloth napkin rings': 'https://cdamemoryjogger.blob.core.windows.net/images/cloth%20napkin%20rings.jpg',
         'placemat set': 'https://cdamemoryjogger.blob.core.windows.net/images/placemat%20set.jpg',
         'table protector pad': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20protector%20pad.jpg',
-        'kitchen wall mirror': 'https://cdamemoryjogger.blob.core.windows.net/images/kitchen%20wall%20mirror.jpg',
+        'kitchen wall mirror': 'https://cdamemoryjogger.blob.core.windows.net/images/kitchen%20wall%20mirrior.jpg',
         'decorative wall shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20wall%20shelf.jpg',
         'command hooks': 'https://cdamemoryjogger.blob.core.windows.net/images/command%20hooks.jpg',
         'adhesive wall hooks': 'https://cdamemoryjogger.blob.core.windows.net/images/adhesive%20wall%20hooks.jpg',
@@ -2376,7 +2377,7 @@
         'vegetable scrub brush': 'https://cdamemoryjogger.blob.core.windows.net/images/vegetable%20scrub%20brush.jpg',
         'fruit corer tool': 'https://cdamemoryjogger.blob.core.windows.net/images/fruit%20corer%20tool.jpg',
         'avocado slicer': 'https://cdamemoryjogger.blob.core.windows.net/images/avocado%20slicer.jpg',
-        'egg separator': 'https://cdamemoryjogger.blob.core.windows.net/images/egg%20separator.jpg',
+        'egg separator': 'https://cdamemoryjogger.blob.core.windows.net/images/egg%20seperator.jpg',
         'egg poacher pan': 'https://cdamemoryjogger.blob.core.windows.net/images/egg%20poacher%20pan.jpg',
         'pancake ring set': 'https://cdamemoryjogger.blob.core.windows.net/images/pancake%20ring%20set.jpg',
         'waffle batter dispenser': 'https://cdamemoryjogger.blob.core.windows.net/images/waffle%20batter%20dispenser.jpg',
@@ -2406,6 +2407,8 @@
         'dish drying cabinet rack': 'https://cdamemoryjogger.blob.core.windows.net/images/dish%20drying%20cabinet%20rack.jpg',
         'cutting mat flexible': 'https://cdamemoryjogger.blob.core.windows.net/images/cutting%20mat%20flexible.jpg',
       
+        },
+        'Living room': {
         //living room
         'sofa': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/sofa.jpg',
         'sectional sofa': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/sectional%20sofa.jpg',
@@ -2449,9 +2452,9 @@
         'speaker stands': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/speaker%20stands.jpg',
         'home theater receiver': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/home%20theater%20receiver.jpg',
         'gaming console': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gaming%20console.jpg',
-        'game controller': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/game%20controller.jpg',
+        'game controller': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gaming%20controller.jpg',
         'virtual reality headset': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/virtual%20reality%20headset.jpg',
-        'cable box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cable%20box.jpg',
+        'cable box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cablebox.jpg',
         'satellite receiver': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/satellite%20receiver.jpg',
         'media remote': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/media%20remote.jpg',
         'universal remote': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/universal%20remote.jpg',
@@ -2481,7 +2484,7 @@
         'wall art': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20art.jpg',
         'framed artwork': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/framed%20artwork.jpg',
         'canvas art': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/canvas%20art.jpg',
-        'wall mirror': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20mirror.jpg',
+        'wall mirror': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20mirrior.jpg',
         'decorative mirror': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20mirror.jpg',
         'wall clock': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20clock.jpg',
         'picture frames': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/picture%20frames.jpg',
@@ -2597,13 +2600,13 @@
         'liquor cabinet contents': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/liquor%20cabinet%20contents.jpg',
         'storage ottoman tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20ottoman%20tray.jpg',
         'furniture covers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/furniture%20covers.jpg',
-        'slipcovers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/slipcovers.jpg',
+        'slipcovers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/slip%20covers.jpg',
         'fabric protector spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fabric%20protector%20spray.jpg',
         'lint roller': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lint%20roller.jpg',
         'hand vacuum': 'https://cdamemoryjogger.blob.core.windows.net/images/hand%20vacuum.jpg',
         'vacuum cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/vacuum%20cleaner.jpg',
 
-        'carpet cleaner machine': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carpet%20cleaner%20machine.jpg',
+        'carpet cleaner machine': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carper%20cleaner%20machine.jpg',
         'broom': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/broom.jpg',
         'dustpan': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/dustpan.jpg',
         'floor mop': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20mop.jpg',
@@ -2796,7 +2799,7 @@
         'ceramic decor bowl': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ceramic%20decor%20bowl.jpg',
         'magazine subscription box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/magazine%20subscription%20box.jpg',
         'board game storage rack': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/board%20game%20storage%20rack.jpg',
-        'card deck holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/card%20deck%20holder.jpg',
+        'card deck holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/card%20deck%20storage%20holder.jpg',
         'puzzle storage box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/puzzle%20storage%20box.jpg',
         'charging dock station': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/charging%20dock%20station.jpg',
         'laptop storage sleeve': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/laptop%20storage%20sleeve.jpg',
@@ -2903,7 +2906,7 @@
         'plant pruning shears': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20pruning%20shears.jpg',
         'plant support stakes': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20support%20stakes.jpg',
         'artificial plant cleaner spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/artificial%20plant%20cleaner%20spray.jpg',
-        'floor vase filler sticks': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20vase%20filler%20sticks.jpg',
+        'floor vase filler sticks': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20vase%20fillter%20sticks.jpg',
         'decorative tray liner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20tray%20liner.jpg',
 
         'magazine file holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/magazine%20file%20holder.jpg',
@@ -3085,6 +3088,8 @@
 
 
 
+        },
+        Bedroom: {
 //bedroom
 
     'bed frame': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/bed%20frame.jpg',
@@ -3153,7 +3158,7 @@
     'linen sheets': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/linen%20sheets.jpg',
     'pillowcases': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/pillowcases.jpg',
     'silk pillowcases': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/silk%20pillowcases.jpg',
-    'pillow shams': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/pillow%20shams.jpg',
+    'pillow shams': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/pillowshams.jpg',
     'euro pillow shams': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/euro%20pillow%20shams.jpg',
     'quilted sham': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/quilted%20sham.jpg',
     'duvet': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/duvet.jpg',
@@ -3569,7 +3574,7 @@
     'flashlight': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/flashlight.jpg',
     'emergency flashlight': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/emergency%20flashlight.jpg',
     'wastebasket': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/wastebasket.jpg',
-    'trash bin': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/trash%20bin.jpg',
+    'trash bin': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/trashbin.jpg',
     'tissue boxes': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/tissue%20boxes.jpg',
     'humidifier filter': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/humidifier%20filter.jpg',
     'moth repellent': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/moth%20repellent.jpg',
@@ -3591,6 +3596,8 @@
     'spare bedding storage': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/spare%20bedding%20storage.jpg',
     'closet safe': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/closet%20safe.jpg',
   
+        },
+        Bathroom: {
     //bathroom
 
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/all%20purpose%20cleaner.jpg',
@@ -3770,7 +3777,7 @@
         'shaving bowl': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shaving%20bowl.jpg',
         'shower soap dish': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shower%20soap%20dish.jpg',
         'shower body wash holder': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shower%20body%20wash%20holder.jpg',
-        'waterproof shower radio': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/waterproof%20shower%20radio.jpg',
+        'waterproof shower radio': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/water%20proof%20shower%20radio.jpg',
         'shower clock': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shower%20clock.jpg',
         'shower mirror': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shower%20mirror.jpg',
         'fogless shower mirror': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/fogless%20shower%20mirror.jpg',
@@ -3851,14 +3858,14 @@
         'cabinet freshener': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/cabinet%20freshener.jpg',
         'sachets': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/sachets.jpg',
         'odor absorber': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/odor%20absorber.jpg',
-        'lazy susan organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/lazy%20susan%20organizer.jpg',
+        'lazy susan organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/lazy%20susan%20organizer%20bathroom.jpg',
         'rotating organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/rotating%20organizer.jpg',
         'suction cup organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/suction%20cup%20organizer.jpg',
         'door mounted organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/door%20mounted%20organizer.jpg',
         'towel bar with shelf': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/towel%20bar%20with%20shelf.jpg',
         'over sink shelf': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/over%20sink%20shelf.jpg',
         'bamboo organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/bamboo%20organizer.jpg',
-        'acrylic organizer set': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/acrylic%20organizer%20set.jpg',
+        'acrylic organizer set': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/acryclic%20organizer%20set.jpg',
 
         'electric toothbrush': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/electric%20toothbrush.jpg',
         'manual toothbrush': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/manual%20toothbrush.jpg',
@@ -4292,7 +4299,7 @@
         'curio cabinet lighting kit': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20lighting%20kit.jpg',
         'display cabinet glass cleaner kit': 'https://cdamemoryjogger.blob.core.windows.net/images/display%20cabinet%20glass%20cleaner%20kit.jpg',
         'console table drawer liner': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20drawer%20liner.jpg',
-        'cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20shelf%20riser.jpg',
+        'cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20self%20raiser.jpg',
         'buffet fuel cans': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20fuel%20cans.jpg',
         'glass cabinet lock': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20cabinet%20lock.jpg',
         'storage basket liner': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20basket%20liner.jpg',
@@ -4771,6 +4778,8 @@
         'silver storage rolls': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20storage%20rolls.jpg',
         'silver storage pouches': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20storage%20pouches.jpg',
 
+        },
+        "Office / Study": {
 //office / study
         'desk': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk.jpg',
         'standing desk': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/standing%20desk.jpg',
@@ -4785,7 +4794,7 @@
         'tablet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet.jpg',
         'tablet charger': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20charger.jpg',
         'desk organizer': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20organizer.jpg',
-        'desk calendar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20calendar.jpg',
+        'desk calendar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20calender.jpg',
         'desk leg levelers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20leg%20levelers.jpg',
         'desk corner protectors': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20corner%20protectors.jpg',
         'desk cable grommet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20cable%20grommet.jpg',
@@ -4877,7 +4886,7 @@
         'ring light desk mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ring%20light%20desk%20mount.jpg',
         'desktop NAS storage': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desktop%20NAS%20storage.jpg',
         'desk filing tray metal': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20filing%20tray%20metal.jpg',
-        'calendar desk pad': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/calendar%20desk%20pad.jpg',
+        'calendar desk pad': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/calender%20desk%20pad.jpg',
         'portable projector': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/portable%20projector.jpg',
         'desk drawer lock cylinder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20drawer%20lock%20cylinder.jpg',
         'desk lock key spare': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20lock%20key%20spare.jpg',
@@ -4955,7 +4964,7 @@
         'bookshelf': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bookshelf.jpg',
 
         'filing cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/filing%20cabinet.jpg',
-        'lateral file cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/lateral%20file%20cabinet.jpg',
+        'lateral file cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/lateral%20filing%20cabinet.jpg',
         'storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet.jpg',
         'credenza': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza.jpg',
         'drawer organizers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/drawer%20organizers.jpg',
@@ -4969,7 +4978,7 @@
         'bookshelf anchors': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bookshelf%20anchors.jpg',
         'filing cabinet key spare': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/filing%20cabinet%20key%20spare.jpg',
         'file cabinet lock': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/file%20cabinet%20lock.jpg',
-        'file cabinet anti tip kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/file%20cabinet%20anti%20tip%20kit.jpg',
+        'file cabinet anti tip kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/filing%20cabinet%20anti%20tip%20kit.jpg',
         'storage cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet%20shelf%20liner.jpg',
         'credenza drawer divider': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20drawer%20divider.jpg',
         'notebook storage crate': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/notebook%20storage%20crate.jpg',
@@ -5048,7 +5057,7 @@
         'credenza shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20shelf%20pins.jpg',
         'network rack shelf': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/network%20rack%20shelf.jpg',
         'network rack screws': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/network%20rack%20screws.jpg',
-        'rack mount power strip': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rack%20mount%20power%20strip.jpg',
+        'rack mount power strip': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rck%20mount%20power%20strip.jpg',
         'rack mount drawer': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rack%20mount%20drawer.jpg',
         'rack mount fan': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rack%20mount%20fan.jpg',
         'rack mount cable manager': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rack%20mount%20cable%20manager.jpg',
@@ -5214,7 +5223,7 @@
         'cable management ring': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20management%20ring.jpg',
         'cable management raceway': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20management%20raceway.jpg',
         'cable mounting base': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20mounting%20base.jpg',
-        'Velcro cable ties': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/Velcro%20cable%20ties.jpg',
+        'Velcro cable ties': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/velcro%20table%20ties.jpg',
         'power conditioner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/power%20conditioner.jpg',
         'UPS battery pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/UPS%20battery%20pack.jpg',
         'plug splitter adapter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/plug%20splitter%20adapter.jpg',
@@ -5249,7 +5258,7 @@
         'paper shredder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/paper%20shredder.jpg',
         'label maker': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/label%20maker.jpg',
         'labels': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/labels.jpg',
-        'wall calendar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/wall%20calendar.jpg',
+        'wall calendar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/wall%20calender.jpg',
         'bulletin board': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bulletin%20board.jpg',
         'whiteboard': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard.png',
         'whiteboard markers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard%20markers.jpg',
@@ -5283,7 +5292,7 @@
         'shipping label roll': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/shipping%20label%20roll.jpg',
         'paper tray letter size': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/paper%20tray%20letter%20size.jpg',
         'label maker case': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/label%20maker%20case.jpg',
-        'wall calendar dry erase': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/wall%20calendar%20dry%20erase.jpg',
+        'wall calendar dry erase': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/wall%20calender%20dry%20erase.jpg',
         'bulletin board frame': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bulletin%20board%20frame.jpg',
         'whiteboard marker holder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard%20marker%20holder.jpg',
         'paper clip tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/paper%20clip%20tray.jpg',
@@ -5326,7 +5335,7 @@
         'headphone stand clamp mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/headphone%20stand%20clamp%20mount.jpg',
         'webcam ring light': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/webcam%20ring%20light.jpg',
         'ring light tripod stand': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ring%20light%20tripod%20stand.jpg',
-        'ring light diffuser': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ring%20light%20diffuser.jpg',
+        'ring light diffuser': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ring%20light%20difuser.jpg',
         'backdrop clamp': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/backdrop%20clamp.jpg',
         'screen light bar remote': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/screen%20light%20bar%20remote.jpg',
         'blue light blocking glasses': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/blue%20light%20blocking%20glasses.jpg',
@@ -5398,7 +5407,7 @@
         'umbrella stand': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/umbrella%20stand.jpg',
         'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/microfiber%20cloths.jpg',
         'disinfecting wipes': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/disinfecting%20wipes.jpg',
-        'fire extinguisher': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/fire%20extinguisher.jpg',
+        'fire extinguisher': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/fire%20extinuisher.jpg',
         'smoke detector': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/smoke%20detector.jpg',
         'carbon monoxide detector': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/carbon%20monoxide%20detector.jpg',
         'first aid kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/first%20aid%20kit.jpg',
@@ -5493,13 +5502,13 @@
         'cork board push pin set': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cork%20board%20push%20pin%20set.jpg',
         'magnetic cork board': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/magnetic%20cork%20board.jpg',
         'magnetic clips': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/magnetic%20clips.jpg',
-        'magnetic name plate': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/magnetic%20name%20plate.jpg',
+        'magnetic name plate': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/magnetic%20nameplate.jpg',
         'magnetic ruler': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/magnetic%20ruler.jpg',
         'laminator heat resistant gloves': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20heat%20resistant%20gloves.jpg',
         'laminator corner rounder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20corner%20rounder.jpg',
         'laminator thermal pouch carrier': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20thermal%20pouch%20carrier.jpg',
         'laminator jam release tool': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20jam%20release%20tool.jpg',
-        'laminator foil sheets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20foil%20heets.jpg',
+        'laminator foil sheets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20foil%20sheets.jpg',
         'laminator cold pouch kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20cold%20pouch%20kit.jpg',
         'laminator trim cutter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20trim%20cutter.jpg',
         'postal scale digital': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/postal%20scale%20digital.jpg',
@@ -5510,6 +5519,8 @@
         'binding cover sheets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/binding%20cover%20sheets.jpg',
         'binding spine cutter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/binding%20spine%20cutter.jpg',
 
+        },
+        Loft: {
 //loft
 
         'accent bench': 'https://cdamemoryjogger.blob.core.windows.net/loft/accent%20bench.jpg',
@@ -5561,7 +5572,7 @@
         'recliner battery pack': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20battery%20pack.jpg',           
     
         'recliner hand control': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20hand%20control.jpg',
-        'recliner headrest cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20headrest%20cover.jpg',
+        'recliner headrest cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20handrest%20cover.jpg',
         'recliner power supply': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20power%20supply.jpg',
         'recliner side pocket organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/recliner%20side%20pocket%20organizer.jpg',
         'rocking chair': 'https://cdamemoryjogger.blob.core.windows.net/loft/rocking%20chair.jpg',
@@ -5630,7 +5641,7 @@
         'bedside table coaster': 'https://cdamemoryjogger.blob.core.windows.net/loft/bedside%20table%20coaster.jpg',
         'book display shelf': 'https://cdamemoryjogger.blob.core.windows.net/loft/book%20display%20shelf.jpg',
         'broom storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/loft/broom%20storage%20cabinet.jpg',
-        'coffee table coasters set': 'https://cdamemoryjogger.blob.core.windows.net/loft/coffee%20table%20coasters%20set.jpg',
+        'coffee table coasters set': 'https://cdamemoryjogger.blob.core.windows.net/loft/coffee%20table%20coasters.jpg',
         'coffee table glass top': 'https://cdamemoryjogger.blob.core.windows.net/loft/coffee%20table%20glass%20top.jpg',
         'coffee table leg levelers': 'https://cdamemoryjogger.blob.core.windows.net/loft/coffee%20table%20leg%20levelers.jpg',
         'coffee table leg pads': 'https://cdamemoryjogger.blob.core.windows.net/loft/coffee%20table%20leg%20pads.jpg',
@@ -5654,7 +5665,7 @@
             
         'martini table': 'https://cdamemoryjogger.blob.core.windows.net/loft/martini%20table.jpg',
         'media console door hinges': 'https://cdamemoryjogger.blob.core.windows.net/loft/media%20console%20door%20hinges.jpg',
-        'media console shelves': 'https://cdamemoryjogger.blob.core.windows.net/loft/media%20console%20shelves.jpg',
+        'media console shelves': 'https://cdamemoryjogger.blob.core.windows.net/loft/media%20console%20shelf.jpg',
         'nesting table set': 'https://cdamemoryjogger.blob.core.windows.net/loft/nesting%20table%20set.jpg',
         'nesting tables': 'https://cdamemoryjogger.blob.core.windows.net/loft/nesting%20tables.jpg',
         'shelf edge guard': 'https://cdamemoryjogger.blob.core.windows.net/loft/shelf%20edge%20guard.jpg',
@@ -5773,7 +5784,7 @@
         'game shelf labels': 'https://cdamemoryjogger.blob.core.windows.net/loft/game%20shelf%20labels.jpg',
         'game timer': 'https://cdamemoryjogger.blob.core.windows.net/loft/game%20timer.jpg',
         'gaming chair floor mat': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20chair%20floor%20mat.jpg',
-        'gaming chair footrest': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20chair%20footrest.jpg',
+        'gaming chair footrest': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20chair%20foot%20rest.jpg',
         'gaming chair headrest pillow': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20chair%20headrest%20pillow.jpg',
         'gaming headset case': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20headset%20case.jpg',
         'gaming headset charging dock': 'https://cdamemoryjogger.blob.core.windows.net/loft/gaming%20headset%20charging%20dock.jpg',
@@ -5874,7 +5885,7 @@
         'canvas art storage bin': 'https://cdamemoryjogger.blob.core.windows.net/loft/canvas%20art%20storage%20bin.jpg',
         'decorative garland': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20garland.jpg',
         'decorative lantern': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20lantern.jpg',
-        'decorative sculpture': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20sculpture.jpg',
+        'decorative sculpture': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20scuplture.jpg',
         'decorative tray acrylic': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20tray%20acrylic.jpg',
         'decorative tray marble': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20tray%20marble.jpg',
         'decorative tray rattan': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20tray%20rattan.jpg',
@@ -6207,7 +6218,7 @@
         'garment rack hanger set': 'https://cdamemoryjogger.blob.core.windows.net/loft/garment%20rack%20hanger%20set.jpg',
         'garment rack hanging hooks': 'https://cdamemoryjogger.blob.core.windows.net/loft/garment%20rack%20hanging%20hooks.jpg',
         'garment rack shelf insert': 'https://cdamemoryjogger.blob.core.windows.net/loft/garment%20rack%20shelf%20insert.jpg',
-        'hamper deodorizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/hamper%20deodorizer.jpg',
+        'hamper deodorizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/hamper%20deoderizer.jpg',
         'hanger set': 'https://cdamemoryjogger.blob.core.windows.net/loft/hanger%20set.jpg',
         'iron': 'https://cdamemoryjogger.blob.core.windows.net/loft/iron.jpg',
         'iron cleaner': 'https://cdamemoryjogger.blob.core.windows.net/loft/iron%20cleaner.jpg',
@@ -6295,7 +6306,7 @@
         'turntable needle': 'https://cdamemoryjogger.blob.core.windows.net/loft/turntable%20needle.jpg',
         'turntable slipmat': 'https://cdamemoryjogger.blob.core.windows.net/loft/turntable%20slipmat.jpg',
         'ukulele': 'https://cdamemoryjogger.blob.core.windows.net/loft/ukulele.jpg',
-        'ukulele stand': 'https://cdamemoryjogger.blob.core.windows.net/loft/ukulele%20stand.jpg',
+        'ukulele stand': 'https://cdamemoryjogger.blob.core.windows.net/loft/ukelele%20stand.jpg',
         'vinyl cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/loft/vinyl%20cleaning%20brush.jpg',
         'vinyl player': 'https://cdamemoryjogger.blob.core.windows.net/loft/vinyl%20player.jpg',
         'vinyl record cleaner': 'https://cdamemoryjogger.blob.core.windows.net/loft/vinyl%20record%20cleaner.jpg',
@@ -6550,9 +6561,11 @@
         'disposable wipes refill': 'https://cdamemoryjogger.blob.core.windows.net/loft/disposable%20wipes%20refill.jpg',
         'funnel set': 'https://cdamemoryjogger.blob.core.windows.net/loft/funnel%20set.jpg',
         
+        },
+        Basement: {
 //basement
 
-        'water heater T&P relief valve': 'https://cdamemoryjogger.blob.core.windows.net/basement/water%20heater%20T%26P%20relief%20valve.jpg',
+        'water heater T&P relief valve': 'https://cdamemoryjogger.blob.core.windows.net/basement/water%20heater%20t%26amp%3Bp%20relief%20valve.jpg',
         'water heater anode rod': 'https://cdamemoryjogger.blob.core.windows.net/basement/water%20heater%20anode%20rod.jpg',
         'water heater burner assembly': 'https://cdamemoryjogger.blob.core.windows.net/basement/water%20heater%20burner%20assembly.jpg',
         'water heater control valve': 'https://cdamemoryjogger.blob.core.windows.net/basement/water%20heater%20control%20valve.jpg',
@@ -6985,6 +6998,8 @@
        
        
        
+        },
+        Garage: {
  //garage
 
         'puzzle storage box': 'https://cdamemoryjogger.blob.core.windows.net/garage/puzzle%20storage%20box.jpg',
@@ -7033,7 +7048,7 @@
         'anti scald valve': 'https://cdamemoryjogger.blob.core.windows.net/garage/anti%20scald%20valve.jpg',
         'hot water expansion valve': 'https://cdamemoryjogger.blob.core.windows.net/garage/hot%20water%20expansion%20valve.jpg',
         'mixing valve thermostatic': 'https://cdamemoryjogger.blob.core.windows.net/garage/mixing%20valve%20thermostatic.jpg',
-        'water heater T&P relief valve': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20heater%20T&P%20relief%20valve.jpg',
+        'water heater T&P relief valve': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20heater%20t%26amp%3Bp%20relief%20valve.jpg',
         'water heater anode rod': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20heater%20anode%20rod.jpg',
         'water heater burner assembly': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20heater%20burner%20assembly.jpg',
         'water heater control valve': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20heater%20control%20valve.jpg',
@@ -7081,7 +7096,7 @@
         'pipe cutter': 'https://cdamemoryjogger.blob.core.windows.net/garage/pipe%20cutter.jpg',
         'pipe freeze kit': 'https://cdamemoryjogger.blob.core.windows.net/garage/pipe%20freeze%20kit.jpg',
         'pipe wrench': 'https://cdamemoryjogger.blob.core.windows.net/garage/pipe%20wrench.jpg',
-        'plumbing torch': 'https://cdamemoryjogger.blob.core.windows.net/garage/plumbing%20torch.jpg',
+        'plumbing torch': 'https://cdamemoryjogger.blob.core.windows.net/garage/plumping%20torch.jpg',
         'sewage ejector pump': 'https://cdamemoryjogger.blob.core.windows.net/garage/sewage%20ejector%20pump.jpg',
         'sink drain trap': 'https://cdamemoryjogger.blob.core.windows.net/garage/sink%20drain%20trap.jpg',
         'sink faucet aerator': 'https://cdamemoryjogger.blob.core.windows.net/garage/sink%20faucet%20aerator.jpg',
@@ -7305,7 +7320,7 @@
         'clear storage bins': 'https://cdamemoryjogger.blob.core.windows.net/garage/clear%20storage%20bins.jpg',
         'document file crate': 'https://cdamemoryjogger.blob.core.windows.net/garage/document%20file%20crate.jpg',
         'document safe pouch': 'https://cdamemoryjogger.blob.core.windows.net/garage/document%20safe%20pouch.jpg',
-        'document storage tote': 'https://cdamemoryjogger.blob.core.windows.net/garage/document%20storage%20tote.jpg',
+        'document storage tote': 'https://cdamemoryjogger.blob.core.windows.net/garage/document%20storate%20tote.jpg',
         'file storage boxes': 'https://cdamemoryjogger.blob.core.windows.net/garage/file%20storage%20boxes.jpg',
         'file storage waterproof tote': 'https://cdamemoryjogger.blob.core.windows.net/garage/file%20storage%20waterproof%20tote.jpg',
         'food grade buckets': 'https://cdamemoryjogger.blob.core.windows.net/garage/food%20grade%20buckets.jpg',
@@ -7318,7 +7333,7 @@
         'ratchet straps': 'https://cdamemoryjogger.blob.core.windows.net/garage/ratchet%20straps.jpg',
         'storage trunk': 'https://cdamemoryjogger.blob.core.windows.net/garage/storage%20trunk.jpg',
         'storage trunk lock': 'https://cdamemoryjogger.blob.core.windows.net/garage/storage%20trunk%20lock.jpg',
-        'tie down straps': 'https://cdamemoryjogger.blob.core.windows.net/garage/tie%20down%20straps.jpg',
+        'tie down straps': 'https://cdamemoryjogger.blob.core.windows.net/garage/tie%20downs%20straps.jpg',
         'vacuum storage bags': 'https://cdamemoryjogger.blob.core.windows.net/garage/vacuum%20storage%20bags.jpg',
         'water storage containers': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20storage%20containers.jpg',
         'water storage jug rack': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20storage%20jug%20rack.jpg',
@@ -7379,7 +7394,7 @@
         'camping chairs': 'https://cdamemoryjogger.blob.core.windows.net/garage/camping%20chairs.jpg',
         'camping lantern LED': 'https://cdamemoryjogger.blob.core.windows.net/garage/camping%20lantern%20LED.jpg',
         'camping stove': 'https://cdamemoryjogger.blob.core.windows.net/garage/camping%20stove.jpg',
-        'cooler cover': 'https://cdamemoryjogger.blob.core.windows.net/garage/cooler%20cover.jpg',
+        'cooler cover': 'https://cdamemoryjogger.blob.core.windows.net/garage/cooler%20cove.jpg',
         'cooler wheel kit': 'https://cdamemoryjogger.blob.core.windows.net/garage/cooler%20wheel%20kit.jpg',
         'coolers': 'https://cdamemoryjogger.blob.core.windows.net/garage/coolers.jpg',
         'grill cover': 'https://cdamemoryjogger.blob.core.windows.net/garage/grill%20cover.jpg',
@@ -7397,7 +7412,7 @@
         'ski rack': 'https://cdamemoryjogger.blob.core.windows.net/garage/ski%20rack.jpg',
         'snowboard rack': 'https://cdamemoryjogger.blob.core.windows.net/garage/snowboard%20rack.jpg',
         'sports bag': 'https://cdamemoryjogger.blob.core.windows.net/garage/sports%20bag.jpg',
-        'sports equipment bin': 'https://cdamemoryjogger.blob.core.windows.net/garage/sports%20equipment%20bin.jpg',
+        'sports equipment bin': 'https://cdamemoryjogger.blob.core.windows.net/garage/sports%20equpment%20bin.jpg',
         'sports gear drying rack': 'https://cdamemoryjogger.blob.core.windows.net/garage/sports%20gear%20drying%20rack.jpg',
   
         'ab roller': 'https://cdamemoryjogger.blob.core.windows.net/garage/ab%20roller.jpg',
@@ -7523,6 +7538,8 @@
         'utility sink storage shelf': 'https://cdamemoryjogger.blob.core.windows.net/basement/utility%20sink%20storage%20shelf.jpg',
         'work gloves': 'https://cdamemoryjogger.blob.core.windows.net/basement/work%20gloves.jpg',
    
+        },
+        Laundry: {
 //laundry
 
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/laundry/all%20purpose%20cleaner.jpg',
@@ -7624,7 +7641,7 @@
         'padded hangers': 'https://cdamemoryjogger.blob.core.windows.net/laundry/padded%20hangers.jpg',
         'pants hangers': 'https://cdamemoryjogger.blob.core.windows.net/laundry/pants%20hangers.jpg',
         'shoe drying rack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/shoe%20drying%20rack.jpg',
-        'shoe laundry wash bag': 'https://cdamemoryjogger.blob.core.windows.net/laundry/shoe%20laundry%20wash%20bag.jpg',
+        'shoe laundry wash bag': 'https://cdamemoryjogger.blob.core.windows.net/laundry/shoe%20laudry%20wash%20bag.jpg',
         'skirt hangers': 'https://cdamemoryjogger.blob.core.windows.net/laundry/skirt%20hangers.jpg',
         'sock mesh wash pouch': 'https://cdamemoryjogger.blob.core.windows.net/laundry/sock%20mesh%20wash%20pouch.jpg',
         'sock organizer drawer insert': 'https://cdamemoryjogger.blob.core.windows.net/laundry/sock%20organizer%20drawer%20insert.jpg',
@@ -7687,7 +7704,7 @@
         'laundry whitening booster powder': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20whitening%20booster%20powder.jpg',
         'laundry wrinkle spray large': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20wrinkle%20spray%20large.jpg',
         'odor eliminator spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/odor%20eliminator%20spray.jpg',
-        'odor neutralizer spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/odor%20neutralizer%20spray.jpg',
+        'odor neutralizer spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/odor%20nutralizer%20spray.jpg',
         'oxygen booster tub': 'https://cdamemoryjogger.blob.core.windows.net/laundry/oxygen%20booster%20tub.jpg',
         'oxygen cleaner': 'https://cdamemoryjogger.blob.core.windows.net/laundry/oxygen%20cleaner.jpg',
         'pre treat spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/pre%20treat%20spray.jpg',
@@ -7771,6 +7788,8 @@
         'appliance moving straps': 'https://cdamemoryjogger.blob.core.windows.net/laundry/appliance%20moving%20straps.jpg',
         'appliance polish stainless': 'https://cdamemoryjogger.blob.core.windows.net/laundry/appliance%20polish%20stainless.jpg',
 
+        },
+        'Shed / Storage Unit': {
  //shed / storage unit
 
         'overhead storage shelf': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/overhead%20storage%20shelf.jpg',
@@ -7990,7 +8009,7 @@
         'solar panel portable': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/solar%20panel%20portable.jpg',
         'power inverter': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/power%20inverter.jpg',
         'portable battery bank large': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/portable%20battery%20bank%20large.jpg',
-        'jump cable heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/jump%20 cable%20heavy%20duty.jpg',
+        'jump cable heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/jump%20cable%20heavy%20duty.jpg',
         'generator cover waterproof': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/generator%20cover%20waterproof.jpg',
     
     'first aid kit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/first%20aid%20kit.jpg',
@@ -8022,7 +8041,7 @@
     'safety barrier netting': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/safety%20barrier%20netting.jpg',
     'hard shell knee pads': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/hard%20shell%20knee%20pads.jpg',
     'face shield clear': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/face%20shield%20clear.jpg',
-    'fire resistant gloves': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/fire%20resistant%20gloves.jpg',
+    'fire resistant gloves': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/fire%20resistant%20glove.jpg',
     'ear plug pack': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/ear%20plug%20pack.jpg',
     'document safe waterproof': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/document%20safe%20waterproof.jpg',
     'combination key lock': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/combination%20key%20lock.jpg',
@@ -8266,7 +8285,7 @@
         'chimney brush kit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/chimney%20brush%20kit.jpg',
         'chimney rods extension': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/chimney%20rods%20extension.jpg',
         'wood moisture meter': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/wood%20moisture%20meter.jpg',
-        'stump grinder rental unit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/stump%20grinder%20rental%20unit.jpg',
+        'stump grinder rental unit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/sump%20grinder%20rental%20unit.jpg',
         'log carrier canvas': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/log%20carrier%20canvas.jpg',
         'chimney cap stainless': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/chimney%20cap%20stainless.jpg',
 
@@ -8276,7 +8295,7 @@
 
         'shed floor mat': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/shed%20floor%20mat.jpg',
         'temperature gauge analog': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/temperature%20gauge%20analog.jpg',
-        'humidity gauge analog': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/humidity%20gauge%20analog.jpg',
+        'humidity gauge analog': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/humidity%20guage%20analog.jpg',
         'weather station unit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/weather%20station%20unit.jpg',
         'air circulator fan': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/air%20circulator%20fan.jpg',
         'box fan': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/box%20fan.jpg',
@@ -8308,6 +8327,8 @@
         'storage hooks assorted': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/storage%20hooks%20assorted.jpg',
         'magnetic cabinet catch': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/magnetic%20cabinet%20catch.jpg',
   
+        },
+        Yard: {
 //yard
 
     'raised garden bed': 'https://cdamemoryjogger.blob.core.windows.net/yard/raised%20garden%20bed.jpg',
@@ -8387,7 +8408,7 @@
     'deck privacy screen': 'https://cdamemoryjogger.blob.core.windows.net/yard/deck%20privacy%20screen.jpg',
     'outdoor curtain panels': 'https://cdamemoryjogger.blob.core.windows.net/yard/outdoor%20curtain%20panels.jpg',
     'gazebo mosquito netting': 'https://cdamemoryjogger.blob.core.windows.net/yard/gazebo%20mosquito%20netting.jpg',
-    'pergola shade cover': 'https://cdamemoryjogger.blob.core.windows.net/yard/pergola%20shade%20cover.jpg',
+    'pergola shade cover': 'https://cdamemoryjogger.blob.core.windows.net/yard/bergola%20shade%20cover.jpg',
     'shade sail hardware kit': 'https://cdamemoryjogger.blob.core.windows.net/yard/shade%20sail%20hardware%20kit.jpg',
     'patio heater propane': 'https://cdamemoryjogger.blob.core.windows.net/yard/patio%20heater%20propane.jpg',
     'patio heater cover': 'https://cdamemoryjogger.blob.core.windows.net/yard/patio%20heater%20cover.jpg',
@@ -8530,7 +8551,7 @@
     'flood light motion': 'https://cdamemoryjogger.blob.core.windows.net/yard/flood%20light%20motion.jpg',
     'timer outdoor outlet': 'https://cdamemoryjogger.blob.core.windows.net/yard/timer%20outdoor%20outlet.jpg',
     'extension cord outdoor rated': 'https://cdamemoryjogger.blob.core.windows.net/yard/extension%20cord%20outdoor%20rated.jpg',
-    'flag pole solar light': 'https://cdamemoryjogger.blob.core.windows.net/yard/flag%20pole%20solar%20light.jpg',
+    'flag pole solar light': 'https://cdamemoryjogger.blob.core.windows.net/yard/flagpole%20solar%20light.jpg',
     'landscape spotlight LED': 'https://cdamemoryjogger.blob.core.windows.net/yard/landscape%20spotlight%20LED.jpg',
     'uplight tree': 'https://cdamemoryjogger.blob.core.windows.net/yard/uplight%20tree.jpg',
     'pathway light low voltage': 'https://cdamemoryjogger.blob.core.windows.net/yard/pathway%20light%20low%20voltage.jpg',
@@ -8561,7 +8582,7 @@
     'wind chime decorative': 'https://cdamemoryjogger.blob.core.windows.net/yard/wind%20chime%20decorative.jpg',
     'yard art metal': 'https://cdamemoryjogger.blob.core.windows.net/yard/yard%20art%20metal.jpg',
     'yard sign holder': 'https://cdamemoryjogger.blob.core.windows.net/yard/yard%20sign%20holder.jpg',
-    'address numbers metal': 'https://cdamemoryjogger.blob.core.windows.net/yard/address%20numbers%20metal.jpg',
+    'address numbers metal': 'https://cdamemoryjogger.blob.core.windows.net/yard/address%20number%20metal.jpg',
     'decorative yard flag': 'https://cdamemoryjogger.blob.core.windows.net/yard/decorative%20yard%20flag.jpg',
     'bird feeder hanging': 'https://cdamemoryjogger.blob.core.windows.net/yard/bird%20feeder%20hanging.jpg',
     'bird feeder pole': 'https://cdamemoryjogger.blob.core.windows.net/yard/bird%20feeder%20pole.jpg',
@@ -8599,7 +8620,7 @@
     'deck sealer waterproof': 'https://cdamemoryjogger.blob.core.windows.net/yard/deck%20sealer%20waterproof.jpg',
     'deck cleaner solution': 'https://cdamemoryjogger.blob.core.windows.net/yard/deck%20cleaner%20solution.jpg',
     'driveway sealant bucket': 'https://cdamemoryjogger.blob.core.windows.net/yard/driveway%20sealant%20bucket.jpg',
-    'asphalt patch repair': 'https://cdamemoryjogger.blob.core.windows.net/yard/asphalt%20patch%20repair.jpg',
+    'asphalt patch repair': 'https://cdamemoryjogger.blob.core.windows.net/yard/asphalt%20patch%20repair%20kit.jpg',
     'concrete crack filler tube': 'https://cdamemoryjogger.blob.core.windows.net/yard/concrete%20crack%20filler%20tube.jpg',
     'driveway marker reflectors': 'https://cdamemoryjogger.blob.core.windows.net/yard/driveway%20marker%20reflectors.jpg',
     'mailbox post anchor': 'https://cdamemoryjogger.blob.core.windows.net/yard/mailbox%20post%20anchor.jpg',
@@ -8609,30 +8630,28 @@
     'compost thermometer': 'https://cdamemoryjogger.blob.core.windows.net/yard/compost%20thermometer.jpg',
 
     'drainage pump portable': 'https://cdamemoryjogger.blob.core.windows.net/yard/drainage%20pump%20portable.jpg',
-    'backyard flood barrier': 'https://cdamemoryjogger.blob.core.windows.net/yard/backyard%20flood%20barrier.jpg',
+    'backyard flood barrier': 'https://cdamemoryjogger.blob.core.windows.net/yard/backyard%20floor%20barrier.jpg',
     'yard tarp heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/yard/yard%20tarp%20heavy%20duty.jpg',
     'ground anchor kit': 'https://cdamemoryjogger.blob.core.windows.net/yard/ground%20anchor%20kit.jpg',
     'tent canopy weights': 'https://cdamemoryjogger.blob.core.windows.net/yard/tent%20canopy%20weights.jpg',
     'portable stage platform': 'https://cdamemoryjogger.blob.core.windows.net/yard/portable%20stage%20platform.jpg',
 
 
-};
+        },
+    };
 
-        const NORMALIZED_ITEM_IMAGE_OVERRIDES = Object.entries(ITEM_IMAGE_OVERRIDES).reduce((overrides, [key, value]) => {
-        overrides[normalizeItemKey(key)] = value;
-        return overrides;
+        const NORMALIZED_ITEM_IMAGE_OVERRIDES_BY_CATEGORY = Object.entries(ITEM_IMAGE_OVERRIDES_BY_CATEGORY).reduce((byCategory, [category, overrides]) => {
+        byCategory[category] = Object.entries(overrides).reduce((normalized, [key, value]) => {
+            normalized[normalizeItemKey(key)] = value;
+            return normalized;
+        }, {});
+        return byCategory;
     }, {});
 
-    const ITEM_IMAGES = Object.entries(ITEM_OPTIONS).reduce((catalog, [category, items]) => {
-        if (!Array.isArray(items)) return catalog;
-        items.forEach((item) => {
-            const key = normalizeItemKey(item);
-            if (!(key in catalog)) {
-                catalog[key] = '';
-            }
-        });
-        return catalog;
-    }, { ...NORMALIZED_ITEM_IMAGE_OVERRIDES });
+    const ITEM_IMAGES_FALLBACK = Object.values(NORMALIZED_ITEM_IMAGE_OVERRIDES_BY_CATEGORY).reduce(
+        (flat, overrides) => Object.assign(flat, overrides),
+        {}
+    );
 
     const IMAGE_STORAGE_ACCOUNT = 'https://cdamemoryjogger.blob.core.windows.net';
     const IMAGE_BLOB_CONTAINERS = [
@@ -8744,9 +8763,10 @@
         return getItemOptions(room.category).filter((item) => !reviewedItems.includes(item));
     }
 
-    function getItemImage(itemName) {
+    function getItemImage(itemName, category) {
         const normalized = normalizeItemKey(itemName);
-        const url = ITEM_IMAGES[normalized] || '';
+        const categoryOverrides = category && NORMALIZED_ITEM_IMAGE_OVERRIDES_BY_CATEGORY[category];
+        const url = (categoryOverrides && categoryOverrides[normalized]) || ITEM_IMAGES_FALLBACK[normalized] || '';
         return url ? resolveBlobCaseInsensitive(url) : '';
     }
 
@@ -9233,7 +9253,7 @@
             return room.category || DEFAULT_CATEGORY;
         }
 
-        function createSwipeCard(item, zIndexValue) {
+        function createSwipeCard(item, zIndexValue, category) {
             const card = document.createElement('div');
             card.className = 'swipe-card';
             card.dataset.item = item;
@@ -9241,7 +9261,7 @@
                 card.style.zIndex = `${zIndexValue}`;
             }
 
-            const imageUrl = getItemImage(item);
+            const imageUrl = getItemImage(item, category);
             if (imageUrl) {
                 card.classList.add('swipe-card--with-image');
                 card.style.backgroundImage = `url('${imageUrl}')`;
@@ -9321,7 +9341,7 @@
             const totalCards = renderableItems.length;
 
             renderableItems.forEach((item, index) => {
-                const card = createSwipeCard(item, totalCards - index);
+                const card = createSwipeCard(item, totalCards - index, room.category || DEFAULT_CATEGORY);
                 deck.appendChild(card);
             });
 
@@ -9406,7 +9426,7 @@
                 const nextItem = queue.shift();
                 queuedItem = nextItem;
                 roomQueues.set(roomId, queue);
-                const nextCard = createSwipeCard(nextItem, 0);
+                const nextCard = createSwipeCard(nextItem, 0, room?.category || DEFAULT_CATEGORY);
                 deck.prepend(nextCard);
             }
 
@@ -9600,7 +9620,7 @@
             }
 
             if (lastSwipe?.item) {
-                const restoredCard = createSwipeCard(lastSwipe.item, getNextDeckZIndex(deck));
+                const restoredCard = createSwipeCard(lastSwipe.item, getNextDeckZIndex(deck), room?.category || DEFAULT_CATEGORY);
                 deck.prepend(restoredCard);
             }
 

@@ -6,151 +6,119 @@
 'refrigerator', 'refrigerator shelves', 'refrigerator drawers', 'refrigerator door bins', 'freezer', 'freezer shelves', 'freezer drawers', 'ice maker', 'ice bin', 'water dispenser',
 'microwave', 'wine cooler', 'beverage fridge', 'dishwasher detergent', 'refrigerator magnets', 'backup refrigerator', 'mini fridge', 'deep freezer', 'gas range', 'electric range',
 'induction cooktop', 'double wall oven', 'trash compactor', 'wine fridge', 'beverage cooler', 'kegerator', 'refrigerator deodorizer', 'refrigerator lock', 'water filter pitcher',
- 
 // Small Kitchen Appliances (53 items)
 'microwave turntable', 'toaster', 'toaster oven', 'air fryer', 'slow cooker', 'pressure cooker', 'rice cooker', 'electric kettle', 'coffee maker', 'espresso machine',
 'coffee grinder', 'french press', 'single serve coffee maker', 'blender', 'immersion blender', 'stand mixer', 'hand mixer', 'food processor', 'hand chopper', 'juicer',
 'electric griddle', 'waffle maker', 'panini press', 'indoor grill', 'electric skillet', 'bread maker', 'sous vide cooker', 'pressure cooker lid', 'slow cooker insert', 'slow cooker lid',
 'air fryer basket', 'air fryer tray', 'microwave cover', 'microwave rack', 'dish warmer', 'coffee urn', 'water boiler', 'countertop mixer', 'immersion circulator', 'food dehydrator',
 'meat slicer', 'pasta maker', 'grain mill', 'electric can opener', 'fondue pot', 'raclette grill', 'portable butane stove', 'butane fuel canisters', 'electric knife', 'microwave splatter cover',
- 
 'warming tray electric', 'electric carving knife', 'appliance covers',
- 
 // Coffee & Tea (20 items)
 'coffee canister', 'tea canister', 'coffee cups', 'tea cups', 'saucers', 'tea boxes', 'coffee bags', 'tea kettle', 'whistling kettle', 'coffee mugs set',
 'coffee pod holder', 'coffee pod drawer', 'espresso tamper', 'milk frothing pitcher', 'coffee knock box', 'tea infuser', 'tea kettle electric', 'tea kettle stovetop', 'coffee carafe', 'tea pot',
- 
 // Knives & Cutting (42 items)
 'knife block', 'chef knife', 'paring knife', 'bread knife', 'carving knife', 'utility knife', 'kitchen shears', 'knife sharpener', 'cutting board wood', 'cutting board plastic',
 'cutting board bamboo', 'mandoline slicer', 'herb scissors', 'butcher block', 'knife magnet strip', 'steak knife set', 'pizza cutter', 'knife case', 'utility scissors', 'cleaver',
 'fillet knife', 'boning knife', 'carving fork', 'kitchen mallet', 'egg slicer', 'cheese slicer', 'cut resistant gloves', 'steak knife block', 'kitchen torch', 'knife sharpening stone',
 'knife honing rod', 'cutting board oil', 'knife guard set', 'kitchen scissors heavy duty', 'cheese knife set', 'knife sharpening guide', 'cutting board stand', 'drawer knife organizer bamboo', 'avocado slicer', 'garlic slicer',
 'herb chopper', 'cutting mat flexible',
- 
 // Cookware (30 items)
 'dutch oven', 'stock pot', 'saucepan', 'frying pan', 'nonstick skillet', 'cast iron skillet', 'wok', 'grill pan', 'saute pan', 'pot lids',
 'skillet lid', 'stock pot lid', 'pan organizer', 'lid organizer', 'pot rack', 'hanging pot rack', 'cookware organizer rack', 'smoker box', 'meat carving station', 'cast iron cleaner',
 'cookware cleaner', 'pot rack hooks', 'pan handle covers', 'storage lid organizer', 'pan protector pads', 'grill press', 'panini weight', 'cast iron press', 'bacon press', 'egg poacher pan',
- 
 // Bakeware & Baking (48 items)
 'baking sheet', 'cookie sheet', 'muffin pan', 'cake pan', 'springform pan', 'loaf pan', 'pie dish', 'roasting pan', 'broiler pan', 'cooling rack',
 'pizza stone', 'casserole dish', 'flour sifter', 'baking powder', 'baking soda', 'oven thermometer', 'rolling pin', 'pastry mat', 'cookie cutters', 'decorating tips',
 'icing spatula', 'baking rack', 'sheet pan rack', 'cooling shelf', 'dough scraper', 'pastry brush', 'pastry blender', 'baking molds', 'souffle dish', 'ramekins',
 'custard cups', 'silicone baking mat', 'bread slicing guide', 'bread proofing basket', 'dough rolling mat', 'pastry ring set', 'baking thermometer', 'stackable cooling racks', 'cake decorating kit', 'baking decorating kit',
 'silicone cupcake liners', 'reusable baking cups', 'oven thermometer analog', 'cookie cooling tower', 'rolling pin marble', 'rolling pin wood', 'baking sheet rack', 'cooling mat',
- 
 // Kitchen Utensils & Tools (69 items)
 'splatter screen', 'trivet', 'spatula', 'whisk', 'ladle', 'slotted spoon', 'serving spoon', 'tongs', 'pasta server', 'turner',
 'wooden spoon', 'can opener', 'bottle opener', 'wine opener', 'garlic press', 'vegetable peeler', 'box grater', 'zester', 'citrus juicer', 'meat tenderizer',
 'potato masher', 'ice cream scoop', 'melon baller', 'apple corer', 'basting brush', 'utensil crock', 'serving tongs', 'salad tongs', 'cake server', 'pie server',
 'ladle set', 'utensil set', 'mixing spoon set', 'spice grinder', 'mortar and pestle', 'oil sprayer', 'serving fork', 'serving ladle', 'slotted turner', 'solid turner',
 'skimmer', 'straining spoon', 'pancake spatula', 'fish spatula', 'utensil holder', 'jar opener', 'sauce whisk', 'balloon whisk', 'silicone spatula set', 'wooden utensil set',
- 
 'utensil hooks rail', 'pot clip strainer', 'collapsible funnel', 'kitchen funnel set', 'oven rack pull tool', 'produce wash bowl', 'fruit corer tool', 'egg separator', 'pancake ring set', 'waffle batter dispenser',
 'gravy separator', 'fat separator cup', 'salad dressing mixer', 'herb stripping tool', 'meat shredder claws', 'taco holder stand', 'spice measuring spoons', 'citrus reamer', 'kitchen twine',
- 
 // Measuring & Thermometers (27 items)
 'kitchen scale', 'digital thermometer', 'measuring cups', 'measuring spoons', 'measuring scale', 'timer', 'meat thermometer', 'grill thermometer', 'measuring jug', 'probe thermometer',
 'timer clock', 'freezer thermometer', 'pantry thermometer', 'food scale digital', 'kitchen timer digital', 'wall mounted timer', 'measuring tape', 'level', 'measuring conversion chart', 'appliance thermometer',
 'measuring spoon leveler', 'kitchen scale analog', 'thermometer probe cover', 'timer magnetic', 'freezer thermometer analog', 'measuring cup glass', 'measuring cup plastic',
- 
 // Mixing Bowls & Prep (12 items)
 'mixing bowl set', 'colander', 'mesh strainer', 'salad spinner', 'batter bowl', 'sifter', 'strainer set', 'colander set', 'food mill', 'ricer',
 'collapsible colander', 'vegetable scrub brush',
- 
 // Food Storage & Wrap (49 items)
 'aluminum foil', 'plastic wrap', 'parchment paper', 'wax paper', 'food storage bags', 'vacuum sealer', 'food storage containers', 'glass containers', 'plastic containers', 'cooler',
 'ice packs', 'food clips', 'chip clips', 'bread ties', 'ice trays', 'freezer bins', 'freezer bags', 'produce bins', 'egg holder', 'butter keeper',
 'canisters with lids', 'airtight containers', 'food storage turntable', 'picnic cooler', 'rolling cooler', 'ice chest', 'food storage jar set', 'glass canister set', 'ceramic canister set', 'airtight cereal containers',
 'flour storage bin', 'sugar storage bin', 'rice dispenser', 'pet food storage container', 'bulk food storage bucket', 'cooling ice packs', 'water storage containers', 'cooler tote', 'produce storage bags', 'butcher paper roll',
 'freezer paper roll', 'vacuum sealer rolls', 'mixing bowl lids', 'collapsible storage bowls', 'glass storage bottles', 'water bottles', 'thermos', 'food cover dome', 'mesh food tent',
- 
 // Pantry & Spices (74 items)
 'spice rack', 'spice jars', 'salt shaker', 'pepper shaker', 'pepper grinder', 'oil bottle', 'vinegar bottle', 'sugar canister', 'flour canister', 'canned goods',
 'dry pasta', 'rice bags', 'flour bags', 'sugar bags', 'cornstarch', 'cooking oil', 'olive oil', 'vegetable oil', 'soy sauce', 'hot sauce',
 'ketchup', 'mustard', 'mayonnaise', 'salad dressing', 'peanut butter', 'jam', 'honey', 'cereal boxes', 'granola', 'oatmeal',
 'snack chips', 'crackers', 'cookies', 'nuts', 'dried fruit', 'spice containers', 'can rack', 'condiment rack', 'canister set', 'storage jars',
 'cookie jar', 'pantry door rack', 'over door organizer', 'spice tins', 'cabinet basket insert', 'stackable pantry bins', 'clear storage bins', 'pantry label set', 'chalkboard labels', 'wall mounted spice rack',
- 
 'countertop spice carousel', 'oil and vinegar cruet set', 'salt cellar', 'pepper mill', 'condiment caddy', 'herb keeper', 'onion storage bin', 'potato storage bin', 'garlic keeper', 'condiment squeeze bottles',
 'syrup dispenser', 'honey dispenser', 'sugar dispenser', 'salt box', 'pepper box', 'flour shaker', 'powdered sugar shaker', 'oil sprayer bottle', 'vinegar cruet', 'cabinet organizer bins',
 'bread box', 'butter crock', 'humidity absorber', 'salad dressing shaker',
- 
 // Flatware & Cutlery Sets (15 items)
 'cutlery tray', 'silverware set', 'flatware set', 'gold flatware set', 'butter knives', 'seafood forks', 'soup spoons', 'dessert spoons', 'salad forks', 'dinner forks',
 'dinner knives', 'teaspoons', 'tablespoons', 'flatware tray expandable', 'steak knives',
- 
 // Dishware & Serveware (63 items)
-'serving tray', 'serving platter', 'serving bowl', 'gravy boat', 'plate set', 'salad plates', 'dinner plates', 'bowls', 'cereal bowls', 'soup bowls',
-'mugs', 'drinking glasses', 'wine glasses', 'champagne flutes', 'cocktail glasses', 'shot glasses', 'water pitcher', 'cake stand', 'tiered tray', 'butter dish',
-'sugar bowl', 'cream pitcher', 'travel mugs', 'wine glass rack', 'mug tree', 'plate rack', 'water carafe', 'pitcher with lid', 'salad bowl', 'mixing pitcher',
-'pet bowls', 'plate e set', 'nested mixing bowls', 'cake carrier', 'pie carrier', 'cupcake carrier', 'thermal casserole carrier', 'insulated food carrier', 'serving caddy', 'china dinner set',
-'stoneware dinner set', 'porcelain dinner set', 'melamine plate set', 'glass salad bowl', 'wood salad bowl', 'ceramic serving bowl', 'pasta serving bowl', 'mixing pitcher glass', 'water goblets', 'beer mugs',
- 
-'pint glasses', 'highball glasses', 'lowball glasses', 'martini glasses', 'whiskey glasses', 'decanter', 'wine decanter', 'carafe', 'gravy ladle', 'picnic tableware set',
-'plastic serving trays', 'party serving bowl set', 'buffet serving utensils',
- 
+'serving platter', 'serving bowl', 'gravy boat', 'plate set', 'salad plates', 'dinner plates', 'bowls', 'cereal bowls', 'soup bowls', 'mugs',
+'drinking glasses', 'wine glasses', 'champagne flutes', 'cocktail glasses', 'shot glasses', 'water pitcher', 'cake stand', 'tiered tray', 'butter dish', 'sugar bowl',
+'cream pitcher', 'travel mugs', 'wine glass rack', 'mug tree', 'water carafe', 'pitcher with lid', 'salad bowl', 'mixing pitcher', 'pet bowls', 'plate e set',
+'nested mixing bowls', 'cake carrier', 'pie carrier', 'cupcake carrier', 'thermal casserole carrier', 'insulated food carrier', 'serving caddy', 'china dinner set', 'stoneware dinner set', 'porcelain dinner set',
+'melamine plate set', 'glass salad bowl', 'wood salad bowl', 'ceramic serving bowl', 'pasta serving bowl', 'mixing pitcher glass', 'water goblets', 'beer mugs', 'pint glasses', 'highball glasses',
+'lowball glasses', 'martini glasses', 'whiskey glasses', 'decanter', 'wine decanter', 'carafe', 'gravy ladle', 'picnic tableware set', 'plastic serving trays', 'party serving bowl set',
+'buffet serving utensils',
 // Bar & Entertaining (21 items)
 'wine rack', 'ice bucket', 'beverage dispenser', 'drink dispenser stand', 'bar serving cart', 'wine bottle opener set', 'wine aerator', 'wine stopper set', 'champagne stopper', 'ice scoop',
 'bar spoon', 'cocktail shaker', 'cocktail strainer', 'jigger', 'mudler', 'drink mixing glass', 'buffet warming trays', 'chafing dish set', 'cheese board', 'charcuterie board',
 'serving slate board',
- 
 // Dining Furniture (18 items)
 'bar stools', 'bar cart', 'china cabinet', 'buffet table', 'sideboard', 'dining table', 'dining chairs', 'chair cushions', 'seat covers', 'high chair',
 'booster seat', 'kitchen storage cabinet', 'folding chairs', 'extra dining chairs', 'bar stool cushions', 'chair floor protectors', 'table leaf insert', 'table protector pad',
- 
 // Table Linens & Decor (34 items)
 'napkin holder', 'dish towels', 'hand towels', 'oven mitts', 'pot holders', 'apron', 'tablecloth', 'placemats', 'cloth napkins', 'kitchen rug',
 'anti fatigue mat', 'wall clock', 'wall art', 'bulletin board', 'message board', 'key holder', 'floor mat', 'area rug', 'bread basket', 'fruit bowl',
 'banana hanger', 'napkin rings', 'table runner', 'table centerpiece', 'decorative tray', 'countertop tray', 'fruit storage basket', 'banana tree stand', 'paper napkin pack', 'cloth napkin rings',
 'placemat set', 'kitchen wall mirror', 'kitchen whiteboard', 'magnetic grocery list pad',
- 
 // Sink & Dish Care (36 items)
 'dish rack', 'drying mat', 'dish soap', 'hand soap', 'sponges', 'scrub brushes', 'dish brush', 'sink caddy', 'rinse aid', 'under sink organizer',
-'sink drying rack', 'dish drainer tray', 'under sink mat', 'sink organizer rack', 'dish soap dispenser', 'hand soap dispenser', 'dishwasher cleaner', 'scrub sponges', 'heavy duty scrub pads', 'microfiber cloths',
-'cleaning rags', 'rubber gloves', 'bottle brush', 'straw cleaning brush', 'dish drying cabinet', 'over sink drying rack', 'dish drying towel rack', 'sink strainer basket', 'under sink storage shelf', 'sink drain stopper',
-'dish drying clips', 'soap pump tray', 'sink brush holder', 'cleaning glove clips', 'dish drying cabinet rack', 'dish sponge holder',
- 
+'dish drainer tray', 'under sink mat', 'sink organizer rack', 'dish soap dispenser', 'hand soap dispenser', 'dishwasher cleaner', 'scrub sponges', 'heavy duty scrub pads', 'microfiber cloths', 'bottle brush',
+'straw cleaning brush', 'dish drying cabinet', 'over sink drying rack', 'dish drying towel rack', 'sink strainer basket', 'under sink storage shelf', 'sink drain stopper', 'dish drying clips', 'soap pump tray', 'sink brush holder',
+'cleaning glove clips', 'dish drying cabinet rack', 'dish sponge holder',
 // Cleaning Supplies (15 items)
 'cleaning spray', 'disinfecting wipes', 'cleaning caddy', 'all purpose cleaner', 'glass cleaner', 'granite cleaner', 'wood cleaner', 'oven cleaner', 'cleaning brush set', 'oven liner',
 'appliance cleaning wipes', 'granite sealer', 'glass cooktop cleaner', 'cooktop scraper', 'cleaning supply rack',
- 
 // Floor Care & Vacuums (15 items)
 'broom', 'dustpan', 'mop', 'mop bucket', 'vacuum', 'steam mop', 'broom and dustpan set', 'push broom', 'spray mop', 'steam cleaner',
 'handheld vacuum', 'cordless vacuum', 'floor sweeper', 'floor protector pads', 'floor mop',
- 
 // Trash, Recycling & Odor (22 items)
-'trash can', 'recycling bin', 'compost bin', 'trash bags', 'recycling bags', 'garbage bags box', 'pull out trash bin', 'recycling container', 'compost pail', 'step trash can',
-'touchless trash can', 'trash bag box', 'recycling bin liner', 'compostable bags', 'trash can deodorizer', 'recycling sorter bins', 'drawer freshener', 'cabinet freshener', 'air purifier small', 'step trash liner refill',
-'odor absorber box', 'kitchen air freshener',
- 
+'recycling bin', 'compost bin', 'trash bags', 'recycling bags', 'garbage bags box', 'recycling container', 'compost pail', 'step trash can', 'touchless trash can', 'trash bag box',
+'recycling bin liner', 'compostable bags', 'trash can deodorizer', 'recycling sorter bins', 'drawer freshener', 'cabinet freshener', 'air purifier small', 'step trash liner refill', 'odor absorber box', 'kitchen air freshener',
 // Paper & Disposables (8 items)
 'paper towel holder', 'paper towel rolls', 'paper plates', 'plastic cups', 'plastic utensils', 'paper towel pack', 'under cabinet paper towel holder', 'counter paper towel holder',
- 
 // Storage & Organization (53 items)
-'lazy susan', 'drawer organizers', 'cookbook stand', 'cookbooks', 'recipe box', 'rolling cart', 'storage bins', 'label maker', 'labels', 'drawer liners',
-'cabinet liners', 'cabinet locks', 'child safety latches', 'drawer slides', 'lazy susan turntable', 'drawer dividers', 'calendar', 'storage baskets', 'wire baskets', 'plastic bins',
-'glass jars', 'pet food bin', 'cabinet shelf riser', 'oven rack guards', 'pull out cabinet organizer', 'corner cabinet organizer', 'under cabinet mug hooks', 'hanging fruit basket', 'clip on book light', 'cookbook shelf',
-'recipe binder', 'rolling kitchen cart', 'utility cart', 'grocery bag holder', 'reusable grocery bags', 'insulated grocery bags', 'cabinet bumpers', 'rolling pantry cart', 'oven mitt rack', 'under cabinet basket',
-'cabinet shelf dividers', 'kitchen drawer bin set', 'shelf risers', 'cookbook holder stand', 'tablet recipe stand', 'document organizer box', 'recipe storage box', 'plastic drawer bins', 'kitchen storage crates', 'oven lock',
- 
-'cabinet child lock', 'drawer child lock', 'cabinet door organizer',
- 
+'lazy susan', 'cookbook stand', 'cookbooks', 'recipe box', 'rolling cart', 'label maker', 'labels', 'drawer liners', 'cabinet liners', 'cabinet locks',
+'child safety latches', 'drawer slides', 'lazy susan turntable', 'drawer dividers', 'calendar', 'storage baskets', 'wire baskets', 'plastic bins', 'glass jars', 'pet food bin',
+'cabinet shelf riser', 'oven rack guards', 'pull out cabinet organizer', 'corner cabinet organizer', 'under cabinet mug hooks', 'hanging fruit basket', 'clip on book light', 'cookbook shelf', 'recipe binder', 'rolling kitchen cart',
+'utility cart', 'grocery bag holder', 'reusable grocery bags', 'insulated grocery bags', 'cabinet bumpers', 'rolling pantry cart', 'oven mitt rack', 'under cabinet basket', 'cabinet shelf dividers', 'kitchen drawer bin set',
+'shelf risers', 'cookbook holder stand', 'tablet recipe stand', 'document organizer box', 'recipe storage box', 'plastic drawer bins', 'kitchen storage crates', 'oven lock', 'cabinet child lock', 'drawer child lock',
+'cabinet door organizer',
 // Safety & Emergency (11 items)
 'fire extinguisher', 'smoke detector', 'carbon monoxide detector', 'security camera', 'smoke alarm', 'carbon monoxide alarm', 'fire blanket', 'first aid kit', 'emergency food supply kit', 'backup batteries',
 'fire resistant safe',
- 
 // Tools & Hardware (16 items)
 'step ladder', 'light bulbs', 'step stool folding', 'tool kit small', 'screwdriver set', 'hammer', 'picture hanging kit', 'light bulb pack', 'adjustable wrench', 'allen wrench set',
 'socket set', 'cord organizer', 'appliance cord wrap', 'step stool small', 'folding step ladder large', 'kitchen flashlight',
- 
 // Power & Electronics (14 items)
 'tablet stand', 'charging station', 'smart speaker', 'television', 'extension cord', 'power strip', 'under cabinet radio', 'smart display', 'charging dock', 'surge protector',
-'extension cord heavy duty', 'battery pack', 'surge protector strip', 'extension cord reel',
- 
+'battery pack', 'surge protector strip', 'extension cord reel',
 // Picnic & Outdoor (2 items)
 'picnic basket', 'propane torch',
- 
 // TOTAL: 796 items
 ],
         'Living room': [// Sofas & Seating (50 items)
@@ -159,1378 +127,966 @@
 'sofa accent pillows', 'sofa throw blanket', 'loveseat cushions', 'recliner remote', 'recliner power cord', 'ottoman tray', 'gaming chair', 'bean bag refill', 'folding chair pads', 'stool cushion',
 'entry bench cushion', 'window seat throw pillow', 'storage ottoman lid', 'sofa arm tray', 'chair arm covers', 'ottoman storage bin', 'hallway bench', 'sofa side caddy', 'sofa cup holder', 'recliner cup holder insert',
 'ottoman storage divider', 'bean bag chair cover', 'folding chair storage rack', 'stool leg caps', 'shoe rack bench', 'storage ottoman hinges', 'sofa leg risers', 'chair floor protectors', 'seat cushion covers', 'seat cushion foam insert',
- 
- 
 // Tables & Storage Furniture (46 items)
 'coffee table', 'end table', 'side table', 'console table', 'bookcase', 'bookshelf', 'display cabinet', 'curio cabinet', 'china cabinet', 'corner shelf',
 'cabinet with doors', 'storage cabinet', 'drawer chest', 'accent cabinet', 'bar cabinet', 'coffee table books', 'blanket chest', 'toy chest', 'shoe rack', 'hall tree',
 'coffee table drawer organizer', 'end table lamp', 'side table decor', 'console table decor', 'bookcase decor', 'display cabinet lighting', 'curio cabinet shelves', 'storage cabinet baskets', 'drawer chest liners', 'accent cabinet hardware',
 'bar cabinet glassware', 'coffee table tray', 'shoe storage cabinet', 'coffee table book set', 'coffee table organizer', 'hallway storage cabinet', 'coffee table leg protectors', 'end table drawer liner', 'bookcase bookends', 'display cabinet locks',
-'curio cabinet light bulbs', 'storage cabinet shelf riser', 'drawer chest organizers', 'coffee table storage box', 'game storage cabinet', 'corner display shelf',
- 
+'curio cabinet light bulbs', 'storage cabinet shelf riser', 'drawer chest organizers', 'game storage cabinet', 'corner display shelf',
 // Media & Entertainment Furniture (18 items)
 'media console', 'television stand', 'entertainment center', 'rolling bar cart', 'media cabinet shelves', 'entertainment center drawers', 'bar cart wheels', 'dvd storage rack', 'game storage shelf', 'game console stand',
 'media shelf riser', 'floating media shelf', 'cd display rack', 'dvd display shelf', 'media console cable ties', 'media remote holder', 'cd storage tower', 'media shelf bracket',
- 
 // TV & Home Theater (19 items)
 'television', 'streaming device', 'blu ray player', 'dvd player', 'sound bar', 'subwoofer', 'surround sound speakers', 'speaker stands', 'home theater receiver', 'cable box',
-'satellite receiver', 'streaming remote', 'blu ray discs', 'sound bar remote', 'speaker cables', 'receiver remote', 'bluetooth speaker stand', 'smart speaker stand', 'smart speaker cable',
- 
+'satellite receiver', 'streaming remote', 'blu ray discs', 'sound bar remote', 'speaker cables', 'receiver remote', 'bluetooth speaker stand', 'smart speaker stand',
 // Gaming (13 items)
-'gaming console', 'game controller', 'virtual reality headset', 'game disc case', 'gaming headset', 'vr controllers', 'board game storage rack', 'game console cooling fan', 'game night storage box', 'game controller skins',
-'card game storage tin', 'game controller case', 'game console cables',
- 
+'game controller', 'virtual reality headset', 'game disc case', 'gaming headset', 'vr controllers', 'board game storage rack', 'game console cooling fan', 'game night storage box', 'game controller skins', 'card game storage tin',
+'game controller case', 'game console cables',
 // Remotes & Smart Home (17 items)
 'media remote', 'universal remote', 'remote control organizer', 'smart speaker', 'fan remote', 'remote batteries', 'cable management box', 'smart plug', 'smart home hub', 'space heater remote',
 'tower fan remote', 'remote finder device', 'smart bulb hub', 'bluetooth remote', 'ceiling fan remote holder', 'remote control batteries', 'smart bulb remote',
- 
 // Networking & Tech (13 items)
 'router', 'modem', 'wifi extender', 'router stand', 'modem cables', 'wifi booster', 'router cable organizer', 'wifi signal booster', 'bluetooth transmitter', 'router backup battery',
-'modem power adapter', 'wifi extender cable', 'bluetooth audio adapter',
- 
+'modem power adapter', 'wifi extender cable',
 // Laptops, Tablets & Headphones (38 items)
 'tablet charger', 'laptop charger', 'laptop', 'tablet', 'wireless headphones', 'headphones', 'bluetooth speaker', 'cd collection', 'dvd collection', 'laptop stand',
 'tablet case', 'wireless headphone case', 'cd storage case', 'dvd binder', 'laptop storage sleeve', 'tablet charging cable', 'headphone stand', 'laptop cooling pad', 'tablet keyboard', 'wireless mouse',
-'headphone extension cable', 'cd cleaner kit', 'dvd cleaning kit', 'laptop docking station', 'tablet stylus', 'wireless headphone charger', 'dvd storage case', 'bluetooth speaker charger', 'laptop backpack', 'tablet sleeve',
-'bluetooth speaker case', 'cd binder case', 'bluetooth speaker dock', 'wireless headphone stand', 'headphone amplifier', 'headphone storage case', 'laptop carrying case', 'laptop desk tray',
- 
+'headphone extension cable', 'cd cleaner kit', 'dvd cleaning kit', 'laptop docking station', 'tablet stylus', 'wireless headphone charger', 'dvd storage case', 'bluetooth speaker charger', 'laptop backpack', 'wireless headphone stand',
+'headphone amplifier', 'laptop carrying case',
 // Power & Charging (19 items)
 'extension cord', 'power strip', 'surge protector', 'charging station', 'phone charger', 'controller charging dock', 'battery storage box', 'extension cord reel', 'charging cable organizer', 'charging dock station',
-'battery organizer case', 'cord management clips', 'charging hub', 'battery tester', 'extension cord splitter', 'charging cable box', 'alarm sensor battery', 'charging cable station', 'motion sensor battery pack',
- 
+'battery organizer case', 'cord management clips', 'charging hub', 'battery tester', 'extension cord splitter', 'charging cable box', 'alarm sensor battery',
 // Lamps & Lighting (22 items)
-'floor lamp', 'table lamp', 'lamp shade', 'light bulbs', 'accent table lamp', 'floor lamp bulbs', 'table lamp bulbs', 'lamp finial', 'ceiling fan blades', 'fan light kit',
-'accent lamp shade', 'lamp timer switch', 'light bulb storage case', 'floor lamp dimmer', 'table lamp timer', 'floor lamp base weight', 'table lamp harp', 'lamp shade finial', 'fan blade cleaner', 'floor plant grow light',
-'light bulb organizer box', 'ceiling fan balancing kit',
- 
+'floor lamp', 'table lamp', 'light bulbs', 'accent table lamp', 'floor lamp bulbs', 'table lamp bulbs', 'lamp finial', 'ceiling fan blades', 'fan light kit', 'accent lamp shade',
+'lamp timer switch', 'light bulb storage case', 'floor lamp dimmer', 'table lamp timer', 'table lamp harp', 'lamp shade finial', 'fan blade cleaner', 'floor plant grow light',
 // Rugs & Floor (21 items)
-'area rug', 'throw rug', 'rug pad', 'carpet runner', 'carpet cleaner machine', 'area rug cleaner', 'rug corner grips', 'carpet stain remover', 'carpet cleaning solution', 'rug storage roll',
-'entryway rug', 'area rug corner tape', 'rug cleaning brush', 'carpet deodorizer', 'floor protector mat', 'area rug cleaning spray', 'rug storage bag', 'rug gripper pads', 'carpet padding', 'rug cleaning machine solution',
-'carpet cleaner hose',
- 
+'area rug', 'throw rug', 'carpet runner', 'carpet cleaner machine', 'area rug cleaner', 'rug corner grips', 'carpet stain remover', 'carpet cleaning solution', 'entryway rug', 'rug cleaning brush',
+'carpet deodorizer', 'carpet padding',
 // Window Treatments (10 items)
 'curtain tie backs', 'curtain rings', 'curtain clips', 'window shade pull', 'curtain tieback hooks', 'window blind cleaner', 'curtain cleaning brush', 'curtain blackout liner', 'decorative curtain rod ends', 'window curtain rings',
- 
 // Wall Decor & Mirrors (31 items)
 'wall art', 'framed artwork', 'canvas art', 'wall mirror', 'decorative mirror', 'wall clock', 'picture frames', 'photo albums', 'decorative shelves', 'mantle clock',
-'picture hanging kit', 'clock batteries', 'picture frame stand', 'photo storage box', 'wall sconce bulbs', 'picture wire', 'accent mirror', 'floor standing mirror', 'art cleaning cloth', 'picture frame cleaner',
-'mirror cleaning spray', 'mirror hanging wire', 'picture mat boards', 'photo frame glass', 'wall sconce shades', 'picture frame wire', 'mirror polish cloth', 'canvas stretcher kit', 'photo album sleeves', 'floor mirror frame',
-'wall art cleaning brush',
- 
+'picture hanging kit', 'clock batteries', 'picture frame stand', 'photo storage box', 'picture wire', 'accent mirror', 'floor standing mirror', 'art cleaning cloth', 'picture frame cleaner', 'mirror hanging wire',
+'picture mat boards', 'photo frame glass', 'wall sconce shades', 'picture frame wire',
 // Pillows, Throws & Blankets (15 items)
-'throw pillows', 'decorative pillows', 'throw blankets', 'quilt', 'afghan blanket', 'throw pillow inserts', 'pillow covers', 'blanket storage basket', 'quilt storage bag', 'throw blanket storage bag',
-'decorative pillow basket', 'throw pillow storage bag', 'decorative pillow inserts', 'throw blanket ladder', 'quilt hanger rack',
- 
+'throw pillows', 'decorative pillows', 'throw blankets', 'quilt', 'afghan blanket', 'blanket storage basket', 'quilt storage bag', 'throw blanket storage bag', 'decorative pillow basket', 'throw pillow storage bag',
+'decorative pillow inserts', 'throw blanket ladder', 'quilt hanger rack',
 // Fireplace & Candles (20 items)
-'fireplace screen', 'fireplace tools', 'fireplace log holder', 'mantle decor', 'candle holders', 'candles', 'lantern', 'mantle garland', 'candle snuffer', 'lantern candles',
-'decorative lantern set', 'candle storage box', 'fireplace ash vacuum', 'log storage rack', 'fireplace bellows', 'mantle decor garland lights', 'candle lighter', 'lantern hanger', 'decorative lantern candles', 'candle storage tray',
- 
+'fireplace screen', 'fireplace tools', 'fireplace log holder', 'mantle decor', 'candles', 'lantern', 'mantle garland', 'lantern candles', 'fireplace ash vacuum', 'log storage rack',
+'fireplace bellows', 'mantle decor garland lights', 'lantern hanger', 'decorative lantern candles',
 // Plants & Planters (36 items)
 'indoor plant', 'plant stand', 'planter pot', 'artificial plant', 'floor vase', 'decorative vase', 'plant watering can', 'plant fertilizer', 'plant mister', 'artificial plant decor',
-'vase filler stones', 'floor plant stand', 'plant drip tray', 'indoor tree planter', 'artificial tree decor', 'large decorative vase', 'plant care kit', 'plant soil bag', 'plant pruning shears', 'plant support stakes',
-'artificial plant cleaner spray', 'floor vase filler sticks', 'plant watering globe', 'indoor planter liner', 'artificial tree stand', 'large floor vase filler', 'plant fertilizer spikes', 'plant soil scoop', 'plant leaf shine spray', 'plant care spray bottle',
-'plant pot liner', 'artificial plant base', 'artificial tree planter', 'floor plant basket', 'large vase decorative', 'floor vase cleaning brush',
- 
+'floor plant stand', 'indoor tree planter', 'artificial tree decor', 'large decorative vase', 'plant care kit', 'plant soil bag', 'plant pruning shears', 'plant support stakes', 'artificial plant cleaner spray', 'floor vase filler sticks',
+'plant watering globe', 'artificial tree stand', 'artificial plant base', 'artificial tree planter',
 // Decor & Accents (19 items)
-'decorative bowl', 'decorative tray', 'serving tray', 'decorative bowl filler', 'decorative storage trunk', 'ceramic decor bowl', 'decorative stone set', 'decorative tray liner', 'decorative box set', 'ceramic bowl decor set',
-'decorative stone bowl', 'accent decor sculpture', 'accent decor bowl', 'decorative bowl set', 'decorative stone tray', 'decorative tray storage box', 'decorative box organizer', 'ceramic bowl centerpiece', 'accent table decor',
- 
+'decorative bowl', 'decorative tray', 'decorative bowl filler', 'decorative storage trunk', 'ceramic decor bowl', 'decorative stone set', 'decorative box set', 'ceramic bowl centerpiece', 'accent table decor',
 // Bar & Entertaining (26 items)
-'drink coasters', 'coaster holder', 'barware set', 'wine glasses', 'cocktail glasses', 'drink pitcher', 'ice bucket', 'bar tool set', 'wine opener', 'wine rack',
-'bottle stopper', 'liquor cabinet contents', 'drink coaster set', 'coaster storage box', 'bar tool rack', 'wine glass rack', 'liquor decanter', 'barware storage box', 'wine glass polishing cloth', 'drink pitcher lid',
-'ice bucket tongs', 'bar tool organizer', 'wine cork holder', 'liquor bottle pourers', 'bottle opener', 'cocktail shaker strainer',
- 
+'drink coasters', 'barware set', 'wine glasses', 'cocktail glasses', 'drink pitcher', 'ice bucket', 'wine opener', 'wine rack', 'liquor cabinet contents', 'drink coaster set',
+'coaster storage box', 'bar tool rack', 'wine glass rack', 'liquor decanter', 'barware storage box', 'wine glass polishing cloth', 'drink pitcher lid', 'ice bucket tongs', 'bar tool organizer', 'wine cork holder',
+'liquor bottle pourers', 'bottle opener', 'cocktail shaker strainer',
 // Books, Games & Hobbies (22 items)
 'magazine rack', 'magazines', 'board games', 'card games', 'puzzle box', 'playing cards', 'magazine holder', 'board game organizer', 'puzzle mat', 'magazine subscription box',
-'puzzle storage box', 'magazine subscription rack', 'magazine file holder', 'board game pieces organizer', 'puzzle sorter trays', 'magazine display rack', 'board game shelf', 'card game binder', 'puzzle storage bag', 'magazine file bin',
-'card shuffler', 'card deck holder',
- 
+'puzzle storage box', 'magazine subscription rack', 'magazine file holder', 'board game pieces organizer', 'puzzle sorter trays', 'board game shelf', 'card shuffler', 'card deck holder',
 // Entryway & Coat Storage (18 items)
 'coat rack', 'umbrella stand', 'console mirror', 'coat hanger rack', 'umbrella holder tray', 'hall tree hooks', 'shoe polish kit', 'umbrella drip tray', 'entry bench storage bin', 'hall tree basket',
-'console mirror mounting kit', 'shoe rack organizer', 'shoe rack stackable', 'shoe storage organizer box', 'coat rack freestanding', 'umbrella holder stand', 'umbrella rack tray', 'hall tree storage shelf',
- 
+'console mirror mounting kit', 'coat rack freestanding', 'umbrella holder stand',
 // Climate & Air Quality (24 items)
 'air purifier', 'humidifier', 'dehumidifier', 'space heater', 'tower fan', 'standing fan', 'portable air conditioner', 'fabric freshener spray', 'air freshener', 'scent diffuser',
 'essential oil diffuser', 'air purifier filter', 'humidifier filter', 'dehumidifier bucket', 'portable air conditioner hose', 'air freshener refill', 'essential oil set', 'scent diffuser reeds', 'space heater filter', 'portable air conditioner window kit',
-'fabric freshener beads', 'air freshener plug in', 'essential oil storage case', 'air purifier cover',
- 
+'fabric freshener beads', 'air freshener plug in',
 // Safety & Security (15 items)
 'security camera', 'motion sensor', 'smoke detector', 'carbon monoxide detector', 'fire extinguisher', 'first aid kit', 'smoke detector batteries', 'carbon monoxide detector batteries', 'first aid refill kit', 'security camera memory card',
-'first aid supply box', 'first aid refill supplies', 'fire extinguisher refill', 'security camera extension cable', 'motion sensor lens',
- 
+'first aid supply box', 'first aid refill supplies', 'fire extinguisher refill',
 // Tools & Hardware (11 items)
 'tool kit small', 'screwdriver set', 'hammer', 'measuring tape', 'tool storage box', 'measuring tape case', 'handheld steamer', 'measuring tape clip', 'tool box large', 'tool box small',
 'tool organizer tray',
- 
 // Furniture Care & Protection (18 items)
-'furniture covers', 'slipcovers', 'fabric protector spray', 'lint roller', 'furniture polish', 'wood cleaner', 'furniture leg pads', 'slipcover clips', 'fabric stain remover', 'lint brush',
-'wood polish cloth', 'fabric protector wipes', 'furniture scratch repair kit', 'slipcover straps', 'fabric cleaner spray', 'lint remover brush', 'wood furniture polish', 'fabric stain remover wipes',
- 
+'furniture covers', 'slipcovers', 'fabric protector spray', 'lint roller', 'wood cleaner', 'furniture leg pads', 'slipcover clips', 'fabric stain remover', 'lint brush', 'fabric protector wipes',
+'furniture scratch repair kit', 'slipcover straps', 'fabric cleaner spray', 'lint remover brush', 'wood furniture polish',
 // Cleaning Supplies & Vacuums (28 items)
 'hand vacuum', 'vacuum cleaner', 'broom', 'dustpan', 'floor mop', 'cleaning caddy', 'glass cleaner', 'all purpose cleaner', 'microfiber cloths', 'upright vacuum',
-'vacuum bags', 'mop bucket', 'cleaning gloves', 'glass spray bottle', 'multi surface wipes', 'dusting wand', 'trash can liner refill', 'handheld vacuum filter', 'cleaning spray bottles', 'all purpose cleaning wipes',
-'dusting cloth set', 'handheld vacuum charger', 'upright vacuum filter', 'vacuum cleaner attachments', 'mop bucket wringer', 'cleaning supply caddy large', 'dusting mitt', 'paper towels',
- 
+'mop bucket', 'cleaning gloves', 'glass spray bottle', 'multi surface wipes', 'dusting wand', 'trash can liner refill', 'handheld vacuum filter', 'cleaning spray bottles', 'all purpose cleaning wipes', 'dusting cloth set',
 // Trash & Recycling (6 items)
-'trash can', 'recycling bin', 'trash bags', 'trash can deodorizer', 'recycling bin labels', 'recycling bin divider',
- 
+'recycling bin', 'trash bags', 'trash can deodorizer', 'recycling bin labels',
 // Storage & Organization (13 items)
-'storage baskets', 'storage bins', 'toy storage bin', 'drawer organizer', 'cabinet shelf liner', 'woven storage basket', 'toy organizer bins', 'console drawer liner', 'storage basket liner', 'toy storage shelf',
-'drawer organizer bins', 'cabinet shelf baskets', 'drawer organizer expandable',
- 
+'storage baskets', 'toy storage bin', 'drawer organizer', 'woven storage basket', 'toy organizer bins', 'console drawer liner', 'toy storage shelf', 'drawer organizer bins', 'cabinet shelf baskets',
 // TOTAL: 588 items
 ],
 
-        Bedroom: [
-// Major Furniture (55 items)
+        Bedroom: [// Major Furniture (55 items)
 'bed frame', 'platform bed', 'canopy bed', 'sleigh bed', 'headboard', 'upholstered headboard', 'footboard', 'bed rails', 'bed slats', 'box spring',
 'mattress', 'mattress topper', 'adjustable bed base', 'bunk bed', 'trundle bed', 'daybed', 'murphy bed', 'nightstand', 'nightstand pair', 'bedside table',
 'dresser', 'tall dresser', 'double dresser', 'chest of drawers', 'lingerie chest', 'wardrobe armoire', 'vanity table', 'vanity stool', 'vanity chair', 'bedroom bench',
 'storage bench', 'end of bed bench', 'accent chair', 'reading chair', 'wingback chair', 'chaise lounge', 'ottoman', 'storage ottoman', 'bookshelf', 'bookcase',
 'bedroom desk', 'writing desk', 'desk chair', 'full length mirror', 'standing mirror', 'dressing mirror', 'cheval mirror', 'media console', 'blanket chest', 'cedar chest',
-
 'trunk storage', 'folding luggage rack', 'jewelry armoire', 'corner shelf unit', 'floating nightstand',
-
 // Bedding & Linens (53 items)
 'fitted sheet', 'flat sheet', 'sheet set', 'spare sheet set', 'flannel sheets', 'satin sheets', 'linen sheets', 'pillowcases', 'silk pillowcases', 'pillow shams',
 'euro pillow shams', 'quilted sham', 'duvet', 'duvet cover', 'spare duvet cover', 'comforter', 'comforter set', 'seasonal duvet insert', 'quilt', 'reversible quilt',
 'coverlet', 'bedspread', 'blanket', 'throw blanket', 'knit throw', 'weighted blanket', 'electric blanket', 'heated blanket', 'wool blanket', 'fleece blanket',
 'cashmere throw', 'cotton blanket', 'spare blanket', 'mattress protector', 'waterproof mattress protector', 'mattress pad', 'cooling mattress pad', 'bed pillows', 'memory foam pillow', 'cooling pillow',
 'down pillow', 'feather pillow', 'body pillow', 'pregnancy pillow', 'lumbar pillow', 'decorative pillows', 'euro pillows', 'bolster pillow', 'pillow protector', 'bed skirt',
-
-'dust ruffle', 'throw pillow covers', 'spare pillowcases',
-
+'dust ruffle', 'throw pillow covers',
 // Closet & Storage (57 items)
 'closet organizer system', 'hanging clothes organizer', 'closet shelf divider', 'double hang closet rod', 'shoe rack', 'shoe organizer', 'rotating shoe rack', 'over door shoe holder', 'hanging shoe bag', 'clear shoe boxes',
-'storage bins', 'clear storage boxes', 'under bed storage box', 'under bed rolling drawer', 'under bed shoe organizer', 'vacuum storage bags', 'garment bags', 'sweater storage box', 'clothing storage bins', 'fabric storage cubes',
-'closet drawer unit', 'hat box', 'belt organizer', 'tie rack', 'scarf organizer', 'purse organizer', 'handbag shelf dividers', 'jewelry box', 'jewelry tray', 'jewelry stand',
-'jewelry drawer insert', 'valet tray', 'drawer organizer', 'drawer dividers', 'closet hooks', 'wall hooks', 'adhesive hooks', 'hanging organizer shelves', 'rolling garment rack', 'freestanding clothing rack',
-'laundry hamper', 'laundry basket', 'collapsible hamper', 'sorting hamper', 'double laundry hamper', 'lint roller', 'wooden hangers', 'velvet hangers', 'plastic hangers', 'clip hangers',
-
-'padded hangers', 'suit hangers', 'pants hangers', 'cascading hangers', 'closet light battery', 'closet dehumidifier', 'storage trunk',
-
+'under bed storage box', 'under bed rolling drawer', 'under bed shoe organizer', 'vacuum storage bags', 'garment bags', 'sweater storage box', 'clothing storage bins', 'fabric storage cubes', 'closet drawer unit', 'hat box',
+'belt organizer', 'tie rack', 'scarf organizer', 'purse organizer', 'handbag shelf dividers', 'jewelry box', 'jewelry tray', 'jewelry stand', 'jewelry drawer insert', 'valet tray',
+'drawer organizer', 'drawer dividers', 'closet hooks', 'wall hooks', 'adhesive hooks', 'hanging organizer shelves', 'rolling garment rack', 'freestanding clothing rack', 'laundry hamper', 'laundry basket',
+'collapsible hamper', 'sorting hamper', 'double laundry hamper', 'lint roller', 'wooden hangers', 'velvet hangers', 'plastic hangers', 'clip hangers', 'padded hangers', 'suit hangers',
+'pants hangers', 'cascading hangers', 'closet light battery', 'closet dehumidifier', 'storage trunk',
 // Clothing (100 items)
 'shirts', 't shirts', 'polo shirts', 'dress shirts', 'flannel shirts', 'blouses', 'tank tops', 'sweaters', 'turtlenecks', 'cardigans',
 'hoodies', 'sweatshirts', 'jackets', 'denim jacket', 'leather jacket', 'blazers', 'sport coats', 'coats', 'winter coat', 'wool coat',
 'raincoat', 'windbreaker', 'vest', 'pants', 'chinos', 'jeans', 'dress pants', 'khakis', 'shorts', 'cargo shorts',
 'skirts', 'dresses', 'sundresses', 'formal gowns', 'suits', 'tuxedo', 'activewear', 'leggings', 'yoga pants', 'sweatpants',
 'pajamas', 'nightgown', 'robe', 'bathrobe', 'loungewear', 'underwear', 'boxers', 'socks', 'dress socks', 'athletic socks',
-
 'bras', 'sports bras', 'undershirts', 'thermal underwear', 'belts', 'leather belts', 'ties', 'bow ties', 'scarves', 'winter scarf',
 'gloves', 'winter gloves', 'hats', 'baseball caps', 'beanies', 'shoes', 'dress shoes', 'loafers', 'sneakers', 'running shoes',
 'boots', 'winter boots', 'hiking boots', 'sandals', 'flip flops', 'slippers', 'heels', 'flats', 'handbags', 'clutch purses',
 'purses', 'backpacks', 'duffel bags', 'wallets', 'sunglasses', 'jewelry collection', 'necklaces', 'bracelets', 'earrings', 'rings',
 'watches', 'watch collection', 'cufflinks', 'swimwear', 'swim trunks', 'workout clothes', 'uniforms', 'costumes', 'seasonal clothing', 'formal accessories',
-
-
 // Lighting (28 items)
 'table lamp', 'pair of table lamps', 'bedside lamp', 'floor lamp', 'reading lamp', 'desk lamp', 'arc lamp', 'tripod floor lamp', 'accent lamp', 'clip on book light',
-'string lights decorative', 'LED light strip', 'fairy lights', 'night light', 'salt lamp', 'smart bulb', 'color changing bulb', 'lamp shade', 'spare lamp shade', 'dimmer plug',
-'touch lamp', 'battery candle set', 'flameless candles', 'lantern decorative', 'sunrise alarm lamp', 'projector night light', 'sconce battery', 'under bed motion light',
-
+'string lights decorative', 'LED light strip', 'fairy lights', 'night light', 'salt lamp', 'smart bulb', 'color changing bulb', 'dimmer plug', 'touch lamp', 'battery candle set',
+'flameless candles', 'lantern decorative', 'sunrise alarm lamp', 'projector night light', 'sconce battery', 'under bed motion light',
 // Electronics & Charging (45 items)
 'television bedroom', 'tv wall bracket freestanding', 'tv stand', 'streaming device', 'soundbar', 'bluetooth speaker', 'portable speaker', 'alarm clock', 'smart speaker', 'clock radio',
 'charging station', 'wireless charging pad', 'multi device charging dock', 'phone dock', 'power strip', 'surge protector', 'extension cord', 'usb wall charger', 'tablet', 'e reader',
 'laptop', 'laptop stand', 'headphones', 'wireless earbuds', 'white noise machine', 'sound machine', 'air purifier', 'space heater', 'box fan', 'tower fan',
 'oscillating fan', 'ceiling fan remote', 'humidifier', 'dehumidifier portable', 'smart home hub', 'security camera', 'baby monitor', 'remote controls', 'universal remote', 'phone stand',
-'gaming console', 'vr headset', 'smart display', 'cable organizer box', 'battery backup',
-
+'vr headset', 'smart display', 'cable organizer box', 'battery backup',
 // Window Treatments (20 items)
 'curtains', 'curtain panels', 'sheer curtains', 'blackout curtains', 'thermal curtains', 'curtain tie backs', 'curtain rod portable', 'valance', 'swag valance', 'roman shades',
 'roller shade', 'cellular shade', 'bamboo shade', 'pleated shade', 'window film decorative', 'draft stopper', 'window cushion', 'curtain holdbacks', 'window scarf', 'privacy film',
-
 // Rugs & Floor (16 items)
-'area rug', 'large area rug', 'runner rug', 'accent rug', 'shag rug', 'wool rug', 'rug pad', 'bedside rug', 'round rug', 'sheepskin rug',
-'door mat bedroom', 'floor cushion', 'floor pouf', 'seagrass rug', 'jute rug', 'washable rug',
-
+'area rug', 'large area rug', 'runner rug', 'accent rug', 'shag rug', 'wool rug', 'bedside rug', 'round rug', 'sheepskin rug', 'door mat bedroom',
+'floor cushion', 'floor pouf', 'seagrass rug', 'jute rug', 'washable rug',
 // Decor & Wall Art (45 items)
 'wall art', 'framed prints', 'canvas print', 'large canvas art', 'gallery wall set', 'metal wall art', 'tapestry', 'wall mirror', 'decorative mirror', 'sunburst mirror',
 'wall clock', 'wall shelf decorative', 'floating shelf decor', 'picture frames', 'photo collage frame', 'tabletop photo frames', 'decorative vase', 'vase set', 'faux plant', 'artificial plant',
-'plant pot decorative', 'hanging planter', 'candle holders', 'scented candles', 'pillar candles', 'decorative tray', 'trinket dish', 'figurines', 'sculptures decorative', 'bookends',
-'decorative bowl', 'dream catcher', 'wall decals', 'garland decorative', 'seasonal decor', 'accent pillows decor', 'decorative basket', 'memory board', 'cork board', 'string light frame',
-'incense holder', 'decorative clock', 'globe decorative', 'wall letters', 'neon sign decorative',
-
+'plant pot decorative', 'hanging planter', 'scented candles', 'pillar candles', 'decorative tray', 'trinket dish', 'figurines', 'sculptures decorative', 'bookends', 'decorative bowl',
+'dream catcher', 'wall decals', 'garland decorative', 'memory board', 'cork board', 'string light frame', 'incense holder', 'decorative clock', 'globe decorative', 'wall letters',
+'neon sign decorative',
 // Personal & Vanity (30 items)
 'vanity mirror lighted', 'makeup mirror magnifying', 'makeup organizer', 'makeup brush holder', 'cosmetics collection', 'skincare collection', 'perfume bottles', 'perfume tray', 'cologne collection', 'hair dryer',
-'hair straightener', 'curling iron', 'hot rollers', 'hair tools', 'hair tool organizer', 'grooming kit', 'electric shaver', 'manicure set', 'nail polish collection', 'tissue box holder',
-'jewelry cleaning kit', 'watch box', 'watch winder', 'eyeglasses', 'reading glasses', 'sleep mask', 'ear plugs', 'essential oil diffuser', 'aromatherapy set', 'vanity drawer organizer',
-
+'hair straightener', 'curling iron', 'hot rollers', 'hair tools', 'hair tool organizer', 'grooming kit', 'electric shaver', 'manicure set', 'nail polish collection', 'jewelry cleaning kit',
+'watch box', 'watch winder', 'eyeglasses', 'reading glasses', 'sleep mask', 'ear plugs', 'essential oil diffuser', 'aromatherapy set', 'vanity drawer organizer',
 // Comfort & Miscellaneous (40 items)
 'bed tray', 'breakfast tray', 'lap desk', 'book stand', 'step stool', 'door draft guard', 'clothing steamer', 'handheld steamer', 'iron', 'ironing board',
 'tabletop ironing board', 'sewing kit', 'mending kit', 'safe small', 'fireproof document box', 'first aid kit bedroom', 'flashlight', 'emergency flashlight', 'wastebasket', 'trash bin',
-'tissue boxes', 'humidifier filter', 'moth repellent', 'cedar blocks', 'drawer sachets', 'air freshener', 'room spray', 'reed diffuser', 'blanket ladder', 'magazine rack',
-'book stack', 'luggage', 'suitcase set', 'carry on bag', 'weekend bag', 'travel organizer', 'packing cubes', 'shoe shine kit', 'spare bedding storage', 'closet safe',
-
+'tissue boxes', 'humidifier filter', 'moth repellent', 'cedar blocks', 'drawer sachets', 'air freshener', 'room spray', 'blanket ladder', 'magazine rack', 'book stack',
+'luggage', 'suitcase set', 'carry on bag', 'weekend bag', 'travel organizer', 'packing cubes', 'shoe shine kit', 'spare bedding storage', 'closet safe',
 // TOTAL: 489 items
 ],
 
-        Bathroom: [
-'all purpose cleaner' , 'cleaning caddy' , 'decorative tray' , 'first aid kit' , 'glass cleaner' , 'light bulbs' , 'power strip' , 'surge protector' , 'trash bags' , 'trash can' , 'wall clock',
-
+        Bathroom: ['all purpose cleaner', 'cleaning caddy', 'decorative tray', 'first aid kit', 'glass cleaner', 'light bulbs', 'power strip', 'surge protector', 'trash bags', 'wall clock',
 // Major Fixtures & Furniture (82 items)
-'single vanity', 'double vanity', 'floating vanity', 'pedestal sink', 'undermount sink', 'vessel sink', 'bathroom faucet', 'sink drain stopper',
-'bathtub', 'freestanding bathtub', 'clawfoot tub', 'soaking tub', 'whirlpool tub', 'shower stall', 
-'toilet', 'bidet', 'bidet seat attachment', 'toilet seat', 'linen cabinet', 'bathroom storage cabinet', 'medicine cabinet', 'bathroom vanity mirror', 'bathroom mirror', 'full length mirror',
-'mirror cabinet', 'over toilet cabinet', 'bathroom shelving unit', 'ladder shelf', 'corner shelf unit', 'bathroom bench', 'teak bath bench', 'shower seat', 'shower stool', 'vanity tray',
-'vanity organizer', 'vanity mirror', 'lighted vanity mirror', 'vanity drawer liner', 'vanity drawer divider', 'shower curtain hooks', 'shower curtain rings', 'shower curtain clips', 'shower curtain liner', 'shower curtain weights',
-
-'bathtub caddy', 'freestanding toilet paper holder', 'toilet paper stand', 'toilet paper storage', 'toilet paper roll organizer', 'toilet brush', 'toilet brush holder', 'toilet brush set', 'toilet plunger', 'toilet plunger holder',
-'toilet bowl cleaner', 'toilet cleaning tablets', 'toilet tank cleaner', 'toilet seat cover', 'toilet lid cover', 'toilet mat', 'toilet base mat', 'toilet seat night light', 'toilet paper rolls', 'toilet night light',
-'toilet paper storage cabinet', 'novelty toilet paper holder', 'bamboo toilet brush', 'disposable toilet brush', 'toilet deodorizer clip', 'shower door organizer', 'medicine cabinet organizer', 'eau de toilette', 'toilet bowl cleaner bottle', 'toilet scrub brush',
-'vanity bulbs', 'waterproof shower curtain set',
-
+'single vanity', 'double vanity', 'floating vanity', 'pedestal sink', 'undermount sink', 'vessel sink', 'bathroom faucet', 'sink drain stopper', 'bathtub', 'freestanding bathtub',
+'clawfoot tub', 'soaking tub', 'whirlpool tub', 'shower stall', 'toilet', 'bidet', 'bidet seat attachment', 'toilet seat', 'linen cabinet', 'bathroom storage cabinet',
+'medicine cabinet', 'bathroom vanity mirror', 'bathroom mirror', 'full length mirror', 'mirror cabinet', 'over toilet cabinet', 'bathroom shelving unit', 'ladder shelf', 'corner shelf unit', 'bathroom bench',
+'teak bath bench', 'shower seat', 'shower stool', 'vanity tray', 'vanity organizer', 'vanity mirror', 'lighted vanity mirror', 'vanity drawer liner', 'vanity drawer divider', 'shower curtain hooks',
+'shower curtain rings', 'shower curtain clips', 'shower curtain liner', 'shower curtain weights', 'bathtub caddy', 'freestanding toilet paper holder', 'toilet paper stand', 'toilet paper storage', 'toilet paper roll organizer', 'toilet brush',
+'toilet brush holder', 'toilet brush set', 'toilet plunger', 'toilet plunger holder', 'toilet bowl cleaner', 'toilet cleaning tablets', 'toilet tank cleaner', 'toilet seat cover', 'toilet lid cover', 'toilet mat',
+'toilet base mat', 'toilet seat night light', 'toilet paper rolls', 'toilet night light', 'toilet paper storage cabinet', 'novelty toilet paper holder', 'bamboo toilet brush', 'toilet deodorizer clip', 'shower door organizer', 'medicine cabinet organizer',
+'eau de toilette', 'toilet bowl cleaner bottle', 'toilet scrub brush', 'vanity bulbs', 'waterproof shower curtain set',
 // Vanity & Sink Accessories (39 items)
 'soap dispenser', 'hand soap', 'liquid hand soap', 'bar soap dish', 'soap tray', 'toothbrush holder', 'toothbrush cup', 'electric toothbrush holder', 'toothpaste dispenser', 'cup holder',
 'bathroom cup dispenser', 'cotton ball holder', 'cotton swab holder', 'q tip holder', 'cotton ball jar', 'apothecary jar set', 'magnifying mirror', 'makeup mirror', 'mirror tray', 'cosmetic organizer',
 'lipstick organizer', 'makeup brush holder', 'makeup brush set', 'makeup sponge holder', 'beauty blender holder', 'nail polish organizer', 'perfume tray', 'perfume organizer', 'jewelry tray', 'hair tie organizer',
-'bobby pin organizer', 'hair clip organizer', 'small drawer organizer', 'brush cleaning mat', 'makeup remover pads reusable', 'facial cleansing brush', 'sonic face brush', 'skincare fridge', 'nail polish remover pads',
-
+'brush cleaning mat', 'makeup remover pads reusable', 'facial cleansing brush', 'sonic face brush', 'skincare fridge', 'nail polish remover pads',
 // Shower & Bath Accessories (46 items)
 'shower caddy', 'hanging shower caddy', 'corner shower caddy', 'tension pole shower caddy', 'shower shelf', 'shower hook', 'shower head', 'handheld shower head', 'shower head filter', 'bath tray',
 'bath pillow', 'bath mat', 'non slip bath mat', 'suction cup bath mat', 'tub mat', 'shower mat', 'anti slip shower mat', 'bath rug', 'contour bath rug', 'bath rug set',
 'memory foam bath mat', 'bath mat drying rack', 'loofah', 'bath sponge', 'bath brush', 'long handle bath brush', 'back scrubber', 'bath pouf', 'exfoliating gloves', 'pumice stone',
 'foot scrubber', 'razor holder', 'razor stand', 'shower razor hook', 'shaving brush', 'shaving bowl', 'shower soap dish', 'shower body wash holder', 'waterproof shower radio', 'shower clock',
 'shower mirror', 'fogless shower mirror', 'bath thermometer', 'rubber duck', 'bath toy organizer', 'pebble bath mat',
-
 // Towels & Linens (30 items)
 'bath towels', 'hand towels', 'washcloths', 'face towels', 'fingertip towels', 'bath sheet', 'beach towel', 'hooded towel', 'gym towel', 'microfiber towel',
 'quick dry towel', 'towel set', 'guest towel set', 'decorative hand towels', 'towel rack', 'freestanding towel rack', 'heated towel rack', 'towel ladder rack', 'towel bar extender', 'over door organizer',
 'bathrobe', 'spa robe', 'kids bathrobe', 'bath wrap towel', 'hair towel wrap', 'turban towel wrap', 'pool towel', 'spa wrap towel', 'bamboo washcloths', 'exfoliating washcloth',
-
 // Toilet Accessories (2 items)
 'flushable wipes', 'extra roll holder',
-
 // Storage & Organization (46 items)
 'under sink organizer', 'under sink cabinet organizer', 'under sink shelf', 'under sink pull out drawer', 'under sink storage bins', 'bathroom drawer organizer', 'bathroom drawer divider', 'bathroom cabinet organizer', 'cabinet door organizer', 'stackable storage drawers',
 'plastic storage drawers', 'clear storage drawers', 'storage basket', 'woven storage basket', 'wire storage basket', 'fabric storage basket', 'storage bin', 'storage box', 'decorative storage box', 'bathroom storage tray',
 'countertop organizer', 'countertop caddy', 'hair tool organizer', 'blow dryer holder', 'curling iron holder', 'flat iron holder', 'hair dryer hook', 'hair tool caddy', 'heat resistant mat', 'heat resistant pouch',
 'shower niche shelf', 'door pocket organizer', 'first aid organizer', 'pill organizer', 'drawer freshener', 'cabinet freshener', 'sachets', 'odor absorber', 'lazy susan organizer', 'rotating organizer',
 'suction cup organizer', 'door mounted organizer', 'towel bar with shelf', 'over sink shelf', 'bamboo organizer', 'acrylic organizer set',
-
 // Personal Care & Grooming (84 items)
 'electric toothbrush', 'manual toothbrush', 'toothpaste', 'teeth whitening strips', 'teeth whitening kit', 'dental floss', 'floss picks', 'water flosser', 'tongue scraper', 'mouthwash',
 'mouthwash dispenser', 'electric shaver', 'manual razor', 'razor blades', 'shaving cream', 'shaving gel', 'aftershave', 'shaving soap', 'hair dryer', 'travel hair dryer',
 'hair dryer diffuser', 'hair dryer concentrator', 'curling iron', 'curling wand', 'flat iron', 'hair straightener', 'hot air brush', 'hair crimper', 'heated rollers', 'hair roller set',
 'electric hair trimmer', 'beard trimmer', 'nose hair trimmer', 'ear hair trimmer', 'eyebrow trimmer', 'facial hair remover', 'epilator', 'electric razor', 'nail clippers', 'nail scissors',
 'nail file', 'nail buffer', 'cuticle pusher', 'cuticle trimmer', 'nail brush', 'toenail clippers', 'pedicure kit', 'manicure set', 'tweezers', 'eyebrow razor',
-
 'facial roller', 'gua sha tool', 'face massager', 'hair brush', 'wide tooth comb', 'detangling brush', 'round brush', 'paddle brush', 'boar bristle brush', 'hair pick',
 'fine tooth comb', 'tail comb', 'styling comb', 'hair elastic set', 'hair ties', 'bobby pins', 'hair clips', 'hair pins', 'barrettes', 'headbands',
 'shower cap', 'hair net', 'scalp massager', 'facial cleansing device', 'blackhead remover tool', 'pore vacuum', 'lash curler', 'eyebrow stencil kit', 'makeup setting spray', 'blush brush',
 'powder brush', 'foundation brush', 'tweezers medical', 'electric toothbrush charging base',
-
 // Skincare & Beauty (62 items)
 'face wash', 'facial cleanser', 'micellar water', 'toner', 'face serum', 'moisturizer', 'face lotion', 'eye cream', 'night cream', 'face oil',
 'sunscreen', 'SPF moisturizer', 'face mask', 'sheet mask', 'clay mask', 'exfoliating scrub', 'chemical exfoliant', 'retinol cream', 'vitamin C serum', 'hyaluronic acid serum',
 'acne spot treatment', 'lip balm', 'lip scrub', 'makeup remover', 'micellar cleansing water', 'eye makeup remover', 'cleansing balm', 'cleansing oil', 'facial wipes', 'cotton rounds',
 'cotton balls', 'cotton swabs', 'facial steamer', 'face roller', 'body lotion', 'body cream', 'body butter', 'dry body oil', 'shimmer lotion', 'body scrub',
 'sugar scrub', 'salt scrub', 'self tanner', 'after sun lotion', 'hand cream', 'foot cream', 'heel balm', 'cuticle oil', 'stretch mark cream', 'deodorant',
-
 'antiperspirant', 'natural deodorant', 'deodorant spray', 'perfume', 'cologne', 'body spray', 'fragrance roller', 'facial mist spray', 'tanning mitt', 'body shimmer',
 'SPF lip balm', 'toner kit',
-
 // Hair Care Products (39 items)
 'shampoo', 'conditioner', 'co wash', 'dry shampoo', 'clarifying shampoo', 'hair mask', 'deep conditioner', 'leave in conditioner', 'hair serum', 'hair oil',
 'argan oil', 'coconut hair oil', 'heat protectant spray', 'hair spray', 'mousse', 'hair gel', 'pomade', 'hair wax', 'styling cream', 'curl cream',
 'curl defining gel', 'sea salt spray', 'volumizing spray', 'detangling spray', 'hair tonic', 'scalp treatment', 'scalp serum', 'scalp oil', 'hair growth serum', 'hair vitamin supplements',
 'color treated shampoo', 'purple shampoo', 'toning conditioner', 'hair dye kit', 'bleach kit', 'gloss treatment', 'hair detox treatment', 'bond repair treatment', 'hair glossing treatment',
-
 // Bath & Body Products (25 items)
-'body wash', 'shower gel', 'bar soap', 'antibacterial soap', 'castile soap', 'bath salts', 'bath bombs', 'bubble bath', 'bath oil', 'bath soak',
-'shower steamers', 'bath tablets', 'epsom salt', 'bath milk powder', 'shower scrub', 'body polish', 'bath foam', 'bath confetti', 'bath accessories set', 'gift set',
-'shower gel set', 'spa gift basket', 'bath accessory kit', 'aromatherapy shower kit', 'charcoal soap bar',
-
+'body wash', 'body polish', 'bath accessory kit', 'aromatherapy shower kit', 'charcoal soap bar',
 // First Aid & Medicine (29 items)
-'bandages', 'adhesive bandages', 'gauze pads', 'medical tape', 'antiseptic wipes', 'hydrogen peroxide', 'rubbing alcohol', 'antibiotic ointment', 'pain reliever', 'ibuprofen',
-'acetaminophen', 'antacid', 'allergy medicine', 'cold medicine', 'cough syrup', 'nasal spray', 'eye drops', 'ear drops', 'thermometer', 'blood pressure monitor',
-'pulse oximeter', 'prescription organizer', 'pill box', 'medicine cup', 'medicine dropper', 'heating pad', 'ice pack', 'elastic bandage', 'room thermometer',
-
+'thermometer', 'blood pressure monitor', 'pulse oximeter', 'ice pack', 'room thermometer',
 // Cleaning Supplies (39 items)
-'bathroom cleaner spray', 'tile cleaner', 'grout cleaner', 'mold and mildew remover', 'shower cleaner spray', 'mirror cleaner', 'tub and tile scrub', 'bathroom disinfectant', 'bleach spray', 'drain cleaner',
-'drain hair catcher', 'drain strainer', 'scrub brush', 'grout brush', 'cleaning sponge', 'scrub sponge', 'microfiber cleaning cloth', 'cleaning rags', 'rubber gloves', 'cleaning supply organizer',
-'small trash can', 'wastebasket', 'wastebasket liner', 'trash can with lid', 'odor eliminating spray', 'air freshener', 'scent diffuser', 'reed diffuser', 'plug in air freshener', 'essential oil diffuser',
-'candle', 'matches', 'candle lighter', 'squeegee', 'shower squeegee', 'drain cleaner tablets', 'descaler solution', 'soap scum remover', 'hard water stain remover',
-
+'small trash can', 'wastebasket', 'air freshener', 'scent diffuser', 'essential oil diffuser',
 // Lighting & Electrical (16 items)
-'LED light bulbs', 'night light', 'motion sensor night light', 'plug in night light', 'bathroom scale', 'digital bathroom scale', 'body weight scale', 'shaver charging stand', 'extension cord bathroom safe', 'USB charging hub',
-'wall charger', 'lighted mirror remote', 'bluetooth mirror', 'smart mirror', 'waterproof phone holder shower', 'shower phone mount',
-
+'night light', 'motion sensor night light', 'bathroom scale', 'body weight scale', 'shaver charging stand', 'USB charging hub', 'wall charger', 'bluetooth mirror', 'smart mirror',
 // Decor & Ambiance (28 items)
-'bathroom rug set', 'decorative basket', 'soap stone dish', 'bathroom wall art', 'framed bathroom art', 'canvas bathroom print', 'picture frame', 'decorative mirror', 'plant pot', 'indoor plant',
-'artificial plant', 'succulent pot', 'air plant holder', 'bamboo plant', 'eucalyptus bundle', 'bath salt display jar', 'apothecary bottle set', 'glass jar set', 
+'bathroom wall art', 'framed bathroom art', 'canvas bathroom print', 'picture frame', 'decorative mirror', 'plant pot', 'indoor plant', 'artificial plant', 'succulent pot', 'bamboo plant',
 // Ventilation & Comfort (14 items)
 'portable fan', 'space heater bathroom safe', 'towel warmer', 'electric towel warmer', 'freestanding towel warmer', 'heated bathroom floor mat', 'shower speaker', 'waterproof bluetooth speaker', 'bathroom radio', 'humidity monitor',
-'dehumidifier small', 'air purifier small', 'aromatherapy diffuser', 'anti fog mirror spray',
-
+'dehumidifier small', 'air purifier small', 'aromatherapy diffuser',
 // TOTAL: 581 items
-
 ],
 
-        'Dining room': [ 
-// Dining Table & Components (32 items)
-'dining table', 'table base', 'table legs', 'table leaf insert', 'table leaf storage bag', 'table pad protector', 'table leg hardware kit', 'table corner protectors', 'table extension slides', 'table leveling pads',
-'table leaf alignment pins', 'table pad storage tube', 'table refinishing kit', 'table polish cloth', 'table scratch repair marker', 'table leg bolts', 'table stabilizer brackets', 'console table corner braces', 'table leaf support bracket', 'table support beam',
-'table brace kit', 'table hardware screws', 'table leveling shims', 'table leaf lock clips', 'dining table extension mechanism', 'table edge protectors', 'table top glass cover', 'tabletop sealer', 'tabletop protector film', 'console table leg braces',
-'tabletop sculpture', 'ironing board tabletop',
- 
+        'Dining room': [// Dining Table & Components (32 items)
+'dining table', 'table leaf insert', 'dining table extension mechanism', 'ironing board tabletop',
 // Chairs & Bench Seating (37 items)
-'dining chairs', 'arm chairs', 'side chairs', 'bench seating', 'chair cushions', 'seat covers', 'chair floor protectors', 'chair leg caps', 'chair glide pads', 'chair seat screws',
-'chair back support brace', 'chair upholstery cleaner', 'chair seat cushion inserts', 'chair back pads', 'chair cushion storage bag', 'chair leg braces', 'chair upholstery kit', 'bench frame bolts', 'bench cushion foam', 'chair cushion ties',
-'bench storage drawer', 'chair leg felt pads', 'bench leg levelers', 'banquette', 'banquette cushion set', 'banquette slipcover', 'captain chair', 'swivel dining chair', 'chair booster seat', 'high chair',
-'chair upholstery fabric', 'chair slipcover set', 'chair cushion foam', 'chair armrest pads', 'chair backrest screws', 'chair spindle', 'chair seat webbing',
- 
+'dining chairs', 'arm chairs', 'side chairs', 'bench seating', 'chair cushions', 'seat covers', 'chair floor protectors', 'bench cushion foam', 'bench storage drawer', 'banquette',
+'banquette slipcover', 'captain chair', 'swivel dining chair', 'chair booster seat', 'high chair', 'chair cushion foam',
 // Storage & Display Furniture (111 items)
 'china cabinet', 'hutch cabinet', 'buffet table', 'sideboard', 'bar cabinet', 'wine cabinet', 'curio cabinet', 'display cabinet', 'console table', 'serving cart',
-'bar cart', 'storage cabinet', 'drawer organizers', 'cabinet shelf liner', 'buffet warming trays', 'storage baskets', 'decorative boxes', 'china cabinet shelf clips', 'china cabinet glass panels', 'hutch drawer pulls',
-'buffet cabinet hinges', 'sideboard drawer dividers', 'bar cabinet lock', 'wine cabinet shelf inserts', 'curio cabinet lighting kit', 'display cabinet glass cleaner kit', 'console table drawer liner', 'cabinet shelf riser', 'buffet fuel cans', 'glass cabinet lock',
-'storage basket liner', 'decorative box lid', 'buffet warming tray cover', 'china cabinet light bulbs', 'china cabinet glass shelf inserts', 'buffet drawer slides', 'wine cabinet thermometer', 'curio cabinet glass cleaner', 'display cabinet shelf lighting', 'serving cart handle grips',
-'glass cabinet shelf protector', 'storage basket stacker', 'decorative box storage crate', 'china cabinet door lock', 'buffet cabinet key spare', 'bar cabinet lighting strip', 'curio cabinet shelf clips', 'console table anti slip pads', 'china cabinet door handles', 'china cabinet shelf lighting kit',
- 
-'hutch shelf brackets', 'buffet door bumpers', 'sideboard shelf supports', 'bar cabinet wine glass holders', 'curio cabinet lock', 'bar cart glass holder insert', 'cabinet hinge repair kit', 'china cabinet plate stand', 'buffet warming tray lid', 'china cabinet polish cloth',
-'glass cabinet door bumpers', 'storage basket lid', 'decorative box large', 'china cabinet shelf liner', 'buffet anti slip mat', 'sideboard drawer liner', 'bar cabinet bottle mat', 'curio cabinet display stand', 'display cabinet door magnet', 'console table drawer divider',
-'hutch decorative trim', 'buffet cabinet shelf riser', 'bar cabinet LED lighting', 'wine cabinet humidity monitor', 'curio cabinet shelf protector', 'display cabinet glass polish', 'bar cart shelf liner', 'china cabinet door magnet', 'china cabinet door catch', 'china cabinet door bumpers',
-'china cabinet key', 'china cabinet lock cylinder', 'china cabinet glass shelf supports', 'china cabinet shelf pins', 'china cabinet shelf brackets', 'china cabinet leveling feet', 'hutch shelf pins', 'hutch shelf supports', 'hutch door catch', 'hutch door bumpers',
-'hutch door hinges soft close', 'hutch cabinet feet levelers', 'hutch glass shelf supports', 'hutch lighting remote', 'sideboard shelf pins', 'sideboard door catch', 'sideboard door bumpers', 'sideboard key', 'sideboard lock cylinder', 'sideboard adjustable feet',
- 
-'sideboard cable grommet', 'sideboard cord management clips', 'bar cabinet wine bottle dividers', 'bar cabinet shelf liner roll', 'bar cabinet magnetic catch', 'bar cabinet LED under shelf lights', 'bar cabinet glass shelf pins', 'bar cabinet leveling feet', 'bar cabinet moisture absorber', 'anti tarnish drawer liners',
-'hutch LED puck lights',
- 
+'bar cart', 'storage cabinet', 'buffet warming trays', 'storage baskets', 'cabinet shelf riser', 'china cabinet plate stand', 'curio cabinet display stand',
 // Table Linens & Place Settings (36 items)
-'table runner', 'placemats', 'cloth napkins', 'napkin rings', 'napkin holder', 'tablecloth', 'tablecloth clips', 'holiday table runner', 'holiday placemats', 'holiday napkins',
-'placemat storage rack', 'napkin ring storage box', 'tablecloth storage bag', 'tablecloth ironing spray', 'placemat holder tray', 'holiday napkin holder', 'placemat storage box', 'napkin press iron', 'tablecloth hanger rack', 'seasonal table runner storage box',
-'place card holder', 'place cards', 'menu cards', 'napkin fold board', 'napkin press', 'table number stand', 'runner clips', 'table skirt', 'bar napkins', 'cocktail napkins',
-'cloth napkin laundry bag', 'linen storage box', 'linen drawer sachets', 'table linen storage dividers', 'placemat wipes', 'napkin storage bin',
- 
+'table runner', 'placemats', 'cloth napkins', 'napkin rings', 'napkin holder', 'tablecloth', 'table number stand', 'placemat wipes',
 // Dinnerware & Serving Dishes (51 items)
 'dinner plates', 'salad plates', 'bread plates', 'charger plates', 'bowls', 'soup bowls', 'cereal bowls', 'serving bowls', 'platter', 'serving platter',
-'gravy boat', 'butter dish', 'bread basket', 'bread basket liner', 'cake stand', 'tiered tray', 'dessert plates', 'serving trays', 'dinner plate storage rack', 'salad plate storage rack',
-'charger plate storage case', 'bowl storage shelf', 'bread cutting board', 'cake dome cover', 'bowl stacking pads', 'serving bowl lid', 'platter storage sleeve', 'gravy boat saucer', 'bowl display stand', 'serving bowl rack',
-'platter display easel', 'gravy boat tray', 'salt cellar lid', 'platter cover', 'food tent mesh cover', 'cheese board', 'cheese markers', 'charcuterie board', 'charcuterie bowls', 'olive dish',
-'dip bowl set', 'chip and dip platter', 'nut bowl set', 'salad bowl set', 'salad servers', 'oil bottle dispenser', 'vinegar bottle dispenser', 'salt cellar spoon', 'honey jar', 'butter dish cover spare',
- 
-'serving dish warming base',
- 
+'gravy boat', 'butter dish', 'bread basket', 'cake stand', 'tiered tray', 'dessert plates', 'bowl storage shelf', 'bread cutting board', 'bowl display stand', 'cheese board',
+'charcuterie board', 'charcuterie bowls', 'chip and dip platter', 'salad servers',
 // Condiments & Table Staples (21 items)
-'salt shaker', 'pepper shaker', 'salt grinder', 'pepper grinder', 'sugar bowl', 'cream pitcher', 'water pitcher', 'carafe', 'coffee carafe', 'sugar dispenser',
-'cream pitcher storage tray', 'water carafe lid', 'salt grinder refill', 'pepper grinder refill', 'sugar bowl lid', 'cream pitcher lid', 'pepper mill spare parts', 'sugar bowl spoon', 'cream pitcher tray', 'water pitcher filter insert',
-'salad dressing cruet',
- 
+'salt shaker', 'pepper shaker', 'pepper grinder', 'sugar bowl', 'cream pitcher', 'water pitcher', 'carafe', 'coffee carafe', 'sugar dispenser',
 // Glassware (33 items)
 'wine glasses', 'champagne flutes', 'cocktail glasses', 'highball glasses', 'lowball glasses', 'beer mugs', 'pint glasses', 'shot glasses', 'coffee cups', 'tea cups',
-'saucers', 'mugs', 'glassware storage box', 'highball glass storage rack', 'coffee cup organizer', 'tea cup display shelf', 'mug tree', 'glassware padding inserts', 'coffee cup saucer set', 'glassware display stand',
-'glassware padding wrap', 'wine glass charms', 'glassware drying cloth', 'decanter', 'liquor decanter', 'drink mixing glass', 'cocktail glass cleaning cloth', 'champagne flute storage case', 'beer mug storage crate', 'wine glass cleaning brush',
-'champagne flute cleaning brush', 'beer mug cleaning brush', 'mug cabinet riser',
- 
+'saucers', 'mugs', 'mug tree', 'glassware display stand', 'decanter', 'liquor decanter', 'drink mixing glass',
 // Flatware & Serving Utensils (26 items)
 'flatware set', 'dinner forks', 'salad forks', 'dinner knives', 'steak knives', 'soup spoons', 'teaspoons', 'ladle', 'tongs', 'cake server',
-'pie server', 'ice tongs', 'bar spoon', 'flatware drawer tray', 'steak knife storage block', 'ladle holder', 'tongs stainless steel', 'cake knife', 'pie server stainless steel', 'bread knife',
-'fondue forks', 'flatware polishing kit', 'steak knife sharpening kit', 'ice tongs holder', 'tea infuser spoon', 'cheese knives',
- 
+'pie server', 'bar spoon', 'bread knife', 'fondue forks', 'cheese knives',
 // Bar & Wine (71 items)
-'wine rack', 'wine opener', 'wine stopper', 'wine aerator', 'ice bucket', 'bar tool set', 'cocktail shaker', 'jigger', 'coasters', 'coaster holder',
-'drink dispenser', 'beverage tub', 'wine bottle stopper set', 'ice scoop', 'ice mold tray', 'bar mat', 'cocktail strainer', 'mudler', 'drink stirrers', 'drink garnish tray',
-'liquor pour spouts', 'coaster set stone', 'coaster set cork', 'wine rack floor stand', 'wine bottle storage crate', 'wine fridge', 'wine fridge shelves', 'wine fridge drip tray', 'wine fridge charcoal filter', 'wine fridge thermometer probe',
-'wine fridge humidity gauge', 'wine bottle label tags', 'wine bottle marker pen', 'wine bottle drip rings', 'wine bottle foil cutter', 'wine bottle opener electric', 'wine corkscrew lever', 'wine cork extractor', 'bar caddy', 'drink stirrer set',
-'cocktail picks', 'cocktail pick holder', 'bitters bottles', 'bitters dropper caps', 'simple syrup bottles', 'mixer bottles', 'ice sphere mold', 'whiskey stones', 'whiskey stone pouch', 'bar strainer fine mesh',
- 
-'cocktail shaker weighted tins', 'cocktail shaker insulation sleeve', 'cocktail rimmer', 'liquor bottle shelf', 'liquor bottle risers', 'liquor bottle pour spout caps', 'pour spout dust covers', 'speed pourer set', 'bar rail mat', 'bar rail liner',
-'bar towel set', 'bar towel holder', 'drink dispenser infuser tube', 'drink dispenser ice core', 'drink dispenser drip tray', 'beverage tub drain plug', 'beverage tub liner', 'ice bucket stand base', 'ice bucket drip mat', 'ice scoop holder',
-'beverage dispenser spigot',
- 
+'wine rack', 'wine opener', 'wine aerator', 'ice bucket', 'cocktail shaker', 'jigger', 'drink dispenser', 'beverage tub', 'ice scoop', 'cocktail strainer',
+'mudler', 'wine fridge', 'ice bucket stand base',
 // Coffee & Tea (20 items)
-'tea pot', 'coffee warmer plate', 'tea infuser', 'tea strainer', 'tea pot infuser insert', 'pitcher infuser insert', 'tea kettle electric', 'tea kettle base', 'tea canister set', 'tea canister labels',
-'tea infuser basket', 'tea warmer candle base', 'tea warmer plate', 'tea storage organizer', 'coffee bean canister', 'coffee scoop', 'coffee filter basket', 'coffee pod holder', 'coffee pod drawer', 'tea strainer stand',
- 
+'tea pot', 'tea infuser', 'tea kettle electric', 'coffee bean canister', 'coffee pod holder', 'coffee pod drawer', 'tea strainer stand',
 // Decor & Centerpieces (47 items)
-'table centerpiece', 'decorative tray', 'candle holders', 'candles', 'wall art', 'picture frames', 'wall mirror', 'wall clock', 'seasonal centerpiece decor', 'holiday candle holders',
-'centerpiece storage crate', 'decorative tray liner', 'candle snuffer', 'candle wick trimmer', 'wall clock battery pack', 'seasonal table decor bin', 'centerpiece vase set', 'candle storage box', 'candle lighter', 'wall art dust cover',
-'seasonal decor table sign', 'holiday centerpiece box', 'centerpiece decorative stones', 'decorative tray handles', 'candle storage sleeve', 'candle wax remover', 'wall art frame set', 'wall clock repair kit', 'table decor riser', 'centerpiece foam blocks',
-'floral wire', 'floral tape', 'flower frog', 'vase filler beads', 'vase filler stones', 'table decor LED string lights', 'fairy light battery pack', 'remote timer plug', 'decorative bowl', 'decorative vase',
-'decorative pitcher', 'decorative lantern', 'mantel clock', 'framed print', 'gallery wall frame set', 'mirror frame', 'battery pack organizer',
- 
+'table centerpiece', 'decorative tray', 'candles', 'wall art', 'picture frames', 'wall mirror', 'wall clock', 'decorative bowl', 'decorative vase', 'decorative lantern',
+'mantel clock', 'framed print',
 // Lamps & Lighting (9 items)
-'light bulbs', 'floor lamp', 'table lamp', 'lamp shade', 'lamp bulbs', 'table lamp finial', 'lamp harp', 'floor lamp base weight', 'lamp cord cover',
- 
+'light bulbs', 'floor lamp', 'table lamp',
 // Silverware & China Storage (15 items)
-'silverware storage chest', 'tableware organizer tray', 'tableware storage labels', 'holiday china storage case', 'china display stand', 'china storage divider', 'silver polish', 'silverware polishing gloves', 'silver storage anti tarnish strips', 'silverware anti tarnish cloth',
-'chafing dish cover', 'anti tarnish silver bags', 'anti tarnish strips', 'silver storage rolls', 'silver storage pouches',
- 
+'china display stand',
 // Rugs & Floor (16 items)
-'rug storage bag', 'area rug', 'rug pad', 'floor runner', 'area rug corner tape', 'rug cleaning spray', 'floor runner anti slip pad', 'area rug beater tool', 'rug storage roll', 'area rug cleaning kit',
-'rug brush', 'rug fringe comb', 'rug tape double sided', 'runner rug tape', 'rug grippers', 'rug corner weights',
- 
+'area rug', 'floor runner', 'area rug beater tool', 'area rug cleaning kit',
 // Furniture Care & Maintenance (11 items)
-'felt pads bulk pack', 'furniture sliders', 'furniture leveling shims', 'wood filler', 'wood stain pen', 'wood polish cloth', 'wood cleaner concentrate', 'wood conditioner oil', 'china polishing cloth', 'furniture polish',
-'furniture polish spray',
- 
 // Cleaning Supplies (9 items)
-'glass cleaner', 'all purpose cleaner', 'disinfecting wipes', 'microfiber cloths', 'paper towels', 'mirror cleaning spray', 'all purpose cleaner gallon', 'disinfectant wipe refill', 'beverage dispenser cleaning brush',
- 
+'glass cleaner', 'all purpose cleaner', 'disinfecting wipes', 'microfiber cloths',
 // Trash & Recycling (3 items)
-'trash can', 'trash bags', 'recycling bin',
- 
+'trash bags', 'recycling bin',
 // Tools & Utility (5 items)
-'step stool', 'step stool rubber feet', 'fondue pot burner cap', 'iron travel', 'steamer travel',
- 
+'step stool', 'iron travel', 'steamer travel',
 // TOTAL: 553 items
 ],
         "Office / Study": [// Desks & Desk Furniture (40 items)
 'desk', 'standing desk', 'desk legs', 'desk hutch', 'desk return', 'side table', 'console table', 'desk leg levelers', 'desk corner protectors', 'side table drawer liner',
-'console table anti tip strap', 'desk modesty panel', 'desk leveling shims', 'side table leg pads', 'console table drawer pulls', 'desk surface protector pad', 'desk corner guards', 'desk support brackets', 'desk hardware screw kit', 'side table reinforcement brackets',
-'console table leg braces', 'desk privacy panel', 'desk name plate', 'corner desk', 'executive desk', 'roll top desk', 'writing desk', 'secretary desk', 'drafting table', 'desk blotter',
-'desk writing pad', 'desk glass top protector', 'desk corner clamp light', 'desk lock key spare', 'desk hinge repair kit', 'desk panel fasteners', 'desk frame bolts', 'desk cross support bar', 'desk reinforcement plate', 'desk corner shelf riser',
-
+'console table anti tip strap', 'desk hardware screw kit', 'side table reinforcement brackets', 'desk privacy panel', 'desk name plate', 'corner desk', 'executive desk', 'roll top desk', 'writing desk', 'secretary desk',
+'drafting table', 'desk blotter', 'desk writing pad', 'desk glass top protector', 'desk corner clamp light', 'desk lock key spare', 'desk hinge repair kit', 'desk panel fasteners', 'desk frame bolts', 'desk cross support bar',
+'desk reinforcement plate', 'desk corner shelf riser',
 // Standing Desk Components (3 items)
 'standing desk motor', 'standing desk control panel', 'standing desk anti collision sensor',
-
 // Desk Accessories & Organizers (64 items)
-'desk organizer', 'desk calendar', 'desk cable grommet', 'desk drawer slides', 'desk drawer lock', 'desk drawer felt liner', 'desk planner', 'desk cable tray under mount', 'desk drawer handles', 'desk drawer dividers bamboo',
-'desk organizer tray', 'desk calendar stand', 'desktop cable organizer tray', 'desk drawer lock kit', 'mail sorter desktop', 'desk planner refill pages', 'legal pad desk tray', 'cable management under desk rack', 'desk drawer divider set', 'desk drawer pencil tray',
-'desk drawer cable port', 'desk cable spine', 'under desk keyboard drawer', 'under desk CPU mount', 'under desk storage shelf', 'under desk headphone hook', 'under desk foot hammock', 'desk cable clamp', 'desk pen tray', 'desk cable pass through',
-'desk power grommet outlet', 'desk drawer tray insert', 'desk side hanging file rack', 'desk privacy screen panel', 'desktop bookshelf', 'desktop file sorter', 'desktop mail tray', 'desktop supply caddy', 'acoustic desk divider', 'desktop microphone boom arm',
-'microphone desk clamp', 'desktop NAS storage', 'desk filing tray metal', 'calendar desk pad', 'desk drawer lock cylinder', 'desk underside wire basket', 'desk shelf add on', 'desk side pocket organizer', 'desk drawer soft close adapter', 'monitor desk clamp arm dual',
-
-'monitor desk clamp arm triple', 'desk drawer power outlet', 'under desk surge strip', 'under desk cable hammock', 'desk clamp cup holder', 'desk side hook set', 'desk side cable pouch', 'desk side waste bin', 'desk side magazine rack', 'desk side drawer add on',
-'desk mounted privacy wing', 'acoustic desk pad', 'anti glare desk mat', 'anti static desk mat',
-
+'desk organizer', 'desk calendar', 'desk cable grommet', 'desk drawer slides', 'desk drawer lock', 'desktop cable organizer tray', 'desk drawer lock kit', 'mail sorter desktop', 'desk planner refill pages', 'legal pad desk tray',
+'cable management under desk rack', 'desk drawer divider set', 'desk drawer pencil tray', 'desk drawer cable port', 'desk cable spine', 'under desk keyboard drawer', 'under desk CPU mount', 'under desk storage shelf', 'under desk headphone hook', 'under desk foot hammock',
+'desk cable clamp', 'desk pen tray', 'desk cable pass through', 'desk power grommet outlet', 'desk drawer tray insert', 'desk side hanging file rack', 'desk privacy screen panel', 'desktop bookshelf', 'desktop file sorter', 'desktop mail tray',
+'desktop supply caddy', 'acoustic desk divider', 'desktop microphone boom arm', 'microphone desk clamp', 'desktop NAS storage', 'desk filing tray metal', 'calendar desk pad', 'desk drawer lock cylinder', 'desk underside wire basket', 'desk shelf add on',
+'desk side pocket organizer', 'desk drawer soft close adapter', 'monitor desk clamp arm dual', 'monitor desk clamp arm triple', 'desk drawer power outlet', 'under desk surge strip', 'under desk cable hammock', 'desk clamp cup holder', 'desk side hook set', 'desk side cable pouch',
+'desk side waste bin', 'desk side magazine rack', 'desk side drawer add on', 'desk mounted privacy wing', 'acoustic desk pad', 'anti glare desk mat', 'anti static desk mat',
 // Chairs & Seating (26 items)
-'foot rest adjustable', 'foot rest adjustable metal', 'office chair', 'office chair mat', 'step stool', 'office chair armrest pads', 'chair floor protectors', 'step stool rubber feet', 'office chair lumbar support', 'office chair gas lift cylinder',
-'office chair tilt mechanism', 'chair wheel floor protectors', 'drafting stool', 'kneeling chair', 'task chair', 'guest chair', 'ergonomic chair headrest', 'chair armrest screw set', 'chair tilt control handle', 'chair lumbar pillow',
-'chair seat cover', 'chair upholstery repair kit', 'chair gas lift removal tool', 'office chair glide feet', 'foot rest', 'seat cushion',
-
+'foot rest adjustable metal', 'office chair', 'office chair mat', 'step stool', 'office chair armrest pads', 'chair floor protectors', 'office chair lumbar support', 'office chair gas lift cylinder', 'office chair tilt mechanism', 'chair wheel floor protectors',
+'drafting stool', 'kneeling chair', 'task chair', 'guest chair', 'ergonomic chair headrest', 'chair armrest screw set', 'chair tilt control handle', 'chair lumbar pillow', 'chair seat cover', 'chair upholstery repair kit',
+'chair gas lift removal tool', 'office chair glide feet', 'foot rest', 'seat cushion',
 // Bookcases & Shelving (5 items)
 'bookcase', 'bookshelf', 'bookcase shelf brackets', 'bookshelf anchors', 'bookcase shelf pins',
-
 // Filing Cabinets & Storage Cabinets (19 items)
 'storage cabinet adjustable shelves', 'filing cabinet', 'lateral file cabinet', 'storage cabinet', 'file cabinet dividers', 'filing cabinet key spare', 'file cabinet lock', 'file cabinet anti tip kit', 'storage cabinet shelf liner', 'file cabinet hanging rails',
 'storage cabinet door bumpers', 'notebook storage cabinet', 'binder storage cabinet', 'cardstock storage cabinet', 'file cabinet label frame', 'file cabinet rail clips', 'storage cabinet locking bar', 'storage cabinet door magnet', 'storage cabinet leveling feet',
-
 // Credenza (8 items)
-'credenza adjustable shelf', 'credenza', 'credenza drawer divider', 'credenza lock cylinder', 'credenza cable management hole cover', 'credenza caster wheels', 'credenza drawer slides heavy duty', 'credenza shelf pins',
-
+'credenza adjustable shelf', 'credenza', 'credenza drawer divider', 'credenza lock cylinder', 'credenza cable management hole cover', 'credenza drawer slides heavy duty', 'credenza shelf pins',
 // Storage Bins, Baskets & Boxes (56 items)
-'tablet storage sleeve', 'drawer organizers', 'file storage box', 'document storage box', 'storage baskets', 'storage bins', 'notebook storage crate', 'legal pad storage box', 'binder storage rack', 'manila envelope storage box',
-'printer paper storage bin', 'cardstock storage folder', 'photo paper storage sleeve', 'document sorter rack', 'throw blanket storage bag', 'storage basket liner', 'storage bin lids', 'drawer divider plastic', 'pen storage box', 'pencil storage box',
-'file storage crate', 'laminator pouch storage box', 'rubber band storage jar', 'notebook shelf rack', 'binder rack vertical', 'envelope storage rack', 'bubble mailer storage bin', 'external keyboard storage case', 'throw blanket folded storage bin', 'decorative pillow storage bag',
-'storage basket stacker', 'storage bin labels', 'usb drive storage organizer', 'extension cord storage reel', 'drawer organizer bamboo', 'file storage tote', 'staple storage box', 'binder clip storage box', 'scissor storage rack', 'glue stick storage bin',
-'highlighter storage tray', 'marker storage case', 'network cable rack', 'hdmi cable storage box', 'power adapter storage case', 'throw blanket storage chest', 'storage basket fabric liner', 'storage bin rolling cart', 'clipboard storage rack', 'drawer slide lubricant',
-
-'drawer slide mounting jig', 'drawer stop clip', 'drawer rail brackets', 'drawer track alignment tool', 'SD card storage box', 'micro SD storage wallet',
-
+'tablet storage sleeve', 'file storage box', 'storage baskets', 'notebook storage crate', 'legal pad storage box', 'binder storage rack', 'manila envelope storage box', 'printer paper storage bin', 'cardstock storage folder', 'photo paper storage sleeve',
+'document sorter rack', 'throw blanket storage bag', 'storage bin lids', 'drawer divider plastic', 'pen storage box', 'pencil storage box', 'file storage crate', 'laminator pouch storage box', 'rubber band storage jar', 'notebook shelf rack',
+'binder rack vertical', 'envelope storage rack', 'bubble mailer storage bin', 'external keyboard storage case', 'throw blanket folded storage bin', 'decorative pillow storage bag', 'storage bin labels', 'usb drive storage organizer', 'extension cord storage reel', 'drawer organizer bamboo',
+'file storage tote', 'staple storage box', 'binder clip storage box', 'scissor storage rack', 'glue stick storage bin', 'highlighter storage tray', 'marker storage case', 'network cable rack', 'hdmi cable storage box', 'power adapter storage case',
+'throw blanket storage chest', 'storage basket fabric liner', 'storage bin rolling cart', 'clipboard storage rack', 'drawer slide lubricant', 'drawer slide mounting jig', 'drawer stop clip', 'drawer rail brackets', 'drawer track alignment tool', 'SD card storage box',
+'micro SD storage wallet',
 // Server & Network Rack (14 items)
 'network switch rack mount', 'network rack shelf', 'network rack screws', 'rack mount power strip', 'rack mount drawer', 'rack mount fan', 'rack mount cable manager', 'server rack rails', 'server rack caster kit', 'server rack blank panel',
 'server rack mount rails', 'server cooling fan', 'server cable arm', 'server power supply',
-
 // Computers & Monitors (23 items)
-'desktop computer', 'desktop computer cables', 'desktop power supply', 'monitor riser shelf', 'computer tower', 'monitor', 'second monitor', 'computer speakers', 'monitor screen cleaner kit', 'monitor privacy screen',
-'monitor power cable', 'monitor mounting screws', 'computer cooling pad', 'monitor calibration tool', 'monitor mounting plate', 'monitor cable cover', 'computer surge protector strip', 'monitor cleaning wipes', 'studio monitor speakers', 'studio monitor isolation pads',
-'monitor light bar', 'computer privacy hood', 'monitor calibration sensor',
-
+'desktop computer', 'monitor riser shelf', 'computer tower', 'monitor', 'second monitor', 'computer speakers', 'monitor screen cleaner kit', 'monitor privacy screen', 'monitor power cable', 'monitor mounting screws',
+'computer cooling pad', 'monitor calibration tool', 'monitor mounting plate', 'monitor cable cover', 'computer surge protector strip', 'monitor cleaning wipes', 'studio monitor speakers', 'studio monitor isolation pads', 'computer privacy hood', 'monitor calibration sensor',
 // Laptops & Tablets (33 items)
-'tablet', 'tablet charger', 'laptop stand adjustable', 'tablet stand holder', 'tablet charging cable spare', 'tablet screen protector', 'tablet charging dock', 'tablet stand adjustable metal', 'tablet stylus pen', 'tablet keyboard case',
-'tablet folio cover', 'tablet screen cleaning kit', 'tablet stand adjustable arm', 'tablet security lock', 'tablet pen holder clip', 'tablet docking station', 'charging cable retractable', 'portable power bank', 'portable document scanner', 'laptop',
-'laptop charger', 'laptop sleeve case', 'laptop docking cable', 'laptop riser stand', 'laptop docking cradle', 'laptop external GPU enclosure', 'laptop memory upgrade kit', 'laptop SSD upgrade kit', 'laptop hinge repair kit', 'laptop charger extension cable',
-'laptop cooling mat', 'laptop anti theft cable', 'laptop security lock',
-
+'tablet', 'tablet charger', 'tablet stand adjustable metal', 'tablet stylus pen', 'tablet keyboard case', 'tablet folio cover', 'tablet screen cleaning kit', 'tablet stand adjustable arm', 'tablet security lock', 'tablet pen holder clip',
+'tablet docking station', 'charging cable retractable', 'portable power bank', 'portable document scanner', 'laptop', 'laptop charger', 'laptop sleeve case', 'laptop docking cable', 'laptop riser stand', 'laptop docking cradle',
+'laptop external GPU enclosure', 'laptop memory upgrade kit', 'laptop SSD upgrade kit', 'laptop hinge repair kit', 'laptop charger extension cable', 'laptop cooling mat', 'laptop anti theft cable', 'laptop security lock',
 // Keyboards & Mice (32 items)
 'keyboard tray brackets', 'keyboard', 'wireless keyboard', 'mouse', 'wireless mouse', 'mouse pad', 'extended mouse pad', 'external keyboard wrist rest', 'keyboard wrist rest', 'keyboard cover',
 'wireless mouse receiver', 'mouse pad wrist support', 'external keyboard cover', 'keyboard cleaning gel', 'mouse cleaning wipes', 'ergonomic keyboard', 'mechanical keyboard', 'mechanical keyboard keycap set', 'keyboard switch tester', 'keyboard switch puller',
 'keyboard cleaning brush', 'keyboard vacuum mini', 'keyboard wrist support gel', 'keyboard travel case', 'gaming mouse', 'vertical mouse ergonomic', 'mouse grip tape', 'mouse cable bungee', 'mouse travel pouch', 'mouse battery pack',
 'mouse USB receiver extender', 'mouse docking charger',
-
 // Docking Stations (2 items)
 'docking station cable kit', 'docking station',
-
 // External Drives & Storage Media (16 items)
 'NAS hard drive', 'NAS drive tray', 'usb flash drives', 'usb flash drive organizer', 'usb flash drive case', 'USB floppy drive', 'USB card reader', 'micro SD adapter', 'external hard drive', 'external hard drive case',
 'external hard drive docking bay', 'external SSD drive', 'SSD enclosure', 'hard drive cloning dock', 'hard drive anti static bag', 'data recovery software license',
-
 // Printers, Scanners & Shredders (22 items)
-'printer stand with drawers', 'printer paper cabinet', 'printer stand shelf', 'printer', 'scanner', 'printer stand', 'printer paper tray', 'printer ink cartridges', 'printer paper ream', 'document scanner tray',
-'printer cleaning sheets', 'printer maintenance kit', 'printer paper catch tray', 'scanner glass cleaner', 'laser printer drum unit', 'printer fuser unit', 'barcode scanner stand', 'receipt printer', 'receipt printer ink ribbon', 'paper shredder',
-'shredder oil', 'postal scale digital',
-
+'printer paper cabinet', 'printer stand shelf', 'printer', 'scanner', 'printer stand', 'printer paper tray', 'printer ink cartridges', 'printer paper ream', 'document scanner tray', 'printer cleaning sheets',
+'printer maintenance kit', 'printer paper catch tray', 'scanner glass cleaner', 'laser printer drum unit', 'printer fuser unit', 'barcode scanner stand', 'receipt printer', 'receipt printer ink ribbon', 'paper shredder', 'shredder oil',
+'postal scale digital',
 // Networking Equipment (21 items)
 'router', 'modem', 'wifi extender', 'network switch', 'network cable tester', 'router ethernet switch', 'wifi extender mounting kit', 'network cable tester advanced', 'WiFi antenna booster', 'WiFi signal analyzer',
 'network firewall appliance', 'smart plug WiFi', 'ethernet cables', 'ethernet cable wall clips', 'ethernet cable boots', 'cable punch down tool', 'ethernet cable tester advanced', 'ethernet cable crimper tool', 'patch cable organizer', 'patch cable color tags',
 'ethernet crimp connectors',
-
 // Audio & Microphones (12 items)
-'microphone stand desk mount', 'microphone desk stand', 'microphone cable XLR', 'USB audio interface', 'microphone', 'microphone pop filter', 'speaker isolation pads', 'microphone shock mount', 'audio interface', 'audio mixer small',
-'speaker stands', 'speaker isolation stands',
-
+'microphone desk stand', 'microphone cable XLR', 'USB audio interface', 'microphone', 'microphone pop filter', 'speaker isolation pads', 'microphone shock mount', 'audio interface', 'audio mixer small', 'speaker stands',
+'speaker isolation stands',
 // Webcams, Lighting & Backdrops (13 items)
 'ring light desk mount', 'webcam ring light', 'ring light tripod stand', 'ring light diffuser', 'backdrop clamp', 'screen light bar remote', 'webcam', 'webcam privacy cover', 'webcam mount clip', 'webcam tripod',
-'green screen backdrop', 'green screen stand', 'backdrop crossbar',
-
+'green screen backdrop', 'backdrop crossbar',
 // Headphones & Headsets (11 items)
 'headphone cable extension', 'headphone stand clamp mount', 'headphones', 'headset', 'headphone stand', 'headset charging dock', 'headphone stand wooden', 'headphone amplifier', 'headphone splitter', 'headphone case hard shell',
 'headphone hook adhesive',
-
 // Cables & Adapters (30 items)
-'cable organizer box', 'cable sleeves', 'hdmi cables', 'displayport cable', 'vga cable', 'charging cable organizer', 'cable management tray', 'usb extension cable', 'displayport adapter', 'vga adapter',
-'USB C hub adapter', 'USB C to HDMI adapter', 'USB C docking hub', 'USB C extension cable', 'cable management ring', 'cable management raceway', 'cable mounting base', 'Velcro cable ties', 'cable extension reel heavy duty', 'magnetic charging cable',
-'charging cable multi head', 'cord label tags', 'cord clips', 'cord concealment channel', 'cord management clips', 'HDMI switch', 'display splitter', 'zip tie pack', 'XLR to USB adapter', 'KVM switch',
-
+'cable organizer box', 'cable sleeves', 'hdmi cables', 'displayport cable', 'vga cable', 'charging cable organizer', 'cable management tray', 'usb extension cable', 'vga adapter', 'USB C hub adapter',
+'USB C to HDMI adapter', 'USB C docking hub', 'USB C extension cable', 'cable management ring', 'cable mounting base', 'Velcro cable ties', 'cable extension reel heavy duty', 'magnetic charging cable', 'charging cable multi head', 'cord label tags',
+'cord concealment channel', 'cord management clips', 'HDMI switch', 'display splitter', 'zip tie pack', 'XLR to USB adapter', 'KVM switch',
 // Power & Charging (36 items)
-'power strip', 'phone charger', 'usb hub', 'power adapters', 'battery backup', 'docking station power supply', 'power strip cord wrap', 'calculator battery', 'universal power adapter', 'wall clock battery pack',
-'smoke detector battery', 'power conditioner', 'plug splitter adapter', 'USB wall charger multi port', 'USB charging block', 'power cord organizer wrap', 'USB charging tower', 'power outlet timer', 'button cell battery pack', 'battery tester device',
-'battery disposal container', 'cordless phone charger base', 'cordless phone battery pack', 'power bank charging dock', 'surge protector', 'extension cords', 'charging station', 'extension cord reel', 'extension cord floor cover', 'charging hub multi port',
-'surge protector outlet cover', 'surge suppression outlet', 'voltage regulator', 'UPS battery pack', 'AA battery bulk pack', 'AAA battery bulk pack',
-
+'power strip', 'phone charger', 'usb hub', 'power adapters', 'battery backup', 'docking station power supply', 'power strip cord wrap', 'calculator battery', 'universal power adapter', 'smoke detector battery',
+'power conditioner', 'plug splitter adapter', 'USB wall charger multi port', 'USB charging block', 'power cord organizer wrap', 'USB charging tower', 'power outlet timer', 'button cell battery pack', 'battery tester device', 'battery disposal container',
+'cordless phone charger base', 'cordless phone battery pack', 'power bank charging dock', 'surge protector', 'extension cords', 'charging station', 'extension cord reel', 'extension cord floor cover', 'charging hub multi port', 'surge protector outlet cover',
+'surge suppression outlet', 'voltage regulator', 'UPS battery pack', 'AA battery bulk pack', 'AAA battery bulk pack',
 // Laminators & Binding (15 items)
 'laminator cleaning sheets', 'laminator', 'laminating sheets', 'laminator heat resistant gloves', 'laminator corner rounder', 'laminator thermal pouch carrier', 'laminator jam release tool', 'laminator foil sheets', 'laminator cold pouch kit', 'laminator trim cutter',
 'document binding machine', 'binding comb set', 'binding coil set', 'binding cover sheets', 'binding spine cutter',
-
 // Phones & Communication (1 items)
 'phone dock stand',
-
 // Pens, Pencils & Writing (13 items)
-'pen holder', 'pencil holder', 'pen refill pack', 'pencil sharpener', 'correction fluid pen', 'pen refill organizer', 'pencil case organizer', 'mechanical pencil set', 'highlighters', 'highlighter pack',
-'highlighter organizer', 'correction tape', 'ink refill kit',
-
+'pen holder', 'pencil holder', 'pen refill pack', 'pencil sharpener', 'correction fluid pen', 'pen refill organizer', 'pencil case organizer', 'mechanical pencil set', 'highlighters', 'correction tape',
+'ink refill kit',
 // Paper & Stationery (28 items)
-'paper tray', 'paper clips', 'notebooks', 'cardstock paper', 'photo paper', 'legal size paper', 'paper towels', 'paper tray stacker', 'paper clip organizer', 'paper tray letter size',
-'paper clip tray', 'sticky note dispenser', 'photo paper binder', 'paper towel dispenser', 'photo paper archival box', 'paper trimmer guillotine', 'paper scoring board', 'stapler', 'staples', 'legal pads',
-'sticky notes', 'index cards', 'staple remover', 'staple refill box', 'sticky note holder', 'index card organizer', 'stapler heavy duty', 'staples bulk pack',
-
+'paper tray', 'paper clips', 'notebooks', 'cardstock paper', 'photo paper', 'legal size paper', 'paper tray stacker', 'paper clip organizer', 'paper tray letter size', 'paper clip tray',
+'sticky note dispenser', 'photo paper binder', 'paper towel dispenser', 'photo paper archival box', 'paper trimmer guillotine', 'paper scoring board', 'stapler', 'staples', 'legal pads', 'sticky notes',
+'index cards', 'staple remover', 'staple refill box', 'sticky note holder', 'index card organizer', 'stapler heavy duty', 'staples bulk pack',
 // Folders, Binders & Filing (21 items)
 'mail organizer drawer', 'envelope filing drawer', 'binder clips', 'binders', 'binder dividers', 'envelopes', 'manila envelopes', 'shipping envelopes', 'file folder labels', 'binder clip organizer',
-'binder spine labels', 'envelope organizer tray', 'binder clip container', 'binder dividers labeled', 'binder spine label kit', 'project planner binder', 'business card binder', 'document trays', 'hanging file folder tabs', 'file expanding folder',
-'presentation folder',
-
+'binder spine labels', 'envelope organizer tray', 'binder clip container', 'binder dividers labeled', 'binder spine label kit', 'project planner binder', 'document trays', 'hanging file folder tabs', 'file expanding folder', 'presentation folder',
 // Labels & Tape (20 items)
 'label maker', 'labels', 'tape dispenser', 'shipping label roll', 'label maker case', 'tape dispenser weighted', 'liquid glue dispenser', 'rubber bands', 'adhesive tape', 'packing tape',
-'glue sticks', 'liquid glue', 'rubber band ball', 'tape refill rolls', 'glue stick bulk pack', 'liquid glue bottle spare', 'adhesive tape bulk roll', 'packing tape gun', 'glue stick organizer', 'liquid glue refill bottle',
-
+'glue sticks', 'liquid glue', 'rubber band ball', 'tape refill rolls', 'liquid glue bottle spare', 'adhesive tape bulk roll', 'packing tape gun', 'glue stick organizer', 'liquid glue refill bottle',
 // Scissors, Punches & Cutting (9 items)
 'letter opener', 'scissor sharpener', 'letter opener stand', 'letter opener stainless steel', 'scissors', 'hole punch', 'three hole punch', 'scissors heavy duty', 'three hole punch heavy duty',
-
 // Planners, Calendars & Notebooks (15 items)
 'time tracking notebook', 'wall calendar', 'wall calendar dry erase', 'calendar hanging clips', 'project management notebook', 'planner stickers', 'planner tabs', 'planner refill inserts', 'goal planner journal', 'address book',
 'business card holder', 'business card display stand', 'name badge holder', 'ID badge lanyard', 'ID badge reel',
-
 // Whiteboards & Bulletin Boards (14 items)
 'bulletin board', 'whiteboard', 'whiteboard markers', 'whiteboard cleaner spray', 'whiteboard magnetic eraser', 'bulletin board frame', 'whiteboard marker holder', 'whiteboard eraser holder', 'whiteboard magnetic tray', 'whiteboard border tape',
 'dry erase eraser', 'permanent markers', 'permanent marker pack', 'dry erase board small',
-
 // Cork Boards & Magnetic Boards (8 items)
 'push pins', 'push pin container', 'push pin box', 'cork board push pin set', 'magnetic cork board', 'magnetic clips', 'magnetic name plate', 'magnetic ruler',
-
 // Mail & Postage (4 items)
 'envelope moistener bottle', 'mail opening tray', 'bubble mailers', 'bubble mailer pack',
-
 // Calculators & Office Machines (1 items)
 'calculator',
-
 // Presentation Equipment (5 items)
 'portable projector', 'presentation clicker', 'laser pointer', 'presentation remote batteries', 'projector screen',
-
 // Lamps & Lighting (12 items)
-'desk lamp', 'table lamp', 'desk lamp dimmer switch', 'table lamp finial', 'desk lamp smart bulb', 'table lamp cord cover', 'floor lamp', 'light bulbs', 'floor lamp dimmer cord', 'floor lamp base weight',
-'floor lamp dimmer switch', 'blue light blocking glasses',
-
+'desk lamp', 'table lamp', 'floor lamp', 'light bulbs', 'floor lamp dimmer cord', 'blue light blocking glasses',
 // Area Rugs & Floor Mats (2 items)
 'rug stain remover pen', 'area rug',
-
 // Window Blinds & Curtains (5 items)
 'window blind cleaner tool', 'window blinds', 'window curtains', 'curtain rod', 'curtain tieback hooks',
-
 // Decor & Frames (4 items)
 'throw blanket', 'wall art', 'wall clock', 'umbrella stand',
-
 // Coats, Blankets & Comfort (2 items)
 'coat rack', 'coat rack floor standing',
-
 // Cleaning Supplies (15 items)
-'cleaning supply shelf', 'cleaning supply organizer cabinet', 'cleaning caddy', 'all purpose cleaner', 'glass cleaner', 'cleaning supply basket', 'all purpose cleaner refill', 'glass cleaner refill', 'all purpose cleaner gallon', 'glass cleaner spray bottle',
-'microfiber cleaning mitt', 'all purpose cleaner spray bottle', 'glass cleaner gallon', 'microfiber cloths', 'disinfecting wipes',
-
+'cleaning supply shelf', 'cleaning supply organizer cabinet', 'cleaning caddy', 'all purpose cleaner', 'glass cleaner', 'cleaning supply basket', 'all purpose cleaner refill', 'glass cleaner spray bottle', 'microfiber cleaning mitt', 'all purpose cleaner spray bottle',
+'glass cleaner gallon', 'microfiber cloths', 'disinfecting wipes',
 // Trash & Recycling (8 items)
-'trash can', 'trash bags', 'recycling bin', 'trash liner roll', 'recycling bin liner roll', 'trash can step lid', 'recycling sorter bins', 'ink cartridge recycling box',
-
+'trash bags', 'recycling bin', 'trash liner roll', 'recycling bin liner roll', 'trash can step lid', 'recycling sorter bins', 'ink cartridge recycling box',
 // Safety & Security (6 items)
 'fire extinguisher bracket', 'fire extinguisher cabinet small', 'fire extinguisher', 'smoke detector', 'carbon monoxide detector', 'first aid kit',
-
 // Safes & Lockboxes (3 items)
 'document safe fire resistant', 'document lock box', 'safe fireproof document box',
-
 // Tools & Hardware (10 items)
-'measuring tape retractable', 'hammer storage clip', 'measuring tape storage hook', 'tool kit small', 'hammer', 'screwdriver set', 'measuring tape', 'picture hanging kit', 'tool organizer tray', 'screw assortment kit',
-
+'hammer storage clip', 'measuring tape storage hook', 'tool kit small', 'hammer', 'screwdriver set', 'measuring tape', 'picture hanging kit', 'tool organizer tray', 'screw assortment kit',
 // Soundproofing & Acoustics (3 items)
 'portable room divider panel', 'soundproof desk booth', 'sound dampening foam panels'],
 
 // TOTAL: 710 items],
 
-        Loft: [ // Sofas & Seating (101 items)
+        Loft: [// Sofas & Seating (101 items)
 'accent bench', 'accent bench cushion', 'accent bench leg pads', 'accent bench storage bin', 'accent chair arm covers', 'accent chair armrest pads', 'accent chair cushion', 'accent chair leg felt pads', 'accent chair leg protectors', 'accent chair seat protector',
 'accent chair slipcover', 'barrel chair', 'bean bag inner liner', 'bean bag refill beads', 'bean bag refill pack', 'chaise lounge', 'chaise lounge cushion', 'chaise lounge slipcover', 'club chair', 'club chair ottoman',
 'floor cushion cover', 'floor cushion insert', 'floor cushion storage bag', 'floor pouf', 'floor rocker chair', 'floor seating mat', 'floor seating pillows', 'fold out sofa bed', 'folding chairs', 'folding floor chair',
 'glider chair', 'loveseat armrest covers', 'loveseat armrest tray', 'loveseat cover', 'loveseat cushion cover set', 'loveseat leg pads', 'massage chair', 'massage chair cover', 'massage chair remote', 'meditation cushion',
-'meditation cushion cover', 'ottoman caster wheels', 'ottoman foam insert', 'papasan chair', 'recliner', 'recliner USB charger module', 'recliner battery pack',
- 
-'recliner hand control', 'recliner headrest cover', 'recliner power supply', 'recliner side pocket organizer', 'rocking chair', 'sectional connector brackets', 'sectional cushion covers', 'sectional cushions', 'sofa anti slip grippers', 'sofa armrest cover',
-'sofa armrest tray', 'sofa bed mattress cover', 'sofa bed mattress pad', 'sofa bed mechanism kit', 'sofa bed sheet set', 'sofa caster cups', 'sofa chaise attachment', 'sofa cushion cover set', 'sofa cushion inserts', 'sofa frame brackets',
-'sofa frame repair braces', 'sofa furniture risers', 'sofa headrest pillow', 'sofa leg levelers', 'sofa side table', 'sofa slipcover', 'sofa spring repair kit', 'stool seat cover', 'stools', 'storage ottoman tray top',
-'swivel chair', 'window seat cushion cover', 'window seat drawer organizer', 'window seat storage bin', 'wingback chair',
- 
+'meditation cushion cover', 'ottoman caster wheels', 'ottoman foam insert', 'papasan chair', 'recliner', 'recliner USB charger module', 'recliner battery pack', 'recliner hand control', 'recliner headrest cover', 'recliner power supply',
+'recliner side pocket organizer', 'rocking chair', 'sectional connector brackets', 'sectional cushion covers', 'sofa anti slip grippers', 'sofa armrest cover', 'sofa armrest tray', 'sofa bed mattress cover', 'sofa bed mattress pad', 'sofa bed mechanism kit',
+'sofa bed sheet set', 'sofa caster cups', 'sofa chaise attachment', 'sofa cushion cover set', 'sofa cushion inserts', 'sofa frame brackets', 'sofa frame repair braces', 'sofa furniture risers', 'sofa headrest pillow', 'sofa leg levelers',
+'sofa side table', 'sofa slipcover', 'sofa spring repair kit', 'stool seat cover', 'stools', 'storage ottoman tray top', 'swivel chair', 'window seat cushion cover', 'window seat drawer organizer', 'window seat storage bin',
+'wingback chair',
 // Seating & Furniture Accessories (17 items)
-'bed sheet fasteners', 'blanket clips', 'blanket hamper', 'blanket hooks', 'blanket ladder', 'console cable grommet', 'down pillow insert', 'folding chair leg caps', 'lumbar pillow insert', 'office chair armrest pads',
-'pillow protector set', 'pillow protectors', 'pillowcase set extra', 'sheet suspenders', 'throw blanket clips', 'throw pillow covers', 'throw pillow insert spare',
- 
+'bed sheet fasteners', 'blanket clips', 'blanket hamper', 'blanket hooks', 'blanket ladder', 'down pillow insert', 'folding chair leg caps', 'lumbar pillow insert', 'office chair armrest pads', 'pillow protector set',
+'pillow protectors', 'pillowcase set extra', 'sheet suspenders', 'throw blanket clips', 'throw pillow covers', 'throw pillow insert spare',
 // Tables & Shelving Furniture (63 items)
 'C shaped side table', 'TV stand cable pass through', 'TV stand caster wheels', 'TV stand door bumpers', 'TV stand ventilation fan', 'TV tray table set', 'bar cart', 'bar cart accessory hooks', 'bar cart anti slip mat', 'bar cart corner guards',
-'bar cart cover', 'bar cart stemware hanger', 'bar cart tool caddy', 'bedside table', 'bedside table coaster', 'book display shelf', 
-'broom storage cabinet', 'coffee table coasters set', 'coffee table glass top', 'coffee table leg levelers', 'coffee table leg pads', 'coffee table runner', 'coffee table scratch repair kit', 'coffee table storage baskets', 'console table cable management basket',
-'console table shelf riser', 'craft storage cabinet', 'cube storage shelf', 'display shelf', 'display shelf acrylic stands', 'display shelf risers', 'drink table', 'end table corner protectors',
-'floating shelf LED strip', 'folding snack table', 'folding table', 'folding table carry bag', 'folding table leg caps', 
- 
-'martini table', 'media console door hinges', 'media console shelves', 'nesting table set', 'nesting tables', 'shelf edge guard', 'side table cable grommet cover', 'side table decor tray', 'side table drawer organizer', 'side table shelf liner',
-'storage cube shelf', 'tray table', 'floating shelves',
- 
+'bar cart cover', 'bar cart stemware hanger', 'bar cart tool caddy', 'bedside table', 'bedside table coaster', 'book display shelf', 'broom storage cabinet', 'coffee table coasters set', 'coffee table glass top', 'coffee table leg levelers',
+'coffee table leg pads', 'coffee table runner', 'coffee table scratch repair kit', 'coffee table storage baskets', 'console table cable management basket', 'console table shelf riser', 'craft storage cabinet', 'cube storage shelf', 'display shelf', 'display shelf acrylic stands',
+'display shelf risers', 'drink table', 'end table corner protectors', 'floating shelf LED strip', 'folding snack table', 'folding table', 'folding table carry bag', 'folding table leg caps', 'martini table', 'media console door hinges',
+'media console shelves', 'nesting table set', 'nesting tables', 'shelf edge guard', 'side table cable grommet cover', 'side table decor tray', 'side table drawer organizer', 'side table shelf liner', 'storage cube shelf', 'tray table',
+'floating shelves',
 // Furniture Hardware & Storage Accessories (11 items)
-'decorative shelf anchors', 'decorative shelf brackets', 'decorative shelf riser', 'media cabinet anti tip strap', 'media cabinet door catch', 'media cabinet door magnet', 'media cabinet hinge set', 'media cabinet leveling feet', 'media cabinet shelf pins', 'media cabinet shelf supports',
-'television riser shelf',
- 
+'decorative shelf anchors', 'decorative shelf riser', 'media cabinet anti tip strap', 'media cabinet door catch', 'media cabinet door magnet', 'media cabinet hinge set', 'media cabinet leveling feet', 'media cabinet shelf pins', 'media cabinet shelf supports', 'television riser shelf',
 // TV & Home Theater (60 items)
 'AV receiver', 'AV receiver remote', 'Bluetooth receiver', 'CD player', 'HDMI audio extractor', 'HDMI cable extender', 'HDMI splitter', 'HDMI switch', 'RCA cable set', 'TV antenna',
-'USB C to HDMI adapter', 'audio amplifier', 'blu ray cleaning disc', 'blu ray disc storage case', 'blu ray remote cover', 'blu ray storage case', 'cassette player', 'cassette tapes', 'coax splitter', 'disc resurfacing kit',
-'disc sleeves', 'media storage binder', 'optical audio cable', 'phono preamp', 'projector', 'projector HDMI cable', 'projector carry case', 'projector keystone remote', 'projector lens cap', 'projector remote',
-'projector screen', 'projector stand', 'remote control charging station', 'remote control holder', 'remote control label stickers', 'remote control silicone cover', 'remote controls', 'remote organizer tray', 'smart television', 'sound bar HDMI ARC cable',
-'sound bar cable kit', 'sound bar power cord', 'speaker wire', 'speaker wire banana plugs', 'speaker wire management clips', 'speaker wire spool', 'streaming device Ethernet adapter', 'streaming device power adapter', 'streaming stick', 'streaming stick extender',
- 
-'subwoofer isolation pad', 'subwoofer power cord', 'surround speakers', 'tv mounting screws', 'tv screen cleaner kit', 'tv surge protector', 'cd storage sleeves', 'dvd media cabinet', 'dvd organizer cabinet', 'dvd storage shelf',
- 
+'USB C to HDMI adapter', 'audio amplifier', 'blu ray cleaning disc', 'blu ray disc storage case', 'blu ray remote cover', 'blu ray storage case', 'cassette player', 'coax splitter', 'disc resurfacing kit', 'disc sleeves',
+'media storage binder', 'optical audio cable', 'phono preamp', 'projector', 'projector HDMI cable', 'projector carry case', 'projector keystone remote', 'projector lens cap', 'projector remote', 'projector screen',
+'projector stand', 'remote control charging station', 'remote control holder', 'remote control label stickers', 'remote control silicone cover', 'remote controls', 'remote organizer tray', 'smart television', 'sound bar HDMI ARC cable', 'sound bar cable kit',
+'sound bar power cord', 'speaker wire', 'speaker wire banana plugs', 'speaker wire management clips', 'speaker wire spool', 'streaming device Ethernet adapter', 'streaming device power adapter', 'streaming stick', 'streaming stick extender', 'subwoofer isolation pad',
+'subwoofer power cord', 'surround speakers', 'tv mounting screws', 'tv screen cleaner kit', 'tv surge protector', 'cd storage sleeves', 'dvd media cabinet', 'dvd organizer cabinet', 'dvd storage shelf',
 // Gaming & Games (55 items)
 'DJ controller', 'LED strip light controller', 'VR headset cable management kit', 'VR headset carry case', 'VR headset charging dock', 'VR headset face cushion', 'VR headset lens cover', 'backgammon set', 'board game card sleeves', 'board game organizer box',
-'board game shelf unit', 'board game storage drawers', 'card deck case', 'card deck organizer case', 'checkers set', 'chess set', 'console controller battery pack', 'console dust cover', 'controller battery pack', 'controller charging cable',
-'controller silicone case', 'controller thumb grips', 'controller trigger grips', 'dice set', 'dice tray', 'domino set', 'game console travel case', 'game console vertical stand', 'game controller charging dock', 'game controller wall mount',
-'game controllers', 'game disc storage binder', 'game shelf labels', 'game timer', 'gaming chair floor mat', 'gaming chair footrest', 'gaming chair headrest pillow', 'gaming headset case', 'gaming headset charging dock', 'gaming headset stand',
-'gaming keyboard', 'gaming keyboard wrist rest', 'gaming mouse', 'gaming router', 'poker chip set', 'puzzle frame', 'puzzle glue', 'puzzle organizer trays', 'puzzle saver sheets', 'puzzle sorting trays',
- 
-'puzzle storage mat', 'trading card binder', 'trading card sleeves', 'vr controller stand', 'vr headset storage stand',
- 
+'board game shelf unit', 'board game storage drawers', 'card deck case', 'card deck organizer case', 'checkers set', 'chess set', 'console controller battery pack', 'controller charging cable', 'controller silicone case', 'controller thumb grips',
+'controller trigger grips', 'dice set', 'dice tray', 'domino set', 'game console travel case', 'game console vertical stand', 'game controller charging dock', 'game controller wall mount', 'game controllers', 'game disc storage binder',
+'game shelf labels', 'game timer', 'gaming chair floor mat', 'gaming chair footrest', 'gaming chair headrest pillow', 'gaming headset case', 'gaming headset charging dock', 'gaming headset stand', 'gaming keyboard', 'gaming keyboard wrist rest',
+'gaming mouse', 'gaming router', 'poker chip set', 'puzzle frame', 'puzzle glue', 'puzzle organizer trays', 'puzzle saver sheets', 'puzzle sorting trays', 'puzzle storage mat', 'trading card binder',
+'trading card sleeves', 'vr controller stand', 'vr headset storage stand',
 // Networking & Smart Home (18 items)
 'UPS battery backup', 'WiFi range extender', 'ethernet cable spool', 'ethernet coupler', 'modem coax cable', 'modem surge protector', 'network cable organizer', 'network switch', 'router ethernet cable', 'smart LED light strip',
 'smart dimmer plug', 'smart display', 'smart light bulb', 'smart light switch', 'smart thermostat', 'smart thermostat sensor', 'wifi booster stand', 'wifi extender wall plate',
- 
 // Power, Charging & Lighting Accessories (39 items)
 'LED strip light corner connectors', 'LED strip light diffuser channel', 'LED strip lights', 'USB C extension cable', 'USB C hub', 'USB wall charger multi port', 'bedside lamp smart bulb', 'charging cable sleeves', 'charging hub multi device', 'extension cord floor cover',
-'extension cord storage bag', 'extension cord wall clips', 'fairy light battery pack', 'fairy lights', 'lamp cord floor cover', 'lamp cord grommet', 'lamp cord protector sleeve', 'lamp shade clip adapter', 'lamp shade diffuser', 'lamp shade spider adapter',
-'lamp smart bulb', 'light bulb changer pole', 'light bulb storage organizer', 'phone charging cable spare', 'phone charging dock', 'phone stand dock', 'portable power bank', 'power bank charging dock', 'power strip cord wrap', 'power strip extension',
-'power strip mounting brackets', 'power strip with USB', 'string lights indoor', 'surge protector backup battery', 'surge protector outlet cover', 'surge protector power conditioner', 'tablet charging cable spare', 'wireless charging pad', 'wireless charging stand',
- 
+'extension cord storage bag', 'fairy lights', 'lamp cord floor cover', 'lamp cord grommet', 'lamp cord protector sleeve', 'lamp shade clip adapter', 'lamp shade diffuser', 'lamp shade spider adapter', 'lamp smart bulb', 'light bulb changer pole',
+'light bulb storage organizer', 'phone charging cable spare', 'phone charging dock', 'phone stand dock', 'portable power bank', 'power bank charging dock', 'power strip cord wrap', 'power strip extension', 'power strip mounting brackets', 'power strip with USB',
+'string lights indoor', 'surge protector backup battery', 'surge protector outlet cover', 'surge protector power conditioner', 'wireless charging pad', 'wireless charging stand',
 // Lamps, Fans & Climate Appliances (16 items)
 'ceiling fan blade screws', 'ceiling fan light kit', 'desk lamp', 'desk lamp bulb spare', 'desk lamp dimmer cord', 'fan heater', 'fan heater remote', 'fan heater safety grill', 'fan heater thermostat knob', 'fan pull chain',
 'portable AC filter',
- 
 // Rugs & Floor (6 items)
 'area rug corner protectors', 'area rug storage roll', 'floor runner', 'rug anti slip tape', 'rug corner grippers', 'rug vacuum attachment',
- 
 // Wall Decor & Accents (48 items)
 'aromatherapy spray', 'art print', 'canvas art storage bin', 'decorative garland', 'decorative lantern', 'decorative sculpture', 'decorative tray acrylic', 'decorative tray marble', 'decorative tray rattan', 'diffuser refill oils',
-'flameless candles', 'floor lantern', 'frame bumpers', 'frame corner protectors', 'frame hanging wire kit', 'frame mat board', 'full length mirror', 'full length mirror stand',
-'incense holder', 'incense sticks', 'macrame wall hanging', 'picture frame backing', 'picture frame cleaning kit', 'picture frame corner protectors', 'picture light', 'picture light remote', 'remote candles',
-'room spray bottle', 'tabletop sculpture', 'tapestry hanger', 'vase set', 'wall art adhesive strips', 'wall art level tool', 'wall clock battery', 'wall clock mounting hook', 'wall clock spare hands', 'wall decals',
-'wall decals remover', 'wall hook decorative', 'wall repair patch kit', 'wall shelves decorative set', 'wall tapestry', 'wick trimmer', 'window shade repair kit', 'loft railing decor lights',
- 
+'flameless candles', 'floor lantern', 'frame bumpers', 'frame corner protectors', 'frame hanging wire kit', 'frame mat board', 'full length mirror', 'full length mirror stand', 'incense holder', 'incense sticks',
+'macrame wall hanging', 'picture frame backing', 'picture frame cleaning kit', 'picture frame corner protectors', 'picture light', 'picture light remote', 'remote candles', 'room spray bottle', 'tapestry hanger', 'vase set',
+'wall art adhesive strips', 'wall clock battery', 'wall clock mounting hook', 'wall clock spare hands', 'wall decals', 'wall decals remover', 'wall hook decorative', 'wall repair patch kit', 'wall shelves decorative set', 'wall tapestry',
+'wick trimmer', 'window shade repair kit', 'loft railing decor lights',
 // Bedding, Pillows & Sleep (57 items)
-'air mattress', 'air mattress electric pump', 'air mattress patch kit', 'alarm clock', 'alarm clock backup battery', 'alarm clock battery pack', 'alarm clock decorative',
-'bed wedge pillow cover', 'bedside lamp', 'bedspread', 'blanket basket', 'blanket set', 'blanket storage trunk', 'blanket storage vacuum bag', 'comforter', 'daybed',
-'daybed bedding set', 'daybed frame bolts', 'daybed frame support', 'daybed mattress', 'daybed mattress protector', 'daybed pillow shams', 'daybed storage drawers', 'daybed throw pillows', 'duvet cover', 'duvet insert',
-'ear plugs', 'extra blanket set', 'extra pillow set spare', 'extra sheet set', 'mattress bag', 'mattress encasement', 'mattress lifting strap', 'mattress protector', 'mattress strap handles', 'mattress topper',
-'mattress vacuum bag', 'mattress wedge pillow', 'pillow set', 'quilt set', 'sheet set', 'sleep mask', 'throw blanket spare', 'trundle bed', 'trundle bed linens', 'trundle bed wheels',
- 
-'trundle mattress', 'trundle mattress protector', 'weighted blanket', 'white noise machine', 'air pump', 'air pump adapter set', 'air pump hose',
- 
+'air mattress', 'air mattress electric pump', 'air mattress patch kit', 'alarm clock', 'alarm clock backup battery', 'alarm clock battery pack', 'alarm clock decorative', 'bed wedge pillow cover', 'bedside lamp', 'bedspread',
+'blanket basket', 'blanket set', 'blanket storage trunk', 'blanket storage vacuum bag', 'comforter', 'daybed', 'daybed bedding set', 'daybed frame bolts', 'daybed frame support', 'daybed mattress',
+'daybed mattress protector', 'daybed pillow shams', 'daybed storage drawers', 'daybed throw pillows', 'duvet cover', 'duvet insert', 'ear plugs', 'extra blanket set', 'extra pillow set spare', 'extra sheet set',
+'mattress bag', 'mattress encasement', 'mattress lifting strap', 'mattress protector', 'mattress strap handles', 'mattress topper', 'mattress vacuum bag', 'mattress wedge pillow', 'pillow set', 'quilt set',
+'sheet set', 'sleep mask', 'throw blanket spare', 'trundle bed', 'trundle bed linens', 'trundle bed wheels', 'trundle mattress', 'trundle mattress protector', 'weighted blanket', 'white noise machine',
+'air pump', 'air pump adapter set', 'air pump hose',
 // Home Office (100 items)
-'ID badge lanyard', 'accordion file organizer', 'air purifier air quality monitor', 'barcode scanner', 'bulletin board', 'bulletin board cork refill', 'bulletin board eraser', 'bulletin board pins', 'business card binder', 'business card holder',
-'desk', 'desk cable grommet', 'desk cable organizer tray', 'desk chair', 'desk clamp cup holder', 'desk clamp headphone hook', 'desk cord grommet insert', 'desk drawer dividers', 'desk drawer felt liner', 'desk drawer lock',
-'desk drawer lock cylinder', 'desk foot hammock', 'desk hutch organizer', 'desk mat leather', 'desk organizer', 'desk speakers', 'desktop organizer tray', 'easel tabletop', 'file label maker', 'filing cabinet',
-'filing cabinet anti tip kit', 'filing cabinet divider rails', 'filing cabinet key spare', 'heart rate monitor strap', 'humidifier cleaning tablets', 'keyboard bench', 'keyboard cleaning brush', 'keyboard music rest', 'keyboard piano', 'keyboard power adapter',
-'keyboard stand', 'keyboard stand adjustable', 'keyboard sustain pedal', 'label printer', 'laptop anti theft cable', 'laptop privacy filter', 'laptop privacy screen', 'laptop sleeve case', 'monitor VESA mount kit', 'monitor desk clamp arm dual',
- 
-'monitor light bar', 'monitor screen hood', 'name badge holder', 'office chair floor protectors', 'office chair mat', 'paper shredder', 'paper shredder oil', 'paper shredder oil bottle', 'portable document scanner', 'printer',
-'printer cable', 'printer dust cover', 'printer ink cartridges', 'printer ink refill kit', 'printer paper', 'printer paper catch tray', 
-'printer toner cartridge', 'receipt organizer', 'scanner', 'scanner cable', 'scanner cable spare', 'scanner cleaning kit', 'scanner stand', 'shipping scale', 'studio headphones',
-'tablet charging dock', 'tablet keyboard case', 'tablet screen protector', 'tablet stand', 'tablet stand adjustable', 'tax document organizer', 'thermal label roll', 'under desk CPU mount', 'under desk cable tray basket', 'whiteboard',
-'whiteboard cleaner spray', 'whiteboard eraser set', 'whiteboard markers', 'wireless keyboard', 'wireless keyboard cover', 'wireless keyboard wrist rest', 'wireless mouse pad', 'writing pad blotter', 'mouse pad large', 'mouse wrist pad',
- 
- 
+'ID badge lanyard', 'accordion file organizer', 'air purifier air quality monitor', 'barcode scanner', 'bulletin board', 'bulletin board cork refill', 'bulletin board eraser', 'bulletin board pins', 'business card holder', 'desk',
+'desk cable grommet', 'desk cable organizer tray', 'desk chair', 'desk clamp cup holder', 'desk clamp headphone hook', 'desk cord grommet insert', 'desk drawer dividers', 'desk drawer lock', 'desk drawer lock cylinder', 'desk foot hammock',
+'desk hutch organizer', 'desk organizer', 'desk speakers', 'desktop organizer tray', 'easel tabletop', 'file label maker', 'filing cabinet', 'filing cabinet anti tip kit', 'filing cabinet divider rails', 'filing cabinet key spare',
+'heart rate monitor strap', 'humidifier cleaning tablets', 'keyboard bench', 'keyboard cleaning brush', 'keyboard music rest', 'keyboard piano', 'keyboard power adapter', 'keyboard stand', 'keyboard stand adjustable', 'keyboard sustain pedal',
+'label printer', 'laptop anti theft cable', 'laptop privacy filter', 'laptop privacy screen', 'laptop sleeve case', 'monitor VESA mount kit', 'monitor desk clamp arm dual', 'monitor screen hood', 'name badge holder', 'office chair floor protectors',
+'office chair mat', 'paper shredder', 'paper shredder oil', 'paper shredder oil bottle', 'portable document scanner', 'printer', 'printer cable', 'printer dust cover', 'printer ink cartridges', 'printer ink refill kit',
+'printer paper', 'printer paper catch tray', 'printer toner cartridge', 'receipt organizer', 'scanner', 'scanner cable', 'scanner cable spare', 'scanner cleaning kit', 'scanner stand', 'shipping scale',
+'studio headphones', 'tablet keyboard case', 'tablet stand', 'tablet stand adjustable', 'tax document organizer', 'thermal label roll', 'under desk CPU mount', 'under desk cable tray basket', 'whiteboard', 'whiteboard cleaner spray',
+'whiteboard eraser set', 'whiteboard markers', 'wireless keyboard', 'wireless keyboard cover', 'wireless keyboard wrist rest', 'wireless mouse pad', 'writing pad blotter', 'mouse pad large', 'mouse wrist pad',
 // Home Office & Storage Accessories (68 items)
 'USB flash drive case', 'Velcro cable ties', 'art supply drawer organizer', 'book collection', 'book display stand', 'book storage bin', 'book storage box', 'book storage crate', 'book storage shelf', 'bookend set',
 'cable concealment channel', 'cable label tags', 'cable management sleeves', 'cable organizer box', 'cable raceway kit', 'cable wrap', 'closet drawer unit', 'closet hanging organizer', 'closet organizer', 'closet rod brackets',
-'closet rod cap', 'closet rod extender', 'closet rod tension', 'closet shelf riser', 'closet storage cubes', 'coat hanger set', 
-'drawer label set', 'drawer liner roll', 'external SSD drive',
-'file folder expanding', 'file folder organizer box', 'file folders', 'filing storage crate', 'hard drive anti static bags', 'hard drive docking station', 'instrument cable organizer', 'instrument cable wrap', 'magazine storage box', 'plastic storage drawers',
- 
-'rolling cart', 'rolling cart hooks', 'rolling cart organizer tray', 'rolling cart pegboard', 'rolling file cart', 'shelf storage baskets', 'storage bin divider inserts', 'storage bin dolly', 'storage bin handle grips', 'storage bin label set',
-'storage bin lids', 'storage cube inserts', 'umbrella rack liner', 'umbrella stand decorative', 'zip tie pack', 'file storage crate', 'filing crate lid', 'filing crate organizer',
- 
+'closet rod cap', 'coat hanger set', 'drawer label set', 'drawer liner roll', 'external SSD drive', 'file folder expanding', 'file folder organizer box', 'file folders', 'filing storage crate', 'hard drive anti static bags',
+'hard drive docking station', 'instrument cable organizer', 'instrument cable wrap', 'magazine storage box', 'plastic storage drawers', 'rolling cart', 'rolling cart hooks', 'rolling cart organizer tray', 'rolling cart pegboard', 'rolling file cart',
+'shelf storage baskets', 'storage bin divider inserts', 'storage bin dolly', 'storage bin handle grips', 'storage bin label set', 'storage bin lids', 'storage cube inserts', 'umbrella rack liner', 'umbrella stand decorative', 'zip tie pack',
+'file storage crate', 'filing crate lid', 'filing crate organizer',
 // Clothing, Laundry & Garment Care (51 items)
 'belt hanger', 'closet shelf basket', 'clothing rack', 'clothing rack caster locks', 'clothing rack cover', 'clothing rack end caps', 'clothing rack extension bar', 'clothing rack wheels', 'clothing steamer', 'fabric shaver',
 'folding drying rack', 'garment bag', 'garment bag zipper repair kit', 'garment rack', 'garment rack cover', 'garment rack hanger set', 'garment rack hanging hooks', 'garment rack shelf insert', 'hamper deodorizer', 'hanger set',
 'iron', 'iron cleaner', 'iron cleaning stick', 'iron rest pad', 'iron storage rack', 'ironing board', 'ironing board cover', 'ironing board hanger', 'ironing board padding', 'laundry bag',
-'laundry basket', 'laundry basket lid', 'laundry basket stacker', 'laundry basket wheels', 'laundry drying rack', 'laundry hamper', 'laundry hamper cover', 'laundry hamper divider insert', 'laundry hamper liner', 'laundry sorter',
-'pants hanger', 'sewing kit', 'sewing machine', 'sewing machine foot set', 'sewing machine small', 'sewing thread kit', 'sewing thread organizer', 'shoe organizer hanging', 'steamer water cup', 'suit hanger',
- 
-'velvet hangers',
- 
+'laundry basket', 'laundry basket lid', 'laundry basket stacker', 'laundry basket wheels', 'laundry hamper', 'laundry hamper cover', 'laundry hamper divider insert', 'laundry hamper liner', 'laundry sorter', 'pants hanger',
+'sewing kit', 'sewing machine', 'sewing machine foot set', 'sewing machine small', 'sewing thread kit', 'sewing thread organizer', 'shoe organizer hanging', 'steamer water cup', 'suit hanger', 'velvet hangers',
 // Music & Audio (70 items)
 'audio interface', 'drum practice pad', 'drum sticks', 'guitar', 'guitar cable', 'guitar capo', 'guitar case hard', 'guitar case hard shell', 'guitar case soft', 'guitar picks',
 'guitar stand', 'guitar strap', 'guitar strap locks', 'guitar strings pack', 'guitar tuner', 'guitar wall hanger', 'harmonica', 'headset mic windscreen', 'instrument cable repair kit', 'instrument cables',
-'instrument case', 'instrument cleaning cloth', 'instrument tuner', 'metronome', 'mic stand boom attachment', 'microphone', 'microphone boom arm', 'microphone cable', 
-'microphone shock mount', 'microphone stand', 'microphone stand boom arm', 'microphone storage case', 'mixer board', 'music sheet binder', 'music sheet storage binder', 'music stand',
-'music stand light', 'piano bench cushion', 'record cleaning kit', 'record display frame', 'record divider tabs', 'record storage crate', 'record storage shelf', 'speaker cable', 'speaker cable banana plugs', 'speaker grille cloth',
- 
-'speaker isolation pads', 'speaker isolation stands', 'speaker stands floor', 'speaker system', 'turntable dust cover', 'turntable needle', 'turntable slipmat', 'ukulele', 'ukulele stand', 'vinyl cleaning brush',
-'vinyl player', 'vinyl record cleaner', 'vinyl record sleeves', 'vinyl storage bin', 'vinyl storage shelf', 'violin', 'violin case', 'headphone cable extension', 'headphone splitter', 'speaker stand floor',
- 
+'instrument case', 'instrument cleaning cloth', 'instrument tuner', 'metronome', 'mic stand boom attachment', 'microphone', 'microphone boom arm', 'microphone cable', 'microphone shock mount', 'microphone stand',
+'microphone stand boom arm', 'microphone storage case', 'mixer board', 'music sheet binder', 'music sheet storage binder', 'music stand', 'music stand light', 'piano bench cushion', 'record cleaning kit', 'record display frame',
+'record divider tabs', 'record storage crate', 'record storage shelf', 'speaker cable', 'speaker cable banana plugs', 'speaker grille cloth', 'speaker isolation pads', 'speaker isolation stands', 'speaker stands floor', 'speaker system',
+'turntable dust cover', 'turntable needle', 'turntable slipmat', 'ukulele', 'ukulele stand', 'vinyl cleaning brush', 'vinyl player', 'vinyl record cleaner', 'vinyl record sleeves', 'vinyl storage bin',
+'vinyl storage shelf', 'violin', 'violin case', 'headphone cable extension', 'headphone splitter', 'speaker stand floor',
 // Art, Crafts & Hobbies (71 items)
 'acrylic paint set', 'art supplies box', 'art supply caddy', 'art supply organizer case', 'bobbin case', 'brush cleaning soap', 'canvas carrying case', 'canvas panels', 'canvas roll', 'canvas storage bin',
 'charcoal pencils', 'colored pencils', 'craft cutting mat', 'craft organizer bins', 'craft organizer drawer', 'craft organizer drawer unit', 'craft storage box', 'craft table', 'crochet hooks set', 'drawing board',
 'easel', 'easel clamp', 'easel light', 'easel storage hook', 'easel storage rack', 'eraser kneaded', 'fabric storage bin', 'glue gun', 'glue gun sticks', 'hot glue gun stand',
 'knitting needles set', 'markers art', 'oil paint set', 'paint brush holder', 'paint brush set', 'paint palette', 'paint palette tray', 'paint pens', 'paint storage rack', 'paint supplies',
 'paper cutter', 'paper trimmer blade', 'pastel set', 'pattern envelopes', 'pencil case', 'portfolio case', 'rotary cutter', 'scissors craft', 'scrapbook album', 'scrapbook paper',
- 
 'scrapbook stickers', 'sharpener handheld', 'sketch pad drawer', 'sketch pad organizer', 'sketch pad portfolio', 'sketch pads', 'sketching pencils set', 'stitch markers', 'stretched canvas', 'tape runner',
 'thread rack', 'touch up paint pen', 'washi tape set', 'watercolor paint set', 'watercolor paper pad', 'yarn basket', 'yarn spool organizer', 'yarn storage cube', 'yarn storage tote', 'yarn winder',
 'palette knives',
- 
 // Fitness & Exercise (61 items)
 'adjustable dumbbell set', 'ankle weights', 'balance board', 'bike floor stabilizer mat', 'dumbbell collars', 'dumbbell floor mat', 'dumbbell rack', 'dumbbell rack stand', 'dumbbell rack vertical', 'dumbbells',
 'exercise ball', 'exercise ball pump', 'exercise equipment storage rack', 'exercise mat', 'exercise mat rack', 'exercise mat storage strap', 'fitness tracker', 'foam roller', 'foam roller rack', 'foam roller storage bin',
 'foam roller storage rack', 'foam roller textured', 'jump rope', 'jump rope mat', 'kettlebell', 'kettlebell floor pad', 'kettlebell handle grips', 'kettlebell rack', 'kettlebell storage tray', 'massage gun',
-'massage gun heads', 'pilates ring', 'pull up bar doorway', 'resistance band door anchor', 'resistance band handles', 'resistance band hanger', 'resistance band organizer', 'resistance band set', 'resistance bands', 'stationary bike',
-'stationary bike cover', 'stationary bike mat', 'stationary bike mat protector', 'stationary bike pedal straps', 'stationary bike seat cover', 'stretch strap', 'treadmill', 'treadmill cover', 'treadmill lubricant', 'treadmill mat',
- 
-'treadmill safety key', 'treadmill safety key spare', 'weight bench', 'weight bench pad', 'wrist weights', 'yoga block', 'yoga mat bag', 'yoga mat cleaner', 'yoga mat strap', 'yoga strap',
-'yoga wheel',
- 
+'massage gun heads', 'pilates ring', 'pull up bar doorway', 'resistance band door anchor', 'resistance band hanger', 'resistance band organizer', 'resistance band set', 'resistance bands', 'stationary bike', 'stationary bike cover',
+'stationary bike mat', 'stationary bike mat protector', 'stationary bike pedal straps', 'stationary bike seat cover', 'stretch strap', 'treadmill', 'treadmill cover', 'treadmill lubricant', 'treadmill mat', 'treadmill safety key',
+'treadmill safety key spare', 'weight bench', 'weight bench pad', 'wrist weights', 'yoga block', 'yoga mat bag', 'yoga mat cleaner', 'yoga mat strap', 'yoga strap', 'yoga wheel',
 // Climate & Air Quality (14 items)
-'air purifier carbon filter', 'air purifier pre filter', 'air purifier spare filter', 'dehumidifier drain hose extension', 'dehumidifier drain pump', 'dehumidifier hose', 'dehumidifier water bucket', 'humidifier cleaning brush', 'humidifier spare filter', 'humidifier water filter',
-'portable heater safety tip switch', 'safe dehumidifier rod', 'thermostat', 'thermostat battery',
- 
+'air purifier carbon filter', 'air purifier pre filter', 'air purifier spare filter', 'dehumidifier drain hose extension', 'dehumidifier drain pump', 'dehumidifier water bucket', 'humidifier cleaning brush', 'humidifier spare filter', 'humidifier water filter', 'portable heater safety tip switch',
+'safe dehumidifier rod', 'thermostat', 'thermostat battery',
 // Safety & Security (24 items)
-'battery powered lantern', 'camera memory card', 'camera power extension cable', 'carbon monoxide backup unit', 'fire blanket', 'fire escape ladder', 'fire extinguisher inspection tag',
-'fire extinguisher wall cabinet', 'first aid cabinet', 'first aid organizer tray', 'first aid refill pack', 'first aid supplies organizer', 'floor safe', 'motion sensor batteries', 'safe lock box', 'security camera base station', 'security camera cable',
-'security camera privacy cover', 'smoke detector backup unit', 'smoke detector battery', 'flashlight batteries',
- 
+'battery powered lantern', 'camera memory card', 'camera power extension cable', 'carbon monoxide backup unit', 'fire blanket', 'fire escape ladder', 'fire extinguisher inspection tag', 'fire extinguisher wall cabinet', 'first aid cabinet', 'first aid organizer tray',
+'first aid refill pack', 'first aid supplies organizer', 'floor safe', 'motion sensor batteries', 'safe lock box', 'security camera base station', 'security camera cable', 'security camera privacy cover', 'smoke detector backup unit', 'smoke detector battery',
+'flashlight batteries',
 // Tools & Hardware (35 items)
 'adhesive hook heavy duty', 'adhesive putty', 'adhesive strip pack', 'adhesive strip refills', 'adjustable wrench', 'cordless drill', 'drill bit set', 'folding step ladder', 'hammer rubber grip', 'hammer storage hook',
-'hex key set', 'level tool', 'measuring tape holder', 'measuring tape retractable', 'nail assortment kit', 'picture hanging hooks', 'picture hanging hooks assorted', 'picture hanging wire roll', 'pliers set', 'precision screwdriver set',
-'putty knife', 'sandpaper variety pack', 'screw assortment kit', 'screwdriver bit set', 'screwdriver magnetic holder', 'spackle kit', 'step ladder', 'tape measure spare', 'toggle bolts', 'tool box organizer tray',
-'tool kit storage box', 'toolbox', 'toolbox organizer', 'utility knife', 'wall hook heavy duty',
- 
+'hex key set', 'level tool', 'measuring tape holder', 'nail assortment kit', 'picture hanging hooks', 'picture hanging hooks assorted', 'picture hanging wire roll', 'pliers set', 'precision screwdriver set', 'putty knife',
+'sandpaper variety pack', 'screw assortment kit', 'screwdriver bit set', 'screwdriver magnetic holder', 'spackle kit', 'step ladder', 'tape measure spare', 'toggle bolts', 'tool box organizer tray', 'tool kit storage box',
+'toolbox', 'toolbox organizer', 'utility knife', 'wall hook heavy duty',
 // Cleaning & Vacuums (52 items)
-'all purpose cleaner gallon', 'all purpose cleaner refill', 
-'floor cleaning solution',
-'glass cleaner microfiber cloth', 'glass cleaner refill', 'glass cleaner spray bottle', 'lint free cloths', 'microfiber cloth bulk pack', 'microfiber cloth pack', 'microfiber dust mitt', 'microfiber mop', 'mop', 'mop bucket liner',
-'mop handle clip', 'mop storage hook', 'odor eliminator spray', 'robot vacuum', 'robot vacuum brush set', 'robot vacuum dock', 'robot vacuum filters', 'spray bottle set', 'spray mop', 'spray mop pads',
-'squeegee', 'stain remover spray', 'vacuum attachments', 'vacuum crevice tool', 'vacuum dusting brush', 'vacuum extension wand', 'vacuum storage bags', 'vacuum storage hook', 'vacuum upholstery tool', 'wood floor cleaner',
- 
+'all purpose cleaner refill', 'floor cleaning solution', 'glass cleaner microfiber cloth', 'glass cleaner spray bottle', 'lint free cloths', 'microfiber cloth bulk pack', 'microfiber cloth pack', 'microfiber dust mitt', 'microfiber mop', 'mop',
+'mop bucket liner', 'mop handle clip', 'mop storage hook', 'odor eliminator spray', 'robot vacuum', 'robot vacuum brush set', 'robot vacuum dock', 'robot vacuum filters', 'spray bottle set', 'spray mop',
+'spray mop pads', 'stain remover spray', 'vacuum attachments', 'vacuum crevice tool', 'vacuum dusting brush', 'vacuum extension wand', 'vacuum storage bags', 'vacuum storage hook', 'vacuum upholstery tool', 'wood floor cleaner',
 'disposable wipes refill', 'funnel set',
- 
 // Trash, Recycling & Paper Products (11 items)
 'paper towel refill pack', 'paper towel storage bin', 'recycling bin divider insert', 'recycling bin liner', 'recycling sorter bins', 'recycling sorting labels', 'trash bag bulk roll', 'trash can deodorizer discs', 'trash can step lid', 'trash compactor bags',
 'trash odor absorber',
- 
 // Seasonal & Long-Term Storage (35 items)
-'photo album'
+'photo album',
 // TOTAL: 1067 items        
 ],
 
-        Basement: [
-
-'all purpose cleaner', 'area rug', 'battery organizer case',
-'broom', 'carbon monoxide detector', 'cleaning caddy',
-'coat rack', 'coffee table', 'dehumidifier',
-'dustpan', 'extension cord reel', 'fire extinguisher',
-'first aid kit', 'gaming console', 'hammer',
-'humidifier', 'humidifier filter', 'lantern',
-'light bulbs', 'loveseat', 'measuring tape',
-'mop bucket', 'photo storage box', 'picture hanging kit',
-'puzzle storage box', 'screwdriver set', 'smoke detector',
-'sofa', 'space heater', 'television',
-
+        Basement: ['all purpose cleaner', 'area rug', 'battery organizer case', 'broom', 'carbon monoxide detector', 'cleaning caddy', 'coat rack', 'coffee table', 'dehumidifier', 'dustpan',
+'extension cord reel', 'fire extinguisher', 'first aid kit', 'hammer', 'humidifier', 'humidifier filter', 'lantern', 'light bulbs', 'loveseat', 'measuring tape',
+'mop bucket', 'photo storage box', 'picture hanging kit', 'puzzle storage box', 'screwdriver set', 'smoke detector', 'sofa', 'space heater', 'television',
 // Water Heater & Hot Water System (12 items)
 'water heater T&P relief valve', 'water heater anode rod', 'water heater burner assembly', 'water heater control valve', 'water heater expansion tank', 'water heater heating element', 'water heater insulation blanket', 'water heater pressure relief valve', 'water heater recirculation pump', 'water heater shutoff valve',
 'water heater stand', 'water heater thermostat',
-
 // Sump Pump System (9 items)
 'sump pump alarm', 'sump pump alarm sensor', 'sump pump alarm siren', 'sump pump backflow preventer', 'sump pump backup pump unit', 'sump pump battery backup', 'sump pump battery box', 'sump pump battery charger unit', 'sump pump check valve',
-
 // Water Softener & Filtration (5 items)
 'UV water purifier', 'filter housing bypass valve', 'water filtration sediment prefilter', 'water softener salt bags', 'whole house filter housing',
-
 // Plumbing (25 items)
 'P trap kit', 'backwater valve', 'basin wrench', 'cleanout wrench', 'drain snake', 'ejector pump alarm', 'floor drain snake', 'floor drain strainer basket', 'floor drain trap primer', 'garden hose',
 'hand auger', 'hose reel', 'pipe cutter', 'pipe freeze kit', 'pipe wrench', 'plumbing torch', 'sewage ejector pump', 'sink faucet handle set', 'sink faucet spray head', 'spray nozzle',
 'toilet auger', 'utility hose', 'utility sink cabinet', 'utility sink splash guard', 'utility sink storage shelf',
-
 // Electrical (27 items)
 'AFCI breaker', 'GFCI breaker', 'breaker finder tool', 'circuit breaker lockout kit', 'electrical cord reel', 'electrical panel breaker labels', 'electrical panel cover', 'electrical panel directory labels', 'electrical panel surge protector', 'electrical tape',
 'electrical tape roll', 'generator inlet box', 'generator interlock kit', 'generator transfer switch', 'junction box', 'linesman pliers', 'multimeter', 'needle nose pliers', 'non contact voltage detector', 'service disconnect switch',
 'subpanel', 'surge protection device whole house', 'tandem breaker', 'transfer switch cover', 'voltage tester', 'wire cutters', 'wire strippers',
-
 // Generator (11 items)
 'generator', 'generator air filter', 'generator battery', 'generator battery tender', 'generator cover', 'generator extension cord', 'generator fuel can', 'generator fuel stabilizer', 'generator oil', 'generator oil filter',
 'generator spark plug',
-
 // Radon System (2 items)
 'radon system gauge', 'radon test kit',
-
 // Lighting & Electrical Accessories (29 items)
 'CO alarm plug in', 'LED shop lights', 'backup battery charger', 'backup battery pack', 'backup power inverter', 'batteries', 'battery backup UPS', 'battery bulk pack', 'battery lantern', 'battery storage case',
-'carbon monoxide alarm backup battery', 'extension cord floor protector', 'extension cord heavy duty', 'extension cords', 'flashlight charger', 'flashlight rechargeable', 'flashlights', 'headlamp', 'lantern battery pack', 'lantern rechargeable',
-'portable work light', 'power strip surge guard', 'power strip surge outlet', 'power strips', 'shop light motion sensor', 'shop light pull chain switch', 'smoke detector backup battery', 'solar charger', 'work light tripod',
-
+'carbon monoxide alarm backup battery', 'extension cord floor protector', 'extension cords', 'flashlight charger', 'flashlight rechargeable', 'flashlights', 'headlamp', 'lantern battery pack', 'lantern rechargeable', 'portable work light',
+'power strip surge guard', 'power strip surge outlet', 'power strips', 'shop light motion sensor', 'shop light pull chain switch', 'smoke detector backup battery', 'solar charger', 'work light tripod',
 // Safety & Environmental Monitoring (17 items)
-'air quality monitor', 'carbon monoxide alarm battery pack', 'carbon monoxide detector spare unit', 'digital hygrometer', 'emergency exit sign', 'emergency siren', 'emergency strobe light', 'fire blanket', 'fire extinguisher cabinet', 'fire extinguisher inspection tag',
-'freeze alarm sensor', 'humidity gauge', 'smoke alarm interconnect module', 'smoke detector spare unit', 'temperature alarm sensor', 'water leak alarm sensor', 'water leak detector',
-
+'air quality monitor', 'carbon monoxide alarm battery pack', 'carbon monoxide detector spare unit', 'digital hygrometer', 'emergency siren', 'emergency strobe light', 'fire blanket', 'fire extinguisher cabinet', 'fire extinguisher inspection tag', 'freeze alarm sensor',
+'humidity gauge', 'smoke alarm interconnect module', 'smoke detector spare unit', 'temperature alarm sensor', 'water leak alarm sensor', 'water leak detector',
 // Shelving & Storage Cabinets (7 items)
 'basement shelving expansion kit', 'cabinet key set', 'locking storage cabinet', 'metal storage shelves', 'plastic storage shelves', 'storage cabinets', 'wire shelving',
-
 // Workbench & Workshop Setup (9 items)
 'anti fatigue mat', 'bench grinder', 'creeper mechanic', 'hydraulic jack', 'jack stands', 'shop press', 'workbench', 'workbench stool', 'workbench vise',
-
 // Pegboard & Tool Organization (15 items)
 'hardware organizer cabinet', 'magnetic parts tray', 'magnetic pickup tool', 'magnetic tool strip', 'nail storage compartment box', 'parts organizer drawers', 'rolling tool cart', 'rolling tool cart drawer liner', 'screw storage drawer unit', 'small parts bins',
 'tool chest', 'tool chest drawer organizer', 'tool chest drawer slides', 'tool organizer cabinet', 'tool storage cabinet',
-
 // Hand Tools & Power Tools (34 items)
 'C clamps', 'bar clamps', 'box cutter', 'circular saw', 'cordless drill battery', 'drill', 'drill case', 'heat gun', 'impact driver', 'impact sockets',
 'jigsaw', 'ladder', 'ladder leveler', 'level', 'miter saw', 'nail gun', 'nails assortment', 'pliers', 'ratchet set', 'router tool',
 'sander orbital', 'sandpaper pack', 'sawzall reciprocating saw', 'screws assortment', 'shop clamps', 'socket set', 'spring clamps', 'staple gun', 'step ladder', 'stud finder',
 'table saw', 'tool kit', 'torque wrench', 'wrench set',
-
 // Paint, Drywall & Finishing (16 items)
 'basement waterproofing paint', 'caulk gun', 'concrete patch', 'concrete sealer', 'crack repair epoxy', 'drop cloths', 'drywall compound', 'drywall patch kit', 'hydraulic cement', 'paint brushes',
-'paint can storage rack', 'paint cans', 'paint rollers', 'primer gallon', 'spackle', 'wood filler',
-
+'paint can storage rack', 'paint cans', 'paint rollers', 'primer gallon', 'spackle',
 // Storage Bins & Boxes (28 items)
 'art supply bin', 'bankers boxes', 'board game storage box', 'bubble wrap roll', 'bungee cords', 'clear storage bins', 'craft storage box', 'document file crate', 'document safe pouch', 'document storage tote',
 'file storage boxes', 'food grade buckets', 'food storage bin airtight', 'food storage rotation rack', 'labeled storage bins', 'moving boxes', 'packing tape dispenser', 'plastic storage bins', 'ratchet straps', 'storage trunk',
 'storage trunk lock', 'tie down straps', 'toy storage bins', 'vacuum sealer machine', 'vacuum storage bags', 'water storage containers', 'waterproof storage container', 'weatherproof storage tote',
-
 // Photo, Document & Archive Storage (11 items)
 'file folder organizer tray', 'file organizer expanding', 'filing cabinet', 'filing folders', 'memory card storage case', 'memory keepsake bin', 'memory keepsake chest', 'memory keepsake organizer', 'ornament storage box', 'photo storage album',
 'photo storage archival box',
-
 // Spare Furniture & Overflow (15 items)
 'book collection', 'bookshelves', 'card table', 'computer desk', 'desk', 'desk lamp', 'folding chairs', 'folding tables', 'magazine storage', 'office chair',
 'old textbooks', 'recliner', 'side tables', 'spare couch', 'spare dining chairs',
-
 // Seasonal & Holiday Storage (14 items)
-'artificial tree storage bag', 'gift bags', 'gift boxes', 'gift wrap storage container', 'holiday inflatables', 'holiday lights storage reel', 'holiday storage bins', 'seasonal decor bin', 'seasonal decor storage chest', 'tree stand',
-'wrapping paper cutter spare', 'wrapping paper rolls', 'wreath storage bag', 'yard decor storage bin',
-
+'artificial tree storage bag', 'gift bags', 'gift boxes', 'gift wrap storage container', 'holiday inflatables', 'holiday lights storage reel', 'holiday storage bins', 'seasonal decor bin', 'tree stand', 'wrapping paper cutter spare',
+'wrapping paper rolls', 'wreath storage bag', 'yard decor storage bin',
 // Camping & Outdoor Gear (19 items)
 'air mattress', 'air pump', 'ball pump', 'bike rack', 'camp cot', 'camping chairs', 'camping lantern LED', 'camping stove', 'camping stove carry case', 'coolers',
 'grill cover', 'picnic basket', 'picnic blanket', 'portable grill', 'propane tank', 'sleeping bags', 'sleeping pad', 'sports equipment bin', 'tent',
-
 // Sports & Recreation Equipment (6 items)
 'helmet rack', 'kayak rack', 'ski rack', 'snowboard rack', 'sports bag', 'sports gear drying rack',
-
 // Fitness Equipment (29 items)
 'ab roller', 'balance board', 'barbell rack', 'barbell set', 'boxing gloves', 'dumbbells', 'elliptical machine', 'exercise ball', 'exercise bike', 'fitness mat rack',
 'foam roller', 'jump rope', 'kettlebell rack', 'lifting straps', 'medicine ball', 'power rack', 'pull up bar', 'punching bag', 'punching bag stand', 'resistance bands',
 'rowing machine', 'slam ball', 'speed bag', 'treadmill', 'weight belt', 'weight bench', 'weight lifting gloves', 'weight plates', 'yoga mats',
-
 // Game Room & Entertainment (12 items)
 'arcade machine', 'dart board', 'movie collection', 'movie storage cabinet', 'ping pong table', 'pool balls set', 'pool cue case', 'pool cues', 'pool table', 'projector',
 'projector screen', 'sound system',
-
 // Cleaning & Janitorial (7 items)
-'bleach', 'disinfecting wipes', 'dust mop', 'mop', 'scrub brush', 'shop vacuum', 'shop vacuum filter',
-
+'bleach', 'disinfecting wipes', 'dust mop', 'mop', 'shop vacuum', 'shop vacuum filter',
 // Trash & Recycling (3 items)
 'compost bin', 'compost bin liners', 'trash can heavy duty',
-
 // Laundry & Garment Care (5 items)
 'fabric softener', 'iron', 'ironing board', 'laundry detergent', 'sewing machine',
-
 // Ventilation & Climate Control (6 items)
 'air mover fan', 'box fan', 'fan filter', 'floor fan', 'portable heater', 'ventilation fan',
-
 // Moving & Transport (6 items)
 'furniture dolly', 'hand truck', 'hand truck stair climbers', 'moving blankets', 'moving dolly', 'rolling cart',
-
 // Emergency Preparedness (18 items)
 'crank radio', 'emergency blankets', 'emergency flashlight', 'emergency kit', 'emergency preparedness kit', 'emergency radio', 'fire safe box', 'first aid refill kit large', 'first aid refill pack', 'first aid trauma kit',
 'food storage bucket', 'jump starter pack', 'portable inverter', 'portable water filter', 'safe', 'safety glasses', 'water jug storage rack', 'water storage jug rack',
-
 // Personal Protective Equipment (4 items)
 'hearing protection earmuffs', 'knee pads', 'respirator mask', 'work gloves',
-
 // TOTAL: 401 items
-        ],
+],
 
-        Garage: [
-
-'shop vacuum bags', 'shop vacuum hose', 'shop vacuum wand', 'puzzle storage box', 'mop bucket', 'humidifier filter',
-'extension cord reel', 'photo storage box', 'all purpose cleaner', 'cleaning caddy', 'dustpan', 'broom', 'picture hanging kit', 'measuring tape', 'hammer',
-'screwdriver set', 'first aid kit', 'fire extinguisher', 'carbon monoxide detector', 'smoke detector', 'space heater', 'dehumidifier', 'humidifier', 'coat rack', 'lantern', 'area rug', 'light bulbs',
-'gaming console', 'television', 'coffee table', 'loveseat', 'sofa', 'light bulb storage case', 'trash can deodorizer', 'battery organizer case',
-
+        Garage: ['shop vacuum bags', 'shop vacuum hose', 'shop vacuum wand', 'puzzle storage box', 'mop bucket', 'humidifier filter', 'extension cord reel', 'photo storage box', 'all purpose cleaner', 'cleaning caddy',
+'dustpan', 'broom', 'picture hanging kit', 'measuring tape', 'hammer', 'screwdriver set', 'first aid kit', 'fire extinguisher', 'carbon monoxide detector', 'smoke detector',
+'space heater', 'dehumidifier', 'humidifier', 'coat rack', 'lantern', 'area rug', 'light bulbs', 'television', 'coffee table', 'loveseat',
+'sofa', 'light bulb storage case', 'trash can deodorizer', 'battery organizer case',
 // HVAC & Ductwork (10 items)
 'duct clamp set', 'duct tape', 'duct tape bulk roll', 'duct tape roll', 'duct tape storage bin', 'furnace filter', 'heavy duty duct tape', 'hvac duct sealant', 'hvac return vent', 'hvac vent covers',
-
 // Water Heater & Hot Water System (17 items)
 'anti scald valve', 'hot water expansion valve', 'mixing valve thermostatic', 'water heater T&P relief valve', 'water heater anode rod', 'water heater burner assembly', 'water heater control valve', 'water heater drain pan', 'water heater expansion tank', 'water heater heating element',
 'water heater insulation blanket', 'water heater pressure relief valve', 'water heater recirculation pump', 'water heater shutoff valve', 'water heater stand', 'water heater thermostat', 'water heater vent pipe',
-
 // Sump Pump System (13 items)
 'sump pump alarm', 'sump pump alarm sensor', 'sump pump alarm siren', 'sump pump backflow preventer', 'sump pump backup pump unit', 'sump pump basin cover', 'sump pump battery backup', 'sump pump battery box', 'sump pump battery charger unit', 'sump pump check valve',
 'sump pump discharge clamp', 'sump pump discharge hose', 'sump pump float switch',
-
 // Water Softener & Filtration (11 items)
 'UV water purifier', 'filter housing bypass valve', 'water filter housing wrench spare', 'water filtration housing wrench', 'water filtration sediment prefilter', 'water softener brine tank lid', 'water softener bypass valve', 'water softener iron remover', 'water softener resin cleaner', 'water softener salt bags',
 'whole house filter housing',
-
 // Plumbing (25 items)
 'backwater valve', 'basin wrench', 'dehumidifier drain hose', 'drain snake', 'ejector pump alarm', 'ejector pump check valve', 'floor drain backflow valve', 'floor drain cover', 'floor drain snake', 'garden hose',
 'hand auger', 'hose reel', 'pipe cutter', 'pipe freeze kit', 'pipe wrench', 'plumbing torch', 'sewage ejector pump', 'sink drain trap', 'sink faucet aerator', 'sink faucet handle set',
 'sink faucet spray head', 'sink supply lines', 'spray nozzle', 'toilet auger', 'utility hose',
-
 // Electrical (28 items)
 'AFCI breaker', 'GFCI breaker', 'breaker finder tool', 'ceiling junction box cover', 'circuit breaker lockout kit', 'electrical cord reel', 'electrical panel breaker labels', 'electrical panel cover', 'electrical panel directory labels', 'electrical panel surge protector',
 'electrical tape', 'electrical tape roll', 'generator inlet box', 'generator interlock kit', 'generator transfer switch', 'junction box', 'linesman pliers', 'multimeter', 'needle nose pliers', 'non contact voltage detector',
 'service disconnect switch', 'subpanel', 'surge protection device whole house', 'tandem breaker', 'transfer switch cover', 'voltage tester', 'wire cutters', 'wire strippers',
-
 // Generator (12 items)
 'generator', 'generator air filter', 'generator battery', 'generator battery tender', 'generator cover', 'generator extension cord', 'generator fuel can', 'generator fuel stabilizer', 'generator oil', 'generator oil filter',
 'generator spark plug', 'generator wheel kit',
-
 // Radon System (3 items)
 'radon system fan cover', 'radon system gauge', 'radon test kit',
-
 // Lighting & Electrical Accessories (25 items)
-'CO alarm plug in', 'LED shop lights', 'backup battery charger', 'backup battery pack', 'backup power inverter', 'battery backup UPS', 'carbon monoxide alarm backup battery', 'ceiling light bulb guard', 'ceiling light pull chain', 'extension cord floor protector',
-'extension cord heavy duty', 'extension cords', 'headlamp', 'light fixture mounting bracket', 'portable work light', 'power strip surge guard', 'power strip surge outlet', 'power strip with USB', 'power strips', 'shop light motion sensor',
-'shop light pull chain switch', 'smoke detector backup battery', 'solar charger', 'work light tripod', 'workbench power strip',
-
+'CO alarm plug in', 'LED shop lights', 'backup battery charger', 'backup battery pack', 'backup power inverter', 'battery backup UPS', 'carbon monoxide alarm backup battery', 'ceiling light pull chain', 'extension cord floor protector', 'extension cords',
+'headlamp', 'light fixture mounting bracket', 'portable work light', 'power strip surge guard', 'power strip surge outlet', 'power strip with USB', 'power strips', 'shop light motion sensor', 'shop light pull chain switch', 'smoke detector backup battery',
+'solar charger', 'work light tripod', 'workbench power strip',
 // Safety & Environmental Monitoring (17 items)
-'air quality monitor', 'carbon monoxide alarm battery pack', 'carbon monoxide detector spare unit', 'digital hygrometer', 'emergency exit sign', 'emergency siren', 'emergency strobe light', 'fire blanket', 'fire extinguisher cabinet', 'fire extinguisher inspection tag',
-'freeze alarm sensor', 'humidity gauge', 'smoke alarm interconnect module', 'smoke detector spare unit', 'temperature alarm sensor', 'water leak alarm sensor', 'water leak detector',
-
+'air quality monitor', 'carbon monoxide alarm battery pack', 'carbon monoxide detector spare unit', 'digital hygrometer', 'emergency siren', 'emergency strobe light', 'fire blanket', 'fire extinguisher cabinet', 'fire extinguisher inspection tag', 'freeze alarm sensor',
+'humidity gauge', 'smoke alarm interconnect module', 'smoke detector spare unit', 'temperature alarm sensor', 'water leak alarm sensor', 'water leak detector',
 // Shelving & Storage Cabinets (14 items)
 'basement shelving expansion kit', 'cabinet key set', 'locking cabinet key spare', 'locking storage cabinet', 'metal shelf liners', 'metal storage shelves', 'plastic shelf storage bins', 'plastic storage shelves', 'storage cabinet casters', 'storage cabinet lock set',
 'storage cabinet magnetic latch', 'storage cabinet shelf risers', 'storage cabinets', 'wire shelving',
-
 // Workbench & Workshop Setup (18 items)
 'anti fatigue mat', 'bench grinder', 'creeper mechanic', 'hydraulic jack', 'jack stands', 'shop press', 'vise mounting bolts', 'vise swivel base', 'workbench', 'workbench butcher block top',
 'workbench drawer liner', 'workbench drawer organizer', 'workbench drawer slides', 'workbench light bar', 'workbench overhead light', 'workbench power outlet strip', 'workbench stool', 'workbench vise',
-
 // Pegboard & Tool Organization (30 items)
 'hardware organizer cabinet', 'magnetic parts tray', 'magnetic pickup tool', 'magnetic tool strip', 'nail storage compartment box', 'parts organizer drawers', 'pegboard bin holders', 'pegboard drill holder', 'pegboard hooks', 'pegboard magnetic strip',
 'pegboard pliers holder', 'pegboard screwdriver holder', 'pegboard shelf attachments', 'pegboard shelf brackets', 'pegboard storage bins', 'pegboard tool holders', 'pegboard wrench holders', 'pegboard wrench rack', 'rolling tool cart', 'rolling tool cart drawer liner',
 'rolling tool cart shelf mat', 'screw storage drawer unit', 'screwdriver bit organizer', 'small parts bins', 'tool chest', 'tool chest drawer liners', 'tool chest drawer organizer', 'tool chest drawer slides', 'tool organizer cabinet', 'tool storage cabinet',
-
 // Hand Tools & Power Tools (34 items)
 'C clamps', 'bar clamps', 'box cutter', 'circular saw', 'cordless drill battery', 'drill', 'drill case', 'drill charger', 'heat gun', 'impact driver',
 'impact sockets', 'jigsaw', 'ladder', 'ladder leveler', 'level', 'miter saw', 'nail gun', 'nails assortment', 'pliers', 'ratchet set',
 'router tool', 'sander orbital', 'sandpaper pack', 'sawzall reciprocating saw', 'screws assortment', 'shop clamps', 'socket set', 'spring clamps', 'staple gun', 'step ladder',
 'table saw', 'tool kit', 'torque wrench', 'wrench set',
-
 // Paint, Drywall & Finishing (19 items)
 'basement waterproofing paint', 'concrete patch', 'concrete sealer', 'corner bead', 'crack repair epoxy', 'drop cloths', 'drywall compound', 'drywall patch kit', 'hydraulic cement', 'joint knife set',
 'mud pan', 'paint brushes', 'paint can storage rack', 'paint cans', 'paint rollers', 'spackle knife', 'spackle repair kit', 'spackle sanding block', 'spackle sanding sponge',
-
 // Storage Bins & Boxes (29 items)
 'bankers boxes', 'bubble wrap roll', 'bungee cords', 'clear storage bins', 'document file crate', 'document safe pouch', 'document storage tote', 'file storage boxes', 'file storage waterproof tote', 'food grade buckets',
 'food storage bin airtight', 'hanging file box', 'labeled storage bins', 'moving boxes', 'packing tape dispenser', 'plastic storage bins', 'ratchet straps', 'storage trunk', 'storage trunk lock', 'tie down straps',
 'vacuum storage bags', 'water storage containers', 'water storage jug rack', 'waterproof storage container', 'weatherproof storage tote', 'art supply bin', 'board game storage box', 'craft storage box', 'toy storage bins',
-
 // Photo, Document & Archive Storage (11 items)
 'file folder organizer tray', 'file organizer expanding', 'filing cabinet', 'filing folders', 'memory card storage case', 'memory keepsake bin', 'memory keepsake chest', 'memory keepsake organizer', 'ornament storage box', 'photo storage album',
 'photo storage archival box',
-
 // Spare Furniture & Overflow (16 items)
 'book collection', 'bookshelves', 'card table', 'computer desk', 'desk', 'desk lamp', 'magazine storage', 'magazine storage bin', 'office chair', 'old textbooks',
 'recliner', 'side tables', 'spare couch', 'spare dining chairs', 'folding chairs', 'folding tables',
-
 // Seasonal & Holiday Storage (12 items)
 'artificial tree storage bag', 'gift bags', 'gift boxes', 'gift wrap storage container', 'holiday inflatables', 'holiday lights storage reel', 'holiday storage bins', 'seasonal decor bin', 'tree stand', 'wrapping paper rolls',
 'wreath storage bag', 'yard decor storage bin',
-
 // Camping & Outdoor Gear (19 items)a
 'air mattress', 'air pump', 'ball pump', 'camp cot', 'camp stove carry case', 'camping chairs', 'camping lantern LED', 'camping stove', 'cooler cover', 'cooler wheel kit',
 'coolers', 'grill cover', 'picnic basket', 'picnic blanket', 'portable grill', 'propane tank', 'sleeping bags', 'sleeping pad', 'tent',
-
 // Sports & Recreation Equipment (8 items)
 'bike rack', 'helmet rack', 'kayak rack', 'ski rack', 'snowboard rack', 'sports bag', 'sports equipment bin', 'sports gear drying rack',
-
 // Fitness Equipment (30 items)
 'ab roller', 'balance board', 'barbell rack', 'barbell set', 'boxing gloves', 'dumbbell rack', 'dumbbells', 'elliptical machine', 'exercise ball', 'exercise bike',
 'fitness mat rack', 'foam roller', 'jump rope', 'kettlebell rack', 'lifting straps', 'medicine ball', 'power rack', 'pull up bar', 'punching bag', 'punching bag stand',
 'resistance bands', 'rowing machine', 'slam ball', 'speed bag', 'treadmill', 'weight belt', 'weight bench', 'weight lifting gloves', 'weight plates', 'yoga mats',
-
 // Game Room & Entertainment (13 items)
 'arcade machine', 'dart board', 'movie collection', 'movie storage cabinet', 'ping pong table', 'pool balls set', 'pool cue case', 'pool cues', 'pool table', 'projector',
 'projector bulb spare', 'projector screen', 'sound system',
-
 // Cleaning & Janitorial (17 items)
-'bleach', 'disinfecting wipes', 'dust mop', 'fan filter', 'mop', 'scrub brush', 'shop vacuum', 'shop vacuum bags', 'shop vacuum brush tool', 'shop vacuum crevice tool',
-'shop vacuum filter', 'shop vacuum floor nozzle', 'shop vacuum hose', 'shop vacuum wand', 'vacuum sealer machine', 'ventilation fan', 'wet dry vacuum squeegee',
-
+'bleach', 'disinfecting wipes', 'dust mop', 'fan filter', 'mop', 'shop vacuum', 'shop vacuum bags', 'shop vacuum brush tool', 'shop vacuum crevice tool', 'shop vacuum filter',
+'shop vacuum floor nozzle', 'shop vacuum hose', 'shop vacuum wand', 'vacuum sealer machine', 'ventilation fan', 'wet dry vacuum squeegee',
 // Trash & Recycling (4 items)
 'compost bin', 'compost bin liners', 'recycling bin wheels', 'trash can heavy duty',
-
 // Laundry & Garment Care (5 items)
 'fabric softener', 'iron', 'ironing board', 'laundry detergent', 'sewing machine',
-
 // Ventilation & Climate Control (4 items)
 'air mover fan', 'box fan', 'floor fan', 'portable heater',
-
 // Moving & Transport (7 items)
 'furniture dolly', 'hand truck', 'hand truck stair climbers', 'moving blankets', 'moving dolly', 'plastic tote dolly', 'rolling cart',
-
 // Emergency Preparedness (27 items)
 'batteries', 'battery bulk pack', 'battery lantern', 'battery storage case', 'crank radio', 'emergency blankets', 'emergency flashlight', 'emergency kit', 'emergency preparedness kit', 'emergency radio',
 'fire safe box', 'first aid refill kit large', 'first aid refill pack', 'first aid trauma kit', 'flashlight charger', 'flashlight rechargeable', 'flashlights', 'food storage bucket', 'food storage rotation rack', 'jump starter pack',
 'lantern battery pack', 'lantern rechargeable', 'portable inverter', 'portable water filter', 'safe', 'safety glasses', 'water jug storage rack',
-
 // Personal Protective Equipment (7 items)
 'hearing protection earmuffs', 'knee pads', 'respirator mask', 'utility sink cabinet', 'utility sink splash guard', 'utility sink storage shelf', 'work gloves',
-
 // TOTAL: 485 items
-        ],
+],
 
-        Laundry: [
-'all purpose cleaner', 'broom', 'dehumidifier',
-'dustpan', 'extension cord', 'fire extinguisher',
-'glass cleaner', 'handheld steamer', 'light bulbs',
-'lint roller', 'mop bucket', 'power strip',
-'wall clock', 'cleaning gloves', 'paper towels',
-
+        Laundry: ['all purpose cleaner', 'broom', 'dehumidifier', 'dustpan', 'extension cord', 'fire extinguisher', 'glass cleaner', 'handheld steamer', 'light bulbs', 'lint roller',
+'mop bucket', 'power strip', 'wall clock', 'cleaning gloves',
 // Washing Machine (5 items)
-'washer drip pan', 'washer pedestal storage bin', 
-
+'washer drip pan', 'washer pedestal storage bin',
 // Dryer & Venting (18 items)
-'dryer', 'wool dryer balls', 'dryer ball refill set', 'dryer booster fan', 
-'dryer rack insert', 'dryer sheets box', 'dryer stacking kit', 'dryer vent cleaning brush', 'dryer vent cleaning kit', 'dryer vent cleaning rods', 'dryer vent hose', 
-
+'dryer', 'wool dryer balls', 'dryer ball refill set', 'dryer booster fan', 'dryer rack insert', 'dryer sheets box', 'dryer stacking kit', 'dryer vent cleaning brush', 'dryer vent cleaning kit', 'dryer vent cleaning rods',
+'dryer vent hose',
 // Laundry Sink & Plumbing (12 items)
 'dehumidifier drain hose', 'drain snake handheld', 'laundry sink', 'laundry sink cabinet', 'laundry sink faucet', 'laundry sink soap dispenser', 'laundry sink splash guard', 'laundry sink sprayer', 'plunger flange style', 'utility sink floor mat',
 'utility sink strainer', 'utility sink wall bracket',
-
 // Cabinets, Shelving & Countertops (13 items)
 'folding table', 'laundry cabinet glass doors', 'laundry cabinet handles', 'laundry cabinet sliding doors', 'laundry cabinets', 'laundry countertop', 'laundry shelf LED strip', 'laundry shelving unit', 'laundry under cabinet lighting strip', 'wire shelving rack',
-
 // Hampers, Baskets & Laundry Bags (19 items)
 'collapsible laundry basket', 'delicates bag', 'double laundry hamper', 'laundry basket plastic', 'laundry basket woven', 'laundry color separation bags', 'laundry hamper', 'laundry hamper deodorizer', 'laundry mesh divider baskets', 'laundry sorter rolling',
 'laundry sorter three bin', 'laundry storage baskets', 'laundry storage crate stackable', 'laundry supply basket wicker', 'laundry wall mounted basket system', 'mesh laundry bags', 'rolling laundry bin with lid', 'rolling laundry cart', 'shoe wash bag',
-
 // Hangers & Garment Storage (26 items)
 'clip hangers', 'clothes hangers plastic', 'clothes hangers velvet', 'clothes hangers wood', 'clothing drying tree rack', 'clothing rolling rack', 'clothing storage cedar hangers', 'clothing storage garment rack', 'coat hangers', 'garment bag breathable cotton',
 'garment bag large', 'garment bag small', 'garment bag zippered', 'garment hanger clips set', 'garment storage box', 'garment storage vacuum bags', 'hanger organizer rack', 'laundry rolling garment rack', 'over door hanger rack', 'padded hangers',
 'pants hangers', 'shoe drying rack', 'shoe laundry wash bag', 'skirt hangers', 'sock mesh wash pouch', 'sock organizer drawer insert',
-
 // Ironing & Steaming (10 items)
 'fabric repair patches iron on', 'garment steamer', 'iron', 'iron cord wrap', 'iron storage caddy', 'ironing board', 'ironing board cover', 'ironing water spray bottle', 'spray bottle', 'steamer water cup',
-
 // Sewing & Fabric Care (20 items)
-'button repair kit', 'clothing moth deterrent cedar blocks', 'clothing repair kit deluxe', 'elastic band roll', 'fabric glue', 'fabric lint brush reusable', 'fabric repair tape', 'fabric shaver', 'hemming tape', 'lint brush handheld',
-'lint roller refills', 'measuring tape sewing', 'needle set', 'patch repair kit', 'safety pins box', 'sewing kit', 'sewing machine', 'tailor chalk', 'thread organizer rack', 'thread spool set',
-
+'button repair kit', 'clothing moth deterrent cedar blocks', 'elastic band roll', 'fabric glue', 'fabric lint brush reusable', 'fabric repair tape', 'fabric shaver', 'hemming tape', 'lint brush handheld', 'lint roller refills',
+'measuring tape sewing', 'needle set', 'patch repair kit', 'safety pins box', 'sewing kit', 'sewing machine', 'tailor chalk', 'thread organizer rack', 'thread spool set',
 // Laundry Supplies & Detergents (36 items)
 'bleach bottle', 'color safe bleach', 'color safe stain spray', 'detergent dispenser pump', 'detergent storage container', 'fabric softener bottle', 'fabric softener pump', 'garment deodorizer spray', 'laundry bar soap', 'laundry brightener liquid',
 'laundry detergent bulk dispenser', 'laundry detergent eco sheets', 'laundry detergent liquid', 'laundry detergent powder', 'laundry detergent pump bottle', 'laundry measuring cup', 'laundry pet hair remover roller', 'laundry pet hair remover sheets', 'laundry pods container', 'laundry static guard spray',
 'laundry supply caddy', 'laundry supply shelf', 'laundry supply turntable', 'laundry whitening booster powder', 'laundry wrinkle spray large', 'odor eliminator spray', 'odor neutralizer spray', 'oxygen booster tub', 'oxygen cleaner', 'pre treat spray',
 'stain remover spray', 'stain stick remover', 'starch refill bottle', 'starch spray', 'wrinkle release spray', 'wrinkle spray refill',
-
 // Drying & Folding (12 items)
-'clothesline retractable reel', 'clothespin bag', 'clothespins', 'clothing folding template board', 'folding drying rack', 'indoor clothesline', 'laundry drying rack', 'laundry folding board', 'laundry folding chair', 'laundry folding counter light',
-'laundry room sink drying rack', 'over door drying rack',
-
+'clothespin bag', 'clothing folding template board', 'folding drying rack', 'indoor clothesline', 'laundry folding board', 'laundry folding chair', 'laundry folding counter light', 'laundry room sink drying rack',
 // Cleaning Supplies (16 items)
-'all purpose cleaner refill', 'cleaning brush set small', 'cleaning microfiber towel stack', 'cleaning supply tote', 'cleaning wipes', 'disinfectant refill bottle', 'disinfectant spray', 'glass cleaner refill', 'laundry recycling bin divider', 'laundry trash bag dispenser',
-'laundry trash liner roll', 'mop', 'paper towel bulk pack', 'scrub brush', 'scrub sponge refill pack', 'sponges',
-
+'all purpose cleaner refill', 'cleaning brush set small', 'cleaning microfiber towel stack', 'cleaning supply tote', 'cleaning wipes', 'disinfectant refill bottle', 'disinfectant spray', 'laundry recycling bin divider', 'laundry trash bag dispenser', 'laundry trash liner roll',
+'mop', 'paper towel bulk pack', 'scrub sponge refill pack', 'sponges',
 // Trash & Recycling (4 items)
 'laundry room trash can', 'laundry trash can pedal', 'recycling bin small', 'trash bags small',
-
 // Safety & Monitoring (8 items)
 'appliance surge protector', 'carbon monoxide detector battery pack', 'fire extinguisher cabinet small', 'fire extinguisher inspection tag', 'laundry room humidity monitor', 'laundry room leak alarm smart', 'smoke detector battery pack', 'water leak detector',
-
 // Power & Lighting (6 items)
 'ceiling light LED panel', 'extension cord organizer wrap', 'laundry room extension cord heavy duty', 'laundry room surge protector strip', 'laundry smart plug', 'power strip surge protector',
-
 // Decor & Room Accessories (12 items)
 'change jar', 'laundry room bulletin board', 'laundry room essential oil diffuser', 'laundry room rug', 'laundry room seating stool', 'laundry room storage bench', 'laundry room wall art', 'laundry room whiteboard', 'laundry rug non slip pad', 'laundry storage ottoman',
 'lost sock bin', 'utility hook heavy duty',
-
 // Comfort & Utility (4 items)
 'anti fatigue mat', 'fan portable', 'step stool', 'step stool folding',
-
 // Appliance Accessories (3 items)
 'appliance dolly', 'appliance moving straps', 'appliance polish stainless',
-
 // TOTAL: 224 items
-        ],
+],
 
-        'Shed / Storage Unit': [
-// Shed Storage & Organization (49 items)
+        'Shed / Storage Unit': [// Shed Storage & Organization (49 items)
 'overhead storage shelf', 'corner shelving unit', 'heavy duty storage rack', 'wire storage rack', 'plastic storage rack', 'metal storage cabinet', 'locking storage cabinet', 'tall storage cabinet', 'base storage cabinet', 'stackable storage bins',
 'clear storage bins', 'heavy duty storage totes', 'labeled storage bins', 'storage crate plastic', 'storage crate wood', 'file storage box', 'document storage tote', 'waterproof storage case', 'ammo storage can', 'tool pegboard',
 'slat wall panel', 'wall hook heavy duty', 'ceiling storage rack', 'plastic drawer unit', 'hardware storage cabinet', 'metal shelving expansion kit', 'corner storage rack metal', 'wall cabinet metal', 'attic storage bin', 'weatherproof storage chest',
 'metal storage trunk', 'plastic storage drum', 'lockable job box', 'rolling storage chest', 'drawer tool cabinet', 'steel parts cabinet', 'outdoor storage bench', 'deck box large', 'rolling bin cart', 'storage rack wheels kit',
 'shelf bracket corner', 'wire basket storage', 'stackable drawer bins', 'utility cabinet tall', 'metal storage locker', 'greenhouse shelving kit', 'storage barrel rainproof', 'storage cage metal', 'mesh security panel',
-
 // Workbench & Workshop Setup (29 items)
 'workbench', 'workbench vise', 'workbench stool', 'workbench power strip', 'bench grinder', 'drill press', 'drill press vise', 'anvil small', 'scaffold planks', 'portable scaffold',
 'sawhorse pair', 'folding sawhorse', 'work platform folding', 'shop stool adjustable', 'lathe benchtop', 'band saw', 'scroll saw', 'shop press plates', 'work table folding', 'bench vise swivel base',
 'router table', 'tool chest', 'rolling tool cart', 'tool cabinet', 'tool drawer organizer', 'magnetic tool strip', 'power tool case stackable', 'stacking tool box', 'rolling stack toolbox',
-
 // Hand Tools (60 items)
 'hammer', 'sledgehammer', 'mallet', 'screwdriver set', 'precision screwdriver set', 'wrench set', 'adjustable wrench', 'socket set', 'ratchet set', 'torque wrench',
 'pliers', 'needle nose pliers', 'locking pliers', 'wire cutters', 'wire strippers', 'utility knife', 'tape measure', 'laser level', 'bubble level', 'brick trowel',
 'masonry hammer', 'concrete float', 'concrete edger', 'concrete groover', 'tamper tool', 'post hole digger', 'fence post level', 'metal cutting snips', 'metal file', 'tap and die set',
 'metal punch set', 'center punch', 'tool belt', 'tool pouch', 'magnetic parts tray', 'work apron canvas', 'tool backpack', 'adjustable wrench large', 'lug wrench', 'oil filter wrench',
-'rotary hammer drill', 'breaker bar', 'ball peen hammer', 'dead blow hammer', 'pry bar set', 'crowbar', 'chisels cold', 'wood chisels set', 'files set metal', 'rasp wood',
-
-'deburring tool', 'pipe threader', 'tent stake hammer', 'impact sockets', 'clamp set assorted', 'bar clamp large', 'corner clamp woodworking', 'pipe clamp set', 'spring clamp pack', 'toggle clamp',
-
+'breaker bar', 'ball peen hammer', 'dead blow hammer', 'pry bar set', 'crowbar', 'chisels cold', 'wood chisels set', 'files set metal', 'rasp wood', 'deburring tool',
+'pipe threader', 'tent stake hammer', 'impact sockets', 'clamp set assorted', 'bar clamp large', 'corner clamp woodworking', 'pipe clamp set', 'spring clamp pack', 'toggle clamp',
 // Power Tools (24 items)
 'drill', 'drill charger', 'impact driver', 'circular saw', 'jigsaw', 'reciprocating saw', 'angle grinder', 'sander', 'belt sander', 'heat gun',
 'rotary tool', 'paint sprayer electric', 'router tool', 'planer handheld', 'oscillating tool', 'tile saw', 'concrete saw', 'pneumatic ratchet', 'air impact wrench', 'soldering iron',
-'airbrush kit', 'airbrush compressor', 'pneumatic brad nailer', 'pneumatic framing nailer',
-
+'airbrush kit', 'airbrush compressor', 'pneumatic framing nailer',
 // Air Tools & Compressor (9 items)
 'air compressor', 'air hose', 'air hose reel', 'air chuck', 'nail gun', 'staple gun', 'compressor fittings kit', 'portable air tank', 'pneumatic grease gun',
-
 // Welding & Metalworking (10 items)
-'metal sheets', 'sheet metal screws', 'welding helmet', 'welding gloves', 'forge propane burner', 'grease gun', 'bearing puller', 'gear puller', 'hydraulic press', 'welding jacket',
-
+'metal sheets', 'sheet metal screws', 'welding helmet', 'forge propane burner', 'grease gun', 'bearing puller', 'gear puller', 'hydraulic press', 'welding jacket',
 // Electrical & Lighting (26 items)
-'extension cord', 'power strip', 'extension cord heavy duty', 'junction box', 'LED shop light', 'motion sensor light', 'emergency light battery backup', 'portable flood light', 'tripod work light', 'multimeter digital',
-'voltage tester pen', 'wire crimpers', 'soldering stand', 'desoldering pump', 'electrical fish tape', 'outdoor extension cord reel', 'work light clamp', 'magnetic flashlight holder', 'cord management box', 'battery storage case fireproof',
-'electrical gloves rated', 'temporary power pole', 'jobsite power box', 'outdoor timer outlet', 'tool charging dock', 'bench light strip LED',
-
+'extension cord', 'power strip', 'junction box', 'LED shop light', 'motion sensor light', 'emergency light battery backup', 'portable flood light', 'tripod work light', 'multimeter digital', 'voltage tester pen',
+'wire crimpers', 'soldering stand', 'desoldering pump', 'electrical fish tape', 'outdoor extension cord reel', 'work light clamp', 'magnetic flashlight holder', 'cord management box', 'battery storage case fireproof', 'electrical gloves rated',
+'temporary power pole', 'jobsite power box', 'outdoor timer outlet', 'tool charging dock', 'bench light strip LED',
 // Generator & Power Supply (9 items)
 'generator portable', 'fuel storage can', 'battery charger', 'jump starter pack', 'solar panel portable', 'power inverter', 'portable battery bank large', 'jump cable heavy duty', 'generator cover waterproof',
-
 // Security & Safety (45 items)
 'first aid kit', 'fire extinguisher', 'safety glasses', 'work gloves', 'hearing protection', 'dust masks', 'respirator mask', 'hard hat', 'mechanic gloves', 'knee pads',
 'security camera outdoor', 'motion detector alarm', 'padlock heavy duty', 'combination lock', 'key safe lock box', 'door reinforcement plate', 'window security bars', 'tool lock cable', 'storage cabinet lock kit', 'safe small fireproof',
 'spill containment tray', 'safety cone set', 'fire blanket', 'roof safety harness', 'fall protection rope', 'anchor point roof', 'safety barrier netting', 'hard shell knee pads', 'face shield clear', 'fire resistant gloves',
 'ear plug pack', 'document safe waterproof', 'combination key lock', 'padlock weatherproof', 'keyed alike lock set', 'combination lock long shackle', 'hasp lock heavy duty', 'door reinforcement bar', 'security light solar', 'flashlight',
 'lantern rechargeable', 'batteries', 'flashlight rechargeable', 'headlamp LED', 'waterproof flashlight case',
-
 // Cleaning & Maintenance (21 items)
 'shop vacuum', 'shop vacuum hose', 'shop vacuum filter', 'push broom', 'broom', 'dustpan', 'mop', 'mop bucket', 'cleaning caddy', 'all purpose cleaner',
-'degreaser', 'trash can', 'trash bags', 'recycling bin', 'mouse bait station', 'pressure washer', 'pressure washer hose', 'pressure washer wand', 'pressure washer surface cleaner', 'spray wand extension',
-'foam sprayer bottle',
-
+'degreaser', 'trash bags', 'recycling bin', 'mouse bait station', 'pressure washer', 'pressure washer hose', 'pressure washer wand', 'pressure washer surface cleaner', 'spray wand extension', 'foam sprayer bottle',
 // Lawn & Garden Equipment (26 items)
 'lawn mower', 'lawn mower blades', 'weed trimmer', 'leaf blower', 'leaf rake', 'garden rake', 'shovel', 'spade shovel', 'snow shovel', 'ice scraper',
 'snow blower', 'hedge trimmer', 'pruning shears', 'loppers', 'axe', 'hatchet', 'chainsaw', 'log splitter', 'wheelbarrow', 'tiller gas',
 'cultivator tool', 'landscaping shovel', 'edger manual', 'edger gas', 'tree pruning saw', 'ash shovel',
-
 // Garden & Irrigation (22 items)
 'watering can', 'garden gloves', 'drip irrigation kit', 'sprinkler', 'garden hose', 'hose nozzle', 'spray bottle garden', 'pest control sprayer', 'garden hose reel', 'sprinkler timer',
 'backflow preventer', 'garden cart rolling', 'fertilizer spreader', 'broadcast spreader', 'seed spreader hand', 'utility sink freestanding', 'sink faucet outdoor', 'hose splitter brass', 'hose quick connect kit', 'rain barrel',
 'rain barrel diverter kit', 'chemical sprayer backpack',
-
 // Sports & Recreation Storage (27 items)
 'bike repair stand', 'bike pump', 'bike helmets', 'sports equipment bin', 'golf clubs', 'golf bag', 'baseball bats', 'baseballs', 'basketballs', 'football',
 'soccer ball', 'tennis rackets', 'tennis balls', 'skateboard', 'roller skates', 'skis', 'ski poles', 'kayak paddles', 'pool equipment storage bin', 'chlorine storage bucket',
 'pool net skimmer', 'pool brush', 'pool vacuum hose', 'life jacket storage rack', 'paddle board rack', 'tackle box large', 'bait cooler small',
-
 // Camping & Outdoor Gear (22 items)
 'camping cooler', 'camping stove', 'propane tank', 'propane torch', 'folding camping chairs', 'sleeping bags', 'camp lantern', 'cooler wheeled', 'water jug camping', 'portable toilet camping',
 'folding cot', 'bug zapper lantern', 'propane heater portable', 'battery lantern emergency', 'emergency radio crank', 'camp tool kit compact', 'survival kit storage box', 'outdoor folding table', 'camp prep table', 'water cooler dispenser',
 'ice chest large', 'camp cookware kit',
-
 // Ladders, Scaffolding & Fall Protection (9 items)
 'ladder', 'extension ladder', 'step ladder', 'folding ladder', 'ladder stabilizer', 'ladder leveler', 'roof ladder hook', 'extension ladder tie downs', 'ladder tool tray',
-
 // Moving & Transport (16 items)
 'moving blankets', 'storage trunk', 'moving dolly', 'hand truck', 'wheel chocks', 'ratchet straps heavy duty', 'cargo net large', 'tow strap recovery', 'winch electric', 'winch remote',
 'chain hoist manual', 'moving straps shoulder', 'appliance dolly straps', 'steel cable roll', 'chain link roll', 'pulley block heavy duty',
-
 // Automotive & Trailer (27 items)
 'auto jack floor', 'jack stands pair', 'tire inflator', 'tire pressure gauge', 'oil drain pan', 'mechanic creeper', 'mechanic stool rolling', 'automotive tool set', 'trailer hitch lock', 'trailer ball mount',
 'truck tool box bed mount', 'bed liner spray kit', 'cargo rack roof', 'roof tie down straps', 'tow hitch receiver', 'hitch pin lock', 'trailer jack wheel', 'trailer spare tire mount', 'tire patch kit', 'hydraulic bottle jack',
 'transmission jack', 'engine stand', 'engine hoist', 'load leveler bar', 'tow dolly', 'trailer ramps', 'rolling mechanic seat',
-
 // Concrete, Masonry & Lumber (20 items)
-'concrete mix bags', 'cement mixer portable', 'mixing tub large', 'gravel bags', 'sand bags', 'landscape fabric roll', 'paver stones', 'paver base', 
-
+'concrete mix bags', 'cement mixer portable', 'mixing tub large', 'gravel bags', 'sand bags', 'landscape fabric roll', 'paver stones', 'paver base',
 // Painting, Sealing & Coatings (20 items)
 'paint cans assorted', 'roller frames', 'drop cloth canvas', 'painter tape roll', 'joint compound bucket', 'drywall patch kit', 'paint brush set', 'wood stain cans', 'deck sealer', 'concrete sealer',
 'masonry waterproofing', 'roof patch sealant', 'asphalt repair patch', 'driveway crack filler', 'expanding foam insulation', 'foam gun applicator', 'concrete patch compound', 'epoxy repair kit', 'crack injection kit', 'moisture barrier paint',
-
 // Plumbing & Water Management (10 items)
 'plumbing pipe PVC', 'PVC fittings assorted', 'pipe wrench large', 'pipe cutter', 'water pump portable', 'sump pump', 'sump pump hose', 'ice melt bucket', 'snow roof rake', 'roof snow guard',
-
 // Firewood & Heating (11 items)
 'log rack firewood', 'firewood carrier', 'kindling splitter', 'maul splitting', 'ash bucket metal', 'chimney brush kit', 'chimney rods extension', 'wood moisture meter', 'stump grinder rental unit', 'log carrier canvas',
 'chimney cap stainless',
-
 // Tarps, Covers & Tie-Downs (3 items)
 'storage tarp heavy duty', 'canopy tent frame', 'boat cover',
-
 // Climate & Floor (12 items)
 'shed floor mat', 'temperature gauge analog', 'humidity gauge analog', 'weather station unit', 'air circulator fan', 'box fan', 'space heater portable', 'dehumidifier small', 'floor mat anti slip', 'anti fatigue mat heavy duty',
 'rubber floor tiles interlocking', 'floor drain cover grate',
-
 // Boat & Marine (6 items)
 'boat anchor small', 'boat motor stand', 'boat fuel tank portable', 'boat trailer guide poles', 'marine rope coil', 'dock line cleat',
-
 // Hobby & Specialty Storage (8 items)
 'chemical storage cabinet', 'flammable storage cabinet', 'metal detector', 'rc hobby storage case', 'drone storage case', 'spray booth portable', 'craft tool organizer', 'fuel storage locker',
-
 // Site Management & Signage (4 items)
 'solar yard light pack', 'landscape lighting transformer', 'storage hooks assorted', 'magnetic cabinet catch',
-
 // TOTAL: 525 items
-        ],
+],
 
-        Yard: [
-// Garden & Planters (25 items)
+        Yard: [// Garden & Planters (25 items)
 'raised garden bed', 'garden arbor', 'garden arch trellis', 'yard trellis metal', 'watering can plastic', 'watering can metal', 'plant pots ceramic', 'plant pots plastic', 'planter box wood', 'hanging planter basket',
 'window planter box', 'plant stand outdoor', 'potting bench', 'garden fountain', 'bird bath pedestal', 'garden statue', 'tree stump remover chemical', 'tree wrap protective', 'plant frost cover', 'plant cage tomato',
 'trellis netting', 'garden cloche cover', 'raised bed liner', 'garden gnome statue', 'yard fountain tiered',
-
 // Irrigation & Watering (29 items)
 'sprinkler timer', 'garden hose heavy duty', 'soaker hose', 'hose reel freestanding', 'spray nozzle adjustable', 'sprinkler oscillating', 'sprinkler impact', 'watering wand', 'rain gauge yard', 'rain barrel system',
 'smart sprinkler controller', 'sprinkler riser extension', 'sprinkler valve box cover', 'irrigation drip emitters', 'irrigation tubing roll', 'irrigation pressure regulator', 'irrigation filter inline', 'hose timer digital', 'hose splitter brass', 'hose quick connect fittings',
 'rain barrel diverter kit', 'downspout extension flexible', 'gutter splash block', 'gutter guard mesh', 'outdoor faucet cover winter', 'garden hose repair kit', 'spray bottle pump garden', 'watering spike automatic', 'sprinkler rain sensor',
-
 // Patio & Outdoor Furniture (28 items)
 'porch swing', 'shade sail canopy', 'awning retractable', 'outdoor canopy tent', 'sun shade umbrella', 'umbrella base heavy', 'outdoor rug patio', 'doormat exterior', 'welcome mat decorative', 'outdoor bench',
 'outdoor dining table', 'outdoor dining chairs', 'outdoor sectional sofa', 'patio coffee table', 'patio side table', 'chaise lounge chair', 'hammock stand', 'deck storage bench', 'deck privacy screen', 'outdoor curtain panels',
 'gazebo mosquito netting', 'pergola shade cover', 'shade sail hardware kit', 'patio heater propane', 'patio heater cover', 'porch rocking chair', 'porch side table', 'car port canopy',
-
 // Grilling & Outdoor Cooking (30 items)
 'fire pit metal', 'fire pit cover', 'propane fire table', 'charcoal grill', 'gas grill', 'grill cover', 'smoker grill', 'outdoor pizza oven', 'grill tool set', 'propane tank outdoor',
 'cooler outdoor', 'outdoor bar cart', 'outdoor serving tray', 'propane tank cover', 'fire pit spark screen', 'fire pit grate insert', 'fire pit poker tool', 'fire pit lava rocks', 'chiminea outdoor', 'grill burner tubes',
 'grill ignition kit', 'grill thermometer lid', 'smoker wood chips box', 'bar stool outdoor', 'cooler rolling outdoor', 'ice chest heavy duty', 'picnic basket wicker', 'serving cart patio', 'outdoor buffet table', 'propane tank storage cage',
-
 // Lawn & Garden Equipment (49 items)
 'lawn mower push', 'lawn mower riding', 'mower bag attachment', 'mower cover', 'weed trimmer electric', 'weed trimmer gas', 'leaf blower electric', 'leaf blower gas', 'hedge trimmer electric', 'hedge trimmer gas',
 'chainsaw electric', 'chainsaw gas', 'pole saw', 'garden rake leaf', 'landscape rake wide', 'shovel round point', 'shovel square point', 'spade garden', 'post hole digger manual', 'garden hoe',
 'wheelbarrow single wheel', 'garden cart dump', 'fertilizer spreader broadcast', 'fertilizer spreader drop', 'seed spreader handheld', 'garden trowel hand', 'hand cultivator', 'pruning shears bypass', 'loppers long handle', 'tree pruner pole',
 'driveway pressure washer', 'snow shovel heavy duty', 'snow blower electric', 'ice melt spreader', 'roof snow rake', 'lawn aerator manual', 'lawn aerator core', 'lawn dethatcher rake', 'lawn roller', 'grass seed spreader',
 'weed puller tool', 'garden edging shovel', 'cultivator gas', 'rototiller electric', 'leaf vacuum mulcher', 'hedge shear manual', 'branch lopper ratchet', 'wood chipper electric', 'log splitter electric',
-
 // Pool, Spa & Pond (27 items)
-'pool ladder', 'pool cover', 'pool pump', 'pool filter system', 'pool skimmer net', 
-
+'pool ladder', 'pool cover', 'pool pump', 'pool filter system', 'pool skimmer net',
 // Recreation & Play (37 items)
 'playground swing set', 'slide freestanding', 'trampoline yard', 'trampoline safety net', 'basketball hoop portable', 'basketball hoop in ground', 'soccer goal yard', 'baseball practice net', 'golf practice net', 'batting tee',
 'sand box children', 'climbing dome', 'zip line kit yard', 'tire swing tree', 'picnic table wood', 'picnic table umbrella', 'outdoor chalkboard', 'yard game cornhole', 'yard game ladder toss', 'swing set anchor kit',
 'trampoline ladder', 'trampoline cover', 'playhouse outdoor', 'sandbox cover', 'tree swing rope kit', 'yard obstacle course kit', 'croquet set lawn', 'bocce ball set', 'horseshoe game set', 'giant checkers set',
 'giant connect four', 'disc golf basket', 'kick dart board yard', 'badminton net set', 'volleyball net yard', 'outdoor projector screen', 'projector outdoor rated',
-
 // Outdoor Lighting & Power (20 items)
 'landscape lighting solar', 'path lights solar', 'spotlight ground', 'string lights outdoor', 'post cap lights', 'deck lights', 'flood light motion', 'timer outdoor outlet', 'extension cord outdoor rated', 'flag pole solar light',
-'landscape spotlight LED', 'uplight tree', 'pathway light low voltage', 'deck post light solar', 'string lights cafe style', 'outdoor light pole', 'flood light LED', 'motion floodlight solar', 'smart outdoor plug', 'outdoor extension reel large',
-
+'landscape spotlight LED', 'uplight tree', 'pathway light low voltage', 'deck post light solar', 'string lights cafe style', 'outdoor light pole', 'flood light LED', 'motion floodlight solar', 'smart outdoor plug',
 // Security & Surveillance (12 items)
 'mailbox locking', 'security camera outdoor wired', 'security camera outdoor wireless', 'alarm siren outdoor', 'doorbell camera exterior', 'motion detector outdoor', 'parcel drop box', 'security camera floodlight combo', 'video doorbell outdoor', 'gate keypad entry',
 'driveway alarm sensor', 'yard siren strobe',
-
 // Yard Decor & Wildlife (16 items)
 'yard address sign', 'flag pole yard', 'weather station yard', 'wind chime decorative', 'yard art metal', 'yard sign holder', 'address numbers metal', 'decorative yard flag', 'bird feeder hanging', 'bird feeder pole',
-'bird seed storage bin', 'squirrel guard baffle', 'bat house mount', 'bee hotel garden', 'weather vane decorative', 'metal wind spinner',
-
+'bird seed storage bin', 'squirrel guard baffle', 'bee hotel garden', 'weather vane decorative', 'metal wind spinner',
 // Outdoor Storage & Waste (17 items)
 'compost bin yard', 'trash can outdoor', 'recycling bin outdoor', 'compost tumbler', 'outdoor storage deck box', 'storage shed small', 'tool shed large', 'wood pile rack', 'firewood cover tarp', 'outdoor trash enclosure',
 'trash can shed', 'recycling container large', 'compost aerator tool', 'compost bin tumbler dual', 'firewood rack outdoor', 'generator outdoor cover', 'weatherproof storage chest large',
-
 // Landscaping Materials & Maintenance (17 items)
 'topsoil bags', 'mulch bags', 'pine straw bales', 'decorative river rock', 'landscape timbers', 'deck stain', 'deck sealer waterproof', 'deck cleaner solution', 'driveway sealant bucket', 'asphalt patch repair',
 'concrete crack filler tube', 'driveway marker reflectors', 'mailbox post anchor', 'fence post caps', 'fence pickets spare', 'fence repair kit', 'compost thermometer',
-
 // Drainage, Storm & Misc (6 items)
 'drainage pump portable', 'backyard flood barrier', 'yard tarp heavy duty', 'ground anchor kit', 'tent canopy weights', 'portable stage platform',
-
 // TOTAL: 313 items
 ],
 
         Other: ['holiday decorations assorted', 'christmas tree artificial', 'christmas tree stand', 'ornament storage box', 'ornament hooks pack', 'string lights box', 'extension light cords', 'light timers plug in', 'wreath storage bag', 'holiday inflatables',
 'halloween decorations bin', 'thanksgiving decor box', 'easter decoration tote', 'valentine decor bin', 'fourth of july decorations', 'holiday yard stakes', 'wrapping paper roll', 'gift wrap storage tube', 'gift bags assorted', 'gift ribbon spools',
-
 'photo albums box', 'picture frames assorted', 'framed artwork storage', 'canvas art wrapped', 'mirror wall spare', 'clock wall spare', 'home decor storage bin', 'throw pillows spare', 'blanket storage bag', 'quilt storage case',
 'area rug rolled', 'curtain panels spare', 'curtain rods spare', 'window blinds spare', 'lamp base spare', 'lamp shade spare', 'table lamp spare', 'floor lamp spare', 'extension lamp cord', 'light bulb storage box',
-
 'office supplies storage tote', 'printer paper case', 'notebook stack', 'binders storage box', 'file folders box', 'archival document box', 'shredder spare', 'desk organizer spare', 'calculator spare', 'cordless phone base spare',
 'router modem spare', 'wifi extender spare', 'network cable spool', 'usb cable bundle', 'hdmi cable spare', 'power adapter box', 'surge protector spare', 'battery storage organizer', 'external hard drive case', 'flash drive bundle',
-
 'books storage box', 'magazine storage bin', 'comic book storage case', 'vinyl record crate', 'record player spare', 'cd storage binder', 'dvd storage binder', 'board games stack', 'puzzle boxes', 'card games storage tin',
 'toy storage bin', 'action figures box', 'doll storage case', 'lego storage bin', 'model kit boxes', 'craft kit storage tote', 'yarn storage bin', 'fabric storage tote', 'scrapbook supplies box', 'photo storage box',
-
 'suitcase large', 'suitcase medium', 'carry on luggage', 'travel backpack', 'duffel bag', 'garment travel bag', 'travel organizer pouch', 'travel toiletry bag', 'passport holder spare', 'neck pillow travel',
 'camping backpack', 'hydration pack', 'sleeping bag storage sack', 'tent bag spare', 'hiking poles pair', 'cooler bag soft', 'picnic basket spare', 'beach umbrella', 'beach chairs folding', 'beach wagon foldable',
-
 'sports trophy box', 'medal storage case', 'gym equipment storage bin', 'yoga mat spare', 'dumbbell set small', 'resistance bands pack', 'exercise ball', 'fitness step platform', 'treadmill mat spare', 'bike trainer stand',
 'ski boot bag', 'snowboard bag', 'helmet storage bag', 'rollerblade bag', 'skate helmet spare', 'fishing rod tube', 'tackle storage tray', 'hunting gear tote', 'archery bow case', 'arrow storage tube',
-
 'medical supply bin', 'first aid refill kit', 'emergency preparedness kit', 'water storage jug', 'food storage bucket sealed', 'battery lantern spare', 'hand crank flashlight', 'weather radio spare', 'thermal blankets pack', 'fireproof document bag',
 'important document safe', 'spare house keys box', 'key organizer wall mount', 'tool manual binder', 'appliance manual folder', 'warranty document file', 'insurance paperwork file', 'tax record storage box', 'checkbook storage tin', 'coin jar large',
-
 'pet crate spare', 'pet carrier travel', 'pet bed spare', 'pet toy storage bin', 'pet leash spare', 'pet collar spare', 'pet food storage container', 'pet grooming kit', 'aquarium supplies bin', 'bird cage spare',
 'fish tank heater spare', 'pet gate foldable', 'litter box spare', 'litter storage container', 'pet blanket spare', 'pet bowl spare', 'pet water dispenser spare', 'dog training equipment', 'cat scratching post spare', 'pet medication organizer',
-
 'kitchen small appliance box', 'extra cookware storage', 'china storage case', 'glassware storage crate', 'silverware chest', 'serving platter box', 'coffee maker spare', 'toaster spare', 'microwave spare', 'mini fridge spare',
 'barware storage box', 'wine storage rack small', 'beverage cooler spare', 'water filter spare', 'paper goods bulk box', 'plastic utensil bulk pack', 'bulk napkin pack', 'bulk plate pack', 'catering tray spare', 'cooler large hard shell',
-
 'home improvement spare parts bin', 'hinge assortment pack', 'knob assortment pack', 'faucet spare kit', 'plumbing parts box', 'electrical parts box', 'paint touch up kit', 'tile spare box', 'flooring spare planks', 'roof shingle bundle',
 'insulation roll spare', 'drywall sheets spare', 'brick stack spare', 'paver stack spare', 'fence panel spare', 'gate hardware kit', 'door slab spare', 'screen door spare', 'storm window spare', 'storm door spare',
-
 'miscellaneous hardware bin', 'random fasteners jar', 'unknown key ring', 'remote control spare', 'phone charger spare', 'old cell phone box', 'camera equipment case', 'tripod spare', 'lighting umbrella kit', 'microphone stand spare',
 'speaker stand spare', 'amplifier spare', 'audio cable bundle', 'instrument case spare', 'guitar stand spare', 'keyboard stand spare', 'music sheet storage box', 'vinyl protector sleeves', 'collectible storage case', 'coin collection binder',
-
 'seasonal wreath storage box', 'holiday light storage reel', 'tree skirt storage bag', 'nativity set storage box', 'holiday extension cord bundle', 'outdoor decor storage crate', 'holiday projector light', 'light stake lawn pack', 'ornament divider tray', 'gift wrap cutter tool',
-
 'decorative vase storage box', 'ceramic figurine storage', 'collectible display case spare', 'shadow box frame spare', 'wall decal roll spare', 'decor storage tote labeled', 'throw blanket spare', 'decorative ladder shelf spare', 'accent table spare', 'folding side table spare',
-
 'backup alarm clock', 'desktop fan spare', 'space heater spare', 'humidifier spare', 'dehumidifier spare', 'air purifier spare', 'air filter replacement case', 'vent cover spare', 'ceiling fan spare', 'light fixture spare',
-
 'printer spare', 'scanner spare', 'laminator spare', 'paper shredder spare', 'label printer spare', 'ink cartridge storage box', 'toner cartridge spare', 'external monitor spare', 'keyboard spare', 'computer mouse spare',
 'laptop docking station spare', 'webcam spare', 'headset spare', 'router backup unit', 'ethernet switch spare', 'power bank spare', 'charging cable organizer box', 'tech accessory drawer unit', 'hard drive enclosure spare', 'memory card organizer case',
-
 'textbook storage box', 'yearbook storage bin', 'certificate frame spare', 'diploma tube case', 'journal stack', 'planner archive box', 'greeting card keepsake box', 'stamp collection album', 'coin bank decorative', 'piggy bank spare',
-
 'toy chest spare', 'remote control car spare', 'puzzle mat roll', 'stuffed animal storage net', 'play tent folded', 'kids art portfolio case', 'crayon storage case', 'marker organizer box', 'chalkboard spare small', 'whiteboard spare small',
-
 'rolling duffel bag', 'hard shell luggage spare', 'luggage tag organizer', 'packing cube set spare', 'travel document wallet spare', 'luggage scale', 'portable safe travel', 'travel blanket spare', 'travel pillow memory foam', 'travel umbrella spare',
-
 'camp chair spare', 'camp table spare', 'portable grill small', 'grill cover spare', 'charcoal storage bin', 'cooler ice packs bulk', 'thermos spare', 'canteen metal spare', 'mess kit spare', 'portable water filter',
-
 'medal display rack spare', 'sports jersey frame spare', 'gym bag spare', 'foam roller spare', 'kettlebell small', 'ankle weights pair', 'pull up bar doorway', 'jump rope spare', 'gymnastics mat foldable', 'sports duffel organizer',
-
 'ski goggles spare', 'snow gloves spare', 'winter hat storage bin', 'beach towel storage bag', 'snorkel gear bag', 'life vest spare', 'kayak storage cover', 'tent stakes bulk', 'tent pole replacement set', 'hammock spare',
-
 'emergency food rations box', 'water purification tablets', 'emergency whistle pack', 'flare kit marine', 'emergency poncho pack', 'hand warmers bulk', 'cooling towels pack', 'emergency candle pack', 'battery storage case large', 'fireproof safe box small',
-
 'pet carrier soft sided', 'pet travel bowl foldable', 'pet harness spare', 'pet grooming table foldable', 'aquarium filter spare', 'aquarium air pump spare', 'bird seed storage bin', 'reptile heat lamp spare', 'pet first aid kit', 'dog crate mat spare',
-
 'china cabinet spare shelf', 'serving tray stack', 'table leaf spare', 'folding banquet table', 'folding chair stack', 'tablecloth storage bin', 'cloth napkin bulk pack', 'napkin ring set spare', 'glass cloche spare', 'cake stand spare',
-
 'door hardware spare box', 'cabinet knob spare set', 'drawer pull spare set', 'light switch spare pack', 'outlet cover spare pack', 'thermostat spare unit', 'doorbell spare unit', 'security camera spare indoor', 'motion sensor spare indoor', 'window blind spare box',
-
 'tool accessory bin misc', 'random cable box', 'adapter plug assortment', 'old remote collection box', 'camera lens case spare', 'camera bag spare', 'tripod bag spare', 'stage lighting spare', 'extension mic cable spare', 'instrument string pack bulk',
-
 'collectible card binder', 'comic sleeve pack', 'display stand small', 'figurine riser shelf', 'coin display case', 'watch storage case', 'jewelry organizer spare', 'jewelry travel case spare', 'watch winder spare', 'safe deposit document folder',
-
 'storage ottoman spare', 'bean bag chair spare', 'floor cushion spare', 'rug pad roll spare', 'curtain tieback spare', 'wall art crate', 'mirror packing box', 'glass protector sheets', 'furniture leg protectors pack', 'caster wheel replacement pack',
-
 'mattress bag spare', 'bed frame spare parts box', 'headboard spare', 'bed slats spare', 'folding mattress spare', 'air mattress spare', 'air pump spare', 'mattress topper spare', 'bed risers spare', 'bed skirt spare',
-
 'baby gear storage tote', 'stroller spare', 'car seat spare', 'baby gate spare', 'high chair spare', 'crib mattress spare', 'crib bedding spare', 'baby monitor spare', 'diaper storage bin', 'baby toy storage chest',
-
 'file safe waterproof', 'portable document scanner spare', 'backup alarm siren', 'security sign yard spare', 'mailbox spare', 'house number sign spare', 'address plaque spare', 'keypad lock spare', 'deadbolt spare', 'chain lock spare',
-
 'storage bin heavy duty lid', 'rolling storage drawer unit', 'clear organizer tower', 'hanging closet organizer spare', 'shoe rack spare', 'coat rack spare', 'umbrella stand spare', 'coat hanger bulk pack', 'garment rack foldable', 'closet rod spare',
-
 'plastic tub large', 'storage drum waterproof', 'weatherproof document case', 'steel lock box', 'portable filing cabinet', 'rolling filing cart', 'accordion file organizer', 'clip file box', 'archival photo box', 'blueprint storage tube'
-
 ]
     };
 
@@ -1567,11 +1123,9 @@
         'kitchen island': 'https://cdamemoryjogger.blob.core.windows.net/images/kitchen%20island.webp',
         'bar stools': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20stool.jpg',
         'lazy susan': 'https://cdamemoryjogger.blob.core.windows.net/images/lazy%20susan.webp',
-        'drawer organizers': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20organizer.webp',
         'cutlery tray': 'https://cdamemoryjogger.blob.core.windows.net/images/cutlery%20tray.webp',
         'spice rack': 'https://cdamemoryjogger.blob.core.windows.net/images/spice%20rack.jpg',
         'wine rack': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack.webp',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20can.webp',
         'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin.webp',
         'compost bin': 'https://cdamemoryjogger.blob.core.windows.net/images/compost%20bin.jpg',
         'paper towel holder': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towel%20holder.webp',
@@ -1692,7 +1246,6 @@
         'spice jars': 'https://cdamemoryjogger.blob.core.windows.net/images/spice%20jars.jpg',
         'salt shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20shaker.jpg',
         'pepper shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20shaker.jpg',
-        'salt grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20grinder.jpg',
         'pepper grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20grinder.webp',
         'oil bottle': 'https://cdamemoryjogger.blob.core.windows.net/images/oil%20bottle.jpg',
         'vinegar bottle': 'https://cdamemoryjogger.blob.core.windows.net/images/vinegar%20bottle.jpg',
@@ -1729,7 +1282,6 @@
         'sideboard': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard.jpg',
         'dining table': 'https://cdamemoryjogger.blob.core.windows.net/images/dining%20table.jpg',
         'dining chairs': 'https://cdamemoryjogger.blob.core.windows.net/images/dining%20chairs.jpg',
-        'serving tray': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20tray.jpg',
         'serving platter': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20platter.jpg',
         'serving bowl': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20bowl.jpg',
         'gravy boat': 'https://cdamemoryjogger.blob.core.windows.net/images/gravy%20boat.jpg',
@@ -1815,7 +1367,6 @@
         'plastic utensils': 'https://cdamemoryjogger.blob.core.windows.net/images/plastic%20utensils.jpg',
         'can rack': 'https://cdamemoryjogger.blob.core.windows.net/images/can%20rack.jpg',
         'rolling cart': 'https://cdamemoryjogger.blob.core.windows.net/images/rolling%20cart.jpg',
-        'storage bins': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20bins.jpg',
         'label maker': 'https://cdamemoryjogger.blob.core.windows.net/images/label%20maker.jpg',
         'labels': 'https://cdamemoryjogger.blob.core.windows.net/images/labels.webp',
         'drawer liners': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20liners.jpg',
@@ -1884,7 +1435,6 @@
 
         'lazy susan turntable': 'https://cdamemoryjogger.blob.core.windows.net/images/lazy%20susan%20turntable.jpg',
         'under sink organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/under%20sink%20organizer.jpg',
-        'pull out trash bin': 'https://cdamemoryjogger.blob.core.windows.net/images/pull%20out%20trash%20bin.jpg',
         'recycling container': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20container.jpg',
         'compost pail': 'https://cdamemoryjogger.blob.core.windows.net/images/compost%20pail.jpg',
         'baking rack': 'https://cdamemoryjogger.blob.core.windows.net/images/baking%20rack.jpg',
@@ -1896,7 +1446,6 @@
         'hanging pot rack': 'https://cdamemoryjogger.blob.core.windows.net/images/hanging%20pot%20rack.jpg',
         'wine glass rack': 'https://cdamemoryjogger.blob.core.windows.net/images/winen%20glass%20rack.jpg',
         'mug tree': 'https://cdamemoryjogger.blob.core.windows.net/images/mug%20tree.jpg',
-        'plate rack': 'https://cdamemoryjogger.blob.core.windows.net/images/plate%20rack.jpg',
         'drawer dividers': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20dividers.jpg',
         'silverware set': 'https://cdamemoryjogger.blob.core.windows.net/images/silverware%20set.jpg',
         'flatware set': 'https://cdamemoryjogger.blob.core.windows.net/images/flatware%20set.jpg',
@@ -1952,7 +1501,6 @@
         'sauce whisk': 'https://cdamemoryjogger.blob.core.windows.net/images/sauce%20whisk.jpg',
         'balloon whisk': 'https://cdamemoryjogger.blob.core.windows.net/images/balloon%20whisk.jpg',
         'dough scraper': 'https://cdamemoryjogger.blob.core.windows.net/images/dough%20scraper.jpg',
-        'bench scraper': 'https://cdamemoryjogger.blob.core.windows.net/images/bench%20scraper.jpg',
         'pastry brush': 'https://cdamemoryjogger.blob.core.windows.net/images/pastry%20brush.jpg',
         'pastry blender': 'https://cdamemoryjogger.blob.core.windows.net/images/pastry%20blender.jpg',
         'baking molds': 'https://cdamemoryjogger.blob.core.windows.net/images/baking%20molds.jpg',
@@ -2009,7 +1557,6 @@
         'plate charger set': 'https://cdamemoryjogger.blob.core.windows.net/images/plate%20charger%20set.jpg',
         'cut resistant gloves': 'https://cdamemoryjogger.blob.core.windows.net/images/cut%20resistant%20gloves.jpg',
         'oven rack guards': 'https://cdamemoryjogger.blob.core.windows.net/images/oven%20rack%20guards.jpg',
-        'sink drying rack': 'https://cdamemoryjogger.blob.core.windows.net/images/sink%20drying%20rack.jpg',
         'dish drainer tray': 'https://cdamemoryjogger.blob.core.windows.net/images/dish%20drainer%20tray.jpg',
         'kitchen storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/images/kitchen%20storage%20cabinet.jpg',
         'under sink mat': 'https://cdamemoryjogger.blob.core.windows.net/images/under%20sink%20mat.jpg',
@@ -2081,7 +1628,6 @@
         'tablet wall mount': 'https://cdamemoryjogger.blob.core.windows.net/images/tablet%20wall%20mount.jpg',
         'charging dock': 'https://cdamemoryjogger.blob.core.windows.net/images/charging%20dock.jpg',
         'surge protector': 'https://cdamemoryjogger.blob.core.windows.net/images/surge%20protector.jpg',
-        'extension cord heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/images/extension%20cord%20heavy%20duty.jpg',
         'step stool folding': 'https://cdamemoryjogger.blob.core.windows.net/images/step%20stool%20folding.jpg',
         'rolling kitchen cart': 'https://cdamemoryjogger.blob.core.windows.net/images/rolling%20kitchen%20cart.jpg',
         'utility cart': 'https://cdamemoryjogger.blob.core.windows.net/images/utility%20cart.jpg',
@@ -2146,12 +1692,10 @@
         'oven cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/oven%20cleaner.jpg',
         'dishwasher cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/dishwasher%20cleaner.jpg',
         'garbage disposal cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/garbage%20disposal%20cleaner.jpg',
-        'drain cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/drain%20cleaner.jpg',
         'scrub sponges': 'https://cdamemoryjogger.blob.core.windows.net/images/scrub%20sponges.jpg',
 
         'heavy duty scrub pads': 'https://cdamemoryjogger.blob.core.windows.net/images/heavy%20duty%20scrub%20pads.jpg',
         'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/images/microfiber%20cloths.jpg',
-        'cleaning rags': 'https://cdamemoryjogger.blob.core.windows.net/images/cleaning%20rags.jpg',
         'paper towel pack': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towel%20pack.jpg',
         'trash bag box': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20bag%20box.jpg',
         'recycling bin liner': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin%20liner.jpg',
@@ -2164,7 +1708,6 @@
         'handheld vacuum': 'https://cdamemoryjogger.blob.core.windows.net/images/handheld%20vacuum.jpg',
         'cordless vacuum': 'https://cdamemoryjogger.blob.core.windows.net/images/cordless%20vacuum.jpg',
         'floor sweeper': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20sweeper.jpg',
-        'rubber gloves': 'https://cdamemoryjogger.blob.core.windows.net/images/rubber%20gloves.jpg',
         'cleaning brush set': 'https://cdamemoryjogger.blob.core.windows.net/images/cleaning%20brush%20set.jpg',
         'bottle brush': 'https://cdamemoryjogger.blob.core.windows.net/images/bottle%20brush.jpg',
         'straw cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/straw%20cleaning%20brush.jpg',
@@ -2441,7 +1984,6 @@
         'bar cabinet': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bar%20cabinet.jpg',
         'rolling bar cart': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rolling%20bar%20cart.jpg',
         'television': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/television.jpg',
-        'flat screen television': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/flat%20screen%20television.jpg',
         'smart television': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/smart%20television.jpg',
         'streaming device': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/streaming%20device.jpg',
         'blu ray player': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/blu%20ray%20player.jpg',
@@ -2451,7 +1993,6 @@
         'surround sound speakers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/surround%20sound%20speakers.jpg',
         'speaker stands': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/speaker%20stands.jpg',
         'home theater receiver': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/home%20theater%20receiver.jpg',
-        'gaming console': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gaming%20console.jpg',
         'game controller': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gaming%20controller.jpg',
         'virtual reality headset': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/virtual%20reality%20headset.jpg',
         'cable box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cablebox.jpg',
@@ -2466,14 +2007,11 @@
         'smart speaker': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/smart%20speaker.jpg',
         'floor lamp': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20lamp.jpg',
         'table lamp': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/table%20lamp.jpg',
-        'lamp shade': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lamp%20shade.jpg',
         'light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/light%20bulbs.jpg',
         'ceiling light fixture': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ceiling%20light%20fixture.jpg',
-        'ceiling fan': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ceiling%20fan.jpg',
         'fan remote': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fan%20remote.jpg',
         'area rug': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/area%20rug.jpg',
         'throw rug': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/throw%20rug.jpg',
-        'rug pad': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rug%20pad.jpg',
         'carpet runner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carpet%20runner.jpg',
         'window curtains': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/window%20curtains.jpg',
         'curtain rod': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/curtain%20rod.jpg',
@@ -2507,7 +2045,6 @@
         'fireplace log holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fireplace%20log%20holder.jpg',
         'mantle decor': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mantle%20decor.jpg',
         'mantle clock': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mantle%20clock.jpg',
-        'candle holders': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle%20holders.jpg',
         'candles': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candles.jpg',
         'lantern': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lantern.jpg',
 
@@ -2542,7 +2079,6 @@
         'dvd collection': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/dvd%20collection.jpg',
         'game disc case': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/game%20disc%20case.jpg',
         'storage baskets': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20baskets.jpg',
-        'storage bins': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20bins.jpg',
         'blanket chest': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/blanket%20chest.jpg',
         'toy storage bin': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/toy%20storage%20bin.jpg',
         'toy chest': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/toy%20chest.jpg',
@@ -2585,18 +2121,14 @@
         'picture hanging kit': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/picture%20hanging%20kit.jpg',
         'wall anchors': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20anchors.jpg',
         'decorative tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20tray.jpg',
-        'serving tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/serving%20tray.jpg',
         'drink coasters': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/drink%20coasters.jpg',
-        'coaster holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coaster%20holder.jpg',
         'barware set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/barware%20set.jpg',
         'wine glasses': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wine%20glasses.jpg',
         'cocktail glasses': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20glasses.jpg',
         'drink pitcher': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20pitcher.jpg',
         'ice bucket': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20bucket.jpg',
-        'bar tool set': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20tool%20set.jpg',
         'wine opener': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20opener.jpg',
         'wine rack': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack.jpg',
-        'bottle stopper': 'https://cdamemoryjogger.blob.core.windows.net/images/bottle%20stopper.jpg',
         'liquor cabinet contents': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/liquor%20cabinet%20contents.jpg',
         'storage ottoman tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20ottoman%20tray.jpg',
         'furniture covers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/furniture%20covers.jpg',
@@ -2614,13 +2146,9 @@
         'glass cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/glass%20cleaner.jpg',
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/all%20purpose%20cleaner.jpg',
         'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/images/microfiber%20cloths.jpg',
-        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towels.jpg',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20can.jpg',
         'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin.jpg',
         'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20bags.jpg',
         'drawer organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20organizer.jpg',
-        'cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20shelf%20liner.jpg',
-        'furniture polish': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/furniture%20polish.jpg',
         'wood cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wood%20cleaner.jpg',
         'fabric freshener spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fabric%20freshener%20spray.jpg',
         'air freshener': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/air%20freshener.jpg',
@@ -2685,10 +2213,6 @@
         'clock batteries': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/clock%20batteries.jpg',
         'picture frame stand': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/picture%20frame%20stand.jpg',
         'photo storage box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/photo%20storage%20box.jpg',
-        'decorative shelf brackets': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20shelf%20brackets.jpg',
-        'wall sconce bulbs': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20sconce%20bulbs.jpg',
-        'throw pillow inserts': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/throw%20pillow%20inserts.jpg',
-        'pillow covers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/pillow%20covers.jpg',
         'seat cushion covers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/seat%20cushion%20covers.jpg',
         'blanket storage basket': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/blanket%20storage%20basket.jpg',
         'quilt storage bag': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/quilt%20storage%20bag.jpg',
@@ -2696,14 +2220,12 @@
         'folding chair pads': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/folding%20chair%20pads.jpg',
         'stool cushion': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/stool%20cushion.jpg',
         'mantle garland': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mantle%20garland.jpg',
-        'candle snuffer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle%20snuffer.jpg',
         'lantern candles': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lantern%20candles.jpg',
         'plant watering can': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20watering%20can.jpg',
         'plant fertilizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20fertilizer.jpg',
         'plant mister': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20mister.jpg',
 
         'artificial plant decor': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/artificial%20plant%20decor.jpg',
-        'vase filler stones': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/vase%20filler%20stones.jpg',
         'decorative bowl filler': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20bowl%20filler.jpg',
         'coffee table tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coffee%20table%20tray.jpg',
         'magazine holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/magazine%20holder.jpg',
@@ -2767,7 +2289,6 @@
         'lint brush': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lint%20brush.jpg',
         'handheld steamer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/handheld%20steamer.jpg',
         'upright vacuum': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/upright%20vacuum.jpg',
-        'vacuum bags': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/vacuum%20bags.jpg',
         'carpet cleaning solution': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carpet%20cleaning%20solution.jpg',
         'broom holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/broom%20holder.jpg',
         'mop bucket': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mop%20bucket.jpg',
@@ -2777,7 +2298,6 @@
         'dusting wand': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/dusting%20wand.jpg',
         'paper towel holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/paper%20towel%20holder.jpg',
         'trash can liner refill': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/trash%20can%20liner%20refill.jpg',
-        'wood polish cloth': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wood%20polish%20cloth.jpg',
         'fabric protector wipes': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fabric%20protector%20wipes.jpg',
         'air freshener refill': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/air%20freshener%20refill.jpg',
         'essential oil set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/essential%20oil%20set.jpg',
@@ -2789,9 +2309,7 @@
         'remote finder device': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/remote%20finder%20device.jpg',
         'smart bulb hub': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/smart%20bulb%20hub.jpg',
         'bluetooth remote': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bluetooth%20remote.jpg',
-        'decorative lantern set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20lantern%20set.jpg',
         'floor plant stand': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20plant%20stand.jpg',
-        'plant drip tray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20drip%20tray.jpg',
 
         'indoor tree planter': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/indoor%20tree%20planter.jpg',
         'artificial tree decor': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/artificial%20tree%20decor.jpg',
@@ -2814,14 +2332,11 @@
         'lamp timer switch': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lamp%20timer%20switch.jpg',
         'light bulb storage case': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/light%20bulb%20storage%20case.jpg',
         'ceiling fan remote holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ceiling%20fan%20remote%20holder.jpg',
-        'rug storage roll': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rug%20storage%20roll.jpg',
         'window blind cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/window%20blind%20cleaner.jpg',
         'curtain cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/curtain%20cleaning%20brush.jpg',
         'art cleaning cloth': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/art%20cleaning%20cloth.jpg',
         'picture frame cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/picture%20frame%20cleaner.jpg',
-        'mirror cleaning spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mirror%20cleaning%20spray.jpg',
         'wall decor stencil': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20decor%20stencil.jpg',
-        'candle storage box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle%20storage%20box.jpg',
         'plant care kit': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20care%20kit.jpg',
         'decorative stone set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20stone%20set.jpg',
         'coffee table organizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coffee%20table%20organizer.jpg',
@@ -2860,7 +2375,6 @@
         'ottoman storage divider': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ottoman%20storage%20divider.jpg',
         'coffee table leg protectors': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coffee%20table%20leg%20protectors.jpg',
         'end table drawer liner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/end%20table%20drawer%20liner.jpg',
-        'console cable grommet': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/console%20cable%20grommet.jpg',
         'media console cable ties': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/media%20console%20cable%20ties.jpg',
         'bookcase bookends': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bookcase%20bookends.jpg',
         'display cabinet locks': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/display%20cabinet%20locks.jpg',
@@ -2873,11 +2387,9 @@
         'modem power adapter': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/modem%20power%20adapter.jpg',
         'wifi extender cable': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wifi%20extender%20cable.jpg',
         'smart speaker stand': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/smart%20speaker%20stand.jpg',
-        'floor lamp base weight': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20lamp%20base%20weight.jpg',
         'table lamp harp': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/table%20lamp%20harp.jpg',
         'lamp shade finial': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lamp%20shade%20finial.jpg',
         'fan blade cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fan%20blade%20cleaner.jpg',
-        'area rug corner tape': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/area%20rug%20corner%20tape.jpg',
         'rug cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rug%20cleaning%20brush.jpg',
         'carpet deodorizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/carpet%20deodorizer.jpg',
         'window curtain rings': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/window%20curtain%20rings.jpg',
@@ -2900,14 +2412,12 @@
         'log storage rack': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/log%20storage%20rack.jpg',
         'fireplace bellows': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/fireplace%20bellows.jpg',
         'mantle decor garland lights': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mantle%20decor%20garland%20lights.jpg',
-        'candle lighter': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle%20lighter.jpg',
         'lantern hanger': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lantern%20hanger.jpg',
         'plant soil bag': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20soil%20bag.jpg',
         'plant pruning shears': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20pruning%20shears.jpg',
         'plant support stakes': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20support%20stakes.jpg',
         'artificial plant cleaner spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/artificial%20plant%20cleaner%20spray.jpg',
         'floor vase filler sticks': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20vase%20fillter%20sticks.jpg',
-        'decorative tray liner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20tray%20liner.jpg',
 
         'magazine file holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/magazine%20file%20holder.jpg',
         'board game pieces organizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/board%20game%20pieces%20organizer.jpg',
@@ -2922,7 +2432,6 @@
         'cd storage tower': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cd%20storage%20tower.jpg',
         'dvd storage case': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/dvd%20storage%20case.jpg',
         'game controller case': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/game%20controller%20case.jpg',
-        'storage basket liner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/storage%20basket%20liner.jpg',
         'decorative box set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20box%20set.jpg',
         'toy storage shelf': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/toy%20storage%20shelf.jpg',
         'coat rack wall mount': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/coat%20rack%20wall%20mount.jpg',
@@ -2988,103 +2497,25 @@
         'floor plant grow light': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/floor%20plant%20grow%20light.jpg',
         'plant watering globe': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plant%20watering%20globe.jpg',
 
-        'indoor planter liner': 'https://cdamemoryjogger.blob.core.windows.net/images/indoor%20planter%20liner.jpg',
         'artificial tree stand': 'https://cdamemoryjogger.blob.core.windows.net/images/artificial%20tree%20stand.jpg',
-        'large floor vase filler': 'https://cdamemoryjogger.blob.core.windows.net/images/large%20floor%20vase%20filler.jpg',
-        'ceramic bowl decor set': 'https://cdamemoryjogger.blob.core.windows.net/images/ceramic%20bowl%20decor%20set.jpg',
-        'magazine display rack': 'https://cdamemoryjogger.blob.core.windows.net/images/magazine%20display%20rack.jpg',
         'board game shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/board%20game%20shelf.jpg',
-        'card game binder': 'https://cdamemoryjogger.blob.core.windows.net/images/card%20game%20binder.jpg',
-        'puzzle storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/puzzle%20storage%20bag.jpg',
-        'charging cable station': 'https://cdamemoryjogger.blob.core.windows.net/images/charging%20cable%20station.jpg',
         'laptop backpack': 'https://cdamemoryjogger.blob.core.windows.net/images/laptop%20backpack.jpg',
-        'tablet sleeve': 'https://cdamemoryjogger.blob.core.windows.net/images/tablet%20sleeve.jpg',
-        'headphone wall hook': 'https://cdamemoryjogger.blob.core.windows.net/images/headphone%20wall%20hook.jpg',
-        'bluetooth speaker case': 'https://cdamemoryjogger.blob.core.windows.net/images/bluetooth%20speaker%20case.jpg',
-        'cd binder case': 'https://cdamemoryjogger.blob.core.windows.net/images/cd%20binder%20case.jpg',
-        'light bulb organizer box': 'https://cdamemoryjogger.blob.core.windows.net/images/light%20bulb%20organizer%20box.jpg',
-        'ceiling fan balancing kit': 'https://cdamemoryjogger.blob.core.windows.net/images/ceiling%20fan%20balancing%20kit.jpg',
-        'mirror polish cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/mirror%20polish%20cloth.jpg',
-        'wall decor hooks': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20decor%20hooks.jpg',
-        'candle storage tray': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20storage%20tray.jpg',
-        'plant fertilizer spikes': 'https://cdamemoryjogger.blob.core.windows.net/images/plant%20fertilizer%20spikes.jpg',
-        'decorative stone bowl': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20stone%20bowl.jpg',
-        'coffee table storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20table%20storage%20box.jpg',
-        'magazine file bin': 'https://cdamemoryjogger.blob.core.windows.net/images/magazine%20file%20bin.jpg',
         'game storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/images/game%20storage%20cabinet.jpg',
 
-        'shoe rack organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/shoe%20rack%20organizer.jpg',
-        'shoe rack stackable': 'https://cdamemoryjogger.blob.core.windows.net/images/shoe%20rack%20stackable.jpg',
-        'shoe storage organizer box': 'https://cdamemoryjogger.blob.core.windows.net/images/shoe%20storage%20organizer%20box.jpg',
         'coat rack freestanding': 'https://cdamemoryjogger.blob.core.windows.net/images/coat%20rack%20freestanding.jpg',
         'umbrella holder stand': 'https://cdamemoryjogger.blob.core.windows.net/images/umbrella%20holder%20stand.jpg',
-        'umbrella rack tray': 'https://cdamemoryjogger.blob.core.windows.net/images/umbrella%20rack%20tray.jpg',
-        'hall tree storage shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/hall%20tree%20storage%20shelf.jpg',
-        'accent decor sculpture': 'https://cdamemoryjogger.blob.core.windows.net/images/accent%20decor%20sculpture.jpg',
-        'accent decor bowl': 'https://cdamemoryjogger.blob.core.windows.net/images/accent%20decor%20bowl.jpg',
-        'decorative bowl set': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20bowl%20set.jpg',
-        'decorative stone tray': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20stone%20tray.jpg',
-        'decorative tray storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20tray%20storage%20box.jpg',
-        'floor protector mat': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20protector%20mat.jpg',
-        'area rug cleaning spray': 'https://cdamemoryjogger.blob.core.windows.net/images/area%20rug%20cleaning%20spray.jpg',
-        'rug storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20storage%20bag.jpg',
-        'rug gripper pads': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20gripper%20pads.jpg',
         'carpet padding': 'https://cdamemoryjogger.blob.core.windows.net/images/carpet%20padding.jpg',
-        'rug cleaning machine solution': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20cleaning%20machine%20solution.jpg',
         'wifi extender wall plate': 'https://cdamemoryjogger.blob.core.windows.net/images/wifi%20extender%20wall%20plate.jpg',
-        'smart speaker cable': 'https://cdamemoryjogger.blob.core.windows.net/images/smart%20speaker%20cable.jpg',
-        'bluetooth speaker dock': 'https://cdamemoryjogger.blob.core.windows.net/images/bluetooth%20speaker%20dock.jpg',
-        'bluetooth audio adapter': 'https://cdamemoryjogger.blob.core.windows.net/images/bluetooth%20audio%20adapter.jpg',
         'wireless headphone stand': 'https://cdamemoryjogger.blob.core.windows.net/images/wireless%20headphone%20stand.jpg',
         'headphone amplifier': 'https://cdamemoryjogger.blob.core.windows.net/images/headphone%20amplifier.jpg',
-        'headphone storage case': 'https://cdamemoryjogger.blob.core.windows.net/images/headphone%20storage%20case.jpg',
         'laptop carrying case': 'https://cdamemoryjogger.blob.core.windows.net/images/laptop%20carrying%20case.jpg',
-        'laptop desk tray': 'https://cdamemoryjogger.blob.core.windows.net/images/laptop%20desk%20tray.jpg',
 
-        'essential oil storage case': 'https://cdamemoryjogger.blob.core.windows.net/images/essential%20oil%20storage%20case.jpg',
-        'fabric stain remover wipes': 'https://cdamemoryjogger.blob.core.windows.net/images/fabric%20stain%20remover%20wipes.jpg',
-        'handheld vacuum charger': 'https://cdamemoryjogger.blob.core.windows.net/images/handheld%20vacuum%20charger.jpg',
-        'upright vacuum filter': 'https://cdamemoryjogger.blob.core.windows.net/images/upright%20vacuum%20filter.jpg',
-        'vacuum cleaner attachments': 'https://cdamemoryjogger.blob.core.windows.net/images/vacuum%20cleaner%20attachments.jpg',
-        'carpet cleaner hose': 'https://cdamemoryjogger.blob.core.windows.net/images/carpet%20cleaner%20hose.jpg',
-        'broom replacement handle': 'https://cdamemoryjogger.blob.core.windows.net/images/broom%20replacement%20handle.png',
-        'mop bucket wringer': 'https://cdamemoryjogger.blob.core.windows.net/images/mop%20bucket%20wringer.jpg',
-        'cleaning supply caddy large': 'https://cdamemoryjogger.blob.core.windows.net/images/cleaning%20supply%20caddy%20large.jpg',
-        'dusting mitt': 'https://cdamemoryjogger.blob.core.windows.net/images/dusting%20mitt.jpg',
-        'recycling bin divider': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin%20divider.jpg',
-        'drawer organizer expandable': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20organizer%20expandable.jpg',
-        'decorative box organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20box%20organizer.jpg',
         'tool box large': 'https://cdamemoryjogger.blob.core.windows.net/images/tool%20box%20large.jpg',
         'tool box small': 'https://cdamemoryjogger.blob.core.windows.net/images/tool%20box%20small.jpg',
-        'canvas stretcher kit': 'https://cdamemoryjogger.blob.core.windows.net/images/canvas%20stretcher%20kit.jpg',
-        'photo album sleeves': 'https://cdamemoryjogger.blob.core.windows.net/images/photo%20album%20sleeves.jpg',
-        'mirror adhesive strips': 'https://cdamemoryjogger.blob.core.windows.net/images/mirror%20adhesive%20strips.jpg',
-        'mirror hanging kit': 'https://cdamemoryjogger.blob.core.windows.net/images/mirror%20hanging%20kit.jpg',
-        'floor mirror frame': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20mirror%20frame.jpg',
-        'clock replacement mechanism': 'https://cdamemoryjogger.blob.core.windows.net/images/clock%20replacement%20mechanism.jpg',
-        'wall art cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20art%20cleaning%20brush.jpg',
-        'plant soil scoop': 'https://cdamemoryjogger.blob.core.windows.net/images/plant%20soil%20scoop.jpg',
-        'plant leaf shine spray': 'https://cdamemoryjogger.blob.core.windows.net/images/plant%20leaf%20shine%20spray.jpg',
-        'plant care spray bottle': 'https://cdamemoryjogger.blob.core.windows.net/images/plant%20care%20spray%20bottle.jpg',
-        'plant pot liner': 'https://cdamemoryjogger.blob.core.windows.net/images/plant%20pot%20liner.jpg',
         'artificial plant base': 'https://cdamemoryjogger.blob.core.windows.net/images/artificial%20plant%20base.jpg',
         'artificial tree planter': 'https://cdamemoryjogger.blob.core.windows.net/images/artificial%20tree%20planter.jpg',
-        'floor plant basket': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20plant%20basket.jpg',
-        'large vase decorative': 'https://cdamemoryjogger.blob.core.windows.net/images/large%20vase%20decorative.jpg',
-        'floor vase cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20vase%20cleaning%20brush.jpg',
         'ceramic bowl centerpiece': 'https://cdamemoryjogger.blob.core.windows.net/images/ceramic%20bowl%20centerpiece.jpg',
 
-        'security camera mount kit': 'https://cdamemoryjogger.blob.core.windows.net/images/security%20camera%20mount%20kit.jpg',
-        'security camera mounting screws': 'https://cdamemoryjogger.blob.core.windows.net/images/security%20camera%20mounting%20screws.jpg',
-        'security camera extension cable': 'https://cdamemoryjogger.blob.core.windows.net/images/security%20camera%20extension%20cable.jpg',
-        'alarm system keypad cover': 'https://cdamemoryjogger.blob.core.windows.net/images/alarm%20system%20keypad%20cover.jpg',
-        'alarm system motion sensor': 'https://cdamemoryjogger.blob.core.windows.net/images/alarm%20system%20motion%20sensor.jpg',
-        'alarm system control panel': 'https://cdamemoryjogger.blob.core.windows.net/images/alarm%20system%20control%20panel.jpg',
-        'motion sensor lens': 'https://cdamemoryjogger.blob.core.windows.net/images/motion%20sensor%20lens.jpg',
-        'motion sensor adhesive pads': 'https://cdamemoryjogger.blob.core.windows.net/images/motion%20sensor%20adhesive%20pads.jpg',
-        'motion sensor battery pack': 'https://cdamemoryjogger.blob.core.windows.net/images/motion%20sensor%20battery%20pack.jpg',
-        'door sensor replacement': 'https://cdamemoryjogger.blob.core.windows.net/images/door%20sensor%20replacement.jpg',
-        'air purifier cover': 'https://cdamemoryjogger.blob.core.windows.net/images/air%20purifier%20cover.jpg',
 
 
 
@@ -3203,7 +2634,6 @@
 
     'dust ruffle': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/dust%20ruffle.jpg',
     'throw pillow covers': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/throw%20pillow%20covers.jpg',
-    'spare pillowcases': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/spare%20pillowcases.jpg',
 
     'closet organizer system': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/closet%20organizer%20system.jpg',
     'hanging clothes organizer': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/hanging%20clothes%20organizer.jpg',
@@ -3215,8 +2645,6 @@
     'over door shoe holder': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/over%20door%20shoe%20holder.jpg',
     'hanging shoe bag': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/hanging%20shoe%20bag.jpg',
     'clear shoe boxes': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/clear%20shoe%20boxes.jpg',
-    'storage bins': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/storage%20bins.jpg',
-    'clear storage boxes': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/clear%20storage%20boxes.jpg',
     'under bed storage box': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/under%20bed%20storage%20box.jpg',
     'under bed rolling drawer': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/under%20bed%20rolling%20drawer.jpg',
     'under bed shoe organizer': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/under%20bed%20shoe%20organizer.jpg',
@@ -3382,8 +2810,6 @@
     'salt lamp': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/salt%20lamp.jpg',
     'smart bulb': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/smart%20bulb.jpg',
     'color changing bulb': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/color%20changing%20bulb.jpg',
-    'lamp shade': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/lamp%20shade.jpg',
-    'spare lamp shade': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/spare%20lamp%20shade.jpg',
     'dimmer plug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/dimmer%20plug.jpg',
     'touch lamp': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/touch%20lamp.jpg',
     'battery candle set': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/battery%20candle%20set.jpg',
@@ -3434,7 +2860,6 @@
     'remote controls': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/remote%20controls.jpg',
     'universal remote': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/universal%20remote.jpg',
     'phone stand': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/phone%20stand.jpg',
-    'gaming console': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/gaming%20console.jpg',
     'vr headset': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/vr%20headset.jpg',
     'smart display': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/smart%20display.jpg',
     'cable organizer box': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/cable%20organizer%20box.jpg',
@@ -3467,7 +2892,6 @@
     'accent rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/accent%20rug.jpg',
     'shag rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/shag%20rug.jpg',
     'wool rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/wool%20rug.jpg',
-    'rug pad': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/rug%20pad.jpg',
     'bedside rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/bedside%20rug.jpg',
     'round rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/round%20rug.jpg',
     'sheepskin rug': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/sheepskin%20rug.jpg',
@@ -3500,7 +2924,6 @@
     'artificial plant': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/artificial%20plant.jpg',
     'plant pot decorative': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/plant%20pot%20decorative.jpg',
     'hanging planter': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/hanging%20planter.jpg',
-    'candle holders': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/candle%20holders.jpg',
     'scented candles': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/scented%20candles.jpg',
     'pillar candles': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/pillar%20candles.jpg',
     'decorative tray': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/decorative%20tray.jpg',
@@ -3512,9 +2935,6 @@
     'dream catcher': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/dream%20catcher.jpg',
     'wall decals': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/wall%20decals.jpg',
     'garland decorative': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/garland%20decorative.jpg',
-    'seasonal decor': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/seasonal%20decor.jpg',
-    'accent pillows decor': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/accent%20pillows%20decor.jpg',
-    'decorative basket': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/decorative%20basket.jpg',
     'memory board': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/memory%20board.jpg',
     'cork board': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/cork%20board.jpg',
     'string light frame': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/string%20light%20frame.jpg',
@@ -3543,7 +2963,6 @@
     'electric shaver': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/electric%20shaver.jpg',
     'manicure set': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/manicure%20set.jpg',
     'nail polish collection': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/nail%20polish%20collection.jpg',
-    'tissue box holder': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/tissue%20box%20holder.jpg',
     'jewelry cleaning kit': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/jewelry%20cleaning%20kit.jpg',
     'watch box': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/watch%20box.jpg',
     'watch winder': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/watch%20winder.jpg',
@@ -3582,7 +3001,6 @@
     'drawer sachets': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/drawer%20sachets.jpg',
     'air freshener': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/air%20freshener.jpg',
     'room spray': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/room%20spray.jpg',
-    'reed diffuser': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/reed%20diffuser.jpg',
     'blanket ladder': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/blanket%20ladder.jpg',
     'magazine rack': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/magazine%20rack.jpg',
     'book stack': 'https://cdamemoryjogger.blob.core.windows.net/bedroom/book%20stack.jpg',
@@ -3609,7 +3027,6 @@
         'power strip': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/power%20strip.jpg',
         'surge protector': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/surge%20protector.jpg',
         'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/trash%20bags.jpg',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/trash%20can.jpg',
         'wall clock': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/wall%20clock.jpg',
 
         'single vanity': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/single%20vanity.jpg',
@@ -3688,7 +3105,6 @@
         'toilet paper storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/toilet%20paper%20storage%20cabinet.jpg',
         'novelty toilet paper holder': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/novelty%20toilet%20paper%20holder.jpg',
         'bamboo toilet brush': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/bamboo%20toilet%20brush.jpg',
-        'disposable toilet brush': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/disposable%20toilet%20brush.jpg',
         'toilet deodorizer clip': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/toilet%20deodorizer%20clip.jpg',
         'shower door organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/shower%20door%20organizer.jpg',
         'medicine cabinet organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/medicine%20cabinet%20organizer.jpg',
@@ -3729,9 +3145,6 @@
         'perfume organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/perfume%20organizer.jpg',
         'jewelry tray': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/jewelry%20tray.jpg',
         'hair tie organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/hair%20tie%20organizer.jpg',
-        'bobby pin organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/bobby%20pin%20organizer.jpg',
-        'hair clip organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/hair%20clip%20organizer.jpg',
-        'small drawer organizer': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/small%20drawer%20organizer.jpg',
         'brush cleaning mat': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/brush%20cleaning%20mat.jpg',
         'makeup remover pads reusable': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/makeup%20remover%20pads%20reusable.jpg',
         'facial cleansing brush': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/facial%20cleansing%20brush.jpg',
@@ -4057,121 +3470,33 @@
         'hair glossing treatment': 'https://cdamemoryjogger.blob.core.windows.net/bathroom/hair%20glossing%20treatment.jpg',
 
         'body wash': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/body%20wash.jpg',
-        'shower gel': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20gel.jpg',
-        'bar soap': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bar%20soap.jpg',
-        'antibacterial soap': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/antibacterial%20soap.jpg',
-        'castile soap': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/castile%20soap.jpg',
-        'bath salts': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20salts.jpg',
-        'bath bombs': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20bombs.jpg',
-        'bubble bath': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bubble%20bath.jpg',
-        'bath oil': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20oil.jpg',
-        'bath soak': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20soak.jpg',
-        'shower steamers': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20steamers.jpg',
-        'bath tablets': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20tablets.jpg',
-        'epsom salt': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/epsom%20salt.jpg',
-        'bath milk powder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20milk%20powder.jpg',
-        'shower scrub': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20scrub.jpg',
         'body polish': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/body%20polish.jpg',
-        'bath foam': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20foam.jpg',
-        'bath confetti': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20confetti.jpg',
-        'bath accessories set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20accessories%20set.jpg',
-        'gift set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gift%20set.jpg',
-        'shower gel set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20gel%20set.jpg',
-        'spa gift basket': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/spa%20gift%20basket.jpg',
         'bath accessory kit': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20accessory%20kit.jpg',
         'aromatherapy shower kit': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/aromatherapy%20shower%20kit.jpg',
         'charcoal soap bar': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/charcoal%20soap%20bar.jpg',
 
-        'bandages': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bandages.jpg',
-        'adhesive bandages': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/adhesive%20bandages.jpg',
-        'gauze pads': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/gauze%20pads.jpg',
-        'medical tape': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/medical%20tape.jpg',
-        'antiseptic wipes': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/antiseptic%20wipes.jpg',
-        'hydrogen peroxide': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/hydrogen%20peroxide.jpg',
-        'rubbing alcohol': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rubbing%20alcohol.jpg',
-        'antibiotic ointment': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/antibiotic%20ointment.jpg',
-        'pain reliever': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/pain%20reliever.jpg',
-        'ibuprofen': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ibuprofen.jpg',
-        'acetaminophen': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/acetaminophen.jpg',
-        'antacid': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/antacid.jpg',
-        'allergy medicine': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/allergy%20medicine.jpg',
-        'cold medicine': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cold%20medicine.jpg',
-        'cough syrup': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cough%20syrup.jpg',
-        'nasal spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/nasal%20spray.jpg',
-        'eye drops': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/eye%20drops.jpg',
-        'ear drops': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ear%20drops.jpg',
         'thermometer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/thermometer.jpg',
         'blood pressure monitor': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/blood%20pressure%20monitor.jpg',
         'pulse oximeter': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/pulse%20oximeter.jpg',
-        'prescription organizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/prescription%20organizer.jpg',
-        'pill box': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/pill%20box.jpg',
-        'medicine cup': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/medicine%20cup.jpg',
-        'medicine dropper': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/medicine%20dropper.jpg',
-        'heating pad': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/heating%20pad.jpg',
         'ice pack': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/ice%20pack.jpg',
-        'elastic bandage': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/elastic%20bandage.jpg',
         'room thermometer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/room%20thermometer.jpg',
 
-        'bathroom cleaner spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bathroom%20cleaner%20spray.jpg',
-        'tile cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/tile%20cleaner.jpg',
-        'grout cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/grout%20cleaner.jpg',
-        'mold and mildew remover': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mold%20and%20mildew%20remover.jpg',
-        'shower cleaner spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20cleaner%20spray.jpg',
-        'mirror cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/mirror%20cleaner.jpg',
-        'tub and tile scrub': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/tub%20and%20tile%20scrub.jpg',
-        'bathroom disinfectant': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bathroom%20disinfectant.jpg',
-        'bleach spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bleach%20spray.jpg',
-        'drain cleaner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/drain%20cleaner.jpg',
-        'drain hair catcher': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/drain%20hair%20catcher.jpg',
-        'drain strainer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/drain%20strainer.jpg',
-        'scrub brush': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/scrub%20brush.jpg',
-        'grout brush': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/grout%20brush.jpg',
-        'cleaning sponge': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cleaning%20sponge.jpg',
-        'scrub sponge': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/scrub%20sponge.jpg',
-        'microfiber cleaning cloth': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/microfiber%20cleaning%20cloth.jpg',
-        'cleaning rags': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cleaning%20rags.jpg',
-        'rubber gloves': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/rubber%20gloves.jpg',
-        'cleaning supply organizer': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/cleaning%20supply%20organizer.jpg',
         'small trash can': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/small%20trash%20can.jpg',
         'wastebasket': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wastebasket.jpg',
-        'wastebasket liner': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wastebasket%20liner.jpg',
-        'trash can with lid': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/trash%20can%20with%20lid.jpg',
-        'odor eliminating spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/odor%20eliminating%20spray.jpg',
         'air freshener': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/air%20freshener.jpg',
         'scent diffuser': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/scent%20diffuser.jpg',
-        'reed diffuser': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/reed%20diffuser.jpg',
-        'plug in air freshener': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plug%20in%20air%20freshener.jpg',
         'essential oil diffuser': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/essential%20oil%20diffuser.jpg',
-        'candle': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle.jpg',
-        'matches': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/matches.jpg',
-        'candle lighter': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/candle%20lighter.jpg',
-        'squeegee': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/squeegee.jpg',
-        'shower squeegee': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20squeegee.jpg',
-        'drain cleaner tablets': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/drain%20cleaner%20tablets.jpg',
-        'descaler solution': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/descaler%20solution.jpg',
-        'soap scum remover': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/soap%20scum%20remover.jpg',
-        'hard water stain remover': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/hard%20water%20stain%20remover.jpg',
 
-        'LED light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/LED%20light%20bulbs.jpg',
         'night light': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/night%20light.jpg',
         'motion sensor night light': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/motion%20sensor%20night%20light.jpg',
-        'plug in night light': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/plug%20in%20night%20light.jpg',
         'bathroom scale': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bathroom%20scale.jpg',
-        'digital bathroom scale': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/digital%20bathroom%20scale.jpg',
         'body weight scale': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/body%20weight%20scale.jpg',
         'shaver charging stand': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shaver%20charging%20stand.jpg',
-        'extension cord bathroom safe': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/extension%20cord%20bathroom%20safe.jpg',
         'USB charging hub': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/USB%20charging%20hub.jpg',
         'wall charger': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/wall%20charger.jpg',
-        'lighted mirror remote': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/lighted%20mirror%20remote.jpg',
         'bluetooth mirror': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bluetooth%20mirror.jpg',
         'smart mirror': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/smart%20mirror.jpg',
-        'waterproof phone holder shower': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/waterproof%20phone%20holder%20shower.jpg',
-        'shower phone mount': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/shower%20phone%20mount.jpg',
 
-        'bathroom rug set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bathroom%20rug%20set.jpg',
-        'decorative basket': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/decorative%20basket.jpg',
-        'soap stone dish': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/soap%20stone%20dish.jpg',
         'bathroom wall art': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bathroom%20wall%20art.jpg',
         'framed bathroom art': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/framed%20bathroom%20art.jpg',
         'canvas bathroom print': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/canvas%20bathroom%20print.jpg',
@@ -4181,12 +3506,7 @@
         'indoor plant': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/indoor%20plant.jpg',
         'artificial plant': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/artificial%20plant.jpg',
         'succulent pot': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/succulent%20pot.jpg',
-        'air plant holder': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/air%20plant%20holder.jpg',
         'bamboo plant': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bamboo%20plant.jpg',
-        'eucalyptus bundle': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/eucalyptus%20bundle.jpg',
-        'bath salt display jar': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/bath%20salt%20display%20jar.jpg',
-        'apothecary bottle set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/apothecary%20bottle%20set.jpg',
-        'glass jar set': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/glass%20jar%20set.jpg',
       
         'portable fan': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/portable%20fan.jpg',
         'space heater bathroom safe': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/space%20heater%20bathroom%20safe.jpg',
@@ -4201,38 +3521,11 @@
         'dehumidifier small': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/dehumidifier%20small.jpg',
         'air purifier small': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/air%20purifier%20small.jpg',
         'aromatherapy diffuser': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/aromatherapy%20diffuser.jpg',
-        'anti fog mirror spray': 'https://cdamemoryjogger.blob.core.windows.net/livingroom/anti%20fog%20mirror%20spray.jpg',
 
         //dining room
         'dining table': 'https://cdamemoryjogger.blob.core.windows.net/images/dining%20table.jpg',
-        'table base': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20base.jpg',
-        'table legs': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20legs.jpg',
         'table leaf insert': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leaf%20insert.jpg',
-        'table leaf storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leaf%20storage%20bag.jpg',
-        'table pad protector': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20pad%20protector.jpg',
-        'table leg hardware kit': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leg%20hardware%20kit.jpg',
-        'table corner protectors': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20corner%20protectors.jpg',
-        'table extension slides': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20extension%20slides.jpg',
-        'table leveling pads': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leveling%20pads.jpg',
-        'table leaf alignment pins': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leaf%20alignment%20pins.jpg',
-        'table pad storage tube': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20pad%20storage%20tube.jpg',
-        'table refinishing kit': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20refinishing%20kit.jpg',
-        'table polish cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20polish%20cloth.jpg',
-        'table scratch repair marker': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20scratch%20repair%20marker.jpg',
-        'table leg bolts': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leg%20bolts.jpg',
-        'table stabilizer brackets': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20stabilizer%20brackets.jpg',
-        'console table corner braces': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20corner%20braces.jpg',
-        'table leaf support bracket': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leaf%20support%20bracket.jpg',
-        'table support beam': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20support%20beam.jpg',
-        'table brace kit': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20brace%20kit.jpg',
-        'table hardware screws': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20hardware%20screws.jpg',
-        'table leveling shims': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leveling%20shims.jpg',
-        'table leaf lock clips': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20leaf%20lock%20clips.jpg',
         'dining table extension mechanism': 'https://cdamemoryjogger.blob.core.windows.net/images/dining%20table%20extension%20mechanism.jpg',
-        'table edge protectors': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20edge%20protectors.jpg',
-        'table top glass cover': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20top%20glass%20cover.jpg',
-        'tabletop sealer': 'https://cdamemoryjogger.blob.core.windows.net/images/tabletop%20sealer.jpg',
-        'tabletop protector film': 'https://cdamemoryjogger.blob.core.windows.net/images/tabletop%20protector%20film.jpg',
         'dining chairs': 'https://cdamemoryjogger.blob.core.windows.net/images/dining%20chairs.jpg',
         'arm chairs': 'https://cdamemoryjogger.blob.core.windows.net/images/arm%20chairs.jpg',
         'side chairs': 'https://cdamemoryjogger.blob.core.windows.net/images/side%20chairs.jpg',
@@ -4240,37 +3533,15 @@
         'chair cushions': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20cushions.jpg',
         'seat covers': 'https://cdamemoryjogger.blob.core.windows.net/images/seat%20covers.jpg',
         'chair floor protectors': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20floor%20protectors.jpg',
-        'chair leg caps': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20leg%20caps.jpg',
-        'chair glide pads': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20glide%20pads.jpg',
-        'chair seat screws': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20seat%20screws.jpg',
-        'chair back support brace': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20back%20support%20brace.jpg',
-        'chair upholstery cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20upholstery%20cleaner.jpg',
-        'chair seat cushion inserts': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20seat%20cushion%20inserts.jpg',
-        'chair back pads': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20back%20pads.jpg',
     
-        'chair cushion storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20cushion%20storage%20bag.jpg',
-        'chair leg braces': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20leg%20braces.jpg',
-        'chair upholstery kit': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20upholstery%20kit.jpg',
-        'bench frame bolts': 'https://cdamemoryjogger.blob.core.windows.net/images/bench%20frame%20bolts.jpg',
         'bench cushion foam': 'https://cdamemoryjogger.blob.core.windows.net/images/bench%20cushion%20foam.jpg',
-        'chair cushion ties': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20cushion%20ties.jpg',
         'bench storage drawer': 'https://cdamemoryjogger.blob.core.windows.net/images/bench%20storage%20drawer.jpg',
-        'chair leg felt pads': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20leg%20felt%20pads.jpg',
-        'bench leg levelers': 'https://cdamemoryjogger.blob.core.windows.net/images/bench%20leg%20levelers.jpg',
         'banquette': 'https://cdamemoryjogger.blob.core.windows.net/images/banquette.jpg',
-        'banquette cushion set': 'https://cdamemoryjogger.blob.core.windows.net/images/banquette%20cushion%20set.jpg',
         'banquette slipcover': 'https://cdamemoryjogger.blob.core.windows.net/images/banquette%20slipcover.jpg',
         'captain chair': 'https://cdamemoryjogger.blob.core.windows.net/images/captain%20chair.jpg',
-        'folding dining chairs': 'https://cdamemoryjogger.blob.core.windows.net/images/folding%20dining%20chairs.jpg',
         'chair booster seat': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20booster%20seat.jpg',
         'high chair': 'https://cdamemoryjogger.blob.core.windows.net/images/high%20chair.jpg',
-        'chair upholstery fabric': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20upholstery%20fabric.jpg',
-        'chair slipcover set': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20slipcover%20set.jpg',
         'chair cushion foam': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20cushion%20foam.jpg',
-        'chair armrest pads': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20armrest%20pads.jpg',
-        'chair backrest screws': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20backrest%20screws.jpg',
-        'chair spindle': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20spindle.jpg',
-        'chair seat webbing': 'https://cdamemoryjogger.blob.core.windows.net/images/chair%20seat%20webbing.jpg',
         'china cabinet': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet.jpg',
         'hutch cabinet': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20cabinet.jpg',
         'buffet table': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20table.jpg',
@@ -4283,144 +3554,21 @@
         'serving cart': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20cart.jpg',
         'bar cart': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cart.jpg',
         'storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20cabinet.jpg',
-        'drawer organizers': 'https://cdamemoryjogger.blob.core.windows.net/images/drawer%20organizers.jpg',
-        'cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20shelf%20liner.jpg',
         'buffet warming trays': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20warming%20trays.jpg',
         'storage baskets': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20baskets.jpg',
-        'decorative boxes': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20boxes.jpg',
-        'china cabinet shelf clips': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20shelf%20clips.jpg',
-        'china cabinet glass panels': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20glass%20panels.jpg',
-        'hutch drawer pulls': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20drawer%20pulls.jpg',
-        'buffet cabinet hinges': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20cabinet%20hinges.jpg',
-        'sideboard drawer dividers': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20drawer%20dividers.jpg',
      
-        'bar cabinet lock': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20lock.jpg',
-        'wine cabinet shelf inserts': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20cabinet%20shelf%20inserts.jpg',
-        'curio cabinet lighting kit': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20lighting%20kit.jpg',
-        'display cabinet glass cleaner kit': 'https://cdamemoryjogger.blob.core.windows.net/images/display%20cabinet%20glass%20cleaner%20kit.jpg',
-        'console table drawer liner': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20drawer%20liner.jpg',
         'cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20self%20raiser.jpg',
-        'buffet fuel cans': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20fuel%20cans.jpg',
-        'glass cabinet lock': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20cabinet%20lock.jpg',
-        'storage basket liner': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20basket%20liner.jpg',
-        'decorative box lid': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20box%20lid.jpg',
-        'buffet warming tray cover': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20warming%20tray%20cover.jpg',
-        'china cabinet light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20light%20bulbs.jpg',
-        'china cabinet glass shelf inserts': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20glass%20shelf%20inserts.jpg',
-        'buffet drawer slides': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20drawer%20slides.jpg',
-        'wine cabinet thermometer': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20cabinet%20thermometer.jpg',
-        'curio cabinet glass cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20glass%20cleaner.jpg',
-        'display cabinet shelf lighting': 'https://cdamemoryjogger.blob.core.windows.net/images/display%20cabinet%20shelf%20lighting.jpg',
-        'serving cart handle grips': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20cart%20handle%20grips.jpg',
-        'glass cabinet shelf protector': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20cabinet%20shelf%20protector.jpg',
-        'storage basket stacker': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20basket%20stacker.jpg',
-        'decorative box storage crate': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20box%20storage%20crate.jpg',
-        'china cabinet door lock': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20door%20lock.jpg',
-        'buffet cabinet key spare': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20cabinet%20key%20spare.jpg',
-        'bar cabinet lighting strip': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20lighting%20strip.jpg',
-        'curio cabinet shelf clips': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20shelf%20clips.jpg',
-        'console table anti slip pads': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20anti%20slip%20pads.jpg',
-        'china cabinet door handles': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20door%20handles.jpg',
-        'china cabinet shelf lighting kit': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20shelf%20lighting%20kit.jpg',
-        'hutch shelf brackets': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20shelf%20brackets.jpg',
-        'buffet door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20door%20bumpers.jpg',
-        'sideboard shelf supports': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20shelf%20supports.jpg',
-        'bar cabinet wine glass holders': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20wine%20glass%20holders.jpg',
-        'curio cabinet lock': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20lock.jpg',
 
-        'bar cart glass holder insert': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cart%20glass%20holder%20insert.jpg',
-        'cabinet hinge repair kit': 'https://cdamemoryjogger.blob.core.windows.net/images/cabinet%20hinge%20repair%20kit.jpg',
         'china cabinet plate stand': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20plate%20stand.jpg',
-        'buffet warming tray lid': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20warming%20tray%20lid.jpg',
-        'china cabinet polish cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20polish%20cloth.jpg',
-        'glass cabinet door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20cabinet%20door%20bumpers.jpg',
-        'storage basket lid': 'https://cdamemoryjogger.blob.core.windows.net/images/storage%20basket%20lid.jpg',
-        'decorative box large': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20box%20large.jpg',
-        'china cabinet shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20shelf%20liner.jpg',
-        'buffet anti slip mat': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20anti%20slip%20mat.jpg',
-        'sideboard drawer liner': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20drawer%20liner.jpg',
-        'bar cabinet bottle mat': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20bottle%20mat.jpg',
         'curio cabinet display stand': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20display%20stand.jpg',
-        'display cabinet door magnet': 'https://cdamemoryjogger.blob.core.windows.net/images/display%20cabinet%20door%20magnet.jpg',
-        'console table drawer divider': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20drawer%20divider.jpg',
-        'hutch decorative trim': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20decorative%20trim.jpg',
-        'buffet cabinet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/images/buffet%20cabinet%20shelf%20riser.jpg',
-        'bar cabinet LED lighting': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20LED%20lighting.jpg',
-        'wine cabinet humidity monitor': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20cabinet%20humidity%20monitor.jpg',
-        'curio cabinet shelf protector': 'https://cdamemoryjogger.blob.core.windows.net/images/curio%20cabinet%20shelf%20protector.jpg',
-        'display cabinet glass polish': 'https://cdamemoryjogger.blob.core.windows.net/images/display%20cabinet%20glass%20polish.jpg',
-        'console table leg braces': 'https://cdamemoryjogger.blob.core.windows.net/images/console%20table%20leg%20braces.jpg',
-        'bar cart shelf liner': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cart%20shelf%20liner.jpg',
-        'china cabinet door magnet': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20door%20magnet.jpg',
-        'china cabinet door catch': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20door%20catch.jpg',
-        'china cabinet door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20door%20bumpers.jpg',
-        'china cabinet key': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20key.jpg',
-        'china cabinet lock cylinder': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20lock%20cylinder.jpg',
-        'china cabinet glass shelf supports': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20glass%20shelf%20supports.jpg',
-        'china cabinet shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20shelf%20pins.jpg',
-        'china cabinet shelf brackets': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20shelf%20brackets.jpg',
-        'china cabinet leveling feet': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20cabinet%20leveling%20feet.jpg',
-        'hutch shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20shelf%20pins.jpg',
-        'hutch shelf supports': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20shelf%20supports.jpg',
-        'hutch door catch': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20door%20catch.jpg',
-        'hutch door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20door%20bumpers.jpg',
-        'hutch door hinges soft close': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20door%20hinges%20soft%20close.jpg',
-        'hutch cabinet feet levelers': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20cabinet%20feet%20levelers.jpg',
-        'hutch glass shelf supports': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20glass%20shelf%20supports.jpg',
-        'hutch lighting remote': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20lighting%20remote.jpg',
-        'hutch LED puck lights': 'https://cdamemoryjogger.blob.core.windows.net/images/hutch%20LED%20puck%20lights.jpg',
-        'sideboard shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20shelf%20pins.jpg',
-        'sideboard door catch': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20door%20catch.jpg',
-        'sideboard door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20door%20bumpers.jpg',
-        'sideboard key': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20key.jpg',
-        'sideboard lock cylinder': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20lock%20cylinder.jpg',
-        'sideboard adjustable feet': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20adjustable%20feet.jpg',
-        'sideboard cable grommet': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20cable%20grommet.jpg',
-        'sideboard cord management clips': 'https://cdamemoryjogger.blob.core.windows.net/images/sideboard%20cord%20management%20clips.jpg',
-        'bar cabinet wine bottle dividers': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20wine%20bottle%20dividers.jpg',
 
-        'bar cabinet shelf liner roll': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20shelf%20liner%20roll.jpg',
-        'bar cabinet magnetic catch': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20magnetic%20catch.jpg',
-        'bar cabinet LED under shelf lights': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20LED%20under%20shelf%20lights.jpg',
-        'bar cabinet glass shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20glass%20shelf%20pins.jpg',
-        'bar cabinet leveling feet': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20leveling%20feet.jpg',
-        'bar cabinet moisture absorber': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20cabinet%20moisture%20absorber.jpg',
-        'anti tarnish drawer liners': 'https://cdamemoryjogger.blob.core.windows.net/images/anti%20tarnish%20drawer%20liners.jpg',
         'table runner': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20runner.jpg',
         'placemats': 'https://cdamemoryjogger.blob.core.windows.net/images/placemats.jpg',
         'cloth napkins': 'https://cdamemoryjogger.blob.core.windows.net/images/cloth%20napkins.jpg',
         'napkin rings': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20rings.jpg',
         'napkin holder': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20holder.jpg',
         'tablecloth': 'https://cdamemoryjogger.blob.core.windows.net/images/tablecloth.jpg',
-        'tablecloth clips': 'https://cdamemoryjogger.blob.core.windows.net/images/tablecloth%20clips.jpg',
-        'holiday table runner': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20table%20runner.jpg',
-        'holiday placemats': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20placemats.jpg',
-        'holiday napkins': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20napkins.jpg',
-        'placemat storage rack': 'https://cdamemoryjogger.blob.core.windows.net/images/placemat%20storage%20rack.jpg',
-        'napkin storage bin': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20storage%20bin.jpg',
-        'napkin ring storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20ring%20storage%20box.jpg',
-        'tablecloth storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/tablecloth%20storage%20bag.jpg',
-        'tablecloth ironing spray': 'https://cdamemoryjogger.blob.core.windows.net/images/tablecloth%20ironing%20spray.jpg',
-        'placemat holder tray': 'https://cdamemoryjogger.blob.core.windows.net/images/placemat%20holder%20tray.jpg',
-        'holiday napkin holder': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20napkin%20holder.jpg',
-        'placemat storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/placemat%20storage%20box.jpg',
-        'napkin press iron': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20press%20iron.jpg',
-        'tablecloth hanger rack': 'https://cdamemoryjogger.blob.core.windows.net/images/tablecloth%20hanger%20rack.jpg',
-        'seasonal table runner storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/seasonal%20table%20runner%20storage%20box.jpg',
-        'place card holder': 'https://cdamemoryjogger.blob.core.windows.net/images/place%20card%20holder.jpg',
-        'place cards': 'https://cdamemoryjogger.blob.core.windows.net/images/place%20cards.jpg',
-        'menu cards': 'https://cdamemoryjogger.blob.core.windows.net/images/menu%20cards.jpg',
-        'napkin fold board': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20fold%20board.jpg',
-        'napkin press': 'https://cdamemoryjogger.blob.core.windows.net/images/napkin%20press.jpg',
         'table number stand': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20number%20stand.jpg',
-        'runner clips': 'https://cdamemoryjogger.blob.core.windows.net/images/runner%20clips.jpg',
-        'table skirt': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20skirt.jpg',
-        'bar napkins': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20napkins.jpg',
-        'cocktail napkins': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20napkins.jpg',
-        'cloth napkin laundry bag': 'https://cdamemoryjogger.blob.core.windows.net/images/cloth%20napkin%20laundry%20bag.jpg',
-        'linen storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/linen%20storage%20box.jpg',
-        'linen drawer sachets': 'https://cdamemoryjogger.blob.core.windows.net/images/linen%20drawer%20sachets.jpg',
-        'table linen storage dividers': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20linen%20storage%20dividers.jpg',
         'dinner plates': 'https://cdamemoryjogger.blob.core.windows.net/images/dinner%20plates.jpg',
 
         'salad plates': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20plates.jpg',
@@ -4436,67 +3584,28 @@
         'butter dish': 'https://cdamemoryjogger.blob.core.windows.net/images/butter%20dish.jpg',
         'salt shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20shaker.jpg',
         'pepper shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20shaker.jpg',
-        'salt grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20grinder.jpg',
         'pepper grinder': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20grinder.jpg',
         'sugar bowl': 'https://cdamemoryjogger.blob.core.windows.net/images/sugar%20bowl.jpg',
         'cream pitcher': 'https://cdamemoryjogger.blob.core.windows.net/images/cream%20pitcher.jpg',
         'water pitcher': 'https://cdamemoryjogger.blob.core.windows.net/images/water%20pitcher.jpg',
         'carafe': 'https://cdamemoryjogger.blob.core.windows.net/images/carafe.jpg',
         'bread basket': 'https://cdamemoryjogger.blob.core.windows.net/images/bread%20basket.jpg',
-        'bread basket liner': 'https://cdamemoryjogger.blob.core.windows.net/images/bread%20basket%20liner.jpg',
         'cake stand': 'https://cdamemoryjogger.blob.core.windows.net/images/cake%20stand.jpg',
         'tiered tray': 'https://cdamemoryjogger.blob.core.windows.net/images/tiered%20tray.jpg',
         'dessert plates': 'https://cdamemoryjogger.blob.core.windows.net/images/dessert%20plates.jpg',
-        'serving trays': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20trays.jpg',
         'coffee carafe': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20carafe.jpg',
-        'dinner plate storage rack': 'https://cdamemoryjogger.blob.core.windows.net/images/dinner%20plate%20storage%20rack.jpg',
-        'salad plate storage rack': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20plate%20storage%20rack.jpg',
-        'charger plate storage case': 'https://cdamemoryjogger.blob.core.windows.net/images/charger%20plate%20storage%20case.jpg',
         'bowl storage shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/bowl%20storage%20shelf.jpg',
         'sugar dispenser': 'https://cdamemoryjogger.blob.core.windows.net/images/sugar%20dispenser.jpg',
-        'cream pitcher storage tray': 'https://cdamemoryjogger.blob.core.windows.net/images/cream%20pitcher%20storage%20tray.jpg',
-        'water carafe lid': 'https://cdamemoryjogger.blob.core.windows.net/images/water%20carafe%20lid.jpg',
         'bread cutting board': 'https://cdamemoryjogger.blob.core.windows.net/images/bread%20cutting%20board.jpg',
-        'cake dome cover': 'https://cdamemoryjogger.blob.core.windows.net/images/cake%20dome%20cover.jpg',
-        'bowl stacking pads': 'https://cdamemoryjogger.blob.core.windows.net/images/bowl%20stacking%20pads.jpg',
-        'serving bowl lid': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20bowl%20lid.jpg',
-        'platter storage sleeve': 'https://cdamemoryjogger.blob.core.windows.net/images/platter%20storage%20sleeve.jpg',
 
-        'gravy boat saucer': 'https://cdamemoryjogger.blob.core.windows.net/images/gravy%20boat%20saucer.jpg',
-        'salt grinder refill': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20grinder%20refill.jpg',
-        'pepper grinder refill': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20grinder%20refill.jpg',
-        'sugar bowl lid': 'https://cdamemoryjogger.blob.core.windows.net/images/sugar%20bowl%20lid.jpg',
-        'cream pitcher lid': 'https://cdamemoryjogger.blob.core.windows.net/images/cream%20pitcher%20lid.jpg',
         'bowl display stand': 'https://cdamemoryjogger.blob.core.windows.net/images/bowl%20display%20stand.jpg',
-        'serving bowl rack': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20bowl%20rack.jpg',
-        'platter display easel': 'https://cdamemoryjogger.blob.core.windows.net/images/platter%20display%20easel.jpg',
-        'gravy boat tray': 'https://cdamemoryjogger.blob.core.windows.net/images/gravy%20boat%20tray.jpg',
-        'butter dish cover spare': 'https://cdamemoryjogger.blob.core.windows.net/images/butter%20dish%20cover%20spare.jpg',
-        'salt cellar lid': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20cellar%20lid.jpg',
-        'pepper mill spare parts': 'https://cdamemoryjogger.blob.core.windows.net/images/pepper%20mill%20spare%20parts.jpg',
-        'sugar bowl spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/sugar%20bowl%20spoon.jpg',
-        'cream pitcher tray': 'https://cdamemoryjogger.blob.core.windows.net/images/cream%20pitcher%20tray.jpg',
-        'water pitcher filter insert': 'https://cdamemoryjogger.blob.core.windows.net/images/water%20pitcher%20filter%20insert.jpg',
-        'serving dish warming base': 'https://cdamemoryjogger.blob.core.windows.net/images/serving%20dish%20warming%20base.jpg',
-        'platter cover': 'https://cdamemoryjogger.blob.core.windows.net/images/platter%20cover.jpg',
-        'food tent mesh cover': 'https://cdamemoryjogger.blob.core.windows.net/images/food%20tent%20mesh%20cover.jpg',
         'cheese board': 'https://cdamemoryjogger.blob.core.windows.net/images/cheese%20board.jpg',
         'cheese knives': 'https://cdamemoryjogger.blob.core.windows.net/images/cheese%20knives.jpg',
-        'cheese markers': 'https://cdamemoryjogger.blob.core.windows.net/images/cheese%20markers.jpg',
         'charcuterie board': 'https://cdamemoryjogger.blob.core.windows.net/images/charcuterie%20board.jpg',
         'charcuterie bowls': 'https://cdamemoryjogger.blob.core.windows.net/images/charcuterie%20bowls.jpg',
-        'olive dish': 'https://cdamemoryjogger.blob.core.windows.net/images/olive%20dish.jpg',
-        'dip bowl set': 'https://cdamemoryjogger.blob.core.windows.net/images/dip%20bowl%20set.jpg',
         'chip and dip platter': 'https://cdamemoryjogger.blob.core.windows.net/images/chip%20and%20dip%20platter.jpg',
-        'nut bowl set': 'https://cdamemoryjogger.blob.core.windows.net/images/nut%20bowl%20set.jpg',
-        'salad bowl set': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20bowl%20set.jpg',
         'salad servers': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20servers.jpg',
-        'salad dressing cruet': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20dressing%20cruet.jpg',
-        'oil bottle dispenser': 'https://cdamemoryjogger.blob.core.windows.net/images/oil%20bottle%20dispenser.jpg',
 
-        'vinegar bottle dispenser': 'https://cdamemoryjogger.blob.core.windows.net/images/vinegar%20bottle%20dispenser.jpg',
-        'salt cellar spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/salt%20cellar%20spoon.jpg',
-        'honey jar': 'https://cdamemoryjogger.blob.core.windows.net/images/honey%20jar.jpg',
         'wine glasses': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20glasses.jpg',
         'champagne flutes': 'https://cdamemoryjogger.blob.core.windows.net/images/champagne%20flutes.jpg',
         'cocktail glasses': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20glasses.jpg',
@@ -4509,19 +3618,8 @@
         'tea cups': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20cups.jpg',
         'saucers': 'https://cdamemoryjogger.blob.core.windows.net/images/saucers.jpg',
         'mugs': 'https://cdamemoryjogger.blob.core.windows.net/images/mugs.jpg',
-        'glassware storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/glassware%20storage%20box.jpg',
-        'highball glass storage rack': 'https://cdamemoryjogger.blob.core.windows.net/images/highball%20glass%20storage%20rack.jpg',
-        'coffee cup organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20cup%20organizer.jpg',
-        'tea cup display shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20cup%20display%20shelf.jpg',
         'mug tree': 'https://cdamemoryjogger.blob.core.windows.net/images/mug%20tree.jpg',
-        'glassware padding inserts': 'https://cdamemoryjogger.blob.core.windows.net/images/glassware%20padding%20inserts.jpg',
-        'coffee cup saucer set': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20cup%20saucer%20set.jpg',
         'glassware display stand': 'https://cdamemoryjogger.blob.core.windows.net/images/glassware%20display%20stand.jpg',
-        'coffee cup wall rack': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20cup%20wall%20rack.jpg',
-        'tea cup hanging rack': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20cup%20hanging%20rack.jpg',
-        'glassware padding wrap': 'https://cdamemoryjogger.blob.core.windows.net/images/glassware%20padding%20wrap.jpg',
-        'wine glass charms': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20glass%20charms.jpg',
-        'glassware drying cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/glassware%20drying%20cloth.jpg',
         'flatware set': 'https://cdamemoryjogger.blob.core.windows.net/images/flatware%20set.jpg',
         'dinner forks': 'https://cdamemoryjogger.blob.core.windows.net/images/dinner%20forks.jpg',
         'salad forks': 'https://cdamemoryjogger.blob.core.windows.net/images/salad%20forks.jpg',
@@ -4533,250 +3631,71 @@
         'tongs': 'https://cdamemoryjogger.blob.core.windows.net/images/tongs.jpg',
         'cake server': 'https://cdamemoryjogger.blob.core.windows.net/images/cake%20server.jpg',
         'pie server': 'https://cdamemoryjogger.blob.core.windows.net/images/pie%20server.jpg',
-        'ice tongs': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20tongs.jpg',
         'bar spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20spoon.jpg',
-        'flatware drawer tray': 'https://cdamemoryjogger.blob.core.windows.net/images/flatware%20drawer%20tray.jpg',
-        'steak knife storage block': 'https://cdamemoryjogger.blob.core.windows.net/images/steak%20knife%20storage%20block.jpg',
-        'ladle holder': 'https://cdamemoryjogger.blob.core.windows.net/images/ladle%20holder.jpg',
-        'tongs stainless steel': 'https://cdamemoryjogger.blob.core.windows.net/images/tongs%20stainless%20steel.jpg',
 
-        'cake knife': 'https://cdamemoryjogger.blob.core.windows.net/images/cake%20knife.jpg',
-        'pie server stainless steel': 'https://cdamemoryjogger.blob.core.windows.net/images/pie%20server%20stainless%20steel.jpg',
         'bread knife': 'https://cdamemoryjogger.blob.core.windows.net/images/bread%20knife.jpg',
         'fondue forks': 'https://cdamemoryjogger.blob.core.windows.net/images/fondue%20forks.jpg',
-        'flatware polishing kit': 'https://cdamemoryjogger.blob.core.windows.net/images/flatware%20polishing%20kit.jpg',
-        'steak knife sharpening kit': 'https://cdamemoryjogger.blob.core.windows.net/images/steak%20knife%20sharpening%20kit.jpg',
-        'ice tongs holder': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20tongs%20holder.jpg',
-        'tea infuser spoon': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20infuser%20spoon.jpg',
         'wine rack': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack.jpg',
         'wine opener': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20opener.jpg',
-        'wine stopper': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20stopper.jpg',
         'wine aerator': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20aerator.jpg',
         'ice bucket': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20bucket.jpg',
-        'bar tool set': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20tool%20set.jpg',
         'cocktail shaker': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20shaker.jpg',
         'jigger': 'https://cdamemoryjogger.blob.core.windows.net/images/jigger.jpg',
         'decanter': 'https://cdamemoryjogger.blob.core.windows.net/images/decanter.jpg',
         'liquor decanter': 'https://cdamemoryjogger.blob.core.windows.net/images/liquor%20decanter.jpg',
         'drink mixing glass': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20mixing%20glass.jpg',
-        'coasters': 'https://cdamemoryjogger.blob.core.windows.net/images/coasters.jpg',
-        'coaster holder': 'https://cdamemoryjogger.blob.core.windows.net/images/coaster%20holder.jpg',
         'drink dispenser': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20dispenser.jpg',
         'beverage tub': 'https://cdamemoryjogger.blob.core.windows.net/images/beverage%20tub.jpg',
-        'wine bottle stopper set': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20stopper%20set.jpg',
         'ice scoop': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20scoop.jpg',
-        'ice mold tray': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20mold%20tray.jpg',
-        'bar mat': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20mat.jpg',
         'cocktail strainer': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20strainer.jpg',
 
         'mudler': 'https://cdamemoryjogger.blob.core.windows.net/images/mudler.jpg',
-        'drink stirrers': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20stirrers.jpg',
-        'drink garnish tray': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20garnish%20tray.jpg',
-        'liquor pour spouts': 'https://cdamemoryjogger.blob.core.windows.net/images/liquor%20pour%20spouts.jpg',
-        'coaster set stone': 'https://cdamemoryjogger.blob.core.windows.net/images/coaster%20set%20stone.jpg',
-        'coaster set cork': 'https://cdamemoryjogger.blob.core.windows.net/images/coaster%20set%20cork.jpg',
-        'wine rack wall mount': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack%20wall%20mount.jpg',
-        'cocktail glass cleaning cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20glass%20cleaning%20cloth.jpg',
-        'wine rack floor stand': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20rack%20floor%20stand.jpg',
-        'wine bottle storage crate': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20storage%20crate.jpg',
         'wine fridge': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge.jpg',
-        'wine fridge shelves': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge%20shelves.jpg',
-        'wine fridge drip tray': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge%20drip%20tray.jpg',
-        'wine fridge charcoal filter': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge%20charcoal%20filter.jpg',
-        'wine fridge thermometer probe': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge%20thermometer%20probe.jpg',
-        'wine fridge humidity gauge': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20fridge%20humidity%20gauge.jpg',
-        'wine bottle label tags': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20label%20tags.jpg',
-        'wine bottle marker pen': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20marker%20pen.jpg',
-        'wine bottle drip rings': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20drip%20rings.jpg',
-        'wine bottle foil cutter': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20foil%20cutter.jpg',
-        'wine bottle opener electric': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20bottle%20opener%20electric.jpg',
-        'wine corkscrew lever': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20corkscrew%20lever.jpg',
-        'wine cork extractor': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20cork%20extractor.jpg',
 
-        'bar caddy': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20caddy.jpg',
-        'drink stirrer set': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20stirrer%20set.jpg',
-        'cocktail picks': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20picks.jpg',
-        'cocktail pick holder': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20pick%20holder.jpg',
-        'bitters bottles': 'https://cdamemoryjogger.blob.core.windows.net/images/bitters%20bottles.jpg',
-        'bitters dropper caps': 'https://cdamemoryjogger.blob.core.windows.net/images/bitters%20dropper%20caps.jpg',
-        'simple syrup bottles': 'https://cdamemoryjogger.blob.core.windows.net/images/simple%20syrup%20bottles.jpg',
-        'mixer bottles': 'https://cdamemoryjogger.blob.core.windows.net/images/mixer%20bottles.jpg',
-        'ice sphere mold': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20sphere%20mold.jpg',
-        'whiskey stones': 'https://cdamemoryjogger.blob.core.windows.net/images/whiskey%20stones.jpg',
-        'whiskey stone pouch': 'https://cdamemoryjogger.blob.core.windows.net/images/whiskey%20stone%20pouch.jpg',
-        'bar strainer fine mesh': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20strainer%20fine%20mesh.jpg',
-        'cocktail shaker weighted tins': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20shaker%20weighted%20tins.jpg',
-        'cocktail shaker insulation sleeve': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20shaker%20insulation%20sleeve.jpg',
-        'cocktail rimmer': 'https://cdamemoryjogger.blob.core.windows.net/images/cocktail%20rimmer.jpg',
-        'liquor bottle shelf': 'https://cdamemoryjogger.blob.core.windows.net/images/liquor%20bottle%20shelf.jpg',
-        'liquor bottle risers': 'https://cdamemoryjogger.blob.core.windows.net/images/liquor%20bottle%20risers.jpg',
-        'liquor bottle pour spout caps': 'https://cdamemoryjogger.blob.core.windows.net/images/liquor%20bottle%20pour%20spout%20caps.jpg',
-        'pour spout dust covers': 'https://cdamemoryjogger.blob.core.windows.net/images/pour%20spout%20dust%20covers.jpg',
-        'speed pourer set': 'https://cdamemoryjogger.blob.core.windows.net/images/speed%20pourer%20set.jpg',
-        'bar rail mat': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20rail%20mat.jpg',
-        'bar rail liner': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20rail%20liner.jpg',
-        'bar towel set': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20towel%20set.jpg',
-        'bar towel holder': 'https://cdamemoryjogger.blob.core.windows.net/images/bar%20towel%20holder.jpg',
-        'drink dispenser infuser tube': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20dispenser%20infuser%20tube.jpg',
-        'drink dispenser ice core': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20dispenser%20ice%20core.jpg',
-        'drink dispenser drip tray': 'https://cdamemoryjogger.blob.core.windows.net/images/drink%20dispenser%20drip%20tray.jpg',
-        'beverage tub drain plug': 'https://cdamemoryjogger.blob.core.windows.net/images/beverage%20tub%20drain%20plug.jpg',
-        'beverage tub liner': 'https://cdamemoryjogger.blob.core.windows.net/images/beverage%20tub%20liner.jpg',
         'ice bucket stand base': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20bucket%20stand%20base.jpg',
-        'ice bucket drip mat': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20bucket%20drip%20mat.jpg',
-        'ice scoop holder': 'https://cdamemoryjogger.blob.core.windows.net/images/ice%20scoop%20holder.jpg',
         'tea pot': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20pot.jpg',
-        'coffee warmer plate': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20warmer%20plate.jpg',
         'tea infuser': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20infuser.jpg',
-        'tea strainer': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20strainer.jpg',
-        'tea pot infuser insert': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20pot%20infuser%20insert.jpg',
-        'pitcher infuser insert': 'https://cdamemoryjogger.blob.core.windows.net/images/pitcher%20infuser%20insert.jpg',
         'tea kettle electric': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20kettle%20electric.jpg',
-        'tea kettle base': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20kettle%20base.jpg',
-        'tea canister set': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20canister%20set.jpg',
-        'tea canister labels': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20canister%20labels.jpg',
-        'tea infuser basket': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20infuser%20basket.jpg',
-        'tea warmer candle base': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20warmer%20candle%20base.jpg',
-        'tea warmer plate': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20warmer%20plate.jpg',
-        'tea storage organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20storage%20organizer.jpg',
         'coffee bean canister': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20bean%20canister.jpg',
-        'coffee scoop': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20scoop.jpg',
 
-        'coffee filter basket': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20filter%20basket.jpg',
         'coffee pod holder': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20pod%20holder.jpg',
         'coffee pod drawer': 'https://cdamemoryjogger.blob.core.windows.net/images/coffee%20pod%20drawer.jpg',
         'tea strainer stand': 'https://cdamemoryjogger.blob.core.windows.net/images/tea%20strainer%20stand.jpg',
         'table centerpiece': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20centerpiece.jpg',
         'decorative tray': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20tray.jpg',
-        'candle holders': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20holders.jpg',
         'candles': 'https://cdamemoryjogger.blob.core.windows.net/images/candles.jpg',
         'wall art': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20art.jpg',
         'picture frames': 'https://cdamemoryjogger.blob.core.windows.net/images/picture%20frames.jpg',
         'wall mirror': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20mirror.jpg',
         'wall clock': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20clock.jpg',
-        'seasonal centerpiece decor': 'https://cdamemoryjogger.blob.core.windows.net/images/seasonal%20centerpiece%20decor.jpg',
-        'holiday candle holders': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20candle%20holders.jpg',
-        'centerpiece storage crate': 'https://cdamemoryjogger.blob.core.windows.net/images/centerpiece%20storage%20crate.jpg',
-        'decorative tray liner': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20tray%20liner.jpg',
-        'candle snuffer': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20snuffer.jpg',
-        'candle wick trimmer': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20wick%20trimmer.jpg',
-        'wall clock battery pack': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20clock%20battery%20pack.jpg',
-        'seasonal table decor bin': 'https://cdamemoryjogger.blob.core.windows.net/images/seasonal%20table%20decor%20bin.jpg',
-        'centerpiece vase set': 'https://cdamemoryjogger.blob.core.windows.net/images/centerpiece%20vase%20set.jpg',
-        'candle storage box': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20storage%20box.jpg',
-        'candle lighter': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20lighter.jpg',
-        'wall art dust cover': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20art%20dust%20cover.jpg',
-        'seasonal decor table sign': 'https://cdamemoryjogger.blob.core.windows.net/images/seasonal%20decor%20table%20sign.jpg',
-        'holiday centerpiece box': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20centerpiece%20box.jpg',
-        'centerpiece decorative stones': 'https://cdamemoryjogger.blob.core.windows.net/images/centerpiece%20decorative%20stones.jpg',
-        'decorative tray handles': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20tray%20handles.jpg',
-        'candle storage sleeve': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20storage%20sleeve.jpg',
-        'candle wax remover': 'https://cdamemoryjogger.blob.core.windows.net/images/candle%20wax%20remover.jpg',
-        'wall art frame set': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20art%20frame%20set.jpg',
-        'wall clock repair kit': 'https://cdamemoryjogger.blob.core.windows.net/images/wall%20clock%20repair%20kit.jpg',
-        'table decor riser': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20decor%20riser.jpg',
-        'centerpiece foam blocks': 'https://cdamemoryjogger.blob.core.windows.net/images/centerpiece%20foam%20blocks.jpg',
-        'floral wire': 'https://cdamemoryjogger.blob.core.windows.net/images/floral%20wire.jpg',
-        'floral tape': 'https://cdamemoryjogger.blob.core.windows.net/images/floral%20tape.jpg',
-        'flower frog': 'https://cdamemoryjogger.blob.core.windows.net/images/flower%20frog.jpg',
-        'vase filler beads': 'https://cdamemoryjogger.blob.core.windows.net/images/vase%20filler%20beads.jpg',
-        'vase filler stones': 'https://cdamemoryjogger.blob.core.windows.net/images/vase%20filler%20stones.jpg',
-        'table decor LED string lights': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20decor%20LED%20string%20lights.jpg',
-        'fairy light battery pack': 'https://cdamemoryjogger.blob.core.windows.net/images/fairy%20light%20battery%20pack.jpg',
-        'battery pack organizer': 'https://cdamemoryjogger.blob.core.windows.net/images/battery%20pack%20organizer.jpg',
-        'remote timer plug': 'https://cdamemoryjogger.blob.core.windows.net/images/remote%20timer%20plug.jpg',
         'decorative bowl': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20bowl.jpg',
         'decorative vase': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20vase.jpg',
-        'decorative pitcher': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20pitcher.jpg',
         'decorative lantern': 'https://cdamemoryjogger.blob.core.windows.net/images/decorative%20lantern.jpg',
-        'tabletop sculpture': 'https://cdamemoryjogger.blob.core.windows.net/images/tabletop%20sculpture.jpg',
         'mantel clock': 'https://cdamemoryjogger.blob.core.windows.net/images/mantel%20clock.jpg',
         'framed print': 'https://cdamemoryjogger.blob.core.windows.net/images/framed%20print.jpg',
 
-        'gallery wall frame set': 'https://cdamemoryjogger.blob.core.windows.net/images/gallery%20wall%20frame%20set.jpg',
-        'mirror frame': 'https://cdamemoryjogger.blob.core.windows.net/images/mirror%20frame.jpg',
         'light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/images/light%20bulbs.jpg',
         'window curtains': 'https://cdamemoryjogger.blob.core.windows.net/images/window%20curtains.jpg',
-        'door stop': 'https://cdamemoryjogger.blob.core.windows.net/images/door%20stop.jpg',
         'floor lamp': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20lamp.jpg',
         'table lamp': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20lamp.jpg',
-        'lamp shade': 'https://cdamemoryjogger.blob.core.windows.net/images/lamp%20shade.jpg',
-        'lamp bulbs': 'https://cdamemoryjogger.blob.core.windows.net/images/lamp%20bulbs.jpg',
         'door draft stopper': 'https://cdamemoryjogger.blob.core.windows.net/images/door%20draft%20stopper.jpg',
-        'table lamp finial': 'https://cdamemoryjogger.blob.core.windows.net/images/table%20lamp%20finial.jpg',
-        'lamp harp': 'https://cdamemoryjogger.blob.core.windows.net/images/lamp%20harp.jpg',
-        'floor lamp base weight': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20lamp%20base%20weight.jpg',
-        'lamp cord cover': 'https://cdamemoryjogger.blob.core.windows.net/images/lamp%20cord%20cover.jpg',
-        'silverware storage chest': 'https://cdamemoryjogger.blob.core.windows.net/images/silverware%20storage%20chest.jpg',
-        'tableware organizer tray': 'https://cdamemoryjogger.blob.core.windows.net/images/tableware%20organizer%20tray.jpg',
-        'champagne flute storage case': 'https://cdamemoryjogger.blob.core.windows.net/images/champagne%20flute%20storage%20case.jpg',
-        'beer mug storage crate': 'https://cdamemoryjogger.blob.core.windows.net/images/beer%20mug%20storage%20crate.jpg',
-        'tableware storage labels': 'https://cdamemoryjogger.blob.core.windows.net/images/tableware%20storage%20labels.jpg',
-        'holiday china storage case': 'https://cdamemoryjogger.blob.core.windows.net/images/holiday%20china%20storage%20case.jpg',
         'china display stand': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20display%20stand.jpg',
-        'china storage divider': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20storage%20divider.jpg',
-        'rug storage bag': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20storage%20bag.jpg',
         'area rug': 'https://cdamemoryjogger.blob.core.windows.net/images/area%20rug.jpg',
-        'rug pad': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20pad.jpg',
         'floor runner': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20runner.jpg',
-        'area rug corner tape': 'https://cdamemoryjogger.blob.core.windows.net/images/area%20rug%20corner%20tape.jpg',
-        'rug cleaning spray': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20cleaning%20spray.jpg',
-        'floor runner anti slip pad': 'https://cdamemoryjogger.blob.core.windows.net/images/floor%20runner%20anti%20slip%20pad.jpg',
         'area rug beater tool': 'https://cdamemoryjogger.blob.core.windows.net/images/area%20rug%20beater%20tool.jpg',
-        'rug storage roll': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20storage%20roll.jpg',
         'area rug cleaning kit': 'https://cdamemoryjogger.blob.core.windows.net/images/area%20rug%20cleaning%20kit.jpg',
-        'rug brush': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20brush.jpg',
-        'rug fringe comb': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20fringe%20comb.jpg',
-        'rug tape double sided': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20tape%20double%20sided.jpg',
 
-        'runner rug tape': 'https://cdamemoryjogger.blob.core.windows.net/images/runner%20rug%20tape.jpg',
-        'rug grippers': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20grippers.jpg',
-        'rug corner weights': 'https://cdamemoryjogger.blob.core.windows.net/images/rug%20corner%20weights.jpg',
-        'felt pads bulk pack': 'https://cdamemoryjogger.blob.core.windows.net/images/felt%20pads%20bulk%20pack.jpg',
-        'furniture sliders': 'https://cdamemoryjogger.blob.core.windows.net/images/furniture%20sliders.jpg',
-        'furniture leveling shims': 'https://cdamemoryjogger.blob.core.windows.net/images/furniture%20leveling%20shims.jpg',
-        'wood filler': 'https://cdamemoryjogger.blob.core.windows.net/images/wood%20filler.jpg',
-        'wood stain pen': 'https://cdamemoryjogger.blob.core.windows.net/images/wood%20stain%20pen.jpg',
-        'wood polish cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/wood%20polish%20cloth.jpg',
-        'wood cleaner concentrate': 'https://cdamemoryjogger.blob.core.windows.net/images/wood%20cleaner%20concentrate.jpg',
-        'wood conditioner oil': 'https://cdamemoryjogger.blob.core.windows.net/images/wood%20conditioner%20oil.jpg',
-        'china polishing cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/china%20polishing%20cloth.jpg',
-        'silver polish': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20polish.jpg',
-        'furniture polish': 'https://cdamemoryjogger.blob.core.windows.net/images/furniture%20polish.jpg',
         'glass cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/glass%20cleaner.jpg',
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/images/all%20purpose%20cleaner.jpg',
         'disinfecting wipes': 'https://cdamemoryjogger.blob.core.windows.net/images/disinfecting%20wipes.jpg',
         'microfiber cloths': 'https://cdamemoryjogger.blob.core.windows.net/images/microfiber%20cloths.jpg',
-        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towels.jpg',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20can.jpg',
         'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/images/trash%20bags.jpg',
         'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/images/recycling%20bin.jpg',
         'step stool': 'https://cdamemoryjogger.blob.core.windows.net/images/step%20stool.jpg',
-        'mirror cleaning spray': 'https://cdamemoryjogger.blob.core.windows.net/images/mirror%20cleaning%20spray.jpg',
-        'wine glass cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/wine%20glass%20cleaning%20brush.jpg',
-        'champagne flute cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/champagne%20flute%20cleaning%20brush.jpg',
-        'beer mug cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/beer%20mug%20cleaning%20brush.jpg',
-        'furniture polish spray': 'https://cdamemoryjogger.blob.core.windows.net/images/furniture%20polish%20spray.jpg',
-        'all purpose cleaner gallon': 'https://cdamemoryjogger.blob.core.windows.net/images/all%20purpose%20cleaner%20gallon.jpg',
-        'disinfectant wipe refill': 'https://cdamemoryjogger.blob.core.windows.net/images/disinfectant%20wipe%20refill.jpg',
-        'step stool rubber feet': 'https://cdamemoryjogger.blob.core.windows.net/images/step%20stool%20rubber%20feet.jpg',
-        'silverware polishing gloves': 'https://cdamemoryjogger.blob.core.windows.net/images/silverware%20polishing%20gloves.jpg',
-        'beverage dispenser cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/images/beverage%20dispenser%20cleaning%20brush.jpg',
         
-        'paper towel holder wall mount': 'https://cdamemoryjogger.blob.core.windows.net/images/paper%20towel%20holder%20wall%20mount.jpg',
-        'beverage dispenser spigot': 'https://cdamemoryjogger.blob.core.windows.net/images/beverage%20dispenser%20spigot.jpg',
-        'silver storage anti tarnish strips': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20storage%20anti%20tarnish%20strips.jpg',
-        'mug cabinet riser': 'https://cdamemoryjogger.blob.core.windows.net/images/mug%20cabinet%20riser.jpg',
-        'silverware anti tarnish cloth': 'https://cdamemoryjogger.blob.core.windows.net/images/silverware%20anti%20tarnish%20cloth.jpg',
-        'chafing dish cover': 'https://cdamemoryjogger.blob.core.windows.net/images/chafing%20dish%20cover.jpg',
-        'fondue pot burner cap': 'https://cdamemoryjogger.blob.core.windows.net/images/fondue%20pot%20burner%20cap.jpg',
         'ironing board tabletop': 'https://cdamemoryjogger.blob.core.windows.net/images/ironing%20board%20tabletop.jpg',
         'iron travel': 'https://cdamemoryjogger.blob.core.windows.net/images/iron%20travel.jpg',
         'steamer travel': 'https://cdamemoryjogger.blob.core.windows.net/images/steamer%20travel.jpg',
-        'anti tarnish silver bags': 'https://cdamemoryjogger.blob.core.windows.net/images/anti%20tarnish%20silver%20bags.jpg',
-        'anti tarnish strips': 'https://cdamemoryjogger.blob.core.windows.net/images/anti%20tarnish%20strips.jpg',
-        'silver storage rolls': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20storage%20rolls.jpg',
-        'silver storage pouches': 'https://cdamemoryjogger.blob.core.windows.net/images/silver%20storage%20pouches.jpg',
 
         },
         "Office / Study": {
@@ -4803,40 +3722,9 @@
         'side table drawer liner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/side%20table%20drawer%20liner.jpg',
        
         'console table anti tip strap': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/console%20table%20anti%20tip%20strap.jpg',
-        'desk lamp replacement bulb': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20lamp%20replacement%20bulb.jpg',
-        'table lamp replacement shade': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/table%20lamp%20replacement%20shade.jpg',
-        'desktop computer cables': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desktop%20computer%20cables.jpg',
-        'laptop stand adjustable': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laptop%20stand%20adjustable.jpg',
-        'tablet stand holder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20stand%20holder.jpg',
-        'tablet charging cable spare': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20charging%20cable%20spare.jpg',
-        'desk drawer felt liner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20drawer%20felt%20liner.jpg',
-        'desk planner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20planner.jpg',
-        'foot rest adjustable': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/foot%20rest%20adjustable.jpg',
-        'measuring tape retractable': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/measuring%20tape%20retractable.jpg',
-        'desk modesty panel': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20modesty%20panel.jpg',
-        'desk cable tray under mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20cable%20tray%20under%20mount.jpg',
-        'desk leveling shims': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20leveling%20shims.jpg',
-        'desk drawer handles': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20drawer%20handles.jpg',
-        'desk drawer dividers bamboo': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20drawer%20dividers%20bamboo.jpg',
-        'side table leg pads': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/side%20table%20leg%20pads.jpg',
-        'console table drawer pulls': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/console%20table%20drawer%20pulls.jpg',
-        'desk lamp dimmer switch': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20lamp%20dimmer%20switch.jpg',
-        'table lamp finial': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/table%20lamp%20finial.jpg',
-        'desktop power supply': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desktop%20power%20supply.jpg',
-        'tablet screen protector': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20screen%20protector.jpg',
-        'microphone stand desk mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/microphone%20stand%20desk%20mount.jpg',
-        'tablet charging dock': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20charging%20dock.jpg',
-        'desk organizer tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20organizer%20tray.jpg',
-        'desk calendar stand': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20calendar%20stand.jpg',
-        'desk surface protector pad': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20surface%20protector%20pad.jpg',
-        'desk corner guards': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20corner%20guards.jpg',
-        'desk support brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20support%20brackets.jpg',
    
         'storage cabinet adjustable shelves': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet%20adjustable%20shelves.jpg',
         'side table reinforcement brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/side%20table%20reinforcement%20brackets.jpg',
-        'console table leg braces': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/console%20table%20leg%20braces.jpg',
-        'desk lamp smart bulb': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20lamp%20smart%20bulb.jpg',
-        'table lamp cord cover': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/table%20lamp%20cord%20cover.jpg',
         'desktop cable organizer tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desktop%20cable%20organizer%20tray.jpg',
         'tablet stand adjustable metal': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tablet%20stand%20adjustable%20metal.jpg',
         'desk drawer lock kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/desk%20drawer%20lock%20kit.jpg',
@@ -4940,7 +3828,6 @@
         'office chair armrest pads': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/office%20chair%20armrest%20pads.jpg',
         'office chair replacement wheels': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/office%20chair%20replacement%20wheels.jpg',
         'chair floor protectors': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/chair%20floor%20protectors.jpg',
-        'step stool rubber feet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/step%20stool%20rubber%20feet.jpg',
         'office chair lumbar support': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/office%20chair%20lumbar%20support.jpg',
         'office chair gas lift cylinder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/office%20chair%20gas%20lift%20cylinder.jpg',
         'office chair tilt mechanism': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/office%20chair%20tilt%20mechanism.jpg',
@@ -4967,13 +3854,10 @@
         'lateral file cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/lateral%20filing%20cabinet.jpg',
         'storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet.jpg',
         'credenza': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza.jpg',
-        'drawer organizers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/drawer%20organizers.jpg',
         'file storage box': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/file%20storage%20box.jpg',
-        'document storage box': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/document%20storage%20box.jpg',
         'file cabinet dividers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/file%20cabinet%20dividers.jpg',
         'coat rack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/coat%20rack.jpg',
         'storage baskets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20baskets.jpg',
-        'storage bins': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20bins.jpg',
         'bookcase shelf brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bookcase%20shelf%20brackets.jpg',
         'bookshelf anchors': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bookshelf%20anchors.jpg',
         'filing cabinet key spare': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/filing%20cabinet%20key%20spare.jpg',
@@ -4992,14 +3876,12 @@
         'document sorter rack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/document%20sorter%20rack.jpg',
         'throw blanket storage bag': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/throw%20blanket%20storage%20bag.jpg',
         'mirror mounting brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/mirror%20mounting%20brackets.jpg',
-        'storage basket liner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20basket%20liner.jpg',
         'storage bin lids': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20bin%20lids.jpg',
         'fire extinguisher bracket': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/fire%20extinguisher%20bracket.jpg',
         'keyboard tray brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/keyboard%20tray%20brackets.jpg',
         'monitor riser shelf': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/monitor%20riser%20shelf.jpg',
         'bookcase shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bookcase%20shelf%20pins.jpg',
         'storage cabinet door bumpers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet%20door%20bumpers.jpg',
-        'printer stand with drawers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/printer%20stand%20with%20drawers.jpg',
         'drawer divider plastic': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/drawer%20divider%20plastic.jpg',
         'pen storage box': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/pen%20storage%20box.jpg',
         'pencil storage box': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/pencil%20storage%20box.jpg',
@@ -5018,10 +3900,8 @@
         'throw blanket folded storage bin': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/throw%20blanket%20folded%20storage%20bin.jpg',
         'decorative pillow storage bag': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/decorative%20pillow%20storage%20bag.jpg',
         'coat rack wall mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/coat%20rack%20wall%20mount.jpg',
-        'storage basket stacker': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20basket%20stacker.jpg',
         'storage bin labels': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20bin%20labels.jpg',
         'cleaning supply shelf': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cleaning%20supply%20shelf.jpg',
-        'first aid cabinet wall mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/first%20aid%20cabinet%20wall%20mount.jpg',
         'keyboard tray replacement track': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/keyboard%20tray%20replacement%20track.jpg',
         'window blind mounting brackets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/window%20blind%20mounting%20brackets.jpg',
         'usb drive storage organizer': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/usb%20drive%20storage%20organizer.jpg',
@@ -5052,7 +3932,6 @@
         'storage cabinet leveling feet': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/storage%20cabinet%20leveling%20feet.jpg',
         'credenza lock cylinder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20lock%20cylinder.jpg',
         'credenza cable management hole cover': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20cable%20management%20hole%20cover.jpg',
-        'credenza caster wheels': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20caster%20wheels.jpg',
         'credenza drawer slides heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20drawer%20slides%20heavy%20duty.jpg',
         'credenza shelf pins': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/credenza%20shelf%20pins.jpg',
         'network rack shelf': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/network%20rack%20shelf.jpg',
@@ -5133,7 +4012,6 @@
         'network cable tester advanced': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/network%20cable%20tester%20advanced.jpg',
         'studio monitor speakers': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/studio%20monitor%20speakers.jpg',
         'studio monitor isolation pads': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/studio%20monitor%20isolation%20pads.jpg',
-        'monitor light bar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/monitor%20light%20bar.jpg',
         'computer privacy hood': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/computer%20privacy%20hood.jpg',
         'laser printer drum unit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laser%20printer%20drum%20unit.jpg',
         'printer fuser unit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/printer%20fuser%20unit.jpg',
@@ -5199,11 +4077,9 @@
         'cable management tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20management%20tray.jpg',
         'calculator battery': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/calculator%20battery.jpg',
         'usb extension cable': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/usb%20extension%20cable.jpg',
-        'displayport adapter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/displayport%20adapter.jpg',
         'vga adapter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/vga%20adapter.jpg',
         'universal power adapter': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/universal%20power%20adapter.jpg',
         'battery backup replacement battery': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/battery%20backup%20replacement%20battery.jpg',
-        'wall clock battery pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/wall%20clock%20battery%20pack.jpg',
         'smoke detector battery': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/smoke%20detector%20battery.jpg',
         'docking station cable kit': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/docking%20station%20cable%20kit.jpg',
         'headphone cable extension': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/headphone%20cable%20extension.jpg',
@@ -5221,7 +4097,6 @@
         'ethernet cable boots': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ethernet%20cable%20boots.jpg',
         'cable punch down tool': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20punch%20down%20tool.jpg',
         'cable management ring': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20management%20ring.jpg',
-        'cable management raceway': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20management%20raceway.jpg',
         'cable mounting base': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cable%20mounting%20base.jpg',
         'Velcro cable ties': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/velcro%20table%20ties.jpg',
         'power conditioner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/power%20conditioner.jpg',
@@ -5275,7 +4150,6 @@
         'cardstock paper': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cardstock%20paper.jpg',
         'photo paper': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/photo%20paper.jpg',
         'legal size paper': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/legal%20size%20paper.png',
-        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/paper%20towels.jpg',
         'pen refill pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/pen%20refill%20pack.png',
         'pencil sharpener': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/pencil%20sharpener.jpg',
         'paper tray stacker': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/paper%20tray%20stacker.jpg',
@@ -5315,7 +4189,6 @@
         'project planner binder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/project%20planner%20binder.jpg',
         'calendar hanging clips': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/calendar%20hanging%20clips.jpg',
         'project management notebook': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/project%20management%20notebook.jpg',
-        'business card binder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/business%20card%20binder.jpg',
         'whiteboard eraser holder': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard%20eraser%20holder.jpg',
         'whiteboard magnetic tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard%20magnetic%20tray.jpg',
         'whiteboard border tape': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/whiteboard%20border%20tape.jpg',
@@ -5328,10 +4201,6 @@
         'light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/light%20bulbs.jpg',
         'highlighters': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/highlighters.jpg',
         'floor lamp dimmer cord': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/floor%20lamp%20dimmer%20cord.jpg',
-        'highlighter pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/highlighter%20pack.jpg',
-        'floor lamp base weight': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/floor%20lamp%20base%20weight.jpg',
-        'highlighter organizer': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/highlighter%20organizer.jpg',
-        'floor lamp dimmer switch': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/floor%20lamp%20dimmer%20switch.jpg',
         'headphone stand clamp mount': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/headphone%20stand%20clamp%20mount.jpg',
         'webcam ring light': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/webcam%20ring%20light.jpg',
         'ring light tripod stand': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/ring%20light%20tripod%20stand.jpg',
@@ -5343,7 +4212,6 @@
         'cleaning caddy': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cleaning%20caddy.jpg',
         'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/all%20purpose%20cleaner.jpg',
         'glass cleaner': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/glass%20cleaner.jpg',
-        'trash can': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/trash%20can.jpg',
         
         'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/trash%20bags.jpg',
         'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/recycling%20bin.jpg',
@@ -5351,10 +4219,8 @@
         'laminator cleaning sheets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator%20cleaning%20sheets.jpg',
         'cleaning supply basket': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cleaning%20supply%20basket.jpg',
         'all purpose cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/all%20purpose%20cleaner%20refill.jpg',
-        'glass cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/glass%20cleaner%20refill.jpg',
         'trash liner roll': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/trash%20liner%20roll.jpg',
         'recycling bin liner roll': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/recycling%20bin%20liner%20roll.jpg',
-        'all purpose cleaner gallon': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/all%20purpose%20cleaner%20gallon.jpg',
         'glass cleaner spray bottle': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/glass%20cleaner%20spray%20bottle.jpg',
         'trash can step lid': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/trash%20can%20step%20lid.jpg',
         'recycling sorter bins': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/recycling%20sorter%20bins.jpg',
@@ -5374,7 +4240,6 @@
         'surge protector': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/surge%20protector.jpg',
         'extension cords': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/extension%20cords.jpg',
         'charging station': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/charging%20station.jpg',
-        'cord clips': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/cord%20clips.jpg',
         'laminator': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminator.jpg',
         'laminating sheets': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/laminating%20sheets.jpg',
         'calculator': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/calculator.jpg',
@@ -5433,7 +4298,6 @@
         'staple refill box': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/staple%20refill%20box.jpg',
         'rubber band ball': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/rubber%20band%20ball.jpg',
         'tape refill rolls': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tape%20refill%20rolls.jpg',
-        'glue stick bulk pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/glue%20stick%20bulk%20pack.jpg',
                 
         'bubble mailer pack': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/bubble%20mailer%20pack.jpg',
         'tool organizer tray': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/tool%20organizer%20tray.jpg',
@@ -5468,7 +4332,6 @@
         'headphone hook adhesive': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/headphone%20hook%20adhesive.jpg',
         'webcam tripod': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/webcam%20tripod.jpg',
         'green screen backdrop': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/green%20screen%20backdrop.jpg',
-        'green screen stand': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/green%20screen%20stand.jpg',
         'backdrop crossbar': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/backdrop%20crossbar.png',
         'external SSD drive': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/external%20SSD%20drive.jpg',
         'SSD enclosure': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/SSD%20enclosure.jpg',
@@ -5578,7 +4441,6 @@
         'rocking chair': 'https://cdamemoryjogger.blob.core.windows.net/loft/rocking%20chair.jpg',
         'sectional connector brackets': 'https://cdamemoryjogger.blob.core.windows.net/loft/sectional%20connector%20brackets.jpg',
         'sectional cushion covers': 'https://cdamemoryjogger.blob.core.windows.net/loft/sectional%20cushion%20covers.jpg',
-        'sectional cushions': 'https://cdamemoryjogger.blob.core.windows.net/loft/sectional%20cushions.jpg',
         'sofa anti slip grippers': 'https://cdamemoryjogger.blob.core.windows.net/loft/sofa%20anti%20slip%20grippers.jpg',
         'sofa armrest cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/sofa%20armrest%20cover.jpg',
         'sofa armrest tray': 'https://cdamemoryjogger.blob.core.windows.net/loft/sofa%20armrest%20tray.jpg',
@@ -5612,7 +4474,6 @@
         'blanket hamper': 'https://cdamemoryjogger.blob.core.windows.net/loft/blanket%20hamper.jpg',
         'blanket hooks': 'https://cdamemoryjogger.blob.core.windows.net/loft/blanket%20hooks.jpg',
         'blanket ladder': 'https://cdamemoryjogger.blob.core.windows.net/loft/blanket%20ladder.jpg',
-        'console cable grommet': 'https://cdamemoryjogger.blob.core.windows.net/loft/console%20cable%20grommet.jpg',
         'down pillow insert': 'https://cdamemoryjogger.blob.core.windows.net/loft/down%20pillow%20insert.jpg',
         'folding chair leg caps': 'https://cdamemoryjogger.blob.core.windows.net/loft/folding%20chair%20leg%20caps.jpg',
         'lumbar pillow insert': 'https://cdamemoryjogger.blob.core.windows.net/loft/lumbar%20pillow%20insert.jpg',
@@ -5677,7 +4538,6 @@
         'tray table': 'https://cdamemoryjogger.blob.core.windows.net/loft/tray%20table.jpg',
         'floating shelves': 'https://cdamemoryjogger.blob.core.windows.net/loft/floating%20shelves.jpg',
         'decorative shelf anchors': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20shelf%20anchors.jpg',
-        'decorative shelf brackets': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20shelf%20brackets.jpg',
         'decorative shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/loft/decorative%20shelf%20riser.jpg',
         'media cabinet anti tip strap': 'https://cdamemoryjogger.blob.core.windows.net/loft/media%20cabinet%20anti%20tip%20strap.jpg',
         'media cabinet door catch': 'https://cdamemoryjogger.blob.core.windows.net/loft/media%20cabinet%20door%20catch.jpg',
@@ -5705,7 +4565,6 @@
         'blu ray remote cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/blu%20ray%20remote%20cover.jpg',
         'blu ray storage case': 'https://cdamemoryjogger.blob.core.windows.net/loft/blu%20ray%20storage%20case.jpg',
         'cassette player': 'https://cdamemoryjogger.blob.core.windows.net/loft/cassette%20player.jpg',
-        'cassette tapes': 'https://cdamemoryjogger.blob.core.windows.net/loft/cassette%20tapes.jpg',
         'coax splitter': 'https://cdamemoryjogger.blob.core.windows.net/loft/coax%20splitter.jpg',
         'disc resurfacing kit': 'https://cdamemoryjogger.blob.core.windows.net/loft/disc%20resurfacing%20kit.jpg',
         'disc sleeves': 'https://cdamemoryjogger.blob.core.windows.net/loft/disc%20sleeves.jpg',
@@ -5766,8 +4625,6 @@
         'checkers set': 'https://cdamemoryjogger.blob.core.windows.net/loft/checkers%20set.jpg',
         'chess set': 'https://cdamemoryjogger.blob.core.windows.net/loft/chess%20set.jpg',
         'console controller battery pack': 'https://cdamemoryjogger.blob.core.windows.net/loft/console%20controller%20battery%20pack.jpg',
-        'console dust cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/console%20dust%20cover.jpg',
-        'controller battery pack': 'https://cdamemoryjogger.blob.core.windows.net/loft/controller%20battery%20pack.jpg',
         'controller charging cable': 'https://cdamemoryjogger.blob.core.windows.net/loft/controller%20charging%20cable.jpg',
         'controller silicone case': 'https://cdamemoryjogger.blob.core.windows.net/loft/controller%20silicone%20case.jpg',
         'controller thumb grips': 'https://cdamemoryjogger.blob.core.windows.net/loft/controller%20thumb%20grips.jpg',
@@ -5834,8 +4691,6 @@
         'charging hub multi device': 'https://cdamemoryjogger.blob.core.windows.net/loft/charging%20hub%20multi%20device.jpg',
         'extension cord floor cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/extension%20cord%20floor%20cover.jpg',
         'extension cord storage bag': 'https://cdamemoryjogger.blob.core.windows.net/loft/extension%20cord%20storage%20bag.jpg',
-        'extension cord wall clips': 'https://cdamemoryjogger.blob.core.windows.net/loft/extension%20cord%20wall%20clips.jpg',
-        'fairy light battery pack': 'https://cdamemoryjogger.blob.core.windows.net/loft/fairy%20light%20battery%20pack.jpg',
         'fairy lights': 'https://cdamemoryjogger.blob.core.windows.net/loft/fairy%20lights.jpg',
         'lamp cord floor cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/lamp%20cord%20floor%20cover.jpg',
         'lamp cord grommet': 'https://cdamemoryjogger.blob.core.windows.net/loft/lamp%20cord%20grommet.jpg',
@@ -5859,7 +4714,6 @@
         'surge protector backup battery': 'https://cdamemoryjogger.blob.core.windows.net/loft/surge%20protector%20backup%20battery.jpg',
         'surge protector outlet cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/surge%20protector%20outlet%20cover.jpg',
         'surge protector power conditioner': 'https://cdamemoryjogger.blob.core.windows.net/loft/surge%20protector%20power%20conditioner.jpg',
-        'tablet charging cable spare': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20charging%20cable%20spare.jpg',
         'wireless charging pad': 'https://cdamemoryjogger.blob.core.windows.net/loft/wireless%20charging%20pad.jpg',
         'wireless charging stand': 'https://cdamemoryjogger.blob.core.windows.net/loft/wireless%20charging%20stand.jpg',
         
@@ -5908,11 +4762,9 @@
         'picture light remote': 'https://cdamemoryjogger.blob.core.windows.net/loft/picture%20light%20remote.jpg',
         'remote candles': 'https://cdamemoryjogger.blob.core.windows.net/loft/remote%20candles.jpg',
         'room spray bottle': 'https://cdamemoryjogger.blob.core.windows.net/loft/room%20spray%20bottle.jpg',
-        'tabletop sculpture': 'https://cdamemoryjogger.blob.core.windows.net/loft/tabletop%20sculpture.jpg',
         'tapestry hanger': 'https://cdamemoryjogger.blob.core.windows.net/loft/tapestry%20hanger.jpg',
         'vase set': 'https://cdamemoryjogger.blob.core.windows.net/loft/vase%20set.jpg',
         'wall art adhesive strips': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20art%20adhesive%20strips.jpg',
-        'wall art level tool': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20art%20level%20tool.jpg',
         'wall clock battery': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20clock%20battery.jpg',
         'wall clock mounting hook': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20clock%20mounting%20hook.jpg',
         'wall clock spare hands': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20clock%20spare%20hands.png',
@@ -5988,7 +4840,6 @@
         'bulletin board cork refill': 'https://cdamemoryjogger.blob.core.windows.net/loft/bulletin%20board%20cork%20refill.jpg',
         'bulletin board eraser': 'https://cdamemoryjogger.blob.core.windows.net/loft/bulletin%20board%20eraser.jpg',
         'bulletin board pins': 'https://cdamemoryjogger.blob.core.windows.net/loft/bulletin%20board%20pins.jpg',
-        'business card binder': 'https://cdamemoryjogger.blob.core.windows.net/loft/business%20card%20binder.jpg',
         'business card holder': 'https://cdamemoryjogger.blob.core.windows.net/loft/business%20card%20holder.jpg',
         'desk': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk.jpg',
         'desk cable grommet': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20cable%20grommet.jpg',
@@ -5998,12 +4849,10 @@
         'desk clamp headphone hook': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20clamp%20headphone%20hook.jpg',
         'desk cord grommet insert': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20cord%20grommet%20insert.jpg',
         'desk drawer dividers': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20drawer%20dividers.jpg',
-        'desk drawer felt liner': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20drawer%20felt%20liner.jpg',
         'desk drawer lock': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20drawer%20lock.jpg',
         'desk drawer lock cylinder': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20drawer%20lock%20cylinder.jpg',
         'desk foot hammock': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20foot%20hammock.jpg',
         'desk hutch organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20hutch%20organizer.jpg',
-        'desk mat leather': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20mat%20leather.jpg',
         'desk organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20organizer.jpg',
         'desk speakers': 'https://cdamemoryjogger.blob.core.windows.net/loft/desk%20speakers.jpg',
         'desktop organizer tray': 'https://cdamemoryjogger.blob.core.windows.net/loft/desktop%20organizer%20tray.jpg',
@@ -6030,7 +4879,6 @@
         'laptop sleeve case': 'https://cdamemoryjogger.blob.core.windows.net/loft/laptop%20sleeve%20case.jpg',
         'monitor VESA mount kit': 'https://cdamemoryjogger.blob.core.windows.net/loft/monitor%20VESA%20mount%20kit.jpg',
         'monitor desk clamp arm dual': 'https://cdamemoryjogger.blob.core.windows.net/loft/monitor%20desk%20clamp%20arm%20dual.jpg',
-        'monitor light bar': 'https://cdamemoryjogger.blob.core.windows.net/loft/monitor%20light%20bar.jpg',
         'monitor screen hood': 'https://cdamemoryjogger.blob.core.windows.net/loft/monitor%20screen%20hood.jpg',
         'name badge holder': 'https://cdamemoryjogger.blob.core.windows.net/loft/name%20badge%20holder.jpg',
        
@@ -6056,9 +4904,7 @@
         'scanner stand': 'https://cdamemoryjogger.blob.core.windows.net/loft/scanner%20stand.jpg',
         'shipping scale': 'https://cdamemoryjogger.blob.core.windows.net/loft/shipping%20scale.jpg',
         'studio headphones': 'https://cdamemoryjogger.blob.core.windows.net/loft/studio%20headphones.jpg',
-        'tablet charging dock': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20charging%20dock.jpg',
         'tablet keyboard case': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20keyboard%20case.jpg',
-        'tablet screen protector': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20screen%20protector.jpg',
         'tablet stand': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20stand.jpg',
         'tablet stand adjustable': 'https://cdamemoryjogger.blob.core.windows.net/loft/tablet%20stand%20adjustable.jpg',
         'tax document organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/tax%20document%20organizer.jpg',
@@ -6152,22 +4998,7 @@
         'closet organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20organizer.jpg',
         'closet rod brackets': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20rod%20brackets.jpg',
         'closet rod cap': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20rod%20cap.jpg',
-        'closet rod extender': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20rod%20extender.jpg',
-        'closet rod tension': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20rod%20tension.jpg',
-        'closet shelf riser': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20shelf%20riser.jpg',
-        'closet storage cubes': 'https://cdamemoryjogger.blob.core.windows.net/loft/closet%20storage%20cubes.jpg',
         'coat hanger set': 'https://cdamemoryjogger.blob.core.windows.net/loft/coat%20hanger%20set.jpg',
-        'computer cable ties': 'https://cdamemoryjogger.blob.core.windows.net/loft/computer%20cable%20ties.jpg',
-        'cord clips': 'https://cdamemoryjogger.blob.core.windows.net/loft/cord%20clips.jpg',
-        'cord clips adhesive': 'https://cdamemoryjogger.blob.core.windows.net/loft/cord%20clips%20adhesive.jpg',
-        'cord concealment kit': 'https://cdamemoryjogger.blob.core.windows.net/loft/cord%20concealment%20kit.jpg',
-        'cord organizer basket': 'https://cdamemoryjogger.blob.core.windows.net/loft/cord%20organizer%20basket.jpg',
-        'craft rolling cart': 'https://cdamemoryjogger.blob.core.windows.net/loft/craft%20rolling%20cart.jpg',
-        'document file organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/document%20file%20organizer.jpg',
-        'document fire safe box': 'https://cdamemoryjogger.blob.core.windows.net/loft/document%20fire%20safe%20box.jpg',
-        'document safe box': 'https://cdamemoryjogger.blob.core.windows.net/loft/document%20safe%20box.jpg',
-        'document storage box': 'https://cdamemoryjogger.blob.core.windows.net/loft/document%20storage%20box.jpg',
-        'drawer divider bamboo': 'https://cdamemoryjogger.blob.core.windows.net/loft/drawer%20divider%20bamboo.jpg',
         'drawer label set': 'https://cdamemoryjogger.blob.core.windows.net/loft/drawer%20label%20set.jpg',
         'drawer liner roll': 'https://cdamemoryjogger.blob.core.windows.net/loft/drawer%20liner%20roll.jpg',
         'external SSD drive': 'https://cdamemoryjogger.blob.core.windows.net/loft/external%20SSD%20drive.jpg',
@@ -6234,7 +5065,6 @@
         'laundry basket lid': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20basket%20lid.jpg',
         'laundry basket stacker': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20basket%20stacker.jpg',
         'laundry basket wheels': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20basket%20wheels.jpg',
-        'laundry drying rack': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20drying%20rack.jpg',
         'laundry hamper': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20hamper.jpg',
         'laundry hamper cover': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20hamper%20cover.jpg',
         'laundry hamper divider insert': 'https://cdamemoryjogger.blob.core.windows.net/loft/laundry%20hamper%20divider%20insert.jpg',
@@ -6425,7 +5255,6 @@
         'pilates ring': 'https://cdamemoryjogger.blob.core.windows.net/loft/pilates%20ring.jpg',
         'pull up bar doorway': 'https://cdamemoryjogger.blob.core.windows.net/loft/pull%20up%20bar%20doorway.jpg',
         'resistance band door anchor': 'https://cdamemoryjogger.blob.core.windows.net/loft/resistance%20band%20door%20anchor.jpg',
-        'resistance band handles': 'https://cdamemoryjogger.blob.core.windows.net/loft/resistance%20band%20handles.jpg',
         'resistance band hanger': 'https://cdamemoryjogger.blob.core.windows.net/loft/resistance%20band%20hanger.jpg',
        
         'resistance band organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/resistance%20band%20organizer.jpg',
@@ -6459,7 +5288,6 @@
         'air purifier spare filter': 'https://cdamemoryjogger.blob.core.windows.net/loft/air%20purifier%20spare%20filter.jpg',
         'dehumidifier drain hose extension': 'https://cdamemoryjogger.blob.core.windows.net/loft/dehumidifier%20drain%20hose%20extension.jpg',
         'dehumidifier drain pump': 'https://cdamemoryjogger.blob.core.windows.net/loft/dehumidifier%20drain%20pump.jpg',
-        'dehumidifier hose': 'https://cdamemoryjogger.blob.core.windows.net/loft/dehumidifier%20hose.jpg',
         'dehumidifier water bucket': 'https://cdamemoryjogger.blob.core.windows.net/loft/dehumidifier%20water%20bucket.jpg',
         'humidifier cleaning brush': 'https://cdamemoryjogger.blob.core.windows.net/loft/humidifier%20cleaning%20brush.jpg',
         'humidifier spare filter': 'https://cdamemoryjogger.blob.core.windows.net/loft/humidifier%20spare%20filter.jpg',
@@ -6503,7 +5331,6 @@
         'hex key set': 'https://cdamemoryjogger.blob.core.windows.net/loft/hex%20key%20set.jpg',
         'level tool': 'https://cdamemoryjogger.blob.core.windows.net/loft/level%20tool.jpg',
         'measuring tape holder': 'https://cdamemoryjogger.blob.core.windows.net/loft/measuring%20tape%20holder.jpg',
-        'measuring tape retractable': 'https://cdamemoryjogger.blob.core.windows.net/loft/measuring%20tape%20retractable.jpg',
         'nail assortment kit': 'https://cdamemoryjogger.blob.core.windows.net/loft/nail%20assortment%20kit.jpg',
         'picture hanging hooks': 'https://cdamemoryjogger.blob.core.windows.net/loft/picture%20hanging%20hooks.jpg',
         'picture hanging hooks assorted': 'https://cdamemoryjogger.blob.core.windows.net/loft/picture%20hanging%20hooks%20assorted.jpg',
@@ -6525,11 +5352,9 @@
         'toolbox organizer': 'https://cdamemoryjogger.blob.core.windows.net/loft/toolbox%20organizer.jpg',
         'utility knife': 'https://cdamemoryjogger.blob.core.windows.net/loft/utility%20knife.jpg',
         'wall hook heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/loft/wall%20hook%20heavy%20duty.jpg',
-        'all purpose cleaner gallon': 'https://cdamemoryjogger.blob.core.windows.net/loft/all%20purpose%20cleaner%20gallon.jpg',
         'all purpose cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/loft/all%20purpose%20cleaner%20refill.jpg',
         'floor cleaning solution': 'https://cdamemoryjogger.blob.core.windows.net/loft/floor%20cleaning%20solution.jpg',
         'glass cleaner microfiber cloth': 'https://cdamemoryjogger.blob.core.windows.net/loft/glass%20cleaner%20microfiber%20cloth.jpg',
-        'glass cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/loft/glass%20cleaner%20refill.jpg',
         'glass cleaner spray bottle': 'https://cdamemoryjogger.blob.core.windows.net/loft/glass%20cleaner%20spray%20bottle.jpg',
         'lint free cloths': 'https://cdamemoryjogger.blob.core.windows.net/loft/lint%20free%20cloths.jpg',
         'microfiber cloth bulk pack': 'https://cdamemoryjogger.blob.core.windows.net/loft/microfiber%20cloth%20bulk%20pack.jpg',
@@ -6548,7 +5373,6 @@
         'spray bottle set': 'https://cdamemoryjogger.blob.core.windows.net/loft/spray%20bottle%20set.jpg',
         'spray mop': 'https://cdamemoryjogger.blob.core.windows.net/loft/spray%20mop.jpg',
         'spray mop pads': 'https://cdamemoryjogger.blob.core.windows.net/loft/spray%20mop%20pads.jpg',
-        'squeegee': 'https://cdamemoryjogger.blob.core.windows.net/loft/squeegee.jpg',
         'stain remover spray': 'https://cdamemoryjogger.blob.core.windows.net/loft/stain%20remover%20spray.jpg',
         'vacuum attachments': 'https://cdamemoryjogger.blob.core.windows.net/loft/vacuum%20attachments.jpg',
         'vacuum crevice tool': 'https://cdamemoryjogger.blob.core.windows.net/loft/vacuum%20crevice%20tool.jpg',
@@ -6675,7 +5499,6 @@
         'battery storage case': 'https://cdamemoryjogger.blob.core.windows.net/basement/battery%20storage%20case.jpg',
         'carbon monoxide alarm backup battery': 'https://cdamemoryjogger.blob.core.windows.net/basement/carbon%20monoxide%20alarm%20backup%20battery.jpg',
         'extension cord floor protector': 'https://cdamemoryjogger.blob.core.windows.net/basement/extension%20cord%20floor%20protector.jpg',
-        'extension cord heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/basement/extension%20cord%20heavy%20duty.jpg',
         'extension cords': 'https://cdamemoryjogger.blob.core.windows.net/basement/extension%20cords.jpg',
         'flashlight charger': 'https://cdamemoryjogger.blob.core.windows.net/basement/flashlight%20charger.jpg',
         'flashlight rechargeable': 'https://cdamemoryjogger.blob.core.windows.net/basement/flashlight%20rechargeable.jpg',
@@ -6697,7 +5520,6 @@
         'carbon monoxide alarm battery pack': 'https://cdamemoryjogger.blob.core.windows.net/basement/carbon%20monoxide%20alarm%20battery%20pack.jpg',
         'carbon monoxide detector spare unit': 'https://cdamemoryjogger.blob.core.windows.net/basement/carbon%20monoxide%20detector%20spare%20unit.jpg',
         'digital hygrometer': 'https://cdamemoryjogger.blob.core.windows.net/basement/digital%20hygrometer.jpg',
-        'emergency exit sign': 'https://cdamemoryjogger.blob.core.windows.net/basement/emergency%20exit%20sign.jpg',
         'emergency siren': 'https://cdamemoryjogger.blob.core.windows.net/basement/emergency%20siren.jpg',
         'emergency strobe light': 'https://cdamemoryjogger.blob.core.windows.net/basement/emergency%20strobe%20light.jpg',
         'fire blanket': 'https://cdamemoryjogger.blob.core.windows.net/basement/fire%20blanket.jpg',
@@ -6795,7 +5617,6 @@
         'paint rollers': 'https://cdamemoryjogger.blob.core.windows.net/basement/paint%20rollers.jpg',
         'primer gallon': 'https://cdamemoryjogger.blob.core.windows.net/basement/primer%20gallon.jpg',
         'spackle': 'https://cdamemoryjogger.blob.core.windows.net/basement/spackle.jpg',
-        'wood filler': 'https://cdamemoryjogger.blob.core.windows.net/basement/wood%20filler.jpg',
 
         'art supply bin': 'https://cdamemoryjogger.blob.core.windows.net/basement/art%20supply%20bin.jpg',
         'bankers boxes': 'https://cdamemoryjogger.blob.core.windows.net/basement/bankers%20boxes.jpg',
@@ -6862,7 +5683,6 @@
         'holiday lights storage reel': 'https://cdamemoryjogger.blob.core.windows.net/basement/holiday%20lights%20storage%20reel.jpg',
         'holiday storage bins': 'https://cdamemoryjogger.blob.core.windows.net/basement/holiday%20storage%20bins.jpg',
         'seasonal decor bin': 'https://cdamemoryjogger.blob.core.windows.net/basement/seasonal%20decor%20bin.jpg',
-        'seasonal decor storage chest': 'https://cdamemoryjogger.blob.core.windows.net/basement/seasonal%20decor%20storage%20chest.jpg',
         'tree stand': 'https://cdamemoryjogger.blob.core.windows.net/basement/tree%20stand.jpg',
         'wrapping paper cutter spare': 'https://cdamemoryjogger.blob.core.windows.net/basement/wrapping%20paper%20cutter%20spare.jpg',
         'wrapping paper rolls': 'https://cdamemoryjogger.blob.core.windows.net/basement/wrapping%20paper%20rolls.jpg',
@@ -6944,7 +5764,6 @@
         'disinfecting wipes': 'https://cdamemoryjogger.blob.core.windows.net/basement/disinfecting%20wipes.jpg',
         'dust mop': 'https://cdamemoryjogger.blob.core.windows.net/basement/dust%20mop.jpg',
         'mop': 'https://cdamemoryjogger.blob.core.windows.net/basement/mop.jpg',
-        'scrub brush': 'https://cdamemoryjogger.blob.core.windows.net/basement/scrub%20brush.jpg',
         'shop vacuum': 'https://cdamemoryjogger.blob.core.windows.net/basement/shop%20vacuum.jpg',
         'shop vacuum filter': 'https://cdamemoryjogger.blob.core.windows.net/basement/shop%20vacuum%20filter.jpg',
 
@@ -7026,7 +5845,6 @@
         'lantern': 'https://cdamemoryjogger.blob.core.windows.net/garage/lantern.jpg',
         'area rug': 'https://cdamemoryjogger.blob.core.windows.net/garage/area%20rug.jpg',
         'light bulbs': 'https://cdamemoryjogger.blob.core.windows.net/garage/light%20bulbs.jpg',
-        'gaming console': 'https://cdamemoryjogger.blob.core.windows.net/garage/gaming%20console.jpg',
         'television': 'https://cdamemoryjogger.blob.core.windows.net/garage/television.jpg',
         'coffee table': 'https://cdamemoryjogger.blob.core.windows.net/garage/coffee%20table.jpg',
         'loveseat': 'https://cdamemoryjogger.blob.core.windows.net/garage/loveseat.jpg',
@@ -7158,10 +5976,8 @@
         'battery backup UPS': 'https://cdamemoryjogger.blob.core.windows.net/garage/battery%20backup%20UPS.jpg',
     
         'carbon monoxide alarm backup battery': 'https://cdamemoryjogger.blob.core.windows.net/garage/carbon%20monoxide%20alarm%20backup%20battery.jpg',
-        'ceiling light bulb guard': 'https://cdamemoryjogger.blob.core.windows.net/garage/ceiling%20light%20bulb%20guard.jpg',
         'ceiling light pull chain': 'https://cdamemoryjogger.blob.core.windows.net/garage/ceiling%20light%20pull%20chain.jpg',
         'extension cord floor protector': 'https://cdamemoryjogger.blob.core.windows.net/garage/extension%20cord%20floor%20protector.jpg',
-        'extension cord heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/garage/extension%20cord%20heavy%20duty.jpg',
         'extension cords': 'https://cdamemoryjogger.blob.core.windows.net/garage/extension%20cords.jpg',
         'headlamp': 'https://cdamemoryjogger.blob.core.windows.net/garage/headlamp.jpg',
         'light fixture mounting bracket': 'https://cdamemoryjogger.blob.core.windows.net/garage/light%20fixture%20mounting%20bracket.jpg',
@@ -7181,7 +5997,6 @@
         'carbon monoxide alarm battery pack': 'https://cdamemoryjogger.blob.core.windows.net/garage/carbon%20monoxide%20alarm%20battery%20pack.jpg',
         'carbon monoxide detector spare unit': 'https://cdamemoryjogger.blob.core.windows.net/garage/carbon%20monoxide%20detector%20spare%20unit.jpg',
         'digital hygrometer': 'https://cdamemoryjogger.blob.core.windows.net/garage/digital%20hygrometer.jpg',
-        'emergency exit sign': 'https://cdamemoryjogger.blob.core.windows.net/garage/emergency%20exit%20sign.png',
         'emergency siren': 'https://cdamemoryjogger.blob.core.windows.net/garage/emergency%20siren.jpg',
         'emergency strobe light': 'https://cdamemoryjogger.blob.core.windows.net/garage/emergency%20strobe%20light.jpg',
         'fire blanket': 'https://cdamemoryjogger.blob.core.windows.net/garage/fire%20blanket.jpg',
@@ -7195,7 +6010,6 @@
         'water leak alarm sensor': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20leak%20alarm%20sensor.jpg',
         'water leak detector': 'https://cdamemoryjogger.blob.core.windows.net/garage/water%20leak%20detector.jpg',
 
-        'garage shelving expansion kit': 'https://cdamemoryjogger.blob.core.windows.net/garage/garage%20shelving%20expansion%20kit.jpg',
         'cabinet key set': 'https://cdamemoryjogger.blob.core.windows.net/garage/cabinet%20key%20set.jpg',
         'locking cabinet key spare': 'https://cdamemoryjogger.blob.core.windows.net/garage/locking%20cabinet%20key%20spare.jpg',
         'locking storage cabinet': 'https://cdamemoryjogger.blob.core.windows.net/garage/locking%20storage%20cabinet.jpg',
@@ -7294,7 +6108,6 @@
         'tool kit': 'https://cdamemoryjogger.blob.core.windows.net/garage/tool%20kit.jpg',
         'torque wrench': 'https://cdamemoryjogger.blob.core.windows.net/garage/torque%20wrench.jpg',
         'wrench set': 'https://cdamemoryjogger.blob.core.windows.net/garage/wrench%20set.jpg',
-        'garage waterproofing paint': 'https://cdamemoryjogger.blob.core.windows.net/garage/garage%20waterproofing%20paint.jpg',
         'concrete patch': 'https://cdamemoryjogger.blob.core.windows.net/garage/concrete%20patch.jpg',
         'concrete sealer': 'https://cdamemoryjogger.blob.core.windows.net/garage/concrete%20sealer.jpg',
         'corner bead': 'https://cdamemoryjogger.blob.core.windows.net/garage/corner%20bead.jpg',
@@ -7465,7 +6278,6 @@
         'dust mop': 'https://cdamemoryjogger.blob.core.windows.net/garage/dust%20mop.jpg',
         'fan filter': 'https://cdamemoryjogger.blob.core.windows.net/garage/fan%20filter.jpg',
         'mop': 'https://cdamemoryjogger.blob.core.windows.net/garage/mop.jpg',
-        'scrub brush': 'https://cdamemoryjogger.blob.core.windows.net/garage/scrub%20brush.jpg',
         'shop vacuum': 'https://cdamemoryjogger.blob.core.windows.net/garage/shop%20vacuum.jpg',
         'shop vacuum bags': 'https://cdamemoryjogger.blob.core.windows.net/garage/shop%20vacuum%20bags.jpg',
         'shop vacuum brush tool': 'https://cdamemoryjogger.blob.core.windows.net/garage/shop%20vacuum%20brush%20tool.jpg',
@@ -7556,7 +6368,6 @@
         'power strip': 'https://cdamemoryjogger.blob.core.windows.net/laundry/power%20strip.jpg',
         'wall clock': 'https://cdamemoryjogger.blob.core.windows.net/laundry/wall%20clock.jpg',
         'cleaning gloves': 'https://cdamemoryjogger.blob.core.windows.net/laundry/cleaning%20gloves.jpg',
-        'paper towels': 'https://cdamemoryjogger.blob.core.windows.net/laundry/paper%20towels.jpg',
 
 
         'washer drip pan': 'https://cdamemoryjogger.blob.core.windows.net/laundry/washer%20drip%20pan.jpg',
@@ -7659,7 +6470,6 @@
 
         'button repair kit': 'https://cdamemoryjogger.blob.core.windows.net/laundry/button%20repair%20kit.jpg',
         'clothing moth deterrent cedar blocks': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothing%20moth%20deterrent%20cedar%20blocks.jpg',
-        'clothing repair kit deluxe': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothing%20repair%20kit%20deluxe.jpg',
         'elastic band roll': 'https://cdamemoryjogger.blob.core.windows.net/laundry/elastic%20band%20roll.jpg',
         'fabric glue': 'https://cdamemoryjogger.blob.core.windows.net/laundry/fabric%20glue.jpg',
         'fabric lint brush reusable': 'https://cdamemoryjogger.blob.core.windows.net/laundry/fabric%20lint%20brush%20reusable.jpg',
@@ -7715,18 +6525,14 @@
         'wrinkle release spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/wrinkle%20release%20spray.jpg',
         'wrinkle spray refill': 'https://cdamemoryjogger.blob.core.windows.net/laundry/wrinkle%20spray%20refill.jpg',
   
-        'clothesline retractable reel': 'https://cdamemoryjogger.blob.core.windows.net/officestudy/clothesline%20retractable%20reel.jpg',
         'clothespin bag': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothespin%20bag.jpg',
-        'clothespins': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothespins.jpg',
         'clothing folding template board': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothing%20folding%20template%20board.jpg',
         'folding drying rack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/folding%20drying%20rack.jpg',
         'indoor clothesline': 'https://cdamemoryjogger.blob.core.windows.net/laundry/indoor%20clothesline.jpg',
-        'laundry drying rack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20drying%20rack.jpg',
         'laundry folding board': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20folding%20board.jpg',
         'laundry folding chair': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20folding%20chair.jpg',
         'laundry folding counter light': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20folding%20counter%20light.jpg',
         'laundry room sink drying rack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20room%20sink%20drying%20rack.jpg',
-        'over door drying rack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/over%20door%20drying%20rack.jpg',
 
         'all purpose cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/laundry/all%20purpose%20cleaner%20refill.jpg',
         'cleaning brush set small': 'https://cdamemoryjogger.blob.core.windows.net/laundry/cleaning%20brush%20set%20small.jpg',
@@ -7735,13 +6541,11 @@
         'cleaning wipes': 'https://cdamemoryjogger.blob.core.windows.net/laundry/cleaning%20wipes.jpg',
         'disinfectant refill bottle': 'https://cdamemoryjogger.blob.core.windows.net/laundry/disinfectant%20refill%20bottle.jpg',
         'disinfectant spray': 'https://cdamemoryjogger.blob.core.windows.net/laundry/disinfectant%20spray.jpg',
-        'glass cleaner refill': 'https://cdamemoryjogger.blob.core.windows.net/laundry/glass%20cleaner%20refill.jpg',
         'laundry recycling bin divider': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20recycling%20bin%20divider.jpg',
         'laundry trash bag dispenser': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20trash%20bag%20dispenser.jpg',
         'laundry trash liner roll': 'https://cdamemoryjogger.blob.core.windows.net/laundry/laundry%20trash%20liner%20roll.jpg',
         'mop': 'https://cdamemoryjogger.blob.core.windows.net/laundry/mop.jpg',
         'paper towel bulk pack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/paper%20towel%20bulk%20pack.jpg',
-        'scrub brush': 'https://cdamemoryjogger.blob.core.windows.net/laundry/scrub%20brush.jpg',
         'scrub sponge refill pack': 'https://cdamemoryjogger.blob.core.windows.net/laundry/scrub%20sponge%20refill%20pack.jpg',
         'sponges': 'https://cdamemoryjogger.blob.core.windows.net/laundry/sponges.jpg',
 
@@ -7912,7 +6716,6 @@
         'adjustable wrench large': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/adjustable%20wrench%20large.jpg',
         'lug wrench': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/lug%20wrench.jpg',
         'oil filter wrench': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/oil%20filter%20wrench.jpg',
-        'rotary hammer drill': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/rotary%20hammer%20drill.jpg',
         'breaker bar': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/breaker%20bar.jpg',
         'ball peen hammer': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/ball%20peen%20hammer.jpg',
         'dead blow hammer': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/dead%20blow%20hammer.jpg',
@@ -7955,7 +6758,6 @@
         'soldering iron': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/soldering%20iron.jpg',
         'airbrush kit': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/airbrush%20kit.jpg',
         'airbrush compressor': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/airbrush%20compressor.jpg',
-        'pneumatic brad nailer': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/pneumatic%20brad%20nailer.jpg',
         'pneumatic framing nailer': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/pneumatic%20framing%20nailer.jpg',
         'air compressor': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/air%20compressor.jpg',
         'air hose': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/air%20hose.jpg',
@@ -7969,7 +6771,6 @@
         'metal sheets': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/metal%20sheets.jpg',
         'sheet metal screws': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/sheet%20metal%20screws.jpg',
         'welding helmet': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/welding%20helmet.jpg',
-        'welding gloves': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/welding%20gloves.jpg',
         'forge propane burner': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/forge%20propane%20burner.jpg',
         'grease gun': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/grease%20gun.jpg',
         'bearing puller': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/bearing%20puller.jpg',
@@ -7978,7 +6779,6 @@
         'welding jacket': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/welding%20jacket.jpg',
         'extension cord': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/extension%20cord.jpg',
         'power strip': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/power%20strip.jpg',
-        'extension cord heavy duty': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/extension%20cord%20heavy%20duty.jpg',
         'junction box': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/junction%20box.jpg',
         'LED shop light': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/LED%20shop%20light.jpg',
         'motion sensor light': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/motion%20sensor%20light.jpg',
@@ -8069,7 +6869,6 @@
     'cleaning caddy': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/cleaning%20caddy.jpg',
     'all purpose cleaner': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/all%20purpose%20cleaner.jpg',
     'degreaser': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/degreaser.jpg',
-    'trash can': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/trash%20can.jpg',
     'trash bags': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/trash%20bags.jpg',
     'recycling bin': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/recycling%20bin.jpg',
     'mouse bait station': 'https://cdamemoryjogger.blob.core.windows.net/shedstorageunit/mouse%20bait%20station.jpg',
@@ -8561,7 +7360,6 @@
     'flood light LED': 'https://cdamemoryjogger.blob.core.windows.net/yard/flood%20light%20LED.jpg',
     'motion floodlight solar': 'https://cdamemoryjogger.blob.core.windows.net/yard/motion%20floodlight%20solar.jpg',
     'smart outdoor plug': 'https://cdamemoryjogger.blob.core.windows.net/yard/smart%20outdoor%20plug.jpg',
-    'outdoor extension reel large': 'https://cdamemoryjogger.blob.core.windows.net/yard/outdoor%20extension%20reel%20large.jpg',
 
     'mailbox locking': 'https://cdamemoryjogger.blob.core.windows.net/yard/mailbox%20locking.jpg',
     'security camera outdoor wired': 'https://cdamemoryjogger.blob.core.windows.net/yard/security%20camera%20outdoor%20wired.jpg',
@@ -8588,7 +7386,6 @@
     'bird feeder pole': 'https://cdamemoryjogger.blob.core.windows.net/yard/bird%20feeder%20pole.jpg',
     'bird seed storage bin': 'https://cdamemoryjogger.blob.core.windows.net/yard/bird%20seed%20storage%20bin.jpg',
     'squirrel guard baffle': 'https://cdamemoryjogger.blob.core.windows.net/yard/squirrel%20guard%20baffle.jpg',
-    'bat house mount': 'https://cdamemoryjogger.blob.core.windows.net/yard/bat%20house%20mount.jpg',
     'bee hotel garden': 'https://cdamemoryjogger.blob.core.windows.net/yard/bee%20hotel%20garden.jpg',
     'weather vane decorative': 'https://cdamemoryjogger.blob.core.windows.net/yard/weather%20vane%20decorative.jpg',
     'metal wind spinner': 'https://cdamemoryjogger.blob.core.windows.net/yard/metal%20wind%20spinner.jpg',

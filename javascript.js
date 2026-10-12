@@ -2,123 +2,165 @@
     const STORAGE_KEY = 'joggerData';
     const DEFAULT_CATEGORY = 'Other';
     const ITEM_OPTIONS = {
-        Kitchen: [// Major Appliances (29 items)
-'refrigerator', 'refrigerator shelves', 'refrigerator drawers', 'refrigerator door bins', 'freezer', 'freezer shelves', 'freezer drawers', 'ice maker', 'ice bin', 'water dispenser',
-'microwave', 'wine cooler', 'beverage fridge', 'dishwasher detergent', 'refrigerator magnets', 'backup refrigerator', 'mini fridge', 'deep freezer', 'gas range', 'electric range',
-'induction cooktop', 'double wall oven', 'trash compactor', 'wine fridge', 'beverage cooler', 'kegerator', 'refrigerator deodorizer', 'refrigerator lock', 'water filter pitcher',
-// Small Kitchen Appliances (53 items)
-'microwave turntable', 'toaster', 'toaster oven', 'air fryer', 'slow cooker', 'pressure cooker', 'rice cooker', 'electric kettle', 'coffee maker', 'espresso machine',
-'coffee grinder', 'french press', 'single serve coffee maker', 'blender', 'immersion blender', 'stand mixer', 'hand mixer', 'food processor', 'hand chopper', 'juicer',
-'electric griddle', 'waffle maker', 'panini press', 'indoor grill', 'electric skillet', 'bread maker', 'sous vide cooker', 'pressure cooker lid', 'slow cooker insert', 'slow cooker lid',
-'air fryer basket', 'air fryer tray', 'microwave cover', 'microwave rack', 'dish warmer', 'coffee urn', 'water boiler', 'countertop mixer', 'immersion circulator', 'food dehydrator',
-'meat slicer', 'pasta maker', 'grain mill', 'electric can opener', 'fondue pot', 'raclette grill', 'portable butane stove', 'butane fuel canisters', 'electric knife', 'microwave splatter cover',
-'warming tray electric', 'electric carving knife', 'appliance covers',
-// Coffee & Tea (20 items)
-'coffee canister', 'tea canister', 'coffee cups', 'tea cups', 'saucers', 'tea boxes', 'coffee bags', 'tea kettle', 'whistling kettle', 'coffee mugs set',
-'coffee pod holder', 'coffee pod drawer', 'espresso tamper', 'milk frothing pitcher', 'coffee knock box', 'tea infuser', 'tea kettle electric', 'tea kettle stovetop', 'coffee carafe', 'tea pot',
-// Knives & Cutting (42 items)
-'knife block', 'chef knife', 'paring knife', 'bread knife', 'carving knife', 'utility knife', 'kitchen shears', 'knife sharpener', 'cutting board wood', 'cutting board plastic',
-'cutting board bamboo', 'mandoline slicer', 'herb scissors', 'butcher block', 'knife magnet strip', 'steak knife set', 'pizza cutter', 'knife case', 'utility scissors', 'cleaver',
-'fillet knife', 'boning knife', 'carving fork', 'kitchen mallet', 'egg slicer', 'cheese slicer', 'cut resistant gloves', 'steak knife block', 'kitchen torch', 'knife sharpening stone',
-'knife honing rod', 'cutting board oil', 'knife guard set', 'kitchen scissors heavy duty', 'cheese knife set', 'knife sharpening guide', 'cutting board stand', 'drawer knife organizer bamboo', 'avocado slicer', 'garlic slicer',
-'herb chopper', 'cutting mat flexible',
-// Cookware (30 items)
-'dutch oven', 'stock pot', 'saucepan', 'frying pan', 'nonstick skillet', 'cast iron skillet', 'wok', 'grill pan', 'saute pan', 'pot lids',
-'skillet lid', 'stock pot lid', 'pan organizer', 'lid organizer', 'pot rack', 'hanging pot rack', 'cookware organizer rack', 'smoker box', 'meat carving station', 'cast iron cleaner',
-'cookware cleaner', 'pot rack hooks', 'pan handle covers', 'storage lid organizer', 'pan protector pads', 'grill press', 'panini weight', 'cast iron press', 'bacon press', 'egg poacher pan',
-// Bakeware & Baking (48 items)
-'baking sheet', 'cookie sheet', 'muffin pan', 'cake pan', 'springform pan', 'loaf pan', 'pie dish', 'roasting pan', 'broiler pan', 'cooling rack',
-'pizza stone', 'casserole dish', 'flour sifter', 'baking powder', 'baking soda', 'oven thermometer', 'rolling pin', 'pastry mat', 'cookie cutters', 'decorating tips',
-'icing spatula', 'baking rack', 'sheet pan rack', 'cooling shelf', 'dough scraper', 'pastry brush', 'pastry blender', 'baking molds', 'souffle dish', 'ramekins',
-'custard cups', 'silicone baking mat', 'bread slicing guide', 'bread proofing basket', 'dough rolling mat', 'pastry ring set', 'baking thermometer', 'stackable cooling racks', 'cake decorating kit', 'baking decorating kit',
-'silicone cupcake liners', 'reusable baking cups', 'oven thermometer analog', 'cookie cooling tower', 'rolling pin marble', 'rolling pin wood', 'baking sheet rack', 'cooling mat',
-// Kitchen Utensils & Tools (69 items)
-'splatter screen', 'trivet', 'spatula', 'whisk', 'ladle', 'slotted spoon', 'serving spoon', 'tongs', 'pasta server', 'turner',
-'wooden spoon', 'can opener', 'bottle opener', 'wine opener', 'garlic press', 'vegetable peeler', 'box grater', 'zester', 'citrus juicer', 'meat tenderizer',
-'potato masher', 'ice cream scoop', 'melon baller', 'apple corer', 'basting brush', 'utensil crock', 'serving tongs', 'salad tongs', 'cake server', 'pie server',
-'ladle set', 'utensil set', 'mixing spoon set', 'spice grinder', 'mortar and pestle', 'oil sprayer', 'serving fork', 'serving ladle', 'slotted turner', 'solid turner',
-'skimmer', 'straining spoon', 'pancake spatula', 'fish spatula', 'utensil holder', 'jar opener', 'sauce whisk', 'balloon whisk', 'silicone spatula set', 'wooden utensil set',
-'utensil hooks rail', 'pot clip strainer', 'collapsible funnel', 'kitchen funnel set', 'oven rack pull tool', 'produce wash bowl', 'fruit corer tool', 'egg separator', 'pancake ring set', 'waffle batter dispenser',
-'gravy separator', 'fat separator cup', 'salad dressing mixer', 'herb stripping tool', 'meat shredder claws', 'taco holder stand', 'spice measuring spoons', 'citrus reamer', 'kitchen twine',
-// Measuring & Thermometers (27 items)
-'kitchen scale', 'digital thermometer', 'measuring cups', 'measuring spoons', 'measuring scale', 'timer', 'meat thermometer', 'grill thermometer', 'measuring jug', 'probe thermometer',
-'timer clock', 'freezer thermometer', 'pantry thermometer', 'food scale digital', 'kitchen timer digital', 'wall mounted timer', 'measuring tape', 'level', 'measuring conversion chart', 'appliance thermometer',
-'measuring spoon leveler', 'kitchen scale analog', 'thermometer probe cover', 'timer magnetic', 'freezer thermometer analog', 'measuring cup glass', 'measuring cup plastic',
-// Mixing Bowls & Prep (12 items)
-'mixing bowl set', 'colander', 'mesh strainer', 'salad spinner', 'batter bowl', 'sifter', 'strainer set', 'colander set', 'food mill', 'ricer',
-'collapsible colander', 'vegetable scrub brush',
-// Food Storage & Wrap (49 items)
-'aluminum foil', 'plastic wrap', 'parchment paper', 'wax paper', 'food storage bags', 'vacuum sealer', 'food storage containers', 'glass containers', 'plastic containers', 'cooler',
-'ice packs', 'food clips', 'chip clips', 'bread ties', 'ice trays', 'freezer bins', 'freezer bags', 'produce bins', 'egg holder', 'butter keeper',
-'canisters with lids', 'airtight containers', 'food storage turntable', 'picnic cooler', 'rolling cooler', 'ice chest', 'food storage jar set', 'glass canister set', 'ceramic canister set', 'airtight cereal containers',
-'flour storage bin', 'sugar storage bin', 'rice dispenser', 'pet food storage container', 'bulk food storage bucket', 'cooling ice packs', 'water storage containers', 'cooler tote', 'produce storage bags', 'butcher paper roll',
-'freezer paper roll', 'vacuum sealer rolls', 'mixing bowl lids', 'collapsible storage bowls', 'glass storage bottles', 'water bottles', 'thermos', 'food cover dome', 'mesh food tent',
-// Pantry & Spices (74 items)
-'spice rack', 'spice jars', 'salt shaker', 'pepper shaker', 'pepper grinder', 'oil bottle', 'vinegar bottle', 'sugar canister', 'flour canister', 'canned goods',
-'dry pasta', 'rice bags', 'flour bags', 'sugar bags', 'cornstarch', 'cooking oil', 'olive oil', 'vegetable oil', 'soy sauce', 'hot sauce',
-'ketchup', 'mustard', 'mayonnaise', 'salad dressing', 'peanut butter', 'jam', 'honey', 'cereal boxes', 'granola', 'oatmeal',
-'snack chips', 'crackers', 'cookies', 'nuts', 'dried fruit', 'spice containers', 'can rack', 'condiment rack', 'canister set', 'storage jars',
-'cookie jar', 'pantry door rack', 'over door organizer', 'spice tins', 'cabinet basket insert', 'stackable pantry bins', 'clear storage bins', 'pantry label set', 'chalkboard labels', 'wall mounted spice rack',
-'countertop spice carousel', 'oil and vinegar cruet set', 'salt cellar', 'pepper mill', 'condiment caddy', 'herb keeper', 'onion storage bin', 'potato storage bin', 'garlic keeper', 'condiment squeeze bottles',
-'syrup dispenser', 'honey dispenser', 'sugar dispenser', 'salt box', 'pepper box', 'flour shaker', 'powdered sugar shaker', 'oil sprayer bottle', 'vinegar cruet', 'cabinet organizer bins',
-'bread box', 'butter crock', 'humidity absorber', 'salad dressing shaker',
-// Flatware & Cutlery Sets (15 items)
-'cutlery tray', 'silverware set', 'flatware set', 'gold flatware set', 'butter knives', 'seafood forks', 'soup spoons', 'dessert spoons', 'salad forks', 'dinner forks',
-'dinner knives', 'teaspoons', 'tablespoons', 'flatware tray expandable', 'steak knives',
-// Dishware & Serveware (63 items)
-'serving platter', 'serving bowl', 'gravy boat', 'plate set', 'salad plates', 'dinner plates', 'bowls', 'cereal bowls', 'soup bowls', 'mugs',
-'drinking glasses', 'wine glasses', 'champagne flutes', 'cocktail glasses', 'shot glasses', 'water pitcher', 'cake stand', 'tiered tray', 'butter dish', 'sugar bowl',
-'cream pitcher', 'travel mugs', 'wine glass rack', 'mug tree', 'water carafe', 'pitcher with lid', 'salad bowl', 'mixing pitcher', 'pet bowls', 'plate e set',
-'nested mixing bowls', 'cake carrier', 'pie carrier', 'cupcake carrier', 'thermal casserole carrier', 'insulated food carrier', 'serving caddy', 'china dinner set', 'stoneware dinner set', 'porcelain dinner set',
-'melamine plate set', 'glass salad bowl', 'wood salad bowl', 'ceramic serving bowl', 'pasta serving bowl', 'mixing pitcher glass', 'water goblets', 'beer mugs', 'pint glasses', 'highball glasses',
-'lowball glasses', 'martini glasses', 'whiskey glasses', 'decanter', 'wine decanter', 'carafe', 'gravy ladle', 'picnic tableware set', 'plastic serving trays', 'party serving bowl set',
-'buffet serving utensils',
-// Bar & Entertaining (21 items)
-'wine rack', 'ice bucket', 'beverage dispenser', 'drink dispenser stand', 'bar serving cart', 'wine bottle opener set', 'wine aerator', 'wine stopper set', 'champagne stopper', 'ice scoop',
-'bar spoon', 'cocktail shaker', 'cocktail strainer', 'jigger', 'mudler', 'drink mixing glass', 'buffet warming trays', 'chafing dish set', 'cheese board', 'charcuterie board',
-'serving slate board',
-// Dining Furniture (18 items)
-'bar stools', 'bar cart', 'china cabinet', 'buffet table', 'sideboard', 'dining table', 'dining chairs', 'chair cushions', 'seat covers', 'high chair',
-'booster seat', 'kitchen storage cabinet', 'folding chairs', 'extra dining chairs', 'bar stool cushions', 'chair floor protectors', 'table leaf insert', 'table protector pad',
-// Table Linens & Decor (34 items)
-'napkin holder', 'dish towels', 'hand towels', 'oven mitts', 'pot holders', 'apron', 'tablecloth', 'placemats', 'cloth napkins', 'kitchen rug',
-'anti fatigue mat', 'wall clock', 'wall art', 'bulletin board', 'message board', 'key holder', 'floor mat', 'area rug', 'bread basket', 'fruit bowl',
-'banana hanger', 'napkin rings', 'table runner', 'table centerpiece', 'decorative tray', 'countertop tray', 'fruit storage basket', 'banana tree stand', 'paper napkin pack', 'cloth napkin rings',
-'placemat set', 'kitchen wall mirror', 'kitchen whiteboard', 'magnetic grocery list pad',
-// Sink & Dish Care (36 items)
-'dish rack', 'drying mat', 'dish soap', 'hand soap', 'sponges', 'scrub brushes', 'dish brush', 'sink caddy', 'rinse aid', 'under sink organizer',
-'dish drainer tray', 'under sink mat', 'sink organizer rack', 'dish soap dispenser', 'hand soap dispenser', 'dishwasher cleaner', 'scrub sponges', 'heavy duty scrub pads', 'microfiber cloths', 'bottle brush',
-'straw cleaning brush', 'dish drying cabinet', 'over sink drying rack', 'dish drying towel rack', 'sink strainer basket', 'under sink storage shelf', 'sink drain stopper', 'dish drying clips', 'soap pump tray', 'sink brush holder',
-'cleaning glove clips', 'dish drying cabinet rack', 'dish sponge holder',
-// Cleaning Supplies (15 items)
-'cleaning spray', 'disinfecting wipes', 'cleaning caddy', 'all purpose cleaner', 'glass cleaner', 'granite cleaner', 'wood cleaner', 'oven cleaner', 'cleaning brush set', 'oven liner',
-'appliance cleaning wipes', 'granite sealer', 'glass cooktop cleaner', 'cooktop scraper', 'cleaning supply rack',
-// Floor Care & Vacuums (15 items)
-'broom', 'dustpan', 'mop', 'mop bucket', 'vacuum', 'steam mop', 'broom and dustpan set', 'push broom', 'spray mop', 'steam cleaner',
-'handheld vacuum', 'cordless vacuum', 'floor sweeper', 'floor protector pads', 'floor mop',
-// Trash, Recycling & Odor (22 items)
-'recycling bin', 'compost bin', 'trash bags', 'recycling bags', 'garbage bags box', 'recycling container', 'compost pail', 'step trash can', 'touchless trash can', 'trash bag box',
-'recycling bin liner', 'compostable bags', 'trash can deodorizer', 'recycling sorter bins', 'drawer freshener', 'cabinet freshener', 'air purifier small', 'step trash liner refill', 'odor absorber box', 'kitchen air freshener',
-// Paper & Disposables (8 items)
-'paper towel holder', 'paper towel rolls', 'paper plates', 'plastic cups', 'plastic utensils', 'paper towel pack', 'under cabinet paper towel holder', 'counter paper towel holder',
-// Storage & Organization (53 items)
-'lazy susan', 'cookbook stand', 'cookbooks', 'recipe box', 'rolling cart', 'label maker', 'labels', 'drawer liners', 'cabinet liners', 'cabinet locks',
-'child safety latches', 'drawer slides', 'lazy susan turntable', 'drawer dividers', 'calendar', 'storage baskets', 'wire baskets', 'plastic bins', 'glass jars', 'pet food bin',
-'cabinet shelf riser', 'oven rack guards', 'pull out cabinet organizer', 'corner cabinet organizer', 'under cabinet mug hooks', 'hanging fruit basket', 'clip on book light', 'cookbook shelf', 'recipe binder', 'rolling kitchen cart',
-'utility cart', 'grocery bag holder', 'reusable grocery bags', 'insulated grocery bags', 'cabinet bumpers', 'rolling pantry cart', 'oven mitt rack', 'under cabinet basket', 'cabinet shelf dividers', 'kitchen drawer bin set',
-'shelf risers', 'cookbook holder stand', 'tablet recipe stand', 'document organizer box', 'recipe storage box', 'plastic drawer bins', 'kitchen storage crates', 'oven lock', 'cabinet child lock', 'drawer child lock',
-'cabinet door organizer',
-// Safety & Emergency (11 items)
-'fire extinguisher', 'smoke detector', 'carbon monoxide detector', 'security camera', 'smoke alarm', 'carbon monoxide alarm', 'fire blanket', 'first aid kit', 'emergency food supply kit', 'backup batteries',
-'fire resistant safe',
-// Tools & Hardware (16 items)
-'step ladder', 'light bulbs', 'step stool folding', 'tool kit small', 'screwdriver set', 'hammer', 'picture hanging kit', 'light bulb pack', 'adjustable wrench', 'allen wrench set',
-'socket set', 'cord organizer', 'appliance cord wrap', 'step stool small', 'folding step ladder large', 'kitchen flashlight',
-// Power & Electronics (14 items)
-'tablet stand', 'charging station', 'smart speaker', 'television', 'extension cord', 'power strip', 'under cabinet radio', 'smart display', 'charging dock', 'surge protector',
-'battery pack', 'surge protector strip', 'extension cord reel',
-// Picnic & Outdoor (2 items)
-'picnic basket', 'propane torch',
+        Kitchen: [
+// Refrigerator
+'refrigerator', 'refrigerator shelves', 'refrigerator drawers', 'refrigerator door bins', 'produce bins', 'egg holder', 'butter keeper', 'refrigerator magnets', 'refrigerator deodorizer', 'refrigerator lock',
+'appliance thermometer',
+// Freezer & ice
+'freezer', 'freezer shelves', 'freezer drawers', 'freezer bins', 'freezer bags', 'freezer paper roll', 'freezer thermometer', 'freezer thermometer analog', 'deep freezer', 'ice maker',
+'ice bin', 'ice trays', 'ice packs', 'cooling ice packs',
+// Extra fridges & beverage coolers
+'mini fridge', 'backup refrigerator', 'wine fridge', 'wine cooler', 'beverage fridge', 'beverage cooler', 'kegerator',
+// Water
+'water dispenser', 'water filter pitcher', 'water pitcher', 'pitcher with lid', 'water carafe', 'water bottles', 'water storage containers',
+// Range & oven
+'gas range', 'electric range', 'induction cooktop', 'double wall oven', 'oven thermometer', 'oven thermometer analog', 'oven rack pull tool', 'oven rack guards', 'oven liner', 'oven lock',
+'oven cleaner', 'glass cooktop cleaner', 'cooktop scraper', 'oven mitts', 'pot holders', 'oven mitt rack', 'trivet',
+// Microwave
+'microwave', 'microwave turntable', 'microwave cover', 'microwave splatter cover', 'microwave rack',
+// Sink & dish washing
+'dish soap', 'dish soap dispenser', 'soap pump tray', 'hand soap', 'hand soap dispenser', 'dishwasher detergent', 'rinse aid', 'dishwasher cleaner', 'sponges', 'scrub sponges',
+'heavy duty scrub pads', 'scrub brushes', 'dish brush', 'bottle brush', 'straw cleaning brush', 'sink caddy', 'sink brush holder', 'dish sponge holder', 'cleaning glove clips', 'sink strainer basket',
+'sink drain stopper', 'under sink organizer', 'under sink mat', 'under sink storage shelf', 'sink organizer rack',
+// Dish drying
+'dish rack', 'dish drainer tray', 'drying mat', 'dish drying cabinet', 'dish drying cabinet rack', 'over sink drying rack', 'dish drying towel rack', 'dish drying clips', 'dish towels', 'hand towels',
+'microfiber cloths',
+// Toaster & breakfast
+'toaster', 'toaster oven', 'bread box', 'bread maker', 'bread slicing guide', 'waffle maker', 'waffle batter dispenser', 'pancake ring set', 'pancake spatula', 'electric griddle',
+'panini press', 'panini weight', 'indoor grill', 'electric skillet', 'raclette grill', 'warming tray electric',
+// Coffee
+'coffee maker', 'single serve coffee maker', 'coffee pod holder', 'coffee pod drawer', 'coffee grinder', 'coffee bags', 'coffee canister', 'french press', 'espresso machine', 'espresso tamper',
+'milk frothing pitcher', 'coffee knock box', 'coffee carafe', 'coffee urn', 'coffee cups', 'coffee mugs set', 'mugs', 'mug tree', 'travel mugs', 'thermos',
+// Tea & kettles
+'electric kettle', 'tea kettle electric', 'tea kettle', 'tea kettle stovetop', 'whistling kettle', 'water boiler', 'tea pot', 'tea infuser', 'tea canister', 'tea boxes',
+'tea cups', 'saucers',
+// Blending & mixing
+'blender', 'immersion blender', 'food processor', 'hand chopper', 'juicer', 'citrus juicer', 'citrus reamer', 'stand mixer', 'countertop mixer', 'hand mixer',
+// Slow & pressure cooking
+'slow cooker', 'slow cooker lid', 'slow cooker insert', 'pressure cooker', 'pressure cooker lid', 'rice cooker', 'rice dispenser', 'air fryer', 'air fryer basket', 'air fryer tray',
+'sous vide cooker', 'immersion circulator', 'fondue pot', 'portable butane stove', 'butane fuel canisters',
+// Specialty appliances
+'vacuum sealer', 'vacuum sealer rolls', 'food dehydrator', 'meat slicer', 'pasta maker', 'grain mill', 'electric can opener', 'dish warmer', 'kitchen torch', 'appliance covers',
+// Knives
+'knife block', 'chef knife', 'paring knife', 'utility knife', 'bread knife', 'carving knife', 'carving fork', 'cleaver', 'fillet knife', 'boning knife',
+'steak knife set', 'steak knife block', 'cheese knife set', 'electric knife', 'electric carving knife', 'knife sharpener', 'knife sharpening stone', 'knife honing rod', 'knife sharpening guide', 'knife guard set',
+'knife case', 'knife magnet strip', 'drawer knife organizer bamboo', 'cut resistant gloves', 'kitchen shears', 'kitchen scissors heavy duty', 'utility scissors', 'herb scissors', 'meat carving station',
+// Cutting boards & prep
+'cutting board wood', 'cutting board plastic', 'cutting board bamboo', 'cutting board oil', 'cutting board stand', 'cutting mat flexible', 'butcher block', 'mandoline slicer', 'egg slicer', 'cheese slicer',
+'avocado slicer', 'garlic slicer', 'herb chopper', 'pizza cutter', 'kitchen mallet', 'meat tenderizer',
+// Pots & pans
+'frying pan', 'nonstick skillet', 'cast iron skillet', 'skillet lid', 'saute pan', 'grill pan', 'wok', 'saucepan', 'stock pot', 'stock pot lid',
+'dutch oven', 'pot lids', 'egg poacher pan', 'cast iron cleaner', 'cast iron press', 'cookware cleaner', 'pan handle covers', 'pan protector pads', 'smoker box', 'grill press',
+'bacon press',
+// Pot & pan storage
+'pot rack', 'hanging pot rack', 'pot rack hooks', 'cookware organizer rack', 'pan organizer', 'lid organizer', 'storage lid organizer',
+// Bakeware
+'baking sheet', 'cookie sheet', 'baking sheet rack', 'sheet pan rack', 'cooling rack', 'stackable cooling racks', 'baking rack', 'cooling shelf', 'cookie cooling tower', 'cooling mat',
+'silicone baking mat', 'parchment paper', 'muffin pan', 'silicone cupcake liners', 'reusable baking cups', 'cake pan', 'springform pan', 'loaf pan', 'pie dish', 'roasting pan',
+'broiler pan', 'casserole dish', 'souffle dish', 'ramekins', 'custard cups', 'baking molds', 'pizza stone',
+// Baking tools
+'rolling pin', 'rolling pin marble', 'rolling pin wood', 'pastry mat', 'dough rolling mat', 'dough scraper', 'pastry brush', 'pastry blender', 'pastry ring set', 'cookie cutters',
+'icing spatula', 'decorating tips', 'cake decorating kit', 'baking decorating kit', 'bread proofing basket', 'flour sifter', 'sifter', 'baking thermometer', 'flour shaker', 'powdered sugar shaker',
+// Baking staples
+'baking powder', 'baking soda', 'cornstarch', 'flour bags', 'flour canister', 'flour storage bin', 'sugar bags', 'sugar canister', 'sugar storage bin', 'sugar dispenser',
+// Stirring & flipping utensils
+'spatula', 'silicone spatula set', 'turner', 'slotted turner', 'solid turner', 'fish spatula', 'wooden spoon', 'wooden utensil set', 'mixing spoon set', 'whisk',
+'balloon whisk', 'sauce whisk', 'ladle', 'ladle set', 'slotted spoon', 'straining spoon', 'skimmer', 'tongs', 'pasta server', 'utensil set',
+'utensil crock', 'utensil holder', 'utensil hooks rail', 'splatter screen', 'basting brush', 'oil sprayer',
+// Serving utensils
+'serving spoon', 'serving fork', 'serving ladle', 'serving tongs', 'salad tongs', 'cake server', 'pie server',
+// Kitchen gadgets
+'can opener', 'bottle opener', 'wine opener', 'jar opener', 'garlic press', 'vegetable peeler', 'box grater', 'zester', 'potato masher', 'ice cream scoop',
+'melon baller', 'apple corer', 'fruit corer tool', 'mortar and pestle', 'spice grinder', 'egg separator', 'gravy separator', 'fat separator cup', 'salad dressing mixer', 'herb stripping tool',
+'meat shredder claws', 'taco holder stand', 'produce wash bowl', 'vegetable scrub brush', 'kitchen twine', 'collapsible funnel', 'kitchen funnel set', 'pot clip strainer',
+// Measuring & timing
+'measuring cups', 'measuring cup glass', 'measuring cup plastic', 'measuring spoons', 'spice measuring spoons', 'measuring spoon leveler', 'measuring jug', 'kitchen scale', 'food scale digital', 'kitchen scale analog',
+'measuring scale', 'measuring conversion chart', 'kitchen timer digital', 'timer', 'timer clock', 'timer magnetic', 'wall mounted timer', 'digital thermometer', 'meat thermometer', 'probe thermometer',
+'thermometer probe cover', 'grill thermometer', 'pantry thermometer',
+// Mixing bowls & strainers
+'mixing bowl set', 'nested mixing bowls', 'mixing bowl lids', 'batter bowl', 'collapsible storage bowls', 'colander', 'colander set', 'collapsible colander', 'mesh strainer', 'strainer set',
+'salad spinner', 'ricer', 'food mill',
+// Wraps & bags
+'aluminum foil', 'plastic wrap', 'wax paper', 'butcher paper roll', 'food storage bags', 'produce storage bags', 'food clips', 'chip clips', 'bread ties',
+// Food storage containers
+'food storage containers', 'glass containers', 'plastic containers', 'airtight containers', 'food storage jar set', 'glass storage bottles', 'glass jars', 'storage jars', 'food storage turntable', 'food cover dome',
+'mesh food tent',
+// Coolers & carriers
+'cooler', 'cooler tote', 'picnic cooler', 'rolling cooler', 'ice chest', 'insulated food carrier', 'thermal casserole carrier', 'cake carrier', 'pie carrier', 'cupcake carrier',
+'picnic basket', 'picnic tableware set',
+// Spices
+'spice rack', 'wall mounted spice rack', 'countertop spice carousel', 'spice jars', 'spice containers', 'spice tins', 'salt shaker', 'pepper shaker', 'salt cellar', 'salt box',
+'pepper box', 'pepper grinder', 'pepper mill',
+// Oils & condiments
+'cooking oil', 'olive oil', 'vegetable oil', 'oil bottle', 'vinegar bottle', 'oil and vinegar cruet set', 'oil sprayer bottle', 'vinegar cruet', 'soy sauce', 'hot sauce',
+'ketchup', 'mustard', 'mayonnaise', 'salad dressing', 'salad dressing shaker', 'condiment caddy', 'condiment squeeze bottles', 'condiment rack', 'syrup dispenser', 'honey',
+'honey dispenser', 'jam', 'peanut butter',
+// Pantry staples & snacks
+'canned goods', 'can rack', 'dry pasta', 'rice bags', 'cereal boxes', 'airtight cereal containers', 'granola', 'oatmeal', 'snack chips', 'crackers',
+'cookies', 'cookie jar', 'nuts', 'dried fruit', 'canisters with lids', 'canister set', 'glass canister set', 'ceramic canister set', 'bulk food storage bucket', 'herb keeper',
+'onion storage bin', 'potato storage bin', 'garlic keeper', 'humidity absorber',
+// Pantry organization
+'pantry door rack', 'over door organizer', 'stackable pantry bins', 'clear storage bins', 'pantry label set', 'chalkboard labels', 'labels', 'label maker', 'rolling pantry cart',
+// Dinnerware
+'dinner plates', 'salad plates', 'bowls', 'cereal bowls', 'soup bowls', 'plate set', 'plate e set', 'china dinner set', 'stoneware dinner set', 'porcelain dinner set',
+'melamine plate set', 'serving platter', 'serving bowl', 'ceramic serving bowl', 'pasta serving bowl', 'salad bowl', 'glass salad bowl', 'wood salad bowl', 'gravy boat', 'gravy ladle',
+'serving caddy',
+// Flatware
+'flatware set', 'silverware set', 'gold flatware set', 'dinner forks', 'salad forks', 'seafood forks', 'dinner knives', 'butter knives', 'steak knives', 'teaspoons',
+'tablespoons', 'soup spoons', 'dessert spoons', 'flatware tray expandable', 'cutlery tray',
+// Glassware
+'drinking glasses', 'water goblets', 'wine glasses', 'champagne flutes', 'cocktail glasses', 'shot glasses', 'martini glasses', 'whiskey glasses', 'highball glasses', 'lowball glasses',
+'pint glasses', 'beer mugs', 'wine glass rack', 'decanter', 'wine decanter', 'carafe', 'mixing pitcher', 'mixing pitcher glass',
+// Table serving accessories
+'butter dish', 'butter crock', 'sugar bowl', 'cream pitcher', 'cake stand', 'tiered tray',
+// Bar
+'bar cart', 'bar serving cart', 'wine rack', 'wine bottle opener set', 'wine aerator', 'wine stopper set', 'champagne stopper', 'ice bucket', 'ice scoop', 'cocktail shaker',
+'cocktail strainer', 'jigger', 'bar spoon', 'mudler', 'drink mixing glass', 'beverage dispenser', 'drink dispenser stand', 'bar stools', 'bar stool cushions',
+// Party & entertaining
+'paper plates', 'plastic cups', 'plastic utensils', 'paper napkin pack', 'buffet warming trays', 'chafing dish set', 'cheese board', 'charcuterie board', 'serving slate board', 'party serving bowl set',
+'plastic serving trays', 'buffet serving utensils',
+// Dining table & seating
+'dining table', 'table leaf insert', 'table protector pad', 'tablecloth', 'table runner', 'placemats', 'placemat set', 'cloth napkins', 'napkin rings', 'cloth napkin rings',
+'napkin holder', 'table centerpiece', 'decorative tray', 'countertop tray', 'dining chairs', 'extra dining chairs', 'folding chairs', 'chair cushions', 'seat covers', 'chair floor protectors',
+'high chair', 'booster seat', 'china cabinet', 'buffet table', 'sideboard', 'kitchen storage cabinet',
+// Kitchen textiles & flooring
+'apron', 'kitchen rug', 'anti fatigue mat', 'floor mat', 'area rug', 'floor protector pads',
+// Counter display
+'fruit bowl', 'fruit storage basket', 'hanging fruit basket', 'banana hanger', 'banana tree stand', 'bread basket',
+// Wall & message center
+'wall clock', 'wall art', 'kitchen wall mirror', 'kitchen whiteboard', 'bulletin board', 'message board', 'magnetic grocery list pad', 'key holder', 'calendar',
+// Surface cleaning
+'all purpose cleaner', 'cleaning spray', 'glass cleaner', 'granite cleaner', 'granite sealer', 'wood cleaner', 'disinfecting wipes', 'appliance cleaning wipes', 'cleaning brush set', 'cleaning caddy',
+'cleaning supply rack',
+// Floor care
+'broom', 'dustpan', 'broom and dustpan set', 'push broom', 'floor sweeper', 'mop', 'floor mop', 'spray mop', 'mop bucket', 'steam mop',
+'steam cleaner', 'vacuum', 'handheld vacuum', 'cordless vacuum',
+// Trash & recycling
+'step trash can', 'touchless trash can', 'trash bags', 'trash bag box', 'garbage bags box', 'step trash liner refill', 'trash can deodorizer', 'trash compactor', 'recycling bin', 'recycling container',
+'recycling bin liner', 'recycling bags', 'recycling sorter bins', 'compost bin', 'compost pail', 'compostable bags',
+// Paper goods & air freshening
+'paper towel holder', 'under cabinet paper towel holder', 'counter paper towel holder', 'paper towel rolls', 'paper towel pack', 'air purifier small', 'kitchen air freshener', 'drawer freshener', 'cabinet freshener', 'odor absorber box',
+// Cabinet organization
+'lazy susan', 'lazy susan turntable', 'cabinet shelf riser', 'shelf risers', 'cabinet basket insert', 'under cabinet basket', 'pull out cabinet organizer', 'corner cabinet organizer', 'cabinet shelf dividers', 'cabinet door organizer',
+'cabinet organizer bins', 'under cabinet mug hooks', 'cabinet liners', 'cabinet bumpers', 'drawer slides',
+// Drawer & storage organization
+'drawer dividers', 'drawer liners', 'kitchen drawer bin set', 'plastic drawer bins', 'plastic bins', 'storage baskets', 'wire baskets', 'kitchen storage crates', 'rolling cart', 'rolling kitchen cart',
+'utility cart', 'grocery bag holder', 'reusable grocery bags', 'insulated grocery bags',
+// Child safety
+'cabinet locks', 'child safety latches', 'cabinet child lock', 'drawer child lock',
+// Cookbooks & recipes
+'cookbooks', 'cookbook stand', 'cookbook holder stand', 'cookbook shelf', 'recipe box', 'recipe storage box', 'recipe binder', 'tablet recipe stand', 'document organizer box', 'clip on book light',
+// Safety & emergency
+'smoke detector', 'smoke alarm', 'carbon monoxide detector', 'carbon monoxide alarm', 'fire extinguisher', 'fire blanket', 'first aid kit', 'emergency food supply kit', 'fire resistant safe', 'security camera',
+'backup batteries',
+// Ladders & tools
+'step ladder', 'step stool small', 'step stool folding', 'folding step ladder large', 'tool kit small', 'screwdriver set', 'hammer', 'adjustable wrench', 'allen wrench set', 'socket set',
+'picture hanging kit', 'measuring tape', 'level', 'propane torch',
+// Lighting & electronics
+'light bulbs', 'light bulb pack', 'kitchen flashlight', 'television', 'smart speaker', 'smart display', 'under cabinet radio', 'tablet stand', 'charging station', 'charging dock',
+'battery pack', 'extension cord', 'extension cord reel', 'power strip', 'surge protector', 'surge protector strip', 'cord organizer', 'appliance cord wrap',
+// Pets
+'pet bowls', 'pet food bin', 'pet food storage container',
 // TOTAL: 796 items
 ],
         'Living room': [// Sofas & Seating (50 items)

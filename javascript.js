@@ -7344,7 +7344,7 @@
 
         
         'clothespins': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothespins.jpg',
-        'clothing repair kit deluxe': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothing%20repair%20kit%20deluxe.jpg',},
+        'clothing repair kit deluxe': 'https://cdamemoryjogger.blob.core.windows.net/laundry/clothing%20repair%20kit%20delux.jpeg',},
         'Shed / Storage Unit': {
  //shed / storage unit
 

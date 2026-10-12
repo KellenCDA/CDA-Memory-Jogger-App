@@ -664,8 +664,8 @@
 'spray mop pads', 'stain remover spray', 'vacuum attachments', 'vacuum crevice tool', 'vacuum dusting brush', 'vacuum extension wand', 'vacuum storage bags', 'vacuum storage hook', 'vacuum upholstery tool', 'wood floor cleaner',
 'disposable wipes refill', 'funnel set',
 // Trash, Recycling & Paper Products (11 items)
-'paper towel refill pack', 'paper towel storage bin', 'recycling bin divider insert', 'recycling bin liner', 'recycling sorter bins', 'recycling sorting labels', 'trash bag bulk roll', 'trash can deodorizer discs', 'trash can step lid', 'trash compactor bags',
-'trash odor absorber',
+'recycling bin liner', 'recycling sorter bins', 'trash can step lid', 
+
 // Seasonal & Long-Term Storage (35 items)
 'photo album',
 // TOTAL: 1067 items        
@@ -771,7 +771,7 @@
 'water heater insulation blanket', 'water heater pressure relief valve', 'water heater recirculation pump', 'water heater shutoff valve', 'water heater stand', 'water heater thermostat', 'water heater vent pipe',
 // Sump Pump System (13 items)
 'sump pump alarm', 'sump pump alarm sensor', 'sump pump alarm siren', 'sump pump backflow preventer', 'sump pump backup pump unit', 'sump pump basin cover', 'sump pump battery backup', 'sump pump battery box', 'sump pump battery charger unit', 'sump pump check valve',
-'sump pump discharge clamp', 'sump pump discharge hose', 'sump pump float switch',
+
 // Water Softener & Filtration (11 items)
 'UV water purifier', 'filter housing bypass valve', 'water filter housing wrench spare', 'water filtration housing wrench', 'water filtration sediment prefilter', 'water softener brine tank lid', 'water softener bypass valve', 'water softener iron remover', 'water softener resin cleaner', 'water softener salt bags',
 'whole house filter housing',

@@ -1061,101 +1061,130 @@
 // TOTAL: 401 items
 ],
 
-        Garage: ['shop vacuum bags', 'shop vacuum hose', 'shop vacuum wand', 'puzzle storage box', 'mop bucket', 'humidifier filter', 'extension cord reel', 'photo storage box', 'all purpose cleaner', 'cleaning caddy',
-'dustpan', 'broom', 'picture hanging kit', 'measuring tape', 'hammer', 'screwdriver set', 'first aid kit', 'fire extinguisher', 'carbon monoxide detector', 'smoke detector',
-'space heater', 'dehumidifier', 'humidifier', 'coat rack', 'lantern', 'area rug', 'light bulbs', 'television', 'coffee table', 'loveseat',
-'sofa', 'light bulb storage case', 'trash can deodorizer', 'battery organizer case',
-// HVAC & Ductwork (10 items)
-'duct clamp set', 'duct tape', 'duct tape bulk roll', 'duct tape roll', 'duct tape storage bin', 'furnace filter', 'heavy duty duct tape', 'hvac duct sealant', 'hvac return vent', 'hvac vent covers',
-// Water Heater & Hot Water System (17 items)
-'anti scald valve', 'hot water expansion valve', 'mixing valve thermostatic', 'water heater T&P relief valve', 'water heater anode rod', 'water heater burner assembly', 'water heater control valve', 'water heater drain pan', 'water heater expansion tank', 'water heater heating element',
-'water heater insulation blanket', 'water heater pressure relief valve', 'water heater recirculation pump', 'water heater shutoff valve', 'water heater stand', 'water heater thermostat', 'water heater vent pipe',
-// Sump Pump System (13 items)
-'sump pump alarm', 'sump pump alarm sensor', 'sump pump alarm siren', 'sump pump backflow preventer', 'sump pump backup pump unit', 'sump pump basin cover', 'sump pump battery backup', 'sump pump battery box', 'sump pump battery charger unit', 'sump pump check valve',
-
-// Water Softener & Filtration (11 items)
-'UV water purifier', 'filter housing bypass valve', 'water filter housing wrench spare', 'water filtration housing wrench', 'water filtration sediment prefilter', 'water softener brine tank lid', 'water softener bypass valve', 'water softener iron remover', 'water softener resin cleaner', 'water softener salt bags',
-'whole house filter housing',
-// Plumbing (25 items)
-'backwater valve', 'basin wrench', 'dehumidifier drain hose', 'drain snake', 'ejector pump alarm', 'ejector pump check valve', 'floor drain backflow valve', 'floor drain cover', 'floor drain snake', 'garden hose',
-'hand auger', 'hose reel', 'pipe cutter', 'pipe freeze kit', 'pipe wrench', 'plumbing torch', 'sewage ejector pump', 'sink drain trap', 'sink faucet aerator', 'sink faucet handle set',
-'sink faucet spray head', 'sink supply lines', 'spray nozzle', 'toilet auger', 'utility hose',
-// Electrical (28 items)
-'AFCI breaker', 'GFCI breaker', 'breaker finder tool', 'ceiling junction box cover', 'circuit breaker lockout kit', 'electrical cord reel', 'electrical panel breaker labels', 'electrical panel cover', 'electrical panel directory labels', 'electrical panel surge protector',
-'electrical tape', 'electrical tape roll', 'generator inlet box', 'generator interlock kit', 'generator transfer switch', 'junction box', 'linesman pliers', 'multimeter', 'needle nose pliers', 'non contact voltage detector',
-'service disconnect switch', 'subpanel', 'surge protection device whole house', 'tandem breaker', 'transfer switch cover', 'voltage tester', 'wire cutters', 'wire strippers',
-// Generator (12 items)
-'generator', 'generator air filter', 'generator battery', 'generator battery tender', 'generator cover', 'generator extension cord', 'generator fuel can', 'generator fuel stabilizer', 'generator oil', 'generator oil filter',
-'generator spark plug', 'generator wheel kit',
-// Radon System (3 items)
-'radon system fan cover', 'radon system gauge', 'radon test kit',
-// Lighting & Electrical Accessories (25 items)
-'CO alarm plug in', 'LED shop lights', 'backup battery charger', 'backup battery pack', 'backup power inverter', 'battery backup UPS', 'carbon monoxide alarm backup battery', 'ceiling light pull chain', 'extension cord floor protector', 'extension cords',
-'headlamp', 'light fixture mounting bracket', 'portable work light', 'power strip surge guard', 'power strip surge outlet', 'power strip with USB', 'power strips', 'shop light motion sensor', 'shop light pull chain switch', 'smoke detector backup battery',
-'solar charger', 'work light tripod', 'workbench power strip',
-// Safety & Environmental Monitoring (17 items)
-'air quality monitor', 'carbon monoxide alarm battery pack', 'carbon monoxide detector spare unit', 'digital hygrometer', 'emergency siren', 'emergency strobe light', 'fire blanket', 'fire extinguisher cabinet', 'fire extinguisher inspection tag', 'freeze alarm sensor',
-'humidity gauge', 'smoke alarm interconnect module', 'smoke detector spare unit', 'temperature alarm sensor', 'water leak alarm sensor', 'water leak detector',
-// Shelving & Storage Cabinets (14 items)
-'basement shelving expansion kit', 'cabinet key set', 'locking cabinet key spare', 'locking storage cabinet', 'metal shelf liners', 'metal storage shelves', 'plastic shelf storage bins', 'plastic storage shelves', 'storage cabinet casters', 'storage cabinet lock set',
-'storage cabinet magnetic latch', 'storage cabinet shelf risers', 'storage cabinets', 'wire shelving',
-// Workbench & Workshop Setup (18 items)
-'anti fatigue mat', 'bench grinder', 'creeper mechanic', 'hydraulic jack', 'jack stands', 'shop press', 'vise mounting bolts', 'vise swivel base', 'workbench', 'workbench butcher block top',
-'workbench drawer liner', 'workbench drawer organizer', 'workbench drawer slides', 'workbench light bar', 'workbench overhead light', 'workbench power outlet strip', 'workbench stool', 'workbench vise',
-// Pegboard & Tool Organization (30 items)
-'hardware organizer cabinet', 'magnetic parts tray', 'magnetic pickup tool', 'magnetic tool strip', 'nail storage compartment box', 'parts organizer drawers', 'pegboard bin holders', 'pegboard drill holder', 'pegboard hooks', 'pegboard magnetic strip',
-'pegboard pliers holder', 'pegboard screwdriver holder', 'pegboard shelf attachments', 'pegboard shelf brackets', 'pegboard storage bins', 'pegboard tool holders', 'pegboard wrench holders', 'pegboard wrench rack', 'rolling tool cart', 'rolling tool cart drawer liner',
-'rolling tool cart shelf mat', 'screw storage drawer unit', 'screwdriver bit organizer', 'small parts bins', 'tool chest', 'tool chest drawer liners', 'tool chest drawer organizer', 'tool chest drawer slides', 'tool organizer cabinet', 'tool storage cabinet',
-// Hand Tools & Power Tools (34 items)
-'C clamps', 'bar clamps', 'box cutter', 'circular saw', 'cordless drill battery', 'drill', 'drill case', 'drill charger', 'heat gun', 'impact driver',
-'impact sockets', 'jigsaw', 'ladder', 'ladder leveler', 'level', 'miter saw', 'nail gun', 'nails assortment', 'pliers', 'ratchet set',
-'router tool', 'sander orbital', 'sandpaper pack', 'sawzall reciprocating saw', 'screws assortment', 'shop clamps', 'socket set', 'spring clamps', 'staple gun', 'step ladder',
-'table saw', 'tool kit', 'torque wrench', 'wrench set',
-// Paint, Drywall & Finishing (19 items)
-'basement waterproofing paint', 'concrete patch', 'concrete sealer', 'corner bead', 'crack repair epoxy', 'drop cloths', 'drywall compound', 'drywall patch kit', 'hydraulic cement', 'joint knife set',
-'mud pan', 'paint brushes', 'paint can storage rack', 'paint cans', 'paint rollers', 'spackle knife', 'spackle repair kit', 'spackle sanding block', 'spackle sanding sponge',
-// Storage Bins & Boxes (29 items)
-'bankers boxes', 'bubble wrap roll', 'bungee cords', 'clear storage bins', 'document file crate', 'document safe pouch', 'document storage tote', 'file storage boxes', 'file storage waterproof tote', 'food grade buckets',
-'food storage bin airtight', 'hanging file box', 'labeled storage bins', 'moving boxes', 'packing tape dispenser', 'plastic storage bins', 'ratchet straps', 'storage trunk', 'storage trunk lock', 'tie down straps',
-'vacuum storage bags', 'water storage containers', 'water storage jug rack', 'waterproof storage container', 'weatherproof storage tote', 'art supply bin', 'board game storage box', 'craft storage box', 'toy storage bins',
-// Photo, Document & Archive Storage (11 items)
-'file folder organizer tray', 'file organizer expanding', 'filing cabinet', 'filing folders', 'memory card storage case', 'memory keepsake bin', 'memory keepsake chest', 'memory keepsake organizer', 'ornament storage box', 'photo storage album',
-'photo storage archival box',
-// Spare Furniture & Overflow (16 items)
-'book collection', 'bookshelves', 'card table', 'computer desk', 'desk', 'desk lamp', 'magazine storage', 'magazine storage bin', 'office chair', 'old textbooks',
-'recliner', 'side tables', 'spare couch', 'spare dining chairs', 'folding chairs', 'folding tables',
-// Seasonal & Holiday Storage (12 items)
-'artificial tree storage bag', 'gift bags', 'gift boxes', 'gift wrap storage container', 'holiday inflatables', 'holiday lights storage reel', 'holiday storage bins', 'seasonal decor bin', 'tree stand', 'wrapping paper rolls',
-'wreath storage bag', 'yard decor storage bin',
-// Camping & Outdoor Gear (19 items)a
-'air mattress', 'air pump', 'ball pump', 'camp cot', 'camp stove carry case', 'camping chairs', 'camping lantern LED', 'camping stove', 'cooler cover', 'cooler wheel kit',
-'coolers', 'grill cover', 'picnic basket', 'picnic blanket', 'portable grill', 'propane tank', 'sleeping bags', 'sleeping pad', 'tent',
-// Sports & Recreation Equipment (8 items)
-'bike rack', 'helmet rack', 'kayak rack', 'ski rack', 'snowboard rack', 'sports bag', 'sports equipment bin', 'sports gear drying rack',
-// Fitness Equipment (30 items)
-'ab roller', 'balance board', 'barbell rack', 'barbell set', 'boxing gloves', 'dumbbell rack', 'dumbbells', 'elliptical machine', 'exercise ball', 'exercise bike',
-'fitness mat rack', 'foam roller', 'jump rope', 'kettlebell rack', 'lifting straps', 'medicine ball', 'power rack', 'pull up bar', 'punching bag', 'punching bag stand',
-'resistance bands', 'rowing machine', 'slam ball', 'speed bag', 'treadmill', 'weight belt', 'weight bench', 'weight lifting gloves', 'weight plates', 'yoga mats',
-// Game Room & Entertainment (13 items)
-'arcade machine', 'dart board', 'movie collection', 'movie storage cabinet', 'ping pong table', 'pool balls set', 'pool cue case', 'pool cues', 'pool table', 'projector',
-'projector bulb spare', 'projector screen', 'sound system',
-// Cleaning & Janitorial (17 items)
-'bleach', 'disinfecting wipes', 'dust mop', 'fan filter', 'mop', 'shop vacuum', 'shop vacuum bags', 'shop vacuum brush tool', 'shop vacuum crevice tool', 'shop vacuum filter',
-'shop vacuum floor nozzle', 'shop vacuum hose', 'shop vacuum wand', 'vacuum sealer machine', 'ventilation fan', 'wet dry vacuum squeegee',
-// Trash & Recycling (4 items)
-'compost bin', 'compost bin liners', 'recycling bin wheels', 'trash can heavy duty',
-// Laundry & Garment Care (5 items)
-'fabric softener', 'iron', 'ironing board', 'laundry detergent', 'sewing machine',
-// Ventilation & Climate Control (4 items)
-'air mover fan', 'box fan', 'floor fan', 'portable heater',
-// Moving & Transport (7 items)
-'furniture dolly', 'hand truck', 'hand truck stair climbers', 'moving blankets', 'moving dolly', 'plastic tote dolly', 'rolling cart',
-// Emergency Preparedness (27 items)
-'batteries', 'battery bulk pack', 'battery lantern', 'battery storage case', 'crank radio', 'emergency blankets', 'emergency flashlight', 'emergency kit', 'emergency preparedness kit', 'emergency radio',
-'fire safe box', 'first aid refill kit large', 'first aid refill pack', 'first aid trauma kit', 'flashlight charger', 'flashlight rechargeable', 'flashlights', 'food storage bucket', 'food storage rotation rack', 'jump starter pack',
-'lantern battery pack', 'lantern rechargeable', 'portable inverter', 'portable water filter', 'safe', 'safety glasses', 'water jug storage rack',
-// Personal Protective Equipment (7 items)
-'hearing protection earmuffs', 'knee pads', 'respirator mask', 'utility sink cabinet', 'utility sink splash guard', 'utility sink storage shelf', 'work gloves',
+        Garage: [
+// Workbench
+'workbench', 'workbench stool', 'workbench vise', 'vise mounting bolts', 'vise swivel base', 'workbench butcher block top', 'workbench drawer liner', 'workbench drawer organizer', 'workbench drawer slides', 'workbench light bar',
+'workbench overhead light', 'workbench power outlet strip', 'workbench power strip', 'anti fatigue mat',
+// Mechanic & heavy tools
+'jack stands', 'hydraulic jack', 'creeper mechanic', 'shop press', 'bench grinder',
+// Pegboard
+'pegboard tool holders', 'pegboard hooks', 'pegboard bin holders', 'pegboard storage bins', 'pegboard shelf attachments', 'pegboard shelf brackets', 'pegboard magnetic strip', 'pegboard pliers holder', 'pegboard screwdriver holder', 'pegboard drill holder',
+'pegboard wrench holders', 'pegboard wrench rack',
+// Tool storage
+'tool chest', 'tool chest drawer liners', 'tool chest drawer organizer', 'tool chest drawer slides', 'tool storage cabinet', 'tool organizer cabinet', 'rolling tool cart', 'rolling tool cart drawer liner', 'rolling tool cart shelf mat', 'hardware organizer cabinet',
+'parts organizer drawers', 'screw storage drawer unit', 'small parts bins', 'nail storage compartment box', 'screwdriver bit organizer', 'magnetic parts tray', 'magnetic tool strip', 'magnetic pickup tool',
+// Hand tools
+'tool kit', 'hammer', 'screwdriver set', 'wrench set', 'socket set', 'ratchet set', 'impact sockets', 'torque wrench', 'pliers', 'measuring tape',
+'level', 'box cutter', 'C clamps', 'bar clamps', 'spring clamps', 'shop clamps', 'staple gun',
+// Power tools
+'drill', 'drill case', 'drill charger', 'cordless drill battery', 'impact driver', 'circular saw', 'jigsaw', 'sawzall reciprocating saw', 'miter saw', 'table saw',
+'router tool', 'sander orbital', 'heat gun', 'nail gun',
+// Fasteners & tape
+'nails assortment', 'screws assortment', 'sandpaper pack', 'duct tape', 'duct tape roll', 'duct tape bulk roll', 'heavy duty duct tape', 'duct tape storage bin',
+// Ladders
+'ladder', 'step ladder', 'ladder leveler',
+// Painting
+'paint cans', 'paint can storage rack', 'paint brushes', 'paint rollers', 'drop cloths', 'picture hanging kit',
+// Wall repair
+'drywall compound', 'drywall patch kit', 'joint knife set', 'mud pan', 'corner bead', 'spackle knife', 'spackle repair kit', 'spackle sanding block', 'spackle sanding sponge',
+// Concrete & waterproofing
+'concrete patch', 'concrete sealer', 'hydraulic cement', 'crack repair epoxy', 'basement waterproofing paint',
+// Shelving & cabinets
+'metal storage shelves', 'plastic storage shelves', 'wire shelving', 'basement shelving expansion kit', 'metal shelf liners', 'plastic shelf storage bins', 'storage cabinets', 'storage cabinet casters', 'storage cabinet lock set', 'storage cabinet magnetic latch',
+'storage cabinet shelf risers', 'locking storage cabinet', 'locking cabinet key spare', 'cabinet key set',
+// Storage bins
+'clear storage bins', 'plastic storage bins', 'labeled storage bins', 'weatherproof storage tote', 'waterproof storage container', 'art supply bin', 'board game storage box', 'craft storage box', 'toy storage bins', 'puzzle storage box',
+'storage trunk', 'storage trunk lock', 'vacuum storage bags', 'vacuum sealer machine', 'light bulb storage case',
+// Moving & hauling
+'moving boxes', 'packing tape dispenser', 'bubble wrap roll', 'moving blankets', 'furniture dolly', 'moving dolly', 'hand truck', 'hand truck stair climbers', 'plastic tote dolly', 'rolling cart',
+'bungee cords', 'ratchet straps', 'tie down straps',
+// Food & water storage
+'food storage bin airtight', 'food storage rotation rack', 'food grade buckets', 'food storage bucket', 'water storage containers', 'water storage jug rack', 'water jug storage rack', 'portable water filter',
+// Documents & records
+'filing cabinet', 'filing folders', 'file folder organizer tray', 'file organizer expanding', 'file storage boxes', 'file storage waterproof tote', 'hanging file box', 'document file crate', 'document storage tote', 'document safe pouch',
+'bankers boxes', 'safe', 'fire safe box',
+// Keepsakes & photos
+'photo storage box', 'photo storage album', 'photo storage archival box', 'memory keepsake bin', 'memory keepsake chest', 'memory keepsake organizer', 'memory card storage case', 'ornament storage box',
+// Water heater
+'water heater stand', 'water heater drain pan', 'water heater insulation blanket', 'water heater thermostat', 'water heater heating element', 'water heater burner assembly', 'water heater anode rod', 'water heater vent pipe', 'water heater control valve', 'water heater shutoff valve',
+'water heater pressure relief valve', 'water heater T&P relief valve', 'water heater expansion tank', 'water heater recirculation pump', 'hot water expansion valve', 'anti scald valve', 'mixing valve thermostatic',
+// HVAC & air movement
+'furnace filter', 'hvac return vent', 'hvac vent covers', 'hvac duct sealant', 'duct clamp set', 'dehumidifier', 'dehumidifier drain hose', 'humidifier', 'humidifier filter', 'space heater',
+'portable heater', 'fan filter', 'ventilation fan', 'air mover fan', 'box fan', 'floor fan',
+// Sump pump
+'sump pump alarm', 'sump pump alarm sensor', 'sump pump alarm siren', 'sump pump basin cover', 'sump pump backup pump unit', 'sump pump battery backup', 'sump pump battery box', 'sump pump battery charger unit', 'sump pump check valve', 'sump pump backflow preventer',
+'sewage ejector pump', 'ejector pump alarm', 'ejector pump check valve', 'backwater valve',
+// Floor drains
+'floor drain cover', 'floor drain backflow valve', 'floor drain snake',
+// Water treatment
+'whole house filter housing', 'filter housing bypass valve', 'water filter housing wrench spare', 'water filtration housing wrench', 'water filtration sediment prefilter', 'UV water purifier', 'water softener salt bags', 'water softener brine tank lid', 'water softener bypass valve', 'water softener iron remover',
+'water softener resin cleaner',
+// Plumbing tools & parts
+'pipe wrench', 'pipe cutter', 'pipe freeze kit', 'plumbing torch', 'basin wrench', 'sink drain trap', 'sink faucet aerator', 'sink faucet handle set', 'sink faucet spray head', 'sink supply lines',
+'drain snake', 'hand auger', 'toilet auger',
+// Utility sink & hoses
+'utility sink cabinet', 'utility sink splash guard', 'utility sink storage shelf', 'utility hose', 'garden hose', 'hose reel', 'spray nozzle',
+// Electrical panel
+'electrical panel cover', 'electrical panel breaker labels', 'electrical panel directory labels', 'electrical panel surge protector', 'surge protection device whole house', 'AFCI breaker', 'GFCI breaker', 'tandem breaker', 'breaker finder tool', 'circuit breaker lockout kit',
+'subpanel', 'service disconnect switch',
+// Electrical tools
+'multimeter', 'non contact voltage detector', 'voltage tester', 'wire strippers', 'wire cutters', 'linesman pliers', 'needle nose pliers', 'electrical tape', 'electrical tape roll', 'junction box',
+'ceiling junction box cover', 'electrical cord reel', 'extension cord reel',
+// Generator
+'generator', 'generator cover', 'generator wheel kit', 'generator fuel can', 'generator fuel stabilizer', 'generator oil', 'generator oil filter', 'generator air filter', 'generator spark plug', 'generator battery',
+'generator battery tender', 'generator extension cord', 'generator inlet box', 'generator interlock kit', 'generator transfer switch', 'transfer switch cover',
+// Smoke & CO alarms
+'smoke detector', 'smoke detector backup battery', 'smoke detector spare unit', 'smoke alarm interconnect module', 'carbon monoxide detector', 'carbon monoxide detector spare unit', 'carbon monoxide alarm battery pack', 'carbon monoxide alarm backup battery', 'CO alarm plug in',
+// Radon
+'radon test kit', 'radon system gauge', 'radon system fan cover',
+// Fire safety
+'fire extinguisher', 'fire extinguisher cabinet', 'fire extinguisher inspection tag', 'fire blanket', 'emergency strobe light', 'emergency siren',
+// Leak & climate monitoring
+'water leak detector', 'water leak alarm sensor', 'freeze alarm sensor', 'temperature alarm sensor', 'digital hygrometer', 'humidity gauge', 'air quality monitor',
+// Garage lighting
+'LED shop lights', 'shop light motion sensor', 'shop light pull chain switch', 'ceiling light pull chain', 'light fixture mounting bracket', 'portable work light', 'work light tripod', 'light bulbs',
+// Batteries & backup power
+'batteries', 'battery bulk pack', 'battery organizer case', 'battery storage case', 'backup battery charger', 'backup battery pack', 'backup power inverter', 'battery backup UPS', 'portable inverter', 'solar charger',
+'jump starter pack',
+// Flashlights & lanterns
+'flashlights', 'flashlight rechargeable', 'flashlight charger', 'headlamp', 'lantern', 'battery lantern', 'lantern battery pack', 'lantern rechargeable',
+// Power cords & strips
+'extension cords', 'extension cord floor protector', 'power strips', 'power strip surge guard', 'power strip surge outlet', 'power strip with USB',
+// Spare living furniture
+'sofa', 'loveseat', 'spare couch', 'recliner', 'coffee table', 'side tables', 'television', 'area rug', 'coat rack',
+// Extra tables & chairs
+'folding tables', 'folding chairs', 'card table', 'spare dining chairs',
+// Home office
+'desk', 'computer desk', 'desk lamp', 'office chair', 'bookshelves', 'book collection', 'old textbooks', 'magazine storage', 'magazine storage bin',
+// Holiday storage
+'holiday storage bins', 'seasonal decor bin', 'artificial tree storage bag', 'tree stand', 'wreath storage bag', 'holiday lights storage reel', 'holiday inflatables', 'yard decor storage bin',
+// Gift wrap
+'gift wrap storage container', 'wrapping paper rolls', 'gift boxes', 'gift bags',
+// Camping
+'tent', 'sleeping bags', 'sleeping pad', 'camp cot', 'air mattress', 'air pump', 'camping chairs', 'camping lantern LED', 'camping stove', 'camp stove carry case',
+'coolers', 'cooler cover', 'cooler wheel kit', 'picnic basket', 'picnic blanket', 'portable grill', 'propane tank', 'grill cover',
+// Sports gear
+'sports equipment bin', 'sports bag', 'sports gear drying rack', 'ball pump', 'helmet rack', 'bike rack', 'kayak rack', 'ski rack', 'snowboard rack',
+// Home gym
+'treadmill', 'exercise bike', 'elliptical machine', 'rowing machine', 'weight bench', 'power rack', 'barbell set', 'barbell rack', 'weight plates', 'dumbbells',
+'dumbbell rack', 'kettlebell rack', 'weight belt', 'weight lifting gloves', 'lifting straps', 'pull up bar', 'ab roller', 'balance board', 'exercise ball', 'medicine ball',
+'slam ball', 'foam roller', 'resistance bands', 'jump rope', 'yoga mats', 'fitness mat rack', 'boxing gloves', 'punching bag', 'punching bag stand', 'speed bag',
+// Game room
+'pool table', 'pool cues', 'pool cue case', 'pool balls set', 'ping pong table', 'dart board', 'arcade machine', 'projector', 'projector bulb spare', 'projector screen',
+'sound system', 'movie collection', 'movie storage cabinet',
+// Shop vacuum
+'shop vacuum', 'shop vacuum filter', 'shop vacuum bags', 'shop vacuum hose', 'shop vacuum wand', 'shop vacuum brush tool', 'shop vacuum crevice tool', 'shop vacuum floor nozzle', 'wet dry vacuum squeegee',
+// Cleaning supplies
+'all purpose cleaner', 'cleaning caddy', 'bleach', 'disinfecting wipes', 'broom', 'dustpan', 'mop', 'mop bucket', 'dust mop', 'shop vacuum bags',
+'shop vacuum hose', 'shop vacuum wand',
+// Trash & compost
+'trash can heavy duty', 'trash can deodorizer', 'recycling bin wheels', 'compost bin', 'compost bin liners',
+// Laundry & sewing
+'laundry detergent', 'fabric softener', 'iron', 'ironing board', 'sewing machine',
+// Emergency preparedness
+'emergency kit', 'emergency preparedness kit', 'emergency radio', 'crank radio', 'emergency flashlight', 'emergency blankets', 'first aid kit', 'first aid refill kit large', 'first aid refill pack', 'first aid trauma kit',
+// Safety gear
+'safety glasses', 'respirator mask', 'hearing protection earmuffs', 'work gloves', 'knee pads',
 // TOTAL: 485 items
 ],
 

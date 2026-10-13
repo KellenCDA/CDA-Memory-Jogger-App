@@ -1391,55 +1391,89 @@
 // TOTAL: 525 items
 ],
 
-        Yard: [// Garden & Planters (25 items)
-'raised garden bed', 'garden arbor', 'garden arch trellis', 'yard trellis metal', 'watering can plastic', 'watering can metal', 'plant pots ceramic', 'plant pots plastic', 'planter box wood', 'hanging planter basket',
-'window planter box', 'plant stand outdoor', 'potting bench', 'garden fountain', 'bird bath pedestal', 'garden statue', 'tree stump remover chemical', 'tree wrap protective', 'plant frost cover', 'plant cage tomato',
-'trellis netting', 'garden cloche cover', 'raised bed liner', 'garden gnome statue', 'yard fountain tiered',
-// Irrigation & Watering (29 items)
-'sprinkler timer', 'garden hose heavy duty', 'soaker hose', 'hose reel freestanding', 'spray nozzle adjustable', 'sprinkler oscillating', 'sprinkler impact', 'watering wand', 'rain gauge yard', 'rain barrel system',
-'smart sprinkler controller', 'sprinkler riser extension', 'sprinkler valve box cover', 'irrigation drip emitters', 'irrigation tubing roll', 'irrigation pressure regulator', 'irrigation filter inline', 'hose timer digital', 'hose splitter brass', 'hose quick connect fittings',
-'rain barrel diverter kit', 'downspout extension flexible', 'gutter splash block', 'gutter guard mesh', 'outdoor faucet cover winter', 'garden hose repair kit', 'spray bottle pump garden', 'watering spike automatic', 'sprinkler rain sensor',
-// Patio & Outdoor Furniture (28 items)
-'porch swing', 'shade sail canopy', 'awning retractable', 'outdoor canopy tent', 'sun shade umbrella', 'umbrella base heavy', 'outdoor rug patio', 'doormat exterior', 'welcome mat decorative', 'outdoor bench',
-'outdoor dining table', 'outdoor dining chairs', 'outdoor sectional sofa', 'patio coffee table', 'patio side table', 'chaise lounge chair', 'hammock stand', 'deck storage bench', 'deck privacy screen', 'outdoor curtain panels',
-'gazebo mosquito netting', 'pergola shade cover', 'shade sail hardware kit', 'patio heater propane', 'patio heater cover', 'porch rocking chair', 'porch side table', 'car port canopy',
-// Grilling & Outdoor Cooking (30 items)
-'fire pit metal', 'fire pit cover', 'propane fire table', 'charcoal grill', 'gas grill', 'grill cover', 'smoker grill', 'outdoor pizza oven', 'grill tool set', 'propane tank outdoor',
-'cooler outdoor', 'outdoor bar cart', 'outdoor serving tray', 'propane tank cover', 'fire pit spark screen', 'fire pit grate insert', 'fire pit poker tool', 'fire pit lava rocks', 'chiminea outdoor', 'grill burner tubes',
-'grill ignition kit', 'grill thermometer lid', 'smoker wood chips box', 'bar stool outdoor', 'cooler rolling outdoor', 'ice chest heavy duty', 'picnic basket wicker', 'serving cart patio', 'outdoor buffet table', 'propane tank storage cage',
-// Lawn & Garden Equipment (49 items)
-'lawn mower push', 'lawn mower riding', 'mower bag attachment', 'mower cover', 'weed trimmer electric', 'weed trimmer gas', 'leaf blower electric', 'leaf blower gas', 'hedge trimmer electric', 'hedge trimmer gas',
-'chainsaw electric', 'chainsaw gas', 'pole saw', 'garden rake leaf', 'landscape rake wide', 'shovel round point', 'shovel square point', 'spade garden', 'post hole digger manual', 'garden hoe',
-'wheelbarrow single wheel', 'garden cart dump', 'fertilizer spreader broadcast', 'fertilizer spreader drop', 'seed spreader handheld', 'garden trowel hand', 'hand cultivator', 'pruning shears bypass', 'loppers long handle', 'tree pruner pole',
-'driveway pressure washer', 'snow shovel heavy duty', 'snow blower electric', 'ice melt spreader', 'roof snow rake', 'lawn aerator manual', 'lawn aerator core', 'lawn dethatcher rake', 'lawn roller', 'grass seed spreader',
-'weed puller tool', 'garden edging shovel', 'cultivator gas', 'rototiller electric', 'leaf vacuum mulcher', 'hedge shear manual', 'branch lopper ratchet', 'wood chipper electric', 'log splitter electric',
-// Pool, Spa & Pond (27 items)
+        Yard: [
+// Garden beds & supports
+'raised garden bed', 'raised bed liner', 'garden arbor', 'garden arch trellis', 'yard trellis metal', 'trellis netting', 'plant cage tomato', 'garden cloche cover', 'plant frost cover', 'tree wrap protective',
+'potting bench',
+// Pots & planters
+'plant pots ceramic', 'plant pots plastic', 'planter box wood', 'hanging planter basket', 'window planter box', 'plant stand outdoor',
+// Fountains & garden decor
+'garden fountain', 'yard fountain tiered', 'bird bath pedestal', 'garden statue', 'garden gnome statue', 'yard art metal', 'metal wind spinner', 'wind chime decorative', 'weather vane decorative',
+// Bird feeding
+'bird feeder hanging', 'bird feeder pole', 'bird seed storage bin', 'squirrel guard baffle', 'bee hotel garden',
+// Hoses & watering
+'garden hose heavy duty', 'hose reel freestanding', 'spray nozzle adjustable', 'soaker hose', 'watering wand', 'watering can plastic', 'watering can metal', 'watering spike automatic', 'hose splitter brass', 'hose quick connect fittings',
+'garden hose repair kit', 'hose timer digital', 'sprinkler timer', 'spray bottle pump garden',
+// Sprinklers & irrigation
+'sprinkler oscillating', 'sprinkler impact', 'smart sprinkler controller', 'sprinkler riser extension', 'sprinkler valve box cover', 'sprinkler rain sensor', 'irrigation drip emitters', 'irrigation tubing roll', 'irrigation pressure regulator', 'irrigation filter inline',
+// Rain & drainage
+'rain barrel system', 'rain barrel diverter kit', 'rain gauge yard', 'downspout extension flexible', 'gutter splash block', 'gutter guard mesh', 'outdoor faucet cover winter', 'drainage pump portable', 'backyard flood barrier',
+// Porch
+'porch swing', 'porch rocking chair', 'porch side table', 'doormat exterior', 'welcome mat decorative',
+// Shade & screening
+'shade sail canopy', 'shade sail hardware kit', 'awning retractable', 'outdoor canopy tent', 'tent canopy weights', 'sun shade umbrella', 'umbrella base heavy', 'pergola shade cover', 'gazebo mosquito netting', 'car port canopy',
+'deck privacy screen', 'outdoor curtain panels',
+// Patio furniture
+'outdoor dining table', 'outdoor dining chairs', 'outdoor sectional sofa', 'patio coffee table', 'patio side table', 'chaise lounge chair', 'hammock stand', 'outdoor bench', 'deck storage bench', 'bar stool outdoor',
+'outdoor rug patio',
+// Fire pits & patio heaters
+'fire pit metal', 'fire pit cover', 'fire pit spark screen', 'fire pit grate insert', 'fire pit poker tool', 'fire pit lava rocks', 'propane fire table', 'chiminea outdoor', 'patio heater propane', 'patio heater cover',
+// Grilling
+'gas grill', 'charcoal grill', 'smoker grill', 'outdoor pizza oven', 'grill cover', 'grill tool set', 'grill burner tubes', 'grill ignition kit', 'grill thermometer lid', 'smoker wood chips box',
+'propane tank outdoor', 'propane tank cover', 'propane tank storage cage',
+// Outdoor entertaining
+'picnic table wood', 'picnic table umbrella', 'picnic basket wicker', 'outdoor bar cart', 'outdoor serving tray', 'serving cart patio', 'outdoor buffet table', 'cooler outdoor', 'cooler rolling outdoor', 'ice chest heavy duty',
+// Mowing
+'lawn mower push', 'lawn mower riding', 'mower bag attachment', 'mower cover',
+// Trimming & blowing
+'weed trimmer electric', 'weed trimmer gas', 'leaf blower electric', 'leaf blower gas', 'leaf vacuum mulcher', 'hedge trimmer electric', 'hedge trimmer gas', 'hedge shear manual',
+// Pruning & chainsaws
+'pruning shears bypass', 'loppers long handle', 'branch lopper ratchet', 'tree pruner pole', 'pole saw', 'chainsaw electric', 'chainsaw gas', 'wood chipper electric', 'log splitter electric', 'tree stump remover chemical',
+// Digging & raking tools
+'shovel round point', 'shovel square point', 'spade garden', 'garden edging shovel', 'post hole digger manual', 'garden hoe', 'garden trowel hand', 'hand cultivator', 'weed puller tool', 'garden rake leaf',
+'landscape rake wide', 'wheelbarrow single wheel', 'garden cart dump',
+// Lawn care
+'fertilizer spreader broadcast', 'fertilizer spreader drop', 'seed spreader handheld', 'grass seed spreader', 'lawn aerator manual', 'lawn aerator core', 'lawn dethatcher rake', 'lawn roller', 'cultivator gas', 'rototiller electric',
+// Snow & ice
+'snow shovel heavy duty', 'snow blower electric', 'ice melt spreader', 'roof snow rake',
+// Landscape materials
+'topsoil bags', 'mulch bags', 'pine straw bales', 'decorative river rock', 'landscape timbers',
+// Pool
 'pool ladder', 'pool cover', 'pool pump', 'pool filter system', 'pool skimmer net',
-// Recreation & Play (37 items)
-'playground swing set', 'slide freestanding', 'trampoline yard', 'trampoline safety net', 'basketball hoop portable', 'basketball hoop in ground', 'soccer goal yard', 'baseball practice net', 'golf practice net', 'batting tee',
-'sand box children', 'climbing dome', 'zip line kit yard', 'tire swing tree', 'picnic table wood', 'picnic table umbrella', 'outdoor chalkboard', 'yard game cornhole', 'yard game ladder toss', 'swing set anchor kit',
-'trampoline ladder', 'trampoline cover', 'playhouse outdoor', 'sandbox cover', 'tree swing rope kit', 'yard obstacle course kit', 'croquet set lawn', 'bocce ball set', 'horseshoe game set', 'giant checkers set',
-'giant connect four', 'disc golf basket', 'kick dart board yard', 'badminton net set', 'volleyball net yard', 'outdoor projector screen', 'projector outdoor rated',
-// Outdoor Lighting & Power (20 items)
-'landscape lighting solar', 'path lights solar', 'spotlight ground', 'string lights outdoor', 'post cap lights', 'deck lights', 'flood light motion', 'timer outdoor outlet', 'extension cord outdoor rated', 'flag pole solar light',
-'landscape spotlight LED', 'uplight tree', 'pathway light low voltage', 'deck post light solar', 'string lights cafe style', 'outdoor light pole', 'flood light LED', 'motion floodlight solar', 'smart outdoor plug',
-// Security & Surveillance (12 items)
-'mailbox locking', 'security camera outdoor wired', 'security camera outdoor wireless', 'alarm siren outdoor', 'doorbell camera exterior', 'motion detector outdoor', 'parcel drop box', 'security camera floodlight combo', 'video doorbell outdoor', 'gate keypad entry',
-'driveway alarm sensor', 'yard siren strobe',
-// Yard Decor & Wildlife (16 items)
-'yard address sign', 'flag pole yard', 'weather station yard', 'wind chime decorative', 'yard art metal', 'yard sign holder', 'address numbers metal', 'decorative yard flag', 'bird feeder hanging', 'bird feeder pole',
-'bird seed storage bin', 'squirrel guard baffle', 'bee hotel garden', 'weather vane decorative', 'metal wind spinner',
-// Outdoor Storage & Waste (17 items)
-'compost bin yard', 'trash can outdoor', 'recycling bin outdoor', 'compost tumbler', 'outdoor storage deck box', 'storage shed small', 'tool shed large', 'wood pile rack', 'firewood cover tarp', 'outdoor trash enclosure',
-'trash can shed', 'recycling container large', 'compost aerator tool', 'compost bin tumbler dual', 'firewood rack outdoor', 'generator outdoor cover', 'weatherproof storage chest large',
-// Landscaping Materials & Maintenance (17 items)
-'topsoil bags', 'mulch bags', 'pine straw bales', 'decorative river rock', 'landscape timbers', 'deck stain', 'deck sealer waterproof', 'deck cleaner solution', 'driveway sealant bucket', 'asphalt patch repair',
-'concrete crack filler tube', 'driveway marker reflectors', 'mailbox post anchor', 'fence post caps', 'fence pickets spare', 'fence repair kit', 'compost thermometer',
-// Drainage, Storm & Misc (6 items)
-'drainage pump portable', 'backyard flood barrier', 'yard tarp heavy duty', 'ground anchor kit', 'tent canopy weights', 'portable stage platform',
+// Play structures
+'playground swing set', 'swing set anchor kit', 'slide freestanding', 'tire swing tree', 'tree swing rope kit', 'climbing dome', 'zip line kit yard', 'sand box children', 'sandbox cover', 'playhouse outdoor',
+'yard obstacle course kit',
+// Trampoline
+'trampoline yard', 'trampoline safety net', 'trampoline ladder', 'trampoline cover',
+// Sports practice
+'basketball hoop portable', 'basketball hoop in ground', 'soccer goal yard', 'baseball practice net', 'batting tee', 'golf practice net', 'disc golf basket', 'kick dart board yard', 'badminton net set', 'volleyball net yard',
+// Lawn games
+'yard game cornhole', 'yard game ladder toss', 'croquet set lawn', 'bocce ball set', 'horseshoe game set', 'giant checkers set', 'giant connect four', 'outdoor chalkboard',
+// Outdoor movies
+'outdoor projector screen', 'projector outdoor rated',
+// Landscape & path lighting
+'landscape lighting solar', 'path lights solar', 'pathway light low voltage', 'landscape spotlight LED', 'spotlight ground', 'uplight tree', 'deck lights', 'deck post light solar', 'post cap lights', 'string lights outdoor',
+'string lights cafe style', 'outdoor light pole', 'flag pole solar light',
+// Floodlights & outdoor power
+'flood light motion', 'flood light LED', 'motion floodlight solar', 'timer outdoor outlet', 'smart outdoor plug', 'extension cord outdoor rated', 'outdoor extension reel large',
+// Security & cameras
+'security camera outdoor wired', 'security camera outdoor wireless', 'security camera floodlight combo', 'doorbell camera exterior', 'video doorbell outdoor', 'motion detector outdoor', 'alarm siren outdoor', 'yard siren strobe', 'driveway alarm sensor', 'gate keypad entry',
+'mailbox locking', 'parcel drop box',
+// Signs & flags
+'yard address sign', 'address numbers metal', 'yard sign holder', 'decorative yard flag', 'flag pole yard', 'weather station yard',
+// Compost
+'compost bin yard', 'compost tumbler', 'compost bin tumbler dual', 'compost aerator tool', 'compost thermometer',
+// Trash & recycling
+'trash can outdoor', 'recycling bin outdoor', 'recycling container large', 'outdoor trash enclosure', 'trash can shed',
+// Outdoor storage
+'storage shed small', 'tool shed large', 'outdoor storage deck box', 'weatherproof storage chest large', 'generator outdoor cover', 'wood pile rack', 'firewood rack outdoor', 'firewood cover tarp', 'yard tarp heavy duty', 'ground anchor kit',
+'portable stage platform',
+// Driveway & deck maintenance
+'driveway pressure washer', 'deck cleaner solution', 'deck stain', 'deck sealer waterproof', 'driveway sealant bucket', 'asphalt patch repair', 'concrete crack filler tube', 'driveway marker reflectors',
+// Fence & mailbox
+'fence repair kit', 'fence pickets spare', 'fence post caps', 'mailbox post anchor',
 // TOTAL: 313 items
-
-'outdoor extension reel large', ],
+],
 
         Other: ['holiday decorations assorted', 'christmas tree artificial', 'christmas tree stand', 'ornament storage box', 'ornament hooks pack', 'string lights box', 'extension light cords', 'light timers plug in', 'wreath storage bag', 'holiday inflatables',
 'halloween decorations bin', 'thanksgiving decor box', 'easter decoration tote', 'valentine decor bin', 'fourth of july decorations', 'holiday yard stakes', 'wrapping paper roll', 'gift wrap storage tube', 'gift bags assorted', 'gift ribbon spools',

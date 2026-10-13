@@ -449,142 +449,145 @@
 // TOTAL: 553 items
 
 'table base', 'table legs', 'table leaf storage bag', 'table pad protector', 'table leg hardware kit', 'table corner protectors', 'table extension slides', 'table leveling pads', 'table leaf alignment pins', 'table pad storage tube', 'table refinishing kit', 'table scratch repair marker', 'table leg bolts', 'table stabilizer brackets', 'table support beam', 'table brace kit', 'table hardware screws', 'table leveling shims', 'table leaf lock clips', 'table edge protectors', 'tabletop sealer', 'tabletop protector film', 'console table leg braces', 'tabletop sculpture', 'chair leg caps', 'chair seat screws', 'chair back support brace', 'chair upholstery cleaner', 'chair seat cushion inserts', 'chair back pads', 'chair cushion storage bag', 'chair leg braces', 'chair upholstery kit', 'bench frame bolts', 'chair cushion ties', 'chair leg felt pads', 'bench leg levelers', 'banquette cushion set', 'chair upholstery fabric', 'chair slipcover set', 'chair armrest pads', 'chair backrest screws', 'chair spindle', 'chair seat webbing', 'drawer organizers', 'cabinet shelf liner', 'decorative boxes', 'china cabinet shelf clips', 'china cabinet glass panels', 'hutch drawer pulls', 'sideboard drawer dividers', 'bar cabinet lock', 'wine cabinet shelf inserts', 'curio cabinet lighting kit', 'display cabinet glass cleaner kit', 'console table drawer liner', 'buffet fuel cans', 'glass cabinet lock', 'storage basket liner', 'decorative box lid', 'buffet warming tray cover', 'china cabinet light bulbs', 'china cabinet glass shelf inserts', 'buffet drawer slides', 'wine cabinet thermometer', 'curio cabinet glass cleaner', 'display cabinet shelf lighting', 'serving cart handle grips', 'glass cabinet shelf protector', 'storage basket stacker', 'decorative box storage crate', 'china cabinet door lock', 'buffet cabinet key spare', 'bar cabinet lighting strip', 'curio cabinet shelf clips', 'console table anti slip pads', 'china cabinet door handles', 'china cabinet shelf lighting kit', 'hutch shelf brackets', 'buffet door bumpers', 'sideboard shelf supports', 'bar cabinet wine glass holders', 'curio cabinet lock', 'bar cart glass holder insert', 'cabinet hinge repair kit', 'wine cabinet humidity monitor', 'china cabinet glass shelf supports', 'china cabinet shelf brackets', 'hutch shelf supports', 'hutch door hinges soft close', 'bar cabinet shelf liner roll', 'bar cabinet magnetic catch', 'bar cabinet LED under shelf lights', 'bar cabinet glass shelf pins', 'bar cabinet leveling feet', 'bar cabinet moisture absorber', 'anti tarnish drawer liners', 'tablecloth clips', 'holiday table runner', 'holiday napkins', 'placemat storage rack', 'napkin ring storage box', 'tablecloth storage bag', 'tablecloth ironing spray', 'placemat holder tray', 'holiday napkin holder', 'placemat storage box', 'napkin press iron', 'tablecloth hanger rack', 'seasonal table runner storage box', 'place card holder', 'place cards', 'menu cards', 'napkin fold board', 'napkin press', 'runner clips', 'table skirt', 'bar napkins', 'cocktail napkins', 'cloth napkin laundry bag', 'linen storage box', 'linen drawer sachets', 'table linen storage dividers', 'napkin storage bin', 'bread basket liner', 'serving trays', 'dinner plate storage rack', 'salad plate storage rack', 'charger plate storage case', 'cake dome cover', 'bowl stacking pads', 'serving bowl lid', 'platter storage sleeve', 'gravy boat saucer', 'serving bowl rack', 'platter display easel', 'gravy boat tray', 'salt cellar lid', 'platter cover', 'food tent mesh cover', 'cheese markers', 'olive dish', 'dip bowl set', 'nut bowl set', 'salad bowl set', 'oil bottle dispenser', 'vinegar bottle dispenser', 'salt cellar spoon', 'honey jar', 'butter dish cover spare', 'serving dish warming base', 'salt grinder', 'cream pitcher storage tray', 'water carafe lid', 'salt grinder refill', 'pepper grinder refill', 'sugar bowl lid', 'cream pitcher lid', 'pepper mill spare parts', 'sugar bowl spoon', 'cream pitcher tray', 'water pitcher filter insert', 'salad dressing cruet', 'glassware storage box', 'highball glass storage rack', 'coffee cup organizer', 'tea cup display shelf', 'glassware padding inserts', 'coffee cup saucer set', 'glassware padding wrap', 'wine glass charms', 'glassware drying cloth', 'cocktail glass cleaning cloth', 'champagne flute storage case', 'wine glass cleaning brush', 'champagne flute cleaning brush', 'beer mug cleaning brush', 'mug cabinet riser', 'ice tongs', 'flatware drawer tray', 'steak knife storage block', 'ladle holder', 'tongs stainless steel', 'pie server stainless steel', 'flatware polishing kit', 'steak knife sharpening kit', 'ice tongs holder', 'tea infuser spoon', 'wine stopper', 'bar tool set', 'coasters', 'coaster holder', 'wine bottle stopper set', 'ice mold tray', 'bar mat', 'drink stirrers', 'drink garnish tray', 'liquor pour spouts', 'coaster set stone', 'coaster set cork', 'wine rack floor stand', 'wine bottle storage crate', 'wine fridge shelves', 'wine fridge drip tray', 'wine fridge charcoal filter', 'wine fridge humidity gauge', 'wine bottle label tags', 'wine bottle marker pen', 'wine bottle drip rings', 'wine bottle foil cutter', 'wine bottle opener electric', 'wine corkscrew lever', 'wine cork extractor', 'bar caddy', 'drink stirrer set', 'cocktail picks', 'cocktail pick holder', 'bitters bottles', 'bitters dropper caps', 'simple syrup bottles', 'mixer bottles', 'ice sphere mold', 'whiskey stones', 'whiskey stone pouch', 'bar strainer fine mesh', 'cocktail shaker weighted tins', 'cocktail shaker insulation sleeve', 'cocktail rimmer', 'liquor bottle shelf', 'liquor bottle risers', 'liquor bottle pour spout caps', 'speed pourer set', 'bar rail mat', 'bar rail liner', 'bar towel holder', 'drink dispenser infuser tube', 'drink dispenser ice core', 'drink dispenser drip tray', 'beverage tub drain plug', 'beverage tub liner', 'ice bucket drip mat', 'ice scoop holder', 'beverage dispenser spigot', 'coffee warmer plate', 'tea strainer', 'tea pot infuser insert', 'pitcher infuser insert', 'tea kettle base', 'tea canister set', 'tea canister labels', 'tea infuser basket', 'tea warmer candle base', 'tea warmer plate', 'tea storage organizer', 'coffee scoop', 'coffee filter basket', 'candle holders', 'seasonal centerpiece decor', 'holiday candle holders', 'centerpiece storage crate', 'decorative tray liner', 'candle snuffer', 'candle wick trimmer', 'wall clock battery pack', 'centerpiece vase set', 'candle storage box', 'candle lighter', 'wall art dust cover', 'seasonal decor table sign', 'holiday centerpiece box', 'centerpiece decorative stones', 'decorative tray handles', 'candle storage sleeve', 'candle wax remover', 'wall art frame set', 'wall clock repair kit', 'table decor riser', 'centerpiece foam blocks', 'floral wire', 'floral tape', 'flower frog', 'vase filler beads', 'vase filler stones', 'table decor LED string lights', 'fairy light battery pack', 'remote timer plug', 'decorative pitcher', 'gallery wall frame set', 'mirror frame', 'battery pack organizer', 'lamp shade', 'lamp bulbs', 'table lamp finial', 'lamp harp', 'floor lamp base weight', 'lamp cord cover', 'silverware storage chest', 'tableware organizer tray', 'china storage divider', 'silver polish', 'silverware polishing gloves', 'silver storage anti tarnish strips', 'silverware anti tarnish cloth', 'chafing dish cover', 'anti tarnish silver bags', 'silver storage rolls', 'silver storage pouches', 'rug storage bag', 'rug pad', 'area rug corner tape', 'rug cleaning spray', 'floor runner anti slip pad', 'rug storage roll', 'rug brush', 'rug fringe comb', 'rug tape double sided', 'runner rug tape', 'rug grippers', 'rug corner weights', 'felt pads bulk pack', 'furniture sliders', 'furniture leveling shims', 'wood filler', 'wood stain pen', 'wood polish cloth', 'wood cleaner concentrate', 'wood conditioner oil', 'china polishing cloth', 'furniture polish', 'furniture polish spray', 'paper towels', 'mirror cleaning spray', 'all purpose cleaner gallon', 'disinfectant wipe refill', 'beverage dispenser cleaning brush', 'trash can', 'step stool rubber feet', 'fondue pot burner cap', ],
-        "Office / Study": [// Desks & Desk Furniture (40 items)
-'desk', 'standing desk', 'desk legs', 'desk hutch', 'desk return', 'side table', 'console table', 'desk leg levelers', 'desk corner protectors', 'side table drawer liner',
-'console table anti tip strap', 'desk hardware screw kit', 'side table reinforcement brackets', 'desk privacy panel', 'desk name plate', 'corner desk', 'executive desk', 'roll top desk', 'writing desk', 'secretary desk',
-'drafting table', 'desk blotter', 'desk writing pad', 'desk glass top protector', 'desk corner clamp light', 'desk lock key spare', 'desk hinge repair kit', 'desk panel fasteners', 'desk frame bolts', 'desk cross support bar',
-'desk reinforcement plate', 'desk corner shelf riser',
-// Standing Desk Components (3 items)
-'standing desk motor', 'standing desk control panel', 'standing desk anti collision sensor',
-// Desk Accessories & Organizers (64 items)
-'desk organizer', 'desk calendar', 'desk cable grommet', 'desk drawer slides', 'desk drawer lock', 'desktop cable organizer tray', 'desk drawer lock kit', 'mail sorter desktop', 'desk planner refill pages', 'legal pad desk tray',
-'cable management under desk rack', 'desk drawer divider set', 'desk drawer pencil tray', 'desk drawer cable port', 'desk cable spine', 'under desk keyboard drawer', 'under desk CPU mount', 'under desk storage shelf', 'under desk headphone hook', 'under desk foot hammock',
-'desk cable clamp', 'desk pen tray', 'desk cable pass through', 'desk power grommet outlet', 'desk drawer tray insert', 'desk side hanging file rack', 'desk privacy screen panel', 'desktop bookshelf', 'desktop file sorter', 'desktop mail tray',
-'desktop supply caddy', 'acoustic desk divider', 'desktop microphone boom arm', 'microphone desk clamp', 'desktop NAS storage', 'desk filing tray metal', 'calendar desk pad', 'desk drawer lock cylinder', 'desk underside wire basket', 'desk shelf add on',
-'desk side pocket organizer', 'desk drawer soft close adapter', 'monitor desk clamp arm dual', 'monitor desk clamp arm triple', 'desk drawer power outlet', 'under desk surge strip', 'under desk cable hammock', 'desk clamp cup holder', 'desk side hook set', 'desk side cable pouch',
-'desk side waste bin', 'desk side magazine rack', 'desk side drawer add on', 'desk mounted privacy wing', 'acoustic desk pad', 'anti glare desk mat', 'anti static desk mat',
-// Chairs & Seating (26 items)
-'foot rest adjustable metal', 'office chair', 'office chair mat', 'step stool', 'office chair armrest pads', 'chair floor protectors', 'office chair lumbar support', 'office chair gas lift cylinder', 'office chair tilt mechanism', 'chair wheel floor protectors',
-'drafting stool', 'kneeling chair', 'task chair', 'guest chair', 'ergonomic chair headrest', 'chair armrest screw set', 'chair tilt control handle', 'chair lumbar pillow', 'chair seat cover', 'chair upholstery repair kit',
-'chair gas lift removal tool', 'office chair glide feet', 'foot rest', 'seat cushion',
-// Bookcases & Shelving (5 items)
-'bookcase', 'bookshelf', 'bookcase shelf brackets', 'bookshelf anchors', 'bookcase shelf pins',
-// Filing Cabinets & Storage Cabinets (19 items)
-'storage cabinet adjustable shelves', 'filing cabinet', 'lateral file cabinet', 'storage cabinet', 'file cabinet dividers', 'filing cabinet key spare', 'file cabinet lock', 'file cabinet anti tip kit', 'storage cabinet shelf liner', 'file cabinet hanging rails',
-'storage cabinet door bumpers', 'notebook storage cabinet', 'binder storage cabinet', 'cardstock storage cabinet', 'file cabinet label frame', 'file cabinet rail clips', 'storage cabinet locking bar', 'storage cabinet door magnet', 'storage cabinet leveling feet',
-// Credenza (8 items)
-'credenza adjustable shelf', 'credenza', 'credenza drawer divider', 'credenza lock cylinder', 'credenza cable management hole cover', 'credenza drawer slides heavy duty', 'credenza shelf pins',
-// Storage Bins, Baskets & Boxes (56 items)
-'tablet storage sleeve', 'file storage box', 'storage baskets', 'notebook storage crate', 'legal pad storage box', 'binder storage rack', 'manila envelope storage box', 'printer paper storage bin', 'cardstock storage folder', 'photo paper storage sleeve',
-'document sorter rack', 'throw blanket storage bag', 'storage bin lids', 'drawer divider plastic', 'pen storage box', 'pencil storage box', 'file storage crate', 'laminator pouch storage box', 'rubber band storage jar', 'notebook shelf rack',
-'binder rack vertical', 'envelope storage rack', 'bubble mailer storage bin', 'external keyboard storage case', 'throw blanket folded storage bin', 'decorative pillow storage bag', 'storage bin labels', 'usb drive storage organizer', 'extension cord storage reel', 'drawer organizer bamboo',
-'file storage tote', 'staple storage box', 'binder clip storage box', 'scissor storage rack', 'glue stick storage bin', 'highlighter storage tray', 'marker storage case', 'network cable rack', 
-'throw blanket storage chest', 'storage bin rolling cart', 'clipboard storage rack', 'drawer slide lubricant', 'drawer slide mounting jig', 'drawer stop clip', 'drawer rail brackets', 'drawer track alignment tool', 'SD card storage box',
-'micro SD storage wallet',
-// Server & Network Rack (14 items)
-'network switch rack mount', 'network rack shelf', 'network rack screws', 'rack mount power strip', 'rack mount drawer', 'rack mount fan', 'rack mount cable manager', 'server rack rails', 'server rack caster kit', 'server rack blank panel',
-'server rack mount rails', 'server cooling fan', 'server cable arm', 'server power supply',
-// Computers & Monitors (23 items)
-'desktop computer', 'monitor riser shelf', 'computer tower', 'monitor', 'second monitor', 'computer speakers', 'monitor screen cleaner kit', 'monitor privacy screen', 'monitor power cable', 'monitor mounting screws',
-'computer cooling pad', 'monitor calibration tool', 'monitor mounting plate', 'monitor cable cover', 'computer surge protector strip', 'monitor cleaning wipes', 'studio monitor speakers', 'studio monitor isolation pads', 'computer privacy hood', 'monitor calibration sensor',
-// Laptops & Tablets (33 items)
-'tablet', 'tablet charger', 'tablet stand adjustable metal', 'tablet stylus pen', 'tablet keyboard case', 'tablet folio cover', 'tablet screen cleaning kit', 'tablet stand adjustable arm', 'tablet security lock', 'tablet pen holder clip',
-'tablet docking station', 'charging cable retractable', 'portable power bank', 'portable document scanner', 'laptop', 'laptop charger', 'laptop sleeve case', 'laptop docking cable', 'laptop riser stand', 'laptop docking cradle',
-'laptop external GPU enclosure', 'laptop memory upgrade kit', 'laptop SSD upgrade kit', 'laptop hinge repair kit', 'laptop charger extension cable', 'laptop cooling mat', 'laptop anti theft cable', 'laptop security lock',
-// Keyboards & Mice (32 items)
-'keyboard tray brackets', 'keyboard', 'wireless keyboard', 'mouse', 'wireless mouse', 'mouse pad', 'extended mouse pad', 'external keyboard wrist rest', 'keyboard wrist rest', 'keyboard cover',
-'wireless mouse receiver', 'mouse pad wrist support', 'external keyboard cover', 'keyboard cleaning gel', 'mouse cleaning wipes', 'ergonomic keyboard', 'mechanical keyboard', 'mechanical keyboard keycap set', 'keyboard switch tester', 'keyboard switch puller',
-'keyboard cleaning brush', 'keyboard vacuum mini', 'keyboard wrist support gel', 'keyboard travel case', 'gaming mouse', 'vertical mouse ergonomic', 'mouse grip tape', 'mouse cable bungee', 'mouse travel pouch', 'mouse battery pack',
-'mouse USB receiver extender', 'mouse docking charger',
-// Docking Stations (2 items)
-'docking station cable kit', 'docking station',
-// External Drives & Storage Media (16 items)
-'NAS hard drive', 'NAS drive tray', 'usb flash drives', 'usb flash drive organizer', 'usb flash drive case', 'USB floppy drive', 'USB card reader', 'micro SD adapter', 'external hard drive', 'external hard drive case',
-'external hard drive docking bay', 'external SSD drive', 'SSD enclosure', 'hard drive cloning dock', 'hard drive anti static bag', 'data recovery software license',
-// Printers, Scanners & Shredders (22 items)
-'printer paper cabinet', 'printer stand shelf', 'printer', 'scanner', 'printer stand', 'printer paper tray', 'printer ink cartridges', 'printer paper ream', 'document scanner tray', 'printer cleaning sheets',
-'printer maintenance kit', 'printer paper catch tray', 'scanner glass cleaner', 'laser printer drum unit', 'printer fuser unit', 'barcode scanner stand', 'receipt printer', 'receipt printer ink ribbon', 'paper shredder', 'shredder oil',
-'postal scale digital',
-// Networking Equipment (21 items)
-'router', 'modem', 'wifi extender', 'network switch', 'network cable tester', 'router ethernet switch', 'wifi extender mounting kit', 'network cable tester advanced', 'WiFi antenna booster', 'WiFi signal analyzer',
-'network firewall appliance', 'smart plug WiFi', 'ethernet cables', 'ethernet cable wall clips', 'ethernet cable boots', 'cable punch down tool', 'ethernet cable tester advanced', 'ethernet cable crimper tool', 'patch cable organizer', 'patch cable color tags',
-'ethernet crimp connectors',
-// Audio & Microphones (12 items)
-'microphone desk stand', 'microphone cable XLR', 'USB audio interface', 'microphone', 'microphone pop filter', 'speaker isolation pads', 'microphone shock mount', 'audio interface', 'audio mixer small', 'speaker stands',
-'speaker isolation stands',
-// Webcams, Lighting & Backdrops (13 items)
-'ring light desk mount', 'webcam ring light', 'ring light tripod stand', 'ring light diffuser', 'backdrop clamp', 'screen light bar remote', 'webcam', 'webcam privacy cover', 'webcam mount clip', 'webcam tripod',
-'green screen backdrop', 'backdrop crossbar',
-// Headphones & Headsets (11 items)
-'headphone cable extension', 'headphone stand clamp mount', 'headphones', 'headset', 'headphone stand', 'headset charging dock', 'headphone stand wooden', 'headphone amplifier', 'headphone splitter', 'headphone case hard shell',
-'headphone hook adhesive',
-// Cables & Adapters (30 items)
-'cable organizer box', 'cable sleeves', 'hdmi cables', 'displayport cable', 'vga cable', 'charging cable organizer', 'cable management tray', 'usb extension cable', 'vga adapter', 'USB C hub adapter',
-'USB C to HDMI adapter', 'USB C docking hub', 'USB C extension cable', 'cable management ring', 'cable mounting base', 'Velcro cable ties', 'cable extension reel heavy duty', 'magnetic charging cable', 'charging cable multi head', 'cord label tags',
-'cord concealment channel', 'cord management clips', 'HDMI switch', 'display splitter', 'zip tie pack', 'XLR to USB adapter', 'KVM switch',
-// Power & Charging (36 items)
-'power strip', 'phone charger', 'usb hub', 'power adapters', 'battery backup', 'docking station power supply', 'power strip cord wrap', 'calculator battery', 'universal power adapter', 'smoke detector battery',
-'power conditioner', 'plug splitter adapter', 'USB wall charger multi port', 'USB charging block', 'power cord organizer wrap', 'USB charging tower', 'power outlet timer', 'button cell battery pack', 'battery tester device', 'battery disposal container',
-'cordless phone charger base', 'cordless phone battery pack', 'power bank charging dock', 'surge protector', 'extension cords', 'charging station', 'extension cord reel', 'extension cord floor cover', 'charging hub multi port', 'surge protector outlet cover',
-'surge suppression outlet', 'voltage regulator', 'UPS battery pack', 'AA battery bulk pack', 'AAA battery bulk pack',
-// Laminators & Binding (15 items)
-'laminator cleaning sheets', 'laminator', 'laminating sheets', 'laminator heat resistant gloves', 'laminator corner rounder', 'laminator thermal pouch carrier', 'laminator jam release tool', 'laminator foil sheets', 'laminator cold pouch kit', 'laminator trim cutter',
-'document binding machine', 'binding comb set', 'binding coil set', 'binding cover sheets', 'binding spine cutter',
-// Phones & Communication (1 items)
-'phone dock stand',
-// Pens, Pencils & Writing (13 items)
-'pen holder', 'pencil holder', 'pen refill pack', 'pencil sharpener', 'correction fluid pen', 'pen refill organizer', 'pencil case organizer', 'mechanical pencil set', 'highlighters', 'correction tape',
-'ink refill kit',
-// Paper & Stationery (28 items)
-'paper tray', 'paper clips', 'notebooks', 'cardstock paper', 'photo paper', 'legal size paper', 'paper tray stacker', 'paper clip organizer', 'paper tray letter size', 'paper clip tray',
-'sticky note dispenser', 'photo paper binder', 'paper towel dispenser', 'photo paper archival box', 'paper trimmer guillotine', 'paper scoring board', 'stapler', 'staples', 'legal pads', 'sticky notes',
-'index cards', 'staple remover', 'staple refill box', 'stapler heavy duty', 'staples bulk pack',
-// Folders, Binders & Filing (21 items)
-'mail organizer drawer', 'envelope filing drawer', 'binder clips', 'binders', 'binder dividers', 'envelopes', 'manila envelopes', 'shipping envelopes', 'file folder labels', 'binder clip organizer',
-'binder spine labels', 'envelope organizer tray', 'binder clip container', 'binder dividers labeled', 'binder spine label kit', 'project planner binder', 'document trays', 'hanging file folder tabs', 'file expanding folder', 'presentation folder',
-// Labels & Tape (20 items)
-'label maker', 'labels', 'tape dispenser', 'shipping label roll', 'label maker case', 'tape dispenser weighted', 'liquid glue dispenser', 'rubber bands', 'adhesive tape', 'packing tape',
-'glue sticks', 'liquid glue', 'rubber band ball', 'tape refill rolls', 'adhesive tape bulk roll', 'packing tape gun', 'glue stick organizer', 'liquid glue refill bottle',
-// Scissors, Punches & Cutting (9 items)
-'letter opener', 'scissor sharpener', 'letter opener stand', 'letter opener stainless steel', 'scissors', 'hole punch', 'three hole punch', 'scissors heavy duty', 'three hole punch heavy duty',
-// Planners, Calendars & Notebooks (15 items)
-'time tracking notebook', 'wall calendar', 'wall calendar dry erase', 'calendar hanging clips', 'project management notebook', 'planner stickers', 'planner tabs', 'planner refill inserts', 'goal planner journal', 'address book',
-'business card holder', 'business card display stand', 'name badge holder', 'ID badge lanyard', 'ID badge reel',
-// Whiteboards & Bulletin Boards (14 items)
-'bulletin board', 'whiteboard', 'whiteboard markers', 'whiteboard cleaner spray', 'whiteboard magnetic eraser', 'bulletin board frame', 'whiteboard marker holder', 'whiteboard eraser holder', 'whiteboard magnetic tray', 'whiteboard border tape',
-'dry erase eraser', 'permanent markers', 'dry erase board small',
-// Cork Boards & Magnetic Boards (8 items)
-'push pins', 'push pin container', 'push pin box', 'cork board push pin set', 'magnetic cork board', 'magnetic clips', 'magnetic name plate', 'magnetic ruler',
-// Mail & Postage (4 items)
-'envelope moistener bottle', 'mail opening tray', 'bubble mailers', 'bubble mailer pack',
-// Calculators & Office Machines (1 items)
-'calculator',
-// Presentation Equipment (5 items)
-'portable projector', 'presentation clicker', 'laser pointer', 'presentation remote batteries', 'projector screen',
-// Lamps & Lighting (12 items)
-'desk lamp', 'table lamp', 'floor lamp', 'light bulbs', 'floor lamp dimmer cord', 'blue light blocking glasses',
-// Area Rugs & Floor Mats (2 items)
-'rug stain remover pen', 'area rug',
-// Window Blinds & Curtains (5 items)
-'window blind cleaner tool', 'window blinds', 'window curtains', 'curtain rod', 'curtain tieback hooks',
-// Decor & Frames (4 items)
-'throw blanket', 'wall art', 'wall clock', 'umbrella stand',
-// Coats, Blankets & Comfort (2 items)
-'coat rack', 'coat rack floor standing',
-// Cleaning Supplies (15 items)
-'cleaning supply shelf', 'cleaning caddy', 'all purpose cleaner', 'glass cleaner', 'cleaning supply basket', 'all purpose cleaner refill', 'glass cleaner spray bottle', 'microfiber cleaning mitt', 'all purpose cleaner spray bottle',
-'glass cleaner gallon', 'microfiber cloths', 'disinfecting wipes',
-// Trash & Recycling (8 items)
-'trash bags', 'recycling bin', 'trash liner roll', 'recycling bin liner roll', 'trash can step lid', 'recycling sorter bins', 'ink cartridge recycling box',
-// Safety & Security (6 items)
-'fire extinguisher bracket', 'fire extinguisher cabinet small', 'fire extinguisher', 'smoke detector', 'carbon monoxide detector', 'first aid kit',
-// Safes & Lockboxes (3 items)
-'document safe fire resistant', 'document lock box', 'safe fireproof document box',
-// Tools & Hardware (10 items)
-'hammer storage clip', 'measuring tape storage hook', 'tool kit small', 'hammer', 'screwdriver set', 'measuring tape', 'picture hanging kit', 'tool organizer tray', 'screw assortment kit',
-// Soundproofing & Acoustics (3 items)
-'portable room divider panel', 'soundproof desk booth', 'sound dampening foam panels',
-'desktop power supply', 'foot rest adjustable', 'green screen stand', 'laptop stand adjustable', 'monitor light bar', 'printer stand with drawers', 'tablet charging dock', 'trash can', ],
+        "Office / Study": [
+// Desks
+'desk', 'standing desk', 'standing desk motor', 'standing desk control panel', 'standing desk anti collision sensor', 'corner desk', 'executive desk', 'roll top desk', 'writing desk', 'secretary desk',
+'drafting table', 'desk hutch', 'desk return',
+// Desk parts & hardware
+'desk legs', 'desk leg levelers', 'desk corner protectors', 'desk hardware screw kit', 'desk frame bolts', 'desk cross support bar', 'desk reinforcement plate', 'desk panel fasteners', 'desk corner shelf riser', 'desk shelf add on',
+'desk lock key spare', 'desk hinge repair kit', 'desk privacy panel', 'desk privacy screen panel', 'desk mounted privacy wing', 'acoustic desk divider', 'desk name plate',
+// Desk drawers
+'desk drawer slides', 'desk drawer lock', 'desk drawer lock kit', 'desk drawer lock cylinder', 'desk drawer soft close adapter', 'desk drawer divider set', 'desk drawer pencil tray', 'desk drawer tray insert', 'desk drawer cable port', 'desk drawer power outlet',
+'desk side drawer add on', 'drawer slide lubricant', 'drawer slide mounting jig', 'drawer stop clip', 'drawer rail brackets', 'drawer track alignment tool',
+// Desktop accessories
+'desk organizer', 'desk calendar', 'calendar desk pad', 'desk blotter', 'desk writing pad', 'desk glass top protector', 'anti glare desk mat', 'anti static desk mat', 'acoustic desk pad', 'desk pen tray',
+'desktop supply caddy', 'desktop file sorter', 'desktop mail tray', 'mail sorter desktop', 'desk filing tray metal', 'desktop bookshelf', 'legal pad desk tray', 'desk planner refill pages', 'desk side pocket organizer', 'desk side hook set',
+'desk side magazine rack', 'desk side hanging file rack', 'desk side waste bin', 'desk side cable pouch', 'desk clamp cup holder', 'desk corner clamp light',
+// Under-desk & desk cables
+'under desk keyboard drawer', 'keyboard tray brackets', 'under desk CPU mount', 'under desk storage shelf', 'under desk foot hammock', 'desk underside wire basket', 'cable management under desk rack', 'under desk cable hammock', 'under desk surge strip', 'desk cable grommet',
+'desk cable clamp', 'desk cable pass through', 'desk power grommet outlet', 'desk cable spine', 'desktop cable organizer tray',
+// Office chair
+'office chair', 'office chair mat', 'chair floor protectors', 'chair wheel floor protectors', 'office chair armrest pads', 'office chair lumbar support', 'chair lumbar pillow', 'ergonomic chair headrest', 'office chair glide feet', 'office chair gas lift cylinder',
+'chair gas lift removal tool', 'office chair tilt mechanism', 'chair tilt control handle', 'chair armrest screw set', 'chair seat cover', 'chair upholstery repair kit', 'task chair', 'guest chair', 'kneeling chair', 'drafting stool',
+'seat cushion',
+// Foot rest & step stool
+'foot rest', 'foot rest adjustable', 'foot rest adjustable metal', 'step stool',
+// Desktop computer
+'desktop computer', 'computer tower', 'desktop power supply', 'computer speakers', 'computer cooling pad', 'computer surge protector strip', 'computer privacy hood',
+// Monitors
+'monitor', 'second monitor', 'monitor riser shelf', 'monitor desk clamp arm dual', 'monitor desk clamp arm triple', 'monitor mounting plate', 'monitor mounting screws', 'monitor power cable', 'monitor cable cover', 'monitor privacy screen',
+'monitor light bar', 'screen light bar remote', 'monitor screen cleaner kit', 'monitor cleaning wipes', 'monitor calibration tool', 'monitor calibration sensor',
+// Laptop & docking
+'laptop', 'laptop charger', 'laptop charger extension cable', 'laptop riser stand', 'laptop stand adjustable', 'laptop cooling mat', 'laptop sleeve case', 'docking station', 'laptop docking cradle', 'laptop docking cable',
+'docking station cable kit', 'docking station power supply', 'laptop external GPU enclosure', 'laptop memory upgrade kit', 'laptop SSD upgrade kit', 'laptop hinge repair kit', 'laptop anti theft cable', 'laptop security lock',
+// Keyboard
+'keyboard', 'wireless keyboard', 'ergonomic keyboard', 'mechanical keyboard', 'mechanical keyboard keycap set', 'keyboard switch tester', 'keyboard switch puller', 'keyboard wrist rest', 'external keyboard wrist rest', 'keyboard wrist support gel',
+'keyboard cover', 'external keyboard cover', 'keyboard cleaning gel', 'keyboard cleaning brush', 'keyboard vacuum mini', 'keyboard travel case', 'external keyboard storage case',
+// Mouse
+'mouse', 'wireless mouse', 'gaming mouse', 'vertical mouse ergonomic', 'mouse pad', 'extended mouse pad', 'mouse pad wrist support', 'wireless mouse receiver', 'mouse USB receiver extender', 'mouse docking charger',
+'mouse battery pack', 'mouse grip tape', 'mouse cable bungee', 'mouse travel pouch', 'mouse cleaning wipes',
+// Tablet
+'tablet', 'tablet charger', 'tablet charging dock', 'tablet stand adjustable metal', 'tablet stand adjustable arm', 'tablet stylus pen', 'tablet pen holder clip', 'tablet keyboard case', 'tablet folio cover', 'tablet storage sleeve',
+'tablet screen cleaning kit', 'tablet security lock', 'tablet docking station', 'portable power bank', 'charging cable retractable',
+// Printer & scanner
+'printer', 'printer stand', 'printer stand with drawers', 'printer stand shelf', 'printer paper tray', 'printer paper catch tray', 'printer paper ream', 'printer ink cartridges', 'ink refill kit', 'printer cleaning sheets',
+'printer maintenance kit', 'laser printer drum unit', 'printer fuser unit', 'scanner', 'document scanner tray', 'portable document scanner', 'scanner glass cleaner', 'barcode scanner stand', 'receipt printer', 'receipt printer ink ribbon',
+// Shredder & mailing
+'paper shredder', 'shredder oil', 'postal scale digital', 'mail organizer drawer', 'envelope filing drawer', 'mail opening tray', 'envelope moistener bottle', 'shipping envelopes', 'shipping label roll', 'bubble mailers',
+'bubble mailer pack',
+// Wi-Fi & internet
+'router', 'modem', 'wifi extender', 'wifi extender mounting kit', 'WiFi antenna booster', 'WiFi signal analyzer', 'network switch', 'router ethernet switch', 'network firewall appliance', 'smart plug WiFi',
+'network cable tester', 'network cable tester advanced',
+// Ethernet cabling
+'ethernet cables', 'ethernet cable wall clips', 'ethernet cable boots', 'ethernet crimp connectors', 'ethernet cable crimper tool', 'ethernet cable tester advanced', 'cable punch down tool', 'patch cable organizer', 'patch cable color tags',
+// Server & network rack
+'network cable rack', 'network switch rack mount', 'network rack shelf', 'network rack screws', 'rack mount power strip', 'rack mount drawer', 'rack mount fan', 'rack mount cable manager', 'server rack rails', 'server rack mount rails',
+'server rack caster kit', 'server rack blank panel', 'server cooling fan', 'server cable arm', 'server power supply',
+// Hard drives & data storage
+'external hard drive', 'external hard drive case', 'external hard drive docking bay', 'external SSD drive', 'SSD enclosure', 'hard drive cloning dock', 'hard drive anti static bag', 'data recovery software license', 'NAS hard drive', 'NAS drive tray',
+'desktop NAS storage', 'usb flash drives', 'usb flash drive organizer', 'usb flash drive case', 'usb drive storage organizer', 'USB floppy drive', 'USB card reader', 'micro SD adapter', 'SD card storage box', 'micro SD storage wallet',
+// Microphones & studio audio
+'microphone', 'microphone pop filter', 'microphone shock mount', 'microphone desk stand', 'microphone desk clamp', 'desktop microphone boom arm', 'microphone cable XLR', 'XLR to USB adapter', 'USB audio interface', 'audio interface',
+'audio mixer small', 'studio monitor speakers', 'studio monitor isolation pads', 'speaker stands', 'speaker isolation stands', 'speaker isolation pads',
+// Headphones
+'headphones', 'headset', 'headphone stand', 'headphone stand wooden', 'headphone stand clamp mount', 'headphone hook adhesive', 'under desk headphone hook', 'headphone case hard shell', 'headphone cable extension', 'headphone splitter',
+'headphone amplifier', 'headset charging dock',
+// Webcam & streaming
+'webcam', 'webcam mount clip', 'webcam tripod', 'webcam privacy cover', 'webcam ring light', 'ring light desk mount', 'ring light tripod stand', 'ring light diffuser', 'green screen backdrop', 'green screen stand',
+'backdrop crossbar', 'backdrop clamp',
+// Cables & adapters
+'hdmi cables', 'displayport cable', 'vga cable', 'vga adapter', 'USB C hub adapter', 'USB C to HDMI adapter', 'USB C docking hub', 'USB C extension cable', 'usb extension cable', 'usb hub',
+'HDMI switch', 'display splitter', 'KVM switch', 'cable organizer box', 'cable sleeves', 'cable management tray', 'cable management ring', 'cable mounting base', 'Velcro cable ties', 'zip tie pack',
+'cord label tags', 'cord concealment channel', 'cord management clips', 'charging cable organizer', 'magnetic charging cable', 'charging cable multi head', 'cable extension reel heavy duty',
+// Power & charging
+'power strip', 'power strip cord wrap', 'surge protector', 'surge protector outlet cover', 'surge suppression outlet', 'extension cords', 'extension cord reel', 'extension cord storage reel', 'extension cord floor cover', 'power conditioner',
+'voltage regulator', 'battery backup', 'UPS battery pack', 'plug splitter adapter', 'universal power adapter', 'power adapters', 'power outlet timer', 'power cord organizer wrap', 'USB wall charger multi port', 'USB charging block',
+'USB charging tower', 'phone charger', 'phone dock stand', 'charging station', 'charging hub multi port', 'power bank charging dock', 'cordless phone charger base', 'cordless phone battery pack',
+// Batteries
+'AA battery bulk pack', 'AAA battery bulk pack', 'button cell battery pack', 'calculator battery', 'smoke detector battery', 'battery tester device', 'battery disposal container',
+// Pens & pencils
+'pen holder', 'pencil holder', 'pen refill pack', 'pen refill organizer', 'pencil case organizer', 'pencil sharpener', 'mechanical pencil set', 'correction fluid pen', 'correction tape', 'highlighters',
+'permanent markers', 'pen storage box', 'pencil storage box', 'highlighter storage tray', 'marker storage case',
+// Paper & notebooks
+'notebooks', 'legal pads', 'legal size paper', 'cardstock paper', 'photo paper', 'photo paper binder', 'photo paper archival box', 'photo paper storage sleeve', 'paper tray', 'paper tray stacker',
+'paper tray letter size', 'paper clips', 'paper clip organizer', 'paper clip tray', 'sticky notes', 'sticky note dispenser', 'index cards', 'paper trimmer guillotine', 'paper scoring board', 'printer paper storage bin',
+'cardstock storage folder', 'legal pad storage box', 'notebook storage crate',
+// Staplers
+'stapler', 'staples', 'staples bulk pack', 'staple remover', 'staple refill box', 'stapler heavy duty', 'staple storage box',
+// Binders, folders & envelopes
+'binders', 'binder dividers', 'binder dividers labeled', 'binder clips', 'binder clip organizer', 'binder clip container', 'binder clip storage box', 'binder spine labels', 'binder spine label kit', 'project planner binder',
+'document trays', 'hanging file folder tabs', 'file folder labels', 'file expanding folder', 'presentation folder', 'envelope organizer tray', 'envelopes', 'manila envelopes', 'manila envelope storage box', 'envelope storage rack',
+'bubble mailer storage bin',
+// Labels, tape & glue
+'label maker', 'label maker case', 'labels', 'tape dispenser', 'tape dispenser weighted', 'adhesive tape', 'adhesive tape bulk roll', 'tape refill rolls', 'packing tape', 'packing tape gun',
+'rubber bands', 'rubber band ball', 'rubber band storage jar', 'glue sticks', 'glue stick organizer', 'glue stick storage bin', 'liquid glue', 'liquid glue refill bottle', 'liquid glue dispenser',
+// Scissors, punches & openers
+'scissors', 'scissors heavy duty', 'scissor storage rack', 'scissor sharpener', 'letter opener', 'letter opener stand', 'letter opener stainless steel', 'hole punch', 'three hole punch', 'three hole punch heavy duty',
+// Laminating & binding
+'laminator', 'laminating sheets', 'laminator thermal pouch carrier', 'laminator cold pouch kit', 'laminator pouch storage box', 'laminator foil sheets', 'laminator cleaning sheets', 'laminator heat resistant gloves', 'laminator corner rounder', 'laminator trim cutter',
+'laminator jam release tool', 'document binding machine', 'binding comb set', 'binding coil set', 'binding cover sheets', 'binding spine cutter',
+// Calendars & planners
+'wall calendar', 'wall calendar dry erase', 'calendar hanging clips', 'time tracking notebook', 'project management notebook', 'goal planner journal', 'planner stickers', 'planner tabs', 'planner refill inserts', 'address book',
+// Business cards & ID badges
+'business card holder', 'business card display stand', 'name badge holder', 'ID badge lanyard', 'ID badge reel', 'magnetic name plate',
+// Whiteboards & bulletin boards
+'whiteboard', 'whiteboard markers', 'whiteboard magnetic eraser', 'whiteboard eraser holder', 'whiteboard marker holder', 'whiteboard magnetic tray', 'whiteboard cleaner spray', 'whiteboard border tape', 'dry erase eraser', 'dry erase board small',
+'bulletin board', 'bulletin board frame', 'cork board push pin set', 'magnetic cork board', 'push pins', 'push pin box', 'push pin container', 'magnetic clips', 'magnetic ruler',
+// Presenting
+'calculator', 'portable projector', 'projector screen', 'presentation clicker', 'laser pointer', 'presentation remote batteries',
+// Bookcases
+'bookcase', 'bookshelf', 'bookcase shelf brackets', 'bookcase shelf pins', 'bookshelf anchors', 'notebook shelf rack', 'binder rack vertical', 'binder storage rack',
+// Filing cabinets
+'filing cabinet', 'lateral file cabinet', 'file cabinet dividers', 'file cabinet hanging rails', 'file cabinet rail clips', 'file cabinet label frame', 'file cabinet lock', 'filing cabinet key spare', 'file cabinet anti tip kit',
+// Storage cabinets
+'storage cabinet', 'storage cabinet adjustable shelves', 'storage cabinet shelf liner', 'storage cabinet door bumpers', 'storage cabinet door magnet', 'storage cabinet locking bar', 'storage cabinet leveling feet', 'notebook storage cabinet', 'binder storage cabinet', 'cardstock storage cabinet',
+'printer paper cabinet',
+// Credenza
+'credenza', 'credenza adjustable shelf', 'credenza drawer divider', 'credenza lock cylinder', 'credenza shelf pins', 'credenza drawer slides heavy duty', 'credenza cable management hole cover',
+// Side table & console
+'side table', 'side table drawer liner', 'side table reinforcement brackets', 'console table', 'console table anti tip strap',
+// Storage boxes & bins
+'storage baskets', 'file storage box', 'file storage crate', 'file storage tote', 'storage bin lids', 'storage bin labels', 'storage bin rolling cart', 'drawer divider plastic', 'drawer organizer bamboo', 'document sorter rack',
+'clipboard storage rack',
+// Lighting
+'desk lamp', 'table lamp', 'floor lamp', 'floor lamp dimmer cord', 'light bulbs', 'blue light blocking glasses',
+// Windows & room comfort
+'window blinds', 'window blind cleaner tool', 'window curtains', 'curtain rod', 'curtain tieback hooks', 'area rug', 'rug stain remover pen', 'wall art', 'wall clock', 'portable room divider panel',
+'soundproof desk booth', 'sound dampening foam panels',
+// Blankets & pillows
+'throw blanket', 'throw blanket storage bag', 'throw blanket folded storage bin', 'throw blanket storage chest', 'decorative pillow storage bag',
+// Coat rack & umbrella
+'coat rack', 'coat rack floor standing', 'umbrella stand',
+// Cleaning supplies
+'all purpose cleaner', 'all purpose cleaner refill', 'all purpose cleaner spray bottle', 'glass cleaner', 'glass cleaner spray bottle', 'glass cleaner gallon', 'disinfecting wipes', 'microfiber cloths', 'microfiber cleaning mitt', 'cleaning caddy',
+'cleaning supply basket', 'cleaning supply shelf', 'paper towel dispenser',
+// Trash & recycling
+'trash can', 'trash can step lid', 'trash bags', 'trash liner roll', 'recycling bin', 'recycling bin liner roll', 'recycling sorter bins', 'ink cartridge recycling box',
+// Safety & documents
+'fire extinguisher', 'fire extinguisher bracket', 'fire extinguisher cabinet small', 'smoke detector', 'carbon monoxide detector', 'first aid kit', 'document safe fire resistant', 'document lock box', 'safe fireproof document box',
+// Tools
+'tool kit small', 'screwdriver set', 'hammer', 'hammer storage clip', 'measuring tape', 'measuring tape storage hook', 'picture hanging kit', 'tool organizer tray', 'screw assortment kit',
+],
 
 // TOTAL: 710 items],
 

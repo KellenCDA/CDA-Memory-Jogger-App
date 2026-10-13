@@ -591,137 +591,197 @@
 
 // TOTAL: 710 items],
 
-        Loft: [// Sofas & Seating (101 items)
-'accent bench', 'accent bench cushion', 'accent bench leg pads', 'accent bench storage bin', 'accent chair arm covers', 'accent chair armrest pads', 'accent chair cushion', 'accent chair leg felt pads', 'accent chair leg protectors', 'accent chair seat protector',
-'accent chair slipcover', 'barrel chair', 'bean bag inner liner', 'bean bag refill beads', 'bean bag refill pack', 'chaise lounge', 'chaise lounge cushion', 'chaise lounge slipcover', 'club chair', 'club chair ottoman',
-'floor cushion cover', 'floor cushion insert', 'floor cushion storage bag', 'floor pouf', 'floor rocker chair', 'floor seating mat', 'floor seating pillows', 'fold out sofa bed', 'folding chairs', 'folding floor chair',
-'glider chair', 'loveseat armrest covers', 'loveseat armrest tray', 'loveseat cover', 'loveseat cushion cover set', 'loveseat leg pads', 'massage chair', 'massage chair cover', 'massage chair remote', 'meditation cushion',
-'meditation cushion cover', 'ottoman caster wheels', 'ottoman foam insert', 'papasan chair', 'recliner', 'recliner USB charger module', 'recliner battery pack', 'recliner hand control', 'recliner headrest cover', 'recliner power supply',
-'recliner side pocket organizer', 'rocking chair', 'sectional connector brackets', 'sectional cushion covers', 'sofa anti slip grippers', 'sofa armrest cover', 'sofa armrest tray', 'sofa bed mattress cover', 'sofa bed mattress pad', 'sofa bed mechanism kit',
-'sofa bed sheet set', 'sofa caster cups', 'sofa chaise attachment', 'sofa cushion cover set', 'sofa cushion inserts', 'sofa frame brackets', 'sofa frame repair braces', 'sofa furniture risers', 'sofa headrest pillow', 'sofa leg levelers',
-'sofa side table', 'sofa slipcover', 'sofa spring repair kit', 'stool seat cover', 'stools', 'storage ottoman tray top', 'swivel chair', 'window seat cushion cover', 'window seat drawer organizer', 'window seat storage bin',
-'wingback chair',
-// Seating & Furniture Accessories (17 items)
-'bed sheet fasteners', 'blanket clips', 'blanket hamper', 'blanket hooks', 'blanket ladder', 'down pillow insert', 'folding chair leg caps', 'lumbar pillow insert', 'office chair armrest pads', 'pillow protector set',
-'pillow protectors', 'pillowcase set extra', 'sheet suspenders', 'throw blanket clips', 'throw pillow covers', 'throw pillow insert spare',
-// Tables & Shelving Furniture (63 items)
-'C shaped side table', 'TV stand cable pass through', 'TV stand caster wheels', 'TV stand door bumpers', 'TV stand ventilation fan', 'TV tray table set', 'bar cart', 'bar cart accessory hooks', 'bar cart anti slip mat', 'bar cart corner guards',
-'bar cart cover', 'bar cart stemware hanger', 'bar cart tool caddy', 'bedside table', 'bedside table coaster', 'book display shelf', 'broom storage cabinet', 'coffee table coasters set', 'coffee table glass top', 'coffee table leg levelers',
-'coffee table leg pads', 'coffee table runner', 'coffee table scratch repair kit', 'coffee table storage baskets', 'console table cable management basket', 'console table shelf riser', 'craft storage cabinet', 'cube storage shelf', 'display shelf', 'display shelf acrylic stands',
-'display shelf risers', 'drink table', 'end table corner protectors', 'floating shelf LED strip', 'folding snack table', 'folding table', 'folding table carry bag', 'folding table leg caps', 'martini table', 'media console door hinges',
-'media console shelves', 'nesting table set', 'nesting tables', 'shelf edge guard', 'side table cable grommet cover', 'side table decor tray', 'side table drawer organizer', 'side table shelf liner', 'storage cube shelf', 'tray table',
-'floating shelves',
-// Furniture Hardware & Storage Accessories (11 items)
-'decorative shelf anchors', 'decorative shelf riser', 'media cabinet anti tip strap', 'media cabinet door catch', 'media cabinet door magnet', 'media cabinet hinge set', 'media cabinet leveling feet', 'media cabinet shelf pins', 'media cabinet shelf supports', 'television riser shelf',
-// TV & Home Theater (60 items)
-'AV receiver', 'AV receiver remote', 'Bluetooth receiver', 'CD player', 'HDMI audio extractor', 'HDMI cable extender', 'HDMI splitter', 'HDMI switch', 'RCA cable set', 'TV antenna',
-'USB C to HDMI adapter', 'audio amplifier', 'blu ray cleaning disc', 'blu ray disc storage case', 'blu ray remote cover', 'blu ray storage case', 'cassette player', 'coax splitter', 'disc resurfacing kit', 'disc sleeves',
-'media storage binder', 'optical audio cable', 'phono preamp', 'projector', 'projector HDMI cable', 'projector carry case', 'projector keystone remote', 'projector lens cap', 'projector remote', 'projector screen',
-'projector stand', 'remote control charging station', 'remote control holder', 'remote control label stickers', 'remote control silicone cover', 'remote controls', 'remote organizer tray', 'smart television', 'sound bar HDMI ARC cable', 'sound bar cable kit',
-'sound bar power cord', 'speaker wire', 'speaker wire banana plugs', 'speaker wire management clips', 'speaker wire spool', 'streaming device Ethernet adapter', 'streaming device power adapter', 'streaming stick', 'streaming stick extender', 'subwoofer isolation pad',
-'subwoofer power cord', 'surround speakers', 'tv mounting screws', 'tv screen cleaner kit', 'tv surge protector', 'cd storage sleeves', 'dvd media cabinet', 'dvd organizer cabinet', 'dvd storage shelf',
-// Gaming & Games (55 items)
-'DJ controller', 'LED strip light controller', 'VR headset cable management kit', 'VR headset carry case', 'VR headset charging dock', 'VR headset face cushion', 'VR headset lens cover', 'backgammon set', 'board game card sleeves', 'board game organizer box',
-'board game shelf unit', 'board game storage drawers', 'card deck case', 'card deck organizer case', 'checkers set', 'chess set', 'console controller battery pack', 'controller charging cable', 'controller silicone case', 'controller thumb grips',
-'controller trigger grips', 'dice set', 'dice tray', 'domino set', 'game console travel case', 'game console vertical stand', 'game controller charging dock', 'game controller wall mount', 'game controllers', 'game disc storage binder',
-'game shelf labels', 'game timer', 'gaming chair floor mat', 'gaming chair footrest', 'gaming chair headrest pillow', 'gaming headset case', 'gaming headset charging dock', 'gaming headset stand', 'gaming keyboard', 'gaming keyboard wrist rest',
-'gaming mouse', 'gaming router', 'poker chip set', 'puzzle frame', 'puzzle glue', 'puzzle organizer trays', 'puzzle saver sheets', 'puzzle sorting trays', 'puzzle storage mat', 'trading card binder',
-'trading card sleeves', 'vr controller stand', 'vr headset storage stand',
-// Networking & Smart Home (18 items)
-'UPS battery backup', 'WiFi range extender', 'ethernet cable spool', 'ethernet coupler', 'modem coax cable', 'modem surge protector', 'network cable organizer', 'network switch', 'router ethernet cable', 'smart LED light strip',
-'smart dimmer plug', 'smart display', 'smart light bulb', 'smart light switch', 'smart thermostat', 'smart thermostat sensor', 'wifi booster stand', 'wifi extender wall plate',
-// Power, Charging & Lighting Accessories (39 items)
-'LED strip light corner connectors', 'LED strip light diffuser channel', 'LED strip lights', 'USB C extension cable', 'USB C hub', 'USB wall charger multi port', 'bedside lamp smart bulb', 'charging cable sleeves', 'charging hub multi device', 'extension cord floor cover',
-'extension cord storage bag', 'fairy lights', 'lamp cord floor cover', 'lamp cord grommet', 'lamp cord protector sleeve', 'lamp shade clip adapter', 'lamp shade diffuser', 'lamp shade spider adapter', 'lamp smart bulb', 'light bulb changer pole',
-'light bulb storage organizer', 'phone charging cable spare', 'phone charging dock', 'phone stand dock', 'portable power bank', 'power bank charging dock', 'power strip cord wrap', 'power strip extension', 'power strip mounting brackets', 'power strip with USB',
-'string lights indoor', 'surge protector backup battery', 'surge protector outlet cover', 'surge protector power conditioner', 'wireless charging pad', 'wireless charging stand',
-// Lamps, Fans & Climate Appliances (16 items)
-'ceiling fan blade screws', 'ceiling fan light kit', 'desk lamp', 'desk lamp bulb spare', 'desk lamp dimmer cord', 'fan heater', 'fan heater remote', 'fan heater safety grill', 'fan heater thermostat knob', 'fan pull chain',
-'portable AC filter',
-// Rugs & Floor (6 items)
-'area rug corner protectors', 'area rug storage roll', 'floor runner', 'rug anti slip tape', 'rug corner grippers', 'rug vacuum attachment',
-// Wall Decor & Accents (48 items)
-'aromatherapy spray', 'art print', 'canvas art storage bin', 'decorative garland', 'decorative lantern', 'decorative sculpture', 'decorative tray acrylic', 'decorative tray marble', 'decorative tray rattan', 'diffuser refill oils',
-'flameless candles', 'floor lantern', 'frame bumpers', 'frame corner protectors', 'frame hanging wire kit', 'frame mat board', 'full length mirror', 'full length mirror stand', 'incense holder', 'incense sticks',
-'macrame wall hanging', 'picture frame backing', 'picture frame cleaning kit', 'picture frame corner protectors', 'picture light', 'picture light remote', 'remote candles', 'room spray bottle', 'tapestry hanger', 'vase set',
-'wall art adhesive strips', 'wall clock battery', 'wall clock mounting hook', 'wall clock spare hands', 'wall decals', 'wall decals remover', 'wall hook decorative', 'wall repair patch kit', 'wall shelves decorative set', 'wall tapestry',
-'wick trimmer', 'window shade repair kit', 'loft railing decor lights',
-// Bedding, Pillows & Sleep (57 items)
-'air mattress', 'air mattress electric pump', 'air mattress patch kit', 'alarm clock', 'alarm clock backup battery', 'alarm clock battery pack', 'alarm clock decorative', 'bed wedge pillow cover', 'bedside lamp', 'bedspread',
-'blanket basket', 'blanket set', 'blanket storage trunk', 'blanket storage vacuum bag', 'comforter', 'daybed', 'daybed bedding set', 'daybed frame bolts', 'daybed frame support', 'daybed mattress',
-'daybed mattress protector', 'daybed pillow shams', 'daybed storage drawers', 'daybed throw pillows', 'duvet cover', 'duvet insert', 'ear plugs', 'extra blanket set', 'extra pillow set spare', 'extra sheet set',
-'mattress bag', 'mattress encasement', 'mattress lifting strap', 'mattress protector', 'mattress strap handles', 'mattress topper', 'mattress vacuum bag', 'mattress wedge pillow', 'pillow set', 'quilt set',
-'sheet set', 'sleep mask', 'throw blanket spare', 'trundle bed', 'trundle bed linens', 'trundle bed wheels', 'trundle mattress', 'trundle mattress protector', 'weighted blanket', 'white noise machine',
-'air pump', 'air pump adapter set', 'air pump hose',
-// Home Office (100 items)
-'ID badge lanyard', 'accordion file organizer', 'air purifier air quality monitor', 'barcode scanner', 'bulletin board', 'bulletin board cork refill', 'bulletin board eraser', 'bulletin board pins', 'business card holder', 'desk',
-'desk cable grommet', 'desk cable organizer tray', 'desk chair', 'desk clamp cup holder', 'desk clamp headphone hook', 'desk cord grommet insert', 'desk drawer dividers', 'desk drawer lock', 'desk drawer lock cylinder', 'desk foot hammock',
-'desk hutch organizer', 'desk organizer', 'desk speakers', 'desktop organizer tray', 'easel tabletop', 'file label maker', 'filing cabinet', 'filing cabinet anti tip kit', 'filing cabinet divider rails', 'filing cabinet key spare',
-'heart rate monitor strap', 'humidifier cleaning tablets', 'keyboard bench', 'keyboard cleaning brush', 'keyboard music rest', 'keyboard piano', 'keyboard power adapter', 'keyboard stand', 'keyboard stand adjustable', 'keyboard sustain pedal',
-'label printer', 'laptop anti theft cable', 'laptop privacy filter', 'laptop privacy screen', 'laptop sleeve case', 'monitor VESA mount kit', 'monitor desk clamp arm dual', 'monitor screen hood', 'name badge holder', 'office chair floor protectors',
-'office chair mat', 'paper shredder', 'paper shredder oil', 'paper shredder oil bottle', 'portable document scanner', 'printer', 'printer cable', 'printer dust cover', 'printer ink cartridges', 'printer ink refill kit',
-'printer paper', 'printer paper catch tray', 'printer toner cartridge', 'receipt organizer', 'scanner', 'scanner cable', 'scanner cable spare', 'scanner cleaning kit', 'scanner stand', 'shipping scale',
-'studio headphones', 'tablet keyboard case', 'tablet stand', 'tablet stand adjustable', 'tax document organizer', 'thermal label roll', 'under desk CPU mount', 'under desk cable tray basket', 'whiteboard', 'whiteboard cleaner spray',
-'whiteboard eraser set', 'whiteboard markers', 'wireless keyboard', 'wireless keyboard cover', 'wireless keyboard wrist rest', 'wireless mouse pad', 'writing pad blotter', 'mouse pad large', 'mouse wrist pad',
-// Home Office & Storage Accessories (68 items)
-'USB flash drive case', 'Velcro cable ties', 'art supply drawer organizer', 'book collection', 'book display stand', 'book storage bin', 'book storage box', 'book storage crate', 'book storage shelf', 'bookend set',
-'cable concealment channel', 'cable label tags', 'cable management sleeves', 'cable organizer box', 'cable raceway kit', 'cable wrap', 'closet drawer unit', 'closet hanging organizer', 'closet organizer', 'closet rod brackets',
-'closet rod cap', 'coat hanger set', 'drawer label set', 'drawer liner roll', 'external SSD drive', 'file folder expanding', 'file folder organizer box', 'file folders', 'filing storage crate', 'hard drive anti static bags',
-'hard drive docking station', 'instrument cable organizer', 'instrument cable wrap', 'magazine storage box', 'plastic storage drawers', 'rolling cart', 'rolling cart hooks', 'rolling cart organizer tray', 'rolling cart pegboard', 'rolling file cart',
-'shelf storage baskets', 'storage bin divider inserts', 'storage bin dolly', 'storage bin handle grips', 'storage bin label set', 'storage bin lids', 'storage cube inserts', 'umbrella rack liner', 'umbrella stand decorative', 'zip tie pack',
-'file storage crate', 'filing crate lid', 'filing crate organizer',
-// Clothing, Laundry & Garment Care (51 items)
-'belt hanger', 'closet shelf basket', 'clothing rack', 'clothing rack caster locks', 'clothing rack cover', 'clothing rack end caps', 'clothing rack extension bar', 'clothing rack wheels', 'clothing steamer', 'fabric shaver',
-'folding drying rack', 'garment bag', 'garment bag zipper repair kit', 'garment rack', 'garment rack cover', 'garment rack hanger set', 'garment rack hanging hooks', 'garment rack shelf insert', 'hamper deodorizer', 'hanger set',
-'iron', 'iron cleaner', 'iron cleaning stick', 'iron rest pad', 'iron storage rack', 'ironing board', 'ironing board cover', 'ironing board hanger', 'ironing board padding', 'laundry bag',
-'laundry basket', 'laundry basket lid', 'laundry basket stacker', 'laundry basket wheels', 'laundry hamper', 'laundry hamper cover', 'laundry hamper divider insert', 'laundry hamper liner', 'laundry sorter', 'pants hanger',
-'sewing kit', 'sewing machine', 'sewing machine foot set', 'sewing machine small', 'sewing thread kit', 'sewing thread organizer', 'shoe organizer hanging', 'steamer water cup', 'suit hanger', 'velvet hangers',
-// Music & Audio (70 items)
-'audio interface', 'drum practice pad', 'drum sticks', 'guitar', 'guitar cable', 'guitar capo', 'guitar case hard', 'guitar case hard shell', 'guitar case soft', 'guitar picks',
-'guitar stand', 'guitar strap', 'guitar strap locks', 'guitar strings pack', 'guitar tuner', 'guitar wall hanger', 'harmonica', 'headset mic windscreen', 'instrument cable repair kit', 'instrument cables',
-'instrument case', 'instrument cleaning cloth', 'instrument tuner', 'metronome', 'mic stand boom attachment', 'microphone', 'microphone boom arm', 'microphone cable', 'microphone shock mount', 'microphone stand',
-'microphone stand boom arm', 'microphone storage case', 'mixer board', 'music sheet binder', 'music sheet storage binder', 'music stand', 'music stand light', 'piano bench cushion', 'record cleaning kit', 'record display frame',
-'record divider tabs', 'record storage crate', 'record storage shelf', 'speaker cable', 'speaker cable banana plugs', 'speaker grille cloth', 'speaker isolation pads', 'speaker isolation stands', 'speaker stands floor', 'speaker system',
-'turntable dust cover', 'turntable needle', 'turntable slipmat', 'ukulele', 'ukulele stand', 'vinyl cleaning brush', 'vinyl player', 'vinyl record cleaner', 'vinyl record sleeves', 'vinyl storage bin',
-'vinyl storage shelf', 'violin', 'violin case', 'headphone cable extension', 'headphone splitter', 'speaker stand floor',
-// Art, Crafts & Hobbies (71 items)
-'acrylic paint set', 'art supplies box', 'art supply caddy', 'art supply organizer case', 'bobbin case', 'brush cleaning soap', 'canvas carrying case', 'canvas panels', 'canvas roll', 'canvas storage bin',
-'charcoal pencils', 'colored pencils', 'craft cutting mat', 'craft organizer bins', 'craft organizer drawer', 'craft organizer drawer unit', 'craft storage box', 'craft table', 'crochet hooks set', 'drawing board',
-'easel', 'easel clamp', 'easel light', 'easel storage hook', 'easel storage rack', 'eraser kneaded', 'fabric storage bin', 'glue gun', 'glue gun sticks', 'hot glue gun stand',
-'knitting needles set', 'markers art', 'oil paint set', 'paint brush holder', 'paint brush set', 'paint palette', 'paint palette tray', 'paint pens', 'paint storage rack', 'paint supplies',
-'paper cutter', 'paper trimmer blade', 'pastel set', 'pattern envelopes', 'pencil case', 'portfolio case', 'rotary cutter', 'scissors craft', 'scrapbook album', 'scrapbook paper',
-'scrapbook stickers', 'sharpener handheld', 'sketch pad drawer', 'sketch pad organizer', 'sketch pad portfolio', 'sketch pads', 'sketching pencils set', 'stitch markers', 'stretched canvas', 'tape runner',
-'thread rack', 'touch up paint pen', 'washi tape set', 'watercolor paint set', 'watercolor paper pad', 'yarn basket', 'yarn spool organizer', 'yarn storage cube', 'yarn storage tote', 'yarn winder',
-'palette knives',
-// Fitness & Exercise (61 items)
-'adjustable dumbbell set', 'ankle weights', 'balance board', 'bike floor stabilizer mat', 'dumbbell collars', 'dumbbell floor mat', 'dumbbell rack', 'dumbbell rack stand', 'dumbbell rack vertical', 'dumbbells',
-'exercise ball', 'exercise ball pump', 'exercise equipment storage rack', 'exercise mat', 'exercise mat rack', 'exercise mat storage strap', 'fitness tracker', 'foam roller', 'foam roller rack', 'foam roller storage bin',
-'foam roller storage rack', 'foam roller textured', 'jump rope', 'jump rope mat', 'kettlebell', 'kettlebell floor pad', 'kettlebell handle grips', 'kettlebell rack', 'kettlebell storage tray', 'massage gun',
-'massage gun heads', 'pilates ring', 'pull up bar doorway', 'resistance band door anchor', 'resistance band hanger', 'resistance band organizer', 'resistance band set', 'resistance bands', 'stationary bike', 'stationary bike cover',
-'stationary bike mat', 'stationary bike mat protector', 'stationary bike pedal straps', 'stationary bike seat cover', 'stretch strap', 'treadmill', 'treadmill cover', 'treadmill lubricant', 'treadmill mat', 'treadmill safety key',
-'treadmill safety key spare', 'weight bench', 'weight bench pad', 'wrist weights', 'yoga block', 'yoga mat bag', 'yoga mat cleaner', 'yoga mat strap', 'yoga strap', 'yoga wheel',
-// Climate & Air Quality (14 items)
-'air purifier carbon filter', 'air purifier pre filter', 'air purifier spare filter', 'dehumidifier drain hose extension', 'dehumidifier drain pump', 'dehumidifier water bucket', 'humidifier cleaning brush', 'humidifier spare filter', 'humidifier water filter', 'portable heater safety tip switch',
-'safe dehumidifier rod', 'thermostat', 'thermostat battery',
-// Safety & Security (24 items)
-'battery powered lantern', 'camera memory card', 'camera power extension cable', 'carbon monoxide backup unit', 'fire blanket', 'fire escape ladder', 'fire extinguisher inspection tag', 'fire extinguisher wall cabinet', 'first aid cabinet', 'first aid organizer tray',
-'first aid refill pack', 'first aid supplies organizer', 'floor safe', 'motion sensor batteries', 'safe lock box', 'security camera base station', 'security camera cable', 'security camera privacy cover', 'smoke detector backup unit', 'smoke detector battery',
+        Loft: [
+// Recliner & chairs
+'recliner', 'recliner hand control', 'recliner power supply', 'recliner battery pack', 'recliner USB charger module', 'recliner side pocket organizer', 'recliner headrest cover', 'rocking chair', 'glider chair', 'swivel chair',
+'wingback chair', 'barrel chair', 'club chair', 'club chair ottoman', 'papasan chair', 'massage chair', 'massage chair remote', 'massage chair cover', 'accent chair cushion', 'accent chair slipcover',
+'accent chair arm covers', 'accent chair armrest pads', 'accent chair leg felt pads', 'accent chair leg protectors', 'accent chair seat protector',
+// Sofa & loveseat
+'sofa slipcover', 'sofa cushion cover set', 'sofa cushion inserts', 'sofa armrest cover', 'sofa armrest tray', 'sofa headrest pillow', 'sofa anti slip grippers', 'sofa caster cups', 'sofa furniture risers', 'sofa leg levelers',
+'sofa frame brackets', 'sofa frame repair braces', 'sofa spring repair kit', 'sofa chaise attachment', 'sectional connector brackets', 'sectional cushion covers', 'loveseat cover', 'loveseat cushion cover set', 'loveseat armrest covers', 'loveseat armrest tray',
+'loveseat leg pads', 'chaise lounge', 'chaise lounge cushion', 'chaise lounge slipcover',
+// Sofa bed
+'fold out sofa bed', 'sofa bed mattress pad', 'sofa bed mattress cover', 'sofa bed sheet set', 'sofa bed mechanism kit',
+// Ottomans, benches & stools
+'accent bench', 'accent bench cushion', 'accent bench leg pads', 'accent bench storage bin', 'ottoman caster wheels', 'ottoman foam insert', 'storage ottoman tray top', 'window seat cushion cover', 'window seat drawer organizer', 'window seat storage bin',
+'stools', 'stool seat cover', 'folding chairs', 'folding chair leg caps', 'folding floor chair', 'floor rocker chair',
+// Floor seating
+'floor pouf', 'floor cushion cover', 'floor cushion insert', 'floor cushion storage bag', 'floor seating mat', 'floor seating pillows', 'bean bag inner liner', 'bean bag refill beads', 'bean bag refill pack', 'meditation cushion',
+'meditation cushion cover',
+// Pillows & blankets
+'throw pillow covers', 'throw pillow insert spare', 'lumbar pillow insert', 'down pillow insert', 'pillow protector set', 'pillow protectors', 'pillowcase set extra', 'blanket ladder', 'blanket hooks', 'blanket clips',
+'throw blanket clips', 'blanket hamper', 'bed sheet fasteners', 'sheet suspenders',
+// Side & coffee tables
+'sofa side table', 'C shaped side table', 'side table decor tray', 'side table drawer organizer', 'side table shelf liner', 'side table cable grommet cover', 'end table corner protectors', 'bedside table', 'bedside table coaster', 'coffee table coasters set',
+'coffee table glass top', 'coffee table runner', 'coffee table storage baskets', 'coffee table leg levelers', 'coffee table leg pads', 'coffee table scratch repair kit', 'drink table', 'martini table', 'nesting table set', 'nesting tables',
+'tray table', 'TV tray table set', 'folding snack table', 'folding table', 'folding table carry bag', 'folding table leg caps',
+// Shelving & display
+'display shelf', 'display shelf acrylic stands', 'display shelf risers', 'book display shelf', 'cube storage shelf', 'storage cube shelf', 'storage cube inserts', 'shelf edge guard', 'floating shelves', 'floating shelf LED strip',
+'decorative shelf anchors', 'decorative shelf riser', 'console table cable management basket', 'console table shelf riser', 'craft storage cabinet', 'broom storage cabinet',
+// TV stand & media cabinets
+'television riser shelf', 'TV stand cable pass through', 'TV stand caster wheels', 'TV stand door bumpers', 'TV stand ventilation fan', 'media console shelves', 'media console door hinges', 'media cabinet hinge set', 'media cabinet door catch', 'media cabinet door magnet',
+'media cabinet leveling feet', 'media cabinet shelf pins', 'media cabinet shelf supports', 'media cabinet anti tip strap', 'dvd media cabinet', 'dvd organizer cabinet', 'dvd storage shelf',
+// Bar cart
+'bar cart', 'bar cart accessory hooks', 'bar cart anti slip mat', 'bar cart corner guards', 'bar cart cover', 'bar cart stemware hanger', 'bar cart tool caddy',
+// TV, streaming & remotes
+'smart television', 'tv mounting screws', 'tv screen cleaner kit', 'tv surge protector', 'TV antenna', 'coax splitter', 'streaming stick', 'streaming stick extender', 'streaming device Ethernet adapter', 'streaming device power adapter',
+'remote controls', 'remote organizer tray', 'remote control holder', 'remote control charging station', 'remote control silicone cover', 'remote control label stickers',
+// Audio equipment
+'AV receiver', 'AV receiver remote', 'audio amplifier', 'Bluetooth receiver', 'CD player', 'cassette player', 'phono preamp', 'surround speakers', 'subwoofer isolation pad', 'subwoofer power cord',
+'sound bar cable kit', 'sound bar HDMI ARC cable', 'sound bar power cord', 'speaker wire', 'speaker wire spool', 'speaker wire banana plugs', 'speaker wire management clips', 'RCA cable set', 'optical audio cable', 'HDMI audio extractor',
+// HDMI & adapters
+'HDMI switch', 'HDMI splitter', 'HDMI cable extender', 'USB C to HDMI adapter',
+// Discs & media storage
+'blu ray storage case', 'blu ray disc storage case', 'blu ray cleaning disc', 'blu ray remote cover', 'disc sleeves', 'cd storage sleeves', 'disc resurfacing kit', 'media storage binder',
+// Projector
+'projector', 'projector screen', 'projector stand', 'projector remote', 'projector keystone remote', 'projector HDMI cable', 'projector carry case', 'projector lens cap',
+// Gaming gear
+'game controllers', 'game controller charging dock', 'game controller wall mount', 'controller charging cable', 'controller silicone case', 'controller thumb grips', 'controller trigger grips', 'console controller battery pack', 'game console vertical stand', 'game console travel case',
+'game disc storage binder', 'game shelf labels', 'game timer', 'gaming headset stand', 'gaming headset charging dock', 'gaming headset case', 'gaming keyboard', 'gaming keyboard wrist rest', 'gaming mouse', 'gaming router',
+'gaming chair footrest', 'gaming chair headrest pillow', 'gaming chair floor mat',
+// VR
+'VR headset charging dock', 'VR headset carry case', 'VR headset cable management kit', 'VR headset face cushion', 'VR headset lens cover', 'vr headset storage stand', 'vr controller stand',
+// Board games & puzzles
+'chess set', 'checkers set', 'backgammon set', 'domino set', 'dice set', 'dice tray', 'poker chip set', 'card deck case', 'card deck organizer case', 'board game organizer box',
+'board game storage drawers', 'board game shelf unit', 'board game card sleeves', 'trading card binder', 'trading card sleeves', 'puzzle frame', 'puzzle glue', 'puzzle saver sheets', 'puzzle storage mat', 'puzzle organizer trays',
+'puzzle sorting trays',
+// Wi-Fi & networking
+'WiFi range extender', 'wifi extender wall plate', 'wifi booster stand', 'network switch', 'ethernet coupler', 'ethernet cable spool', 'router ethernet cable', 'modem coax cable', 'modem surge protector', 'network cable organizer',
+'UPS battery backup',
+// Smart home
+'smart thermostat', 'smart thermostat sensor', 'smart display', 'smart light bulb', 'smart light switch', 'smart dimmer plug', 'smart LED light strip', 'LED strip light controller',
+// Power & charging
+'power strip with USB', 'power strip extension', 'power strip cord wrap', 'power strip mounting brackets', 'surge protector backup battery', 'surge protector outlet cover', 'surge protector power conditioner', 'extension cord floor cover', 'extension cord storage bag', 'USB wall charger multi port',
+'charging hub multi device', 'charging cable sleeves', 'phone charging dock', 'phone charging cable spare', 'phone stand dock', 'wireless charging pad', 'wireless charging stand', 'portable power bank', 'power bank charging dock', 'USB C hub',
+'USB C extension cable',
+// Lamps & bulbs
+'desk lamp', 'desk lamp bulb spare', 'desk lamp dimmer cord', 'bedside lamp', 'bedside lamp smart bulb', 'lamp smart bulb', 'lamp shade clip adapter', 'lamp shade diffuser', 'lamp shade spider adapter', 'lamp cord floor cover',
+'lamp cord grommet', 'lamp cord protector sleeve', 'light bulb changer pole', 'light bulb storage organizer',
+// LED & string lights
+'LED strip lights', 'LED strip light corner connectors', 'LED strip light diffuser channel', 'fairy lights', 'string lights indoor', 'loft railing decor lights',
+// Fans & heaters
+'fan heater', 'fan heater remote', 'fan heater safety grill', 'fan heater thermostat knob', 'ceiling fan light kit', 'ceiling fan blade screws', 'fan pull chain', 'portable AC filter',
+// Rugs
+'floor runner', 'area rug corner protectors', 'area rug storage roll', 'rug anti slip tape', 'rug corner grippers', 'rug vacuum attachment',
+// Wall art, frames & mirrors
+'art print', 'wall tapestry', 'tapestry hanger', 'macrame wall hanging', 'wall decals', 'wall decals remover', 'wall hook decorative', 'wall shelves decorative set', 'wall art adhesive strips', 'picture light',
+'picture light remote', 'picture frame backing', 'picture frame cleaning kit', 'picture frame corner protectors', 'frame bumpers', 'frame corner protectors', 'frame hanging wire kit', 'frame mat board', 'canvas art storage bin', 'full length mirror',
+'full length mirror stand', 'wall clock battery', 'wall clock mounting hook', 'wall clock spare hands', 'wall repair patch kit', 'window shade repair kit', 'photo album',
+// Decor & candles
+'vase set', 'decorative sculpture', 'decorative garland', 'decorative lantern', 'floor lantern', 'decorative tray acrylic', 'decorative tray marble', 'decorative tray rattan', 'flameless candles', 'remote candles',
+'wick trimmer', 'incense holder', 'incense sticks', 'aromatherapy spray', 'diffuser refill oils', 'room spray bottle',
+// Daybed
+'daybed', 'daybed mattress', 'daybed mattress protector', 'daybed bedding set', 'daybed pillow shams', 'daybed throw pillows', 'daybed storage drawers', 'daybed frame support', 'daybed frame bolts',
+// Trundle bed
+'trundle bed', 'trundle mattress', 'trundle mattress protector', 'trundle bed linens', 'trundle bed wheels',
+// Air mattress
+'air mattress', 'air mattress electric pump', 'air mattress patch kit', 'air pump', 'air pump hose', 'air pump adapter set',
+// Bedding
+'sheet set', 'extra sheet set', 'comforter', 'duvet cover', 'duvet insert', 'bedspread', 'blanket set', 'extra blanket set', 'quilt set', 'throw blanket spare',
+'weighted blanket', 'pillow set', 'extra pillow set spare', 'mattress topper', 'mattress protector', 'mattress encasement', 'mattress bag', 'mattress vacuum bag', 'mattress strap handles', 'mattress lifting strap',
+'mattress wedge pillow', 'bed wedge pillow cover', 'blanket basket', 'blanket storage trunk', 'blanket storage vacuum bag',
+// Sleep & bedside
+'alarm clock', 'alarm clock decorative', 'alarm clock backup battery', 'alarm clock battery pack', 'white noise machine', 'sleep mask', 'ear plugs',
+// Desk & office chair
+'desk', 'desk chair', 'desk organizer', 'desktop organizer tray', 'desk hutch organizer', 'desk drawer dividers', 'desk drawer lock', 'desk drawer lock cylinder', 'desk cable grommet', 'desk cord grommet insert',
+'desk cable organizer tray', 'desk clamp cup holder', 'desk clamp headphone hook', 'desk foot hammock', 'desk speakers', 'writing pad blotter', 'office chair mat', 'office chair floor protectors', 'office chair armrest pads',
+// Computer accessories
+'laptop sleeve case', 'laptop privacy filter', 'laptop privacy screen', 'laptop anti theft cable', 'monitor VESA mount kit', 'monitor desk clamp arm dual', 'monitor screen hood', 'under desk CPU mount', 'under desk cable tray basket', 'wireless keyboard',
+'wireless keyboard cover', 'wireless keyboard wrist rest', 'wireless mouse pad', 'mouse pad large', 'mouse wrist pad', 'keyboard cleaning brush', 'tablet stand', 'tablet stand adjustable', 'tablet keyboard case', 'USB flash drive case',
+'external SSD drive', 'hard drive docking station', 'hard drive anti static bags',
+// Printer & scanner
+'printer', 'printer cable', 'printer paper', 'printer paper catch tray', 'printer ink cartridges', 'printer ink refill kit', 'printer toner cartridge', 'printer dust cover', 'scanner', 'scanner stand',
+'scanner cable', 'scanner cable spare', 'scanner cleaning kit', 'portable document scanner', 'barcode scanner', 'label printer', 'thermal label roll', 'file label maker', 'paper shredder', 'paper shredder oil',
+'paper shredder oil bottle', 'shipping scale',
+// Filing & documents
+'filing cabinet', 'filing cabinet divider rails', 'filing cabinet anti tip kit', 'filing cabinet key spare', 'accordion file organizer', 'file folders', 'file folder expanding', 'file folder organizer box', 'filing storage crate', 'file storage crate',
+'filing crate lid', 'filing crate organizer', 'receipt organizer', 'tax document organizer', 'business card holder', 'name badge holder', 'ID badge lanyard',
+// Whiteboards & bulletin boards
+'whiteboard', 'whiteboard markers', 'whiteboard eraser set', 'whiteboard cleaner spray', 'bulletin board', 'bulletin board pins', 'bulletin board eraser', 'bulletin board cork refill',
+// Cable management
+'cable organizer box', 'cable management sleeves', 'cable wrap', 'cable raceway kit', 'cable concealment channel', 'cable label tags', 'Velcro cable ties', 'zip tie pack',
+// Books & magazines
+'book collection', 'bookend set', 'book display stand', 'book storage shelf', 'book storage box', 'book storage bin', 'book storage crate', 'magazine storage box',
+// Closet & drawers
+'closet organizer', 'closet drawer unit', 'closet hanging organizer', 'closet shelf basket', 'closet rod brackets', 'closet rod cap', 'coat hanger set', 'drawer label set', 'drawer liner roll', 'plastic storage drawers',
+// Rolling carts & storage bins
+'rolling cart', 'rolling cart hooks', 'rolling cart organizer tray', 'rolling cart pegboard', 'rolling file cart', 'shelf storage baskets', 'storage bin divider inserts', 'storage bin dolly', 'storage bin handle grips', 'storage bin label set',
+'storage bin lids', 'umbrella stand decorative', 'umbrella rack liner',
+// Clothing racks & hangers
+'clothing rack', 'garment rack', 'clothing rack cover', 'clothing rack end caps', 'clothing rack extension bar', 'clothing rack wheels', 'clothing rack caster locks', 'garment rack cover', 'garment rack hanger set', 'garment rack hanging hooks',
+'garment rack shelf insert', 'hanger set', 'pants hanger', 'suit hanger', 'velvet hangers', 'belt hanger', 'garment bag', 'garment bag zipper repair kit', 'shoe organizer hanging',
+// Ironing & garment care
+'iron', 'iron cleaner', 'iron cleaning stick', 'iron rest pad', 'iron storage rack', 'ironing board', 'ironing board cover', 'ironing board hanger', 'ironing board padding', 'clothing steamer',
+'steamer water cup', 'fabric shaver',
+// Laundry
+'laundry basket', 'laundry basket lid', 'laundry basket stacker', 'laundry basket wheels', 'laundry hamper', 'laundry hamper cover', 'laundry hamper divider insert', 'laundry hamper liner', 'laundry bag', 'laundry sorter',
+'folding drying rack', 'hamper deodorizer',
+// Sewing
+'sewing machine', 'sewing machine small', 'sewing machine foot set', 'sewing kit', 'sewing thread kit', 'sewing thread organizer', 'bobbin case', 'thread rack', 'pattern envelopes',
+// Guitar
+'guitar', 'guitar case hard', 'guitar case hard shell', 'guitar case soft', 'guitar stand', 'guitar wall hanger', 'guitar strap', 'guitar strap locks', 'guitar strings pack', 'guitar picks',
+'guitar capo', 'guitar tuner', 'guitar cable',
+// Piano keyboard
+'keyboard piano', 'keyboard stand', 'keyboard stand adjustable', 'keyboard bench', 'keyboard sustain pedal', 'keyboard power adapter', 'keyboard music rest', 'piano bench cushion',
+// Other instruments
+'ukulele', 'ukulele stand', 'violin', 'violin case', 'harmonica', 'drum practice pad', 'drum sticks', 'metronome', 'instrument tuner', 'instrument case',
+'instrument cables', 'instrument cable organizer', 'instrument cable wrap', 'instrument cable repair kit', 'instrument cleaning cloth',
+// Music stands & sheet music
+'music stand', 'music stand light', 'music sheet binder', 'music sheet storage binder',
+// Microphones & recording
+'microphone', 'microphone stand', 'microphone stand boom arm', 'microphone boom arm', 'mic stand boom attachment', 'microphone cable', 'microphone shock mount', 'microphone storage case', 'headset mic windscreen', 'audio interface',
+'mixer board', 'DJ controller', 'studio headphones', 'headphone cable extension', 'headphone splitter',
+// Speakers & vinyl records
+'speaker system', 'speaker cable', 'speaker cable banana plugs', 'speaker grille cloth', 'speaker isolation pads', 'speaker isolation stands', 'speaker stands floor', 'speaker stand floor', 'vinyl player', 'turntable dust cover',
+'turntable needle', 'turntable slipmat', 'record cleaning kit', 'vinyl record cleaner', 'vinyl cleaning brush', 'vinyl record sleeves', 'record display frame', 'record divider tabs', 'record storage crate', 'record storage shelf',
+'vinyl storage bin', 'vinyl storage shelf',
+// Easel & painting
+'easel', 'easel tabletop', 'easel clamp', 'easel light', 'easel storage hook', 'easel storage rack', 'paint brush set', 'paint brush holder', 'brush cleaning soap', 'paint palette',
+'paint palette tray', 'palette knives', 'acrylic paint set', 'oil paint set', 'watercolor paint set', 'watercolor paper pad', 'paint pens', 'paint storage rack', 'paint supplies', 'touch up paint pen',
+'canvas panels', 'canvas roll', 'stretched canvas', 'canvas carrying case', 'canvas storage bin',
+// Drawing & sketching
+'sketch pads', 'sketch pad portfolio', 'sketch pad organizer', 'sketch pad drawer', 'sketching pencils set', 'colored pencils', 'charcoal pencils', 'pastel set', 'markers art', 'eraser kneaded',
+'sharpener handheld', 'drawing board', 'pencil case', 'portfolio case',
+// Crafting
+'craft table', 'craft cutting mat', 'craft organizer bins', 'craft organizer drawer', 'craft organizer drawer unit', 'craft storage box', 'art supplies box', 'art supply caddy', 'art supply organizer case', 'art supply drawer organizer',
+'glue gun', 'glue gun sticks', 'hot glue gun stand', 'scissors craft', 'paper cutter', 'paper trimmer blade', 'rotary cutter', 'tape runner', 'washi tape set', 'scrapbook album',
+'scrapbook paper', 'scrapbook stickers',
+// Knitting & yarn
+'yarn basket', 'yarn spool organizer', 'yarn storage cube', 'yarn storage tote', 'yarn winder', 'knitting needles set', 'crochet hooks set', 'stitch markers', 'fabric storage bin',
+// Weights
+'dumbbells', 'adjustable dumbbell set', 'dumbbell collars', 'dumbbell rack', 'dumbbell rack stand', 'dumbbell rack vertical', 'dumbbell floor mat', 'kettlebell', 'kettlebell rack', 'kettlebell storage tray',
+'kettlebell floor pad', 'kettlebell handle grips', 'ankle weights', 'wrist weights', 'weight bench', 'weight bench pad',
+// Treadmill & cardio
+'treadmill', 'treadmill mat', 'treadmill cover', 'treadmill lubricant', 'treadmill safety key', 'treadmill safety key spare', 'stationary bike', 'stationary bike mat', 'stationary bike mat protector', 'stationary bike cover',
+'stationary bike seat cover', 'stationary bike pedal straps', 'bike floor stabilizer mat', 'jump rope', 'jump rope mat', 'fitness tracker', 'heart rate monitor strap',
+// Yoga & stretching
+'exercise mat', 'exercise mat rack', 'exercise mat storage strap', 'yoga mat bag', 'yoga mat cleaner', 'yoga mat strap', 'yoga block', 'yoga strap', 'yoga wheel', 'pilates ring',
+'stretch strap', 'exercise ball', 'exercise ball pump', 'balance board', 'foam roller', 'foam roller textured', 'foam roller rack', 'foam roller storage bin', 'foam roller storage rack', 'massage gun',
+'massage gun heads', 'pull up bar doorway', 'exercise equipment storage rack',
+// Resistance bands
+'resistance bands', 'resistance band set', 'resistance band door anchor', 'resistance band hanger', 'resistance band organizer',
+// Air quality & climate
+'air purifier air quality monitor', 'air purifier carbon filter', 'air purifier pre filter', 'air purifier spare filter', 'humidifier cleaning tablets', 'humidifier cleaning brush', 'humidifier spare filter', 'humidifier water filter', 'dehumidifier water bucket', 'dehumidifier drain hose extension',
+'dehumidifier drain pump', 'safe dehumidifier rod', 'thermostat', 'thermostat battery', 'portable heater safety tip switch',
+// Safety & security
+'smoke detector backup unit', 'smoke detector battery', 'carbon monoxide backup unit', 'fire extinguisher wall cabinet', 'fire extinguisher inspection tag', 'fire blanket', 'fire escape ladder', 'first aid cabinet', 'first aid organizer tray', 'first aid refill pack',
+'first aid supplies organizer', 'floor safe', 'safe lock box', 'security camera base station', 'security camera cable', 'security camera privacy cover', 'camera memory card', 'camera power extension cable', 'motion sensor batteries', 'battery powered lantern',
 'flashlight batteries',
-// Tools & Hardware (35 items)
-'adhesive hook heavy duty', 'adhesive putty', 'adhesive strip pack', 'adhesive strip refills', 'adjustable wrench', 'cordless drill', 'drill bit set', 'folding step ladder', 'hammer rubber grip', 'hammer storage hook',
-'hex key set', 'level tool', 'measuring tape holder', 'nail assortment kit', 'picture hanging hooks', 'picture hanging hooks assorted', 'picture hanging wire roll', 'pliers set', 'precision screwdriver set', 'putty knife',
-'sandpaper variety pack', 'screw assortment kit', 'screwdriver bit set', 'screwdriver magnetic holder', 'spackle kit', 'step ladder', 'tape measure spare', 'toggle bolts', 'tool box organizer tray', 'tool kit storage box',
-'toolbox', 'toolbox organizer', 'utility knife', 'wall hook heavy duty',
-// Cleaning & Vacuums (52 items)
-'all purpose cleaner refill', 'floor cleaning solution', 'glass cleaner microfiber cloth', 'glass cleaner spray bottle', 'lint free cloths', 'microfiber cloth bulk pack', 'microfiber cloth pack', 'microfiber dust mitt', 'microfiber mop', 'mop',
-'mop bucket liner', 'mop handle clip', 'mop storage hook', 'odor eliminator spray', 'robot vacuum', 'robot vacuum brush set', 'robot vacuum dock', 'robot vacuum filters', 'spray bottle set', 'spray mop',
-'spray mop pads', 'stain remover spray', 'vacuum attachments', 'vacuum crevice tool', 'vacuum dusting brush', 'vacuum extension wand', 'vacuum storage bags', 'vacuum storage hook', 'vacuum upholstery tool', 'wood floor cleaner',
+// Tools & hardware
+'toolbox', 'toolbox organizer', 'tool box organizer tray', 'tool kit storage box', 'cordless drill', 'drill bit set', 'hammer rubber grip', 'hammer storage hook', 'screwdriver bit set', 'precision screwdriver set',
+'screwdriver magnetic holder', 'hex key set', 'adjustable wrench', 'pliers set', 'level tool', 'tape measure spare', 'measuring tape holder', 'utility knife', 'putty knife', 'spackle kit',
+'sandpaper variety pack', 'nail assortment kit', 'screw assortment kit', 'toggle bolts', 'adhesive hook heavy duty', 'adhesive putty', 'adhesive strip pack', 'adhesive strip refills', 'picture hanging hooks', 'picture hanging hooks assorted',
+'picture hanging wire roll', 'wall hook heavy duty', 'step ladder', 'folding step ladder',
+// Vacuums
+'robot vacuum', 'robot vacuum dock', 'robot vacuum brush set', 'robot vacuum filters', 'vacuum attachments', 'vacuum crevice tool', 'vacuum dusting brush', 'vacuum extension wand', 'vacuum upholstery tool', 'vacuum storage bags',
+'vacuum storage hook',
+// Mops & floor cleaning
+'mop', 'microfiber mop', 'mop bucket liner', 'mop handle clip', 'mop storage hook', 'spray mop', 'spray mop pads', 'floor cleaning solution', 'wood floor cleaner',
+// Surface cleaning & cloths
+'all purpose cleaner refill', 'glass cleaner spray bottle', 'glass cleaner microfiber cloth', 'microfiber cloth pack', 'microfiber cloth bulk pack', 'microfiber dust mitt', 'lint free cloths', 'spray bottle set', 'stain remover spray', 'odor eliminator spray',
 'disposable wipes refill', 'funnel set',
-// Trash, Recycling & Paper Products (11 items)
-'recycling bin liner', 'recycling sorter bins', 'trash can step lid', 
-
-// Seasonal & Long-Term Storage (35 items)
-'photo album',
+// Trash & recycling
+'trash can step lid', 'recycling bin liner', 'recycling sorter bins',
 // TOTAL: 1067 items        
 ],
 

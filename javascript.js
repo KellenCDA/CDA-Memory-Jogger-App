@@ -163,95 +163,104 @@
 'pet bowls', 'pet food bin', 'pet food storage container',
 // TOTAL: 796 items
 ],
-        'Living room': [// Sofas & Seating (50 items)
-'sofa', 'sectional sofa', 'loveseat', 'accent chair', 'recliner chair', 'power recliner', 'ottoman', 'storage ottoman', 'sofa table', 'seat cushions',
-'floor cushions', 'bean bag chair', 'folding chair', 'stool', 'entry bench', 'floor cushion', 'window seat cushion', 'storage ottoman tray', 'sectional sofa cushions', 'sofa legs',
-'sofa accent pillows', 'sofa throw blanket', 'loveseat cushions', 'recliner remote', 'recliner power cord', 'ottoman tray', 'gaming chair', 'bean bag refill', 'folding chair pads', 'stool cushion',
-'entry bench cushion', 'window seat throw pillow', 'storage ottoman lid', 'sofa arm tray', 'chair arm covers', 'ottoman storage bin', 'hallway bench', 'sofa side caddy', 'sofa cup holder', 'recliner cup holder insert',
-'ottoman storage divider', 'bean bag chair cover', 'folding chair storage rack', 'stool leg caps', 'shoe rack bench', 'storage ottoman hinges', 'sofa leg risers', 'chair floor protectors', 'seat cushion covers', 'seat cushion foam insert',
-// Tables & Storage Furniture (46 items)
-'coffee table', 'end table', 'side table', 'console table', 'bookcase', 'bookshelf', 'display cabinet', 'curio cabinet', 'china cabinet', 'corner shelf',
-'cabinet with doors', 'storage cabinet', 'drawer chest', 'accent cabinet', 'bar cabinet', 'coffee table books', 'blanket chest', 'toy chest', 'shoe rack', 'hall tree',
-'coffee table drawer organizer', 'end table lamp', 'side table decor', 'console table decor', 'bookcase decor', 'display cabinet lighting', 'curio cabinet shelves', 'storage cabinet baskets', 'drawer chest liners', 'accent cabinet hardware',
-'bar cabinet glassware', 'coffee table tray', 'shoe storage cabinet', 'coffee table book set', 'coffee table organizer', 'hallway storage cabinet', 'coffee table leg protectors', 'end table drawer liner', 'bookcase bookends', 'display cabinet locks',
-'curio cabinet light bulbs', 'storage cabinet shelf riser', 'drawer chest organizers', 'game storage cabinet', 'corner display shelf',
-// Media & Entertainment Furniture (18 items)
-'media console', 'television stand', 'entertainment center', 'rolling bar cart', 'media cabinet shelves', 'entertainment center drawers', 'bar cart wheels', 'dvd storage rack', 'game storage shelf', 'game console stand',
-'media shelf riser', 'floating media shelf', 'cd display rack', 'dvd display shelf', 'media console cable ties', 'media remote holder', 'cd storage tower', 'media shelf bracket',
-// TV & Home Theater (19 items)
-'television', 'streaming device', 'blu ray player', 'dvd player', 'sound bar', 'subwoofer', 'surround sound speakers', 'speaker stands', 'home theater receiver', 'cable box',
-'satellite receiver', 'streaming remote', 'blu ray discs', 'sound bar remote', 'speaker cables', 'receiver remote', 'bluetooth speaker stand', 'smart speaker stand',
-// Gaming (13 items)
-'game controller', 'virtual reality headset', 'game disc case', 'gaming headset', 'vr controllers', 'board game storage rack', 'game console cooling fan', 'game night storage box', 'game controller skins', 'card game storage tin',
-'game controller case', 'game console cables',
-// Remotes & Smart Home (17 items)
-'media remote', 'universal remote', 'remote control organizer', 'smart speaker', 'fan remote', 'remote batteries', 'cable management box', 'smart plug', 'smart home hub', 'space heater remote',
-'tower fan remote', 'remote finder device', 'smart bulb hub', 'bluetooth remote', 'ceiling fan remote holder', 'remote control batteries', 'smart bulb remote',
-// Networking & Tech (13 items)
-'router', 'modem', 'wifi extender', 'router stand', 'modem cables', 'wifi booster', 'router cable organizer', 'wifi signal booster', 'bluetooth transmitter', 'router backup battery',
-'modem power adapter', 'wifi extender cable',
-// Laptops, Tablets & Headphones (38 items)
-'tablet charger', 'laptop charger', 'laptop', 'tablet', 'wireless headphones', 'headphones', 'bluetooth speaker', 'cd collection', 'dvd collection', 'laptop stand',
-'tablet case', 'wireless headphone case', 'cd storage case', 'dvd binder', 'laptop storage sleeve', 'tablet charging cable', 'headphone stand', 'laptop cooling pad', 'tablet keyboard', 'wireless mouse',
-'headphone extension cable', 'cd cleaner kit', 'dvd cleaning kit', 'laptop docking station', 'tablet stylus', 'wireless headphone charger', 'dvd storage case', 'bluetooth speaker charger', 'laptop backpack', 'wireless headphone stand',
-'headphone amplifier', 'laptop carrying case',
-// Power & Charging (19 items)
-'extension cord', 'power strip', 'surge protector', 'charging station', 'phone charger', 'controller charging dock', 'battery storage box', 'extension cord reel', 'charging cable organizer', 'charging dock station',
-'battery organizer case', 'cord management clips', 'charging hub', 'battery tester', 'extension cord splitter', 'charging cable box', 'alarm sensor battery',
-// Lamps & Lighting (22 items)
-'floor lamp', 'table lamp', 'light bulbs', 'accent table lamp', 'floor lamp bulbs', 'table lamp bulbs', 'lamp finial', 'ceiling fan blades', 'fan light kit', 'accent lamp shade',
-'lamp timer switch', 'light bulb storage case', 'floor lamp dimmer', 'table lamp timer', 'table lamp harp', 'lamp shade finial', 'fan blade cleaner', 'floor plant grow light',
-// Rugs & Floor (21 items)
-'area rug', 'throw rug', 'carpet runner', 'carpet cleaner machine', 'area rug cleaner', 'rug corner grips', 'carpet stain remover', 'carpet cleaning solution', 'entryway rug', 'rug cleaning brush',
-'carpet deodorizer', 'carpet padding',
-// Window Treatments (10 items)
-'curtain tie backs', 'curtain rings', 'curtain clips', 'window shade pull', 'curtain tieback hooks', 'window blind cleaner', 'curtain cleaning brush', 'curtain blackout liner', 'decorative curtain rod ends', 'window curtain rings',
-// Wall Decor & Mirrors (31 items)
-'wall art', 'framed artwork', 'canvas art', 'wall mirror', 'decorative mirror', 'wall clock', 'picture frames', 'photo albums', 'decorative shelves', 'mantle clock',
-'picture hanging kit', 'clock batteries', 'picture frame stand', 'photo storage box', 'picture wire', 'accent mirror', 'floor standing mirror', 'art cleaning cloth', 'picture frame cleaner', 'mirror hanging wire',
-'picture mat boards', 'photo frame glass', 'wall sconce shades', 'picture frame wire',
-// Pillows, Throws & Blankets (15 items)
-'throw pillows', 'decorative pillows', 'throw blankets', 'quilt', 'afghan blanket', 'blanket storage basket', 'quilt storage bag', 'throw blanket storage bag', 'decorative pillow basket', 'throw pillow storage bag',
-'decorative pillow inserts', 'throw blanket ladder', 'quilt hanger rack',
-// Fireplace & Candles (20 items)
-'fireplace screen', 'fireplace tools', 'fireplace log holder', 'mantle decor', 'candles', 'lantern', 'mantle garland', 'lantern candles', 'fireplace ash vacuum', 'log storage rack',
-'fireplace bellows', 'mantle decor garland lights', 'lantern hanger', 'decorative lantern candles',
-// Plants & Planters (36 items)
-'indoor plant', 'plant stand', 'planter pot', 'artificial plant', 'floor vase', 'decorative vase', 'plant watering can', 'plant fertilizer', 'plant mister', 'artificial plant decor',
-'floor plant stand', 'indoor tree planter', 'artificial tree decor', 'large decorative vase', 'plant care kit', 'plant soil bag', 'plant pruning shears', 'plant support stakes', 'artificial plant cleaner spray', 'floor vase filler sticks',
-'plant watering globe', 'artificial tree stand', 'artificial plant base', 'artificial tree planter',
-// Decor & Accents (19 items)
-'decorative bowl', 'decorative tray', 'decorative bowl filler', 'decorative storage trunk', 'ceramic decor bowl', 'decorative stone set', 'decorative box set', 'ceramic bowl centerpiece', 'accent table decor',
-// Bar & Entertaining (26 items)
-'drink coasters', 'barware set', 'wine glasses', 'cocktail glasses', 'drink pitcher', 'ice bucket', 'wine opener', 'wine rack', 'liquor cabinet contents', 'drink coaster set',
-'coaster storage box', 'bar tool rack', 'wine glass rack', 'liquor decanter', 'barware storage box', 'wine glass polishing cloth', 'drink pitcher lid', 'ice bucket tongs', 'bar tool organizer', 'wine cork holder',
-'liquor bottle pourers', 'bottle opener', 'cocktail shaker strainer',
-// Books, Games & Hobbies (22 items)
-'magazine rack', 'magazines', 'board games', 'card games', 'puzzle box', 'playing cards', 'magazine holder', 'board game organizer', 'puzzle mat', 'magazine subscription box',
-'puzzle storage box', 'magazine subscription rack', 'magazine file holder', 'board game pieces organizer', 'puzzle sorter trays', 'board game shelf', 'card shuffler', 'card deck holder',
-// Entryway & Coat Storage (18 items)
-'coat rack', 'umbrella stand', 'console mirror', 'coat hanger rack', 'umbrella holder tray', 'hall tree hooks', 'shoe polish kit', 'umbrella drip tray', 'entry bench storage bin', 'hall tree basket',
-'console mirror mounting kit', 'coat rack freestanding', 'umbrella holder stand',
-// Climate & Air Quality (24 items)
-'air purifier', 'humidifier', 'dehumidifier', 'space heater', 'tower fan', 'standing fan', 'portable air conditioner', 'fabric freshener spray', 'air freshener', 'scent diffuser',
-'essential oil diffuser', 'air purifier filter', 'humidifier filter', 'dehumidifier bucket', 'portable air conditioner hose', 'air freshener refill', 'essential oil set', 'scent diffuser reeds', 'space heater filter', 'portable air conditioner window kit',
-'fabric freshener beads', 'air freshener plug in',
-// Safety & Security (15 items)
-'security camera', 'motion sensor', 'smoke detector', 'carbon monoxide detector', 'fire extinguisher', 'first aid kit', 'smoke detector batteries', 'carbon monoxide detector batteries', 'first aid refill kit', 'security camera memory card',
-'first aid supply box', 
-// Tools & Hardware (11 items)
-'tool kit small', 'screwdriver set', 'hammer', 'measuring tape', 'tool storage box', 'measuring tape case', 'handheld steamer', 'measuring tape clip', 'tool box large', 'tool box small',
-'tool organizer tray',
-// Furniture Care & Protection (18 items)
-'furniture covers', 'slipcovers', 'fabric protector spray', 'lint roller', 'wood cleaner', 'furniture leg pads', 'slipcover clips', 'fabric stain remover', 'lint brush', 'fabric protector wipes',
-'furniture scratch repair kit', 'slipcover straps', 'fabric cleaner spray', 'lint remover brush', 'wood furniture polish',
-// Cleaning Supplies & Vacuums (28 items)
-'hand vacuum', 'vacuum cleaner', 'broom', 'dustpan', 'floor mop', 'cleaning caddy', 'glass cleaner', 'all purpose cleaner', 'microfiber cloths', 'upright vacuum',
-'mop bucket', 'cleaning gloves', 'glass spray bottle', 'multi surface wipes', 'dusting wand', 'trash can liner refill', 'handheld vacuum filter', 'cleaning spray bottles', 'all purpose cleaning wipes', 'dusting cloth set',
-// Trash & Recycling (6 items)
-'recycling bin', 'trash bags', 'trash can deodorizer', 'recycling bin labels',
-// Storage & Organization (13 items)
-'storage baskets', 'toy storage bin', 'drawer organizer', 'woven storage basket', 'toy organizer bins', 'console drawer liner', 'toy storage shelf', 'drawer organizer bins', 'cabinet shelf baskets',
+        'Living room': [
+// Sofa & cushions
+'sofa', 'sectional sofa', 'sectional sofa cushions', 'loveseat', 'loveseat cushions', 'seat cushions', 'seat cushion covers', 'seat cushion foam insert', 'sofa accent pillows', 'sofa throw blanket',
+'sofa arm tray', 'sofa side caddy', 'sofa cup holder', 'sofa legs', 'sofa leg risers',
+// Accent & recliner chairs
+'accent chair', 'recliner chair', 'power recliner', 'recliner remote', 'recliner power cord', 'recliner cup holder insert', 'gaming chair', 'chair arm covers', 'chair floor protectors',
+// Ottomans
+'ottoman', 'storage ottoman', 'storage ottoman tray', 'storage ottoman lid', 'storage ottoman hinges', 'ottoman tray', 'ottoman storage bin', 'ottoman storage divider',
+// Casual seating
+'bean bag chair', 'bean bag chair cover', 'bean bag refill', 'floor cushions', 'floor cushion', 'folding chair', 'folding chair pads', 'folding chair storage rack', 'stool', 'stool cushion',
+'stool leg caps', 'window seat cushion', 'window seat throw pillow',
+// Tables
+'coffee table', 'coffee table tray', 'coffee table organizer', 'coffee table drawer organizer', 'coffee table books', 'coffee table book set', 'coffee table leg protectors', 'end table', 'end table lamp', 'end table drawer liner',
+'side table', 'side table decor', 'sofa table', 'console table', 'console table decor', 'console drawer liner',
+// Shelving & cabinets
+'bookcase', 'bookshelf', 'bookcase decor', 'bookcase bookends', 'corner shelf', 'corner display shelf', 'display cabinet', 'display cabinet lighting', 'display cabinet locks', 'curio cabinet',
+'curio cabinet shelves', 'curio cabinet light bulbs', 'china cabinet', 'cabinet with doors', 'storage cabinet', 'storage cabinet baskets', 'storage cabinet shelf riser', 'accent cabinet', 'accent cabinet hardware', 'drawer chest',
+'drawer chest liners', 'drawer chest organizers',
+// TV & media center
+'television', 'television stand', 'media console', 'media cabinet shelves', 'entertainment center', 'entertainment center drawers', 'floating media shelf', 'media shelf riser', 'media shelf bracket', 'media console cable ties',
+'media remote holder',
+// TV, audio & video devices
+'sound bar', 'sound bar remote', 'subwoofer', 'surround sound speakers', 'speaker stands', 'speaker cables', 'home theater receiver', 'receiver remote', 'streaming device', 'streaming remote',
+'blu ray player', 'dvd player', 'cable box', 'satellite receiver', 'bluetooth speaker stand', 'smart speaker stand',
+// Movie & music discs
+'dvd collection', 'blu ray discs', 'dvd storage rack', 'dvd display shelf', 'dvd binder', 'dvd storage case', 'dvd cleaning kit', 'cd collection', 'cd display rack', 'cd storage tower',
+'cd storage case', 'cd cleaner kit',
+// Gaming
+'game controller', 'game controller case', 'game controller skins', 'controller charging dock', 'game console stand', 'game console cables', 'game console cooling fan', 'game disc case', 'game storage shelf', 'game storage cabinet',
+'gaming headset', 'virtual reality headset', 'vr controllers',
+// Remotes & smart home
+'media remote', 'universal remote', 'remote control organizer', 'remote finder device', 'remote batteries', 'remote control batteries', 'bluetooth remote', 'fan remote', 'tower fan remote', 'space heater remote',
+'ceiling fan remote holder', 'smart speaker', 'smart plug', 'smart home hub', 'smart bulb hub', 'smart bulb remote',
+// Internet & networking
+'router', 'router stand', 'router cable organizer', 'router backup battery', 'modem', 'modem cables', 'modem power adapter', 'wifi extender', 'wifi extender cable', 'wifi booster',
+'wifi signal booster', 'bluetooth transmitter',
+// Laptops, tablets & headphones
+'laptop', 'laptop charger', 'laptop stand', 'laptop cooling pad', 'laptop docking station', 'laptop storage sleeve', 'laptop backpack', 'laptop carrying case', 'tablet', 'tablet charger',
+'tablet charging cable', 'tablet case', 'tablet keyboard', 'tablet stylus', 'wireless mouse', 'headphones', 'wireless headphones', 'wireless headphone case', 'wireless headphone charger', 'wireless headphone stand',
+'headphone stand', 'headphone extension cable', 'headphone amplifier', 'bluetooth speaker', 'bluetooth speaker charger',
+// Power & charging
+'extension cord', 'extension cord reel', 'extension cord splitter', 'power strip', 'surge protector', 'charging station', 'charging dock station', 'charging hub', 'phone charger', 'charging cable organizer',
+'charging cable box', 'cord management clips', 'cable management box', 'battery storage box', 'battery organizer case', 'battery tester', 'alarm sensor battery',
+// Lamps & lighting
+'floor lamp', 'floor lamp bulbs', 'floor lamp dimmer', 'table lamp', 'table lamp bulbs', 'table lamp timer', 'table lamp harp', 'accent table lamp', 'accent lamp shade', 'lamp finial',
+'lamp shade finial', 'lamp timer switch', 'light bulbs', 'light bulb storage case', 'floor plant grow light', 'ceiling fan blades', 'fan light kit', 'fan blade cleaner',
+// Rugs & carpet
+'area rug', 'throw rug', 'entryway rug', 'carpet runner', 'rug corner grips', 'carpet padding', 'carpet cleaner machine', 'area rug cleaner', 'carpet cleaning solution', 'carpet stain remover',
+'carpet deodorizer', 'rug cleaning brush',
+// Curtains & window treatments
+'curtain rings', 'window curtain rings', 'curtain clips', 'curtain tie backs', 'curtain tieback hooks', 'decorative curtain rod ends', 'curtain blackout liner', 'window shade pull', 'window blind cleaner', 'curtain cleaning brush',
+// Wall art, mirrors & clocks
+'wall art', 'framed artwork', 'canvas art', 'decorative shelves', 'picture frames', 'picture frame stand', 'picture frame wire', 'picture wire', 'picture hanging kit', 'picture mat boards',
+'photo frame glass', 'picture frame cleaner', 'art cleaning cloth', 'photo albums', 'photo storage box', 'wall mirror', 'decorative mirror', 'accent mirror', 'floor standing mirror', 'mirror hanging wire',
+'wall clock', 'mantle clock', 'clock batteries', 'wall sconce shades',
+// Pillows & blankets
+'throw pillows', 'decorative pillows', 'decorative pillow inserts', 'decorative pillow basket', 'throw pillow storage bag', 'throw blankets', 'afghan blanket', 'quilt', 'throw blanket ladder', 'throw blanket storage bag',
+'quilt storage bag', 'quilt hanger rack', 'blanket storage basket', 'blanket chest',
+// Fireplace & mantle
+'fireplace screen', 'fireplace tools', 'fireplace log holder', 'log storage rack', 'fireplace bellows', 'fireplace ash vacuum', 'mantle decor', 'mantle garland', 'mantle decor garland lights', 'candles',
+'lantern', 'lantern candles', 'decorative lantern candles', 'lantern hanger',
+// Plants & vases
+'indoor plant', 'planter pot', 'plant stand', 'floor plant stand', 'indoor tree planter', 'plant watering can', 'plant mister', 'plant watering globe', 'plant fertilizer', 'plant soil bag',
+'plant care kit', 'plant pruning shears', 'plant support stakes', 'artificial plant', 'artificial plant decor', 'artificial plant base', 'artificial plant cleaner spray', 'artificial tree decor', 'artificial tree stand', 'artificial tree planter',
+'decorative vase', 'large decorative vase', 'floor vase', 'floor vase filler sticks',
+// Decorative accents
+'decorative bowl', 'decorative bowl filler', 'ceramic decor bowl', 'ceramic bowl centerpiece', 'decorative tray', 'decorative stone set', 'decorative box set', 'decorative storage trunk', 'accent table decor',
+// Bar & drinks
+'bar cabinet', 'bar cabinet glassware', 'rolling bar cart', 'bar cart wheels', 'barware set', 'wine rack', 'wine glasses', 'wine glass rack', 'wine glass polishing cloth', 'cocktail glasses',
+'drink pitcher', 'drink pitcher lid', 'ice bucket', 'ice bucket tongs', 'wine opener', 'bottle opener', 'wine cork holder', 'cocktail shaker strainer', 'liquor decanter', 'liquor cabinet contents',
+'liquor bottle pourers', 'bar tool rack', 'bar tool organizer', 'drink coasters', 'drink coaster set', 'coaster storage box', 'barware storage box',
+// Board games, cards & magazines
+'board games', 'board game organizer', 'board game pieces organizer', 'board game shelf', 'board game storage rack', 'game night storage box', 'card games', 'playing cards', 'card shuffler', 'card deck holder',
+'card game storage tin', 'puzzle box', 'puzzle mat', 'puzzle sorter trays', 'puzzle storage box', 'magazines', 'magazine rack', 'magazine holder', 'magazine file holder', 'magazine subscription box',
+'magazine subscription rack',
+// Entryway
+'coat rack', 'coat rack freestanding', 'coat hanger rack', 'hall tree', 'hall tree hooks', 'hall tree basket', 'umbrella stand', 'umbrella holder stand', 'umbrella holder tray', 'umbrella drip tray',
+'entry bench', 'entry bench cushion', 'entry bench storage bin', 'hallway bench', 'hallway storage cabinet', 'shoe rack', 'shoe rack bench', 'shoe storage cabinet', 'shoe polish kit', 'console mirror',
+'console mirror mounting kit',
+// Air & climate
+'air purifier', 'air purifier filter', 'humidifier', 'humidifier filter', 'dehumidifier', 'dehumidifier bucket', 'space heater', 'space heater filter', 'tower fan', 'standing fan',
+'portable air conditioner', 'portable air conditioner hose', 'portable air conditioner window kit', 'air freshener', 'air freshener refill', 'air freshener plug in', 'fabric freshener spray', 'fabric freshener beads', 'scent diffuser', 'scent diffuser reeds',
+'essential oil diffuser', 'essential oil set',
+// Safety & emergency
+'smoke detector', 'smoke detector batteries', 'carbon monoxide detector', 'carbon monoxide detector batteries', 'fire extinguisher', 'first aid kit', 'first aid refill kit', 'first aid supply box', 'security camera', 'security camera memory card',
+'motion sensor',
+// Tools
+'tool kit small', 'tool box small', 'tool box large', 'tool storage box', 'tool organizer tray', 'screwdriver set', 'hammer', 'measuring tape', 'measuring tape case', 'measuring tape clip',
+// Furniture & fabric care
+'furniture covers', 'slipcovers', 'slipcover clips', 'slipcover straps', 'furniture leg pads', 'furniture scratch repair kit', 'wood cleaner', 'wood furniture polish', 'fabric protector spray', 'fabric protector wipes',
+'fabric stain remover', 'fabric cleaner spray', 'lint roller', 'lint brush', 'lint remover brush', 'handheld steamer',
+// Cleaning
+'vacuum cleaner', 'hand vacuum', 'upright vacuum', 'handheld vacuum filter', 'broom', 'dustpan', 'floor mop', 'mop bucket', 'cleaning caddy', 'all purpose cleaner',
+'all purpose cleaning wipes', 'multi surface wipes', 'glass cleaner', 'glass spray bottle', 'cleaning spray bottles', 'microfiber cloths', 'dusting wand', 'dusting cloth set', 'cleaning gloves',
+// Trash & recycling
+'trash bags', 'trash can liner refill', 'trash can deodorizer', 'recycling bin', 'recycling bin labels',
+// Storage baskets & toys
+'storage baskets', 'woven storage basket', 'cabinet shelf baskets', 'drawer organizer', 'drawer organizer bins', 'toy storage bin', 'toy organizer bins', 'toy storage shelf', 'toy chest',
 // TOTAL: 588 items
 ],
 

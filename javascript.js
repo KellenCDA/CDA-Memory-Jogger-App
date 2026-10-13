@@ -384,75 +384,107 @@
 // TOTAL: 489 items
 ],
 
-        Bathroom: ['all purpose cleaner', 'cleaning caddy', 'decorative tray', 'first aid kit', 'glass cleaner', 'light bulbs', 'power strip', 'surge protector', 'trash bags', 'wall clock',
-// Major Fixtures & Furniture (82 items)
-'single vanity', 'double vanity', 'floating vanity', 'pedestal sink', 'undermount sink', 'vessel sink', 'bathroom faucet', 'sink drain stopper', 'bathtub', 'freestanding bathtub',
-'clawfoot tub', 'soaking tub', 'whirlpool tub', 'shower stall', 'toilet', 'bidet', 'bidet seat attachment', 'toilet seat', 'linen cabinet', 'bathroom storage cabinet',
-'medicine cabinet', 'bathroom vanity mirror', 'bathroom mirror', 'full length mirror', 'mirror cabinet', 'over toilet cabinet', 'bathroom shelving unit', 'ladder shelf', 'corner shelf unit', 'bathroom bench',
-'teak bath bench', 'shower seat', 'shower stool', 'vanity tray', 'vanity organizer', 'vanity mirror', 'lighted vanity mirror', 'vanity drawer liner', 'vanity drawer divider', 'shower curtain hooks',
-'shower curtain rings', 'shower curtain clips', 'shower curtain liner', 'shower curtain weights', 'bathtub caddy', 'freestanding toilet paper holder', 'toilet paper stand', 'toilet paper storage', 'toilet paper roll organizer', 'toilet brush',
-'toilet brush holder', 'toilet brush set', 'toilet plunger', 'toilet plunger holder', 'toilet bowl cleaner', 'toilet cleaning tablets', 'toilet tank cleaner', 'toilet seat cover', 'toilet lid cover', 'toilet mat',
-'toilet base mat', 'toilet seat night light', 'toilet paper rolls', 'toilet night light', 'toilet paper storage cabinet', 'novelty toilet paper holder', 'bamboo toilet brush', 'toilet deodorizer clip', 'shower door organizer', 'medicine cabinet organizer',
-'eau de toilette', 'toilet bowl cleaner bottle', 'toilet scrub brush', 'vanity bulbs', 'waterproof shower curtain set',
-// Vanity & Sink Accessories (39 items)
-'soap dispenser', 'hand soap', 'liquid hand soap', 'bar soap dish', 'soap tray', 'toothbrush holder', 'toothbrush cup', 'electric toothbrush holder', 'toothpaste dispenser', 'cup holder',
-'bathroom cup dispenser', 'cotton ball holder', 'cotton swab holder', 'q tip holder', 'cotton ball jar', 'apothecary jar set', 'magnifying mirror', 'makeup mirror', 'mirror tray', 'cosmetic organizer',
-'lipstick organizer', 'makeup brush holder', 'makeup brush set', 'makeup sponge holder', 'beauty blender holder', 'nail polish organizer', 'perfume tray', 'perfume organizer', 'jewelry tray', 'hair tie organizer',
-'brush cleaning mat', 'makeup remover pads reusable', 'facial cleansing brush', 'sonic face brush', 'skincare fridge', 'nail polish remover pads',
-// Shower & Bath Accessories (46 items)
-'shower caddy', 'hanging shower caddy', 'corner shower caddy', 'tension pole shower caddy', 'shower shelf', 'shower hook', 'shower head', 'handheld shower head', 'shower head filter', 'bath tray',
-'bath pillow', 'bath mat', 'non slip bath mat', 'suction cup bath mat', 'tub mat', 'shower mat', 'anti slip shower mat', 'bath rug', 'contour bath rug', 'bath rug set',
-'memory foam bath mat', 'bath mat drying rack', 'loofah', 'bath sponge', 'bath brush', 'long handle bath brush', 'back scrubber', 'bath pouf', 'exfoliating gloves', 'pumice stone',
-'foot scrubber', 'razor holder', 'razor stand', 'shower razor hook', 'shaving brush', 'shaving bowl', 'shower soap dish', 'shower body wash holder', 'waterproof shower radio', 'shower clock',
-'shower mirror', 'fogless shower mirror', 'bath thermometer', 'rubber duck', 'bath toy organizer', 'pebble bath mat',
-// Towels & Linens (30 items)
-'bath towels', 'hand towels', 'washcloths', 'face towels', 'fingertip towels', 'bath sheet', 'beach towel', 'hooded towel', 'gym towel', 'microfiber towel',
-'quick dry towel', 'towel set', 'guest towel set', 'decorative hand towels', 'towel rack', 'freestanding towel rack', 'heated towel rack', 'towel ladder rack', 'towel bar extender', 'over door organizer',
-'bathrobe', 'spa robe', 'kids bathrobe', 'bath wrap towel', 'hair towel wrap', 'turban towel wrap', 'pool towel', 'spa wrap towel', 'bamboo washcloths', 'exfoliating washcloth',
-// Toilet Accessories (2 items)
-'flushable wipes', 'extra roll holder',
-// Storage & Organization (46 items)
-'under sink organizer', 'under sink cabinet organizer', 'under sink shelf', 'under sink pull out drawer', 'under sink storage bins', 'bathroom drawer organizer', 'bathroom drawer divider', 'bathroom cabinet organizer', 'cabinet door organizer', 'stackable storage drawers',
-'plastic storage drawers', 'clear storage drawers', 'storage basket', 'woven storage basket', 'wire storage basket', 'fabric storage basket', 'storage bin', 'storage box', 'decorative storage box', 'bathroom storage tray',
-'countertop organizer', 'countertop caddy', 'hair tool organizer', 'blow dryer holder', 'curling iron holder', 'flat iron holder', 'hair dryer hook', 'hair tool caddy', 'heat resistant mat', 'heat resistant pouch',
-'shower niche shelf', 'door pocket organizer', 'first aid organizer', 'pill organizer', 'drawer freshener', 'cabinet freshener', 'sachets', 'odor absorber', 'lazy susan organizer', 'rotating organizer',
-'suction cup organizer', 'door mounted organizer', 'towel bar with shelf', 'over sink shelf', 'bamboo organizer', 'acrylic organizer set',
-// Personal Care & Grooming (84 items)
-'electric toothbrush', 'manual toothbrush', 'toothpaste', 'teeth whitening strips', 'teeth whitening kit', 'dental floss', 'floss picks', 'water flosser', 'tongue scraper', 'mouthwash',
-'mouthwash dispenser', 'electric shaver', 'manual razor', 'razor blades', 'shaving cream', 'shaving gel', 'aftershave', 'shaving soap', 'hair dryer', 'travel hair dryer',
-'hair dryer diffuser', 'hair dryer concentrator', 'curling iron', 'curling wand', 'flat iron', 'hair straightener', 'hot air brush', 'hair crimper', 'heated rollers', 'hair roller set',
-'electric hair trimmer', 'beard trimmer', 'nose hair trimmer', 'ear hair trimmer', 'eyebrow trimmer', 'facial hair remover', 'epilator', 'electric razor', 'nail clippers', 'nail scissors',
-'nail file', 'nail buffer', 'cuticle pusher', 'cuticle trimmer', 'nail brush', 'toenail clippers', 'pedicure kit', 'manicure set', 'tweezers', 'eyebrow razor',
-'facial roller', 'gua sha tool', 'face massager', 'hair brush', 'wide tooth comb', 'detangling brush', 'round brush', 'paddle brush', 'boar bristle brush', 'hair pick',
-'fine tooth comb', 'tail comb', 'styling comb', 'hair elastic set', 'hair ties', 'bobby pins', 'hair clips', 'hair pins', 'barrettes', 'headbands',
-'shower cap', 'hair net', 'scalp massager', 'facial cleansing device', 'blackhead remover tool', 'pore vacuum', 'lash curler', 'eyebrow stencil kit', 'makeup setting spray', 'blush brush',
-'powder brush', 'foundation brush', 'tweezers medical', 'electric toothbrush charging base',
-// Skincare & Beauty (62 items)
-'face wash', 'facial cleanser', 'micellar water', 'toner', 'face serum', 'moisturizer', 'face lotion', 'eye cream', 'night cream', 'face oil',
-'sunscreen', 'SPF moisturizer', 'face mask', 'sheet mask', 'clay mask', 'exfoliating scrub', 'chemical exfoliant', 'retinol cream', 'vitamin C serum', 'hyaluronic acid serum',
-'acne spot treatment', 'lip balm', 'lip scrub', 'makeup remover', 'micellar cleansing water', 'eye makeup remover', 'cleansing balm', 'cleansing oil', 'facial wipes', 'cotton rounds',
-'cotton balls', 'cotton swabs', 'facial steamer', 'face roller', 'body lotion', 'body cream', 'body butter', 'dry body oil', 'shimmer lotion', 'body scrub',
-'sugar scrub', 'salt scrub', 'self tanner', 'after sun lotion', 'hand cream', 'foot cream', 'heel balm', 'cuticle oil', 'stretch mark cream', 'deodorant',
-'antiperspirant', 'natural deodorant', 'deodorant spray', 'perfume', 'cologne', 'body spray', 'fragrance roller', 'facial mist spray', 'tanning mitt', 'body shimmer',
-'SPF lip balm', 'toner kit',
-// Hair Care Products (39 items)
-'shampoo', 'conditioner', 'co wash', 'dry shampoo', 'clarifying shampoo', 'hair mask', 'deep conditioner', 'leave in conditioner', 'hair serum', 'hair oil',
-'argan oil', 'coconut hair oil', 'heat protectant spray', 'hair spray', 'mousse', 'hair gel', 'pomade', 'hair wax', 'styling cream', 'curl cream',
-'curl defining gel', 'sea salt spray', 'volumizing spray', 'detangling spray', 'hair tonic', 'scalp treatment', 'scalp serum', 'scalp oil', 'hair growth serum', 'hair vitamin supplements',
-'color treated shampoo', 'purple shampoo', 'toning conditioner', 'hair dye kit', 'bleach kit', 'gloss treatment', 'hair detox treatment', 'bond repair treatment', 'hair glossing treatment',
-// Bath & Body Products (25 items)
-'body wash', 'body polish', 'bath accessory kit', 'aromatherapy shower kit', 'charcoal soap bar',
-// First Aid & Medicine (29 items)
-'thermometer', 'blood pressure monitor', 'pulse oximeter', 'ice pack', 'room thermometer',
-// Cleaning Supplies (39 items)
-'small trash can', 'wastebasket', 'air freshener', 'scent diffuser', 'essential oil diffuser',
-// Lighting & Electrical (16 items)
-'night light', 'motion sensor night light', 'bathroom scale', 'body weight scale', 'shaver charging stand', 'USB charging hub', 'wall charger', 'bluetooth mirror', 'smart mirror',
-// Decor & Ambiance (28 items)
-'bathroom wall art', 'framed bathroom art', 'canvas bathroom print', 'picture frame', 'decorative mirror', 'plant pot', 'indoor plant', 'artificial plant', 'succulent pot', 'bamboo plant',
-// Ventilation & Comfort (14 items)
-'portable fan', 'space heater bathroom safe', 'towel warmer', 'electric towel warmer', 'freestanding towel warmer', 'heated bathroom floor mat', 'shower speaker', 'waterproof bluetooth speaker', 'bathroom radio', 'humidity monitor',
-'dehumidifier small', 'air purifier small', 'aromatherapy diffuser',
+        Bathroom: [
+// Vanity & sink
+'single vanity', 'double vanity', 'floating vanity', 'pedestal sink', 'undermount sink', 'vessel sink', 'bathroom faucet', 'sink drain stopper', 'soap dispenser', 'hand soap',
+'liquid hand soap', 'bar soap dish', 'soap tray', 'vanity tray', 'vanity organizer', 'vanity drawer liner', 'vanity drawer divider', 'vanity bulbs',
+// Mirrors
+'bathroom mirror', 'bathroom vanity mirror', 'vanity mirror', 'lighted vanity mirror', 'full length mirror', 'mirror cabinet', 'magnifying mirror', 'makeup mirror', 'mirror tray', 'decorative mirror',
+'bluetooth mirror', 'smart mirror', 'shower mirror', 'fogless shower mirror',
+// Cabinets & shelving
+'medicine cabinet', 'medicine cabinet organizer', 'linen cabinet', 'bathroom storage cabinet', 'over toilet cabinet', 'bathroom shelving unit', 'ladder shelf', 'corner shelf unit', 'over sink shelf', 'bathroom bench',
+'teak bath bench',
+// Toilet
+'toilet', 'toilet seat', 'toilet seat cover', 'toilet lid cover', 'toilet mat', 'toilet base mat', 'toilet seat night light', 'toilet night light', 'bidet', 'bidet seat attachment',
+// Toilet cleaning
+'toilet brush', 'toilet brush holder', 'toilet brush set', 'bamboo toilet brush', 'toilet scrub brush', 'toilet plunger', 'toilet plunger holder', 'toilet bowl cleaner', 'toilet bowl cleaner bottle', 'toilet cleaning tablets',
+'toilet tank cleaner', 'toilet deodorizer clip',
+// Toilet paper
+'toilet paper rolls', 'freestanding toilet paper holder', 'toilet paper stand', 'toilet paper storage', 'toilet paper storage cabinet', 'toilet paper roll organizer', 'extra roll holder', 'novelty toilet paper holder', 'flushable wipes',
+// Bathtub
+'bathtub', 'freestanding bathtub', 'clawfoot tub', 'soaking tub', 'whirlpool tub', 'bathtub caddy', 'bath tray', 'bath pillow', 'tub mat', 'bath thermometer',
+'bath accessory kit', 'rubber duck', 'bath toy organizer',
+// Shower
+'shower stall', 'shower head', 'handheld shower head', 'shower head filter', 'shower caddy', 'hanging shower caddy', 'corner shower caddy', 'tension pole shower caddy', 'shower shelf', 'shower hook',
+'shower niche shelf', 'shower door organizer', 'shower seat', 'shower stool', 'shower mat', 'anti slip shower mat', 'shower soap dish', 'shower body wash holder', 'shower clock', 'waterproof shower radio',
+'aromatherapy shower kit', 'shower cap',
+// Shower curtain
+'shower curtain liner', 'waterproof shower curtain set', 'shower curtain hooks', 'shower curtain rings', 'shower curtain clips', 'shower curtain weights',
+// Bath mats & rugs
+'bath mat', 'non slip bath mat', 'suction cup bath mat', 'memory foam bath mat', 'pebble bath mat', 'bath mat drying rack', 'bath rug', 'contour bath rug', 'bath rug set',
+// Towels
+'bath towels', 'hand towels', 'washcloths', 'face towels', 'fingertip towels', 'bath sheet', 'towel set', 'guest towel set', 'decorative hand towels', 'microfiber towel',
+'quick dry towel', 'hooded towel', 'gym towel', 'beach towel', 'pool towel', 'hair towel wrap', 'turban towel wrap', 'bath wrap towel', 'spa wrap towel', 'bamboo washcloths',
+'exfoliating washcloth',
+// Towel racks & warmers
+'towel rack', 'freestanding towel rack', 'heated towel rack', 'towel ladder rack', 'towel bar extender', 'towel bar with shelf', 'over door organizer', 'towel warmer', 'electric towel warmer', 'freestanding towel warmer',
+'heated bathroom floor mat',
+// Robes
+'bathrobe', 'spa robe', 'kids bathrobe',
+// Bath scrubbers
+'loofah', 'bath sponge', 'bath brush', 'long handle bath brush', 'back scrubber', 'bath pouf', 'exfoliating gloves', 'pumice stone', 'foot scrubber',
+// Shaving
+'razor holder', 'razor stand', 'shower razor hook', 'shaving brush', 'shaving bowl', 'manual razor', 'razor blades', 'shaving cream', 'shaving gel', 'shaving soap',
+'aftershave', 'electric shaver', 'electric razor', 'shaver charging stand',
+// Oral care
+'toothbrush holder', 'toothbrush cup', 'electric toothbrush holder', 'toothpaste dispenser', 'cup holder', 'bathroom cup dispenser', 'electric toothbrush', 'electric toothbrush charging base', 'manual toothbrush', 'toothpaste',
+'teeth whitening strips', 'teeth whitening kit', 'dental floss', 'floss picks', 'water flosser', 'tongue scraper', 'mouthwash', 'mouthwash dispenser',
+// Cotton, swabs & jars
+'cotton ball holder', 'cotton swab holder', 'q tip holder', 'cotton ball jar', 'apothecary jar set', 'cotton rounds', 'cotton balls', 'cotton swabs', 'makeup remover pads reusable', 'nail polish remover pads',
+// Hair dryers & styling tools
+'hair dryer', 'travel hair dryer', 'hair dryer diffuser', 'hair dryer concentrator', 'hair dryer hook', 'blow dryer holder', 'curling iron', 'curling wand', 'curling iron holder', 'flat iron',
+'flat iron holder', 'hair straightener', 'hot air brush', 'hair crimper', 'heated rollers', 'hair roller set', 'hair tool organizer', 'hair tool caddy', 'heat resistant mat', 'heat resistant pouch',
+// Hair brushes & accessories
+'hair brush', 'wide tooth comb', 'detangling brush', 'round brush', 'paddle brush', 'boar bristle brush', 'hair pick', 'fine tooth comb', 'tail comb', 'styling comb',
+'scalp massager', 'hair elastic set', 'hair ties', 'hair tie organizer', 'bobby pins', 'hair clips', 'hair pins', 'barrettes', 'headbands', 'hair net',
+// Hair products
+'shampoo', 'conditioner', 'co wash', 'dry shampoo', 'clarifying shampoo', 'color treated shampoo', 'purple shampoo', 'toning conditioner', 'leave in conditioner', 'deep conditioner',
+'hair mask', 'hair serum', 'hair oil', 'argan oil', 'coconut hair oil', 'heat protectant spray', 'hair spray', 'mousse', 'hair gel', 'pomade',
+'hair wax', 'styling cream', 'curl cream', 'curl defining gel', 'sea salt spray', 'volumizing spray', 'detangling spray', 'hair tonic', 'scalp treatment', 'scalp serum',
+'scalp oil', 'hair growth serum', 'hair vitamin supplements', 'hair dye kit', 'bleach kit', 'gloss treatment', 'hair glossing treatment', 'hair detox treatment', 'bond repair treatment',
+// Face cleansing
+'face wash', 'facial cleanser', 'micellar water', 'micellar cleansing water', 'makeup remover', 'eye makeup remover', 'cleansing balm', 'cleansing oil', 'facial wipes', 'facial cleansing brush',
+'sonic face brush', 'facial cleansing device', 'brush cleaning mat',
+// Skincare
+'toner', 'toner kit', 'face serum', 'vitamin C serum', 'hyaluronic acid serum', 'retinol cream', 'moisturizer', 'SPF moisturizer', 'face lotion', 'eye cream',
+'night cream', 'face oil', 'sunscreen', 'acne spot treatment', 'face mask', 'sheet mask', 'clay mask', 'exfoliating scrub', 'chemical exfoliant', 'lip balm',
+'SPF lip balm', 'lip scrub', 'facial mist spray', 'skincare fridge',
+// Facial tools
+'facial roller', 'face roller', 'gua sha tool', 'face massager', 'facial steamer', 'blackhead remover tool', 'pore vacuum', 'tweezers', 'tweezers medical', 'eyebrow razor',
+'eyebrow trimmer', 'eyebrow stencil kit', 'facial hair remover', 'epilator', 'lash curler',
+// Body care
+'body wash', 'charcoal soap bar', 'body polish', 'body lotion', 'body cream', 'body butter', 'dry body oil', 'shimmer lotion', 'body shimmer', 'body scrub',
+'sugar scrub', 'salt scrub', 'self tanner', 'tanning mitt', 'after sun lotion', 'hand cream', 'foot cream', 'heel balm', 'cuticle oil', 'stretch mark cream',
+// Deodorant & fragrance
+'deodorant', 'antiperspirant', 'natural deodorant', 'deodorant spray', 'perfume', 'cologne', 'eau de toilette', 'body spray', 'fragrance roller', 'perfume tray',
+'perfume organizer',
+// Makeup & organizers
+'makeup brush holder', 'makeup brush set', 'makeup sponge holder', 'beauty blender holder', 'cosmetic organizer', 'lipstick organizer', 'nail polish organizer', 'jewelry tray', 'blush brush', 'powder brush',
+'foundation brush', 'makeup setting spray',
+// Trimmers & nail care
+'electric hair trimmer', 'beard trimmer', 'nose hair trimmer', 'ear hair trimmer', 'nail clippers', 'nail scissors', 'nail file', 'nail buffer', 'cuticle pusher', 'cuticle trimmer',
+'nail brush', 'toenail clippers', 'pedicure kit', 'manicure set',
+// Under-sink & cabinet organization
+'under sink organizer', 'under sink cabinet organizer', 'under sink shelf', 'under sink pull out drawer', 'under sink storage bins', 'bathroom drawer organizer', 'bathroom drawer divider', 'bathroom cabinet organizer', 'cabinet door organizer', 'lazy susan organizer',
+'rotating organizer', 'acrylic organizer set', 'bamboo organizer', 'suction cup organizer', 'door mounted organizer', 'door pocket organizer', 'countertop organizer', 'countertop caddy', 'bathroom storage tray',
+// Bins & baskets
+'storage basket', 'woven storage basket', 'wire storage basket', 'fabric storage basket', 'storage bin', 'storage box', 'decorative storage box', 'stackable storage drawers', 'plastic storage drawers', 'clear storage drawers',
+'decorative tray',
+// First aid & health
+'first aid kit', 'first aid organizer', 'pill organizer', 'thermometer', 'room thermometer', 'blood pressure monitor', 'pulse oximeter', 'ice pack',
+// Scales
+'bathroom scale', 'body weight scale',
+// Air freshening
+'air freshener', 'scent diffuser', 'essential oil diffuser', 'aromatherapy diffuser', 'drawer freshener', 'cabinet freshener', 'sachets', 'odor absorber',
+// Lighting
+'light bulbs', 'night light', 'motion sensor night light',
+// Electronics & air
+'power strip', 'surge protector', 'wall charger', 'USB charging hub', 'bathroom radio', 'shower speaker', 'waterproof bluetooth speaker', 'portable fan', 'space heater bathroom safe', 'humidity monitor',
+'dehumidifier small', 'air purifier small',
+// Cleaning & trash
+'all purpose cleaner', 'glass cleaner', 'cleaning caddy', 'trash bags', 'small trash can', 'wastebasket',
+// Decor
+'wall clock', 'bathroom wall art', 'framed bathroom art', 'canvas bathroom print', 'picture frame', 'plant pot', 'indoor plant', 'artificial plant', 'succulent pot', 'bamboo plant',
 // TOTAL: 581 items
 ],
 

@@ -1475,51 +1475,125 @@
 // TOTAL: 313 items
 ],
 
-        Other: ['holiday decorations assorted', 'christmas tree artificial', 'christmas tree stand', 'ornament storage box', 'ornament hooks pack', 'string lights box', 'extension light cords', 'light timers plug in', 'wreath storage bag', 'holiday inflatables',
-'halloween decorations bin', 'thanksgiving decor box', 'easter decoration tote', 'valentine decor bin', 'fourth of july decorations', 'holiday yard stakes', 'wrapping paper roll', 'gift wrap storage tube', 'gift bags assorted', 'gift ribbon spools',
-'photo albums box', 'picture frames assorted', 'framed artwork storage', 'canvas art wrapped', 'mirror wall spare', 'clock wall spare', 'home decor storage bin', 'throw pillows spare', 'blanket storage bag', 'quilt storage case',
-'area rug rolled', 'curtain panels spare', 'curtain rods spare', 'window blinds spare', 'lamp base spare', 'lamp shade spare', 'table lamp spare', 'floor lamp spare', 'extension lamp cord', 'light bulb storage box',
-'office supplies storage tote', 'printer paper case', 'notebook stack', 'binders storage box', 'file folders box', 'archival document box', 'shredder spare', 'desk organizer spare', 'calculator spare', 'cordless phone base spare',
-'router modem spare', 'wifi extender spare', 'network cable spool', 'usb cable bundle', 'hdmi cable spare', 'power adapter box', 'surge protector spare', 'battery storage organizer', 'external hard drive case', 'flash drive bundle',
-'books storage box', 'magazine storage bin', 'comic book storage case', 'vinyl record crate', 'record player spare', 'cd storage binder', 'dvd storage binder', 'board games stack', 'puzzle boxes', 'card games storage tin',
-'toy storage bin', 'action figures box', 'doll storage case', 'lego storage bin', 'model kit boxes', 'craft kit storage tote', 'yarn storage bin', 'fabric storage tote', 'scrapbook supplies box', 'photo storage box',
-'suitcase large', 'suitcase medium', 'carry on luggage', 'travel backpack', 'duffel bag', 'garment travel bag', 'travel organizer pouch', 'travel toiletry bag', 'passport holder spare', 'neck pillow travel',
-'camping backpack', 'hydration pack', 'sleeping bag storage sack', 'tent bag spare', 'hiking poles pair', 'cooler bag soft', 'picnic basket spare', 'beach umbrella', 'beach chairs folding', 'beach wagon foldable',
-'sports trophy box', 'medal storage case', 'gym equipment storage bin', 'yoga mat spare', 'dumbbell set small', 'resistance bands pack', 'exercise ball', 'fitness step platform', 'treadmill mat spare', 'bike trainer stand',
-'ski boot bag', 'snowboard bag', 'helmet storage bag', 'rollerblade bag', 'skate helmet spare', 'fishing rod tube', 'tackle storage tray', 'hunting gear tote', 'archery bow case', 'arrow storage tube',
-'medical supply bin', 'first aid refill kit', 'emergency preparedness kit', 'water storage jug', 'food storage bucket sealed', 'battery lantern spare', 'hand crank flashlight', 'weather radio spare', 'thermal blankets pack', 'fireproof document bag',
-'important document safe', 'spare house keys box', 'key organizer wall mount', 'tool manual binder', 'appliance manual folder', 'warranty document file', 'insurance paperwork file', 'tax record storage box', 'checkbook storage tin', 'coin jar large',
-'pet crate spare', 'pet carrier travel', 'pet bed spare', 'pet toy storage bin', 'pet leash spare', 'pet collar spare', 'pet food storage container', 'pet grooming kit', 'aquarium supplies bin', 'bird cage spare',
-'fish tank heater spare', 'pet gate foldable', 'litter box spare', 'litter storage container', 'pet blanket spare', 'pet bowl spare', 'pet water dispenser spare', 'dog training equipment', 'cat scratching post spare', 'pet medication organizer',
-'kitchen small appliance box', 'extra cookware storage', 'china storage case', 'glassware storage crate', 'silverware chest', 'serving platter box', 'coffee maker spare', 'toaster spare', 'microwave spare', 'mini fridge spare',
-'barware storage box', 'wine storage rack small', 'beverage cooler spare', 'water filter spare', 'paper goods bulk box', 'plastic utensil bulk pack', 'bulk napkin pack', 'bulk plate pack', 'catering tray spare', 'cooler large hard shell',
-'home improvement spare parts bin', 'hinge assortment pack', 'knob assortment pack', 'faucet spare kit', 'plumbing parts box', 'electrical parts box', 'paint touch up kit', 'tile spare box', 'flooring spare planks', 'roof shingle bundle',
-'insulation roll spare', 'drywall sheets spare', 'brick stack spare', 'paver stack spare', 'fence panel spare', 'gate hardware kit', 'door slab spare', 'screen door spare', 'storm window spare', 'storm door spare',
-'miscellaneous hardware bin', 'random fasteners jar', 'unknown key ring', 'remote control spare', 'phone charger spare', 'old cell phone box', 'camera equipment case', 'tripod spare', 'lighting umbrella kit', 'microphone stand spare',
-'speaker stand spare', 'amplifier spare', 'audio cable bundle', 'instrument case spare', 'guitar stand spare', 'keyboard stand spare', 'music sheet storage box', 'vinyl protector sleeves', 'collectible storage case', 'coin collection binder',
-'seasonal wreath storage box', 'holiday light storage reel', 'tree skirt storage bag', 'nativity set storage box', 'holiday extension cord bundle', 'outdoor decor storage crate', 'holiday projector light', 'light stake lawn pack', 'ornament divider tray', 'gift wrap cutter tool',
-'decorative vase storage box', 'ceramic figurine storage', 'collectible display case spare', 'shadow box frame spare', 'wall decal roll spare', 'decor storage tote labeled', 'throw blanket spare', 'decorative ladder shelf spare', 'accent table spare', 'folding side table spare',
-'backup alarm clock', 'desktop fan spare', 'space heater spare', 'humidifier spare', 'dehumidifier spare', 'air purifier spare', 'air filter replacement case', 'vent cover spare', 'ceiling fan spare', 'light fixture spare',
-'printer spare', 'scanner spare', 'laminator spare', 'paper shredder spare', 'label printer spare', 'ink cartridge storage box', 'toner cartridge spare', 'external monitor spare', 'keyboard spare', 'computer mouse spare',
-'laptop docking station spare', 'webcam spare', 'headset spare', 'router backup unit', 'ethernet switch spare', 'power bank spare', 'charging cable organizer box', 'tech accessory drawer unit', 'hard drive enclosure spare', 'memory card organizer case',
-'textbook storage box', 'yearbook storage bin', 'certificate frame spare', 'diploma tube case', 'journal stack', 'planner archive box', 'greeting card keepsake box', 'stamp collection album', 'coin bank decorative', 'piggy bank spare',
-'toy chest spare', 'remote control car spare', 'puzzle mat roll', 'stuffed animal storage net', 'play tent folded', 'kids art portfolio case', 'crayon storage case', 'marker organizer box', 'chalkboard spare small', 'whiteboard spare small',
-'rolling duffel bag', 'hard shell luggage spare', 'luggage tag organizer', 'packing cube set spare', 'travel document wallet spare', 'luggage scale', 'portable safe travel', 'travel blanket spare', 'travel pillow memory foam', 'travel umbrella spare',
-'camp chair spare', 'camp table spare', 'portable grill small', 'grill cover spare', 'charcoal storage bin', 'cooler ice packs bulk', 'thermos spare', 'canteen metal spare', 'mess kit spare', 'portable water filter',
-'medal display rack spare', 'sports jersey frame spare', 'gym bag spare', 'foam roller spare', 'kettlebell small', 'ankle weights pair', 'pull up bar doorway', 'jump rope spare', 'gymnastics mat foldable', 'sports duffel organizer',
-'ski goggles spare', 'snow gloves spare', 'winter hat storage bin', 'beach towel storage bag', 'snorkel gear bag', 'life vest spare', 'kayak storage cover', 'tent stakes bulk', 'tent pole replacement set', 'hammock spare',
-'emergency food rations box', 'water purification tablets', 'emergency whistle pack', 'flare kit marine', 'emergency poncho pack', 'hand warmers bulk', 'cooling towels pack', 'emergency candle pack', 'battery storage case large', 'fireproof safe box small',
-'pet carrier soft sided', 'pet travel bowl foldable', 'pet harness spare', 'pet grooming table foldable', 'aquarium filter spare', 'aquarium air pump spare', 'bird seed storage bin', 'reptile heat lamp spare', 'pet first aid kit', 'dog crate mat spare',
-'china cabinet spare shelf', 'serving tray stack', 'table leaf spare', 'folding banquet table', 'folding chair stack', 'tablecloth storage bin', 'cloth napkin bulk pack', 'napkin ring set spare', 'glass cloche spare', 'cake stand spare',
-'door hardware spare box', 'cabinet knob spare set', 'drawer pull spare set', 'light switch spare pack', 'outlet cover spare pack', 'thermostat spare unit', 'doorbell spare unit', 'security camera spare indoor', 'motion sensor spare indoor', 'window blind spare box',
-'tool accessory bin misc', 'random cable box', 'adapter plug assortment', 'old remote collection box', 'camera lens case spare', 'camera bag spare', 'tripod bag spare', 'stage lighting spare', 'extension mic cable spare', 'instrument string pack bulk',
-'collectible card binder', 'comic sleeve pack', 'display stand small', 'figurine riser shelf', 'coin display case', 'watch storage case', 'jewelry organizer spare', 'jewelry travel case spare', 'watch winder spare', 'safe deposit document folder',
-'storage ottoman spare', 'bean bag chair spare', 'floor cushion spare', 'rug pad roll spare', 'curtain tieback spare', 'wall art crate', 'mirror packing box', 'glass protector sheets', 'furniture leg protectors pack', 'caster wheel replacement pack',
-'mattress bag spare', 'bed frame spare parts box', 'headboard spare', 'bed slats spare', 'folding mattress spare', 'air mattress spare', 'air pump spare', 'mattress topper spare', 'bed risers spare', 'bed skirt spare',
+        Other: [
+// Christmas trees & ornaments
+'christmas tree artificial', 'christmas tree stand', 'tree skirt storage bag', 'ornament storage box', 'ornament hooks pack', 'ornament divider tray', 'nativity set storage box', 'wreath storage bag', 'seasonal wreath storage box',
+// Holiday lights
+'string lights box', 'extension light cords', 'light timers plug in', 'holiday light storage reel', 'holiday extension cord bundle', 'holiday projector light',
+// Seasonal decor
+'holiday decorations assorted', 'halloween decorations bin', 'thanksgiving decor box', 'easter decoration tote', 'valentine decor bin', 'fourth of july decorations', 'holiday inflatables', 'holiday yard stakes', 'light stake lawn pack', 'outdoor decor storage crate',
+// Gift wrap
+'wrapping paper roll', 'gift wrap storage tube', 'gift wrap cutter tool', 'gift bags assorted', 'gift ribbon spools',
+// Frames & wall art
+'picture frames assorted', 'framed artwork storage', 'canvas art wrapped', 'wall art crate', 'shadow box frame spare', 'certificate frame spare', 'mirror wall spare', 'mirror packing box', 'glass protector sheets', 'clock wall spare',
+'wall decal roll spare',
+// Photo albums
+'photo albums box', 'photo storage box', 'archival photo box',
+// Pillows, blankets & rugs
+'throw pillows spare', 'throw blanket spare', 'blanket storage bag', 'quilt storage case', 'area rug rolled', 'rug pad roll spare', 'bean bag chair spare', 'floor cushion spare', 'storage ottoman spare',
+// Window coverings
+'curtain panels spare', 'curtain rods spare', 'curtain tieback spare', 'window blinds spare', 'window blind spare box',
+// Lamps & fixtures
+'table lamp spare', 'lamp base spare', 'lamp shade spare', 'floor lamp spare', 'extension lamp cord', 'light bulb storage box', 'light fixture spare', 'ceiling fan spare',
+// Decor storage
+'home decor storage bin', 'decor storage tote labeled', 'decorative vase storage box', 'ceramic figurine storage', 'collectible display case spare', 'display stand small', 'figurine riser shelf', 'decorative ladder shelf spare', 'accent table spare', 'folding side table spare',
+// Office supplies
+'office supplies storage tote', 'printer paper case', 'notebook stack', 'binders storage box', 'file folders box', 'archival document box', 'desk organizer spare', 'calculator spare', 'laminator spare', 'label printer spare',
+'shredder spare', 'paper shredder spare',
+// Printers & scanners
+'printer spare', 'scanner spare', 'ink cartridge storage box', 'toner cartridge spare', 'portable document scanner spare',
+// Network gear
+'router modem spare', 'router backup unit', 'wifi extender spare', 'ethernet switch spare', 'network cable spool',
+// Cables & power
+'usb cable bundle', 'hdmi cable spare', 'power adapter box', 'adapter plug assortment', 'random cable box', 'charging cable organizer box', 'tech accessory drawer unit', 'surge protector spare', 'power bank spare', 'battery storage organizer',
+// Computer peripherals
+'external monitor spare', 'keyboard spare', 'computer mouse spare', 'laptop docking station spare', 'webcam spare', 'headset spare',
+// Data storage
+'external hard drive case', 'hard drive enclosure spare', 'flash drive bundle', 'memory card organizer case',
+// Phones & remotes
+'cordless phone base spare', 'phone charger spare', 'old cell phone box', 'remote control spare', 'old remote collection box',
+// Books & magazines
+'books storage box', 'magazine storage bin', 'comic book storage case', 'comic sleeve pack', 'textbook storage box', 'yearbook storage bin', 'journal stack', 'planner archive box', 'greeting card keepsake box',
+// Music & records
+'vinyl record crate', 'vinyl protector sleeves', 'record player spare', 'cd storage binder', 'dvd storage binder', 'music sheet storage box',
+// Instruments & audio
+'instrument case spare', 'guitar stand spare', 'keyboard stand spare', 'instrument string pack bulk', 'speaker stand spare', 'amplifier spare', 'audio cable bundle', 'microphone stand spare', 'extension mic cable spare',
+// Cameras & lighting
+'camera equipment case', 'camera lens case spare', 'camera bag spare', 'tripod spare', 'tripod bag spare', 'lighting umbrella kit', 'stage lighting spare',
+// Board games & puzzles
+'board games stack', 'puzzle boxes', 'card games storage tin', 'puzzle mat roll',
+// Toys
+'toy storage bin', 'toy chest spare', 'action figures box', 'doll storage case', 'lego storage bin', 'model kit boxes', 'remote control car spare', 'stuffed animal storage net', 'play tent folded',
+// Kids art
+'kids art portfolio case', 'crayon storage case', 'marker organizer box', 'chalkboard spare small', 'whiteboard spare small',
+// Crafts
+'craft kit storage tote', 'yarn storage bin', 'fabric storage tote', 'scrapbook supplies box',
+// Collections
+'collectible storage case', 'collectible card binder', 'coin collection binder', 'coin display case', 'stamp collection album', 'coin bank decorative', 'piggy bank spare', 'coin jar large', 'checkbook storage tin',
+// Awards & jewelry
+'sports trophy box', 'medal storage case', 'medal display rack spare', 'sports jersey frame spare', 'diploma tube case', 'watch storage case', 'watch winder spare', 'jewelry organizer spare', 'jewelry travel case spare',
+// Luggage
+'suitcase large', 'suitcase medium', 'carry on luggage', 'rolling duffel bag', 'hard shell luggage spare', 'duffel bag', 'travel backpack', 'garment travel bag', 'luggage tag organizer', 'luggage scale',
+'packing cube set spare', 'travel organizer pouch', 'travel toiletry bag', 'travel document wallet spare', 'passport holder spare', 'portable safe travel', 'neck pillow travel', 'travel pillow memory foam', 'travel blanket spare', 'travel umbrella spare',
+// Camping
+'camping backpack', 'hydration pack', 'sleeping bag storage sack', 'tent bag spare', 'tent stakes bulk', 'tent pole replacement set', 'hammock spare', 'hiking poles pair', 'camp chair spare', 'camp table spare',
+'portable grill small', 'grill cover spare', 'charcoal storage bin', 'mess kit spare', 'canteen metal spare', 'thermos spare', 'portable water filter',
+// Coolers & picnic
+'cooler large hard shell', 'cooler bag soft', 'cooler ice packs bulk', 'picnic basket spare',
+// Beach & water
+'beach umbrella', 'beach chairs folding', 'beach wagon foldable', 'beach towel storage bag', 'snorkel gear bag', 'life vest spare', 'kayak storage cover',
+// Winter & wheeled sports
+'ski boot bag', 'snowboard bag', 'helmet storage bag', 'ski goggles spare', 'snow gloves spare', 'winter hat storage bin', 'rollerblade bag', 'skate helmet spare',
+// Fishing & hunting
+'fishing rod tube', 'tackle storage tray', 'hunting gear tote', 'archery bow case', 'arrow storage tube',
+// Fitness
+'gym equipment storage bin', 'gym bag spare', 'sports duffel organizer', 'yoga mat spare', 'foam roller spare', 'dumbbell set small', 'kettlebell small', 'ankle weights pair', 'resistance bands pack', 'exercise ball',
+'fitness step platform', 'jump rope spare', 'pull up bar doorway', 'gymnastics mat foldable', 'treadmill mat spare', 'bike trainer stand',
+// Emergency supplies
+'emergency preparedness kit', 'medical supply bin', 'first aid refill kit', 'water storage jug', 'water purification tablets', 'food storage bucket sealed', 'emergency food rations box', 'battery lantern spare', 'hand crank flashlight', 'weather radio spare',
+'thermal blankets pack', 'emergency poncho pack', 'hand warmers bulk', 'cooling towels pack', 'emergency candle pack', 'emergency whistle pack', 'flare kit marine', 'battery storage case large',
+// Safes & key storage
+'fireproof safe box small', 'fireproof document bag', 'important document safe', 'safe deposit document folder', 'file safe waterproof', 'steel lock box', 'spare house keys box', 'key organizer wall mount', 'unknown key ring',
+// Records & paperwork
+'weatherproof document case', 'tool manual binder', 'appliance manual folder', 'warranty document file', 'insurance paperwork file', 'tax record storage box', 'accordion file organizer', 'clip file box', 'portable filing cabinet', 'rolling filing cart',
+'blueprint storage tube',
+// Pet carriers & beds
+'pet crate spare', 'dog crate mat spare', 'pet carrier travel', 'pet carrier soft sided', 'pet travel bowl foldable', 'pet bed spare', 'pet blanket spare', 'pet gate foldable', 'pet harness spare', 'pet leash spare',
+'pet collar spare',
+// Pet feeding & care
+'pet bowl spare', 'pet water dispenser spare', 'pet food storage container', 'pet toy storage bin', 'pet grooming kit', 'pet grooming table foldable', 'pet medication organizer', 'pet first aid kit', 'dog training equipment', 'cat scratching post spare',
+'litter box spare', 'litter storage container',
+// Aquariums & birds
+'aquarium supplies bin', 'fish tank heater spare', 'aquarium filter spare', 'aquarium air pump spare', 'reptile heat lamp spare', 'bird cage spare', 'bird seed storage bin',
+// Small appliances
+'kitchen small appliance box', 'coffee maker spare', 'toaster spare', 'microwave spare', 'mini fridge spare', 'beverage cooler spare', 'water filter spare',
+// Dishware & serving
+'china storage case', 'china cabinet spare shelf', 'extra cookware storage', 'glassware storage crate', 'silverware chest', 'serving platter box', 'serving tray stack', 'catering tray spare', 'cake stand spare', 'glass cloche spare',
+// Barware
+'barware storage box', 'wine storage rack small',
+// Party & bulk supplies
+'paper goods bulk box', 'plastic utensil bulk pack', 'bulk napkin pack', 'bulk plate pack', 'cloth napkin bulk pack', 'napkin ring set spare', 'tablecloth storage bin', 'folding banquet table', 'folding chair stack', 'table leaf spare',
+// Hardware
+'home improvement spare parts bin', 'hinge assortment pack', 'knob assortment pack', 'door hardware spare box', 'cabinet knob spare set', 'drawer pull spare set', 'miscellaneous hardware bin', 'random fasteners jar', 'tool accessory bin misc', 'gate hardware kit',
+// Plumbing & electrical parts
+'faucet spare kit', 'plumbing parts box', 'electrical parts box', 'light switch spare pack', 'outlet cover spare pack', 'thermostat spare unit', 'doorbell spare unit', 'security camera spare indoor', 'motion sensor spare indoor',
+// Building materials
+'paint touch up kit', 'tile spare box', 'flooring spare planks', 'roof shingle bundle', 'insulation roll spare', 'drywall sheets spare', 'brick stack spare', 'paver stack spare', 'fence panel spare', 'door slab spare',
+'screen door spare', 'storm window spare', 'storm door spare',
+// Home climate
+'space heater spare', 'desktop fan spare', 'humidifier spare', 'dehumidifier spare', 'air purifier spare', 'air filter replacement case', 'vent cover spare', 'backup alarm clock',
+// Entry & security
+'keypad lock spare', 'deadbolt spare', 'chain lock spare', 'backup alarm siren', 'security sign yard spare', 'mailbox spare', 'house number sign spare', 'address plaque spare',
+// Bed spares
+'bed frame spare parts box', 'headboard spare', 'bed slats spare', 'bed risers spare', 'bed skirt spare', 'mattress topper spare', 'mattress bag spare', 'folding mattress spare', 'air mattress spare', 'air pump spare',
+// Baby gear
 'baby gear storage tote', 'stroller spare', 'car seat spare', 'baby gate spare', 'high chair spare', 'crib mattress spare', 'crib bedding spare', 'baby monitor spare', 'diaper storage bin', 'baby toy storage chest',
-'file safe waterproof', 'portable document scanner spare', 'backup alarm siren', 'security sign yard spare', 'mailbox spare', 'house number sign spare', 'address plaque spare', 'keypad lock spare', 'deadbolt spare', 'chain lock spare',
-'storage bin heavy duty lid', 'rolling storage drawer unit', 'clear organizer tower', 'hanging closet organizer spare', 'shoe rack spare', 'coat rack spare', 'umbrella stand spare', 'coat hanger bulk pack', 'garment rack foldable', 'closet rod spare',
-'plastic tub large', 'storage drum waterproof', 'weatherproof document case', 'steel lock box', 'portable filing cabinet', 'rolling filing cart', 'accordion file organizer', 'clip file box', 'archival photo box', 'blueprint storage tube'
+// Furniture protection
+'furniture leg protectors pack', 'caster wheel replacement pack',
+// Storage containers
+'storage bin heavy duty lid', 'plastic tub large', 'storage drum waterproof', 'rolling storage drawer unit', 'clear organizer tower',
+// Closet & entry organizers
+'hanging closet organizer spare', 'closet rod spare', 'garment rack foldable', 'coat hanger bulk pack', 'shoe rack spare', 'coat rack spare', 'umbrella stand spare',
 ]
     };
 

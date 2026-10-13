@@ -1188,56 +1188,66 @@
 // TOTAL: 485 items
 ],
 
-        Laundry: ['all purpose cleaner', 'broom', 'dehumidifier', 'dustpan', 'extension cord', 'fire extinguisher', 'glass cleaner', 'handheld steamer', 'light bulbs', 'lint roller',
-'mop bucket', 'power strip', 'wall clock', 'cleaning gloves',
-// Washing Machine (5 items)
-'washer drip pan', 'washer pedestal storage bin',
-// Dryer & Venting (18 items)
-'dryer', 'wool dryer balls', 'dryer ball refill set', 'dryer booster fan', 'dryer rack insert', 'dryer sheets box', 'dryer stacking kit', 'dryer vent cleaning brush', 'dryer vent cleaning kit', 'dryer vent cleaning rods',
-'dryer vent hose',
-// Laundry Sink & Plumbing (12 items)
-'dehumidifier drain hose', 'drain snake handheld', 'laundry sink', 'laundry sink cabinet', 'laundry sink faucet', 'laundry sink soap dispenser', 'laundry sink splash guard', 'laundry sink sprayer', 'plunger flange style', 'utility sink floor mat',
-'utility sink strainer', 'utility sink wall bracket',
-// Cabinets, Shelving & Countertops (13 items)
-'folding table', 'laundry cabinet glass doors', 'laundry cabinet handles', 'laundry cabinet sliding doors', 'laundry cabinets', 'laundry countertop', 'laundry shelf LED strip', 'laundry shelving unit', 'laundry under cabinet lighting strip', 'wire shelving rack',
-// Hampers, Baskets & Laundry Bags (19 items)
-'collapsible laundry basket', 'delicates bag', 'double laundry hamper', 'laundry basket plastic', 'laundry basket woven', 'laundry color separation bags', 'laundry hamper', 'laundry hamper deodorizer', 'laundry mesh divider baskets', 'laundry sorter rolling',
-'laundry sorter three bin', 'laundry storage baskets', 'laundry storage crate stackable', 'laundry supply basket wicker', 'laundry wall mounted basket system', 'mesh laundry bags', 'rolling laundry bin with lid', 'rolling laundry cart', 'shoe wash bag',
-// Hangers & Garment Storage (26 items)
-'clip hangers', 'clothes hangers plastic', 'clothes hangers velvet', 'clothes hangers wood', 'clothing drying tree rack', 'clothing rolling rack', 'clothing storage cedar hangers', 'clothing storage garment rack', 'coat hangers', 'garment bag breathable cotton',
-'garment bag large', 'garment bag small', 'garment bag zippered', 'garment hanger clips set', 'garment storage box', 'garment storage vacuum bags', 'hanger organizer rack', 'laundry rolling garment rack', 'over door hanger rack', 'padded hangers',
-'pants hangers', 'shoe drying rack', 'shoe laundry wash bag', 'skirt hangers', 'sock mesh wash pouch', 'sock organizer drawer insert',
-// Ironing & Steaming (10 items)
-'fabric repair patches iron on', 'garment steamer', 'iron', 'iron cord wrap', 'iron storage caddy', 'ironing board', 'ironing board cover', 'ironing water spray bottle', 'spray bottle', 'steamer water cup',
-// Sewing & Fabric Care (20 items)
-'button repair kit', 'clothing moth deterrent cedar blocks', 'elastic band roll', 'fabric glue', 'fabric lint brush reusable', 'fabric repair tape', 'fabric shaver', 'hemming tape', 'lint brush handheld', 'lint roller refills',
-'measuring tape sewing', 'needle set', 'patch repair kit', 'safety pins box', 'sewing kit', 'sewing machine', 'tailor chalk', 'thread organizer rack', 'thread spool set',
-// Laundry Supplies & Detergents (36 items)
-'bleach bottle', 'color safe bleach', 'color safe stain spray', 'detergent dispenser pump', 'detergent storage container', 'fabric softener bottle', 'fabric softener pump', 'garment deodorizer spray', 'laundry bar soap', 'laundry brightener liquid',
-'laundry detergent bulk dispenser', 'laundry detergent eco sheets', 'laundry detergent liquid', 'laundry detergent powder', 'laundry detergent pump bottle', 'laundry measuring cup', 'laundry pet hair remover roller', 'laundry pet hair remover sheets', 'laundry pods container', 'laundry static guard spray',
-'laundry supply caddy', 'laundry supply shelf', 'laundry supply turntable', 'laundry whitening booster powder', 'laundry wrinkle spray large', 'odor eliminator spray', 'odor neutralizer spray', 'oxygen booster tub', 'oxygen cleaner', 'pre treat spray',
-'stain remover spray', 'stain stick remover', 'starch refill bottle', 'starch spray', 'wrinkle release spray', 'wrinkle spray refill',
-// Drying & Folding (12 items)
-'clothespin bag', 'clothing folding template board', 'folding drying rack', 'indoor clothesline', 'laundry folding board', 'laundry folding chair', 'laundry folding counter light', 'laundry room sink drying rack',
-// Cleaning Supplies (16 items)
-'all purpose cleaner refill', 'cleaning brush set small', 'cleaning microfiber towel stack', 'cleaning supply tote', 'cleaning wipes', 'disinfectant refill bottle', 'disinfectant spray', 'laundry recycling bin divider', 'laundry trash bag dispenser', 'laundry trash liner roll',
-'mop', 'paper towel bulk pack', 'scrub sponge refill pack', 'sponges',
-// Trash & Recycling (4 items)
-'laundry room trash can', 'laundry trash can pedal', 'recycling bin small', 'trash bags small',
-// Safety & Monitoring (8 items)
-'appliance surge protector', 'carbon monoxide detector battery pack', 'fire extinguisher cabinet small', 'fire extinguisher inspection tag', 'laundry room humidity monitor', 'laundry room leak alarm smart', 'smoke detector battery pack', 'water leak detector',
-// Power & Lighting (6 items)
-'ceiling light LED panel', 'extension cord organizer wrap', 'laundry room extension cord heavy duty', 'laundry room surge protector strip', 'laundry smart plug', 'power strip surge protector',
-// Decor & Room Accessories (12 items)
-'change jar', 'laundry room bulletin board', 'laundry room essential oil diffuser', 'laundry room rug', 'laundry room seating stool', 'laundry room storage bench', 'laundry room wall art', 'laundry room whiteboard', 'laundry rug non slip pad', 'laundry storage ottoman',
-'lost sock bin', 'utility hook heavy duty',
-// Comfort & Utility (4 items)
-'anti fatigue mat', 'fan portable', 'step stool', 'step stool folding',
-// Appliance Accessories (3 items)
-'appliance dolly', 'appliance moving straps', 'appliance polish stainless',
+        Laundry: [
+// Washer & dryer
+'dryer', 'dryer stacking kit', 'dryer rack insert', 'dryer booster fan', 'washer drip pan', 'washer pedestal storage bin', 'appliance surge protector', 'appliance polish stainless', 'appliance dolly', 'appliance moving straps',
+// Dryer vent
+'dryer vent hose', 'dryer vent cleaning brush', 'dryer vent cleaning kit', 'dryer vent cleaning rods',
+// Dryer sheets & balls
+'dryer sheets box', 'wool dryer balls', 'dryer ball refill set', 'laundry static guard spray',
+// Detergent
+'laundry detergent liquid', 'laundry detergent powder', 'laundry detergent eco sheets', 'laundry detergent pump bottle', 'laundry detergent bulk dispenser', 'detergent dispenser pump', 'detergent storage container', 'laundry pods container', 'laundry measuring cup', 'laundry bar soap',
+// Fabric softener & boosters
+'fabric softener bottle', 'fabric softener pump', 'laundry brightener liquid', 'laundry whitening booster powder', 'bleach bottle', 'color safe bleach', 'oxygen booster tub', 'oxygen cleaner',
+// Stain & odor treatment
+'stain remover spray', 'stain stick remover', 'pre treat spray', 'color safe stain spray', 'odor eliminator spray', 'odor neutralizer spray', 'garment deodorizer spray', 'laundry hamper deodorizer', 'laundry pet hair remover roller', 'laundry pet hair remover sheets',
+// Ironing
+'iron', 'iron cord wrap', 'iron storage caddy', 'ironing board', 'ironing board cover', 'ironing water spray bottle', 'spray bottle', 'garment steamer', 'handheld steamer', 'steamer water cup',
+// Starch & wrinkle spray
+'starch spray', 'starch refill bottle', 'wrinkle release spray', 'wrinkle spray refill', 'laundry wrinkle spray large',
+// Hampers & baskets
+'laundry hamper', 'double laundry hamper', 'collapsible laundry basket', 'laundry basket plastic', 'laundry basket woven', 'laundry sorter three bin', 'laundry sorter rolling', 'laundry mesh divider baskets', 'laundry color separation bags', 'rolling laundry bin with lid',
+'rolling laundry cart', 'laundry wall mounted basket system', 'laundry storage baskets', 'laundry storage crate stackable',
+// Wash bags
+'mesh laundry bags', 'delicates bag', 'shoe wash bag', 'shoe laundry wash bag', 'sock mesh wash pouch', 'sock organizer drawer insert', 'lost sock bin',
+// Drying racks
+'folding drying rack', 'laundry drying rack', 'clothing drying tree rack', 'shoe drying rack', 'indoor clothesline', 'clothespins', 'clothespin bag', 'laundry room sink drying rack',
+// Folding
+'folding table', 'laundry folding board', 'clothing folding template board', 'laundry folding counter light', 'laundry folding chair',
+// Hangers
+'clothes hangers plastic', 'clothes hangers velvet', 'clothes hangers wood', 'clip hangers', 'padded hangers', 'pants hangers', 'skirt hangers', 'coat hangers', 'garment hanger clips set', 'hanger organizer rack',
+'over door hanger rack',
+// Garment racks
+'clothing rolling rack', 'laundry rolling garment rack', 'clothing storage garment rack', 'clothing storage cedar hangers',
+// Garment storage
+'garment bag large', 'garment bag small', 'garment bag zippered', 'garment bag breathable cotton', 'garment storage box', 'garment storage vacuum bags', 'clothing moth deterrent cedar blocks',
+// Lint & de-fuzzing
+'lint roller', 'lint roller refills', 'lint brush handheld', 'fabric lint brush reusable', 'fabric shaver',
+// Sewing & repair
+'sewing machine', 'sewing kit', 'needle set', 'thread spool set', 'thread organizer rack', 'tailor chalk', 'measuring tape sewing', 'hemming tape', 'elastic band roll', 'safety pins box',
+'button repair kit', 'fabric glue', 'fabric repair tape', 'fabric repair patches iron on', 'patch repair kit', 'clothing repair kit deluxe',
+// Laundry sink
+'laundry sink', 'laundry sink cabinet', 'laundry sink faucet', 'laundry sink soap dispenser', 'laundry sink splash guard', 'laundry sink sprayer', 'utility sink floor mat', 'utility sink strainer', 'utility sink wall bracket', 'plunger flange style',
+'drain snake handheld',
+// Cabinets & shelving
+'laundry cabinets', 'laundry cabinet glass doors', 'laundry cabinet handles', 'laundry cabinet sliding doors', 'laundry countertop', 'laundry shelving unit', 'wire shelving rack', 'laundry shelf LED strip', 'laundry under cabinet lighting strip', 'laundry supply shelf',
+'laundry supply turntable', 'laundry supply caddy', 'laundry supply basket wicker', 'cleaning supply tote',
+// Cleaning supplies
+'all purpose cleaner', 'all purpose cleaner refill', 'glass cleaner', 'cleaning wipes', 'disinfectant spray', 'disinfectant refill bottle', 'cleaning gloves', 'cleaning brush set small', 'cleaning microfiber towel stack', 'sponges',
+'scrub sponge refill pack', 'paper towel bulk pack',
+// Floor care
+'broom', 'dustpan', 'mop', 'mop bucket',
+// Trash & recycling
+'laundry room trash can', 'laundry trash can pedal', 'trash bags small', 'laundry trash bag dispenser', 'laundry trash liner roll', 'recycling bin small', 'laundry recycling bin divider',
+// Safety & moisture
+'fire extinguisher', 'fire extinguisher cabinet small', 'fire extinguisher inspection tag', 'carbon monoxide detector battery pack', 'smoke detector battery pack', 'water leak detector', 'laundry room leak alarm smart', 'laundry room humidity monitor', 'dehumidifier', 'dehumidifier drain hose',
+// Power & lighting
+'extension cord', 'extension cord organizer wrap', 'laundry room extension cord heavy duty', 'power strip', 'power strip surge protector', 'laundry room surge protector strip', 'laundry smart plug', 'light bulbs', 'ceiling light LED panel',
+// Comfort & decor
+'laundry room rug', 'laundry rug non slip pad', 'anti fatigue mat', 'step stool', 'step stool folding', 'laundry room seating stool', 'laundry room storage bench', 'laundry storage ottoman', 'utility hook heavy duty', 'fan portable',
+'laundry room bulletin board', 'laundry room whiteboard', 'laundry room wall art', 'wall clock', 'change jar', 'laundry room essential oil diffuser',
 // TOTAL: 224 items
-
-'clothespins', 'clothing repair kit deluxe', 'laundry drying rack', ],
+],
 
         'Shed / Storage Unit': [// Shed Storage & Organization (49 items)
 'overhead storage shelf', 'corner shelving unit', 'heavy duty storage rack', 'wire storage rack', 'plastic storage rack', 'metal storage cabinet', 'locking storage cabinet', 'tall storage cabinet', 'base storage cabinet', 'stackable storage bins',

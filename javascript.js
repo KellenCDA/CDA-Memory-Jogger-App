@@ -488,52 +488,130 @@
 // TOTAL: 581 items
 ],
 
-        'Dining room': [// Dining Table & Components (32 items)
-'dining table', 'table leaf insert', 'dining table extension mechanism', 'ironing board tabletop',
-// Chairs & Bench Seating (37 items)
-'dining chairs', 'arm chairs', 'side chairs', 'bench seating', 'chair cushions', 'seat covers', 'chair floor protectors', 'bench cushion foam', 'bench storage drawer', 'banquette',
-'captain chair', 'swivel dining chair', 'chair booster seat', 'high chair', 'chair cushion foam',
-// Storage & Display Furniture (111 items)
-'china cabinet', 'hutch cabinet', 'buffet table', 'sideboard', 'bar cabinet', 'wine cabinet', 'curio cabinet', 'display cabinet', 'console table', 'serving cart',
-'bar cart', 'storage cabinet', 'buffet warming trays', 'storage baskets', 'cabinet shelf riser', 
-// Table Linens & Place Settings (36 items)
-'table runner', 'placemats', 'cloth napkins', 'napkin rings', 'napkin holder', 'tablecloth', 'table number stand', 
-// Dinnerware & Serving Dishes (51 items)
-'dinner plates', 'salad plates', 'bread plates', 'charger plates', 'bowls', 'soup bowls', 'cereal bowls', 'serving bowls', 'platter', 'serving platter',
-'gravy boat', 'butter dish', 'bread basket', 'cake stand', 'tiered tray', 'dessert plates', 'bowl storage shelf', 'bread cutting board', 'bowl display stand', 'cheese board',
-'charcuterie board', 'charcuterie bowls', 'chip and dip platter', 'salad servers',
-// Condiments & Table Staples (21 items)
-'salt shaker', 'pepper shaker', 'pepper grinder', 'sugar bowl', 'cream pitcher', 'water pitcher', 'carafe', 'coffee carafe', 'sugar dispenser',
-// Glassware (33 items)
-'wine glasses', 'champagne flutes', 'cocktail glasses', 'highball glasses', 'lowball glasses', 'beer mugs', 'pint glasses', 'shot glasses', 'coffee cups', 'tea cups',
-'saucers', 'mugs', 'mug tree', 'glassware display stand', 'decanter', 'liquor decanter', 'drink mixing glass',
-// Flatware & Serving Utensils (26 items)
-'flatware set', 'dinner forks', 'salad forks', 'dinner knives', 'steak knives', 'soup spoons', 'teaspoons', 'ladle', 'tongs', 'cake server',
-'pie server', 'bar spoon', 'bread knife', 'fondue forks', 'cheese knives',
-// Bar & Wine (71 items)
-'wine rack', 'wine opener', 'wine aerator', 'ice bucket', 'cocktail shaker', 'jigger', 'drink dispenser', 'beverage tub', 'ice scoop', 'cocktail strainer',
-'mudler', 'wine fridge', 'ice bucket stand base',
-// Coffee & Tea (20 items)
-'tea pot', 'tea infuser', 'tea kettle electric', 'coffee bean canister', 'coffee pod holder', 'coffee pod drawer', 'tea strainer stand',
-// Decor & Centerpieces (47 items)
-'table centerpiece', 'decorative tray', 'candles', 'wall art', 'picture frames', 'wall mirror', 'wall clock', 'decorative bowl', 'decorative vase', 'decorative lantern',
-'mantel clock', 'framed print',
-// Lamps & Lighting (9 items)
-'light bulbs', 'floor lamp', 'table lamp',
-// Silverware & China Storage (15 items)
-'china display stand',
-// Rugs & Floor (16 items)
-'area rug', 'floor runner', 'area rug beater tool', 'area rug cleaning kit',
-// Furniture Care & Maintenance (11 items)
-// Cleaning Supplies (9 items)
-'glass cleaner', 'all purpose cleaner', 'disinfecting wipes', 'microfiber cloths',
-// Trash & Recycling (3 items)
-'trash bags', 'recycling bin',
-// Tools & Utility (5 items)
-'step stool', 'iron travel', 'steamer travel',
+        'Dining room': [
+// Dining table
+'dining table', 'table leaf insert', 'dining table extension mechanism', 'table extension slides', 'table leaf alignment pins', 'table leaf lock clips', 'table base', 'table legs', 'table leaf storage bag', 'table pad protector',
+'table pad storage tube',
+// Table hardware & repair
+'table leg hardware kit', 'table leg bolts', 'table stabilizer brackets', 'table support beam', 'table brace kit', 'table hardware screws', 'table leveling pads', 'table leveling shims', 'table corner protectors', 'table edge protectors',
+'tabletop protector film', 'tabletop sealer', 'table refinishing kit', 'table scratch repair marker',
+// Dining chairs
+'dining chairs', 'arm chairs', 'side chairs', 'captain chair', 'swivel dining chair', 'chair cushions', 'chair seat cushion inserts', 'chair back pads', 'chair cushion foam', 'chair cushion ties',
+'chair cushion storage bag', 'seat covers', 'chair slipcover set', 'chair armrest pads', 'chair floor protectors', 'chair leg caps', 'chair leg felt pads',
+// Chair repair & upholstery
+'chair seat screws', 'chair backrest screws', 'chair back support brace', 'chair leg braces', 'chair spindle', 'chair seat webbing', 'chair upholstery kit', 'chair upholstery fabric', 'chair upholstery cleaner',
+// Bench & banquette
+'bench seating', 'bench cushion foam', 'bench storage drawer', 'bench frame bolts', 'bench leg levelers', 'banquette', 'banquette cushion set',
+// Kids seating
+'high chair', 'chair booster seat',
+// China cabinet
+'china cabinet', 'china cabinet glass panels', 'china cabinet glass shelf inserts', 'china cabinet glass shelf supports', 'china cabinet shelf clips', 'china cabinet shelf brackets', 'china cabinet door handles', 'china cabinet door lock', 'china cabinet light bulbs', 'china cabinet shelf lighting kit',
+'glass cabinet lock', 'glass cabinet shelf protector', 'china display stand',
+// Hutch
+'hutch cabinet', 'hutch drawer pulls', 'hutch shelf brackets', 'hutch shelf supports', 'hutch door hinges soft close', 'cabinet hinge repair kit',
+// Buffet & sideboard
+'buffet table', 'buffet drawer slides', 'buffet door bumpers', 'buffet cabinet key spare', 'sideboard', 'sideboard drawer dividers', 'sideboard shelf supports', 'buffet warming trays', 'buffet warming tray cover', 'buffet fuel cans',
+'serving dish warming base', 'chafing dish cover',
+// Bar cabinet
+'bar cabinet', 'bar cabinet lock', 'bar cabinet lighting strip', 'bar cabinet LED under shelf lights', 'bar cabinet wine glass holders', 'bar cabinet shelf liner roll', 'bar cabinet magnetic catch', 'bar cabinet glass shelf pins', 'bar cabinet leveling feet', 'bar cabinet moisture absorber',
+// Wine cabinet
+'wine cabinet', 'wine cabinet shelf inserts', 'wine cabinet thermometer', 'wine cabinet humidity monitor',
+// Curio & display cabinets
+'curio cabinet', 'curio cabinet lighting kit', 'curio cabinet glass cleaner', 'curio cabinet shelf clips', 'curio cabinet lock', 'display cabinet', 'display cabinet glass cleaner kit', 'display cabinet shelf lighting',
+// Console table & carts
+'console table', 'console table drawer liner', 'console table anti slip pads', 'console table leg braces', 'serving cart', 'serving cart handle grips', 'bar cart', 'bar cart glass holder insert',
+// Storage cabinets & baskets
+'storage cabinet', 'cabinet shelf riser', 'cabinet shelf liner', 'drawer organizers', 'anti tarnish drawer liners', 'storage baskets', 'storage basket liner', 'storage basket stacker', 'decorative boxes', 'decorative box lid',
+'decorative box storage crate',
+// Tablecloths & runners
+'tablecloth', 'tablecloth clips', 'tablecloth storage bag', 'tablecloth hanger rack', 'tablecloth ironing spray', 'table runner', 'runner clips', 'holiday table runner', 'seasonal table runner storage box', 'table skirt',
+// Ironing
+'ironing board tabletop', 'iron travel', 'steamer travel',
+// Placemats & napkins
+'placemats', 'placemat holder tray', 'placemat storage rack', 'placemat storage box', 'cloth napkins', 'napkin rings', 'napkin ring storage box', 'napkin holder', 'napkin press', 'napkin press iron',
+'napkin fold board', 'holiday napkins', 'holiday napkin holder', 'bar napkins', 'cocktail napkins', 'cloth napkin laundry bag', 'napkin storage bin',
+// Linen storage & place cards
+'linen storage box', 'linen drawer sachets', 'table linen storage dividers', 'table number stand', 'place card holder', 'place cards', 'menu cards',
+// Plates & bowls
+'dinner plates', 'salad plates', 'bread plates', 'dessert plates', 'charger plates', 'dinner plate storage rack', 'salad plate storage rack', 'charger plate storage case', 'bowls', 'soup bowls',
+'cereal bowls', 'bowl storage shelf', 'bowl stacking pads',
+// Serving bowls & platters
+'serving bowls', 'serving bowl lid', 'serving bowl rack', 'salad bowl set', 'salad servers', 'platter', 'serving platter', 'platter storage sleeve', 'platter display easel', 'platter cover',
+'food tent mesh cover', 'serving trays', 'tiered tray', 'bowl display stand',
+// Bread, butter & cakes
+'bread basket', 'bread basket liner', 'bread cutting board', 'bread knife', 'butter dish', 'butter dish cover spare', 'cake stand', 'cake dome cover', 'cake server', 'pie server',
+'pie server stainless steel',
+// Cheese & appetizers
+'cheese board', 'cheese markers', 'cheese knives', 'charcuterie board', 'charcuterie bowls', 'chip and dip platter', 'dip bowl set', 'nut bowl set', 'olive dish',
+// Gravy, salt & pepper
+'gravy boat', 'gravy boat saucer', 'gravy boat tray', 'salt shaker', 'pepper shaker', 'pepper grinder', 'pepper grinder refill', 'pepper mill spare parts', 'salt grinder', 'salt grinder refill',
+'salt cellar lid', 'salt cellar spoon', 'oil bottle dispenser', 'vinegar bottle dispenser', 'salad dressing cruet', 'honey jar',
+// Sugar, cream & pitchers
+'sugar bowl', 'sugar bowl lid', 'sugar bowl spoon', 'sugar dispenser', 'cream pitcher', 'cream pitcher lid', 'cream pitcher tray', 'cream pitcher storage tray', 'water pitcher', 'water pitcher filter insert',
+'pitcher infuser insert', 'carafe', 'water carafe lid', 'coffee carafe',
+// Wine & stemware
+'wine glasses', 'wine glass charms', 'wine glass cleaning brush', 'champagne flutes', 'champagne flute storage case', 'champagne flute cleaning brush', 'cocktail glasses', 'cocktail glass cleaning cloth', 'decanter', 'liquor decanter',
+'drink mixing glass',
+// Tumblers & beer glasses
+'highball glasses', 'highball glass storage rack', 'lowball glasses', 'beer mugs', 'beer mug cleaning brush', 'pint glasses', 'shot glasses', 'glassware display stand', 'glassware storage box', 'glassware padding inserts',
+'glassware padding wrap', 'glassware drying cloth',
+// Cups & mugs
+'coffee cups', 'coffee cup saucer set', 'coffee cup organizer', 'saucers', 'tea cups', 'tea cup display shelf', 'mugs', 'mug tree', 'mug cabinet riser',
+// Flatware
+'flatware set', 'dinner forks', 'salad forks', 'dinner knives', 'steak knives', 'steak knife storage block', 'steak knife sharpening kit', 'soup spoons', 'teaspoons', 'flatware drawer tray',
+'flatware polishing kit', 'fondue forks', 'fondue pot burner cap',
+// Serving utensils
+'ladle', 'ladle holder', 'tongs', 'tongs stainless steel', 'ice tongs', 'ice tongs holder',
+// Silver storage & care
+'silverware storage chest', 'tableware organizer tray', 'china storage divider', 'silver polish', 'silverware polishing gloves', 'silverware anti tarnish cloth', 'silver storage anti tarnish strips', 'anti tarnish silver bags', 'silver storage rolls', 'silver storage pouches',
+// Wine storage
+'wine rack', 'wine rack floor stand', 'wine bottle storage crate', 'wine fridge', 'wine fridge shelves', 'wine fridge drip tray', 'wine fridge charcoal filter', 'wine fridge humidity gauge',
+// Wine tools
+'wine opener', 'wine corkscrew lever', 'wine bottle opener electric', 'wine cork extractor', 'wine bottle foil cutter', 'wine aerator', 'wine stopper', 'wine bottle stopper set', 'wine bottle drip rings', 'wine bottle label tags',
+'wine bottle marker pen',
+// Cocktail tools
+'cocktail shaker', 'cocktail shaker weighted tins', 'cocktail shaker insulation sleeve', 'jigger', 'bar spoon', 'cocktail strainer', 'bar strainer fine mesh', 'mudler', 'bar tool set', 'bar caddy',
+'drink stirrers', 'drink stirrer set', 'cocktail picks', 'cocktail pick holder', 'cocktail rimmer', 'drink garnish tray',
+// Bar mixers & liquor
+'bitters bottles', 'bitters dropper caps', 'simple syrup bottles', 'mixer bottles', 'liquor pour spouts', 'liquor bottle pour spout caps', 'speed pourer set', 'liquor bottle shelf', 'liquor bottle risers', 'bar mat',
+'bar rail mat', 'bar rail liner', 'bar towel holder',
+// Ice & drink dispensers
+'ice bucket', 'ice bucket stand base', 'ice bucket drip mat', 'ice scoop', 'ice scoop holder', 'ice mold tray', 'ice sphere mold', 'whiskey stones', 'whiskey stone pouch', 'drink dispenser',
+'drink dispenser infuser tube', 'drink dispenser ice core', 'drink dispenser drip tray', 'beverage dispenser spigot', 'beverage dispenser cleaning brush', 'beverage tub', 'beverage tub drain plug', 'beverage tub liner',
+// Coasters
+'coasters', 'coaster holder', 'coaster set stone', 'coaster set cork',
+// Tea
+'tea pot', 'tea pot infuser insert', 'tea infuser', 'tea infuser basket', 'tea infuser spoon', 'tea strainer', 'tea strainer stand', 'tea kettle electric', 'tea kettle base', 'tea canister set',
+'tea canister labels', 'tea storage organizer', 'tea warmer plate', 'tea warmer candle base',
+// Coffee
+'coffee warmer plate', 'coffee bean canister', 'coffee pod holder', 'coffee pod drawer', 'coffee scoop', 'coffee filter basket',
+// Centerpieces
+'table centerpiece', 'centerpiece vase set', 'centerpiece storage crate', 'seasonal centerpiece decor', 'holiday centerpiece box', 'centerpiece decorative stones', 'centerpiece foam blocks', 'tabletop sculpture', 'table decor riser', 'seasonal decor table sign',
+// Vases & floral supplies
+'decorative vase', 'vase filler beads', 'vase filler stones', 'flower frog', 'floral wire', 'floral tape', 'decorative pitcher', 'decorative bowl',
+// Candles
+'candles', 'candle holders', 'holiday candle holders', 'candle snuffer', 'candle wick trimmer', 'candle lighter', 'candle wax remover', 'candle storage box', 'candle storage sleeve', 'decorative lantern',
+// Decorative trays
+'decorative tray', 'decorative tray liner', 'decorative tray handles',
+// Wall art & mirrors
+'wall art', 'wall art frame set', 'wall art dust cover', 'picture frames', 'gallery wall frame set', 'framed print', 'wall mirror', 'mirror frame',
+// Clocks
+'wall clock', 'wall clock battery pack', 'wall clock repair kit', 'mantel clock',
+// Lamps & lighting
+'floor lamp', 'floor lamp base weight', 'table lamp', 'lamp shade', 'lamp bulbs', 'table lamp finial', 'lamp harp', 'lamp cord cover', 'light bulbs', 'table decor LED string lights',
+'fairy light battery pack', 'remote timer plug', 'battery pack organizer',
+// Area rugs
+'area rug', 'rug pad', 'area rug corner tape', 'rug tape double sided', 'runner rug tape', 'rug grippers', 'rug corner weights', 'rug storage bag', 'rug storage roll', 'rug brush',
+'rug fringe comb', 'rug cleaning spray', 'area rug cleaning kit', 'area rug beater tool', 'floor runner', 'floor runner anti slip pad',
+// Furniture care
+'felt pads bulk pack', 'furniture sliders', 'furniture leveling shims', 'furniture polish', 'furniture polish spray', 'wood polish cloth', 'wood cleaner concentrate', 'wood conditioner oil', 'wood filler', 'wood stain pen',
+'china polishing cloth',
+// Cleaning supplies
+'all purpose cleaner', 'all purpose cleaner gallon', 'glass cleaner', 'mirror cleaning spray', 'disinfecting wipes', 'disinfectant wipe refill', 'microfiber cloths', 'paper towels',
+// Trash & step stool
+'trash can', 'trash bags', 'recycling bin', 'step stool', 'step stool rubber feet',
 // TOTAL: 553 items
-
-'table base', 'table legs', 'table leaf storage bag', 'table pad protector', 'table leg hardware kit', 'table corner protectors', 'table extension slides', 'table leveling pads', 'table leaf alignment pins', 'table pad storage tube', 'table refinishing kit', 'table scratch repair marker', 'table leg bolts', 'table stabilizer brackets', 'table support beam', 'table brace kit', 'table hardware screws', 'table leveling shims', 'table leaf lock clips', 'table edge protectors', 'tabletop sealer', 'tabletop protector film', 'console table leg braces', 'tabletop sculpture', 'chair leg caps', 'chair seat screws', 'chair back support brace', 'chair upholstery cleaner', 'chair seat cushion inserts', 'chair back pads', 'chair cushion storage bag', 'chair leg braces', 'chair upholstery kit', 'bench frame bolts', 'chair cushion ties', 'chair leg felt pads', 'bench leg levelers', 'banquette cushion set', 'chair upholstery fabric', 'chair slipcover set', 'chair armrest pads', 'chair backrest screws', 'chair spindle', 'chair seat webbing', 'drawer organizers', 'cabinet shelf liner', 'decorative boxes', 'china cabinet shelf clips', 'china cabinet glass panels', 'hutch drawer pulls', 'sideboard drawer dividers', 'bar cabinet lock', 'wine cabinet shelf inserts', 'curio cabinet lighting kit', 'display cabinet glass cleaner kit', 'console table drawer liner', 'buffet fuel cans', 'glass cabinet lock', 'storage basket liner', 'decorative box lid', 'buffet warming tray cover', 'china cabinet light bulbs', 'china cabinet glass shelf inserts', 'buffet drawer slides', 'wine cabinet thermometer', 'curio cabinet glass cleaner', 'display cabinet shelf lighting', 'serving cart handle grips', 'glass cabinet shelf protector', 'storage basket stacker', 'decorative box storage crate', 'china cabinet door lock', 'buffet cabinet key spare', 'bar cabinet lighting strip', 'curio cabinet shelf clips', 'console table anti slip pads', 'china cabinet door handles', 'china cabinet shelf lighting kit', 'hutch shelf brackets', 'buffet door bumpers', 'sideboard shelf supports', 'bar cabinet wine glass holders', 'curio cabinet lock', 'bar cart glass holder insert', 'cabinet hinge repair kit', 'wine cabinet humidity monitor', 'china cabinet glass shelf supports', 'china cabinet shelf brackets', 'hutch shelf supports', 'hutch door hinges soft close', 'bar cabinet shelf liner roll', 'bar cabinet magnetic catch', 'bar cabinet LED under shelf lights', 'bar cabinet glass shelf pins', 'bar cabinet leveling feet', 'bar cabinet moisture absorber', 'anti tarnish drawer liners', 'tablecloth clips', 'holiday table runner', 'holiday napkins', 'placemat storage rack', 'napkin ring storage box', 'tablecloth storage bag', 'tablecloth ironing spray', 'placemat holder tray', 'holiday napkin holder', 'placemat storage box', 'napkin press iron', 'tablecloth hanger rack', 'seasonal table runner storage box', 'place card holder', 'place cards', 'menu cards', 'napkin fold board', 'napkin press', 'runner clips', 'table skirt', 'bar napkins', 'cocktail napkins', 'cloth napkin laundry bag', 'linen storage box', 'linen drawer sachets', 'table linen storage dividers', 'napkin storage bin', 'bread basket liner', 'serving trays', 'dinner plate storage rack', 'salad plate storage rack', 'charger plate storage case', 'cake dome cover', 'bowl stacking pads', 'serving bowl lid', 'platter storage sleeve', 'gravy boat saucer', 'serving bowl rack', 'platter display easel', 'gravy boat tray', 'salt cellar lid', 'platter cover', 'food tent mesh cover', 'cheese markers', 'olive dish', 'dip bowl set', 'nut bowl set', 'salad bowl set', 'oil bottle dispenser', 'vinegar bottle dispenser', 'salt cellar spoon', 'honey jar', 'butter dish cover spare', 'serving dish warming base', 'salt grinder', 'cream pitcher storage tray', 'water carafe lid', 'salt grinder refill', 'pepper grinder refill', 'sugar bowl lid', 'cream pitcher lid', 'pepper mill spare parts', 'sugar bowl spoon', 'cream pitcher tray', 'water pitcher filter insert', 'salad dressing cruet', 'glassware storage box', 'highball glass storage rack', 'coffee cup organizer', 'tea cup display shelf', 'glassware padding inserts', 'coffee cup saucer set', 'glassware padding wrap', 'wine glass charms', 'glassware drying cloth', 'cocktail glass cleaning cloth', 'champagne flute storage case', 'wine glass cleaning brush', 'champagne flute cleaning brush', 'beer mug cleaning brush', 'mug cabinet riser', 'ice tongs', 'flatware drawer tray', 'steak knife storage block', 'ladle holder', 'tongs stainless steel', 'pie server stainless steel', 'flatware polishing kit', 'steak knife sharpening kit', 'ice tongs holder', 'tea infuser spoon', 'wine stopper', 'bar tool set', 'coasters', 'coaster holder', 'wine bottle stopper set', 'ice mold tray', 'bar mat', 'drink stirrers', 'drink garnish tray', 'liquor pour spouts', 'coaster set stone', 'coaster set cork', 'wine rack floor stand', 'wine bottle storage crate', 'wine fridge shelves', 'wine fridge drip tray', 'wine fridge charcoal filter', 'wine fridge humidity gauge', 'wine bottle label tags', 'wine bottle marker pen', 'wine bottle drip rings', 'wine bottle foil cutter', 'wine bottle opener electric', 'wine corkscrew lever', 'wine cork extractor', 'bar caddy', 'drink stirrer set', 'cocktail picks', 'cocktail pick holder', 'bitters bottles', 'bitters dropper caps', 'simple syrup bottles', 'mixer bottles', 'ice sphere mold', 'whiskey stones', 'whiskey stone pouch', 'bar strainer fine mesh', 'cocktail shaker weighted tins', 'cocktail shaker insulation sleeve', 'cocktail rimmer', 'liquor bottle shelf', 'liquor bottle risers', 'liquor bottle pour spout caps', 'speed pourer set', 'bar rail mat', 'bar rail liner', 'bar towel holder', 'drink dispenser infuser tube', 'drink dispenser ice core', 'drink dispenser drip tray', 'beverage tub drain plug', 'beverage tub liner', 'ice bucket drip mat', 'ice scoop holder', 'beverage dispenser spigot', 'coffee warmer plate', 'tea strainer', 'tea pot infuser insert', 'pitcher infuser insert', 'tea kettle base', 'tea canister set', 'tea canister labels', 'tea infuser basket', 'tea warmer candle base', 'tea warmer plate', 'tea storage organizer', 'coffee scoop', 'coffee filter basket', 'candle holders', 'seasonal centerpiece decor', 'holiday candle holders', 'centerpiece storage crate', 'decorative tray liner', 'candle snuffer', 'candle wick trimmer', 'wall clock battery pack', 'centerpiece vase set', 'candle storage box', 'candle lighter', 'wall art dust cover', 'seasonal decor table sign', 'holiday centerpiece box', 'centerpiece decorative stones', 'decorative tray handles', 'candle storage sleeve', 'candle wax remover', 'wall art frame set', 'wall clock repair kit', 'table decor riser', 'centerpiece foam blocks', 'floral wire', 'floral tape', 'flower frog', 'vase filler beads', 'vase filler stones', 'table decor LED string lights', 'fairy light battery pack', 'remote timer plug', 'decorative pitcher', 'gallery wall frame set', 'mirror frame', 'battery pack organizer', 'lamp shade', 'lamp bulbs', 'table lamp finial', 'lamp harp', 'floor lamp base weight', 'lamp cord cover', 'silverware storage chest', 'tableware organizer tray', 'china storage divider', 'silver polish', 'silverware polishing gloves', 'silver storage anti tarnish strips', 'silverware anti tarnish cloth', 'chafing dish cover', 'anti tarnish silver bags', 'silver storage rolls', 'silver storage pouches', 'rug storage bag', 'rug pad', 'area rug corner tape', 'rug cleaning spray', 'floor runner anti slip pad', 'rug storage roll', 'rug brush', 'rug fringe comb', 'rug tape double sided', 'runner rug tape', 'rug grippers', 'rug corner weights', 'felt pads bulk pack', 'furniture sliders', 'furniture leveling shims', 'wood filler', 'wood stain pen', 'wood polish cloth', 'wood cleaner concentrate', 'wood conditioner oil', 'china polishing cloth', 'furniture polish', 'furniture polish spray', 'paper towels', 'mirror cleaning spray', 'all purpose cleaner gallon', 'disinfectant wipe refill', 'beverage dispenser cleaning brush', 'trash can', 'step stool rubber feet', 'fondue pot burner cap', ],
+],
         "Office / Study": [
 // Desks
 'desk', 'standing desk', 'standing desk motor', 'standing desk control panel', 'standing desk anti collision sensor', 'corner desk', 'executive desk', 'roll top desk', 'writing desk', 'secretary desk',

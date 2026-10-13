@@ -1249,95 +1249,147 @@
 // TOTAL: 224 items
 ],
 
-        'Shed / Storage Unit': [// Shed Storage & Organization (49 items)
-'overhead storage shelf', 'corner shelving unit', 'heavy duty storage rack', 'wire storage rack', 'plastic storage rack', 'metal storage cabinet', 'locking storage cabinet', 'tall storage cabinet', 'base storage cabinet', 'stackable storage bins',
-'clear storage bins', 'heavy duty storage totes', 'labeled storage bins', 'storage crate plastic', 'storage crate wood', 'file storage box', 'document storage tote', 'waterproof storage case', 'ammo storage can', 'tool pegboard',
-'slat wall panel', 'wall hook heavy duty', 'ceiling storage rack', 'plastic drawer unit', 'hardware storage cabinet', 'metal shelving expansion kit', 'corner storage rack metal', 'wall cabinet metal', 'attic storage bin', 'weatherproof storage chest',
-'metal storage trunk', 'plastic storage drum', 'lockable job box', 'rolling storage chest', 'drawer tool cabinet', 'steel parts cabinet', 'outdoor storage bench', 'deck box large', 'rolling bin cart', 'storage rack wheels kit',
-'shelf bracket corner', 'wire basket storage', 'stackable drawer bins', 'utility cabinet tall', 'metal storage locker', 'greenhouse shelving kit', 'storage barrel rainproof', 'storage cage metal', 'mesh security panel',
-// Workbench & Workshop Setup (29 items)
-'workbench', 'workbench vise', 'workbench stool', 'workbench power strip', 'bench grinder', 'drill press', 'drill press vise', 'anvil small', 'scaffold planks', 'portable scaffold',
-'sawhorse pair', 'folding sawhorse', 'work platform folding', 'shop stool adjustable', 'lathe benchtop', 'band saw', 'scroll saw', 'shop press plates', 'work table folding', 'bench vise swivel base',
-'router table', 'tool chest', 'rolling tool cart', 'tool cabinet', 'tool drawer organizer', 'magnetic tool strip', 'power tool case stackable', 'stacking tool box', 'rolling stack toolbox',
-// Hand Tools (60 items)
-'hammer', 'sledgehammer', 'mallet', 'screwdriver set', 'precision screwdriver set', 'wrench set', 'adjustable wrench', 'socket set', 'ratchet set', 'torque wrench',
-'pliers', 'needle nose pliers', 'locking pliers', 'wire cutters', 'wire strippers', 'utility knife', 'tape measure', 'laser level', 'bubble level', 'brick trowel',
-'masonry hammer', 'concrete float', 'concrete edger', 'concrete groover', 'tamper tool', 'post hole digger', 'fence post level', 'metal cutting snips', 'metal file', 'tap and die set',
-'metal punch set', 'center punch', 'tool belt', 'tool pouch', 'magnetic parts tray', 'work apron canvas', 'tool backpack', 'adjustable wrench large', 'lug wrench', 'oil filter wrench',
-'breaker bar', 'ball peen hammer', 'dead blow hammer', 'pry bar set', 'crowbar', 'chisels cold', 'wood chisels set', 'files set metal', 'rasp wood', 'deburring tool',
-'pipe threader', 'tent stake hammer', 'impact sockets', 'clamp set assorted', 'bar clamp large', 'corner clamp woodworking', 'pipe clamp set', 'spring clamp pack', 'toggle clamp',
-// Power Tools (24 items)
-'drill', 'drill charger', 'impact driver', 'circular saw', 'jigsaw', 'reciprocating saw', 'angle grinder', 'sander', 'belt sander', 'heat gun',
-'rotary tool', 'paint sprayer electric', 'router tool', 'planer handheld', 'oscillating tool', 'tile saw', 'concrete saw', 'pneumatic ratchet', 'air impact wrench', 'soldering iron',
-'airbrush kit', 'airbrush compressor', 'pneumatic framing nailer',
-// Air Tools & Compressor (9 items)
-'air compressor', 'air hose', 'air hose reel', 'air chuck', 'nail gun', 'staple gun', 'compressor fittings kit', 'portable air tank', 'pneumatic grease gun',
-// Welding & Metalworking (10 items)
-'metal sheets', 'sheet metal screws', 'welding helmet', 'forge propane burner', 'grease gun', 'bearing puller', 'gear puller', 'hydraulic press', 'welding jacket',
-// Electrical & Lighting (26 items)
-'extension cord', 'power strip', 'junction box', 'LED shop light', 'motion sensor light', 'emergency light battery backup', 'portable flood light', 'tripod work light', 'multimeter digital', 'voltage tester pen',
-'wire crimpers', 'soldering stand', 'desoldering pump', 'electrical fish tape', 'outdoor extension cord reel', 'work light clamp', 'magnetic flashlight holder', 'cord management box', 'battery storage case fireproof', 'electrical gloves rated',
-'temporary power pole', 'jobsite power box', 'outdoor timer outlet', 'tool charging dock', 'bench light strip LED',
-// Generator & Power Supply (9 items)
-'generator portable', 'fuel storage can', 'battery charger', 'jump starter pack', 'solar panel portable', 'power inverter', 'portable battery bank large', 'jump cable heavy duty', 'generator cover waterproof',
-// Security & Safety (45 items)
-'first aid kit', 'fire extinguisher', 'safety glasses', 'work gloves', 'hearing protection', 'dust masks', 'respirator mask', 'hard hat', 'mechanic gloves', 'knee pads',
-'security camera outdoor', 'motion detector alarm', 'padlock heavy duty', 'combination lock', 'key safe lock box', 'door reinforcement plate', 'window security bars', 'tool lock cable', 'storage cabinet lock kit', 'safe small fireproof',
-'spill containment tray', 'safety cone set', 'fire blanket', 'roof safety harness', 'fall protection rope', 'anchor point roof', 'safety barrier netting', 'hard shell knee pads', 'face shield clear', 'fire resistant gloves',
-'ear plug pack', 'document safe waterproof', 'combination key lock', 'padlock weatherproof', 'keyed alike lock set', 'combination lock long shackle', 'hasp lock heavy duty', 'door reinforcement bar', 'security light solar', 'flashlight',
-'lantern rechargeable', 'batteries', 'flashlight rechargeable', 'headlamp LED', 'waterproof flashlight case',
-// Cleaning & Maintenance (21 items)
-'shop vacuum', 'shop vacuum hose', 'shop vacuum filter', 'push broom', 'broom', 'dustpan', 'mop', 'mop bucket', 'cleaning caddy', 'all purpose cleaner',
-'degreaser', 'trash bags', 'recycling bin', 'mouse bait station', 'pressure washer', 'pressure washer hose', 'pressure washer wand', 'pressure washer surface cleaner', 'spray wand extension', 'foam sprayer bottle',
-// Lawn & Garden Equipment (26 items)
-'lawn mower', 'lawn mower blades', 'weed trimmer', 'leaf blower', 'leaf rake', 'garden rake', 'shovel', 'spade shovel', 'snow shovel', 'ice scraper',
-'snow blower', 'hedge trimmer', 'pruning shears', 'loppers', 'axe', 'hatchet', 'chainsaw', 'log splitter', 'wheelbarrow', 'tiller gas',
-'cultivator tool', 'landscaping shovel', 'edger manual', 'edger gas', 'tree pruning saw', 'ash shovel',
-// Garden & Irrigation (22 items)
-'watering can', 'garden gloves', 'drip irrigation kit', 'sprinkler', 'garden hose', 'hose nozzle', 'spray bottle garden', 'pest control sprayer', 'garden hose reel', 'sprinkler timer',
-'backflow preventer', 'garden cart rolling', 'fertilizer spreader', 'broadcast spreader', 'seed spreader hand', 'utility sink freestanding', 'sink faucet outdoor', 'hose splitter brass', 'hose quick connect kit', 'rain barrel',
-'rain barrel diverter kit', 'chemical sprayer backpack',
-// Sports & Recreation Storage (27 items)
-'bike repair stand', 'bike pump', 'bike helmets', 'sports equipment bin', 'golf clubs', 'golf bag', 'baseball bats', 'baseballs', 'basketballs', 'football',
-'soccer ball', 'tennis rackets', 'tennis balls', 'skateboard', 'roller skates', 'skis', 'ski poles', 'kayak paddles', 'pool equipment storage bin', 'chlorine storage bucket',
-'pool net skimmer', 'pool brush', 'pool vacuum hose', 'life jacket storage rack', 'paddle board rack', 'tackle box large', 'bait cooler small',
-// Camping & Outdoor Gear (22 items)
-'camping cooler', 'camping stove', 'propane tank', 'propane torch', 'folding camping chairs', 'sleeping bags', 'camp lantern', 'cooler wheeled', 'water jug camping', 'portable toilet camping',
-'folding cot', 'bug zapper lantern', 'propane heater portable', 'battery lantern emergency', 'emergency radio crank', 'camp tool kit compact', 'survival kit storage box', 'outdoor folding table', 'camp prep table', 'water cooler dispenser',
-'ice chest large', 'camp cookware kit',
-// Ladders, Scaffolding & Fall Protection (9 items)
+        'Shed / Storage Unit': [
+// Shelving & racks
+'overhead storage shelf', 'corner shelving unit', 'corner storage rack metal', 'heavy duty storage rack', 'wire storage rack', 'plastic storage rack', 'metal shelving expansion kit', 'shelf bracket corner', 'storage rack wheels kit', 'ceiling storage rack',
+'greenhouse shelving kit', 'mesh security panel', 'storage cage metal',
+// Cabinets & lockers
+'metal storage cabinet', 'locking storage cabinet', 'tall storage cabinet', 'base storage cabinet', 'utility cabinet tall', 'wall cabinet metal', 'metal storage locker', 'hardware storage cabinet', 'steel parts cabinet', 'plastic drawer unit',
+'drawer tool cabinet', 'stackable drawer bins', 'magnetic cabinet catch',
+// Bins, totes & crates
+'stackable storage bins', 'clear storage bins', 'heavy duty storage totes', 'labeled storage bins', 'storage crate plastic', 'storage crate wood', 'wire basket storage', 'rolling bin cart', 'plastic storage drum', 'storage barrel rainproof',
+'attic storage bin', 'file storage box', 'document storage tote', 'waterproof storage case', 'ammo storage can',
+// Chests, trunks & benches
+'weatherproof storage chest', 'metal storage trunk', 'storage trunk', 'rolling storage chest', 'lockable job box', 'outdoor storage bench', 'deck box large',
+// Pegboard & wall hooks
+'tool pegboard', 'slat wall panel', 'wall hook heavy duty', 'storage hooks assorted',
+// Workbench
+'workbench', 'workbench vise', 'bench vise swivel base', 'workbench stool', 'workbench power strip', 'shop stool adjustable', 'work table folding',
+// Sawhorses & scaffolds
+'sawhorse pair', 'folding sawhorse', 'work platform folding', 'scaffold planks', 'portable scaffold',
+// Bench machines
+'drill press', 'drill press vise', 'bench grinder', 'band saw', 'scroll saw', 'lathe benchtop', 'router table', 'anvil small', 'shop press plates',
+// Tool storage
+'tool chest', 'tool cabinet', 'rolling tool cart', 'tool drawer organizer', 'rolling stack toolbox', 'stacking tool box', 'power tool case stackable', 'magnetic tool strip', 'magnetic parts tray', 'tool backpack',
+'tool belt', 'tool pouch', 'work apron canvas', 'craft tool organizer',
+// Hammers & prying
+'hammer', 'sledgehammer', 'mallet', 'ball peen hammer', 'dead blow hammer', 'masonry hammer', 'tent stake hammer', 'pry bar set', 'crowbar',
+// Screwdrivers & wrenches
+'screwdriver set', 'precision screwdriver set', 'wrench set', 'adjustable wrench', 'adjustable wrench large', 'socket set', 'ratchet set', 'impact sockets', 'torque wrench', 'breaker bar',
+'lug wrench', 'oil filter wrench',
+// Pliers & cutting
+'pliers', 'needle nose pliers', 'locking pliers', 'wire cutters', 'wire strippers', 'metal cutting snips', 'utility knife', 'wood chisels set', 'chisels cold',
+// Measuring & layout
+'tape measure', 'laser level', 'bubble level', 'fence post level', 'center punch', 'metal punch set',
+// Files & metalworking
+'metal file', 'files set metal', 'rasp wood', 'deburring tool', 'tap and die set', 'pipe threader',
+// Clamps
+'clamp set assorted', 'bar clamp large', 'corner clamp woodworking', 'pipe clamp set', 'spring clamp pack', 'toggle clamp',
+// Masonry tools
+'brick trowel', 'concrete float', 'concrete edger', 'concrete groover', 'tamper tool', 'post hole digger',
+// Power tools
+'drill', 'drill charger', 'impact driver', 'rotary hammer drill', 'circular saw', 'jigsaw', 'reciprocating saw', 'oscillating tool', 'tile saw', 'concrete saw',
+'angle grinder', 'sander', 'belt sander', 'planer handheld', 'router tool', 'rotary tool', 'heat gun',
+// Air tools & compressor
+'air compressor', 'air hose', 'air hose reel', 'air chuck', 'compressor fittings kit', 'portable air tank', 'pneumatic ratchet', 'air impact wrench', 'pneumatic framing nailer', 'pneumatic brad nailer',
+'nail gun', 'staple gun', 'airbrush kit', 'airbrush compressor', 'paint sprayer electric', 'spray booth portable',
+// Welding & forging
+'welding helmet', 'welding jacket', 'welding gloves', 'fire resistant gloves', 'forge propane burner', 'metal sheets', 'sheet metal screws',
+// Power cords & distribution
+'extension cord', 'outdoor extension cord reel', 'cord management box', 'power strip', 'junction box', 'jobsite power box', 'temporary power pole', 'outdoor timer outlet', 'tool charging dock',
+// Electrical testing & soldering
+'multimeter digital', 'voltage tester pen', 'wire crimpers', 'electrical fish tape', 'electrical gloves rated', 'soldering iron', 'soldering stand', 'desoldering pump',
+// Work lighting & flashlights
+'LED shop light', 'bench light strip LED', 'motion sensor light', 'work light clamp', 'tripod work light', 'portable flood light', 'emergency light battery backup', 'magnetic flashlight holder', 'flashlight', 'flashlight rechargeable',
+'waterproof flashlight case', 'headlamp LED', 'lantern rechargeable', 'batteries', 'battery storage case fireproof',
+// Backup power
+'generator portable', 'generator cover waterproof', 'battery charger', 'jump starter pack', 'jump cable heavy duty', 'power inverter', 'portable battery bank large', 'solar panel portable',
+// Chemical & fuel storage
+'flammable storage cabinet', 'chemical storage cabinet', 'fuel storage locker', 'fuel storage can',
+// Safety gear
+'safety glasses', 'face shield clear', 'hearing protection', 'ear plug pack', 'dust masks', 'respirator mask', 'hard hat', 'work gloves', 'mechanic gloves', 'knee pads',
+'hard shell knee pads',
+// Fire & first aid
+'first aid kit', 'fire extinguisher', 'fire blanket', 'spill containment tray', 'safety cone set',
+// Fall protection
+'roof safety harness', 'fall protection rope', 'anchor point roof', 'safety barrier netting',
+// Locks
+'padlock heavy duty', 'padlock weatherproof', 'combination lock', 'combination lock long shackle', 'combination key lock', 'keyed alike lock set', 'hasp lock heavy duty', 'key safe lock box', 'tool lock cable', 'storage cabinet lock kit',
+// Security & safes
+'security camera outdoor', 'motion detector alarm', 'security light solar', 'door reinforcement plate', 'door reinforcement bar', 'window security bars', 'safe small fireproof', 'document safe waterproof',
+// Mowing & trimming
+'lawn mower', 'lawn mower blades', 'weed trimmer', 'edger manual', 'edger gas', 'hedge trimmer', 'leaf blower', 'leaf rake', 'garden rake',
+// Digging & planting
+'shovel', 'spade shovel', 'landscaping shovel', 'cultivator tool', 'tiller gas', 'wheelbarrow', 'garden cart rolling', 'garden gloves', 'watering can',
+// Pruning & chopping
+'pruning shears', 'loppers', 'tree pruning saw', 'axe', 'hatchet', 'chainsaw', 'log splitter',
+// Watering
+'garden hose', 'garden hose reel', 'hose nozzle', 'hose splitter brass', 'hose quick connect kit', 'sprinkler', 'sprinkler timer', 'drip irrigation kit', 'backflow preventer', 'rain barrel',
+'rain barrel diverter kit', 'sink faucet outdoor', 'utility sink freestanding', 'spray bottle garden',
+// Lawn treatment
+'fertilizer spreader', 'broadcast spreader', 'seed spreader hand', 'pest control sprayer', 'chemical sprayer backpack',
+// Yard lighting
+'solar yard light pack', 'landscape lighting transformer',
+// Snow & ice
+'snow shovel', 'ice scraper', 'snow blower', 'ice melt bucket', 'snow roof rake', 'roof snow guard',
+// Firewood & chimney
+'log rack firewood', 'firewood carrier', 'log carrier canvas', 'kindling splitter', 'maul splitting', 'wood moisture meter', 'ash bucket metal', 'ash shovel', 'chimney brush kit', 'chimney rods extension',
+'chimney cap stainless', 'stump grinder rental unit',
+// Pressure washing
+'pressure washer', 'pressure washer hose', 'pressure washer wand', 'pressure washer surface cleaner', 'spray wand extension', 'foam sprayer bottle',
+// Bikes
+'bike repair stand', 'bike pump', 'bike helmets',
+// Sports gear
+'sports equipment bin', 'baseball bats', 'baseballs', 'basketballs', 'football', 'soccer ball', 'tennis rackets', 'tennis balls', 'golf bag', 'golf clubs',
+'skateboard', 'roller skates', 'skis', 'ski poles',
+// Pool care
+'pool equipment storage bin', 'chlorine storage bucket', 'pool net skimmer', 'pool brush', 'pool vacuum hose',
+// Water sports & fishing
+'kayak paddles', 'paddle board rack', 'life jacket storage rack', 'tackle box large', 'bait cooler small',
+// Boating
+'boat cover', 'boat motor stand', 'boat fuel tank portable', 'boat anchor small', 'marine rope coil', 'dock line cleat', 'boat trailer guide poles',
+// Camping gear
+'folding camping chairs', 'sleeping bags', 'folding cot', 'camp lantern', 'battery lantern emergency', 'bug zapper lantern', 'canopy tent frame', 'storage tarp heavy duty', 'camp tool kit compact', 'survival kit storage box',
+'portable toilet camping', 'emergency radio crank',
+// Camp kitchen & coolers
+'camping stove', 'propane tank', 'propane torch', 'propane heater portable', 'camp cookware kit', 'camp prep table', 'outdoor folding table', 'camping cooler', 'cooler wheeled', 'ice chest large',
+'water cooler dispenser', 'water jug camping',
+// Ladders
 'ladder', 'extension ladder', 'step ladder', 'folding ladder', 'ladder stabilizer', 'ladder leveler', 'roof ladder hook', 'extension ladder tie downs', 'ladder tool tray',
-// Moving & Transport (16 items)
-'moving blankets', 'storage trunk', 'moving dolly', 'hand truck', 'wheel chocks', 'ratchet straps heavy duty', 'cargo net large', 'tow strap recovery', 'winch electric', 'winch remote',
-'chain hoist manual', 'moving straps shoulder', 'appliance dolly straps', 'steel cable roll', 'chain link roll', 'pulley block heavy duty',
-// Automotive & Trailer (27 items)
-'auto jack floor', 'jack stands pair', 'tire inflator', 'tire pressure gauge', 'oil drain pan', 'mechanic creeper', 'mechanic stool rolling', 'automotive tool set', 'trailer hitch lock', 'trailer ball mount',
-'truck tool box bed mount', 'bed liner spray kit', 'cargo rack roof', 'roof tie down straps', 'tow hitch receiver', 'hitch pin lock', 'trailer jack wheel', 'trailer spare tire mount', 'tire patch kit', 'hydraulic bottle jack',
-'transmission jack', 'engine stand', 'engine hoist', 'load leveler bar', 'tow dolly', 'trailer ramps', 'rolling mechanic seat',
-// Concrete, Masonry & Lumber (20 items)
-'concrete mix bags', 'cement mixer portable', 'mixing tub large', 'gravel bags', 'sand bags', 'landscape fabric roll', 'paver stones', 'paver base',
-// Painting, Sealing & Coatings (20 items)
-'paint cans assorted', 'roller frames', 'drop cloth canvas', 'painter tape roll', 'joint compound bucket', 'drywall patch kit', 'paint brush set', 'wood stain cans', 'deck sealer', 'concrete sealer',
-'masonry waterproofing', 'roof patch sealant', 'asphalt repair patch', 'driveway crack filler', 'expanding foam insulation', 'foam gun applicator', 'concrete patch compound', 'epoxy repair kit', 'crack injection kit', 'moisture barrier paint',
-// Plumbing & Water Management (10 items)
-'plumbing pipe PVC', 'PVC fittings assorted', 'pipe wrench large', 'pipe cutter', 'water pump portable', 'sump pump', 'sump pump hose', 'ice melt bucket', 'snow roof rake', 'roof snow guard',
-// Firewood & Heating (11 items)
-'log rack firewood', 'firewood carrier', 'kindling splitter', 'maul splitting', 'ash bucket metal', 'chimney brush kit', 'chimney rods extension', 'wood moisture meter', 'stump grinder rental unit', 'log carrier canvas',
-'chimney cap stainless',
-// Tarps, Covers & Tie-Downs (3 items)
-'storage tarp heavy duty', 'canopy tent frame', 'boat cover',
-// Climate & Floor (12 items)
-'shed floor mat', 'temperature gauge analog', 'humidity gauge analog', 'weather station unit', 'air circulator fan', 'box fan', 'space heater portable', 'dehumidifier small', 'floor mat anti slip', 'anti fatigue mat heavy duty',
-'rubber floor tiles interlocking', 'floor drain cover grate',
-// Boat & Marine (6 items)
-'boat anchor small', 'boat motor stand', 'boat fuel tank portable', 'boat trailer guide poles', 'marine rope coil', 'dock line cleat',
-// Hobby & Specialty Storage (8 items)
-'chemical storage cabinet', 'flammable storage cabinet', 'metal detector', 'rc hobby storage case', 'drone storage case', 'spray booth portable', 'craft tool organizer', 'fuel storage locker',
-// Site Management & Signage (4 items)
-'solar yard light pack', 'landscape lighting transformer', 'storage hooks assorted', 'magnetic cabinet catch',
+// Moving & hauling
+'moving blankets', 'moving dolly', 'hand truck', 'appliance dolly straps', 'moving straps shoulder', 'ratchet straps heavy duty', 'cargo net large',
+// Winches & rigging
+'winch electric', 'winch remote', 'chain hoist manual', 'pulley block heavy duty', 'steel cable roll', 'chain link roll', 'tow strap recovery', 'wheel chocks',
+// Mechanic gear
+'mechanic creeper', 'mechanic stool rolling', 'rolling mechanic seat', 'automotive tool set', 'oil drain pan', 'grease gun', 'pneumatic grease gun', 'bearing puller', 'gear puller', 'hydraulic press',
+'auto jack floor', 'jack stands pair', 'hydraulic bottle jack', 'transmission jack', 'engine stand', 'engine hoist',
+// Tires
+'tire inflator', 'tire pressure gauge', 'tire patch kit',
+// Trailer & towing
+'trailer hitch lock', 'trailer ball mount', 'tow hitch receiver', 'hitch pin lock', 'trailer jack wheel', 'trailer spare tire mount', 'trailer ramps', 'tow dolly', 'load leveler bar', 'truck tool box bed mount',
+'bed liner spray kit', 'cargo rack roof', 'roof tie down straps',
+// Concrete & paving
+'concrete mix bags', 'cement mixer portable', 'mixing tub large', 'gravel bags', 'sand bags', 'paver stones', 'paver base', 'landscape fabric roll', 'concrete patch compound', 'concrete sealer',
+'masonry waterproofing', 'driveway crack filler', 'asphalt repair patch', 'crack injection kit', 'epoxy repair kit',
+// Painting & staining
+'paint cans assorted', 'paint brush set', 'roller frames', 'drop cloth canvas', 'painter tape roll', 'wood stain cans', 'deck sealer', 'moisture barrier paint',
+// Wall & roof repair
+'joint compound bucket', 'drywall patch kit', 'expanding foam insulation', 'foam gun applicator', 'roof patch sealant',
+// Plumbing & pumps
+'plumbing pipe PVC', 'PVC fittings assorted', 'pipe wrench large', 'pipe cutter', 'water pump portable', 'sump pump', 'sump pump hose',
+// Shed climate
+'dehumidifier small', 'humidity gauge analog', 'temperature gauge analog', 'weather station unit', 'air circulator fan', 'box fan', 'space heater portable',
+// Flooring
+'shed floor mat', 'anti fatigue mat heavy duty', 'floor mat anti slip', 'rubber floor tiles interlocking', 'floor drain cover grate',
+// Shop vacuum
+'shop vacuum', 'shop vacuum hose', 'shop vacuum filter',
+// Cleaning & trash
+'push broom', 'broom', 'dustpan', 'mop', 'mop bucket', 'cleaning caddy', 'all purpose cleaner', 'degreaser', 'trash bags', 'recycling bin',
+'mouse bait station',
+// Hobby cases
+'rc hobby storage case', 'drone storage case', 'metal detector',
 // TOTAL: 525 items
-
-'pneumatic brad nailer', 'rotary hammer drill', 'welding gloves', ],
+],
 
         Yard: [// Garden & Planters (25 items)
 'raised garden bed', 'garden arbor', 'garden arch trellis', 'yard trellis metal', 'watering can plastic', 'watering can metal', 'plant pots ceramic', 'plant pots plastic', 'planter box wood', 'hanging planter basket',

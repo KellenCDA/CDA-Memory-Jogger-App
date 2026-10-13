@@ -264,72 +264,125 @@
 // TOTAL: 588 items
 ],
 
-        Bedroom: [// Major Furniture (55 items)
+        Bedroom: [
+// Bed frames
 'bed frame', 'platform bed', 'canopy bed', 'sleigh bed', 'headboard', 'upholstered headboard', 'footboard', 'bed rails', 'bed slats', 'box spring',
-'mattress', 'mattress topper', 'adjustable bed base', 'bunk bed', 'trundle bed', 'daybed', 'murphy bed', 'nightstand', 'nightstand pair', 'bedside table',
-'dresser', 'tall dresser', 'double dresser', 'chest of drawers', 'lingerie chest', 'wardrobe armoire', 'vanity table', 'vanity stool', 'vanity chair', 'bedroom bench',
-'storage bench', 'end of bed bench', 'accent chair', 'reading chair', 'wingback chair', 'chaise lounge', 'ottoman', 'storage ottoman', 'bookshelf', 'bookcase',
-'bedroom desk', 'writing desk', 'desk chair', 'full length mirror', 'standing mirror', 'dressing mirror', 'cheval mirror', 'media console', 'blanket chest', 'cedar chest',
-'trunk storage', 'folding luggage rack', 'jewelry armoire', 'corner shelf unit', 'floating nightstand',
-// Bedding & Linens (53 items)
-'fitted sheet', 'flat sheet', 'sheet set', 'spare sheet set', 'flannel sheets', 'satin sheets', 'linen sheets', 'pillowcases', 'silk pillowcases', 'pillow shams',
-'euro pillow shams', 'quilted sham', 'duvet', 'duvet cover', 'spare duvet cover', 'comforter', 'comforter set', 'seasonal duvet insert', 'quilt', 'reversible quilt',
-'coverlet', 'bedspread', 'blanket', 'throw blanket', 'knit throw', 'weighted blanket', 'electric blanket', 'heated blanket', 'wool blanket', 'fleece blanket',
-'cashmere throw', 'cotton blanket', 'spare blanket', 'mattress protector', 'waterproof mattress protector', 'mattress pad', 'cooling mattress pad', 'bed pillows', 'memory foam pillow', 'cooling pillow',
-'down pillow', 'feather pillow', 'body pillow', 'pregnancy pillow', 'lumbar pillow', 'decorative pillows', 'euro pillows', 'bolster pillow', 'pillow protector', 'bed skirt',
-'dust ruffle', 'throw pillow covers',
-// Closet & Storage (57 items)
-'closet organizer system', 'hanging clothes organizer', 'closet shelf divider', 'double hang closet rod', 'shoe rack', 'shoe organizer', 'rotating shoe rack', 'over door shoe holder', 'hanging shoe bag', 'clear shoe boxes',
-'under bed storage box', 'under bed rolling drawer', 'under bed shoe organizer', 'vacuum storage bags', 'garment bags', 'sweater storage box', 'clothing storage bins', 'fabric storage cubes', 'closet drawer unit', 'hat box',
-'belt organizer', 'tie rack', 'scarf organizer', 'purse organizer', 'handbag shelf dividers', 'jewelry box', 'jewelry tray', 'jewelry stand', 'jewelry drawer insert', 'valet tray',
-'drawer organizer', 'drawer dividers', 'closet hooks', 'wall hooks', 'adhesive hooks', 'hanging organizer shelves', 'rolling garment rack', 'freestanding clothing rack', 'laundry hamper', 'laundry basket',
-'collapsible hamper', 'sorting hamper', 'double laundry hamper', 'lint roller', 'wooden hangers', 'velvet hangers', 'plastic hangers', 'clip hangers', 'padded hangers', 'suit hangers',
-'pants hangers', 'cascading hangers', 'closet light battery', 'closet dehumidifier', 'storage trunk',
-// Clothing (100 items)
+'adjustable bed base', 'bunk bed', 'trundle bed', 'daybed', 'murphy bed',
+// Mattress & protection
+'mattress', 'mattress topper', 'mattress protector', 'waterproof mattress protector', 'mattress pad', 'cooling mattress pad',
+// Sheets
+'sheet set', 'fitted sheet', 'flat sheet', 'spare sheet set', 'flannel sheets', 'satin sheets', 'linen sheets', 'bed skirt', 'dust ruffle',
+// Pillows
+'bed pillows', 'memory foam pillow', 'cooling pillow', 'down pillow', 'feather pillow', 'body pillow', 'pregnancy pillow', 'lumbar pillow', 'bolster pillow', 'pillow protector',
+'pillowcases', 'silk pillowcases', 'pillow shams', 'euro pillow shams', 'quilted sham', 'euro pillows', 'decorative pillows', 'throw pillow covers',
+// Comforters & duvets
+'comforter', 'comforter set', 'duvet', 'duvet cover', 'spare duvet cover', 'seasonal duvet insert', 'quilt', 'reversible quilt', 'coverlet', 'bedspread',
+// Blankets
+'blanket', 'throw blanket', 'knit throw', 'fleece blanket', 'wool blanket', 'cotton blanket', 'cashmere throw', 'weighted blanket', 'electric blanket', 'heated blanket',
+'spare blanket', 'blanket ladder', 'spare bedding storage',
+// Nightstands
+'nightstand', 'nightstand pair', 'bedside table', 'floating nightstand',
+// Dressers & chests
+'dresser', 'tall dresser', 'double dresser', 'chest of drawers', 'lingerie chest', 'jewelry armoire', 'wardrobe armoire', 'drawer organizer', 'drawer dividers', 'drawer sachets',
+'cedar blocks', 'moth repellent',
+// Bedroom seating
+'accent chair', 'reading chair', 'wingback chair', 'chaise lounge', 'ottoman', 'storage ottoman', 'bedroom bench', 'storage bench', 'end of bed bench',
+// Vanity & makeup
+'vanity table', 'vanity stool', 'vanity chair', 'vanity mirror lighted', 'makeup mirror magnifying', 'makeup organizer', 'makeup brush holder', 'vanity drawer organizer', 'cosmetics collection', 'skincare collection',
+'perfume tray', 'perfume bottles', 'cologne collection',
+// Hair & grooming
+'hair dryer', 'hair straightener', 'curling iron', 'hot rollers', 'hair tools', 'hair tool organizer', 'grooming kit', 'electric shaver', 'manicure set', 'nail polish collection',
+// Desk & bookshelves
+'bedroom desk', 'writing desk', 'desk chair', 'bookshelf', 'bookcase', 'corner shelf unit', 'media console', 'book stand', 'lap desk', 'bed tray',
+'breakfast tray', 'magazine rack', 'book stack',
+// Floor & standing mirrors
+'full length mirror', 'standing mirror', 'dressing mirror', 'cheval mirror',
+// Chests & storage furniture
+'blanket chest', 'cedar chest', 'trunk storage', 'storage trunk', 'folding luggage rack',
+// Closet systems
+'closet organizer system', 'hanging clothes organizer', 'closet shelf divider', 'double hang closet rod', 'closet drawer unit', 'closet hooks', 'wall hooks', 'adhesive hooks', 'hanging organizer shelves', 'rolling garment rack',
+'freestanding clothing rack', 'closet light battery', 'closet dehumidifier', 'closet safe', 'step stool',
+// Hangers
+'wooden hangers', 'velvet hangers', 'plastic hangers', 'clip hangers', 'padded hangers', 'suit hangers', 'pants hangers', 'cascading hangers',
+// Shoe storage
+'shoe rack', 'shoe organizer', 'rotating shoe rack', 'over door shoe holder', 'hanging shoe bag', 'clear shoe boxes', 'under bed shoe organizer', 'shoe shine kit',
+// Under-bed & bin storage
+'under bed storage box', 'under bed rolling drawer', 'vacuum storage bags', 'garment bags', 'sweater storage box', 'clothing storage bins', 'fabric storage cubes',
+// Accessory organizers
+'hat box', 'belt organizer', 'tie rack', 'scarf organizer', 'purse organizer', 'handbag shelf dividers',
+// Jewelry & watch storage
+'jewelry box', 'jewelry tray', 'jewelry stand', 'jewelry drawer insert', 'valet tray', 'watch box', 'watch winder', 'jewelry cleaning kit',
+// Laundry
+'laundry hamper', 'laundry basket', 'collapsible hamper', 'sorting hamper', 'double laundry hamper', 'lint roller',
+// Tops
 'shirts', 't shirts', 'polo shirts', 'dress shirts', 'flannel shirts', 'blouses', 'tank tops', 'sweaters', 'turtlenecks', 'cardigans',
-'hoodies', 'sweatshirts', 'jackets', 'denim jacket', 'leather jacket', 'blazers', 'sport coats', 'coats', 'winter coat', 'wool coat',
-'raincoat', 'windbreaker', 'vest', 'pants', 'chinos', 'jeans', 'dress pants', 'khakis', 'shorts', 'cargo shorts',
-'skirts', 'dresses', 'sundresses', 'formal gowns', 'suits', 'tuxedo', 'activewear', 'leggings', 'yoga pants', 'sweatpants',
-'pajamas', 'nightgown', 'robe', 'bathrobe', 'loungewear', 'underwear', 'boxers', 'socks', 'dress socks', 'athletic socks',
-'bras', 'sports bras', 'undershirts', 'thermal underwear', 'belts', 'leather belts', 'ties', 'bow ties', 'scarves', 'winter scarf',
-'gloves', 'winter gloves', 'hats', 'baseball caps', 'beanies', 'shoes', 'dress shoes', 'loafers', 'sneakers', 'running shoes',
-'boots', 'winter boots', 'hiking boots', 'sandals', 'flip flops', 'slippers', 'heels', 'flats', 'handbags', 'clutch purses',
-'purses', 'backpacks', 'duffel bags', 'wallets', 'sunglasses', 'jewelry collection', 'necklaces', 'bracelets', 'earrings', 'rings',
-'watches', 'watch collection', 'cufflinks', 'swimwear', 'swim trunks', 'workout clothes', 'uniforms', 'costumes', 'seasonal clothing', 'formal accessories',
-// Lighting (28 items)
-'table lamp', 'pair of table lamps', 'bedside lamp', 'floor lamp', 'reading lamp', 'desk lamp', 'arc lamp', 'tripod floor lamp', 'accent lamp', 'clip on book light',
-'string lights decorative', 'LED light strip', 'fairy lights', 'night light', 'salt lamp', 'smart bulb', 'color changing bulb', 'dimmer plug', 'touch lamp', 'battery candle set',
-'flameless candles', 'lantern decorative', 'sunrise alarm lamp', 'projector night light', 'sconce battery', 'under bed motion light',
-// Electronics & Charging (45 items)
-'television bedroom', 'tv wall bracket freestanding', 'tv stand', 'streaming device', 'soundbar', 'bluetooth speaker', 'portable speaker', 'alarm clock', 'smart speaker', 'clock radio',
-'charging station', 'wireless charging pad', 'multi device charging dock', 'phone dock', 'power strip', 'surge protector', 'extension cord', 'usb wall charger', 'tablet', 'e reader',
-'laptop', 'laptop stand', 'headphones', 'wireless earbuds', 'white noise machine', 'sound machine', 'air purifier', 'space heater', 'box fan', 'tower fan',
-'oscillating fan', 'ceiling fan remote', 'humidifier', 'dehumidifier portable', 'smart home hub', 'security camera', 'baby monitor', 'remote controls', 'universal remote', 'phone stand',
-'vr headset', 'smart display', 'cable organizer box', 'battery backup',
-// Window Treatments (20 items)
-'curtains', 'curtain panels', 'sheer curtains', 'blackout curtains', 'thermal curtains', 'curtain tie backs', 'curtain rod portable', 'valance', 'swag valance', 'roman shades',
-'roller shade', 'cellular shade', 'bamboo shade', 'pleated shade', 'window film decorative', 'draft stopper', 'window cushion', 'curtain holdbacks', 'window scarf', 'privacy film',
-// Rugs & Floor (16 items)
-'area rug', 'large area rug', 'runner rug', 'accent rug', 'shag rug', 'wool rug', 'bedside rug', 'round rug', 'sheepskin rug', 'door mat bedroom',
-'floor cushion', 'floor pouf', 'seagrass rug', 'jute rug', 'washable rug',
-// Decor & Wall Art (45 items)
-'wall art', 'framed prints', 'canvas print', 'large canvas art', 'gallery wall set', 'metal wall art', 'tapestry', 'wall mirror', 'decorative mirror', 'sunburst mirror',
-'wall clock', 'wall shelf decorative', 'floating shelf decor', 'picture frames', 'photo collage frame', 'tabletop photo frames', 'decorative vase', 'vase set', 'faux plant', 'artificial plant',
-'plant pot decorative', 'hanging planter', 'scented candles', 'pillar candles', 'decorative tray', 'trinket dish', 'figurines', 'sculptures decorative', 'bookends', 'decorative bowl',
-'dream catcher', 'wall decals', 'garland decorative', 'memory board', 'cork board', 'string light frame', 'incense holder', 'decorative clock', 'globe decorative', 'wall letters',
-'neon sign decorative',
-// Personal & Vanity (30 items)
-'vanity mirror lighted', 'makeup mirror magnifying', 'makeup organizer', 'makeup brush holder', 'cosmetics collection', 'skincare collection', 'perfume bottles', 'perfume tray', 'cologne collection', 'hair dryer',
-'hair straightener', 'curling iron', 'hot rollers', 'hair tools', 'hair tool organizer', 'grooming kit', 'electric shaver', 'manicure set', 'nail polish collection', 'jewelry cleaning kit',
-'watch box', 'watch winder', 'eyeglasses', 'reading glasses', 'sleep mask', 'ear plugs', 'essential oil diffuser', 'aromatherapy set', 'vanity drawer organizer',
-// Comfort & Miscellaneous (40 items)
-'bed tray', 'breakfast tray', 'lap desk', 'book stand', 'step stool', 'door draft guard', 'clothing steamer', 'handheld steamer', 'iron', 'ironing board',
-'tabletop ironing board', 'sewing kit', 'mending kit', 'safe small', 'fireproof document box', 'first aid kit bedroom', 'flashlight', 'emergency flashlight', 'wastebasket', 'trash bin',
-'tissue boxes', 'humidifier filter', 'moth repellent', 'cedar blocks', 'drawer sachets', 'air freshener', 'room spray', 'blanket ladder', 'magazine rack', 'book stack',
-'luggage', 'suitcase set', 'carry on bag', 'weekend bag', 'travel organizer', 'packing cubes', 'shoe shine kit', 'spare bedding storage', 'closet safe',
+'hoodies', 'sweatshirts', 'undershirts',
+// Jackets & coats
+'jackets', 'denim jacket', 'leather jacket', 'blazers', 'sport coats', 'coats', 'winter coat', 'wool coat', 'raincoat', 'windbreaker',
+'vest',
+// Pants & skirts
+'pants', 'chinos', 'jeans', 'dress pants', 'khakis', 'shorts', 'cargo shorts', 'skirts',
+// Dresses & formal wear
+'dresses', 'sundresses', 'formal gowns', 'suits', 'tuxedo', 'ties', 'bow ties', 'cufflinks', 'formal accessories', 'costumes',
+'uniforms',
+// Activewear, swimwear & loungewear
+'activewear', 'leggings', 'yoga pants', 'sweatpants', 'workout clothes', 'swimwear', 'swim trunks', 'pajamas', 'nightgown', 'robe',
+'bathrobe', 'loungewear',
+// Underwear & socks
+'underwear', 'boxers', 'bras', 'sports bras', 'thermal underwear', 'socks', 'dress socks', 'athletic socks',
+// Belts, hats & winter accessories
+'belts', 'leather belts', 'hats', 'baseball caps', 'beanies', 'scarves', 'winter scarf', 'gloves', 'winter gloves', 'seasonal clothing',
+// Shoes
+'shoes', 'dress shoes', 'loafers', 'sneakers', 'running shoes', 'boots', 'winter boots', 'hiking boots', 'sandals', 'flip flops',
+'slippers', 'heels', 'flats',
+// Bags & wallets
+'handbags', 'clutch purses', 'purses', 'backpacks', 'duffel bags', 'wallets',
+// Eyewear & jewelry
+'sunglasses', 'eyeglasses', 'reading glasses', 'jewelry collection', 'necklaces', 'bracelets', 'earrings', 'rings', 'watches', 'watch collection',
+// Lamps
+'table lamp', 'pair of table lamps', 'bedside lamp', 'reading lamp', 'desk lamp', 'floor lamp', 'arc lamp', 'tripod floor lamp', 'accent lamp', 'touch lamp',
+'clip on book light', 'salt lamp', 'night light', 'projector night light', 'under bed motion light', 'sunrise alarm lamp', 'smart bulb', 'color changing bulb', 'dimmer plug', 'sconce battery',
+// Decorative lights & candles
+'string lights decorative', 'LED light strip', 'fairy lights', 'string light frame', 'battery candle set', 'flameless candles', 'scented candles', 'pillar candles', 'lantern decorative', 'incense holder',
+// TV & entertainment
+'television bedroom', 'tv stand', 'tv wall bracket freestanding', 'streaming device', 'soundbar', 'remote controls', 'universal remote', 'smart display', 'smart speaker', 'bluetooth speaker',
+'portable speaker', 'vr headset', 'gaming console',
+// Clocks, chargers & power
+'alarm clock', 'clock radio', 'charging station', 'wireless charging pad', 'multi device charging dock', 'phone dock', 'phone stand', 'usb wall charger', 'power strip', 'surge protector',
+'extension cord', 'cable organizer box', 'battery backup',
+// Personal devices
+'tablet', 'e reader', 'laptop', 'laptop stand', 'headphones', 'wireless earbuds',
+// Sleep aids
+'white noise machine', 'sound machine', 'sleep mask', 'ear plugs', 'essential oil diffuser', 'aromatherapy set',
+// Air & climate
+'air purifier', 'humidifier', 'humidifier filter', 'dehumidifier portable', 'space heater', 'box fan', 'tower fan', 'oscillating fan', 'ceiling fan remote', 'draft stopper',
+'door draft guard',
+// Safety & monitoring
+'smart home hub', 'security camera', 'baby monitor', 'safe small', 'fireproof document box', 'first aid kit bedroom', 'flashlight', 'emergency flashlight',
+// Curtains
+'curtains', 'curtain panels', 'sheer curtains', 'blackout curtains', 'thermal curtains', 'curtain tie backs', 'curtain holdbacks', 'curtain rod portable', 'valance', 'swag valance',
+'window scarf',
+// Window shades & film
+'roman shades', 'roller shade', 'cellular shade', 'bamboo shade', 'pleated shade', 'window film decorative', 'privacy film', 'window cushion',
+// Rugs
+'area rug', 'large area rug', 'runner rug', 'accent rug', 'shag rug', 'wool rug', 'bedside rug', 'round rug', 'sheepskin rug', 'seagrass rug',
+'jute rug', 'washable rug', 'door mat bedroom', 'floor cushion', 'floor pouf',
+// Wall art
+'wall art', 'framed prints', 'canvas print', 'large canvas art', 'gallery wall set', 'metal wall art', 'tapestry', 'wall decals', 'wall letters', 'neon sign decorative',
+'wall shelf decorative', 'floating shelf decor', 'memory board', 'cork board',
+// Wall mirrors & clocks
+'wall mirror', 'decorative mirror', 'sunburst mirror', 'wall clock', 'decorative clock', 'globe decorative',
+// Frames & decor
+'picture frames', 'photo collage frame', 'tabletop photo frames', 'decorative vase', 'vase set', 'faux plant', 'artificial plant', 'plant pot decorative', 'hanging planter', 'decorative tray',
+'trinket dish', 'figurines', 'sculptures decorative', 'bookends', 'decorative bowl', 'dream catcher', 'garland decorative',
+// Garment care & sewing
+'clothing steamer', 'handheld steamer', 'iron', 'ironing board', 'tabletop ironing board', 'sewing kit', 'mending kit',
+// Trash & air freshening
+'wastebasket', 'trash bin', 'tissue boxes', 'air freshener', 'room spray',
+// Luggage
+'luggage', 'suitcase set', 'carry on bag', 'weekend bag', 'travel organizer', 'packing cubes',
 // TOTAL: 489 items
-
-'gaming console', ],
+],
 
         Bathroom: ['all purpose cleaner', 'cleaning caddy', 'decorative tray', 'first aid kit', 'glass cleaner', 'light bulbs', 'power strip', 'surge protector', 'trash bags', 'wall clock',
 // Major Fixtures & Furniture (82 items)
